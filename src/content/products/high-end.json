@@ -1,0 +1,468 @@
+[
+  {
+    "slug": "kef-r3-meta",
+    "name": "KEF R3 Meta Bookshelf Speakers",
+    "brand": "KEF",
+    "category": "high-end",
+    "amazonQuery": "KEF R3 Meta bookshelf speakers",
+    "released": "2022",
+    "priceBand": "$2,000–$2,600 per pair",
+    "priceTier": 4,
+    "score": 90,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 94
+      },
+      {
+        "label": "Build & finish",
+        "value": 92
+      },
+      {
+        "label": "Ease to drive",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "A 3-way Uni-Q bookshelf with MAT that delivers reference-grade imaging and clarity, but its 4-ohm load means it needs a serious amplifier to shine.",
+    "verdict": "The R3 Meta is a **3-way bookshelf** built around KEF's 12th-generation **Uni-Q**: a **1-inch vented aluminum dome tweeter with MAT** at the center of a **4-inch aluminum midrange**, plus a separate **6.5-inch hybrid aluminum bass driver**. KEF rates it at **87 dB** and a nominal **4 ohms**.\n\n**Show the maths.** That 4-ohm rating changes how you read the sensitivity. KEF quotes 87 dB at 2.83 V, which is 1 W into 8 ohms but **2 W into 4 ohms**. Per watt, the R3 Meta is really about **84 dB**. At 3 m (10 ft), 1 W gives about 74.5 dB at the seat. Peaks of 95 dB need about **112 W**; 100 dB peaks need about **355 W**. A 4-ohm load also draws roughly twice the current of an 8-ohm speaker at the same voltage, which is where budget receivers struggle ([impedance explained](/glossary/impedance/), [sensitivity explained](/glossary/speaker-sensitivity/)).\n\nSo budget for power: a high-current receiver rated for 4-ohm loads, or an [external amplifier](/best-home-theater-amplifier/) for the fronts.\n\nWhat you get is outstanding. The 3-way design keeps the bass driver out of the vocal range, and the Uni-Q radiates midrange and treble from one point, so imaging is precise and consistent across the sofa. MAT, which KEF says absorbs 99% of the sound from the rear of the tweeter, keeps treble clean.\n\nThe trade-off is cost and amplification. If you want the same voice with more bass, step up to the [R7 Meta](/gear/kef-r7-meta/); on a tighter budget, the [Q3 Meta](/gear/kef-q3-meta/) gets you much of the Uni-Q character. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
+    "bestFor": "Smaller rooms where you want reference imaging and clarity",
+    "skipIf": "You're running a budget receiver with no plan for extra amplification",
+    "pros": [
+      "3-way design with dedicated 4-inch midrange",
+      "Uni-Q with MAT for precise, even imaging",
+      "Superb build and finish",
+      "Compact enough for stands in small rooms"
+    ],
+    "cons": [
+      "4-ohm load: true sensitivity is about 84 dB per watt",
+      "Needs a high-current receiver or external amp",
+      "Expensive for a bookshelf"
+    ],
+    "specs": {
+      "Type": "3-way bookshelf, coaxial",
+      "Drivers": "Uni-Q with MAT: 1-inch vented aluminum dome tweeter in 4-inch aluminum midrange; 6.5-inch hybrid aluminum bass driver",
+      "Sensitivity": "87 dB (2.83 V / 1 m)",
+      "Impedance": "4 ohms",
+      "Bass loading": "Rear port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Type"
+    ],
+    "faqs": [
+      {
+        "q": "Can an AV receiver drive the KEF R3 Meta?",
+        "a": "A strong one can, at moderate levels. Check that your receiver is rated for 4-ohm speakers. Because the R3 Meta is about 84 dB per watt, loud movie peaks need well over 100 W, so many owners add an external amplifier for the front pair."
+      },
+      {
+        "q": "KEF R3 Meta or Q3 Meta?",
+        "a": "The R3 Meta is a 3-way with a dedicated midrange and better build, and it images more precisely. The Q3 Meta is a 2-way that's easier to drive and much cheaper. If your amplifier is modest, the Q3 Meta may sound better in practice."
+      }
+    ]
+  },
+  {
+    "slug": "kef-r7-meta",
+    "name": "KEF R7 Meta Floorstanding Speakers",
+    "brand": "KEF",
+    "category": "high-end",
+    "amazonQuery": "KEF R7 Meta floorstanding speakers",
+    "released": "2022",
+    "priceBand": "$4,500–$5,500 per pair",
+    "priceTier": 4,
+    "score": 92,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 95
+      },
+      {
+        "label": "Build & finish",
+        "value": 94
+      },
+      {
+        "label": "Ease to drive",
+        "value": 68
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "KEF's 3-way Uni-Q tower combines precise imaging with full-range bass, the best high-end tower here for a large room, provided you feed it real power.",
+    "verdict": "The R7 Meta is a **3-way floorstander**: KEF's 12th-generation **Uni-Q** with a **1-inch vented aluminum dome tweeter and MAT** at the center of a **5-inch aluminum midrange**, plus **two 6.5-inch hybrid aluminum bass drivers**. It's rated at **87 dB** and a nominal **4 ohms**.\n\n**Show the maths.** Two 6.5-inch bass drivers equal the cone area of one driver about 6.5 × √2 ≈ **9.2 inches** across, which is what gives the R7 Meta genuine full-range scale.\n\nDriving it is the real question. The 87 dB figure is measured at 2.83 V, which is **2 W into 4 ohms**, so per watt it's about **84 dB**. Now take a larger room with a seat 3.5 m (11.5 ft) back: distance costs about 10.9 dB in free space. Hitting 100 dB peaks at that seat needs 84 + 10 × log10(P) − 10.9 = 100, which works out to roughly **490 W**. Full 105 dB reference peaks would need about 1,500 W. Room gain gives back a few dB, and most people never listen at reference, but the point stands: the R7 Meta rewards a high-current [external amplifier](/best-home-theater-amplifier/) ([impedance explained](/glossary/impedance/), [sensitivity explained](/glossary/speaker-sensitivity/)).\n\nWhat you get is the R Series' best trait at full scale: Uni-Q imaging that stays stable off-axis, a dedicated midrange for clean dialogue, and treble cleaned up by MAT.\n\nThe trade-off is price and amplification cost. If your room is smaller, the [R3 Meta](/gear/kef-r3-meta/) with a subwoofer delivers the same voice for less. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
+    "bestFor": "Large rooms and dedicated theaters with serious amplification",
+    "skipIf": "You plan to drive them from an entry-level receiver",
+    "pros": [
+      "Uni-Q with MAT gives precise, stable imaging",
+      "Dual 6.5-inch bass drivers for full-range scale",
+      "Dedicated 5-inch midrange for clean dialogue",
+      "Exceptional build and finish"
+    ],
+    "cons": [
+      "4-ohm load: about 84 dB per watt",
+      "Needs a high-current external amplifier for loud peaks",
+      "Expensive"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding, coaxial",
+      "Drivers": "Uni-Q with MAT: 1-inch vented aluminum dome tweeter in 5-inch aluminum midrange; dual 6.5-inch hybrid aluminum bass drivers",
+      "Sensitivity": "87 dB (2.83 V / 1 m)",
+      "Impedance": "4 ohms",
+      "Bass loading": "Rear ports",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Type"
+    ],
+    "faqs": [
+      {
+        "q": "What amplifier does the KEF R7 Meta need?",
+        "a": "A high-current amplifier rated for 4-ohm loads. Because it's about 84 dB per watt, loud peaks in a large room take hundreds of watts. Many owners use an AV processor or receiver's pre-outs feeding a dedicated power amp for the front pair."
+      },
+      {
+        "q": "Do the KEF R7 Meta need a subwoofer?",
+        "a": "For music, often not. For movies, yes: a subwoofer handles the LFE channel, and crossing the R7 Meta over at 60–80 Hz reduces the power it needs for loud scenes."
+      }
+    ]
+  },
+  {
+    "slug": "svs-ultra-evolution-tower",
+    "name": "SVS Ultra Evolution Tower",
+    "brand": "SVS",
+    "category": "high-end",
+    "amazonQuery": "SVS Ultra Evolution Tower speaker",
+    "released": "2024",
+    "priceBand": "$1,800–$2,300 each",
+    "priceTier": 4,
+    "score": 87,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 90
+      },
+      {
+        "label": "Build & finish",
+        "value": 90
+      },
+      {
+        "label": "Ease to drive",
+        "value": 78
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "SVS's flagship-range tower brings a dedicated midrange, deep bass and excellent build to high-end home theaters, and blends seamlessly with SVS subwoofers.",
+    "verdict": "The Ultra Evolution Tower is the 2024 update to SVS's top speaker line: a **3-way floorstander** with a **dome tweeter**, a **dedicated midrange** and **multiple woofers** in a ported, heavily built cabinet. It's sold individually and designed to integrate with SVS subwoofers.\n\n**Show the maths.** High-end speakers earn their price on headroom, and movie soundtracks demand a lot. Reference level is calibrated so a test tone at −20 dBFS plays at 85 dB at the seat, leaving room for peaks of **105 dB per channel**. That 20 dB of headroom means peaks need **100 times** the power of the calibration level (10 to the power of 20 ÷ 10). A speaker that stays clean across that range, without compressing or straining, is what you pay for at this level.\n\nMultiple woofers spread that load. Doubling cone area is worth about **3 dB more output** at the same excursion, the same as doubling amplifier power, so a tower with several woofers reaches big peaks with less cone movement and less distortion.\n\nThe dedicated midrange matters for dialogue. In a 2-way speaker, the woofer reproduces both bass and voices; in a 3-way, the midrange handles voices alone, so explosions don't muddy speech.\n\nSet them to Small at 60–80 Hz with a subwoofer for movies ([crossover basics](/glossary/crossover/)), and pair with an SVS sub from our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.\n\nThe trade-off is price, sold per speaker. If you're building on SVS's sound for less, the [Prime Tower](/gear/svs-prime-tower/) shares the neutral voicing. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
+    "bestFor": "High-end theaters built around SVS subwoofers",
+    "skipIf": "Your budget doesn't stretch to a pair at this level",
+    "pros": [
+      "3-way design with dedicated midrange",
+      "Multiple woofers for clean, deep bass at volume",
+      "Excellent cabinet build and finishes",
+      "Designed to blend with SVS subwoofers"
+    ],
+    "cons": [
+      "Sold individually, so a pair costs double",
+      "Large footprint",
+      "Fewer published specs to compare than some rivals"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding",
+      "Drivers": "Dome tweeter; dedicated midrange; multiple woofers",
+      "Bass loading": "Ported",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Bass loading",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Is the SVS Ultra Evolution Tower sold as a pair?",
+        "a": "No, it's sold individually, so the price band shown is per speaker. Budget for two, plus a matching center if you want a seamless front stage."
+      },
+      {
+        "q": "SVS Ultra Evolution Tower or Prime Tower?",
+        "a": "The Ultra Evolution Tower offers more output, more refinement and better build. The Prime Tower shares SVS's neutral voicing at a fraction of the price and is a strong choice for medium rooms."
+      }
+    ]
+  },
+  {
+    "slug": "polk-reserve-r700",
+    "name": "Polk Reserve R700 Floorstanding Speaker",
+    "brand": "Polk Audio",
+    "category": "high-end",
+    "amazonQuery": "Polk Audio Reserve R700 floorstanding",
+    "released": "2021",
+    "priceBand": "$1,000–$1,500 each",
+    "priceTier": 4,
+    "score": 86,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 88
+      },
+      {
+        "label": "Build & finish",
+        "value": 86
+      },
+      {
+        "label": "Ease to drive",
+        "value": 78
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "Polk's flagship Reserve tower pairs a ring radiator tweeter with dual 8-inch woofers for big, detailed sound at the more affordable end of high-end.",
+    "verdict": "The Reserve R700 is the top tower in Polk's Reserve line: a **1-inch Pinnacle ring radiator tweeter**, a **Turbine Cone midrange** and **dual 8-inch woofers**, with Polk's **X-Port** bass tuning. It's sold individually.\n\n**Show the maths.** Two 8-inch woofers equal the cone area of one woofer about 8 × √2 ≈ **11.3 inches** across, which explains the R700's scale in a big room. Doubling cone area is worth about **3 dB of output** at the same excursion, the same as doubling amplifier power, so dual 8s reach loud peaks with less strain than a pair of 6.5s.\n\nThe ring radiator tweeter is designed for wide, even dispersion and extended treble. Wide dispersion matters in home theater because most seats aren't on-axis: a seat 1 m off-center at 3 m back is about **18 degrees** off-axis (atan 1/3).\n\nThe X-Port is Polk's approach to cutting port noise and resonance, which helps bass stay clean at volume. For movies, still pair a subwoofer and set an 80 Hz [crossover](/glossary/crossover/), so the towers keep their headroom for dialogue and music.\n\nDome and ring tweeter designs aren't as efficient as Klipsch horns, so budget for a capable receiver. Every 3 dB louder means double the power ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe trade-off: it costs more than Signature Elite, though less than KEF's R Series. If you're stepping up from the [Signature Elite ES60](/gear/polk-signature-elite-es60/), the R700 is a clear upgrade. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/) and [Polk Audio review](/polk-audio-review/).",
+    "bestFor": "Large rooms wanting high-end sound without flagship prices",
+    "skipIf": "Your room is small or your receiver is entry-level",
+    "pros": [
+      "Dual 8-inch woofers equal one ~11.3-inch cone",
+      "Ring radiator tweeter for wide dispersion",
+      "X-Port for cleaner bass at volume",
+      "Strong value for the high-end tier"
+    ],
+    "cons": [
+      "Sold individually",
+      "Large cabinet",
+      "Less efficient than horn-loaded rivals"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding",
+      "Drivers": "1-inch Pinnacle ring radiator tweeter; Turbine Cone midrange; dual 8-inch woofers",
+      "Impedance": "8 ohms",
+      "Bass loading": "X-Port",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Impedance",
+      "Bass loading",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Polk Reserve R700 good for home theater?",
+        "a": "Yes. Its dual 8-inch woofers give it the scale for large rooms, and the ring radiator tweeter disperses widely for off-axis seats. Pair it with a Reserve center for matched dialogue, and add a subwoofer for the LFE channel."
+      },
+      {
+        "q": "Polk Reserve R700 or Signature Elite ES60?",
+        "a": "The R700 is the more refined, more capable speaker, with a ring radiator tweeter, dedicated midrange and dual 8-inch woofers. The ES60 costs far less and is a strong choice for medium rooms on a midrange budget."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-forte-iv",
+    "name": "Klipsch Forte IV",
+    "brand": "Klipsch",
+    "category": "high-end",
+    "amazonQuery": "Klipsch Forte IV heritage speaker",
+    "priceBand": "$4,000–$5,500 per pair",
+    "priceTier": 4,
+    "score": 89,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 90
+      },
+      {
+        "label": "Build & finish",
+        "value": 92
+      },
+      {
+        "label": "Ease to drive",
+        "value": 98
+      },
+      {
+        "label": "Value",
+        "value": 80
+      }
+    ],
+    "summary": "A horn-loaded heritage speaker rated at 99 dB, so it plays to reference levels on very little power, with a 12-inch woofer and a 15-inch passive radiator for big, effortless bass.",
+    "verdict": "The Forte IV is from Klipsch's Heritage line: a **3-way** design with a **titanium-diaphragm compression tweeter** and a **titanium compression midrange**, both on horns, plus a **12-inch woofer** and a **15-inch rear passive radiator**. Klipsch rates it at **99 dB** and **8 ohms**, and those numbers make it one of the easiest high-end speakers to drive.\n\n**Show the maths.** At 99 dB, 1 W produces about **89.5 dB** at a seat 3 m (10 ft) away. Reference peaks of 105 dB need just 15.5 dB more, which is about **35 W**. Compare a typical 87 dB speaker: it needs 12 dB more, or about **16 times the power** (roughly 560 W) for the same peak. With the Forte IV, even a 10 W amplifier reaches about 99.5 dB at 3 m, which is why it's a favourite with low-powered tube amp owners ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe 15-inch passive radiator extends bass without a port, avoiding port noise at high levels. Combined with the 12-inch woofer, the Forte IV delivers effortless scale for music and film.\n\nHorns also control dispersion, which reduces side-wall reflections and keeps dialogue focused. Toe the speakers in so the horns point near your main seat.\n\nThe trade-off is size, a vintage look not everyone likes, and a forward horn character. In a small room, the big cabinet can dominate.\n\nFor more Klipsch options, see our [Klipsch home theater review](/klipsch-home-theater-review/), and compare it with the [KEF R7 Meta](/gear/kef-r7-meta/) in our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
+    "bestFor": "Large rooms, low-powered amps and anyone who wants effortless dynamics",
+    "skipIf": "Your room is small or you prefer a slim, modern look",
+    "pros": [
+      "99 dB sensitivity: about 35 W reaches 105 dB peaks at 10 ft",
+      "12-inch woofer plus 15-inch passive radiator for big bass",
+      "Horn-loaded tweeter and midrange for focused dialogue",
+      "Superb heritage build and finish"
+    ],
+    "cons": [
+      "Large cabinet dominates small rooms",
+      "Forward horn character",
+      "Vintage styling isn't for everyone"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding, horn-loaded (Heritage series)",
+      "Drivers": "Titanium-diaphragm compression tweeter on horn; titanium compression midrange on horn; 12-inch woofer",
+      "Sensitivity": "99 dB (2.83 V / 1 m)",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear 15-inch passive radiator"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Bass loading"
+    ],
+    "faqs": [
+      {
+        "q": "How much power does the Klipsch Forte IV need?",
+        "a": "Very little. At 99 dB sensitivity, about 35 W reaches 105 dB reference peaks at 10 ft, and even a 10 W amplifier gets close to 100 dB. Any AV receiver or modest tube amplifier can drive it."
+      },
+      {
+        "q": "Is the Klipsch Forte IV good for home theater?",
+        "a": "Yes, especially in large rooms. Its sensitivity gives huge dynamic headroom, and horn-loaded drivers keep dialogue focused. For a matched front stage, look at Klipsch's Heritage center options and add a subwoofer for the LFE channel."
+      }
+    ]
+  },
+  {
+    "slug": "bw-603-s3",
+    "name": "Bowers & Wilkins 603 S3",
+    "brand": "Bowers & Wilkins",
+    "category": "high-end",
+    "amazonQuery": "Bowers Wilkins 603 S3 floorstanding speaker",
+    "released": "2023",
+    "priceBand": "$2,000–$2,600 per pair",
+    "priceTier": 4,
+    "score": 87,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 89
+      },
+      {
+        "label": "Build & finish",
+        "value": 88
+      },
+      {
+        "label": "Ease to drive",
+        "value": 82
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "B&W's entry-level 3-way tower adds a titanium dome tweeter and Continuum midrange from the pricier lines, offering refined, detailed sound at the lower end of high-end.",
+    "verdict": "The 603 S3 is the floorstander in the latest (S3) generation of Bowers & Wilkins's 600 Series: a **3-way** design with a **25 mm (1-inch) decoupled titanium dome tweeter**, a **150 mm (6-inch) Continuum cone midrange** and **two 165 mm (6.5-inch) bass drivers**, rated at **8 ohms**. The titanium tweeter is the headline upgrade for this generation.\n\n**Show the maths.** Setup matters as much as the spec sheet. B&W towers sound their best when the tweeters aim near the listener. With speakers 2.5 m (8.2 ft) apart and the seat 3 m (10 ft) back, each speaker sits 1.25 m to the side of your line of sight, so toe it in about **23 degrees** (atan 1.25 ÷ 3) to point directly at you. Many owners prefer slightly less, aiming just behind the head, for a wider soundstage.\n\nThe Continuum midrange matters for dialogue. In a 3-way, voices stay in the midrange driver, and Continuum is B&W's cone material designed to avoid the ringing of stiffer cones, which keeps speech clear. Two 6.5-inch bass drivers equal one driver about 6.5 × √2 ≈ **9.2 inches** across, enough to fill a medium room.\n\nThe 8-ohm rating is friendly to AV receivers ([impedance explained](/glossary/impedance/)). Pair with a subwoofer at 80 Hz for movies ([crossover basics](/glossary/crossover/)).\n\nThe trade-off: it's less efficient than horns and leaner than warmer rivals in bright rooms. B&W's own 600 Series center matches the tweeter if you want seamless pans. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/), and compare with the [Focal Aria Evo X No2](/gear/focal-aria-evo-x-no2/).",
+    "bestFor": "Medium rooms wanting refined, detailed sound from a known brand",
+    "skipIf": "You prefer a warm sound or need maximum volume per watt",
+    "pros": [
+      "Titanium dome tweeter brought down from pricier B&W lines",
+      "Continuum midrange for clear dialogue",
+      "Easy 8-ohm load for AV receivers",
+      "Elegant, compact tower design"
+    ],
+    "cons": [
+      "Can sound lean in bright rooms",
+      "Less efficient than horn-loaded rivals",
+      "Matching center sold separately"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding",
+      "Drivers": "25 mm decoupled titanium dome tweeter; 150 mm Continuum cone midrange; dual 165 mm bass drivers",
+      "Impedance": "8 ohms",
+      "Finish": "Black, white or oak"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Finish"
+    ],
+    "faqs": [
+      {
+        "q": "Is the B&W 603 S3 good for home theater?",
+        "a": "Yes. Its 3-way design keeps dialogue clear, and the 8-ohm load is easy on AV receivers. Add B&W's matching 600 Series center for seamless pans, and a subwoofer at 80 Hz for movie bass."
+      },
+      {
+        "q": "How should I set up the B&W 603 S3?",
+        "a": "Start with the speakers about as far apart as your seat is from them, and toe them in to point near your ears. Leave space behind them, and adjust toe-in until voices lock to the center of the screen."
+      }
+    ]
+  },
+  {
+    "slug": "focal-aria-evo-x-no2",
+    "name": "Focal Aria Evo X No2",
+    "brand": "Focal",
+    "category": "high-end",
+    "amazonQuery": "Focal Aria Evo X No2 floorstanding speaker",
+    "priceBand": "$3,000–$3,800 per pair",
+    "priceTier": 4,
+    "score": 88,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 91
+      },
+      {
+        "label": "Build & finish",
+        "value": 90
+      },
+      {
+        "label": "Ease to drive",
+        "value": 82
+      },
+      {
+        "label": "Value",
+        "value": 80
+      }
+    ],
+    "summary": "Focal's 3-way Flax-cone tower combines an inverted-dome tweeter with lively, detailed sound, a strong high-end pick for mixed movie and music rooms.",
+    "verdict": "The Aria Evo X No2 is the larger tower in Focal's updated Aria line: a **3-way** design with a **1-inch aluminum/magnesium inverted-dome tweeter**, a **Flax-sandwich midrange** and **two Flax-sandwich woofers**, rated at **8 ohms**. Flax cones are Focal's signature: light and stiff, with natural damping that keeps voices clean.\n\n**Show the maths.** At this level, placement can matter more than the spec sheet, and the biggest culprit is speaker-boundary interference. Sound reflects off the wall behind a speaker and comes back out of phase at the frequency where the round trip is half a wavelength. That's at f = 343 ÷ (4 × distance). With the speaker **0.5 m** from the front wall, the cancellation lands at about **171 Hz**, right in the warmth of male voices. Move it to 1 m and the dip drops to about **86 Hz**, where a subwoofer at an 80 Hz [crossover](/glossary/crossover/) can help fill it. Very close placement, say 0.25 m, pushes the dip up to about 343 Hz and adds bass reinforcement, so experiment before you settle.\n\nThe inverted dome tweeter is designed for wide dispersion, which helps off-axis seats. The 8-ohm load is friendly to receivers ([impedance explained](/glossary/impedance/)), and Focal designs tend to be more sensitive than average, so a good midrange AVR is a reasonable start.\n\nThe trade-off: the Aria's lively, detailed voicing can sound bright in a hard room, and it costs more than the [B&W 603 S3](/gear/bw-603-s3/). See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
+    "bestFor": "Mixed movie and music rooms wanting lively, detailed sound",
+    "skipIf": "Your room is very bright or you want a warm, relaxed sound",
+    "pros": [
+      "3-way Flax-cone design for clean, natural voices",
+      "Inverted-dome tweeter for wide dispersion",
+      "Friendly 8-ohm load",
+      "Premium build and finish"
+    ],
+    "cons": [
+      "Lively voicing can sound bright in hard rooms",
+      "Costs more than the B&W 603 S3",
+      "Placement needs care for even bass"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding",
+      "Drivers": "1-inch aluminum/magnesium inverted-dome tweeter; Flax-sandwich midrange; two Flax-sandwich woofers",
+      "Impedance": "8 ohms",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Focal Aria Evo X No2 good for home theater?",
+        "a": "Yes. Its 3-way design keeps dialogue clear, the inverted-dome tweeter disperses widely, and the 8-ohm load suits AV receivers. Add Focal's matching Aria center for seamless pans, and a subwoofer for the LFE channel."
+      },
+      {
+        "q": "How far from the wall should the Focal Aria Evo X No2 go?",
+        "a": "Start around 0.5–1 m from the front wall and adjust. At 0.5 m, wall reflections cause a dip near 171 Hz; at 1 m, it moves to about 86 Hz, where a subwoofer can help. Small moves make an audible difference."
+      }
+    ]
+  }
+]
