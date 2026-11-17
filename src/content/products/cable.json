@@ -1,13 +1,13 @@
 [
   {
-    "slug": "mediabridge-14awg-speaker-wire",
-    "name": "Mediabridge 14AWG Speaker Wire",
-    "brand": "Mediabridge",
+    "slug": "amazon-basics-14-gauge-speaker-wire",
+    "name": "Amazon Basics 14-Gauge Speaker Wire",
+    "brand": "Amazon Basics",
     "category": "cable",
-    "amazonQuery": "Mediabridge 14AWG speaker wire 100 feet",
-    "priceBand": "$25–$40",
+    "amazonQuery": "Amazon Basics 14 gauge speaker wire 100 feet",
+    "priceBand": "$30–$40",
     "priceTier": 2,
-    "score": 83,
+    "score": 81,
     "scores": [
       {
         "label": "Conductor quality",
@@ -15,38 +15,38 @@
       },
       {
         "label": "Ease of install",
-        "value": 84
+        "value": 82
       },
       {
         "label": "Build & jacket",
-        "value": 80
+        "value": 76
       },
       {
         "label": "Value",
-        "value": 86
+        "value": 84
       }
     ],
-    "summary": "Affordable 14-gauge oxygen-free copper speaker wire with polarity markings and CL2-rated versions for in-wall runs; the sensible default for most 5.1 and 7.1 rooms.",
-    "verdict": "Mediabridge's 14AWG wire is the default answer for most home theaters: **14-gauge, 2-conductor, 99.9% oxygen-free copper**, with clear polarity markings, sold in spools including the common **100-foot** length. **CL2-rated** versions are available for running inside walls.\n\n**Show the maths: how far can 14 AWG go?** Copper 14 AWG measures about **2.5 ohms per 1,000 feet**. A speaker run is a round trip (out and back), so a 50-foot run is 100 feet of conductor, or about **0.25 Ω**. A common rule is to keep wire resistance under **5% of the speaker's [impedance](/glossary/impedance/)**: 0.4 Ω for an 8-ohm speaker, 0.2 Ω for 4 ohms. That gives 14 AWG a comfortable limit of about **80 feet** to 8-ohm speakers and **40 feet** to 4-ohm speakers, which covers surround runs in almost any living room.\n\n**How much do you need?** In a 15 × 20 ft room, front and center runs are short, but surround wires routed around the walls are often 20–30 feet each. A 5.1 system typically uses 80–100 feet including slack, so one 100-foot spool fits; a 7.1.4 layout with ceiling speakers usually needs more.\n\n**In-wall rules.** Wire inside walls should carry a CL2 or CL3 rating for fire safety. Buy the CL2-rated version for those runs, not the standard spool.\n\nPair it with [Mediabridge banana plugs](/gear/mediabridge-banana-plugs/) for tidy connections. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
+    "summary": "A 100-foot spool of 14-gauge, 99.9% oxygen-free copper speaker wire with color-coded polarity, the sensible default for most 5.1 and 7.1 living rooms.",
+    "verdict": "Amazon Basics 14-gauge wire is the simple default for most home theaters: **14 AWG, 99.9% oxygen-free copper**, a **100-foot** spool, a flexible insulated jacket and **color coding** so positive and negative stay straight. Because it is copper rather than copper-clad aluminum, you don't have to decode the listing.\n\n**Show the maths: how far can 14 AWG go?** Copper 14 AWG measures about **2.5 ohms per 1,000 feet**. A speaker run is a round trip, so a 50-foot run is 100 feet of conductor, or about **0.25 Ω**. A common rule keeps wire resistance under **5% of the speaker's [impedance](/glossary/impedance/)**: 0.4 Ω for an 8-ohm speaker, 0.2 Ω for 4 ohms. That gives 14 AWG a comfortable limit of about **80 feet** to 8-ohm speakers and **40 feet** to 4-ohm speakers.\n\n**Is 100 feet enough?** In a 15 × 20 ft room, the front three runs are short, but surround wires routed around the walls are often 20–30 feet each. A 5.1 system typically uses 80–100 feet including slack, so one spool fits. A 7.1.4 layout with ceiling speakers usually needs a second.\n\n**In-wall rules.** The listing shows no CL2 or CL3 fire rating, so keep this spool to runs along baseboards, under rugs or through open cabinetry. For in-wall runs, buy a CL2-rated wire instead, such as the in-wall version of [Monoprice 12AWG](/gear/monoprice-12awg-speaker-wire/).\n\nPair it with [FosPower banana plugs](/gear/fospower-banana-plugs/) for tidy connections. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
     "bestFor": "Most 5.1 and 7.1 living rooms with runs up to about 40–80 feet",
-    "skipIf": "You have very long runs to 4-ohm speakers; step up to 12 AWG",
+    "skipIf": "You need in-wall-rated wire or very long runs to 4-ohm speakers",
     "pros": [
-      "Oxygen-free copper at a low price",
+      "99.9% oxygen-free copper, not CCA",
       "14 AWG covers most home theater run lengths",
-      "Clear polarity markings",
-      "CL2-rated versions for in-wall use"
+      "Color-coded for clear polarity",
+      "100-foot spool covers a typical 5.1 system"
     ],
     "cons": [
-      "Check you're buying the CL2 version for in-wall runs",
+      "No CL2/CL3 in-wall rating on the listing",
       "Thicker than 16 AWG, so slightly harder to hide",
-      "Jacket is functional rather than premium"
+      "One length only"
     ],
     "specs": {
       "Gauge": "14 AWG, 2-conductor",
       "Conductor": "99.9% oxygen-free copper",
-      "Length": "Multiple spool lengths (100 ft common)",
-      "Jacket": "PVC with polarity marking",
-      "In-wall rated": "CL2-rated versions sold",
+      "Length": "100 ft",
+      "Jacket": "Flexible insulated jacket, color-coded for polarity",
+      "In-wall rated": "No CL2/CL3 rating listed",
       "Suggested max run": "About 80 ft at 8 Ω, 40 ft at 4 Ω (5% rule)"
     },
     "keySpecs": [
@@ -57,12 +57,12 @@
     ],
     "faqs": [
       {
-        "q": "Is 14 gauge speaker wire good enough for home theater?",
-        "a": "Yes, for most rooms. Copper 14 AWG keeps losses low on runs up to about 80 feet to 8-ohm speakers or 40 feet to 4-ohm speakers."
+        "q": "Is Amazon Basics 14-gauge speaker wire pure copper?",
+        "a": "Yes. The listing specifies 99.9% oxygen-free copper, so its resistance matches standard copper 14 AWG at about 2.5 ohms per 1,000 feet."
       },
       {
-        "q": "Can I run Mediabridge speaker wire in walls?",
-        "a": "Use the CL2-rated version for in-wall runs. Standard speaker wire without a CL rating shouldn't go inside walls."
+        "q": "Can I run Amazon Basics 14-gauge wire in walls?",
+        "a": "Not as listed. It shows no CL2 or CL3 rating, which is what building codes typically require inside walls. Use it for exposed runs and buy rated wire for in-wall work."
       }
     ]
   },
@@ -94,7 +94,7 @@
       }
     ],
     "summary": "Cheap, thin 16-gauge speaker wire that's fine for short runs to 8-ohm speakers, but too thin for long surround runs or 4-ohm loads.",
-    "verdict": "Amazon Basics 16-gauge wire is the cheapest way to hook up speakers: thin, flexible and easy to hide under rugs or along baseboards. It's sold in spools including **100 feet**, with a clear jacket and a polarity marking to keep positive and negative straight.\n\n**Show the maths: 16 AWG has limits.** Copper 16 AWG measures about **4 ohms per 1,000 feet**. Because current travels out and back, a 30-foot run is 60 feet of conductor, or about **0.24 Ω**. Keeping wire resistance under **5% of the speaker's [impedance](/glossary/impedance/)** gives a limit of about **50 feet** to 8-ohm speakers and just **25 feet** to 4-ohm speakers. That's fine for front speakers a few feet from the receiver, but marginal for surrounds in a large room.\n\n**Check the conductor.** Budget wire is sometimes copper-clad aluminum (CCA) rather than solid copper. CCA has roughly 1.6 times the resistance of copper, which makes 16 AWG CCA behave more like 18 AWG copper and cuts those run limits by about a third. Check the current listing before buying.\n\n**In-wall use.** It isn't sold as CL2/CL3-rated, so don't run it inside walls.\n\nFor most rooms, 14 AWG such as [Mediabridge 14AWG](/gear/mediabridge-14awg-speaker-wire/) costs a little more and removes the guesswork. Use this for short front runs, bookshelf speakers on a desk or a bedroom system. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
+    "verdict": "Amazon Basics 16-gauge wire is the cheapest way to hook up speakers: thin, flexible and easy to hide under rugs or along baseboards. It's sold in spools including **100 feet**, with a clear jacket and a polarity marking to keep positive and negative straight.\n\n**Show the maths: 16 AWG has limits.** Copper 16 AWG measures about **4 ohms per 1,000 feet**. Because current travels out and back, a 30-foot run is 60 feet of conductor, or about **0.24 Ω**. Keeping wire resistance under **5% of the speaker's [impedance](/glossary/impedance/)** gives a limit of about **50 feet** to 8-ohm speakers and just **25 feet** to 4-ohm speakers. That's fine for front speakers a few feet from the receiver, but marginal for surrounds in a large room.\n\n**Check the conductor.** Budget wire is sometimes copper-clad aluminum (CCA) rather than solid copper. CCA has roughly 1.6 times the resistance of copper, which makes 16 AWG CCA behave more like 18 AWG copper and cuts those run limits by about a third. Check the current listing before buying.\n\n**In-wall use.** It isn't sold as CL2/CL3-rated, so don't run it inside walls.\n\nFor most rooms, oxygen-free copper 14 AWG such as [Amazon Basics 14-gauge](/gear/amazon-basics-14-gauge-speaker-wire/) costs a little more and removes the guesswork. Use this for short front runs, bookshelf speakers on a desk or a bedroom system. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
     "bestFor": "Short runs to 8-ohm speakers and budget bedroom or desk systems",
     "skipIf": "You have long surround runs, 4-ohm speakers or need in-wall-rated wire",
     "pros": [
@@ -160,8 +160,8 @@
         "value": 84
       }
     ],
-    "summary": "Budget 14-gauge speaker wire with OFC and in-wall-rated versions available, a good-value alternative to Mediabridge if you check the listing's conductor.",
-    "verdict": "GearIT sells 14AWG speaker wire in several versions, including **oxygen-free copper** \"Pro Series\" listings and **CL2/CL3-rated** versions for in-wall use, as well as cheaper copper-clad aluminum (CCA) options. That range is the catch: the right GearIT wire is excellent value, the wrong one is a different product.\n\n**Show the maths: why the conductor matters.** Copper 14 AWG measures about **2.5 ohms per 1,000 feet**; CCA is roughly **1.6 times** higher, about 4 ohms, which is what **16 AWG copper** measures. Using the rule that wire resistance should stay under **5% of the speaker's [impedance](/glossary/impedance/)** (round trip):\n- **Copper 14 AWG:** about **80 ft** to 8-ohm speakers, **40 ft** to 4-ohm.\n- **CCA 14 AWG:** about **50 ft** to 8-ohm speakers, **25 ft** to 4-ohm.\n\nFor a typical living room the copper version handles every run; the CCA version is fine for front speakers but tighter for surrounds.\n\n**In-wall.** Only use the CL2- or CL3-rated version inside walls. Standard spools aren't fire-rated for that.\n\n**Handling.** Owners describe it as flexible and easy to strip, with clear polarity marking. Pair it with banana plugs such as [Mediabridge banana plugs](/gear/mediabridge-banana-plugs/) for quick swaps. If you'd rather not decode listings, [Mediabridge 14AWG](/gear/mediabridge-14awg-speaker-wire/) is the simpler pick. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
+    "summary": "Budget 14-gauge speaker wire with OFC and in-wall-rated versions available, a good-value alternative to Amazon Basics 14-gauge if you check the listing's conductor.",
+    "verdict": "GearIT sells 14AWG speaker wire in several versions, including **oxygen-free copper** \"Pro Series\" listings and **CL2/CL3-rated** versions for in-wall use, as well as cheaper copper-clad aluminum (CCA) options. That range is the catch: the right GearIT wire is excellent value, the wrong one is a different product.\n\n**Show the maths: why the conductor matters.** Copper 14 AWG measures about **2.5 ohms per 1,000 feet**; CCA is roughly **1.6 times** higher, about 4 ohms, which is what **16 AWG copper** measures. Using the rule that wire resistance should stay under **5% of the speaker's [impedance](/glossary/impedance/)** (round trip):\n- **Copper 14 AWG:** about **80 ft** to 8-ohm speakers, **40 ft** to 4-ohm.\n- **CCA 14 AWG:** about **50 ft** to 8-ohm speakers, **25 ft** to 4-ohm.\n\nFor a typical living room the copper version handles every run; the CCA version is fine for front speakers but tighter for surrounds.\n\n**In-wall.** Only use the CL2- or CL3-rated version inside walls. Standard spools aren't fire-rated for that.\n\n**Handling.** Owners describe it as flexible and easy to strip, with clear polarity marking. Pair it with banana plugs such as [FosPower banana plugs](/gear/fospower-banana-plugs/) for quick swaps. If you'd rather not decode listings, [Amazon Basics 14-gauge](/gear/amazon-basics-14-gauge-speaker-wire/), which is oxygen-free copper, is the simpler pick. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
     "bestFor": "Budget buyers who check the listing for OFC or in-wall-rated versions",
     "skipIf": "You don't want to sort through copper vs CCA listings",
     "pros": [
@@ -228,7 +228,7 @@
       }
     ],
     "summary": "Thick 12-gauge oxygen-free copper speaker wire for long runs and 4-ohm speakers; overkill for short runs, ideal for big rooms and in-wall installs.",
-    "verdict": "Monoprice's 12AWG speaker wire uses **oxygen-free pure bare copper** in a thick, 2-conductor cable, with **CL2-rated** versions for in-wall runs. It's the wire to use when runs get long or speakers dip to 4 ohms.\n\n**Show the maths: when 12 AWG is worth it.** Copper 12 AWG measures about **1.6 ohms per 1,000 feet**, versus 2.5 for 14 AWG and 4.0 for 16 AWG. Keeping wire resistance below **5% of the speaker's [impedance](/glossary/impedance/)** (counting the round trip) gives these limits:\n\n| Gauge | 8 Ω speakers | 4 Ω speakers |\n|---|---|---|\n| 12 AWG | ~125 ft | ~60 ft |\n| 14 AWG | ~80 ft | ~40 ft |\n| 16 AWG | ~50 ft | ~25 ft |\n\nSo 12 AWG makes sense for rear surrounds in a large dedicated room, ceiling speakers wired through the attic, or 4-ohm towers with long runs. For a 10-foot front run, it's audibly identical to 14 AWG.\n\n**Installation reality.** Thick wire is harder to bend into tight spring clips, and many receivers' terminals are cramped. Banana plugs that accept 12 AWG, such as [Mediabridge banana plugs](/gear/mediabridge-banana-plugs/), make connections cleaner.\n\n**In-wall.** Buy the CL2-rated version for inside walls.\n\nOwners rate the copper quality and value highly. If your longest run is under 40 feet, [Mediabridge 14AWG](/gear/mediabridge-14awg-speaker-wire/) saves money. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
+    "verdict": "Monoprice's 12AWG speaker wire uses **oxygen-free pure bare copper** in a thick, 2-conductor cable, with **CL2-rated** versions for in-wall runs. It's the wire to use when runs get long or speakers dip to 4 ohms.\n\n**Show the maths: when 12 AWG is worth it.** Copper 12 AWG measures about **1.6 ohms per 1,000 feet**, versus 2.5 for 14 AWG and 4.0 for 16 AWG. Keeping wire resistance below **5% of the speaker's [impedance](/glossary/impedance/)** (counting the round trip) gives these limits:\n\n| Gauge | 8 Ω speakers | 4 Ω speakers |\n|---|---|---|\n| 12 AWG | ~125 ft | ~60 ft |\n| 14 AWG | ~80 ft | ~40 ft |\n| 16 AWG | ~50 ft | ~25 ft |\n\nSo 12 AWG makes sense for rear surrounds in a large dedicated room, ceiling speakers wired through the attic, or 4-ohm towers with long runs. For a 10-foot front run, it's audibly identical to 14 AWG.\n\n**Installation reality.** Thick wire is harder to bend into tight spring clips, and many receivers' terminals are cramped. Banana plugs that accept 12 AWG, such as [FosPower banana plugs](/gear/fospower-banana-plugs/), make connections cleaner.\n\n**In-wall.** Buy the CL2-rated version for inside walls.\n\nOwners rate the copper quality and value highly. If your longest run is under 40 feet, [Amazon Basics 14-gauge](/gear/amazon-basics-14-gauge-speaker-wire/) saves money. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
     "bestFor": "Long runs, 4-ohm speakers and in-wall or attic installs",
     "skipIf": "All your runs are short; 14 AWG performs the same there",
     "pros": [
@@ -295,7 +295,7 @@
       }
     ],
     "summary": "Flexible 12-gauge speaker wire from a car-audio brand, easy to route and terminate; check the listing for the conductor, since that sets how far it can run.",
-    "verdict": "KnuKonceptz is best known in car audio, where wire has to bend around tight corners, and its Kord 12-gauge speaker wire carries that flexibility into the home. Owners like how easy it is to route along baseboards and through tight spaces and how cleanly it strips and terminates compared with stiffer 12 AWG.\n\n**Show the maths: copper vs CCA.** KnuKonceptz sells both oxygen-free copper and copper-clad aluminum (CCA) wire, so check what the current Kord listing uses. It changes the numbers:\n- **Copper 12 AWG** is about **1.6 ohms per 1,000 feet**. Keeping wire resistance under **5% of the speaker's [impedance](/glossary/impedance/)** (round trip) allows about **125 ft** to 8-ohm speakers and **60 ft** to 4-ohm.\n- **CCA 12 AWG** has roughly 1.6 times the resistance, which makes it perform like **14 AWG copper**: about **80 ft** to 8-ohm speakers and **40 ft** to 4-ohm.\n\nEither way, that's plenty for most living rooms; it only matters in large rooms with 4-ohm speakers.\n\n**Terminations.** Flexible, fine-stranded wire splays easily, so twist the strands tightly or use banana plugs like [Mediabridge banana plugs](/gear/mediabridge-banana-plugs/). It isn't sold primarily for in-wall use, so check for a CL rating before running it inside walls.\n\nIf you want guaranteed copper and an in-wall option, [Monoprice 12AWG](/gear/monoprice-12awg-speaker-wire/) is the safer buy. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
+    "verdict": "KnuKonceptz is best known in car audio, where wire has to bend around tight corners, and its Kord 12-gauge speaker wire carries that flexibility into the home. Owners like how easy it is to route along baseboards and through tight spaces and how cleanly it strips and terminates compared with stiffer 12 AWG.\n\n**Show the maths: copper vs CCA.** KnuKonceptz sells both oxygen-free copper and copper-clad aluminum (CCA) wire, so check what the current Kord listing uses. It changes the numbers:\n- **Copper 12 AWG** is about **1.6 ohms per 1,000 feet**. Keeping wire resistance under **5% of the speaker's [impedance](/glossary/impedance/)** (round trip) allows about **125 ft** to 8-ohm speakers and **60 ft** to 4-ohm.\n- **CCA 12 AWG** has roughly 1.6 times the resistance, which makes it perform like **14 AWG copper**: about **80 ft** to 8-ohm speakers and **40 ft** to 4-ohm.\n\nEither way, that's plenty for most living rooms; it only matters in large rooms with 4-ohm speakers.\n\n**Terminations.** Flexible, fine-stranded wire splays easily, so twist the strands tightly or use banana plugs like [FosPower banana plugs](/gear/fospower-banana-plugs/). It isn't sold primarily for in-wall use, so check for a CL rating before running it inside walls.\n\nIf you want guaranteed copper and an in-wall option, [Monoprice 12AWG](/gear/monoprice-12awg-speaker-wire/) is the safer buy. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup.",
     "bestFor": "Exposed runs where flexibility and easy routing matter",
     "skipIf": "You need guaranteed copper or CL-rated in-wall wire",
     "pros": [
@@ -335,12 +335,12 @@
     ]
   },
   {
-    "slug": "mediabridge-banana-plugs",
-    "name": "Mediabridge Banana Plugs (12 Pairs)",
-    "brand": "Mediabridge",
+    "slug": "fospower-banana-plugs",
+    "name": "FosPower Banana Plugs (12 Pairs)",
+    "brand": "FosPower",
     "category": "cable",
-    "amazonQuery": "Mediabridge banana plugs 12 pairs",
-    "priceBand": "$15–$25",
+    "amazonQuery": "FosPower banana plugs 12 pairs",
+    "priceBand": "$25–$35",
     "priceTier": 1,
     "score": 80,
     "scores": [
@@ -350,37 +350,37 @@
       },
       {
         "label": "Ease of install",
-        "value": 88
+        "value": 86
       },
       {
         "label": "Build & jacket",
-        "value": 78
+        "value": 80
       },
       {
         "label": "Value",
-        "value": 84
+        "value": 82
       }
     ],
-    "summary": "A 12-pair pack of gold-plated screw-lock banana plugs that makes speaker connections tidier, more secure and easy to swap; enough for one end of a 7-speaker system.",
-    "verdict": "Banana plugs aren't about sound quality; they're about **secure, tidy, swappable connections**. Mediabridge's pack includes **12 pairs (24 plugs)** with gold-plated contacts and screw-lock terminals: strip the wire, insert it, tighten the screw and the plug pushes into any standard binding post.\n\n**Count the plugs before buying.** Each speaker has two conductors. Terminating **both ends** of every wire takes **4 plugs per speaker**:\n- 5.1 system: 5 speakers × 4 = **20 plugs** (the sub uses an RCA cable, so it needs none). One pack covers it.\n- 7.1 system: 7 × 4 = **28 plugs**. One pack covers only one end; buy two or plug only the receiver side.\n- 5.1.2 or 7.1.4: you'll need two packs if you want both ends done.\n\n**Why they help.** Bare wire frays, strands short across terminals and oxidizes over time; a loose strand touching the opposite terminal can trip a receiver's protection circuit. Plugs prevent that and make swapping speakers or moving a receiver a one-minute job.\n\n**Gauge fit.** Check that the plugs accept your wire. Thick 12 AWG like [Monoprice 12AWG](/gear/monoprice-12awg-speaker-wire/) fills the opening; trim stray strands so the screw clamps cleanly. They suit 14 AWG such as [Mediabridge 14AWG](/gear/mediabridge-14awg-speaker-wire/) easily.\n\nOwners rate the build and fit for the price. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup and the [home theater setup guide](/home-theater-setup-guide/).",
+    "summary": "A 12-pair pack of closed-type, dual-screw, 24K gold-plated banana plugs that accept 12 to 18 AWG wire; enough for both ends of a 5.1 system.",
+    "verdict": "Banana plugs aren't about sound quality; they're about **secure, tidy, swappable connections**. FosPower's pack has **12 pairs (24 plugs)** with **24K gold-plated** contacts and a **closed design with two set screws**: strip the wire, insert it, tighten both screws and the plug pushes into any standard binding post. The closed body keeps stray strands from touching anything, and **color-coded collars** mark polarity.\n\n**Count the plugs before buying.** Each speaker has two conductors, so terminating **both ends** of every wire takes **4 plugs per speaker**:\n- 5.1 system: 5 speakers × 4 = **20 plugs** (the sub uses an RCA cable). One pack covers it with 4 spare.\n- 7.1 system: 7 × 4 = **28 plugs**. One pack covers only the receiver end plus five speakers; buy two packs for both ends.\n- 5.1.4 or 7.1.4: plan on two packs.\n\n**Gauge fit.** FosPower lists compatibility with **12 to 18 AWG**, so it takes thick wire like [Monoprice 12AWG](/gear/monoprice-12awg-speaker-wire/) as well as 14 AWG such as [Amazon Basics 14-gauge](/gear/amazon-basics-14-gauge-speaker-wire/). With 12 AWG, twist the strands tightly so both screws clamp cleanly.\n\n**Why they help.** A loose strand bridging terminals can trip a receiver's protection circuit, and bare wire oxidizes over time. Plugs prevent both and make moving a receiver a one-minute job. FosPower adds a **limited lifetime warranty**. See the [best speaker wire for home theater](/best-speaker-wire-for-home-theater/) roundup and the [home theater setup guide](/home-theater-setup-guide/).",
     "bestFor": "Anyone wiring a passive speaker system who wants tidy, secure connections",
     "skipIf": "Your receiver or speakers only have spring clips",
     "pros": [
       "12 pairs covers both ends of a 5.1 system",
-      "Screw-lock terminals need no soldering",
-      "Gold-plated contacts resist corrosion",
-      "Color-coded red/black housings"
+      "Closed design with two set screws holds wire securely",
+      "Accepts 12 to 18 AWG wire",
+      "Limited lifetime warranty"
     ],
     "cons": [
       "One pack isn't enough for both ends of a 7.1 system",
-      "Thick 12 AWG wire is a tight fit",
+      "Screw terminals take longer to fit than spring-loaded plugs",
       "Useless with spring-clip terminals"
     ],
     "specs": {
-      "Gauge": "Fits common speaker wire gauges",
-      "Conductor": "Gold-plated contacts, screw-lock terminal",
+      "Gauge": "Fits 12–18 AWG",
+      "Conductor": "24K gold-plated, closed type with dual set screws",
       "Length": "12 pairs (24 plugs)",
-      "Jacket": "Color-coded red/black housings",
+      "Jacket": "Color-coded collars",
       "In-wall rated": "Not applicable",
       "Suggested max run": "Not applicable"
     },
@@ -393,11 +393,11 @@
     "faqs": [
       {
         "q": "How many banana plugs do I need for a 5.1 system?",
-        "a": "Twenty if you terminate both ends of every speaker wire: five speakers times four plugs. The subwoofer uses an RCA cable, so it needs none."
+        "a": "Twenty if you terminate both ends of every speaker wire: five speakers times four plugs. The subwoofer uses an RCA cable, so a 12-pair pack covers a 5.1 system with four to spare."
       },
       {
-        "q": "Do banana plugs improve sound quality?",
-        "a": "No. They make connections more secure and convenient and prevent stray strands from shorting, but the sound is the same as a good bare-wire connection."
+        "q": "Do FosPower banana plugs fit 12 gauge wire?",
+        "a": "Yes. FosPower lists them for 12 to 18 AWG speaker wire. With thick 12 AWG, twist the strands tightly before inserting so both set screws grip."
       }
     ]
   }

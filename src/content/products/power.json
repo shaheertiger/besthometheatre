@@ -95,7 +95,7 @@
       }
     ],
     "summary": "An 8-outlet Furman surge protector with Extreme Voltage Shutdown, noise filtering and coax protection; a strong step up from basic strips for a TV cabinet.",
-    "verdict": "Furman is a respected name in pro and home AV power, and the PST-8D brings that pedigree to a power strip. It has **8 outlets**, Furman's **Extreme Voltage Shutdown (EVS)**, which cuts power if the line voltage rises to a dangerous level, **RF/EMI noise filtering**, and the \"D\" version adds **coax and phone line** protection.\n\n**Why EVS matters.** Ordinary strips rely on MOVs, which clamp brief spikes but can overheat during sustained over-voltage, such as a lost neutral in a building's wiring. EVS disconnects instead, protecting both the gear and the strip.\n\n**Do the load maths.** The PST-8D plugs into a standard 15 A outlet, so its limit is **15 A × 120 V = 1,800 W**, with about **1,440 W** a sensible continuous ceiling. Read the power consumption on each component's rear label: for example, a receiver labeled 500 W, a projector at 350 W, a console at 200 W and a powered sub at 300 W add to **1,350 W**, close enough to the limit that a second circuit for a big amplifier is wise.\n\n**Coax is a surge path.** Lightning-induced surges often enter on cable or antenna coax. Route that coax through the strip so all paths share one protection point.\n\nCompared with the [Panamax M5300-PM](/gear/panamax-m5300-pm/), you give up under-voltage disconnect and the rack chassis, but pay far less. Compared with the [APC P11VNT3](/gear/apc-p11vnt3/), EVS is the reason to spend more. See the [best surge protector for home theater](/best-surge-protector-for-home-theater/) roundup.",
+    "verdict": "Furman is a respected name in pro and home AV power, and the PST-8D brings that pedigree to a power strip. It has **8 outlets**, Furman's **Extreme Voltage Shutdown (EVS)**, which cuts power if the line voltage rises to a dangerous level, **RF/EMI noise filtering**, and the \"D\" version adds **coax and phone line** protection.\n\n**Why EVS matters.** Ordinary strips rely on MOVs, which clamp brief spikes but can overheat during sustained over-voltage, such as a lost neutral in a building's wiring. EVS disconnects instead, protecting both the gear and the strip.\n\n**Do the load maths.** The PST-8D plugs into a standard 15 A outlet, so its limit is **15 A × 120 V = 1,800 W**, with about **1,440 W** a sensible continuous ceiling. Read the power consumption on each component's rear label: for example, a receiver labeled 500 W, a projector at 350 W, a console at 200 W and a powered sub at 300 W add to **1,350 W**, close enough to the limit that a second circuit for a big amplifier is wise.\n\n**Coax is a surge path.** Lightning-induced surges often enter on cable or antenna coax. Route that coax through the strip so all paths share one protection point.\n\nCompared with the [Panamax M5300-PM](/gear/panamax-m5300-pm/), you give up under-voltage disconnect and the rack chassis, but pay far less. Compared with the [Tripp Lite TLP118DBNET](/gear/tripp-lite-tlp118dbnet/), EVS is the reason to spend more. See the [best surge protector for home theater](/best-surge-protector-for-home-theater/) roundup.",
     "bestFor": "TV cabinets and mid-size systems that want better protection than a basic strip",
     "skipIf": "You need rack mounting or under-voltage disconnect",
     "pros": [
@@ -135,55 +135,55 @@
     ]
   },
   {
-    "slug": "apc-p11vnt3",
-    "name": "APC P11VNT3 Home Theater Surge Protector",
-    "brand": "APC",
+    "slug": "tripp-lite-tlp118dbnet",
+    "name": "Tripp Lite TLP118DBNET Home Theater Surge Protector",
+    "brand": "Tripp Lite",
     "category": "power",
-    "amazonQuery": "APC SurgeArrest P11VNT3 home theater surge protector",
-    "priceBand": "$35–$60",
+    "amazonQuery": "Tripp Lite TLP118DBNET home theater surge protector",
+    "priceBand": "$40–$55",
     "priceTier": 1,
-    "score": 78,
+    "score": 80,
     "scores": [
       {
         "label": "Protection",
-        "value": 76
+        "value": 80
       },
       {
         "label": "Filtering & features",
-        "value": 76
+        "value": 78
       },
       {
         "label": "Build quality",
-        "value": 74
+        "value": 78
       },
       {
         "label": "Value",
-        "value": 90
+        "value": 88
       }
     ],
-    "summary": "An affordable 11-outlet APC surge protector rated at 3,020 joules with coax, Ethernet and phone protection; the best-value basic protection for a home theater.",
-    "verdict": "APC's SurgeArrest P11VNT3 covers the basics at a low price: **11 outlets**, a **3,020-joule** surge rating, **EMI/RFI noise filtering**, and protection for **coax, Ethernet and phone** lines. APC backs it with a lifetime warranty and a connected-equipment protection policy.\n\n**What a joule rating actually tells you.** Joules measure how much surge energy the MOVs can absorb before they wear out. MOVs degrade a little with every surge, so a higher rating mainly buys **more lifetime margin**. At 3,020 joules, this strip has more headroom than typical drugstore strips rated at a few hundred to a thousand joules. When the protection light goes out, replace it.\n\n**Load maths.** Its plug limits it to **15 A × 120 V = 1,800 W**; keep continuous load under about **1,440 W**. Add up your gear's label ratings: a typical receiver, TV, streamer and console fit comfortably. A big separate amplifier and multiple subs might be better on a second circuit.\n\n**Protect every path.** Run cable/antenna coax and your network cable through the strip. Surges can travel along any conductor into the system, and a single shared protection point keeps every device at the same reference.\n\nWhat it lacks compared with the [Furman PST-8D](/gear/furman-pst-8d/) or [Panamax M5300-PM](/gear/panamax-m5300-pm/) is any over-voltage disconnect. For most living-room setups, though, it's the best value here. See the [best surge protector for home theater](/best-surge-protector-for-home-theater/) roundup.",
+    "summary": "An 11-outlet Tripp Lite surge protector rated at 4,200 joules with coax, Ethernet and phone protection and an 8 ft flat-plug cord; the best-value basic protection for a home theater.",
+    "verdict": "The TLP118DBNET covers the basics at a low price: **11 outlets** (six side-facing for bulky adapters), a **4,200-joule** surge rating, **EMI/RFI filtering**, and protection for **coax, Ethernet and phone** lines. It is **UL 1449 and UL 1363** certified, has a **15 A resettable breaker**, an **8 ft braided cord with a flat plug**, and a lifetime limited warranty from Eaton's Tripp Lite.\n\n**What the joule rating tells you.** Joules measure how much surge energy the protection can absorb before it wears out. Every surge uses up a little, so a higher rating mainly buys **more lifetime margin**. At 4,200 J this strip has more headroom than the all-metal [Tripp Lite Isobar 8](/gear/tripp-lite-isobar-8/) at 3,840 J, though it lacks the Isobar's isolated filter banks.\n\n**Load maths.** The breaker limits it to **15 A × 120 V = 1,800 W**; keep continuous load under about **1,440 W**. A receiver, TV, streamer and console fit comfortably. A big separate amplifier and two subs may want a second circuit.\n\n**Check the Ethernet speed.** The network port passes up to **100 Mbps**. A 4K stream needs roughly 25 Mbps, so streaming is fine, but if you pay for gigabit internet, a 100 Mbps pass-through caps your wired speed at a tenth of that. Route a fast connection around the strip or accept the limit.\n\nWhat it lacks compared with the [Furman PST-8D](/gear/furman-pst-8d/) or [Panamax M5300-PM](/gear/panamax-m5300-pm/) is an over-voltage disconnect. For most living rooms, it's the best value here. See the [best surge protector for home theater](/best-surge-protector-for-home-theater/) roundup.",
     "bestFor": "Most TV and home theater setups on a budget",
-    "skipIf": "You want over-voltage disconnect or have very expensive gear",
+    "skipIf": "You want over-voltage disconnect or need gigabit Ethernet through the strip",
     "pros": [
-      "3,020-joule rating at a low price",
+      "4,200-joule rating at a low price",
       "Coax, Ethernet and phone protection",
-      "11 outlets",
-      "Lifetime warranty with equipment protection policy"
+      "11 outlets, six side-facing for adapters",
+      "8 ft flat-plug cord and lifetime limited warranty"
     ],
     "cons": [
+      "Ethernet pass-through limited to 100 Mbps",
       "No over-voltage disconnect",
-      "MOV protection wears out over time",
-      "Basic noise filtering"
+      "Surge protection wears out over time"
     ],
     "specs": {
-      "Outlets": "11",
-      "Joule rating": "3,020 J",
+      "Outlets": "11 (6 side-facing)",
+      "Joule rating": "4,200 J",
       "Filtering": "EMI/RFI noise filtering",
-      "Coax/Ethernet protection": "Coax, Ethernet and phone",
-      "Form factor": "Power strip",
-      "Rating": "15 A at 120 V (1,800 W)",
-      "Warranty": "Lifetime, with connected-equipment protection policy"
+      "Coax/Ethernet protection": "Coax, Ethernet (up to 100 Mbps) and phone",
+      "Form factor": "Power strip, 8 ft braided cord with flat plug, keyhole mounting slots",
+      "Rating": "15 A at 120 V (1,800 W), resettable breaker; UL 1449 and UL 1363",
+      "Warranty": "Lifetime limited"
     },
     "keySpecs": [
       "Outlets",
@@ -193,24 +193,24 @@
     ],
     "faqs": [
       {
-        "q": "Is 3,020 joules enough for a home theater?",
-        "a": "For most setups, yes. The joule rating reflects how much surge energy the protector can absorb over its life, and 3,020 joules gives solid margin for typical TV and receiver systems."
+        "q": "Is 4,200 joules enough for a home theater?",
+        "a": "For most setups, yes. The joule rating reflects how much surge energy the protector can absorb over its life, and 4,200 joules is more margin than most strips at this price offer."
       },
       {
-        "q": "Does the APC P11VNT3 protect Ethernet?",
-        "a": "Yes. It includes coax, Ethernet and phone line protection alongside its 11 outlets."
+        "q": "Will the TLP118DBNET slow down my internet?",
+        "a": "It can on a wired gigabit connection, because its Ethernet protection passes up to 100 Mbps. That is plenty for 4K streaming, but plug a fast connection in directly if you need full speed."
       }
     ]
   },
   {
-    "slug": "austere-vii-8-outlet",
-    "name": "Austere VII Series 8-Outlet Power",
+    "slug": "austere-vii-6-outlet",
+    "name": "Austere VII Series 6-Outlet Surge Protector",
     "brand": "Austere",
     "category": "power",
-    "amazonQuery": "Austere VII series 8 outlet power surge protector",
-    "priceBand": "$100–$170",
-    "priceTier": 3,
-    "score": 76,
+    "amazonQuery": "Austere VII series 6 outlet surge protector",
+    "priceBand": "$70–$110",
+    "priceTier": 2,
+    "score": 75,
     "scores": [
       {
         "label": "Protection",
@@ -226,46 +226,47 @@
       },
       {
         "label": "Value",
-        "value": 66
+        "value": 64
       }
     ],
-    "summary": "A stylish 8-outlet Austere VII strip with noise filtering and USB charging, built to look good on show; good protection, but you pay extra for the design.",
-    "verdict": "Austere's VII Series power strip is designed to be seen: a premium finish, a braided cord, **8 outlets** spaced for chunky power adapters, Austere's **PowerTrue** power-line noise filtering and **Omniport USB** charging.\n\n**Where the money goes.** Compared with the [APC P11VNT3](/gear/apc-p11vnt3/), you're paying mostly for design, build and USB charging rather than stronger protection features. If the strip sits in plain view on a media console, that's a fair trade. If it hides behind a cabinet, the APC or [Tripp Lite Isobar 8](/gear/tripp-lite-isobar-8/) gives you similar or better protection for less.\n\n**Do the load maths.** Any strip on a standard outlet is limited to **15 A × 120 V = 1,800 W**, with roughly **1,440 W** as a safe continuous load. Add up the power ratings on your gear's labels before plugging in a large amplifier and two subs.\n\n**Plan outlet spacing.** Count your plugs: TV, receiver, streaming box, console, sub and a lamp is already six, and wall-wart adapters can block neighboring outlets on tightly packed strips. Wide spacing helps here.\n\n**Check the details.** Austere's lineup includes several VII models, so check the listing for coax or Ethernet protection, joule rating and warranty terms on the exact version you're buying.\n\nOwners praise the build and look. See the [best surge protector for home theater](/best-surge-protector-for-home-theater/) roundup.",
+    "summary": "A stylish 6-outlet Austere VII strip rated at 4,000 joules with isolated EMI/RFI filtering, five USB ports including 45 W USB-C, and a device-replacement guarantee.",
+    "verdict": "Austere's VII Series strip is built to be seen: **6 wide-spaced outlets**, a **WovenArmor braided cord** with a **right-angle flat plug**, a **4,000-joule** rating and **isolated EMI/RFI filtering**. It adds **five USB ports**, one a **45 W USB-C PD** charger, plus two more USB-C and two USB-A at 2.4 A.\n\n**Where the money goes.** Compared with the [Tripp Lite TLP118DBNET](/gear/tripp-lite-tlp118dbnet/), you get fewer outlets and no coax or Ethernet protection listed, but better looks, USB charging and Austere's **7-year component guarantee**, which promises to replace a plugged-in device the strip is responsible for damaging. If the strip sits on show by the sofa, that's a fair trade. Hidden behind a cabinet, the Tripp Lite gives more protection per dollar.\n\n**Do the outlet maths.** TV, receiver, streaming box, console and a subwoofer is already five plugs, leaving one spare. If you have a projector, a second sub or powered speakers, count again before buying; a 6-outlet strip fills up fast in a full theater.\n\n**Load maths.** Austere keeps the circuit to **15 A**, so on a standard outlet the ceiling is **15 A × 120 V = 1,800 W**, with about **1,440 W** as a safe continuous load. A 45 W USB-C charge barely registers in that budget, but a big amp and two subs might not fit.\n\nOwners praise the build and finish. See the [best surge protector for home theater](/best-surge-protector-for-home-theater/) roundup.",
     "bestFor": "Visible setups where looks and USB charging matter",
-    "skipIf": "You want the most protection per dollar for gear hidden in a cabinet",
+    "skipIf": "You need more than six outlets or coax/Ethernet protection",
     "pros": [
-      "Premium design and braided cord",
-      "Well-spaced outlets for bulky adapters",
-      "Power-line noise filtering",
-      "USB charging built in"
+      "4,000-joule rating with isolated EMI/RFI filtering",
+      "Five USB ports, including 45 W USB-C PD",
+      "Wide-spaced outlets and right-angle flat plug",
+      "7-year connected-device component guarantee"
     ],
     "cons": [
-      "Pricey for the protection features",
-      "Joule rating and coax/Ethernet protection vary across VII models",
-      "Less installer track record than Panamax, Furman or Tripp Lite"
+      "Only six AC outlets",
+      "No coax or Ethernet protection listed",
+      "Pricey for the protection you get"
     ],
     "specs": {
-      "Outlets": "8",
-      "Joule rating": "Varies by VII model",
-      "Filtering": "PowerTrue power-line noise filtering",
-      "Form factor": "Power strip with braided cord and Omniport USB charging",
-      "Coax/Ethernet protection": "Varies by VII model",
-      "Rating": "15 A at 120 V (1,800 W)"
+      "Outlets": "6 (wide-spaced)",
+      "Joule rating": "4,000 J",
+      "Filtering": "Isolated EMI/RFI filtering",
+      "Coax/Ethernet protection": "None listed",
+      "Form factor": "Power strip, WovenArmor braided cord, right-angle flat plug, wall-mountable; 1 × 45 W USB-C PD, 2 × USB-C, 2 × USB-A (2.4 A)",
+      "Rating": "15 A at 120 V (1,800 W)",
+      "Warranty": "Lifetime guarantee; 7-year component guarantee on connected devices"
     },
     "keySpecs": [
       "Outlets",
+      "Joule rating",
       "Filtering",
-      "Form factor",
-      "Rating"
+      "Form factor"
     ],
     "faqs": [
       {
-        "q": "Does the Austere VII strip have USB ports?",
-        "a": "Yes. The VII Series includes Austere's Omniport USB charging alongside its AC outlets."
+        "q": "Does the Austere VII 6-outlet strip have USB-C?",
+        "a": "Yes. It has three USB-C ports, one of them a 45 W Power Delivery fast charger, plus two USB-A ports at up to 2.4 amps."
       },
       {
         "q": "Is the Austere VII worth it over a cheaper surge protector?",
-        "a": "It is if the strip will be on show and you value the design and USB charging. For gear hidden in a cabinet, cheaper strips give similar protection."
+        "a": "It is if the strip will be on show and you value the design, USB charging and the device-replacement guarantee. For gear hidden in a cabinet, cheaper strips with more outlets give similar protection."
       }
     ]
   },
@@ -297,7 +298,7 @@
       }
     ],
     "summary": "A rugged all-metal 8-outlet surge protector rated at 3,840 joules with isolated filter banks that keep noisy devices from interfering with each other.",
-    "verdict": "The Isobar has a long-running reputation among AV installers, and the 8-outlet Isobar Ultra shows why: an **all-metal housing**, a **3,840-joule** surge rating, and **isolated filter banks**, Tripp Lite's term for separating outlet groups with their own noise filters so one device's interference doesn't feed back into the others.\n\n**Why isolated banks help a theater.** Devices like subwoofer amplifiers, projectors and game consoles generate electrical noise. Isolating them from your receiver and source components reduces the chance of buzz or interference passing between devices on the same strip. Put the sub and projector on one bank and the receiver and sources on another.\n\n**Joules, shown.** Joule rating is the total surge energy the protection can absorb before it degrades. At **3,840 J**, the Isobar has more lifetime margin than the [APC P11VNT3](/gear/apc-p11vnt3/) at 3,020 J, and far more than budget strips. When the protection indicator goes out, replace it.\n\n**Load maths.** On a standard outlet, the ceiling is **15 A × 120 V = 1,800 W**, so keep continuous draw below about **1,440 W**. Add up your gear's label ratings first.\n\nThe trade-off: no coax or Ethernet protection on this model, so route those through another protector if surges are common in your area. Tripp Lite (now part of Eaton) backs it with a lifetime warranty. See the [best surge protector for home theater](/best-surge-protector-for-home-theater/) roundup.",
+    "verdict": "The Isobar has a long-running reputation among AV installers, and the 8-outlet Isobar Ultra shows why: an **all-metal housing**, a **3,840-joule** surge rating, and **isolated filter banks**, Tripp Lite's term for separating outlet groups with their own noise filters so one device's interference doesn't feed back into the others.\n\n**Why isolated banks help a theater.** Devices like subwoofer amplifiers, projectors and game consoles generate electrical noise. Isolating them from your receiver and source components reduces the chance of buzz or interference passing between devices on the same strip. Put the sub and projector on one bank and the receiver and sources on another.\n\n**Joules, shown.** Joule rating is the total surge energy the protection can absorb before it degrades. At **3,840 J**, the Isobar sits just below the plastic [Tripp Lite TLP118DBNET](/gear/tripp-lite-tlp118dbnet/) at 4,200 J and far above budget strips; its case is the isolated banks and metal build rather than raw joules. When the protection indicator goes out, replace it.\n\n**Load maths.** On a standard outlet, the ceiling is **15 A × 120 V = 1,800 W**, so keep continuous draw below about **1,440 W**. Add up your gear's label ratings first.\n\nThe trade-off: no coax or Ethernet protection on this model, so route those through another protector if surges are common in your area. Tripp Lite (now part of Eaton) backs it with a lifetime warranty. See the [best surge protector for home theater](/best-surge-protector-for-home-theater/) roundup.",
     "bestFor": "Systems with noisy devices like subs and projectors that benefit from isolated filtering",
     "skipIf": "You need coax or Ethernet protection in the same unit",
     "pros": [

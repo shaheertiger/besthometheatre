@@ -1,79 +1,13 @@
 [
   {
-    "slug": "monoprice-monolith-7x200",
-    "name": "Monoprice Monolith 7x200 Amplifier",
+    "slug": "monolith-5x200",
+    "name": "Monolith 5x200 Multi-Channel Amplifier",
     "brand": "Monoprice",
     "category": "amplifier",
-    "amazonQuery": "Monoprice Monolith 7x200 multi channel amplifier",
-    "priceBand": "$1,000–$1,400",
-    "priceTier": 3,
-    "score": 86,
-    "scores": [
-      {
-        "label": "Power for the money",
-        "value": 90
-      },
-      {
-        "label": "Connectivity",
-        "value": 86
-      },
-      {
-        "label": "Build quality",
-        "value": 86
-      },
-      {
-        "label": "Ease of setup",
-        "value": 80
-      }
-    ],
-    "summary": "A seven-channel Class AB power amp rated at 200 W/ch into 8 Ω with balanced and RCA inputs, the most power per dollar here for taking the load off a receiver.",
-    "verdict": "The Monolith 7x200 does one job: it takes over amplification from your receiver. You need a receiver with **pre-outs** for every channel you want it to drive, such as the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) or [Marantz Cinema 50](/gear/marantz-cinema-50/), which have 11.4-channel pre-outs.\n\nMonoprice rates it at **200 W/ch into 8 Ω and 300 W/ch into 4 Ω**. Compare that with the X3800H's 105 W/ch (2 channels driven): 10 × log10(200 ÷ 105) = **2.8 dB** more headroom per channel on paper. The bigger win is architectural. When the amp drives the seven ear-level and front channels from its own power supply, the receiver's internal amps only handle the heights, so neither supply is stretched.\n\nHere is what that means in a room. With 85 dB [sensitivity](/glossary/speaker-sensitivity/) speakers, 200 W gives 85 + 23 = 108 dB at 1 m. At a 3.5 m seat you lose about 10.9 dB, leaving roughly 97 dB per speaker before the subwoofer adds bass. That is the kind of headroom low-sensitivity towers need in a big room.\n\nA good plan for **7.1.4**: receiver powers four heights, Monolith powers seven ear-level speakers. For the full field, see our [best home theater amplifier](/best-home-theater-amplifier/) guide.",
-    "bestFor": "Big rooms and low-sensitivity speakers in a 7.1.4 build",
-    "skipIf": "Your receiver has no pre-outs, or your speakers are efficient and your room is small",
-    "pros": [
-      "Seven channels rated at 200 W into 8 Ω and 300 W into 4 Ω",
-      "Balanced XLR and RCA inputs",
-      "Frees the receiver's power supply for the height channels",
-      "Strong power per dollar"
-    ],
-    "cons": [
-      "Needs a receiver with pre-outs",
-      "Large and heavy; needs ventilation",
-      "Class AB runs warm at idle compared with Class D"
-    ],
-    "specs": {
-      "Channels": "7",
-      "Power (rated)": "200 W/ch into 8 Ω; 300 W/ch into 4 Ω (manufacturer rating)",
-      "Class": "AB",
-      "Inputs": "Balanced XLR and unbalanced RCA",
-      "Features": "Toroidal transformer, 12 V trigger"
-    },
-    "keySpecs": [
-      "Channels",
-      "Power (rated)",
-      "Class",
-      "Inputs"
-    ],
-    "faqs": [
-      {
-        "q": "Do I need an amplifier if my receiver is already 7.2?",
-        "a": "Usually not in a small or medium room with efficient speakers. An external amp makes sense with low-sensitivity speakers, a large room, or a 9-channel receiver where you want to add channels for 7.1.4 using its pre-outs."
-      },
-      {
-        "q": "How do I connect the Monolith 7x200 to a receiver?",
-        "a": "Run RCA or XLR cables from the receiver's pre-outs to the amp's inputs, connect speakers to the amp, and set the receiver to use those channels as pre-outs. Your receiver must have pre-outs for each channel the amp will power."
-      }
-    ]
-  },
-  {
-    "slug": "rotel-rb-1582",
-    "name": "Rotel RB-1582 MkII",
-    "brand": "Rotel",
-    "category": "amplifier",
-    "amazonQuery": "Rotel RB-1582 stereo power amplifier",
-    "priceBand": "$1,500–$2,000",
-    "priceTier": 3,
-    "score": 83,
+    "amazonQuery": "Monolith 5x200 multi-channel home theater power amplifier",
+    "priceBand": "$1,700–$1,900",
+    "priceTier": 4,
+    "score": 82,
     "scores": [
       {
         "label": "Power for the money",
@@ -85,176 +19,254 @@
       },
       {
         "label": "Build quality",
-        "value": 92
+        "value": 88
+      },
+      {
+        "label": "Ease of setup",
+        "value": 78
+      }
+    ],
+    "summary": "A five-channel Class AB power amp rated at 200 W/ch into 8 Ω with all channels driven, two toroidal transformers and XLR inputs, built for big rooms and hard-to-drive speakers.",
+    "verdict": "The Monolith 5x200 takes the five ear-level channels off your receiver and drives them from its own heavyweight supply. Monoprice quotes **200 W/ch into 8 Ω, all channels driven across 20 Hz–20 kHz**, uses **two toroidal transformers** and a **Class AB** output stage, and lists a signal-to-noise ratio above **120 dB**. You need a receiver with pre-outs, such as the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) or [Marantz Cinema 50](/gear/marantz-cinema-50/).\n\n**Show the maths.** Five channels × 200 W = **1,000 W** of rated output with every channel working, which is the rating most receivers never publish. Against the [Outlaw Audio 5000x](/gear/outlaw-audio-5000x/) at 120 W/ch, that is 10 × log10(200 ÷ 120) = **2.2 dB** more headroom per channel. With 85 dB [sensitivity](/glossary/speaker-sensitivity/) speakers, 200 W gives 85 + 23 = **108 dB at 1 m**, and about **97 dB** at a 3.5 m seat after the 10.9 dB distance loss.\n\n**How it fits a 7.1.4 build.** That layout has 7 + 4 = 11 speakers. Put front left, center, right and the two side surrounds on the Monolith; a nine-channel receiver then powers only the remaining six (rear surrounds and four heights).\n\nThe trade-offs are size, heat and price: Class AB runs warm, so leave space above it, and per watt it costs more than the Outlaw. Buy it for large rooms and low-sensitivity speakers. See our [best home theater amplifier](/best-home-theater-amplifier/) guide.",
+    "bestFor": "Large rooms and low-sensitivity speakers that need real all-channel power",
+    "skipIf": "Your speakers are efficient, your room is medium-sized or your receiver has no pre-outs",
+    "pros": [
+      "200 W/ch into 8 Ω with all channels driven, 20 Hz–20 kHz",
+      "Two toroidal transformers and no current limiting in the signal path",
+      "Balanced XLR and RCA inputs",
+      "Signal-to-noise ratio above 120 dB"
+    ],
+    "cons": [
+      "Costs more per watt than the Outlaw Audio 5000x",
+      "Class AB runs warm and needs ventilation",
+      "Needs a receiver with pre-outs"
+    ],
+    "specs": {
+      "Channels": "5",
+      "Power (rated)": "200 W/ch into 8 Ω, all channels driven, 20 Hz–20 kHz (manufacturer rating)",
+      "Class": "AB",
+      "Inputs": "Balanced XLR and unbalanced RCA",
+      "Features": "Two toroidal transformers, no current limiting in the signal path, >120 dB signal-to-noise ratio"
+    },
+    "keySpecs": [
+      "Channels",
+      "Power (rated)",
+      "Class",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Monolith 5x200 rated with all channels driven?",
+        "a": "Yes. Monoprice quotes 200 W per channel into 8 ohms with all channels driven across 20 Hz to 20 kHz. That is a tougher test than the two-channels-driven figures most receivers publish."
+      },
+      {
+        "q": "Monolith 5x200 vs Outlaw Audio 5000x: which should I buy?",
+        "a": "The Monolith is rated at 200 W per channel against the Outlaw's 120 W, about 2.2 dB more headroom, and suits large rooms with low-sensitivity speakers. The Outlaw costs much less and is enough for most medium rooms."
+      },
+      {
+        "q": "How do I connect the Monolith 5x200 to a receiver?",
+        "a": "Run RCA or XLR cables from the receiver's pre-outs for front left, center, right and the two surrounds to the amp, then connect those speakers to the amp. The receiver keeps decoding and room correction."
+      }
+    ]
+  },
+  {
+    "slug": "marantz-mm7025",
+    "name": "Marantz MM7025 Power Amplifier",
+    "brand": "Marantz",
+    "category": "amplifier",
+    "amazonQuery": "Marantz MM7025 2-channel power amplifier",
+    "priceBand": "$900–$1,100",
+    "priceTier": 3,
+    "score": 81,
+    "scores": [
+      {
+        "label": "Power for the money",
+        "value": 72
+      },
+      {
+        "label": "Connectivity",
+        "value": 84
+      },
+      {
+        "label": "Build quality",
+        "value": 90
       },
       {
         "label": "Ease of setup",
         "value": 82
       }
     ],
-    "summary": "A 200 W/ch Class AB stereo power amp with balanced inputs, ideal for driving front left and right speakers from a receiver's pre-outs.",
-    "verdict": "The RB-1582 MkII is a two-channel power amplifier, which makes it the natural partner for a **nine-channel receiver with 11-channel processing**. The maths: a 7.1.4 system has 7 + 4 = **11** speakers. A receiver like the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) powers nine, and the Rotel takes the remaining two, usually the front left and right, which work hardest in most mixes.\n\nRotel rates it at **200 W/ch into 8 Ω (20 Hz–20 kHz, both channels driven)**. Compared with a receiver channel rated at 105 W (2 channels driven), that is 10 × log10(200 ÷ 105) = **2.8 dB** more headroom. More important, the front pair now runs from a separate power supply, so the receiver's supply only feeds nine channels instead of eleven.\n\nIn a room with 86 dB [sensitivity](/glossary/speaker-sensitivity/) towers and a 3.5 m seat, 200 W gives 86 + 23 = 109 dB at 1 m and about 98 dB at the seat. Pair that with a properly set [crossover](/glossary/crossover/) so the subwoofer handles everything below 80 Hz, and the fronts have plenty in reserve.\n\nIt also works as the power half of a stereo system with a preamp. If you need seven channels instead of two, the [Monoprice Monolith 7x200](/gear/monoprice-monolith-7x200/) is the better buy. See the [best home theater amplifier](/best-home-theater-amplifier/) guide for more.",
-    "bestFor": "Adding the front left and right to a 9-channel receiver for 7.1.4",
+    "summary": "A two-channel Marantz power amp rated at 140 W/ch into 8 Ω and 170 W/ch into 6 Ω, with XLR and RCA inputs, the tidy way to add the eleventh and twelfth channels to a nine-channel receiver.",
+    "verdict": "The MM7025 is a **two-channel power amplifier**, and its natural job is completing a big Atmos layout. A 7.1.4 system has 7 + 4 = **11** speakers. A nine-channel receiver like the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) or [Marantz Cinema 50](/gear/marantz-cinema-50/) powers nine, and the MM7025 drives the other two from its own supply, usually the front left and right.\n\nMarantz rates it at **140 W/ch into 8 Ω and 170 W/ch into 6 Ω**, with a **high-current toroidal transformer**, discrete output transistors and Marantz's current-feedback design. Each channel takes **balanced XLR or RCA**.\n\n**Show the maths.** Against a receiver channel rated at 105 W, 10 × log10(140 ÷ 105) = **1.25 dB** more headroom on paper. That alone is small. The real gain is that the receiver's supply now feeds nine channels instead of eleven, so it has more in reserve on loud scenes. With 86 dB [sensitivity](/glossary/speaker-sensitivity/) towers, 140 W gives 86 + 21.5 = **107.5 dB at 1 m** and about **96.5 dB** at a 3.5 m seat. Set a proper [crossover](/glossary/crossover/) so the subwoofer handles everything below 80 Hz and the fronts keep their headroom for the midrange.\n\nAuto-standby and remote power control mean it can wake with the system. If you need five or seven channels, the [Outlaw Audio 5000x](/gear/outlaw-audio-5000x/) or [Outlaw Audio 7000x](/gear/outlaw-audio-7000x/) gives more channels per dollar. See the [best home theater amplifier](/best-home-theater-amplifier/) guide.",
+    "bestFor": "Adding two channels to a nine-channel receiver for 7.1.4",
     "skipIf": "You need more than two channels of amplification",
     "pros": [
-      "200 W/ch into 8 Ω with both channels driven",
-      "Balanced XLR and RCA inputs",
-      "Rotel build quality and a long track record",
-      "Ideal for completing a 7.1.4 system"
+      "140 W/ch into 8 Ω, 170 W/ch into 6 Ω",
+      "Balanced XLR and RCA inputs on each channel",
+      "High-current toroidal transformer for dynamic peaks",
+      "Auto-standby and remote power on/off"
     ],
     "cons": [
       "Only two channels for the price",
-      "Large and heavy",
+      "Modest headroom gain over a good receiver channel",
       "Needs a receiver or preamp with pre-outs"
     ],
     "specs": {
       "Channels": "2",
-      "Power (rated)": "200 W/ch (8 Ω, 20 Hz–20 kHz, both channels driven)",
-      "Class": "AB",
+      "Power (rated)": "140 W/ch into 8 Ω; 170 W/ch into 6 Ω (manufacturer rating)",
       "Inputs": "Balanced XLR and unbalanced RCA",
-      "Features": "Toroidal transformer, 12 V trigger"
+      "Features": "High-current toroidal transformer, current-feedback topology, auto-standby, remote power on/off, gold-plated speaker terminals"
     },
     "keySpecs": [
       "Channels",
       "Power (rated)",
-      "Class",
-      "Inputs"
+      "Inputs",
+      "Features"
     ],
     "faqs": [
       {
-        "q": "Can I use the Rotel RB-1582 MkII with an AV receiver?",
-        "a": "Yes, if the receiver has pre-outs. Connect the receiver's front left and right pre-outs to the Rotel's inputs and the speakers to the Rotel. The receiver still handles processing and room correction."
+        "q": "Can I use the Marantz MM7025 with an AV receiver?",
+        "a": "Yes, if the receiver has pre-outs. Connect the pre-outs for the two channels you want to offload, usually front left and right, to the MM7025 and the speakers to the amp. The receiver still handles decoding and room correction."
       },
       {
-        "q": "Will a 200 W amp make my speakers louder than a receiver?",
-        "a": "A little. Going from 105 W to 200 W adds about 2.8 dB of headroom. The bigger benefit is that the receiver's power supply no longer has to feed those channels."
+        "q": "Is the MM7025 worth it over my receiver's own amps?",
+        "a": "Mainly for big systems. Going from 105 W to 140 W adds only about 1.25 dB, but moving two channels to a separate supply leaves the receiver with fewer channels to feed on loud scenes."
       }
     ]
   },
   {
-    "slug": "emotiva-basx-a-700",
-    "name": "Emotiva BasX A-700",
-    "brand": "Emotiva",
+    "slug": "outlaw-audio-7000x",
+    "name": "Outlaw Audio 7000x",
+    "brand": "Outlaw Audio",
     "category": "amplifier",
-    "amazonQuery": "Emotiva BasX A-700 amplifier",
-    "priceBand": "$800–$1,100",
+    "amazonQuery": "Outlaw Audio 7000x 7-channel amplifier",
+    "priceBand": "$1,000–$1,200",
     "priceTier": 3,
-    "score": 80,
+    "score": 85,
     "scores": [
       {
         "label": "Power for the money",
+        "value": 88
+      },
+      {
+        "label": "Connectivity",
+        "value": 86
+      },
+      {
+        "label": "Build quality",
         "value": 84
       },
       {
-        "label": "Connectivity",
-        "value": 78
-      },
-      {
-        "label": "Build quality",
-        "value": 80
-      },
-      {
         "label": "Ease of setup",
-        "value": 80
+        "value": 84
       }
     ],
-    "summary": "A seven-channel power amp rated at 125 W/ch into 8 Ω that offloads a full set of ear-level speakers from your receiver for less than the Monolith 7x200.",
-    "verdict": "The BasX A-700 gives you **seven channels of external amplification**, enough to take every ear-level speaker in a 7.1 or 7.1.4 system off your receiver. You need a receiver with pre-outs for each channel, such as the [Denon AVR-X3800H](/gear/denon-avr-x3800h/).\n\nEmotiva rates it at **125 W/ch into 8 Ω**. On paper, compared with a receiver channel rated at 80 W (2 channels driven), that is 10 × log10(125 ÷ 80) = **1.9 dB** more headroom. Against the [Monoprice Monolith 7x200](/gear/monoprice-monolith-7x200/) at 200 W, the A-700 gives up 10 × log10(200 ÷ 125) = **2 dB**.\n\nWhy buy it then? The value is in splitting the work. A receiver rated by its maker at two channels driven has to feed seven, nine or eleven speakers from one supply. Moving seven channels to a dedicated amp leaves the receiver to power only the heights, which is the practical way to get more real multichannel output.\n\nRun the room numbers: with 87 dB [sensitivity](/glossary/speaker-sensitivity/) speakers, 125 W gives 87 + 21 = 108 dB at 1 m and about 98.5 dB at a 3 m seat. That suits most medium rooms. If your speakers are rated 85 dB or lower and the room is large, the Monolith's extra 2 dB is worth paying for. See our [best home theater amplifier](/best-home-theater-amplifier/) picks.",
-    "bestFor": "Medium rooms adding seven channels of amplification on a budget",
-    "skipIf": "You have low-sensitivity speakers in a large room",
+    "summary": "A seven-channel power amp rated at 130 W/ch into 8 Ω and 200 W/ch into 4 Ω with all channels driven, plus XLR inputs, a 12 V trigger and a five-year warranty.",
+    "verdict": "The 7000x gives you **seven channels of external amplification**, enough to take every ear-level speaker in a 7.1 or 7.1.4 system off your receiver. Outlaw rates it at **130 W/ch into 8 Ω and 200 W/ch into 4 Ω, all channels driven, 20 Hz–20 kHz, under 0.03% THD**. Each channel has its own power-supply rectification and protection relay, and a **12 V trigger** switches it on with your receiver.\n\n**Show the maths.** Seven channels × 130 W = **910 W** of rated output with everything working. Most receivers quote power with two channels driven, so a 105 W receiver rating does not mean 105 W on seven channels at once. Per channel, 10 × log10(130 ÷ 105) is only about **0.9 dB**; the bigger win is that the receiver's supply now powers just the heights.\n\nRoom check: with 87 dB [sensitivity](/glossary/speaker-sensitivity/) speakers, 130 W gives 87 + 21.1 = **108 dB at 1 m** and about **98.5 dB** at a 3 m seat, enough for most medium and large living rooms. If your speakers dip to 4 Ω ([impedance](/glossary/impedance/) explained), the 200 W rating gives another 1.9 dB.\n\nYou need a receiver with pre-outs for each channel, such as the [Denon AVR-X3800H](/gear/denon-avr-x3800h/). Against the [Monolith 5x200](/gear/monolith-5x200/), you trade 1.9 dB per channel for two extra channels and a lower price. See our [best home theater amplifier](/best-home-theater-amplifier/) picks.",
+    "bestFor": "Taking all seven ear-level channels off a receiver in a 7.1.4 build",
+    "skipIf": "Your receiver lacks pre-outs, or you only need two or three extra channels",
     "pros": [
-      "Seven channels at a lower price than the Monolith 7x200",
-      "Offloads all ear-level channels from the receiver",
-      "125 W/ch rating suits most medium rooms"
+      "130 W/ch into 8 Ω with all seven channels driven",
+      "200 W/ch into 4 Ω for demanding speakers",
+      "Balanced XLR and RCA inputs plus a 12 V trigger",
+      "Five-year warranty"
     ],
     "cons": [
-      "About 2 dB less rated headroom than the Monolith 7x200",
-      "Needs a receiver with pre-outs for every channel"
+      "Needs a receiver with pre-outs for every channel",
+      "Deep chassis, about 18 inches with the power cord fitted",
+      "Per-channel gain over a good receiver is modest"
     ],
     "specs": {
       "Channels": "7",
-      "Power (rated)": "80 W/ch into 8 Ω (all channels driven); 110 W/ch (2 channels driven)",
-      "Class": "AB",
-      "Inputs": "Line-level RCA"
+      "Power (rated)": "130 W/ch into 8 Ω; 200 W/ch into 4 Ω (all channels driven, 20 Hz–20 kHz, <0.03% THD)",
+      "Inputs": "Balanced XLR and differential-sensing RCA",
+      "Features": "12 V trigger, per-channel rectification and protection relays, 111 dBA signal-to-noise ratio, 5-year warranty",
+      "Dimensions": "5.82 x 17 x 16.75 in (H x W x D)"
     },
     "keySpecs": [
       "Channels",
       "Power (rated)",
-      "Class",
-      "Inputs"
+      "Inputs",
+      "Features"
     ],
     "faqs": [
       {
-        "q": "Emotiva BasX A-700 vs Monoprice Monolith 7x200: which is better?",
-        "a": "The Monolith is rated at 200 W/ch versus 125 W/ch, about 2 dB more headroom, and suits large rooms and low-sensitivity speakers. The A-700 costs less and is enough for most medium rooms."
+        "q": "Outlaw Audio 7000x vs Monolith 5x200: which is better?",
+        "a": "The Monolith is rated at 200 W per channel against 130 W, about 1.9 dB more headroom, but has five channels. The Outlaw powers seven channels for less money and is enough for most medium and large rooms."
       },
       {
-        "q": "Does the Emotiva A-700 work with any receiver?",
-        "a": "Only with receivers that have pre-outs for the channels you want it to drive. Many 7.2 receivers only have subwoofer and zone pre-outs, so check before you buy."
+        "q": "Does the Outlaw 7000x work with any receiver?",
+        "a": "Only with receivers that have pre-outs for the channels you want it to drive. Many 7.2 receivers only have subwoofer and zone outputs, so check the back panel before you buy."
+      },
+      {
+        "q": "Will the 7000x turn on with my receiver?",
+        "a": "Yes, if your receiver has a 12 V trigger output. Connect it to the amp's trigger input and the 7000x powers on and off with the receiver."
       }
     ]
   },
   {
-    "slug": "emotiva-basx-a3",
-    "name": "Emotiva BasX A3",
-    "brand": "Emotiva",
+    "slug": "outlaw-audio-5000x",
+    "name": "Outlaw Audio 5000x",
+    "brand": "Outlaw Audio",
     "category": "amplifier",
-    "amazonQuery": "Emotiva BasX A3 three channel amplifier",
-    "priceBand": "$400–$700",
-    "priceTier": 2,
-    "score": 70,
+    "amazonQuery": "Outlaw Audio 5000x 5-channel amplifier",
+    "priceBand": "$800–$900",
+    "priceTier": 3,
+    "score": 83,
     "scores": [
       {
         "label": "Power for the money",
-        "value": 68
+        "value": 86
       },
       {
         "label": "Connectivity",
-        "value": 68
+        "value": 86
       },
       {
         "label": "Build quality",
-        "value": 72
+        "value": 84
       },
       {
         "label": "Ease of setup",
-        "value": 74
+        "value": 84
       }
     ],
-    "summary": "A three-channel power amp for the front left, center and right speakers; confirm its power rating on the listing before you compare it with rivals.",
-    "verdict": "A three-channel amp like the BasX A3 targets the speakers that do the most work in a movie: **front left, center and right**. Most dialogue sits in the center channel, and the big effects and music sit in the front three, so offloading those three from a receiver gives the biggest return per channel.\n\nWe have kept the spec sheet short here: we could not confirm Emotiva's power rating and test conditions for this model, so we have left them out rather than guess. When you check the listing, look for a rating at **8 Ω across 20 Hz–20 kHz**, and note whether it is quoted with one, two or all three channels driven.\n\nThen run the maths. Loudness at 1 m = sensitivity + 10 × log10(watts). With an 88 dB [sensitivity](/glossary/speaker-sensitivity/) center speaker, 100 W gives 108 dB at 1 m and about 98.5 dB at a 3 m seat. Each doubling of power adds only 3 dB, so an amp is worth adding only if it at least doubles what your receiver delivers per channel.\n\nYour receiver must have pre-outs for L, C and R. Nine-channel models like the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) do. If you want to offload all ear-level channels instead, the [Emotiva BasX A-700](/gear/emotiva-basx-a-700/) covers seven. See the [best home theater amplifier](/best-home-theater-amplifier/) guide.",
-    "bestFor": "Adding power to the front left, center and right channels",
-    "skipIf": "Your receiver lacks front pre-outs, or you want verified specs before buying",
+    "summary": "A five-channel power amp rated at 120 W/ch into 8 Ω and 180 W/ch into 4 Ω, with XLR and RCA inputs and a 12 V trigger, the value way to power a full 5.1 front stage and surrounds.",
+    "verdict": "The 5000x powers the five speakers that carry most of a movie: **front left, center, right and two surrounds**. Outlaw rates it at **120 W/ch into 8 Ω and 180 W/ch into 4 Ω, 20 Hz–20 kHz, under 0.02% THD**. Inputs are **balanced XLR** and hum-rejecting RCA, a **12 V trigger** wakes it with your receiver, and each channel has its own rectification and protection relay.\n\n**Show the maths.** Loudness at 1 m = sensitivity + 10 × log10(watts). With an 88 dB [sensitivity](/glossary/speaker-sensitivity/) center, 120 W gives 88 + 20.8 = **108.8 dB at 1 m** and about **99 dB** at a 3 m seat. Against a receiver channel rated at 80 W, that is 10 × log10(120 ÷ 80) = **1.8 dB** more headroom, and the 4 Ω rating adds another 1.8 dB for speakers with low [impedance](/glossary/impedance/).\n\n**Where it fits.** In a 5.1.4 or 7.1.4 build, the 5000x takes the five ear-level mains and the receiver keeps only the heights (and rear surrounds in 7.1.4). That halves the load on the receiver's supply. You need pre-outs for all five channels; nine-channel models like the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) have them.\n\nIf you want all seven ear-level channels covered, step up to the [Outlaw Audio 7000x](/gear/outlaw-audio-7000x/). If your room is large and your speakers are inefficient, the [Monolith 5x200](/gear/monolith-5x200/) adds 2.2 dB per channel. See the [best home theater amplifier](/best-home-theater-amplifier/) guide.",
+    "bestFor": "Powering the five ear-level speakers of a 5.1.x or 7.1.4 system on a sensible budget",
+    "skipIf": "Your receiver lacks pre-outs, or you need seven amplified channels",
     "pros": [
-      "Powers the three channels that work hardest in movies",
-      "Frees the receiver's supply for surrounds and heights",
-      "Adds headroom to the front three channels without replacing your receiver"
+      "120 W/ch into 8 Ω and 180 W/ch into 4 Ω",
+      "Balanced XLR and RCA inputs",
+      "12 V trigger and per-channel protection relays",
+      "Five-year warranty"
     ],
     "cons": [
-      "Power rating not confirmed here; check the listing",
-      "Needs a receiver with front and center pre-outs",
-      "Only three channels"
+      "Needs a receiver with pre-outs for five channels",
+      "Listing does not say how many channels are driven for the rating",
+      "About 18 inches deep with the cord fitted"
     ],
     "specs": {
-      "Channels": "3",
-      "Power (rated)": "140 W/ch into 8 Ω (all channels driven)",
-      "Class": "AB",
-      "Inputs": "Line-level RCA"
+      "Channels": "5",
+      "Power (rated)": "120 W/ch into 8 Ω; 180 W/ch into 4 Ω (20 Hz–20 kHz, <0.02% THD)",
+      "Inputs": "Balanced XLR and differential-sensing RCA",
+      "Features": "12 V trigger, per-channel rectification and protection relays, 111 dBA signal-to-noise ratio, 5-year warranty",
+      "Dimensions": "5.82 x 17 x 16.75 in (H x W x D)"
     },
     "keySpecs": [
       "Channels",
       "Power (rated)",
-      "Class",
-      "Inputs"
+      "Inputs",
+      "Features"
     ],
     "faqs": [
       {
-        "q": "What is a three-channel amplifier used for in home theater?",
-        "a": "It powers the front left, center and right speakers from a receiver's pre-outs. Those three channels carry most dialogue, music and effects, so they benefit most from extra headroom."
+        "q": "What is a five-channel amplifier used for in home theater?",
+        "a": "It powers the five ear-level speakers, front left, center, right and two surrounds, from a receiver's pre-outs. The receiver then only has to power the height channels, which leaves its supply more in reserve."
       },
       {
-        "q": "Will adding a three-channel amp make a difference?",
-        "a": "Only if it at least doubles the power your receiver delivers to those channels. Each doubling adds about 3 dB. The other benefit is that the receiver's own supply then feeds fewer channels."
+        "q": "Is 120 watts per channel enough?",
+        "a": "For most rooms, yes. With 88 dB speakers, 120 W gives about 109 dB at 1 m and around 99 dB at a 3 m seat, which covers loud movie peaks in a typical living room."
       }
     ]
   },

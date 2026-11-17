@@ -420,19 +420,18 @@
     ]
   },
   {
-    "slug": "kef-q150",
-    "name": "KEF Q150 Bookshelf Speakers",
+    "slug": "kef-q1-meta",
+    "name": "KEF Q1 Meta Bookshelf Speakers",
     "brand": "KEF",
     "category": "bookshelf",
-    "amazonQuery": "KEF Q150 bookshelf speakers",
-    "released": "2017",
-    "priceBand": "$300–$450 per pair",
+    "amazonQuery": "KEF Q1 Meta bookshelf speakers",
+    "priceBand": "$350–$450 per pair",
     "priceTier": 2,
-    "score": 81,
+    "score": 84,
     "scores": [
       {
         "label": "Sound quality",
-        "value": 82
+        "value": 86
       },
       {
         "label": "Ease to drive",
@@ -440,53 +439,54 @@
       },
       {
         "label": "Build & finish",
-        "value": 80
+        "value": 82
       },
       {
         "label": "Value",
         "value": 84
       }
     ],
-    "summary": "A compact coaxial bookshelf whose Uni-Q driver keeps the sound consistent across a wide sofa, though its 86 dB sensitivity and 5.25-inch woofer need power and a subwoofer.",
-    "verdict": "The Q150's party trick is KEF's **Uni-Q** driver: a **1-inch aluminum dome tweeter** mounted at the acoustic center of a **5.25-inch aluminum woofer**. Because both sound from the same point, the balance between treble and midrange stays consistent as you move off-axis, so the person at the end of the sofa hears close to what the center seat hears.\n\n**Show the maths.** KEF rates it at **86 dB** and **8 ohms**, with a recommended 10–100 W. At 3 m (10 ft), 1 W gives about 76.5 dB at the seat. Peaks of 95 dB need about **70 W**, which is right at the top of what many budget receivers really deliver with several channels driven. Reaching 100 dB would take over 200 W, beyond the speaker's recommended range, so these suit small and medium rooms at sensible levels ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe low end is rated **51 Hz–28 kHz ±3 dB**, so cross them to a subwoofer at 80 Hz, or even 90–100 Hz if you listen loud ([crossover basics](/glossary/crossover/)).\n\nThe trade-off versus the newer [KEF Q3 Meta](/gear/kef-q3-meta/) is output: the Q3 Meta's 6.5-inch cone has about 1.5 times the area, plus 1 dB more sensitivity. A coaxial driver also has the same dispersion in any orientation, so a Q150 laid on its side behaves the same, which is useful when a shelf is short.\n\nSee it against rivals in our [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
-    "bestFor": "Wide seating areas in small to medium rooms",
-    "skipIf": "You have a big room, a low-powered receiver, or no subwoofer",
+    "summary": "KEF's compact coaxial bookshelf and successor to the Q150, with a Uni-Q driver, Metamaterial Absorption Technology and a 5.25-inch bass/midrange in a 302 mm tall cabinet.",
+    "verdict": "The Q1 Meta is the successor to the Q150 and the compact bookshelf in KEF's Q Meta range. Its **Uni-Q** driver places the tweeter at the center of a **5.25-inch bass/midrange** cone, so treble and midrange come from one point. KEF adds **Metamaterial Absorption Technology (MAT)** behind the tweeter to soak up unwanted sound, and the cabinet is a **2-way bass reflex** design just **302 mm (11.9 in)** tall.\n\n**Why coaxial helps a home theater.** Off-axis seats hear nearly the same tonal balance as the center seat, so the person at the end of the sofa still gets clear dialogue. A coaxial driver also disperses the same way in any orientation, so you can lay the speaker on its side on a short shelf.\n\n**Show the maths.** Against the larger [KEF Q3 Meta](/gear/kef-q3-meta/), the Q1 Meta's cone has 5.25² ÷ 6.5² ≈ **0.65×** the area, about 3.7 dB less output at the same excursion. That is the price of the compact box. In practice, cross them to a subwoofer at **80–100 Hz** so the small woofer isn't asked for deep bass ([crossover basics](/glossary/crossover/)). At 302 mm (11.9 in) tall, plan on a shelf opening of about 12.5 inches or more so the speaker isn't jammed against the shelf above.\n\nThey are **passive**, so you need an amplifier or AV receiver. Pair them with the [Q6 Meta center](/gear/kef-q6-meta/) for a matched front stage. See the [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
+    "bestFor": "Small and medium rooms that want even, coaxial sound from a compact speaker",
+    "skipIf": "You want big output without a subwoofer, or a large room",
     "pros": [
-      "Uni-Q coaxial driver keeps sound consistent off-axis",
-      "Compact 11.9-inch-tall cabinet",
-      "Works on its side without changing dispersion",
-      "Clean, detailed midrange for dialogue"
+      "Uni-Q coaxial driver gives even off-axis sound",
+      "Metamaterial Absorption Technology behind the tweeter",
+      "Compact 302 mm tall cabinet",
+      "Matches the Q Meta center and towers"
     ],
     "cons": [
-      "86 dB sensitivity limits volume on modest receivers",
-      "5.25-inch woofer rated only to 51 Hz (±3 dB)",
-      "Rear port wants space from the wall"
+      "5.25-inch woofer needs a subwoofer for movie bass",
+      "Passive, so you need an amplifier or receiver",
+      "About 3.7 dB less output than the Q3 Meta"
     ],
     "specs": {
       "Type": "2-way bookshelf, coaxial",
-      "Drivers": "Uni-Q: 1-inch aluminum dome tweeter in 5.25-inch aluminum woofer",
-      "Frequency response": "51 Hz–28 kHz ±3 dB",
-      "Sensitivity": "86 dB",
+      "Drivers": "Uni-Q with MAT: tweeter at the center of a 5.25-inch bass/midrange driver",
       "Impedance": "8 ohms",
-      "Recommended power": "10–100 W",
-      "Dimensions": "11.9 x 7.1 x 10.9 in (H x W x D)",
-      "Bass loading": "Rear port",
+      "Dimensions": "302 mm (11.9 in) tall",
+      "Bass loading": "Bass reflex",
       "Sold as": "Pair"
     },
     "keySpecs": [
       "Drivers",
-      "Sensitivity",
-      "Frequency response",
-      "Impedance"
+      "Impedance",
+      "Bass loading",
+      "Sold as"
     ],
     "faqs": [
       {
-        "q": "Is the KEF Q150 good for surround sound?",
-        "a": "Yes, especially as surrounds or in small rooms. The Uni-Q driver gives wide, even dispersion, which helps surround effects sound consistent across several seats. Use a subwoofer and an 80 Hz or higher crossover so the 5.25-inch woofer isn't asked for deep bass."
+        "q": "Is the KEF Q1 Meta the replacement for the Q150?",
+        "a": "Yes. The Q1 Meta is the compact bookshelf in KEF's current Q Meta range and adds Metamaterial Absorption Technology behind the Uni-Q tweeter."
       },
       {
-        "q": "Should I buy the KEF Q150 or the Q3 Meta?",
-        "a": "The Q3 Meta is the stronger speaker: a 6.5-inch Uni-Q driver with KEF's MAT tweeter absorber and 1 dB more sensitivity. Buy the Q150 if space or budget is tight, or as surrounds behind Q Meta fronts."
+        "q": "Do the KEF Q1 Meta need a subwoofer?",
+        "a": "For movies, yes. The 5.25-inch woofer is fine for music and dialogue, but cross them to a sub at 80 to 100 Hz for full-range home theater bass."
+      },
+      {
+        "q": "Can I lay the Q1 Meta on its side?",
+        "a": "Yes. The Uni-Q coaxial driver disperses sound evenly in any orientation, so it behaves much the same horizontal or vertical."
       }
     ]
   },
@@ -519,19 +519,19 @@
       }
     ],
     "summary": "KEF's 6.5-inch Uni-Q bookshelf with MAT tweeter absorber offers exceptionally even dispersion and clean treble, the best all-round bookshelf here if your receiver has decent power.",
-    "verdict": "The Q3 Meta uses KEF's 12th-generation **Uni-Q** coaxial driver: a **1-inch vented aluminum dome tweeter** at the center of a **6.5-inch aluminum cone**, plus **Metamaterial Absorption Technology (MAT)** behind the tweeter. KEF says MAT absorbs 99% of the unwanted sound from the rear of the tweeter, which in practice means cleaner, less edgy treble.\n\n**Show the maths.** Compared with the [KEF Q150](/gear/kef-q150/), the 6.5-inch cone has roughly 6.5² ÷ 5.25² ≈ **1.5 times the area**, worth about 3.7 dB more output at the same excursion. Sensitivity rises from 86 to **87 dB**, and 1 dB less needed means about **21% less amplifier power** for the same volume. At 3 m (10 ft), 1 W gives about 77.5 dB at your seat, so 95 dB peaks need about **56 W** ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe Uni-Q's real benefit for home theater is consistency. Treble and midrange radiate from one point, so off-axis seats get the same tonal balance as the center seat, and voices don't change character as they pan across the front stage.\n\nThe trade-off is efficiency: it's 9 dB less sensitive than the Klipsch [RP-600M II](/gear/klipsch-rp-600m-ii/), so it needs eight times the power for equal volume. A good midrange AVR is enough for most rooms.\n\nPair it with the [Q6 Meta center](/gear/kef-q6-meta/) and [Q7 Meta towers](/gear/kef-q7-meta/) for a fully coaxial front stage. It's our benchmark in the [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
+    "verdict": "The Q3 Meta uses KEF's 12th-generation **Uni-Q** coaxial driver: a **1-inch vented aluminum dome tweeter** at the center of a **6.5-inch aluminum cone**, plus **Metamaterial Absorption Technology (MAT)** behind the tweeter. KEF says MAT absorbs 99% of the unwanted sound from the rear of the tweeter, which in practice means cleaner, less edgy treble.\n\n**Show the maths.** Compared with its smaller sibling, the [KEF Q1 Meta](/gear/kef-q1-meta/), the 6.5-inch cone has roughly 6.5² ÷ 5.25² ≈ **1.5 times the area**, worth about 3.7 dB more output at the same excursion. Sensitivity is **87 dB**: at 3 m (10 ft), 1 W gives about 77.5 dB at your seat, so 95 dB peaks need about **56 W** ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe Uni-Q's real benefit for home theater is consistency. Treble and midrange radiate from one point, so off-axis seats get the same tonal balance as the center seat, and voices don't change character as they pan across the front stage.\n\nThe trade-off is efficiency: it's 9 dB less sensitive than the Klipsch [RP-600M II](/gear/klipsch-rp-600m-ii/), so it needs eight times the power for equal volume. A good midrange AVR is enough for most rooms.\n\nPair it with the [Q6 Meta center](/gear/kef-q6-meta/) and [Q7 Meta towers](/gear/kef-q7-meta/) for a fully coaxial front stage. It's our benchmark in the [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
     "bestFor": "Wide sofas and mixed movie/music rooms where every seat matters",
     "skipIf": "You need maximum volume from a low-powered receiver",
     "pros": [
       "Uni-Q coaxial driver gives very even off-axis sound",
       "MAT absorber cleans up treble",
-      "6.5-inch cone has about 1.5x the area of the Q150",
+      "6.5-inch cone has about 1.5x the area of the Q1 Meta",
       "Matches the Q6 Meta center for seamless pans"
     ],
     "cons": [
       "87 dB sensitivity needs about 8x the power of a 96 dB Klipsch",
       "Rear port wants space from the wall",
-      "Costs noticeably more than the Q150"
+      "Costs noticeably more than the Q1 Meta"
     ],
     "specs": {
       "Type": "2-way bookshelf, coaxial",
@@ -693,70 +693,69 @@
     ]
   },
   {
-    "slug": "dayton-b652-air",
-    "name": "Dayton Audio B652-AIR Bookshelf Speakers",
+    "slug": "dayton-classic-b65",
+    "name": "Dayton Audio Classic B65 Bookshelf Speakers",
     "brand": "Dayton Audio",
     "category": "bookshelf",
-    "amazonQuery": "Dayton Audio B652-AIR bookshelf speakers",
-    "priceBand": "$60–$100 per pair",
+    "amazonQuery": "Dayton Audio Classic B65 bookshelf speaker pair",
+    "priceBand": "$70–$90 per pair",
     "priceTier": 1,
-    "score": 66,
+    "score": 68,
     "scores": [
       {
         "label": "Sound quality",
-        "value": 64
+        "value": 66
       },
       {
         "label": "Ease to drive",
-        "value": 74
+        "value": 72
       },
       {
         "label": "Build & finish",
-        "value": 60
+        "value": 66
       },
       {
         "label": "Value",
         "value": 88
       }
     ],
-    "summary": "A very cheap 6.5-inch bookshelf with an AMT tweeter, fine as budget surrounds, but its 40 W RMS power handling caps how loud it can play.",
-    "verdict": "The B652-AIR updates Dayton's budget favorite with an **air motion transformer (AMT) tweeter** in place of a dome, paired with a **6.5-inch polypropylene woofer**. Dayton rates it at **70 Hz–20 kHz**, **87 dB (1 W/1 m)**, **6 ohms** and **40 W RMS / 80 W max** power handling.\n\n**Show the maths.** Power handling sets the ceiling. At 87 dB/W, 40 W adds 10 × log10(40) ≈ **16 dB**, for about **103 dB at 1 m**. Sitting 3 m (10 ft) away costs roughly 9.5 dB, so you're looking at around **93.5 dB at the seat** before room gain, at the speaker's continuous limit. That's fine for normal TV and movie levels in a small room, but short of the 100 dB-plus peaks that action scenes contain ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe 6-ohm rating is easy for most receivers ([impedance explained](/glossary/impedance/)), and the 70 Hz rated low end means you'll want a subwoofer with an 80–100 Hz [crossover](/glossary/crossover/).\n\nThe AMT tweeter gives crisp, detailed treble for the money, though the overall build and cabinet are basic. As side or rear surrounds, where demands are lighter, the B652-AIR is excellent value.\n\nThe trade-off: for mains, the [Polk Monitor XT20](/gear/polk-monitor-xt20/) or [Sony SS-CS5](/gear/sony-ss-cs5/) cost a little more but are more refined. See our [best budget home theater speakers](/best-budget-home-theater-speakers/) for the full list.",
-    "bestFor": "Very tight budgets and rear or side surround duty",
-    "skipIf": "You want loud front speakers for a medium or large room",
+    "summary": "A budget sealed bookshelf pair with a 6.5-inch poly woofer and 1-inch silk dome tweeter, 6-ohm impedance and keyhole wall mounts.",
+    "verdict": "The Classic B65 is Dayton's current budget bookshelf pair: a **6.5-inch poly woofer** and a **1-inch silk dome tweeter** in a **sealed acoustic-suspension** cabinet with a real Hi-Fi crossover. Dayton rates it at **6 ohms** and **40 W RMS / 75 W max** power handling, with gold-plated binding posts, removable grilles and **keyhole brackets** for wall mounting.\n\n**Show the maths.** A 6.5-inch woofer has (6.5 ÷ 4)² = **2.6×** the cone area of the 4-inch in the [Micca MB42X](/gear/micca-mb42x/), about 4 dB more output at the same excursion. Power handling of 40 W RMS is 10 × log10(40) = **16 dB** above 1 W, so these are best kept at moderate levels with a sub doing the heavy lifting.\n\n**Why sealed suits home theater.** A sealed box rolls off at about **12 dB per octave**, gentler than a ported speaker's 24 dB, which makes it easier to blend with a subwoofer. Set your receiver's [crossover](/glossary/crossover/) to **80–100 Hz**. Sealed cabinets also don't chuff or need space behind them for a port, so they work close to a wall or wall-mounted as surrounds.\n\nThe **6-ohm** [impedance](/glossary/impedance/) is fine for almost any receiver. What you give up against pricier picks like the [ELAC Debut B6.2](/gear/elac-debut-b62/) is refinement and a published frequency response. For surrounds or a starter 5.1 on a tight budget, they're excellent value. See the [best budget home theater speakers](/best-budget-home-theater-speakers/).",
+    "bestFor": "Budget surrounds and starter systems",
+    "skipIf": "You want published frequency specs or high output without a subwoofer",
     "pros": [
-      "AMT tweeter gives crisp detail for the money",
       "6.5-inch woofer at a very low price",
-      "Easy 6-ohm load",
-      "Light and easy to wall-mount"
+      "Sealed cabinet blends easily with a subwoofer",
+      "Keyhole brackets for wall mounting",
+      "Gold-plated binding posts"
     ],
     "cons": [
-      "40 W RMS handling caps output near 93 dB at 10 ft",
-      "Basic cabinet and finish",
-      "Rated only to 70 Hz; needs a subwoofer"
+      "40 W RMS power handling limits volume",
+      "No sensitivity or frequency response on the listing",
+      "Budget cabinet finish"
     ],
     "specs": {
       "Type": "2-way bookshelf",
-      "Drivers": "AMT (air motion transformer) tweeter; 6.5-inch polypropylene woofer",
-      "Frequency response": "70 Hz–20 kHz",
-      "Sensitivity": "87 dB (1 W / 1 m)",
+      "Drivers": "1-inch silk dome tweeter; 6.5-inch poly woofer",
       "Impedance": "6 ohms",
-      "Recommended power": "40 W RMS / 80 W max (power handling)",
+      "Recommended power": "40 W RMS / 75 W max (power handling)",
+      "Bass loading": "Sealed (acoustic suspension)",
       "Sold as": "Pair"
     },
     "keySpecs": [
       "Drivers",
-      "Sensitivity",
       "Impedance",
-      "Recommended power"
+      "Recommended power",
+      "Bass loading"
     ],
     "faqs": [
       {
-        "q": "Can a 100 W receiver damage the Dayton B652-AIR?",
-        "a": "Not at sensible volumes. Power handling is about sustained power, and normal listening uses only a few watts. Damage usually comes from clipping a small amplifier at full volume. Set the speakers to Small with a subwoofer and avoid pushing them into audible distortion."
+        "q": "Can the Dayton Classic B65 be wall-mounted?",
+        "a": "Yes. Integrated keyhole brackets let you hang them on a wall, and the sealed cabinet means no rear port is blocked, which makes them a good fit as surrounds."
       },
       {
-        "q": "Are the Dayton B652-AIR good for home theater?",
-        "a": "They're good budget surrounds. As front speakers, they suit small rooms at moderate volume, since their 40 W RMS handling limits peaks to around 93 dB at 10 ft. Pair them with a subwoofer and an 80–100 Hz crossover."
+        "q": "What receiver works with the Dayton B65?",
+        "a": "Almost any. They are 6-ohm speakers rated for 40 W RMS, so a budget AV receiver drives them easily. Set the crossover to 80 to 100 Hz and let a subwoofer handle the bass."
       }
     ]
   },

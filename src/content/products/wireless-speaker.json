@@ -136,55 +136,54 @@
     ]
   },
   {
-    "slug": "klipsch-the-fives",
-    "name": "Klipsch The Fives Powered Speakers",
+    "slug": "klipsch-the-fives-ii",
+    "name": "Klipsch The Fives II Powered Speakers",
     "brand": "Klipsch",
     "category": "wireless-speaker",
-    "amazonQuery": "Klipsch The Fives powered speakers HDMI ARC",
-    "released": "2020",
-    "priceBand": "$700–$900",
+    "amazonQuery": "Klipsch The Fives II powered speakers",
+    "priceBand": "$850–$950",
     "priceTier": 3,
-    "score": 80,
+    "score": 83,
     "scores": [
       {
         "label": "Sound quality",
-        "value": 80
+        "value": 82
       },
       {
         "label": "Home theater fit",
-        "value": 80
+        "value": 86
       },
       {
         "label": "Connectivity",
-        "value": 88
+        "value": 92
       },
       {
         "label": "Value",
-        "value": 74
+        "value": 72
       }
     ],
-    "summary": "Powered Klipsch bookshelf speakers with HDMI ARC, a phono input and a sub output, making a simple, great-sounding stereo TV system without a receiver.",
-    "verdict": "The Fives are powered bookshelf speakers with a twist: an **HDMI ARC** input, so they connect straight to your TV and respond to its remote. Each speaker uses a **4.5-inch fiber-composite woofer** and a **1-inch titanium tweeter on a Tractrix horn**, giving the lively, dynamic Klipsch sound. Inputs also include optical, USB, a switchable phono/line input for a turntable, Bluetooth and a **subwoofer output**.\n\n**Stereo isn't surround, so set the TV correctly.** Over ARC the Fives receive stereo PCM. Set your TV's audio output to PCM or stereo so it downmixes 5.1 soundtracks; dialogue then comes from a phantom center between the speakers.\n\n**Placement maths.** For a good stereo image, form an equilateral triangle: if your sofa is **8 feet** from the TV wall, aim for the speakers about **6–8 feet** apart, angled slightly toward you. Put them at ear height or tilt them up, since the horn tweeters are directional.\n\n**Add a sub.** The 4.5-inch woofers are fine for TV and music but don't reach deep movie bass. Use the sub out with a compact sub such as the [Klipsch R-120SW](/gear/klipsch-r-120sw/) or [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) for a capable 2.1 system.\n\nCompared with a soundbar, you get far better stereo separation and music playback, but no virtual surround or Atmos. See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) and [soundbar vs home theater](/soundbar-vs-home-theater/).",
-    "bestFor": "Music-first listeners who want stereo TV sound without a receiver",
-    "skipIf": "You want surround sound or Dolby Atmos",
+    "summary": "The successor to The Fives: a powered stereo pair with 5.25-inch woofers, HDMI 2.1 eARC with 4K/120 passthrough, Dolby Atmos processing and built-in Google Cast and AirPlay 2.",
+    "verdict": "The Fives II are the successor to Klipsch's The Fives, rebuilt around **Onkyo-designed AVR electronics**. Each speaker has a **5.25-inch woofer** behind a new one-piece **BMC baffle**, and the pair connects to your TV over **HDMI 2.1 eARC**, passing **4K/120, VRR, ALLM and HDR** through from connected devices. Streaming covers **Google Cast, AirPlay 2, Spotify Connect, Tidal Connect and Qobuz Connect**.\n\n**What \"Dolby Atmos\" means with two speakers.** The Fives II decode Atmos and place sounds with processing, but there are no up-firing drivers, so height effects are virtual. Treat this as a very good stereo system with spatial processing, not a replacement for real height speakers ([Dolby Atmos explained](/glossary/dolby-atmos/)).\n\n**Show the maths.** The 5.25-inch woofer has (5.25 ÷ 4.5)² = **1.36×** the cone area of the original Fives' 4.5-inch, about 1.3 dB more output at the same excursion. For placement, form an equilateral triangle: with the sofa **8 feet** from the TV wall, set the speakers **6–8 feet** apart and toe them in slightly.\n\n**Why HDMI 2.1 matters.** If a console plugs into the speakers, passthrough keeps 4K/120 and VRR intact, so you don't trade gaming features for sound ([eARC explained](/glossary/earc/), [HDMI 2.1](/glossary/hdmi-2-1/)). For deep movie bass, add a compact sub such as the [Klipsch R-120SW](/gear/klipsch-r-120sw/) or [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/). See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) and [soundbar vs home theater](/soundbar-vs-home-theater/).",
+    "bestFor": "Stereo TV and gaming setups that want HDMI 2.1 and streaming in two speakers",
+    "skipIf": "You want true surround or height channels, or a smaller budget",
     "pros": [
-      "HDMI ARC connects directly to the TV",
-      "Phono input for a turntable",
-      "Subwoofer output for an easy 2.1 upgrade",
-      "Lively, dynamic sound for music and TV"
+      "HDMI 2.1 eARC with 4K/120, VRR and ALLM passthrough",
+      "Google Cast, AirPlay 2, Spotify, Tidal and Qobuz Connect built in",
+      "Larger 5.25-inch woofers than the original Fives",
+      "Rigid one-piece BMC baffle"
     ],
     "cons": [
-      "Stereo only, no surround or Atmos",
-      "Limited deep bass without a sub",
-      "Speakers are linked by a cable, not fully wireless"
+      "Atmos height effects are virtual with two speakers",
+      "Costs more than a good soundbar",
+      "Needs a subwoofer for deep movie bass"
     ],
     "specs": {
-      "Type": "Powered bookshelf speakers (pair)",
-      "Drivers": "4.5-inch fiber-composite woofer, 1-inch titanium tweeter on Tractrix horn (per speaker)",
-      "Amplification": "Built-in amplifiers",
-      "Inputs": "HDMI ARC, optical, USB, phono/line RCA, Bluetooth, sub out",
-      "Streaming": "Bluetooth",
-      "Home theater role": "Stereo TV speakers via HDMI ARC"
+      "Type": "Powered bookshelf speakers (pair) with built-in AVR processing",
+      "Drivers": "5.25-inch woofer (per speaker)",
+      "Amplification": "Built-in Onkyo-designed amplification",
+      "Inputs": "HDMI 2.1 eARC with passthrough (4K/120, VRR, ALLM, HDR)",
+      "Streaming": "Google Cast, AirPlay 2, Spotify Connect, Tidal Connect, Qobuz Connect",
+      "Home theater role": "Stereo TV speakers with Dolby Atmos processing via HDMI eARC"
     },
     "keySpecs": [
       "Type",
@@ -194,12 +193,16 @@
     ],
     "faqs": [
       {
-        "q": "Can Klipsch The Fives connect to a TV?",
-        "a": "Yes. They have an HDMI ARC input, so they connect directly to your TV's ARC port and can be controlled with the TV remote."
+        "q": "Do the Klipsch The Fives II really play Dolby Atmos?",
+        "a": "They decode Dolby Atmos and use processing to place sounds, but with no height drivers the overhead effect is virtual. Expect a wide, spacious stereo image rather than true sound from above."
       },
       {
-        "q": "Do Klipsch The Fives need a subwoofer?",
-        "a": "Not for TV and casual music, but movies benefit from one. The Fives have a dedicated subwoofer output for easy connection."
+        "q": "Can I connect a game console to The Fives II?",
+        "a": "Yes. HDMI 2.1 passthrough supports 4K/120, VRR, ALLM and HDR, so a console connected through the speakers keeps its gaming features."
+      },
+      {
+        "q": "What changed from the original Klipsch The Fives?",
+        "a": "The Fives II move to HDMI 2.1 eARC with passthrough, add Dolby Atmos processing and Wi-Fi streaming, use larger 5.25-inch woofers and a one-piece BMC baffle."
       }
     ]
   },
@@ -347,55 +350,55 @@
     ]
   },
   {
-    "slug": "edifier-s3000pro",
-    "name": "Edifier S3000Pro Wireless Speakers",
+    "slug": "edifier-s3000mkii",
+    "name": "Edifier S3000MKII Wireless Speakers",
     "brand": "Edifier",
     "category": "wireless-speaker",
-    "amazonQuery": "Edifier S3000Pro active wireless speakers",
-    "released": "2020",
-    "priceBand": "$700–$900",
+    "amazonQuery": "Edifier S3000MKII active speakers",
+    "priceBand": "$950–$1,050",
     "priceTier": 3,
-    "score": 76,
+    "score": 79,
     "scores": [
       {
         "label": "Sound quality",
-        "value": 84
+        "value": 86
       },
       {
         "label": "Home theater fit",
-        "value": 66
+        "value": 68
       },
       {
         "label": "Connectivity",
-        "value": 76
+        "value": 84
       },
       {
         "label": "Value",
-        "value": 72
+        "value": 74
       }
     ],
-    "summary": "Active stereo speakers with planar tweeters, a wireless link between left and right, and balanced XLR inputs; strong music performance with a simple TV connection over optical.",
-    "verdict": "The S3000Pro is Edifier's flagship active stereo pair. Each speaker combines an **aluminum-cone woofer** with a **planar diaphragm tweeter**, and the two speakers link **wirelessly** to each other, so no cable has to cross the TV wall between them (each speaker still needs power). Inputs include **balanced XLR**, RCA, optical, coaxial and Bluetooth with **aptX HD**.\n\n**Connecting to a TV: set PCM.** There's no HDMI, so the usual route is optical from the TV. Most active speakers like this don't decode Dolby or DTS bitstreams, so set your TV's digital audio output to **PCM**; otherwise you may get silence or noise from streaming apps that send Dolby Digital. The TV then downmixes 5.1 to stereo.\n\n**Placement maths.** Wireless between speakers means freedom on spacing: for a sofa about 9 feet away, place them roughly 7–9 feet apart, slightly toed in, tweeters at ear height.\n\n**Who it suits.** Owners and reviewers praise the detailed, extended treble from the planar tweeters and strong overall value for music. For a TV, you give up HDMI convenience and remote integration compared with the [Klipsch The Fives](/gear/klipsch-the-fives/) or [KEF LS50 Wireless II](/gear/kef-ls50-wireless-ii/).\n\nSee the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) roundup.",
-    "bestFor": "Music-focused listeners who also want simple stereo TV sound",
-    "skipIf": "You want HDMI connection, TV remote control or surround sound",
+    "summary": "Edifier's flagship active stereo pair and successor to the S3000Pro, with planar magnetic tweeters, 6.5-inch aluminum woofers, 256 W RMS and a wireless link between speakers.",
+    "verdict": "The S3000MKII is the successor to Edifier's S3000Pro. Each speaker pairs a **planar magnetic tweeter** with a **6.5-inch aluminum woofer**, the system delivers **256 W RMS**, and Edifier rates it at **38 Hz–40 kHz**. The two speakers talk over a **5.8/5.2 GHz wireless link**, so no cable crosses the TV wall (each still needs power). Inputs include **balanced XLR**, RCA, optical, coaxial, **USB-B** (all digital inputs at 24-bit/192 kHz) and **Bluetooth 5.0 with aptX HD**.\n\n**Connecting to a TV: set PCM.** There's no HDMI, so use optical or coaxial from the TV. Active speakers like this generally don't decode Dolby or DTS bitstreams, so set the TV's digital output to **PCM**; the TV then downmixes 5.1 to stereo.\n\n**Show the maths.** 256 W RMS across two speakers is **128 W per speaker**. A 38 Hz low end is about 1.1 octaves below an 80 Hz crossover point (log2(80 ÷ 38) ≈ 1.07), so for music they can run without a sub. For movies, where [LFE](/glossary/lfe/) effects reach well below 38 Hz, a subwoofer still helps.\n\n**Placement.** With the sofa about 9 feet away, place them roughly 7–9 feet apart, toed in, tweeters at ear height. Four EQ presets (Classic, Monitor, Dynamic, Vocal), the ConneX app and an IR remote cover tuning.\n\nFor a TV, you give up HDMI convenience compared with the [Klipsch The Fives II](/gear/klipsch-the-fives-ii/) or [KEF LS50 Wireless II](/gear/kef-ls50-wireless-ii/). See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) roundup.",
+    "bestFor": "Music-first stereo systems that also play TV over optical",
+    "skipIf": "You want HDMI, TV remote integration or Dolby decoding",
     "pros": [
-      "Planar tweeters give detailed, extended treble",
-      "Wireless link between left and right speakers",
-      "Balanced XLR plus optical, coax and RCA inputs",
-      "Bluetooth with aptX HD"
+      "Planar magnetic tweeters and 6.5-inch aluminum woofers",
+      "256 W RMS and a rated 38 Hz low end",
+      "Wireless link between speakers",
+      "XLR, RCA, optical, coaxial, USB-B and aptX HD Bluetooth"
     ],
     "cons": [
-      "No HDMI ARC or eARC",
+      "No HDMI or eARC",
       "Doesn't decode Dolby or DTS; set the TV to PCM",
-      "Large speakers for a TV stand"
+      "Each speaker still needs a power outlet"
     ],
     "specs": {
       "Type": "Active stereo bookshelf speakers (pair)",
-      "Drivers": "Aluminum-cone woofer + planar diaphragm tweeter (per speaker)",
-      "Amplification": "Built-in amplifiers; wireless link between speakers",
-      "Inputs": "Balanced XLR, RCA, optical, coaxial, Bluetooth (aptX HD)",
-      "Streaming": "Bluetooth",
-      "Home theater role": "Stereo TV speakers via optical"
+      "Drivers": "Planar magnetic tweeter + 6.5-inch aluminum woofer (per speaker)",
+      "Frequency response": "38 Hz–40 kHz",
+      "Amplification": "256 W RMS total; 5.8/5.2 GHz wireless link between speakers",
+      "Inputs": "Balanced XLR, RCA, optical, coaxial, USB-B (24-bit/192 kHz), Bluetooth 5.0 (aptX HD)",
+      "Streaming": "Bluetooth (aptX HD)",
+      "Home theater role": "Stereo TV speakers via optical or coaxial"
     },
     "keySpecs": [
       "Type",
@@ -405,12 +408,12 @@
     ],
     "faqs": [
       {
-        "q": "Can the Edifier S3000Pro connect to a TV?",
-        "a": "Yes, via optical or coaxial. Set your TV's digital audio output to PCM, since the speakers don't decode Dolby or DTS."
+        "q": "Can the Edifier S3000MKII connect to a TV?",
+        "a": "Yes, through optical or coaxial. There's no HDMI, so set the TV's digital audio output to PCM and the TV will downmix surround soundtracks to stereo."
       },
       {
-        "q": "Are the Edifier S3000Pro speakers wireless?",
-        "a": "The left and right speakers link wirelessly to each other, and you can stream from a phone over Bluetooth. Each speaker still needs a power connection."
+        "q": "Do the S3000MKII need a subwoofer?",
+        "a": "For music, usually not, since Edifier rates them down to 38 Hz. For movies, a subwoofer adds the deep LFE effects below that range."
       }
     ]
   }

@@ -604,67 +604,70 @@
     ]
   },
   {
-    "slug": "dayton-t652-air",
-    "name": "Dayton Audio T652-AIR Tower Speaker",
+    "slug": "dayton-classic-t65",
+    "name": "Dayton Audio Classic T65 Tower Speakers",
     "brand": "Dayton Audio",
     "category": "tower",
-    "amazonQuery": "Dayton Audio T652-AIR tower speaker",
-    "priceBand": "$150–$250 per pair",
+    "amazonQuery": "Dayton Audio Classic T65 tower speaker pair",
+    "priceBand": "$200–$250 per pair",
     "priceTier": 1,
-    "score": 66,
+    "score": 68,
     "scores": [
       {
         "label": "Sound quality",
-        "value": 64
+        "value": 66
       },
       {
         "label": "Bass output",
-        "value": 70
+        "value": 74
       },
       {
         "label": "Ease to drive",
-        "value": 76
+        "value": 72
       },
       {
         "label": "Value",
         "value": 86
       }
     ],
-    "summary": "An inexpensive dual 6.5-inch tower pair with an AMT tweeter that's fine for a starter system, but its build and refinement show the price.",
-    "verdict": "The T652-AIR is Dayton's budget tower, updated with an **air motion transformer (AMT) tweeter** and **two 6.5-inch polypropylene woofers** in a slim, vinyl-wrapped cabinet. It's sold as a pair, which makes it one of the cheapest ways to get floorstanders.\n\n**Show the maths.** Two 6.5-inch woofers equal the cone area of one woofer about 6.5 × √2 ≈ **9.2 inches** across. Compared with a single 6.5-inch bookshelf, doubling cone area is worth roughly **3 dB more output** at the same excursion, the same gain as doubling amplifier power. That's the T652-AIR's case: more midbass and a fuller sound than a bookshelf at a similar price ([crossover basics](/glossary/crossover/)).\n\nThe AMT tweeter gives crisp, detailed treble for the money. What you give up is cabinet quality: thin walls and minimal bracing mean the box can color the sound at high volume, so it's best at moderate levels with a subwoofer handling everything below 80 Hz.\n\nDayton doesn't make a matched center in our catalog. If you're building 5.1 on a budget, pick a center from our [best center channel speaker](/best-center-channel-speaker-for-home-theater/) guide, ideally one with a bright, detailed tweeter so the timbre doesn't shift too much as voices pan.\n\nThe trade-off: the [Sony SS-CS3](/gear/sony-ss-cs3/) or [Polk Monitor XT60](/gear/polk-monitor-xt60/) cost more per pair but offer matched centers and better build. See our [best budget home theater speakers](/best-budget-home-theater-speakers/).",
-    "bestFor": "The tightest budgets that still want floorstanding speakers",
-    "skipIf": "You want a matched center or refined sound at high volume",
+    "summary": "A budget tower pair with dual 6.5-inch poly woofers, a 1-inch silk dome tweeter at ear level and 150 W power handling in a 39-inch bass reflex cabinet.",
+    "verdict": "The Classic T65 is Dayton's current budget tower and replaces the T652-AIR in our list. Each speaker pairs **two 6.5-inch poly woofers** with a **1-inch silk dome tweeter** and a real crossover, in a **bass reflex cabinet over 39 inches tall**. Dayton rates power handling at **150 W** and fits gold-plated binding posts that take banana plugs. It's sold as a pair.\n\n**Show the maths.** Two 6.5-inch woofers equal the cone area of one driver about 6.5 × √2 ≈ **9.2 inches** across. Against a single 6.5-inch bookshelf, doubling cone area is worth roughly **3 dB more output** at the same excursion, the same gain as doubling amplifier power. That is the case for towers: fuller midbass than a bookshelf at a similar price.\n\n**Tweeter height.** Seated ear height on a typical sofa is about **36–40 inches**, and a 39-inch-plus cabinet puts the tweeter close to that, so you hear the treble on-axis without tilting the speaker.\n\nThe silk dome is smoother than a metal tweeter for long listening. What you give up is a published sensitivity and frequency response, and budget cabinet bracing, so run them with a sub below 80 Hz ([crossover basics](/glossary/crossover/)). Dayton has no matched center in our catalog; pick one from our [best center channel speaker](/best-center-channel-speaker-for-home-theater/) guide. The [Sony SS-CS3](/gear/sony-ss-cs3/) or [Polk Monitor XT60](/gear/polk-monitor-xt60/) cost more but offer matched centers. See our [best budget home theater speakers](/best-budget-home-theater-speakers/).",
+    "bestFor": "The cheapest route to a pair of real floorstanders",
+    "skipIf": "You want a matched center or published sensitivity specs",
     "pros": [
-      "Very low price for a pair of towers",
       "Dual 6.5-inch woofers per speaker",
-      "Crisp AMT tweeter",
-      "Slim footprint"
+      "Silk dome tweeter sits near seated ear height",
+      "150 W power handling",
+      "Sold as a pair at a low price"
     ],
     "cons": [
-      "Thin, lightly braced cabinet",
-      "No matching center in the range we cover",
-      "Needs a subwoofer for movies"
+      "No sensitivity, impedance or frequency response on the listing",
+      "No matched Dayton center in our catalog",
+      "Budget cabinet construction"
     ],
     "specs": {
       "Type": "Floorstanding",
-      "Drivers": "AMT (air motion transformer) tweeter; dual 6.5-inch polypropylene woofers",
-      "Finish": "Black vinyl wrap",
+      "Drivers": "1-inch silk dome tweeter; dual 6.5-inch poly woofers",
+      "Recommended power": "150 W power handling",
+      "Dimensions": "Over 39 in tall",
+      "Bass loading": "Bass reflex",
+      "Finish": "Black",
       "Sold as": "Pair"
     },
     "keySpecs": [
       "Type",
       "Drivers",
-      "Finish",
+      "Bass loading",
       "Sold as"
     ],
     "faqs": [
       {
-        "q": "Are the Dayton T652-AIR good for home theater?",
-        "a": "They're a reasonable starter pair for a small to medium room at moderate volume. Add a subwoofer with an 80 Hz crossover and a center channel. If budget allows, matched families like Sony's SS-CS line or Polk's Monitor XT sound more cohesive."
+        "q": "Do the Dayton Classic T65 towers need a subwoofer?",
+        "a": "For movies, yes. The dual 6.5-inch woofers give fuller bass than a bookshelf, but a subwoofer below 80 Hz handles deep effects and lets the towers play louder cleanly."
       },
       {
-        "q": "Is the Dayton T652-AIR sold as a pair?",
-        "a": "Yes, it's sold as a pair, so the price band shown here covers two speakers. That makes it one of the cheapest ways to get floorstanding fronts."
+        "q": "Are the Dayton T65 sold as a pair?",
+        "a": "Yes. The listing is for a pair of towers, which makes them one of the cheapest ways to get floorstanding speakers."
       }
     ]
   }

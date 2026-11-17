@@ -403,65 +403,70 @@
     ]
   },
   {
-    "slug": "klipsch-r-121sw",
-    "name": "Klipsch R-121SW",
+    "slug": "klipsch-r-12sw",
+    "name": "Klipsch R-12SW",
     "brand": "Klipsch",
     "category": "subwoofer",
-    "amazonQuery": "Klipsch R-121SW subwoofer",
-    "priceBand": "$400–$550",
-    "priceTier": 2,
-    "score": 77,
+    "amazonQuery": "Klipsch R-12SW 12 inch subwoofer",
+    "priceBand": "$250–$300",
+    "priceTier": 1,
+    "score": 76,
     "scores": [
       {
         "label": "Output for the money",
-        "value": 80
+        "value": 84
       },
       {
         "label": "Low-frequency extension",
-        "value": 72
+        "value": 66
       },
       {
         "label": "Build & features",
-        "value": 74
+        "value": 70
       },
       {
         "label": "Ease of setup",
         "value": 82
       }
     ],
-    "summary": "A 12-inch front-firing Klipsch Reference sub for medium rooms, a straightforward match for Klipsch Reference speaker systems.",
-    "verdict": "The R-121SW is a **12-inch front-firing** sub from Klipsch's Reference line, built to match the brand's Reference speakers such as the [Klipsch R-600F](/gear/klipsch-r-600f/). It uses the same copper-spun driver look and a ported cabinet.\n\nWe have kept the spec sheet to what we could confirm, so the amp and frequency figures are not listed here; check the listing before you compare it with the [R-120SW](/gear/klipsch-r-120sw/). The room maths still works from driver size alone.\n\nMeasure your room: a 13 × 16 ft room with an 8 ft ceiling is **1,664 cu ft**. As a rough guide, a single 12-inch ported sub suits rooms up to about **1,500–2,000 cu ft**. A 12-inch cone has (12 ÷ 10)² = **1.44×** the area of a 10-inch, about 3 dB more output at the same cone travel, which matters most in the 25–40 Hz range where the cone has to move the most air.\n\nIf your room is larger, or you want deeper extension with app control, the [SVS PB-1000 Pro](/gear/svs-pb-1000-pro/) is the step up. Set your receiver's [crossover](/glossary/crossover/) to 80 Hz and run the [LFE](/glossary/lfe/) cable to the sub's line input. Compare more options in our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
-    "bestFor": "Medium rooms with Klipsch Reference speakers",
-    "skipIf": "You want app control or confirmed deep extension below 25 Hz",
+    "summary": "A 12-inch front-firing Klipsch sub with an all-digital amp rated at 400 W dynamic power, a simple, low-cost way to add real bass to a medium room.",
+    "verdict": "The R-12SW pairs a **12-inch copper-spun front-firing woofer** with an **all-digital amplifier** that Klipsch rates at **400 W dynamic power**. It has a **low-pass crossover and phase control** on the back and **line/LFE inputs**, so it hooks up to almost any receiver with a single RCA cable.\n\n**Read the power figure carefully.** \"Dynamic power\" is a short-burst rating, not a continuous one, so do not compare it directly with the 200 W RMS figure on the [Klipsch R-120SW](/gear/klipsch-r-120sw/). What you can compare is driver size. A 12-inch cone has (12 ÷ 10)² = **1.44×** the area of a 10-inch, about 3 dB more output at the same cone travel, which is why it outplays most 10-inch subs at this price.\n\n**Room maths.** A 12 × 15 ft room with an 8 ft ceiling is **1,440 cu ft**. As a rough guide, a budget 12-inch sub like this suits rooms up to about **1,500–2,000 cu ft**. Each octave lower needs about **four times** the cone movement for the same level, so it hits hardest in the 40–80 Hz punch range and gives less of the deepest rumble.\n\nThere is no app or room EQ. Set the sub's low-pass to maximum when you use the [LFE](/glossary/lfe/) input, set the receiver's [crossover](/glossary/crossover/) to 80 Hz and let [room correction](/glossary/room-correction/) do the rest. Compare it in our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
+    "bestFor": "Medium living rooms on a tight budget",
+    "skipIf": "You want app-based EQ or a published low-frequency limit before you buy",
     "pros": [
-      "12-inch driver suits medium rooms",
-      "Matches the look of Klipsch Reference speakers",
-      "Simple LFE connection"
+      "12-inch copper-spun woofer at a budget price",
+      "Low-pass crossover and phase control on the sub",
+      "Line and LFE inputs work with almost any receiver"
     ],
     "cons": [
+      "400 W is a dynamic (peak) rating, not continuous",
       "No app or built-in room EQ",
-      "Costs more than the similar R-120SW"
+      "Klipsch's listing gives no frequency response"
     ],
     "specs": {
-      "Driver": "12-inch copper-spun",
-      "Enclosure": "Front-firing, ported",
-      "Inputs": "LFE RCA, line-level",
-      "App/EQ": "None (use your receiver's room correction)"
+      "Driver": "12-inch copper-spun IMG woofer, front-firing",
+      "Amplifier": "All-digital, 400 W dynamic power (manufacturer rating)",
+      "Inputs": "Line-level and LFE RCA",
+      "App/EQ": "None; low-pass crossover and phase control on the sub"
     },
     "keySpecs": [
       "Driver",
-      "Enclosure",
+      "Amplifier",
       "Inputs",
       "App/EQ"
     ],
     "faqs": [
       {
-        "q": "Is the Klipsch R-121SW good for a medium room?",
-        "a": "Yes. As a rough guide, a single 12-inch ported sub suits rooms up to about 1,500–2,000 cubic feet. For larger rooms, plan for a bigger sub or two subwoofers."
+        "q": "Is the Klipsch R-12SW good for a medium room?",
+        "a": "Yes. As a rough guide, a budget 12-inch sub suits rooms up to about 1,500 to 2,000 cubic feet. For larger rooms, plan on a bigger sub or two subwoofers."
       },
       {
-        "q": "Does the R-121SW match Klipsch Reference speakers?",
-        "a": "Yes. It is part of Klipsch's Reference line and shares the copper-spun driver styling, so it fits visually with Reference bookshelf, tower and center speakers."
+        "q": "Klipsch R-12SW vs R-120SW: what is the difference?",
+        "a": "Both use a 12-inch copper-spun front-firing woofer. Klipsch quotes the R-12SW at 400 W dynamic power and the R-120SW at 200 W RMS and 400 W peak, so on paper the amps are in the same class. Pick whichever costs less when you buy."
+      },
+      {
+        "q": "What crossover should I use with the R-12SW?",
+        "a": "Set your receiver's crossover to 80 Hz and turn the sub's own low-pass to maximum when using the LFE input, so the receiver controls the handover."
       }
     ]
   },
@@ -593,65 +598,68 @@
     ]
   },
   {
-    "slug": "polk-hts-12",
-    "name": "Polk HTS 12",
+    "slug": "polk-signature-elite-es12",
+    "name": "Polk Signature Elite ES12",
     "brand": "Polk Audio",
     "category": "subwoofer",
-    "amazonQuery": "Polk Audio HTS 12 subwoofer",
-    "priceBand": "$400–$600",
-    "priceTier": 2,
-    "score": 76,
+    "amazonQuery": "Polk Audio Signature Elite ES12 subwoofer",
+    "priceBand": "$850–$950",
+    "priceTier": 3,
+    "score": 78,
     "scores": [
       {
         "label": "Output for the money",
-        "value": 80
-      },
-      {
-        "label": "Low-frequency extension",
         "value": 72
       },
       {
+        "label": "Low-frequency extension",
+        "value": 80
+      },
+      {
         "label": "Build & features",
-        "value": 74
+        "value": 80
       },
       {
         "label": "Ease of setup",
-        "value": 78
+        "value": 80
       }
     ],
-    "summary": "A 12-inch sub with Polk's Power Port and a 200 W RMS amp, a step up from the Monitor XT12 in output and finish for medium rooms.",
-    "verdict": "The HTS 12 is Polk's mid-range **12-inch** sub, with a **200 W RMS (400 W peak)** amp and Polk's **Power Port** venting. The frequency response is not listed here because we could not confirm Polk's figure.\n\nCompare it with the [Polk Monitor XT12](/gear/polk-monitor-xt12/). Same driver size, but double the RMS amp power: 10 × log10(200 ÷ 100) = **3 dB** more headroom. In bass, that is the difference between a sub that strains on a big explosion and one that stays clean.\n\nRoom maths: a 14 × 16 ft room with an 8 ft ceiling is **1,792 cu ft**. As a rough guide, a ported 12-inch with a 200 W amp suits rooms up to about **2,000 cu ft**. Above that, two subs are better than one: two identical subs placed together can add up to about 6 dB, and spread around the room they smooth out peaks and nulls.\n\nThe Power Port is Polk's flared port design, meant to reduce air noise at high levels, which is a common problem with small ports. There is no app or built-in EQ, so use your receiver's [room correction](/glossary/room-correction/) and an 80 Hz [crossover](/glossary/crossover/). Against the [Klipsch R-120SW](/gear/klipsch-r-120sw/), it matches amp power on paper with a nicer finish. More picks are in our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
-    "bestFor": "Medium rooms that want more headroom than a budget 12-inch",
-    "skipIf": "You want app-based EQ or deep extension for a large room",
+    "summary": "A 12-inch long-throw Polk sub with a 300 W Class D amp, dual ports and 360-degree phase control, styled to match Signature Elite speakers and rated by Polk down to 18 Hz.",
+    "verdict": "The Signature Elite ES12 is the sub Polk designed for its [Signature Elite ES20](/gear/polk-signature-elite-es20/) and [ES60](/gear/polk-signature-elite-es60/) speakers. It uses a **12-inch long-throw woofer with a mineral-filled polymer cone**, a **300 W Class D amp**, **dual Power Ports** and a braced cabinet. Polk says it reaches down to **18 Hz**, though it gives no tolerance with that figure.\n\n**Show the maths.** Compare that 18 Hz claim with the 29 Hz rating of the [Klipsch R-120SW](/gear/klipsch-r-120sw/): log2(29 ÷ 18) is about **0.7 octave** deeper. Each octave lower needs about **four times** the cone movement for the same level, which is why a long-throw driver and twin ports matter. On amp power, 10 × log10(300 ÷ 200) = **1.8 dB** more headroom than a 200 W sub.\n\n**Room maths.** A 14 × 18 ft room with an 8 ft ceiling is **2,016 cu ft**. As a rough guide, a ported 12-inch with 300 W suits rooms up to about **2,000–2,500 cu ft**. Beyond that, two subs beat one.\n\n**Setup.** Time-Smart phase control gives **360 degrees** of adjustment and a **4th-order low-pass filter** keeps the top end clean, which helps it blend with your mains at an 80 Hz [crossover](/glossary/crossover/). There is no app, so lean on your receiver's [room correction](/glossary/room-correction/). The catch is value: the [SVS PB-1000 Pro](/gear/svs-pb-1000-pro/) costs about the same and adds app EQ. See our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "bestFor": "Polk Signature Elite systems in medium to large rooms",
+    "skipIf": "You want app-based EQ or the most output per dollar",
     "pros": [
-      "200 W RMS amp, double the Monitor XT12",
-      "Power Port reduces port noise",
-      "12-inch driver suits medium rooms"
+      "12-inch long-throw woofer with dual ports",
+      "300 W Class D amp",
+      "360-degree Time-Smart phase control for easy blending",
+      "Matches the look of Signature Elite speakers"
     ],
     "cons": [
       "No app or built-in room EQ",
-      "Costs more than the similar-power Klipsch R-120SW"
+      "18 Hz figure has no tolerance stated",
+      "Costs about the same as SVS subs with app control"
     ],
     "specs": {
-      "Driver": "12-inch",
-      "Amplifier": "200 W RMS / 400 W peak",
-      "Enclosure": "Front-firing, Power Port",
-      "App/EQ": "None (use your receiver's room correction)"
+      "Driver": "12-inch long-throw, mineral-filled polymer cone",
+      "Amplifier": "300 W Class D",
+      "Frequency response": "Down to 18 Hz (Polk figure, no tolerance stated)",
+      "Enclosure": "Front-firing, dual Power Ports, FEA-optimized internal bracing",
+      "App/EQ": "None; 360-degree Time-Smart phase control and 4th-order low-pass filter"
     },
     "keySpecs": [
       "Driver",
       "Amplifier",
-      "Enclosure",
-      "App/EQ"
+      "Frequency response",
+      "Enclosure"
     ],
     "faqs": [
       {
-        "q": "Polk HTS 12 vs Monitor XT12: is it worth the upgrade?",
-        "a": "If your room is over about 1,500 cubic feet, yes. The HTS 12 has double the RMS amp power, about 3 dB more headroom, and Polk's Power Port for cleaner output at high levels."
+        "q": "Does the Polk ES12 really reach 18 Hz?",
+        "a": "Polk quotes 18 Hz as the low end but gives no tolerance, so treat it as a limit rather than a flat-response figure. In a medium room with corner or wall placement, room gain helps the deepest notes."
       },
       {
-        "q": "What is Polk's Power Port?",
-        "a": "It is Polk's flared port design, intended to reduce air turbulence and port noise at high volumes compared with a simple round port."
+        "q": "Will the ES12 work with non-Polk speakers?",
+        "a": "Yes. It connects to any receiver's subwoofer output, and the 360-degree phase control and low-pass filter help it blend with other brands. It is styled to match Polk's Signature Elite range."
       }
     ]
   },
@@ -683,7 +691,7 @@
       }
     ],
     "summary": "A long-running budget 10-inch sub with a 50 W RMS amp and speaker-level inputs that adds basic bass to small rooms and older stereo setups.",
-    "verdict": "The PSW10 is the classic entry-level sub: a **10-inch driver** with a **50 W RMS (100 W peak)** amp. It has both line-level and speaker-level inputs, so it works with a modern receiver or an older stereo amp without a sub output.\n\nThe maths explains its limits. Compared with a 200 W sub such as the [Klipsch R-120SW](/gear/klipsch-r-120sw/), the PSW10 has 10 × log10(200 ÷ 50) = **6 dB** less amp headroom. Its 10-inch cone also has about (10 ÷ 12)² = 0.69× the area of a 12-inch, roughly 3 dB less output at the same cone travel. Add those up and the gap at high levels is large.\n\nRoom maths: a 10 × 12 ft room with an 8 ft ceiling is **960 cu ft**. As a rough guide, the PSW10 suits small rooms, bedrooms and offices under about **1,000 cu ft**, played at moderate levels. In a bigger room, it runs out of steam first on deep movie effects, because each octave lower needs **four times** the cone movement for the same level.\n\nSet a higher [crossover](/glossary/crossover/) only if your speakers are very small; otherwise 80 Hz is right. If your budget can stretch, the [Dayton Audio SUB-1200](/gear/dayton-sub-1200/) adds a 12-inch driver and twice the rated amp power. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
+    "verdict": "The PSW10 is the classic entry-level sub: a **10-inch driver** with a **50 W RMS (100 W peak)** amp. It has both line-level and speaker-level inputs, so it works with a modern receiver or an older stereo amp without a sub output.\n\nThe maths explains its limits. Compared with a 200 W sub such as the [Klipsch R-120SW](/gear/klipsch-r-120sw/), the PSW10 has 10 × log10(200 ÷ 50) = **6 dB** less amp headroom. Its 10-inch cone also has about (10 ÷ 12)² = 0.69× the area of a 12-inch, roughly 3 dB less output at the same cone travel. Add those up and the gap at high levels is large.\n\nRoom maths: a 10 × 12 ft room with an 8 ft ceiling is **960 cu ft**. As a rough guide, the PSW10 suits small rooms, bedrooms and offices under about **1,000 cu ft**, played at moderate levels. In a bigger room, it runs out of steam first on deep movie effects, because each octave lower needs **four times** the cone movement for the same level.\n\nSet a higher [crossover](/glossary/crossover/) only if your speakers are very small; otherwise 80 Hz is right. If your budget can stretch, the [Dayton Audio Classic CS1200](/gear/dayton-classic-cs1200/) adds a 12-inch driver and a 200 W amp against the PSW10's 50 W RMS. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
     "bestFor": "Small rooms and older stereo systems",
     "skipIf": "Your room is over about 1,000 cubic feet or you want movie-level bass",
     "pros": [
@@ -720,67 +728,68 @@
     ]
   },
   {
-    "slug": "monolith-m-12-v2",
-    "name": "Monoprice Monolith 12 Subwoofer",
+    "slug": "monolith-m-10-v2",
+    "name": "Monolith M-10 V2 Subwoofer",
     "brand": "Monoprice",
     "category": "subwoofer",
-    "amazonQuery": "Monoprice Monolith 12 inch THX subwoofer",
-    "priceBand": "$500–$700",
-    "priceTier": 2,
-    "score": 81,
+    "amazonQuery": "Monolith M-10 V2 THX subwoofer",
+    "priceBand": "$650–$750",
+    "priceTier": 3,
+    "score": 80,
     "scores": [
       {
         "label": "Output for the money",
-        "value": 88
+        "value": 84
       },
       {
         "label": "Low-frequency extension",
-        "value": 78
+        "value": 76
       },
       {
         "label": "Build & features",
-        "value": 80
+        "value": 82
       },
       {
         "label": "Ease of setup",
         "value": 78
       }
     ],
-    "summary": "A THX Certified Select 12-inch sub with a 500 W RMS amp and balanced inputs, offering serious output for the money in rooms around 2,000 cubic feet.",
-    "verdict": "The Monolith 12 pairs a **12-inch driver** with a **500 W RMS** amplifier and carries **THX Certified Select** status. THX Select targets rooms of about **2,000 cu ft**, which gives you a ready-made room-size check. A 15 × 17 ft room with an 8 ft ceiling is 2,040 cu ft; if your room is near that, the certification says this sub can hit THX's target levels there.\n\nNow the power maths. Against a 200 W budget sub like the [Klipsch R-120SW](/gear/klipsch-r-120sw/), 10 × log10(500 ÷ 200) = **4 dB** more amp headroom. Against the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) at 325 W, it is about **1.9 dB** more. Amp power is not the whole story, since driver excursion and cabinet design set the real limit, but it signals how hard the sub can be pushed.\n\nBass gets harder as it gets lower: holding the same level an octave down needs **four times** the cone movement, which is why amp headroom and a large driver matter most in the 20–40 Hz range.\n\nIt also has **balanced XLR** inputs alongside RCA, handy for long cable runs. There is no app, so use your receiver's [room correction](/glossary/room-correction/) and an 80 Hz [crossover](/glossary/crossover/). It is a strong value contender in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
-    "bestFor": "Rooms around 2,000 cubic feet that want maximum output per dollar",
-    "skipIf": "You want app-based EQ and a compact, furniture-grade cabinet",
+    "summary": "A THX Certified Select 10-inch sub with a 500 W RMS amp, an HDF cabinet and a port plug for sealed mode, rated for rooms up to 2,000 cubic feet.",
+    "verdict": "The Monolith M-10 V2 packs a **10-inch driver** and a **500 W RMS (900 W peak) Class D amp** into a braced **HDF cabinet**, and carries **THX Certified Select** status. THX Select covers rooms up to **2,000 cu ft** with a **10–12 ft** viewing distance, so you get a ready-made room check: a 15 × 16 ft room with an 8 ft ceiling is **1,920 cu ft**, right on target.\n\n**Show the maths.** Against the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) at 325 W, 10 × log10(500 ÷ 325) = **1.9 dB** more amp headroom. The 10-inch cone is the trade-off: (10 ÷ 12)² = **0.69×** the area of a 12-inch, about 1.6 dB less output at the same excursion. The big amp and THX tuning are there to make up that gap.\n\n**Ported or sealed.** The single port comes with a **foam plug**. Ported gives more output in the deepest octave; sealed rolls off more gently, which suits a room where the sub sits near a corner and room gain lifts the low end. Bass gets harder as it goes lower: each octave down needs about **four times** the cone movement.\n\nYou also get **balanced XLR** as well as RCA inputs, handy for long runs. There is no app, so use your receiver's [room correction](/glossary/room-correction/) and an 80 Hz [crossover](/glossary/crossover/). It is a strong value pick in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "bestFor": "Rooms up to about 2,000 cubic feet that want THX-level output from a compact box",
+    "skipIf": "You want app-based EQ or a 12-inch driver for a larger room",
     "pros": [
-      "THX Certified Select for rooms around 2,000 cu ft",
-      "500 W RMS amplifier",
-      "Balanced XLR and RCA inputs",
-      "Strong output for the price"
+      "THX Certified Select for rooms up to 2,000 cu ft",
+      "500 W RMS / 900 W peak amplifier",
+      "Port plug lets you run it ported or sealed",
+      "Balanced XLR and RCA inputs"
     ],
     "cons": [
       "No app or built-in room EQ",
-      "Large, heavy cabinet",
+      "10-inch driver has less cone area than 12-inch rivals",
       "Plainer finish than SVS or REL"
     ],
     "specs": {
-      "Driver": "12-inch",
-      "Amplifier": "500 W RMS",
-      "Inputs": "Balanced XLR and line-level RCA",
+      "Driver": "10-inch",
+      "Amplifier": "500 W RMS / 900 W peak, Class D with TI 48-bit DSP",
+      "Enclosure": "Vented HDF cabinet with internal bracing; foam plug for sealed mode",
+      "Inputs": "Balanced XLR and RCA",
       "App/EQ": "None (use your receiver's room correction)"
     },
     "keySpecs": [
       "Driver",
       "Amplifier",
-      "Inputs",
-      "App/EQ"
+      "Enclosure",
+      "Inputs"
     ],
     "faqs": [
       {
         "q": "What does THX Certified Select mean for a subwoofer?",
-        "a": "THX Select certification targets rooms of roughly 2,000 cubic feet with seating about 10 to 12 feet from the screen. A certified sub met THX's output and distortion criteria for that room size."
+        "a": "THX Select targets rooms up to about 2,000 cubic feet with seats 10 to 12 feet from the screen. A certified sub met THX's output and distortion criteria for reference level in that size of room."
       },
       {
-        "q": "Monolith 12 vs SVS SB-1000 Pro: which is better?",
-        "a": "The Monolith has a bigger 500 W amp and THX certification for more output per dollar. The SVS is smaller, sealed and adds app-based EQ, making it easier to place and tune in a living room."
+        "q": "Should I run the Monolith M-10 V2 ported or sealed?",
+        "a": "Ported gives more output in the deepest octave, which suits larger rooms. Sealed, with the foam plug in, rolls off more gently and often works better near a corner in a smaller room."
       }
     ]
   },
@@ -849,67 +858,68 @@
     ]
   },
   {
-    "slug": "dayton-sub-1200",
-    "name": "Dayton Audio SUB-1200",
+    "slug": "dayton-classic-cs1200",
+    "name": "Dayton Audio Classic CS1200",
     "brand": "Dayton Audio",
     "category": "subwoofer",
-    "amazonQuery": "Dayton Audio SUB-1200 12 inch subwoofer",
-    "priceBand": "$150–$250",
+    "amazonQuery": "Dayton Audio Classic CS1200 subwoofer",
+    "priceBand": "$200–$275",
     "priceTier": 1,
-    "score": 71,
+    "score": 72,
     "scores": [
       {
         "label": "Output for the money",
-        "value": 82
+        "value": 80
       },
       {
         "label": "Low-frequency extension",
-        "value": 66
+        "value": 64
       },
       {
         "label": "Build & features",
-        "value": 62
+        "value": 70
       },
       {
         "label": "Ease of setup",
-        "value": 76
+        "value": 80
       }
     ],
-    "summary": "One of the cheapest 12-inch subs from a known brand, with a 100 W RMS amp and both line- and speaker-level inputs, for small and medium rooms on a tight budget.",
-    "verdict": "The SUB-1200 is a **12-inch** sub with a **100 W RMS** amp at a price many brands charge for a 10-inch. Dayton rates it at **25–140 Hz**.\n\nThe driver size is the value story. Cone area scales with the square of diameter: (12 ÷ 10)² = **1.44×** the area of a 10-inch, about 3 dB more output at the same cone travel. That is the same gain as doubling amp power, for free.\n\nThe amp is the limit. Compared with a 200 W sub like the [Klipsch R-120SW](/gear/klipsch-r-120sw/), 10 × log10(200 ÷ 100) = **3 dB** less headroom. In practice that means the SUB-1200 sounds full at moderate levels but compresses on big movie effects in a larger room.\n\nRoom maths: a 12 × 14 ft room with an 8 ft ceiling is **1,344 cu ft**. As a rough guide, this sub suits rooms up to about **1,500 cu ft**. Its 25 Hz lower limit is a broad manufacturer figure, so expect the deepest notes to be lighter than on SVS subs rated at ±3 dB.\n\nIt has both line-level and speaker-level inputs, so it works with receivers and older stereo amps. Set your [crossover](/glossary/crossover/) to 80 Hz and run your receiver's [room correction](/glossary/room-correction/). It is a solid choice in our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
+    "summary": "A budget 12-inch Dayton sub with a 200 W Class-D amp, a braced cabinet and line, LFE and speaker-level inputs, backed by a five-year warranty.",
+    "verdict": "The Classic CS1200 is Dayton's current budget **12-inch** sub and replaces the SUB-1200 in our list. It uses a **200 W Class-D amp** in a **rigid, braced cabinet**, with **stereo RCA, LFE and speaker-level inputs** and auto-on. Dayton backs it with a **five-year warranty**.\n\n**Show the maths.** Cone area scales with the square of diameter: (12 ÷ 10)² = **1.44×** the area of a 10-inch, about 3 dB more output at the same cone travel. That is the same gain as doubling amp power. Against the 100 W rating of the old SUB-1200, 10 × log10(200 ÷ 100) = **3 dB** more amp headroom too. Dayton does not say whether the 200 W is a continuous figure, so treat it as a ceiling.\n\n**Room maths.** A 12 × 15 ft room with an 8 ft ceiling is **1,440 cu ft**. As a rough guide, a budget 12-inch with this amp suits rooms up to about **1,500 cu ft**. Each octave lower needs about **four times** the cone movement, so expect solid punch at 40–80 Hz and a lighter deepest octave than SVS subs. Dayton publishes no frequency response on the listing.\n\nThe speaker-level inputs mean it also works with stereo amps that have no sub output. Set your [crossover](/glossary/crossover/) to 80 Hz and run your receiver's [room correction](/glossary/room-correction/). If you can stretch, the [Klipsch R-120SW](/gear/klipsch-r-120sw/) publishes a 29 Hz rating. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
     "bestFor": "Small to medium rooms on the tightest budget",
-    "skipIf": "You want high output at movie levels in a large room",
+    "skipIf": "You want published low-frequency specs or high output in a large room",
     "pros": [
-      "12-inch driver at a 10-inch price",
-      "Line-level and speaker-level inputs",
-      "Simple setup"
+      "12-inch driver at a budget price",
+      "Line, LFE and speaker-level inputs with auto-on",
+      "Five-year warranty",
+      "Swappable grille"
     ],
     "cons": [
-      "100 W RMS amp limits headroom",
+      "No frequency response on the listing",
       "No app or built-in EQ",
-      "Basic cabinet finish"
+      "200 W amp limits headroom in larger rooms"
     ],
     "specs": {
       "Driver": "12-inch",
-      "Amplifier": "100 W RMS",
-      "Frequency response": "25–140 Hz (manufacturer)",
-      "Enclosure": "Front-firing, ported",
-      "Inputs": "Line-level RCA and speaker-level"
+      "Amplifier": "200 W Class-D",
+      "Enclosure": "Rigid, braced cabinet with swappable grille",
+      "Inputs": "Stereo RCA, LFE and speaker-level; auto-on",
+      "App/EQ": "None (simple on-board controls)"
     },
     "keySpecs": [
       "Driver",
       "Amplifier",
-      "Frequency response",
-      "Inputs"
+      "Inputs",
+      "Enclosure"
     ],
     "faqs": [
       {
-        "q": "Is the Dayton Audio SUB-1200 good for home theater?",
-        "a": "For small and medium rooms on a budget, yes. Its 12-inch driver delivers more output than most 10-inch subs at the price, but the 100 W amp limits headroom in larger rooms."
+        "q": "Is the Dayton Audio Classic CS1200 good for home theater?",
+        "a": "For small and medium rooms on a budget, yes. Its 12-inch driver and 200 W amp give more output than most 10-inch subs at the price, but it will run out of headroom first in rooms much over 1,500 cubic feet."
       },
       {
-        "q": "Can the SUB-1200 connect to a stereo amp?",
-        "a": "Yes. It has speaker-level inputs as well as line-level RCA, so it works with amps that have no subwoofer output."
+        "q": "Can the CS1200 connect to a stereo amp?",
+        "a": "Yes. It has speaker-level inputs as well as stereo RCA and LFE, so it works with amps that have no subwoofer output."
       }
     ]
   },
@@ -1002,7 +1012,7 @@
       }
     ],
     "summary": "A budget 10-inch sub with a 115 W amp that pairs with Sony's Core speakers, good for small rooms and first systems.",
-    "verdict": "The SA-CS9 is a **10-inch** sub with a **115 W** amp, designed to pair with Sony's Core speakers such as the [Sony SS-CS3](/gear/sony-ss-cs3/) towers and [Sony SS-CS5](/gear/sony-ss-cs5/) bookshelves. It is a simple, front-firing ported design.\n\nDo the driver maths against a 12-inch: (10 ÷ 12)² = **0.69×** the cone area, roughly 3 dB less output at the same cone travel. For a small room that does not matter much. For a larger room, it means the sub reaches its limits sooner on deep movie effects, because each octave lower needs **four times** the cone movement for the same level.\n\nRoom maths: an 11 × 13 ft room with an 8 ft ceiling is **1,144 cu ft**. As a rough guide, a budget 10-inch sub suits rooms up to about **1,200 cu ft** at movie levels. Compared with the 50 W [Polk PSW10](/gear/polk-psw10/), the Sony's 115 W amp gives 10 × log10(115 ÷ 50) = **3.6 dB** more headroom.\n\nThere is no app or EQ, so lean on your receiver's [room correction](/glossary/room-correction/). Set the [crossover](/glossary/crossover/) at 80 Hz, or a little higher if your speakers are very small. If your room is bigger, the [Dayton Audio SUB-1200](/gear/dayton-sub-1200/) brings a 12-inch driver at a similar price. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
+    "verdict": "The SA-CS9 is a **10-inch** sub with a **115 W** amp, designed to pair with Sony's Core speakers such as the [Sony SS-CS3](/gear/sony-ss-cs3/) towers and [Sony SS-CS5](/gear/sony-ss-cs5/) bookshelves. It is a simple, front-firing ported design.\n\nDo the driver maths against a 12-inch: (10 ÷ 12)² = **0.69×** the cone area, roughly 3 dB less output at the same cone travel. For a small room that does not matter much. For a larger room, it means the sub reaches its limits sooner on deep movie effects, because each octave lower needs **four times** the cone movement for the same level.\n\nRoom maths: an 11 × 13 ft room with an 8 ft ceiling is **1,144 cu ft**. As a rough guide, a budget 10-inch sub suits rooms up to about **1,200 cu ft** at movie levels. Compared with the 50 W [Polk PSW10](/gear/polk-psw10/), the Sony's 115 W amp gives 10 × log10(115 ÷ 50) = **3.6 dB** more headroom.\n\nThere is no app or EQ, so lean on your receiver's [room correction](/glossary/room-correction/). Set the [crossover](/glossary/crossover/) at 80 Hz, or a little higher if your speakers are very small. If your room is bigger, the [Dayton Audio Classic CS1200](/gear/dayton-classic-cs1200/) brings a 12-inch driver for a little more. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
     "bestFor": "Small rooms and Sony Core speaker systems",
     "skipIf": "Your room is over about 1,200 cubic feet",
     "pros": [
@@ -1065,7 +1075,7 @@
       }
     ],
     "summary": "A compact budget 10-inch Yamaha sub with a modest 50 W amp, best for small rooms and Yamaha receiver systems at moderate volume.",
-    "verdict": "The NS-SW100 is a **10-inch** sub with a **50 W** amp, sized for small rooms and Yamaha receiver bundles such as the [Yamaha RX-V4A](/gear/yamaha-rx-v4a/).\n\nThe amp is the limiting number. Compared with the 115 W [Sony SA-CS9](/gear/sony-sa-cs9/), 10 × log10(115 ÷ 50) = **3.6 dB** less headroom. Compared with a 200 W sub like the [Klipsch R-120SW](/gear/klipsch-r-120sw/), it is **6 dB** less, which is the same as a quarter of the power. At moderate TV levels, that gap is small. On loud action scenes, the Yamaha runs out of headroom first.\n\nRoom maths: a 10 × 12 ft room with an 8 ft ceiling is **960 cu ft**. As a rough guide, a 10-inch sub with a 50 W amp suits rooms under about **1,000 cu ft**, played at moderate levels. The deepest bass is hardest: each octave lower needs **four times** the cone movement for the same level, so a small amp runs out first on the lowest notes.\n\nSet the receiver's [crossover](/glossary/crossover/) at 80 Hz and let YPAO or your receiver's [room correction](/glossary/room-correction/) set the level. If your room is bigger than a bedroom or office, the [Dayton Audio SUB-1200](/gear/dayton-sub-1200/) is a better buy at a similar price. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
+    "verdict": "The NS-SW100 is a **10-inch** sub with a **50 W** amp, sized for small rooms and Yamaha receiver bundles such as the [Yamaha RX-V4A](/gear/yamaha-rx-v4a/).\n\nThe amp is the limiting number. Compared with the 115 W [Sony SA-CS9](/gear/sony-sa-cs9/), 10 × log10(115 ÷ 50) = **3.6 dB** less headroom. Compared with a 200 W sub like the [Klipsch R-120SW](/gear/klipsch-r-120sw/), it is **6 dB** less, which is the same as a quarter of the power. At moderate TV levels, that gap is small. On loud action scenes, the Yamaha runs out of headroom first.\n\nRoom maths: a 10 × 12 ft room with an 8 ft ceiling is **960 cu ft**. As a rough guide, a 10-inch sub with a 50 W amp suits rooms under about **1,000 cu ft**, played at moderate levels. The deepest bass is hardest: each octave lower needs **four times** the cone movement for the same level, so a small amp runs out first on the lowest notes.\n\nSet the receiver's [crossover](/glossary/crossover/) at 80 Hz and let YPAO or your receiver's [room correction](/glossary/room-correction/) set the level. If your room is bigger than a bedroom or office, the [Dayton Audio Classic CS1200](/gear/dayton-classic-cs1200/) is a better buy for a little more. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
     "bestFor": "Small rooms with Yamaha receivers at moderate volume",
     "skipIf": "You want movie-level bass in a room over about 1,000 cubic feet",
     "pros": [
@@ -1129,7 +1139,7 @@
       }
     ],
     "summary": "A budget 10-inch sub with a nicer cabinet finish than most at its price, built to pair with Fluance speaker systems in small rooms.",
-    "verdict": "The DB10 is Fluance's **10-inch** front-firing sub, designed to complete a Fluance system such as the [Fluance Elite 5.1](/gear/fluance-elite-51/). Its cabinet finish is a step above most budget subs. We have not listed amp power or frequency response here because we could not confirm Fluance's figures.\n\nDriver size sets the room. A 10-inch cone has about (10 ÷ 12)² = **0.69×** the area of a 12-inch, roughly 3 dB less output at the same cone travel. In bass, 3 dB is equal to doubling amplifier power, so a 12-inch at the same price will usually play louder.\n\nRoom maths: an 11 × 13 ft room with an 8 ft ceiling is **1,144 cu ft**. As a rough guide, a budget 10-inch sub suits rooms up to about **1,200 cu ft** at movie levels. Below about 30 Hz, small subs reach their limits fastest, because each octave lower needs **four times** the cone movement for the same level.\n\nSet your receiver's [crossover](/glossary/crossover/) at 80 Hz, place the sub near the front of the room, and run your receiver's [room correction](/glossary/room-correction/). If the room is bigger than a bedroom or small den, the [Dayton Audio SUB-1200](/gear/dayton-sub-1200/) adds a 12-inch driver. More options are in our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
+    "verdict": "The DB10 is Fluance's **10-inch** front-firing sub, designed to complete a Fluance system such as the [Fluance Elite 5.1](/gear/fluance-elite-51/). Its cabinet finish is a step above most budget subs. We have not listed amp power or frequency response here because we could not confirm Fluance's figures.\n\nDriver size sets the room. A 10-inch cone has about (10 ÷ 12)² = **0.69×** the area of a 12-inch, roughly 3 dB less output at the same cone travel. In bass, 3 dB is equal to doubling amplifier power, so a 12-inch at the same price will usually play louder.\n\nRoom maths: an 11 × 13 ft room with an 8 ft ceiling is **1,144 cu ft**. As a rough guide, a budget 10-inch sub suits rooms up to about **1,200 cu ft** at movie levels. Below about 30 Hz, small subs reach their limits fastest, because each octave lower needs **four times** the cone movement for the same level.\n\nSet your receiver's [crossover](/glossary/crossover/) at 80 Hz, place the sub near the front of the room, and run your receiver's [room correction](/glossary/room-correction/). If the room is bigger than a bedroom or small den, the [Dayton Audio Classic CS1200](/gear/dayton-classic-cs1200/) adds a 12-inch driver. More options are in our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
     "bestFor": "Small rooms and Fluance speaker systems",
     "skipIf": "Your room is over about 1,200 cubic feet",
     "pros": [
