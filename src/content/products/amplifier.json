@@ -173,8 +173,8 @@
     ],
     "specs": {
       "Channels": "7",
-      "Power (rated)": "125 W/ch into 8 Ω (manufacturer rating)",
-      "Class": "Not confirmed: check current listing",
+      "Power (rated)": "80 W/ch into 8 Ω (all channels driven); 110 W/ch (2 channels driven)",
+      "Class": "AB",
       "Inputs": "Line-level RCA"
     },
     "keySpecs": [
@@ -237,9 +237,9 @@
     ],
     "specs": {
       "Channels": "3",
-      "Power (rated)": "Not confirmed: check current listing",
-      "Class": "Not confirmed: check current listing",
-      "Inputs": "Not confirmed: check current listing"
+      "Power (rated)": "140 W/ch into 8 Ω (all channels driven)",
+      "Class": "AB",
+      "Inputs": "Line-level RCA"
     },
     "keySpecs": [
       "Channels",

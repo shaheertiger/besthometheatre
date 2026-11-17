@@ -46,7 +46,7 @@
       "Conductor": "99.9% oxygen-free copper",
       "Length": "Multiple spool lengths (100 ft common)",
       "Jacket": "PVC with polarity marking",
-      "In-wall rated": "CL2-rated versions sold (check listing)",
+      "In-wall rated": "CL2-rated versions sold",
       "Suggested max run": "About 80 ft at 8 Ω, 40 ft at 4 Ω (5% rule)"
     },
     "keySpecs": [
@@ -110,7 +110,7 @@
     ],
     "specs": {
       "Gauge": "16 AWG, 2-conductor",
-      "Conductor": "Check listing (copper vs copper-clad aluminum)",
+      "Conductor": "Varies by listing (copper vs copper-clad aluminum)",
       "Length": "Multiple spool lengths (100 ft common)",
       "Jacket": "Clear jacket with polarity marking",
       "In-wall rated": "Not sold as CL2/CL3-rated",
@@ -180,7 +180,7 @@
       "Conductor": "OFC on Pro Series listings (CCA versions also sold)",
       "Length": "Multiple spool lengths",
       "Jacket": "PVC with polarity marking",
-      "In-wall rated": "CL2/CL3-rated versions sold (check listing)",
+      "In-wall rated": "CL2/CL3-rated versions sold",
       "Suggested max run": "About 80 ft at 8 Ω, 40 ft at 4 Ω if copper (5% rule)"
     },
     "keySpecs": [
@@ -247,7 +247,7 @@
       "Conductor": "Oxygen-free pure bare copper",
       "Length": "Multiple spool lengths (100 ft common)",
       "Jacket": "PVC with polarity marking",
-      "In-wall rated": "CL2-rated versions sold (check listing)",
+      "In-wall rated": "CL2-rated versions sold",
       "Suggested max run": "About 125 ft at 8 Ω, 60 ft at 4 Ω (5% rule)"
     },
     "keySpecs": [
@@ -311,10 +311,10 @@
     ],
     "specs": {
       "Gauge": "12 AWG, 2-conductor",
-      "Conductor": "Check listing (KnuKonceptz sells OFC and CCA wire)",
+      "Conductor": "Varies by listing (KnuKonceptz sells OFC and CCA wire)",
       "Length": "Multiple spool lengths",
       "Jacket": "Flexible PVC jacket",
-      "In-wall rated": "Check listing for CL rating",
+      "In-wall rated": "Varies by listing (CL rating)",
       "Suggested max run": "About 125 ft at 8 Ω if copper; about 80 ft if CCA (5% rule)"
     },
     "keySpecs": [
@@ -377,7 +377,7 @@
       "Useless with spring-clip terminals"
     ],
     "specs": {
-      "Gauge": "Fits common speaker wire gauges (check listing for 12 AWG fit)",
+      "Gauge": "Fits common speaker wire gauges",
       "Conductor": "Gold-plated contacts, screw-lock terminal",
       "Length": "12 pairs (24 plugs)",
       "Jacket": "Color-coded red/black housings",

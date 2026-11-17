@@ -608,7 +608,7 @@
     ],
     "specs": {
       "Channels": "5.2",
-      "Power (rated)": "80 W/ch (8 Ω, 20 Hz–20 kHz, 0.06% THD, 2 ch driven)",
+      "Power (rated)": "80 W/ch (6 Ω, 20 Hz–20 kHz, 2 ch driven)",
       "HDMI inputs": "4 in / 1 out",
       "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
       "Room correction": "YPAO",
@@ -1158,6 +1158,7 @@
     ],
     "specs": {
       "Channels": "9.2",
+      "Power (rated)": "100 W/ch (8 Ω, manufacturer rating)",
       "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
       "Room correction": "Dirac Live",
       "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.4 or 7.1.2",
@@ -1178,70 +1179,6 @@
       {
         "q": "How many height speakers can the VSX-LX305 power?",
         "a": "Up to four, in a 5.1.4 layout using all nine amplified channels. Alternatively, you can run 7.1.2 with two height speakers."
-      }
-    ]
-  },
-  {
-    "slug": "pioneer-vsx-535",
-    "name": "Pioneer VSX-535",
-    "brand": "Pioneer",
-    "category": "receiver",
-    "amazonQuery": "Pioneer VSX-535 receiver",
-    "priceBand": "$250–$400",
-    "priceTier": 1,
-    "score": 58,
-    "scores": [
-      {
-        "label": "Power & channels",
-        "value": 56
-      },
-      {
-        "label": "Room correction",
-        "value": 58
-      },
-      {
-        "label": "Video & HDMI",
-        "value": 54
-      },
-      {
-        "label": "Streaming & ease of use",
-        "value": 64
-      }
-    ],
-    "summary": "An entry-level Pioneer receiver for a basic surround setup; check the current listing for channel count and HDMI support, because newer budget models offer more.",
-    "verdict": "The VSX-535 sits at the entry end of Pioneer's lineup. We have kept its spec sheet short on purpose: Pioneer's published specifications for this model are hard to confirm, and our rule is to leave a number out rather than guess. Before you buy, check the listing for three things: the number of amplified channels, whether it decodes Dolby Atmos, and whether its HDMI ports pass 4K/120.\n\nHere is the maths to run once you have those numbers. Five amplified channels means 5.1 and nothing more. Seven channels lets you run a real **5.1.2** [Dolby Atmos](/glossary/dolby-atmos/) layout. For power, look for a rating at **8 Ω, 20 Hz–20 kHz, with two channels driven**. A figure quoted at 6 Ω, 1 kHz or 10% THD will look bigger and cannot be compared with Denon or Yamaha ratings.\n\nThen check your speakers' [sensitivity](/glossary/speaker-sensitivity/). Loudness at 1 m = sensitivity + 10 × log10(watts), and you lose roughly 9.5 dB by a 3 m seat. With an entry receiver, efficient speakers of 88 dB or more and a powered sub do most of the heavy lifting.\n\nIn most cases, a current budget model is the safer buy. The [Denon AVR-S770H](/gear/denon-avr-s770h/) gives you seven channels, Atmos and 8K-ready HDMI. See our [best budget home theater receiver](/best-budget-home-theater-receiver/) list for alternatives.",
-    "bestFor": "Basic surround setups where the price is the deciding factor",
-    "skipIf": "You want verified modern features like Atmos height channels and 4K/120 pass-through",
-    "pros": [
-      "Low entry price",
-      "Familiar Pioneer brand and simple operation",
-      "Fine for a basic setup with efficient speakers and a powered subwoofer"
-    ],
-    "cons": [
-      "Published specs are hard to confirm; check the listing carefully",
-      "Newer budget receivers offer more channels and modern HDMI",
-      "Unlikely to suit a growing Atmos system"
-    ],
-    "specs": {
-      "Channels": "Not confirmed: check current listing",
-      "Power (rated)": "Not confirmed: check current listing",
-      "8K/4K120 HDMI": "Not confirmed: check current listing",
-      "Atmos/DTS:X": "Not confirmed: check current listing"
-    },
-    "keySpecs": [
-      "Channels",
-      "Power (rated)",
-      "8K/4K120 HDMI",
-      "Atmos/DTS:X"
-    ],
-    "faqs": [
-      {
-        "q": "Is the Pioneer VSX-535 good for home theater?",
-        "a": "It can run a basic surround system, but check the listing for its channel count, Dolby Atmos support and HDMI capabilities first. For a similar budget, current models like the Denon AVR-S770H offer verified 5.1.2 Atmos and 4K/120 pass-through."
-      },
-      {
-        "q": "What should I check before buying an entry-level receiver?",
-        "a": "Confirm the number of amplified channels, whether it decodes Dolby Atmos and DTS:X, whether HDMI passes 4K/120 for consoles, and whether power is rated at 8 ohms across 20 Hz–20 kHz with two channels driven."
       }
     ]
   }

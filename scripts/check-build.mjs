@@ -26,7 +26,7 @@ for (const f of files) {
   for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
     try { JSON.parse(m[1]); } catch (e) { problems.push(`Invalid JSON-LD on ${page}: ${e.message}`); }
   }
-  const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
+  const title = (html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '').replace(/&amp;/g, '&').replace(/&#39;/g, "'");
   const desc = html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? '';
   const h1s = (html.match(/<h1[\s>]/g) || []).length;
   if (!title) problems.push(`Missing <title> on ${page}`);

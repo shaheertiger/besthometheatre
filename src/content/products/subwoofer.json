@@ -955,13 +955,11 @@
     ],
     "specs": {
       "Driver": "12-inch",
-      "Amplifier": "Not confirmed: check current listing",
       "Inputs": "LFE/line-level RCA",
       "App/EQ": "ELAC SUB Control app (Bluetooth) with Auto EQ"
     },
     "keySpecs": [
       "Driver",
-      "Amplifier",
       "Inputs",
       "App/EQ"
     ],

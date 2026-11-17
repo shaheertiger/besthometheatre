@@ -246,10 +246,10 @@
     ],
     "specs": {
       "Outlets": "8",
-      "Joule rating": "Varies by VII model (check listing)",
+      "Joule rating": "Varies by VII model",
       "Filtering": "PowerTrue power-line noise filtering",
       "Form factor": "Power strip with braided cord and Omniport USB charging",
-      "Coax/Ethernet protection": "Varies by VII model (check listing)",
+      "Coax/Ethernet protection": "Varies by VII model",
       "Rating": "15 A at 120 V (1,800 W)"
     },
     "keySpecs": [

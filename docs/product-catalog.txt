@@ -58,7 +58,6 @@ onkyo-tx-nr6100|Onkyo TX-NR6100|Onkyo|receiver|nr6100|Onkyo TX-NR6100 7.2 receiv
 onkyo-tx-nr5100|Onkyo TX-NR5100|Onkyo|receiver|nr5100|Onkyo TX-NR5100 7.2 receiver
 onkyo-tx-rz50|Onkyo TX-RZ50|Onkyo|receiver|rz50|Onkyo TX-RZ50 9.2 receiver
 pioneer-vsx-lx305|Pioneer VSX-LX305|Pioneer|receiver|lx305|Pioneer VSX-LX305 9.2 receiver
-pioneer-vsx-535|Pioneer VSX-535|Pioneer|receiver|vsx-535|Pioneer VSX-535 receiver
 # --- amplifiers
 monoprice-monolith-7x200|Monoprice Monolith 7x200 Amplifier|Monoprice|amplifier|monolith,7x200|Monoprice Monolith 7x200 multi channel amplifier
 emotiva-basx-a-700|Emotiva BasX A-700|Emotiva|amplifier|a-700|Emotiva BasX A-700 amplifier
