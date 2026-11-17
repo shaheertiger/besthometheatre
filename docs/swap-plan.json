@@ -1,0 +1,746 @@
+{
+ "swaps": [
+  {
+   "old": "emotiva-basx-a3",
+   "new": "outlaw-audio-5000x",
+   "name": "Outlaw Audio 5000x",
+   "brand": "Outlaw Audio",
+   "category": "amplifier",
+   "asin": "B08G9RGJCL",
+   "amazonQuery": "Outlaw Audio 5000x 5-channel amplifier",
+   "amazonTitle": "Outlaw Audio 5000x 5-Channel Home Theater Power Amplifier, 120W x 5 at 8 Ohms, 180W x 5 at 4 Ohms, Balanced XLR and RCA Inputs, 12V Trigger, Black",
+   "amazonFeatures": [
+    "Built for Home Theater: Powers a 5.1 system, or adds amplification for the front and surround channels of a larger setup. Use your AV receiver as a preamp and get more control, detail and dynamics than its built-in amplifiers can deliver.",
+    "120W x 5 Continuous Power: 120 watts RMS per channel into 8 ohms and 180 watts into 4 ohms, 20Hz to 20kHz, under 0.02% THD. High-current design for demanding speakers and dynamic movie soundtracks.",
+    "Balanced XLR and RCA Inputs: Balanced XLR inputs with common mode rejection, plus differential-sensing RCA inputs designed to reject hum. A 12V trigger turns the amp on and off with your receiver.",
+    "Isolated Channel Design: Each of the 5 channels has its own power supply rectification, a modular audio path and protection relays. Uses a standard detachable IEC C13 power cord, compatible with right-angle adapters. Depth with cord: 18 inches.",
+    "5-Year Warranty from Outlaw Audio: Backed by a 5-year warranty from a company selling high-value audio direct since 1999. Front LED shows blue when on, dim blue in standby and red in protection. 111dBA signal-to-noise ratio. 5.82 x 17 x 16.75 in (HxWxD)."
+   ],
+   "amazonPrice": 849,
+   "image": "https://m.media-amazon.com/images/I/41STC6dNjHL._SL500_.jpg"
+  },
+  {
+   "old": "emotiva-basx-a-700",
+   "new": "outlaw-audio-7000x",
+   "name": "Outlaw Audio 7000x",
+   "brand": "Outlaw Audio",
+   "category": "amplifier",
+   "asin": "B07MHTTP4R",
+   "amazonQuery": "Outlaw Audio 7000x 7-channel amplifier",
+   "amazonTitle": "Outlaw Audio 7000x 7-Channel Home Theater Power Amplifier, 130W x 7 at 8 Ohms, 200W x 7 at 4 Ohms, Balanced XLR and RCA Inputs, 12V Trigger, Black",
+   "amazonFeatures": [
+    "Built for Home Theater: Adds serious power to a 7.1 or 5.1.2 system. Use your AV receiver or processor as a preamp and let the 7000x drive your speakers with more control, detail and headroom than the receiver's built-in amps.",
+    "130W x 7 Continuous Power: 130 watts RMS per channel into 8 ohms and 200 watts into 4 ohms, all channels driven, 20Hz to 20kHz, under 0.03% THD. High-current design handles demanding speakers and dynamic movie soundtracks.",
+    "Balanced XLR and RCA Inputs: Balanced XLR inputs with common mode rejection, plus differential-sensing RCA inputs designed to reject hum. A 12V trigger turns the amp on and off with your receiver.",
+    "Isolated Channel Design: Each of the 7 channels has its own power supply rectification and a modular audio path from input to output for clean channel separation. Individual protection relays disconnect a channel in case of a short or excessive DC offset.",
+    "5-Year Warranty from Outlaw Audio: Backed by a 5-year warranty from a company selling high-value audio direct since 1999. Front LED shows blue when on, dim blue in standby and red in protection. 111dBA signal-to-noise ratio. 5.82 x 17 x 16.75 in (HxWxD)."
+   ],
+   "amazonPrice": 1099,
+   "image": "https://m.media-amazon.com/images/I/41jjXbSAATL._SL500_.jpg"
+  },
+  {
+   "old": "monoprice-monolith-7x200",
+   "new": "monolith-5x200",
+   "name": "Monolith 5x200 Multi-Channel Amplifier",
+   "brand": "Monoprice",
+   "category": "amplifier",
+   "asin": "B073GGJ56R",
+   "amazonQuery": "Monolith 5x200 multi-channel home theater power amplifier",
+   "amazonTitle": "Monolith Multi-Channel Home Theater Power Amplifier - with 5x200 Watt Per Channel InTo 8 Ohms, XLR and RCA Inputs, 2 Toroidal Transformers",
+   "amazonFeatures": [
+    "Power: A true 200-watt experience. Unlike most amplifiers or receivers, the Monolith's 200 watts per channel rating is measured with all seven channels driven across the full power bandwidth of 20Hz to 20kHz into 8-ohm loads",
+    "Additionally, there is NO current limiting and there is no protection circuitry in the amplifier circuit path. Even if the speakers' impedance drops to a low level, the Monolith is robust enough that the current is never limited.",
+    "Dynamics: High resolution audio delivers the best in music and movie soundtracks. You deserve an amplifier capable of delivering clear and clean audio across a wide dynamic range!",
+    "With a more than 120dB signal to noise ratio, the Monolith 5 can clearly and accurately articulate the quietest portions, the loudest portions, and everything in between.",
+    "Class AB: More efficient than Class A, many high end, audiophile grade amplifiers utilize a Class AB design."
+   ],
+   "amazonPrice": 1799.99,
+   "image": "https://m.media-amazon.com/images/I/41OoLFqDa3L._SL500_.jpg"
+  },
+  {
+   "old": "rotel-rb-1582",
+   "new": "marantz-mm7025",
+   "name": "Marantz MM7025 Power Amplifier",
+   "brand": "Marantz",
+   "category": "amplifier",
+   "asin": "B003R7KMSS",
+   "amazonQuery": "Marantz MM7025 2-channel power amplifier",
+   "amazonTitle": "Marantz MM7025 2-Channel Power Amplifier with 140 W",
+   "amazonFeatures": [
+    "Two channels, zero compromise: Rated at 140 W per channel into 8 ohms and 170 W into 6 ohms, with identical output stage topology across channels for uniform, high-quality sound",
+    "Sound Master tuned: Meticulously tuned by the Marantz Sound Master with careful parts selection, the MM7025 delivers The Most Musical Sound across every channel of your home theater",
+    "Discrete power, precisely engineered: Marantz's proprietary current feedback topology achieves a high slew rate and wide operating bandwidth, revealing the utmost detail in every high-res audio format",
+    "Built for dynamic peaks: At the heart of the MM7025, a high-current toroidal power transformer delivers substantial headroom for dynamic peaks and demanding low-impedance speaker loads",
+    "Reference-grade components throughout: Marantz reference-grade power supply capacitors and high-speed, high-current discrete power transistors maintain consistent performance under any listening conditions",
+    "With 60 YEARS OF INNOVATION and DEDICATION towards designing PREMIUM RANGE OF HOME THEATER ENTERTAINMENT AND AUDIO SYSTEMS, Marantz gives you the best surround sound and stereo listening experience ever imagined",
+    "Balanced and unbalanced inputs: Each channel accepts XLR balanced or RCA unbalanced connections for maximum system configuration flexibility",
+    "Engineered to endure: A copper-plated chassis, gold-plated speaker terminals, auto-standby, and remote power on/off control ensure lasting, reliable operation"
+   ],
+   "amazonPrice": 1000,
+   "image": "https://m.media-amazon.com/images/I/21HUL2lc41L._SL500_.jpg"
+  },
+  {
+   "old": "kef-q150",
+   "new": "kef-q1-meta",
+   "name": "KEF Q1 Meta Bookshelf Speakers",
+   "brand": "KEF",
+   "category": "bookshelf",
+   "asin": "B0DH8G3N5T",
+   "amazonQuery": "KEF Q1 Meta bookshelf speakers",
+   "amazonTitle": "KEF Q1 Meta Passive Compact Hi-Fi Bookshelf Speakers (Pair), Black | Entry Level Passive Hi-Fi Speaker | Compact Bookshelf Speakers | 2-Way Bass Reflex | For Music, Gaming, TV & Movies",
+   "amazonFeatures": [
+    "BRING MUSIC AND movies TO LIFE: Upgrade from a TV speaker, soundbar or Bluetooth speaker to a proper stereo system. Q1 Meta delivers clearer vocals, greater detail, deeper bass and a much wider, more natural soundstage, making music more engaging and movies more immersive.",
+    "HEAR CLEAR, NATURAL SOUND FROM ANYWHERE IN THE ROOM: KEF’s unique driver design combines the high and midrange frequencies in one carefully engineered unit, helping sound spread evenly throughout your room. Whether you’re sitting directly in front of the speakers or off to the side, voices remain clear and music stays detailed and balanced.",
+    "ADVANCED ENGINEERING YOU CAN HEAR: Behind the Q1 Meta’s natural, detailed sound is KEF’s Metamaterial Absorption Technology. This reduces unwanted distortion and help the speaker reproduce music more cleanly, so you hear the detail and character of your favorite recordings rather than a colored or harsh version of them.",
+    "COMPACT BOOKSHELF SPEAKERS WITH SURPRISINGLY BIG SOUND: The 5.25-inch bass/midrange driver produces punchy, controlled bass and detailed vocals from a compact enclosure measuring just 302 mm high. Ideal for bedrooms, studies, apartments and smaller living rooms, Q1 Meta gives you serious stereo sound without filling the room with large speakers.",
+    "THE RIGHT START FOR YOUR FIRST HI-FI SYSTEM: Q1 Meta is a passive speaker, so you’ll need a separate stereo amplifier to power it. This gives you the freedom to choose the amplifier and other components that suit your needs, while the speakers can remain at the heart of your system as you upgrade. Add a KEF subwoofer or other Q Series speakers later for deeper bass or a full home-cinema setup."
+   ],
+   "amazonPrice": 399.99,
+   "image": "https://m.media-amazon.com/images/I/31fQdYLqAbL._SL500_.jpg"
+  },
+  {
+   "old": "dayton-b652-air",
+   "new": "dayton-classic-b65",
+   "name": "Dayton Audio Classic B65 Bookshelf Speakers",
+   "brand": "Dayton Audio",
+   "category": "bookshelf",
+   "asin": "B0D4617QS5",
+   "amazonQuery": "Dayton Audio Classic B65 bookshelf speaker pair",
+   "amazonTitle": "Dayton Audio Classic B65 Bookshelf Speaker Pair 75W Max 6.5 Inch Woofer 1 Inch Silk Dome Tweeter Passive 2-Way Hi-Fi Speakers for Music TV and Home Theater Black",
+   "amazonFeatures": [
+    "BRING YOUR FAVORITES TO LIFE: Rediscover music, movies, and everyday entertainment with balanced room-filling sound that gives vocals, instruments, and soundtracks the clarity and presence they deserve.",
+    "HEAR MORE OF THE MUSIC: A 6.5-inch poly woofer delivers satisfying, controlled bass while the 1-inch silk dome tweeter brings out clear vocals and detailed highs, creating a smooth sound you can enjoy for hours.",
+    "BALANCED SOUND BY DESIGN: Hear a more natural blend from lows to highs with a dedicated Hi-Fi crossover that sends each frequency to the driver designed to reproduce it, while the sealed acoustic suspension cabinet keeps bass tight and controlled.",
+    "BUILD YOUR SYSTEM YOUR WAY: Pair the passive Classic B65 speakers with your preferred amplifier or AV receiver for music, TV, or home theater. With 6-ohm impedance and 40W RMS/ 75W max power handling, they fit easily into a variety of home audio setups.",
+    "GREAT SOUND WHERE YOU WANT IT: Place the B65 speakers on a bookshelf, media console, or desktop, or use the integrated keyhole brackets for a space-saving wall setup. Removable grilles and gold-plated binding posts give you the flexibility to create a system that fits your room and the way you listen."
+   ],
+   "amazonPrice": 79.98,
+   "image": "https://m.media-amazon.com/images/I/41PsdrQP6nL._SL500_.jpg"
+  },
+  {
+   "old": "dayton-t652-air",
+   "new": "dayton-classic-t65",
+   "name": "Dayton Audio Classic T65 Tower Speakers",
+   "brand": "Dayton Audio",
+   "category": "tower",
+   "asin": "B0D461Y2XK",
+   "amazonQuery": "Dayton Audio Classic T65 tower speaker pair",
+   "amazonTitle": "Dayton Audio Classic T65 Floor-Standing Tower Speaker Pair (Black)",
+   "amazonFeatures": [
+    "FULL-SIZE TOWER SPEAKER – The bass reflex cabinet stands over 39 inches tall, precisely placing the tweeter at ear level and providing ample internal volume for room-filling bass VERSATILE PERFORMANCE – From explosive action sequences to subtle musical nuances, the T65 tower speaker delivers a dynamic and engaging listening experience for all your entertainment needs",
+    "DUAL 6-1/2” BASS DRIVERS – Custom poly drivers paired with the large bass reflex cabinet generate punchy bass",
+    "SILK DOME TWEETER – Large (1-inch) silk dome tweeters reproduce accurate treble in stunning detail without being harsh or abrasive",
+    "TRUE HI-FI DESIGN – Real crossovers accurately distribute the audio signal between the woofers and the tweeter, producing a rich and detailed listening experience",
+    "EXTREME POWER HANDLING – These floor-standing speakers will handle a ton of power at 150W, making them perfect for easy listening or partying down",
+    "HIGH-QUALITY CONNECTIONS – Equipped with upgraded gold-plated binding posts, allowing the use of high-quality banana plug speaker cables for optimal signal transfer"
+   ],
+   "amazonPrice": 229.98,
+   "image": "https://m.media-amazon.com/images/I/31DZsJ8ZhtL._SL500_.jpg"
+  },
+  {
+   "old": "klipsch-the-fives",
+   "new": "klipsch-the-fives-ii",
+   "name": "Klipsch The Fives II Powered Speakers",
+   "brand": "Klipsch",
+   "category": "wireless-speaker",
+   "asin": "B0GLQKTJ6Y",
+   "amazonQuery": "Klipsch The Fives II powered speakers",
+   "amazonTitle": "Klipsch The Fives II Dolby Atmos 5.25\" Powered Speakers, Black (Pair)",
+   "amazonFeatures": [
+    "YOUR SETUP. ALREADY SETUP: Powered by Onkyo - This collaboration with Onkyo brings hundreds of years of expertise, innovation, and rigorous testing into The Fives II Powered Speakers. At the heart of the system is a fully intact AVR architecture, enabling advanced content processing, precise decoding, and dynamic optimization for a true home theater experience. This all-new electronics package delivers our legendary American sound with the connectivity customers expect.",
+    "DOLBY ATMOS SOUND: Dolby Atmos immersive audio formatting enhances your experience by placing sounds precisely around and above you, creating a realistic, immersive and multidimensional surround sound environment, even with two speakers.",
+    "HDMI 2.1: Delivering a simpler setup, better sound, and full next-gen compatibility by using a single cable to connect to your TV via eARC while passing through the highest-quality video and audio from connected devices. HDMI 2.1 supports uncompressed, high-resolution formats like Dolby Atmos, improves lip-sync accuracy, enables TV remote volume control, and allows gamers to enjoy 4K/120, VRR, ALLM, and HDR without sacrificing performance. The result is a future-proof speaker system that acts as the hub of your entertainment setup - eliminating extra boxes and cables while delivering cinema-quality sound and seamless gaming and TV integration.",
+    "BUILT-IN STREAMING: Powered by Onkyo’s precise, high-performance technology, The Fives II go beyond HDMI connectivity, letting you stream your favorite platforms, including Google Cast, Apple AirPlay 2, Spotify Connect, Tidal Connect, Qobuz Connect, and more.",
+    "ONE-PIECE BMC BAFFLE: The new one-piece BMC baffle is denser and more rigid, stopping unwanted resonance. A curved radius widens the soundstage, improving off-axis sound and producing a more detailed response without masking."
+   ],
+   "amazonPrice": 899.99,
+   "image": "https://m.media-amazon.com/images/I/31KyG0gtg5L._SL500_.jpg"
+  },
+  {
+   "old": "edifier-s3000pro",
+   "new": "edifier-s3000mkii",
+   "name": "Edifier S3000MKII Wireless Speakers",
+   "brand": "Edifier",
+   "category": "wireless-speaker",
+   "asin": "B0GC6R68G5",
+   "amazonQuery": "Edifier S3000MKII active speakers",
+   "amazonTitle": "Edifier S3000MKII Hi-Res 2.0 Audiophile Speakers, 256W RMS, Home Audio | Powered Bookshelf Speakers, aptX HD Bluetooth, 5.8GHz Wireless, Planar Magnetic Tweeter for Turntable",
+   "amazonFeatures": [
+    "[ Hi-Res Audio with Pro-Grade Sound Customization ]: Experience unmatched clarity with planar magnetic tweeters and 6.5” aluminum woofers (38Hz-40kHz). Tailor your listening with 4 professional EQ presets: Classic, Monitor, Dynamic, and Vocal, optimized for music, movies.",
+    "[ Dual Active Design & High-Power Output ]: A complete 256W RMS powered stereo system. No external amp needed—ideal as active bookshelf speakers, studio monitors, or powerful wired speakers for your turntable or home theater.",
+    "[ Dual-Band Wireless & aptX HD Bluetooth ]: Proprietary 5.8GHz/5.2GHz wireless link ensures perfect sync between speakers. Stream wirelessly with Qualcomm aptX HD over Bluetooth 5.0 for high-resolution audio.",
+    "[ Extensive Wired & Digital Connectivity ]: Connect turntables via RCA, studio gear via XLR, TVs via Optical/Coaxial, and computers via USB-B. All digital inputs support pristine 24-bit/192kHz audio.",
+    "[ Intuitive Control via Knobs, App & Remote ]: Adjust volume, bass, treble, and inputs directly on the speaker. Fine-tune settings, switch EQ modes, and more with the EDIFIER ConneX app or included IR remote.",
+    "[ Premium Acoustic Design & Complete Package ]: High-strength MDF cabinets minimize resonance. Comes with remote, power cables, and audio cables (USB, Optical, RCA) for a ready-to-play setup right out of the box."
+   ],
+   "amazonPrice": 999.99,
+   "image": "https://m.media-amazon.com/images/I/41IQxoQJaCL._SL500_.jpg"
+  },
+  {
+   "old": "polk-monitor-xt-51-system",
+   "new": "polk-t-series-51-system",
+   "name": "Polk Audio T-Series 5.1 Home Theater System",
+   "brand": "Polk Audio",
+   "category": "system",
+   "asin": "B07TZ7T3GX",
+   "amazonQuery": "Polk Audio 5.1 home theater system T15 T30 T50 PSW10",
+   "amazonTitle": "Polk Audio 5.1 Channel Home Theater System with Powered Subwoofer |Two (2) T15 Bookshelf, One (1) T30 Center Channel, Two (2) T50 Tower Speakers, PSW10 Sub | Alexa + HEOS",
+   "amazonFeatures": [
+    "MASSIVE SOUND FROM 15 SPEAKERS – Each bookshelf features a 5.25” driver & a 0.75” tweeter, center has (2) 5.25” driver & a 1” tweeter, and each tower has a 6.5” driver, 1” tweeter & (2) 6.5” Bass Radiators that produce a well-balanced, room-filling sound",
+    "A powered subwoofer for extra bass & punch (up to 100 watts) - A 10-inch subwoofer with a uniquely configured directed port provides accurate bass with added depth that brings your music and movies alive. A perfect solution for your small-to-mid size room",
+    "All speakers, including the sub, are equipped with POLK’S proprietary dynamic balance technology with wider dispersion & minimal distortions so every listener in the room hears unsurpassed three-dimensional surround sound with heart-thumping bass",
+    "Polk speakers are compatible with most home theater av receivers giving you many setup options. Use this 5.1 channel system as is or upgrade to an immersive multi-room setup with 7.1, 9.1 or more channels",
+    "POLK'S UNMATCHED QUALITY AT AN AFFORDABLE PRICE. With these value-priced speakers, you can now enjoy premium acoustics, high quality construction, easy setup and a spectacular theater experience right at home"
+   ],
+   "amazonPrice": 818,
+   "image": "https://m.media-amazon.com/images/I/41KutBZ-eSL._SL500_.jpg"
+  },
+  {
+   "old": "klipsch-r-625fa-51-system",
+   "new": "klipsch-r-625fa-51-system",
+   "name": "Klipsch Reference R-625FA 5.1.2 Dolby Atmos System",
+   "brand": "Klipsch",
+   "category": "system",
+   "asin": "B08DK3JMWP",
+   "amazonQuery": "Klipsch Reference R-625FA 5.1 home theater pack",
+   "amazonTitle": "Klipsch Reference R-625FA 5.1 Home Theater Pack, Black, Pair, Bundle with 2X -41M Bookshelf Speakers, 52C Center Speaker, 100SW 10\" 300W Powered Subwoofer",
+   "amazonFeatures": [
+    "INCLUDED - 2x R-625FA Dolby Atmos speakers, 2x R-41M bookshelf speakers, R-52C center speaker, R-100SW subwoofer, grilles, rubber feet, screws, and a 5-year warranty.",
+    "IMMERSIVE ATMOS - Experience three-dimensional sound with Dolby Atmos technology, delivering height effects for a truly cinematic audio experience in your home theater.",
+    "CRYSTAL-CLEAR SOUND - Features 1\" aluminum LTS tweeters with Tractrix horns, minimizing distortion for enhanced detail and clarity, ensuring every sound is reproduced with precision.",
+    "POWERFUL BASS - The R-100SW 10\" subwoofer delivers deep, impactful bass with its 300W amplifier, enhancing your movies and music with rich, room-filling low frequencies.",
+    "OPTIMIZED PERFORMANCE - Spun-copper IMG woofers are rigid and lightweight, reducing distortion for clear lows, while the rear-firing Tractrix ports provide efficient bass response.",
+    "SEAMLESS INTEGRATION - The black textured wood grain vinyl finish offers a modern aesthetic that blends seamlessly with any decor, enhancing your home theater's visual appeal.",
+    "Strong, Flexible Removable Magnetic Grille",
+    "No further features available.",
+    "No further features available."
+   ],
+   "amazonPrice": 1299,
+   "image": "https://m.media-amazon.com/images/I/41x+FGRuW5L._SL500_.jpg"
+  },
+  {
+   "old": "svs-prime-satellite-51",
+   "new": "svs-prime-satellite-51",
+   "name": "SVS Prime Satellite 5.1 System",
+   "brand": "SVS",
+   "category": "system",
+   "asin": "B00TR19X4M",
+   "amazonQuery": "SVS Prime Satellite speakers pair",
+   "amazonTitle": "SVS Prime Satellite Speakers - Pair (Piano Gloss Black)",
+   "amazonFeatures": [
+    "Stunning dynamic impact and audiophile refinement from a super compact speaker, the SVS Prime Satellite fits nearly anywhere and mounts easily to a wall or ceiling. Masive sound from a compact cabinet and the flexibility to serve in many different roles in a home theater or audio system depending on the layout of your room and the specific needs of your system. Blends seamlessly with all other SVS Prime and Ultra Series speakers.",
+    "Leveraging design and technology from the reference SVS Ultra Series, the Prime Satellite features powerful drivers, innovative engineering and high-end build materials not typically found at this price.",
+    "1\" aluminum dome tweeter utilizes an FEA–optimized diffuser for a revealing and 'airy' presentation with unveiled highs. 4.5\" woofer delivers surprising bass response and punch and features an aluminum shorting ring for reduced distortion, a vented voice coil former, and unique all–new cast ABS–fiberglass composite basket for precise component alignment.",
+    "A proprietary SoundMatch 2–way crossover enhanced by expertly refined topology ensures accurate frequency response and silky-smooth transitions between drivers as well as pinpoint imaging and phase coherency.",
+    "“With effortless performance, elegant design, and striking value, SVS’ Prime Satellites hit the ultimate sweet spot in the audiophile segment.\" -DigitalTrends"
+   ],
+   "amazonPrice": 349,
+   "image": "https://m.media-amazon.com/images/I/413ip3j6jvL._SL500_.jpg"
+  },
+  {
+   "old": "mediabridge-14awg-speaker-wire",
+   "new": "amazon-basics-14-gauge-speaker-wire",
+   "name": "Amazon Basics 14-Gauge Speaker Wire",
+   "brand": "Amazon Basics",
+   "category": "cable",
+   "asin": "B0758CSSF2",
+   "amazonQuery": "Amazon Basics 14 gauge speaker wire 100 feet",
+   "amazonTitle": "Amazon Basics 14-Gauge Audio Speaker Wire Cable for Audio Applications, 99.9% Oxygen-Free Copper, Color Coded, Insulated Jacket, 100-Foot, White",
+   "amazonFeatures": [
+    "IN THE BOX: 100 feet of Amazon Basics 14-gauge audio speaker wire cable for home audio & speaker installations",
+    "WIRE CONSTRUCTION: 99.9% oxygen-free copper construction helps deliver high-quality undistorted signals to & from audio equipment",
+    "CLEAR SIGNAL: Copper conductors for audio transmission between speakers & receivers",
+    "COLOR CODED: White color coding provides clear polarity identification for proper speaker connections during installation",
+    "DURABLE DESIGN: Strong yet flexible insulated exterior jacket protects conductors & withstands repeated handling during routing",
+    "VERSATILE USE: Electronic wire by Amazon is suited for connecting speakers to A/V receivers, amplifiers & home theater systems with 9.5-volt rating"
+   ],
+   "amazonPrice": 36.99,
+   "image": "https://m.media-amazon.com/images/I/41aKfWp68oL._SL500_.jpg"
+  },
+  {
+   "old": "mediabridge-banana-plugs",
+   "new": "fospower-banana-plugs",
+   "name": "FosPower Banana Plugs (12 Pairs)",
+   "brand": "FosPower",
+   "category": "cable",
+   "asin": "B06Y8YL2DM",
+   "amazonQuery": "FosPower banana plugs 12 pairs",
+   "amazonTitle": "FosPower Banana Plugs 12 Pairs / 24 pcs, Closed Screw 24K Gold Plated Speaker Plug Connectors for Speaker Wire, Wall Plate, Home Theater, Audio/Video Receiver, Amplifiers and Sound Systems",
+   "amazonFeatures": [
+    "[EASY INSTALLATION & DESIGN] Banana plugs make speaker wire installation a breeze and are great to use with A/V receivers, amplifiers, surround sound systems, banana wall plates",
+    "[CLOSED TYPE DESIGN WITH DUAL SCREWS] Isolates wires which keep them from shorting out and the two set screws keep the wire connection secure",
+    "[COLOR CODED AND GOLD PLATED CONNECTORS] Banana connectors are gold plated to resist corrosion and the collar is color coded for polarity identification",
+    "[WORKS WITH MULTIPLE SIZES OF SPEAKER WIRE] Compatible with 12AWG to 18AWG speaker wire",
+    "[LIMITED LIFETIME WARRANTY] All FosPower products come with a Limited Lifetime Warranty"
+   ],
+   "amazonPrice": 31.98,
+   "image": "https://m.media-amazon.com/images/I/51SlN0JW23L._SL500_.jpg"
+  },
+  {
+   "old": "apc-p11vnt3",
+   "new": "tripp-lite-tlp118dbnet",
+   "name": "Tripp Lite TLP118DBNET Home Theater Surge Protector",
+   "brand": "Tripp Lite",
+   "category": "power",
+   "asin": "B0GP9GPZ2N",
+   "amazonQuery": "Tripp Lite TLP118DBNET home theater surge protector",
+   "amazonTitle": "Eaton Tripp Lite TLP118DBNET Home Theater Surge Protector 11 Outlets | Coax, Phone & Ethernet Protection, 4200 Joules, 8ft Braided Flat Plug Cord, Power Strip, EMI/RFI Filtering, Lifetime Warranty",
+   "amazonFeatures": [
+    "SURGE PROTECTOR POWER STRIP: Features 11 outlets, 4200 joule rating, and an 8ft flat plug braided extension cord. Six side-facing outlets fit bulky transformers. Filters out threatening EMI/RFI line noise that can cause damage or data loss.",
+    "TV, PHONE, ETHERNET, AND WIFI ROUTER PROTECTION: Ethernet ports (RJ45), Phone Line (RJ11) and Coax ports help protect your cable TV, home phone, and Ethernet from dangerous data line surges. Ethernet port can pass through speeds up to 100 Mpbs.",
+    "FLAT PLUG & MOUNTING OPTIONS: Surge protector features a 8ft flat plug braided extension cord that allows furniture and equipment to move flush against the wall. Additional bottom side keyhole slots allow convenient under-desk or wall mount options.",
+    "PREMIUM SAFETY FEATURES: Reliable surge protector is UL Certified (1363 & 1449) to ensure qualitity construction. Includes a 15A resettable circuit breaker on/off switch combo and LEDs that confirm your devices and outlet are grounded and protected.",
+    "FULLY SUPPORTED: This product is protected by a Lifetime Limited Manufacturer's Warranty. To best support your purchase, Eaton's expert technical team is available via phone, web, or email to address any concerns."
+   ],
+   "amazonPrice": 45.25,
+   "image": "https://m.media-amazon.com/images/I/41BV9Nn7aXL._SL500_.jpg"
+  },
+  {
+   "old": "austere-vii-8-outlet",
+   "new": "austere-vii-6-outlet",
+   "name": "Austere VII Series 6-Outlet Surge Protector",
+   "brand": "Austere",
+   "category": "power",
+   "asin": "B07VSVG6WW",
+   "amazonQuery": "Austere VII series 6 outlet surge protector",
+   "amazonTitle": "Austere VII Series, 6 Outlet Surge Protector Power Strip 4000 Joules, USB-C | Flat Plug, Isolated EMI/RFI Filtering, 1 USB-C 45W Fast Charger, 2 USB-C, 2 USB-A 2.4 amp Ports, 7 Year Component Guarantee",
+   "amazonFeatures": [
+    "HEAVY DUTY aDesign: Right angle flat plug & flexible wall mount allows low profile, easy installation in tight spaces. WovenArmor Cable strength ensures quality performance. Ultra wide outlets allows space for bulky plugs",
+    "5 FAST CHARGING PORTS: 2 USB-A; 3 USB-C delivering up to 2.4 Amps, protecting all low-voltage devices & a 45W USB-C PD port",
+    "PICTURE PERFECT AUDIO/VIDEO: insulate signals from external EMI/RFI disturbances for clean results for work/gaming/office/home theater",
+    "FIRE/POWER SPIKE SAFETY: Flameless MOV protection regulates external power ensuring devices do not catch fire or get burnout damage from voltage spikes by keeping power circuit not exceeding 15 amps",
+    "SATISFACTION GUARANTEED: We protect the products that are plugged into our surge protectors: Our Lifetime Guarantee – ensures your satisfaction with performance & protection. Our Component Guarantee – promises if a VII Series Austere Power Strip is responsible for any damage to a plugged-in device, Austere will replace that device regardless of its value for 7-years."
+   ],
+   "amazonPrice": null,
+   "image": "https://m.media-amazon.com/images/I/31nx7tqZaaL._SL500_.jpg"
+  },
+  {
+   "old": "epson-ls12000",
+   "new": "epson-ls9000",
+   "name": "Epson Pro Cinema LS9000",
+   "brand": "Epson",
+   "category": "projector",
+   "asin": "B0H1YFT7ZP",
+   "amazonQuery": "Epson Pro Cinema LS9000 4K laser projector",
+   "amazonTitle": "Epson Pro Cinema LS9000 4K Laser Projector",
+   "amazonFeatures": [
+    "PREMIUM PROJECTION: Epson Pro Cinema LS9000 delivers stunning 4K resolution and exceptional image quality for a true cinematic experience",
+    "LASER TECHNOLOGY: Advanced laser light source provides consistent brightness, excellent color accuracy, and exceptional contrast ratio",
+    "PROFESSIONAL QUALITY: Designed for dedicated home theaters and media rooms with premium projection capabilities",
+    "VERSATILE INSTALLATION: Flexible mounting options and powered lens adjustment for easy setup and positioning",
+    "LONG-LASTING PERFORMANCE: Laser light source eliminates the need for frequent lamp replacements while maintaining consistent brightness"
+   ],
+   "amazonPrice": 3699.99,
+   "image": "https://m.media-amazon.com/images/I/31zcurnKsUL._SL500_.jpg"
+  },
+  {
+   "old": "benq-ht2060",
+   "new": "benq-tk710",
+   "name": "BenQ TK710",
+   "brand": "BenQ",
+   "category": "projector",
+   "asin": "B0D485KG39",
+   "amazonQuery": "BenQ TK710 4K HDR laser projector",
+   "amazonTitle": "BenQ TK710 4K HDR Laser 3200 Lms Home Entertainment Movie& Gaming Projector | 3200 Lms, 4ms Input Lag, 240Hz Refresh Rate, HDR10, eARC Support, Lens Shift, 1.3x Zoom, 240HZ Refresh Rate, 3 year warranty",
+   "amazonFeatures": [
+    "BRIGHTEN YOUR LIVING ROOM: This Tv projector is great addition to your home theater set up. Experience movies and games with lights on, with a 3200 ANSI lumens laser light source in your living space.",
+    "DURABLE LASER LIGHT SOURCE: Enjoy superior saturation and vibrant colors while eliminating the hassle of frequent lamp replacements.",
+    "True 4K UHD with HDR10/HLG: Rich detail and improved contrast for movies, sports and gaming. Dynamic Function rapidly adjusts the light source for improved contrast.",
+    "BREATHTAKING 4K BIG SCREEN: Enjoy this 4K Projector, Immerse yourself in stunning visuals with 95% Rec.709 Color Coverage.",
+    "LAG-FREE GAMING: Our Newest 4K gaming projector, The best projector for gaming. Elevate your gaming with low latency and quick 4ms response times at 1080p@240Hz. 16ms Input Lag, Smooth, responsive gameplay at 4K/60Hz for PS5, Xbox, and PC."
+   ],
+   "amazonPrice": 1799,
+   "image": "https://m.media-amazon.com/images/I/41MdgFHTPwL._SL500_.jpg"
+  },
+  {
+   "old": "xgimi-horizon-s-max",
+   "new": "xgimi-horizon-20-max",
+   "name": "XGIMI Horizon 20 Max",
+   "brand": "XGIMI",
+   "category": "projector",
+   "asin": "B0FN7WG453",
+   "amazonQuery": "XGIMI Horizon 20 Max 4K triple laser projector",
+   "amazonTitle": "XGIMI HORIZON 20 Max 4K Projector Triple Laser Home Theater 5700 ISO Lumens | Google TV with Licensed Netflix, Optical Zoom Lens Shift, IMAX Enhanced, Dolby Vision, 20000:1 Contrast, 1ms Input Lag",
+   "amazonFeatures": [
+    "Lossless Optics: Flexible lens shift and optical zoom give you more freedom in setup—without sacrificing clarity. Enjoy crisp, distortion-free visuals at any size, from any angle.",
+    "Daylight Ready, Triple Laser Powered: Our advanced X-Master RGB triple laser engine delivers 5700 ISO lumens of peak brightness, 20,000:1 contrast, and 110% BT.2020 color coverage—ensuring vivid, accurate images with exceptional depth and clarity.",
+    "Epic Gaming Performance: Game on a massive 300\" screen with lightning-fast 1ms input lag, ultra-smooth 240Hz motion, and visuals calibrated for HDR gaming—designed for total immersion and control.",
+    "Google, Fully Integrated: With Google TV and Google Home built in, enjoy instant access to streaming apps and hands-free voice control—no extra devices or remotes required.",
+    "Refined Design: Elephant Grey finish and leather-like texture blend warmth and depth into a design made to be proudly displayed anywhere.",
+    "2-Year Warranty: Double the coverage for greater peace of mind. Outstanding performance, now with support to match."
+   ],
+   "amazonPrice": 2599,
+   "image": "https://m.media-amazon.com/images/I/416Jcg-AbsL._SL500_.jpg"
+  },
+  {
+   "old": "optoma-uhz35",
+   "new": "optoma-uhz36",
+   "name": "Optoma UHZ36",
+   "brand": "Optoma",
+   "category": "projector",
+   "asin": "B0GGVZW2X2",
+   "amazonQuery": "Optoma UHZ36 4K laser projector",
+   "amazonTitle": "Optoma UHZ36 4K UHD Laser HDR Home Theater Projector - Black",
+   "amazonFeatures": [
+    "See The Difference 4K UHD Makes",
+    "See It All In HDR",
+    "FILMMAKER MODE Preserves The Directors Original Vision"
+   ],
+   "amazonPrice": 1199,
+   "image": "https://m.media-amazon.com/images/I/41O5us86dZL._SL500_.jpg"
+  },
+  {
+   "old": "awol-ltv-3500-pro",
+   "new": "awol-aetherion-max",
+   "name": "AWOL Vision Aetherion Max",
+   "brand": "AWOL Vision",
+   "category": "projector",
+   "asin": "B0GN3XX19L",
+   "amazonQuery": "AWOL Vision Aetherion Max UST projector",
+   "amazonTitle": "AWOL VISION Aetherion Max 4K Ultra Short Throw Projector, 3,300 ISO Lumens | Google TV, RGB Triple Laser home projector, Dolby Vision, 200\" Display, Daytime Viewing, 1080p 240Hz Gaming at 1ms Input Lag",
+   "amazonFeatures": [
+    "Bright Room Ready, no Curtains Needed: 3,300 ISO Lumens of RGB triple-laser brightness delivers a vivid, color-accurate image in living rooms with ambient light, open-plan spaces, and soft daytime light — without blackout curtains or a dark room. 110% Rec.2020 color gamut produces lifelike greens, accurate skin tones, and saturated colors that LED TVs and lamp projectors cannot physically reproduce. Whether it's a family movie afternoon, a daytime sports match, or everyday streaming — the Aetherion Max laser tv performs in your room, as it is.",
+    "Deep Blacks, Vivid Highlights: Powered by Noirscene System II, the Aetherion Max's industry-leading 7-level IRIS and EBL algorithm deliver up to 6,000:1 native contrast and 60,000:1 viewing contrast — making dark scenes look deeper and shadow detail sharper whether the lights are on or off. With Dolby Vision, Dolby Vision Gaming, HDR10+, HDR10, HLG, and Dynamic Tone Mapping, bright highlights stay balanced and low-light scenes keep their depth — so every movie and every game feels more cinematic at home.",
+    "Staduim-scale Gaming and Sports: 1ms-class input latency at 240Hz keeps every frame sharp — whether you're deep in a competitive match or watching 90 minutes of live soccer on a 150-inch screen, fast-moving action stays blur-free and responsive. VRR, ALLM, and Dolby Vision Gaming deliver console and PC performance without compromise — connect PS5, Xbox Series X, and gaming PC simultaneously via 3× HDMI 2.1a and DisplayPort 1.4a, no cable switching needed. Native 24/48/50FPS with MEMC preserves cinematic motion for movies and sports broadcasts. Every sprint, every shot, every last-minute goal — stadium-scale, at home.",
+    "Watch Longer, Feel Less Fatigue: Industry-first Anti-RBE technology reduces 99.99% of rainbow-effect distractions in both 2D and 3D content — a level of eye comfort no other UST projector currently offers. TÜV-certified Harmful Light Reduction delivers a cleaner, gentler picture for all-day viewing — movie marathons, full match days, and back-to-back gaming sessions included. The Aetherion Max is built for the moments that bring everyone together, and built to last as long as those moments do.",
+    "THE LIVING ROOM UPGRADE THAT FITS YOUR LIVING ROOM — 0.2:1 ultra-short throw ratio sits inches from the wall, no ceiling mount, no professional installation, setup complete in minutes. At 200 inches, it delivers a screen 6× larger than an 85-inch TV — at a fraction of the wall space. Pair with an ALR screen for clear, high-contrast images even under direct overhead lighting. Consumes up to 500kWh less electricity per year than a comparable large-screen TV based on 4 hours daily use — the display that pays for itself over time. This is the all-in-one laser TV replacement for modern living rooms.",
+    "Bring It Home with Confidence:Aetherion is designed to make premium home entertainment feel like a confident choice. Backed by a 2-year warranty and dedicated U.S.-based support, it is built to give you greater peace of mind from setup to everyday use—so you can enjoy cinematic performance at home with confidence that lasts beyond the first impression."
+   ],
+   "amazonPrice": 3299,
+   "image": "https://m.media-amazon.com/images/I/41OI+ylEbpL._SL500_.jpg"
+  },
+  {
+   "old": "dangbei-n2",
+   "new": "dangbei-n2-mini",
+   "name": "Dangbei N2 mini",
+   "brand": "Dangbei",
+   "category": "projector",
+   "asin": "B0DXV2XXN1",
+   "amazonQuery": "Dangbei N2 mini projector",
+   "amazonTitle": "Dangbei N2 mini Projector with Wifi and Bluetooth, Netflix Officially Licensed, 1080P Smart Portable Projector Dolby Audio, Auto Focus, Auto Keystone Correction, Obstacle Avoidance",
+   "amazonFeatures": [
+    "190° Tilt Freedom, Zero Clutter: This mini projector features a built-in gimbal stand that offers 190° tilt, allowing you to project from floor to ceiling with ease. Its integrated power board eliminates the bulky adapter, simplifying your setup with a single power cable for a clutter-free experience. Plus, the power port at the gimbal’s base ensures unrestricted tilting, providing smooth adjustments without cable interference.",
+    "Netflix Ready, Stream with a Click: The N2 mini portable projector features a smart Linux OS, giving you access to nearly 300 apps, including licensed Netflix, YouTube, and Prime Video for endless entertainment options. With Netflix pre-installed, you can start streaming your favorite movies, shows, and sports with just a single click on the remote. Enjoy a seamless, plug-and-play experience that makes watching content easier than ever with this smart projector.",
+    "True 1080P, Up to 120\" Large Screen: The N2 mini projector with wifi and bluetooth offers stunning 1080P native resolution, delivering sharp, vibrant visuals for a truly immersive viewing experience. With a projection size ranging from 60 to 120 inches, you can enjoy movies, games, and presentations on a grand scale, whether you're at home or on the go. Perfect for any space, the N2 mini brings cinematic quality to your fingertips, anytime, anywhere.",
+    "AI Image Setup, Effortless Viewing: The N2 mini small projector makes setup effortless with InstanPro AI image setup, automatically adjusting to deliver the perfect picture. Enjoy hassle-free viewing with Auto Focus, Auto Keystone Correction, Screen Fit, and Obstacle Avoidance—ensuring a flawless image every time. Whether projecting on walls, ceilings, or floors, the N2 mini ensures a smooth, precise viewing experience without the need for manual adjustments.",
+    "Sealed for Clarity, Built to Last: The N2 mini outdoor projector features the all-new EngineX sealed optical engine, offering enhanced clarity for vibrant, crisp visuals. Its dust-free design ensures long-lasting performance, while the low noise operation (under 27 dB) keeps your viewing experience quiet and uninterrupted. Whether you're watching movies or giving presentations, the N2 mini delivers pristine visuals and a peaceful environment every time."
+   ],
+   "amazonPrice": 199,
+   "image": "https://m.media-amazon.com/images/I/31iOMAnvyHL._SL500_.jpg"
+  },
+  {
+   "old": "octane-seating-flex-hr",
+   "new": "anj-home-theater-seating-set-of-4",
+   "name": "ANJ Home Theater Seating Power Recliners (Set of 4)",
+   "brand": "ANJ",
+   "category": "seating",
+   "asin": "B0GYNDPDBT",
+   "amazonQuery": "ANJ home theater seating power recliner set of 4",
+   "amazonTitle": "ANJ Home Theater Seating Power Recliner Set of 4 with Arm Storage, Faux Leather Recliner Sofa with LED Light, Electric Movie Reclining Chairs with USB Ports & Cup Holders for Media Living Room, Black",
+   "amazonFeatures": [
+    "Electric Reclining Function:This power recliner chair features a smooth electric reclining function for easy adjustment, making it a comfortable recliner chair for adults for reading, watching TV, gaming, or relaxing. Ideal as a living room recliner, TV chair, or movie recliner for daily use.",
+    "Faux Leather Upholstery: Wrapped in smooth and stylish faux leather, this electric recliner chair brings a modern look to your space while offering an easy-care surface for daily use. The clean lines and padded design make this faux leather recliner chair a great fit for the living room, bedroom, media room, or home theater seating area.",
+    "Blue LED Lighting – Transform your movie nights with the captivating blue ambient lights and sleek metal base. These subtle yet striking lights create the perfect atmosphere, enhancing your home theater experience. Whether you’re watching your favorite film or hosting a movie marathon, every detail of this power recliner is designed to elevate the ambiance. Create the ultimate cinematic feel in your space, making every viewing moment feel like a luxury experience",
+    "Convenient Cup Holders & Arm Storage: Dual-use convenience makes this electric movie chair even more functional, with built-in cup holders for drinks and hidden arm storage for small essentials. This home theater chair with cup holders helps keep your seating area neat, organized, and ready for entertainment.",
+    "Supportive Seating for Home Theater Use: Featuring a padded backrest, supportive seat cushion, and wide armrests, this power recliner for living room is made to deliver lasting comfort and support. Whether you need a single recliner chair, home theater chair with tray table, or electric recliner with cup holders and storage, this chair offers comfort, convenience, and modern style in one versatile seat."
+   ],
+   "amazonPrice": 1299.99,
+   "image": "https://m.media-amazon.com/images/I/41Ce772zc5L._SL500_.jpg"
+  },
+  {
+   "old": "flash-furniture-theater-recliner",
+   "new": "fdw-recliner-sofa-3-seater",
+   "name": "FDW 3-Seater Reclining Sofa",
+   "brand": "FDW",
+   "category": "seating",
+   "asin": "B08RDB3HYD",
+   "amazonQuery": "FDW recliner sofa 3 seater home theater seating",
+   "amazonTitle": "FDW Recliner Sofa Set 3 Seater Home Theater Seating Reclining Couch Sofa for Living Room Manual Recliner Motion for Home Furniture",
+   "amazonFeatures": [
+    "💖【Great assembly process】How easy assemble of the recliner Chair.No tools are needed to assemble the recliner Sofa Couch and assemble the sofa palomino fabric only takes less than 3 minutes.",
+    "💖【Does not take up much space】The recliner Chair takes almost no wall space to recline. You have the recliner Sofa Couch about 7\" from the wall and you can still recline fully on the palomino fabric sofa.",
+    "💖【Comfortable and enjoy yourself 】 Laying on the recliner Chair in \"nap\" mode is also comfortable.The soild wood frame of the Recliner Couch and the high density sponge of the palomino fabric sofa will give you the best support.",
+    "💖【One button to operation】The recliner chair is easy to operation.You only need one button to operate the recliner sofa souch.One button make you to lay on the palomino fabric Sofa.",
+    "💖【Easy to through the door】The recliner Chair is in pieces so the recliner Sofa Couch is easy to get in the 23\" door.The base of the palomino fabric Sofa easily fit through the door with no problems."
+   ],
+   "amazonPrice": 449.99,
+   "image": "https://m.media-amazon.com/images/I/41az+v7u4uL._SL500_.jpg"
+  },
+  {
+   "old": "esright-recliner",
+   "new": "esright-power-lift-recliner",
+   "name": "Esright Power Lift Recliner with Heat and Massage",
+   "brand": "Esright",
+   "category": "seating",
+   "asin": "B0H6P2KSTH",
+   "amazonQuery": "Esright power lift recliner heat massage",
+   "amazonTitle": "Esright Power Lift Recliner Chair for Elderly with Heat and Massage, Umber | Electric Recliner Chairs for Adults,Heavy Duty Electric Recliner with Side Pockets, USB Charge Port & Cup Holders",
+   "amazonFeatures": [
+    "【Silent Motor Recliner Chair】: Esright lift chair is powered by electric and TUV motor that can control back and footrest simultaneously, making an ergonomic and comfortable seating & lying position for whomever use it. Motor is quiet and smooth. Infinite positions are provided, managing to recline up to 150 degrees.",
+    "【Humanistic Design Lift Chair】: Extending footrest and reclining feature of this lazy boy recliner allows you to fully stretch and relax, like reading, sleeping, watching TV and so on. Four side pockets on armrests are for ample storage space.",
+    "【Comfortable Upholstery & Sturdy Construction】: Overstuffed upholstery padded with high density sponge brings comfort, like your whole body is wrapped up in the chair. Soft and smooth linen fabric provides a warm and soft feeling, as well as certain effect of anti-felting and anti-pilling. All wood boards used are formaldehyde-free, conform to the P2 Requirement of California Air Resources Board (CARB).",
+    "【Assemble & Long Term Customer Service】: Come with assemble & use instructions. Super easy assembly and takes only 10-15 mins to finish the installation, no tools required. If any shipping damage occurred when you receive or defective happened during usage, please feel free to contact us. We will provide best solution in 24 hours. We also provide 1 year technical support for the lift motor and steel frame. Please start to assemble the chair when you have 2 boxes received.",
+    "【Reliable Comfort】: This medical standing recliner is an ideal solution for anybody who has mobility issues or recovering from surgery. A treated fabric surface provides a comfortable experience. It seamlessly fits into your living room, home theater and bedroom."
+   ],
+   "amazonPrice": 349.99,
+   "image": "https://m.media-amazon.com/images/I/41W6ybtI91L._SL500_.jpg"
+  },
+  {
+   "old": "bose-smart-soundbar",
+   "new": "bose-smart-soundbar",
+   "name": "Bose Smart Soundbar",
+   "brand": "Bose",
+   "category": "soundbar",
+   "asin": "B0D6W8XQ6J",
+   "amazonQuery": "Bose Smart Dolby Atmos Soundbar",
+   "amazonTitle": "Bose Smart Dolby Atmos Soundbar, All-in-One Soundbar for TV, A.I. Dialogue Mode, Voice Control and Amazon Alexa Built-in, Supports Bluetooth/AirPlay/Spotify Connect/Chromecast, Black",
+   "amazonFeatures": [
+    "TOTAL IMMERSION, FOR EVERYTHING YOU PLAY: The Bose Dolby Atmos Soundbar features shockingly immersive sound for its size and utilizes proprietary TrueSpace technology so you can feel everything you watch like you're in the theater",
+    "ONLY TRUESPACE ELEVATES IT ALL: Bose TrueSpace technology intelligently analyzes signals other than Dolby Atmos, like stereo or 5.1, and upmixes them to create an immersive multi-channel sound experience",
+    "BIG-TIME TECH FOR A SMALL SOUNDBAR: This compact soundbar speaker features an acoustic architecture that fits five transducers into its small frame, including two that fire upward, for spacious, realistic sound",
+    "ULTRA-CRISP DIALOGUE CLARITY: Never miss out on what your favorite characters are saying, this sound bar for smart tv uses A.I. Dialogue Mode to balance voices and surround sound for ultra-crisp vocal clarity",
+    "STREAMING, ANY WAY YOU WANT: Stream songs and video via Bluetooth, Apple AirPlay 2, Spotify Connect, or Chromecast built-in, if you can get it on your phone, you can hear it through your Bluetooth soundbar",
+    "COMPLETE CONTROL WITH VOICE, REMOTE, OR APP: This wireless soundbar has built-in Amazon Alexa and Bose Voice4Video expands upon this further by letting you control your TV and cable/satellite box with just your voice. Remote control included",
+    "PERSONAL SURROUND SOUND, THEATER-LIKE IMMERSION: Add another dimension to the sonic experience of your bluetooth soundbar by pairing with Bose Ultra Open Earbuds (sold separately) which act as rear surround speakers"
+   ],
+   "amazonPrice": 369,
+   "image": "https://m.media-amazon.com/images/I/31UmRSzUKpL._SL500_.jpg"
+  },
+  {
+   "old": "vizio-v-series-21",
+   "new": "vizio-soundbar-se-sv210y",
+   "name": "VIZIO All-in-One Soundbar SE (SV210Y-08)",
+   "brand": "Vizio",
+   "category": "soundbar",
+   "asin": "B0DT7FK7TQ",
+   "amazonQuery": "VIZIO All-in-One Soundbar SE SV210Y-08",
+   "amazonTitle": "VIZIO All-in-One Soundbar SE w/Dolby Atmos & DTS:X, Bluetooth Speaker, QuickFit™ Compatible – SV210Y-08 (New, 2024 Model)",
+   "amazonFeatures": [
+    "Two full-range speakers combined with two integrated bass drivers to pump 95db worth of sharp, clear, deep sound from one streamlined package.",
+    "Soundbar remote control sold separately.",
+    "Use your existing TV remote to control volume on your soundbar when connected through your TV's HDMI eARC port. (HDMI eARC Output ONLY.) No TV HDMI port? No problem! Contact VIZIO customer support 844-254-8087 or visit support.VIZIO.com if your TV requires optical connection.",
+    "Receive the latest product updates and adjust advanced soundbar settings by downloading the VIZIO mobile app for your Android or iOS device (A VIZIO Account is required)",
+    "When watching Dolby Atmos and DTS:X content, this soundbar puts you at the center of your entertainment, creating an immersive audio experience",
+    "QuickFit, only from VIZIO, eliminates the gap between this soundbar and select VIZIO TVs for a seamless setup. Use the included thumbscrews to attach this soundbar to your VIZIO TV in three simple steps, no tools needed!"
+   ],
+   "amazonPrice": 105.35,
+   "image": "https://m.media-amazon.com/images/I/11QiQXqzIOL._SL500_.jpg"
+  },
+  {
+   "old": "hisense-ax5125h",
+   "new": "hisense-ax5120g",
+   "name": "Hisense AX5120G 5.1.2 Soundbar",
+   "brand": "Hisense",
+   "category": "soundbar",
+   "asin": "B0D22HXRLS",
+   "amazonQuery": "Hisense AX5120G 5.1.2 soundbar",
+   "amazonTitle": "Hisense AX5120G 5.1.2Ch Sound Bar with Wireless Subwoofer, 420W, Dolby Atmos, Bluetooth 5.3, EzPlay, 4K HDMI Pass Through, Roku TV Ready, DTS: X, HDMI/AUX/ARC/Optical/USB, 7 EQ Modes",
+   "amazonFeatures": [
+    "5.1.2 SURROUND SOUND: speakers built into the soundbar. Left and right front channel, center channel, left and right rear surround channel, surround the listener in 3D audio for room-filling sound that delivers a true Dolby Atmos experience.",
+    "WIRELESS SUBWOOFER: A wireless subwoofer delivers the robust low-end frequencies that punctuate your favorite movies, music, and games, without any messy wires. You’ll feel the “boom” while the two front-facing speakers project bright, clear high- and mid-range frequencies.",
+    "DOLBY ATMOS: Whether you’re gaming, watching your favorite movie or show, or listening to that new track on repeat, Dolby Atmos enhances the entertainment you love across all of your devices. It goes beyond ordinary listening by transporting you with the breakthrough spatial sound experience that draws you in deeper, so you hear and feel more.",
+    "ROKU TV READY: As Roku TV Ready device, the Hisense AX3120G Soundbar is fully compatible with any Roku Tv through the HDMI (eARC) connection. You can even use the Roku TV remote to control both the TV and soundbar for easier setup and better navigation experience.",
+    "QUICK TOUCH EQ MODES: Get the best audio performance from music, movies, and news with a simple touch of the remote with 7 preset EQ settings."
+   ],
+   "amazonPrice": 322.89,
+   "image": "https://m.media-amazon.com/images/I/21JOBVUposL._SL500_.jpg"
+  },
+  {
+   "old": "vizio-m-series-512",
+   "new": "vizio-elevate-se-sl512x",
+   "name": "VIZIO 5.1.2 Elevate SE Soundbar (SL512X-08)",
+   "brand": "Vizio",
+   "category": "system",
+   "asin": "B0CXR1G2RD",
+   "amazonQuery": "VIZIO 5.1.2 Elevate SE soundbar SL512X-08",
+   "amazonTitle": "VIZIO 5.1.2 Elevate SE Soundbar, Wireless Subwoofer, Surround Sound w/Dolby Atmos & DTS:X, Bluetooth Speaker, QuickFit™ Compatible – SL512X-08 (New, 2024 Model)",
+   "amazonFeatures": [
+    "Soundbar remote control sold separately",
+    "Receive the latest product updates and adjust advanced soundbar settings by downloading the VIZIO mobile app for your Android or iOS device (A VIZIO Account is required.) Soundbar remote control not included.",
+    "When Dolby Atmos and DTS:X content is detected, built-in adaptive height speakers automatically rotate up, reflecting sound off the ceiling for a thrilling cinematic experience in the comfort of your own home.",
+    "Clean, modern design featuring premium fabric, rotating aluminum elements and exposed side ports with customizable LED light delivers the signature Elevate look.",
+    "The HDMI eARC connection unlocks the highest-quality audio and allows you to control the soundbar with your TV remote. (HDMI eARC Output only.)",
+    "QuickFit, only from VIZIO, eliminates the gap between this soundbar and select VIZIO TVs for a seamless setup. Use the included thumbscrews to attach this soundbar to your VIZIO TV in three simple steps, no tools needed!"
+   ],
+   "amazonPrice": 399,
+   "image": "https://m.media-amazon.com/images/I/21eUouEsHPL._SL500_.jpg"
+  },
+  {
+   "old": "klipsch-r-121sw",
+   "new": "klipsch-r-12sw",
+   "name": "Klipsch R-12SW",
+   "brand": "Klipsch",
+   "category": "subwoofer",
+   "asin": "B00MJ1YR8Y",
+   "amazonQuery": "Klipsch R-12SW 12 inch subwoofer",
+   "amazonTitle": "Klipsch R-12SW 12\" 400W Subwoofer | 12-inch IMG woofer with 400W digital amplifier and LFE input for music, movies and games",
+   "amazonFeatures": [
+    "Powerful 12\" copper-spun front-firing woofer",
+    "All-digital amplifier delivers 400 watts of dynamic power",
+    "Equally impressive with music and movies; Brushed black polymer veneer cabinet with satin painted plinth",
+    "Low pass crossover and phase control",
+    "Line/LFE inputs for compatibility with most receivers"
+   ],
+   "amazonPrice": 259,
+   "image": "https://m.media-amazon.com/images/I/411CsNjHnAL._SL500_.jpg"
+  },
+  {
+   "old": "polk-hts-12",
+   "new": "polk-signature-elite-es12",
+   "name": "Polk Signature Elite ES12",
+   "brand": "Polk Audio",
+   "category": "subwoofer",
+   "asin": "B0D9ZP4JKB",
+   "amazonQuery": "Polk Audio Signature Elite ES12 subwoofer",
+   "amazonTitle": "Polk Audio Signature Elite ES12 Powered Subwoofer, Stunning Black | 12\" Long-Throw Woofer with Mineral-Filled Polymer Cone, 300W Class D Amplifier, Front Firing Sub, Time-Smart Phase Control",
+   "amazonFeatures": [
+    "POWERFUL BASS FOR BIG SPACES - Elevate the largest home theater and music systems with the Signature Elite ES12 12 inch Subwoofer. With a 300W Class D amplifier, it delivers deep bass with rich dynamics and unparalleled clarity, even at high volumes",
+    "FORWARD-FIRING WOOFER - The Polk Home Theater Subwoofer features a 12” long-throw woofer with a mineral-filled polymer cone for clean output. Dual Power Ports minimize unruly turbulence, for deep musical lows (18 Hz) without the air noise & distortion",
+    "SUPERIOR SOUND CLARITY - Time-Smart Phase Control provides 360-degree phase adjustment for seamless subwoofer & main speaker blending, while the advanced 4th-order lowpass filter ensures precise frequency control for smooth, balanced full-range audio",
+    "ACOUSTICALLY OPTIMIZED CABINET - Featuring a rigid, ported cabinet reinforced with FEA-optimized internal bracing, this 12 inch subwoofer speaker effectively minimizes resonances and coloration, providing an incredibly immersive listening experience",
+    "CLASSIC SIGNATURE ELITE STYLE - Finished in durable black vinyl, this subwoofer complements Polk’s Signature Elite series speakers with a sleek aesthetic featuring curved edges and rounded corners. Removable grilles offer customization options"
+   ],
+   "amazonPrice": 899,
+   "image": "https://m.media-amazon.com/images/I/31Wu4BaBeVL._SL500_.jpg"
+  },
+  {
+   "old": "monolith-m-12-v2",
+   "new": "monolith-m-10-v2",
+   "name": "Monolith M-10 V2 Subwoofer",
+   "brand": "Monoprice",
+   "category": "subwoofer",
+   "asin": "B09LSRJ4V3",
+   "amazonQuery": "Monolith M-10 V2 THX subwoofer",
+   "amazonTitle": "Monolith M-10 V2 10-Inch THX Certified Ultra 500 Watt Powered Subwoofer - Low Distortion, High Power Output, Vented HDF Cabinet, RCA and XLR Inputs, for Home Theater Systems, Black Ash Finish",
+   "amazonFeatures": [
+    "THX Certified Select: THX engineers completed hundreds of different scientific tests to ensure the highest audio performance possible. The tests ensure the speaker can reach the high volumes necessary to achieve THX Reference Level without creating audible distortion or artifacts. THX Certified Select products are for medium sized rooms, up to 2,000 cubic feet in size, with a 10‑12 foot viewing distance from the screen.",
+    "10\" Woofer: The Monolith 10\" driver was developed from the ground up, with a design focus on achieving output, accuracy, dynamics, and linearity, while minimizing distortion. Enclosed in a cabinet made from HDF material, massive internal bracing, and outfitted with a single port that can utilize a foam plug to run the subwoofer in a sealed mode.",
+    "500 Watt Amplifier: The 500W RMS amplifier is built around a Texas Instruments 48‑bit data path (with 28‑bit filter coefficients) and DSP engine. Each amplifier's transfer function, power output limiting, and thermal protection are monitored to the millisecond and are customized for each individual driver. The high efficiency Class D amplifier modules are based on a proven topology that has been continuously refined over the past 4 years. The amplifier has vast reserves of power for highly",
+    "Cabinet and Internal Bracing: HDF (High Density Fiberboard), not MDF, was utilized resulting in a sonically inert cabinet. Internal bracing has been strategically placed to increase overall cabinet strength and limit unwanted panel vibrations that would cause discoloration and distortion. The strong cabinet and bracing combine to ensure you hear massive amounts of bass, not cabinet resonances.",
+    "All Amp'd Up: The Monolith subwoofer amplifier has an extraordinarily high power output of 500 watts RMS (900 watts peak), which can deliver massive amounts of power when needed. Each Class D amplifier is built around a Texas Instruments 48 bit data path (with 28 bit filter coefficients) DSP engine, allowing virtually unlimited design flexibility with the assurance of no signal degradation."
+   ],
+   "amazonPrice": 700.12,
+   "image": "https://m.media-amazon.com/images/I/31CBkeYDMSL._SL500_.jpg"
+  },
+  {
+   "old": "dayton-sub-1200",
+   "new": "dayton-classic-cs1200",
+   "name": "Dayton Audio Classic CS1200",
+   "brand": "Dayton Audio",
+   "category": "subwoofer",
+   "asin": "B0G816V8GR",
+   "amazonQuery": "Dayton Audio Classic CS1200 subwoofer",
+   "amazonTitle": "Dayton Audio Classic CS1200 – 12\" 200W Powered Subwoofer with Class-D Amplifier, Deep Bass and Clean Design for Home Theater & Music – Black",
+   "amazonFeatures": [
+    "COMPLETE YOUR SYSTEM: Pairs seamlessly with any speaker, adding the deep bass foundation your music and movies need.",
+    "DESIGN THAT FITS YOUR SPACE: Available in black, with a swappable grille to match your décor. Black grille included; gray sold separately.",
+    "CLEAN, POWERFUL BASS: A 200W Class-D amplifier and rigid, braced cabinet deliver tight, accurate low end without boominess or distortion.Clean, Powerful Bass: A 200W Class-D amplifier and rigid, braced cabinet deliver tight, accurate low end without boominess or distortion.",
+    "FLEXIBLE CONNECTIVITY & SETUP: Stereo RCA, LFE, and speaker-level inputs integrate easily with any system, with auto-on and simple controls for fast tuning.",
+    "DESIGNED IN THE USA: Backed by a long-lasting 5-year warranty for performance you can trust."
+   ],
+   "amazonPrice": 239.98,
+   "image": "https://m.media-amazon.com/images/I/41qEWrdf1nL._SL500_.jpg"
+  },
+  {
+   "old": "lg-g5-oled",
+   "new": "lg-c6-oled",
+   "name": "LG C6 OLED evo TV",
+   "brand": "LG",
+   "category": "tv",
+   "asin": "B0GRK5D3RW",
+   "amazonQuery": "LG 65 inch OLED evo C6 4K TV 2026",
+   "amazonTitle": "LG 65 inch Class OLED evo AI C6 4K Smart TV 2026 | Brightness Booster, Perfect Black & Perfect Color, a11 AI Processor Gen3, VRR 165Hz, Dolby Vision & Atmos, Filmmaker Mode",
+   "amazonFeatures": [
+    "BRIGHTNESS BOOSTER: Brighter visuals and vivid detail with Brightness Booster powered by the a11 AI Processor Gen 3.",
+    "PERFECT BLACK AND PERFECT COLOR: Over 8.3 million self-lit smart pixels with Perfect Black and Perfect Color technology.",
+    "A11 AI PROCESSOR: Find and choose what to watch quickly and seamlessly, with AI Director Processing delivering movies in perfected tone. Compared to the LG a9 AI Processor Gen8, enjoy 5.6x greater AI neural processing, 50% faster operation, and 70% improved graphics.",
+    "DOLBY VISION, DOLBY ATMOS AND FILMMAKER MODE: Loaded with Dolby Vision for extraordinary color, contrast and brightness, plus Dolby Atmos for sound you can feel all around you. Land in the center of the action with FILMMAKER MODE with Ambient Light Technology, allowing you to see films just as the director intended.",
+    "ULTIMATE GAMEPLAY: Delivers smooth, responsive gaming with a 0.1ms response time, up to 165Hz⁵ refresh rate, NVIDIA G-Sync, AMD FreeSync Premium and VRR.",
+    "OLED CARE: Helps protect your OLED display to retain the best picture quality possible over time.",
+    "WEBOS SMART PLATFORM: Delivers smarter, easier streaming, plus Google Gemini at your fingertips for enhanced user experience.",
+    "LG CHANNELS: Access to over 400 free channels with LG Channels and over 10,000 movies and shows available on-demand.",
+    "DIMENSIONS: TV Dimensions with Stand (WxHxD) 56.7 inches x 34.6 inches x 9.1 inches; TV Dimensions without Stand (WxHxD) 56.7 inches x 32.5 inches x 1.8 inches"
+   ],
+   "amazonPrice": 1399.99,
+   "image": "https://m.media-amazon.com/images/I/41O+ThGacaL._SL500_.jpg"
+  },
+  {
+   "old": "tcl-qm8k",
+   "new": "tcl-qm8l",
+   "name": "TCL QM8L SQD-Mini LED TV",
+   "brand": "TCL",
+   "category": "tv",
+   "asin": "B0GPSYT2KN",
+   "amazonQuery": "TCL 65 inch QM8L SQD-Mini LED TV",
+   "amazonTitle": "TCL 65 Inch QM8L Series SQD-Mini LED QLED 4K Smart Google TV 65QM8L, 144Hz | 2026, Google TV with Gemini, Ultimate Color, Ultimate Brightness & Contrast, Dolby Vision IQ, Dolby Atmos, IMAX Enhanced",
+   "amazonFeatures": [
+    "SQD-Mini LED: As the ultimate Mini LED TV, it integrates the expansive TCL Deep Color System with the breakthrough TCL Halo Control System to ensure the most brilliant, pure, and immersive viewing experience possible.",
+    "TCL Ultra Color Filter: TCL’s Ultra Color Filter with fine 5 nanometer particles (vs. standard 60 nanometer particles) bring every scene to life with pinpoint, pixel-perfect color accuracy.",
+    "High Static Contrast: Experience exceptional picture quality driven by a high 7000:1 contrast ratio for stunning clarity between light and dark scenes.",
+    "High Zones & High Brightness: Up to 4000+ Discrete Dimming Zones and up to 6,000 Peak Nits combine for a picture that is brighter, deeper, and more realistic.",
+    "AI-Powered Experience: Elevate every viewing experience with AI Color for vibrant hues, AI Contrast for dynamic depth, AI Clarity for razor-sharp detail, AI Motion for smooth action, AI Upscaling for lifelike resolution, and AI Sound for immersive, crystal-clear audio.",
+    "Google TV with Gemini: Stop scrolling, start watching. Skip the endless scrolling and chat with Gemini to discover movies and shows tailored for you.",
+    "Home Theater Audio: Experience every whisper and explosion with Audio by Bang & Olufsen, optional wireless subwoofer and satellite speakers that complement the high-performance, built-in speakers.",
+    "TCL Game Pack: A powerful suite of Game Accelerator 288 VRR, Game Bar, and AMD FreeSync Premium Pro, all designed to deliver smoother motion, lower latency, and a more responsive, immersive gaming experience.",
+    "TCL Enhanced Halo Control System – Precise Dimming: An advanced Technology Suite that includes the Super High Energy LED Microchip, Super Condensed Micro Lens, Super Micro-OD Reduced Optical Distance, WHVA 2.0 Ultra Panel, Super Quantum Crystals, Fast Transient Response, 26-bit Dynamic Dimming, and for Stunning “Halo-Free” Images.",
+    "Dolby Vision IQ: Intelligent HDR that adapts to your room, delivering stunning brightness, contrast, and detail in every scene."
+   ],
+   "amazonPrice": 997.99,
+   "image": "https://m.media-amazon.com/images/I/51Xt98UnE9L._SL500_.jpg"
+  },
+  {
+   "old": "hisense-u75qg",
+   "new": "hisense-u7sg",
+   "name": "Hisense U7SG Mini-LED TV",
+   "brand": "Hisense",
+   "category": "tv",
+   "asin": "B0GR9BLPJ8",
+   "amazonQuery": "Hisense 65 inch U7 Mini-LED 65U7SG",
+   "amazonTitle": "Hisense 65\" U7 Mini-LED ULED 4K UHD Best Premium Gaming HDR Smart Google TV (65U7SG, 2026 NEW) - Hi-QLED, Native 165Hz, VRR 330, HDR10+, Dolby Vision IQ·Atmos, IMAX Enhanced, Anti-Reflection, 2.1.2 Ch",
+   "amazonFeatures": [
+    "HI - QLED MINILED PRO: Thousands of MiniLED backlights deliver pinpoint control for vibrant, lifelike pictures. Whether you're hosting a watch party in a bright room or diving into a late-night movie, you’ll get exceptional brightness, true blacks, and stunning detail in every scene. Hi-QLED technology brings out the full spectrum of color with incredible accuracy and intensity",
+    "NATIVE 165HZ REFRESH RATE: Advanced motion technology handles gaming, sports and action at high speeds. There's no blur, lag or smeared frames—just fluid action that never misses a beat because of the native 165Hz refresh rate",
+    "ANTI-REFLECTION & GLARE-FREE: Bright windows, overhead lights, afternoon sun—your screen handles it all. The anti-glare layer keeps the picture crisp and clear no matter what's happening around you. Advanced dual-layer screen treatment goes beyond standard single-layer designs, minimizing reflections and glare for consistent clarity",
+    "HI-VIEW AI ENGINE PRO: Our AI processor never stops working—constantly analyzing the scene and making smart, instant adjustments to color, contrast and detail so every moment looks its most stunning, automatically",
+    "UP TO 3000 LOCAL DIMMING ZONES & UP TO 3000 NITS PEAK BRIGHTNESS: Precision lighting zones work together to make bright areas shine brilliantly while dark scenes stay deep and detailed. The result is stronger contrast, sharper edges around bright objects, and intense highlights that stay vivid even in well-lit rooms—for a more refined, immersive picture every time you watch"
+   ],
+   "amazonPrice": 797.99,
+   "image": "https://m.media-amazon.com/images/I/41AfsCtzJ4L._SL500_.jpg"
+  }
+ ],
+ "drops": {
+  "pioneer-sp-bs22-lr": {
+   "replacePickWith": null
+  },
+  "hisense-c1": {
+   "replacePickWith": null
+  },
+  "dangbei-mars-pro-2": {
+   "replacePickWith": null
+  },
+  "vamvo-alr-screen": {
+   "replacePickWith": null
+  },
+  "marantz-cinema-70s": {
+   "replacePickWith": null
+  },
+  "pioneer-vsx-lx305": {
+   "replacePickWith": "onkyo-tx-rz50"
+  },
+  "ultimea-nova-s50": {
+   "replacePickWith": null
+  },
+  "onkyo-ht-s3910": {
+   "replacePickWith": "yamaha-yht-5960u"
+  },
+  "jamo-s-807-hcs": {
+   "replacePickWith": null
+  },
+  "nakamichi-shockwafe-ultra-924": {
+   "replacePickWith": null
+  },
+  "platin-monaco-51": {
+   "replacePickWith": null
+  }
+ }
+}
