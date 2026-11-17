@@ -23,6 +23,13 @@ const url = articleUrl(a);
 const picks = a.picks ?? [];
 const pickProducts = picks.map((p) => getProduct(p.product));
 const before = a.sections.filter((s) => s.position === 'before');
+// Comparison columns: keep specs most picks actually have; top up from shared key specs.
+const coverage = (k: string) => pickProducts.filter((p) => p.specs[k]).length / Math.max(1, pickProducts.length);
+const columns = (a.comparisonSpecs ?? []).filter((k) => coverage(k) >= 0.5);
+for (const k of [...new Set(pickProducts.flatMap((p) => p.keySpecs ?? []))].sort((x, y) => coverage(y) - coverage(x))) {
+  if (columns.length >= 4) break;
+  if (!columns.includes(k) && coverage(k) >= 0.6) columns.push(k);
+}
 const after = a.sections.filter((s) => s.position !== 'before');
 
 // Numbered H2 outline, same pattern as our proven templates.
@@ -32,7 +39,7 @@ let n = 0;
 const num = (label: string, id?: string) => { n += 1; const h = { id: id ?? slugify(label), label: `${n}. ${label}` }; outline.push(h); return h; };
 const beforeH = before.map((s) => num(s.heading));
 const picksH = picks.length ? num(a.picksHeading ?? `The Best ${a.h1.replace(/^Best /, '')}`, 'the-picks') : null;
-const tableH = picks.length > 1 && a.comparisonSpecs?.length ? num(`${a.h1.replace(/^Best /, '')} Side by Side`, 'side-by-side') : null;
+const tableH = picks.length > 1 ? num(`${a.h1.replace(/^Best /, '')} Side by Side`, 'side-by-side') : null;
 const afterH = after.map((s) => num(s.heading));
 const mistakesH = a.mistakes?.length ? num('Common Mistakes to Avoid', 'mistakes') : null;
 const faqH = num('Frequently Asked Questions', 'faq');
@@ -77,7 +84,7 @@ const brandProducts = a.brand ? productsByBrand(a.brand) : [];
         {picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}
         {tableH && (
           <div class="prose"><h2 id={tableH.id}>{tableH.label}</h2></div>
-          <ComparisonTable products={pickProducts} specs={a.comparisonSpecs!} awards={picks.map((p) => p.award)} />
+          <ComparisonTable products={pickProducts} specs={columns} awards={picks.map((p) => p.award)} />
         )}
         <div class="prose">
           {after.map((s, i) => (<><h2 id={afterH[i].id}>{afterH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}
