@@ -1,9 +1,11 @@
 import type { Article, Product } from './types';
 import overrides from '../data/amazon-links.json';
+import fetchedImages from '../data/product-images.json';
+import fetchedAsins from '../data/product-asins.json';
 import { CATEGORY_LABELS } from '../data/site';
 import { slugify } from './md';
 
-type Override = string | { asin?: string; imageId?: string; url?: string };
+type Override = string | { asin?: string; imageId?: string; url?: string; image?: string };
 
 /** Pull an ASIN out of any Amazon product URL (dp/, gp/product/, amzn links with /dp/). */
 export function asinFromUrl(url: string): string | undefined {
@@ -11,7 +13,17 @@ export function asinFromUrl(url: string): string | undefined {
   return m ? m[1].toUpperCase() : undefined;
 }
 
-function applyOverride(p: Product): Product {
+/** "https://m.media-amazon.com/images/I/41Txa4w1RXL._SL500_.jpg" → "41Txa4w1RXL" */
+export function imageIdFromUrl(url: string | undefined): string | undefined {
+  return url?.match(/\/images\/I\/([^._/]+)\./)?.[1];
+}
+
+/** Merge Amazon data: Creators API results first, then hand-entered amazon-links.json wins. */
+function applyOverride(base: Product): Product {
+  let p = base;
+  const fa = (fetchedAsins as Record<string, string>)[p.slug];
+  const fi = imageIdFromUrl((fetchedImages as Record<string, string>)[p.slug]);
+  if (fa || fi) p = { ...p, ...(fa ? { asin: fa } : {}), ...(fi ? { imageId: fi } : {}) };
   const o = (overrides as Record<string, Override>)[p.slug];
   if (!o) return p;
   if (typeof o === 'string') {
@@ -19,7 +31,8 @@ function applyOverride(p: Product): Product {
     return asin ? { ...p, asin } : p;
   }
   const asin = o.asin || (o.url ? asinFromUrl(o.url) : undefined);
-  return { ...p, ...(asin ? { asin } : {}), ...(o.imageId ? { imageId: o.imageId } : {}) };
+  const imageId = o.imageId || imageIdFromUrl((o as { image?: string }).image);
+  return { ...p, ...(asin ? { asin } : {}), ...(imageId ? { imageId } : {}) };
 }
 
 const productFiles = import.meta.glob<{ default: Product[] }>('../content/products/*.json', { eager: true });

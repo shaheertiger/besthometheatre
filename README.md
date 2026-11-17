@@ -30,28 +30,30 @@ Deploy `dist/` to any static host (Cloudflare Pages, Netlify, Vercel: build comm
 
 ## Amazon affiliate links and product images
 
+Same setup as best-proteinpowder.com:
+
 - The Associates tag lives in **`src/data/site.ts` → `amazonTag`** (`sktiger-20`). Every Amazon link uses it, with `rel="sponsored nofollow noopener"`.
-- When a product has an **ASIN**, buttons link to `https://www.amazon.com/dp/<ASIN>?tag=sktiger-20` and the page shows the Amazon product photo (`m.media-amazon.com/images/I/<imageId>._SL400_.jpg`, the same hotlinking the protein site uses).
-- Without an ASIN, the button falls back to a tagged Amazon **search** link for the exact model, and the image shows a clean placeholder.
+- **Images and ASINs come from the Amazon Creators API**, stored in `src/data/product-images.json` (slug → `m.media-amazon.com` image URL) and `src/data/product-asins.json` (slug → ASIN).
+- With an ASIN, buttons link to `https://www.amazon.com/dp/<ASIN>?tag=sktiger-20` and the page shows the Amazon photo. Without one, the button falls back to a tagged Amazon **search** link for the exact model, and a placeholder replaces the photo.
 
-There are two ways to add ASINs and photos. Both write to **`src/data/amazon-links.json`**, which overrides the catalog at build time:
+### Fetch images and ASINs
 
-1. **Paste your own Amazon links.** Map product slug → any Amazon URL or ASIN:
-   ```json
-   {
-     "klipsch-r-120sw": "https://www.amazon.com/dp/B07FK2WNW4?tag=sktiger-20",
-     "sonos-arc-ultra": "B0DGHX...",
-     "epson-home-cinema-2350": { "asin": "B0B...", "imageId": "61abcXYZ" }
-   }
-   ```
-   The `imageId` is the part after `/images/I/` in the product photo URL. With only an ASIN, the site uses Amazon's official ASIN image endpoint.
-2. **Use the Product Advertising API** (requires PA-API access in Associates Central):
-   ```bash
-   AMAZON_ACCESS_KEY=... AMAZON_SECRET_KEY=... npm run amazon:fill
-   ```
-   Review the matched titles it prints before publishing.
+```bash
+cp ../proteinpowder/.env .env      # same Creators API credentials as the protein site (or fill in .env.example)
+npm run images:fetch               # matches all products, writes the two JSON files
+npm run images:review              # eyeball every match: our name vs Amazon's title
+npm run build
+```
 
-Product slugs are listed in `docs/product-catalog.txt` and in each `src/content/products/*.json`.
+Matching is strict: Amazon's title must contain the brand **and** the model tokens from
+`docs/product-catalog.txt` (so an R-121SW can't stand in for an R-120SW). Rejected products keep their
+search link. To block a wrong match, add `"slug": "reason"` to `src/data/asin-quarantine.json` and
+remove the slug from the two JSON files.
+
+### Manual overrides
+
+`src/data/amazon-links.json` wins over everything. Map product slug → an Amazon URL, an ASIN, or
+`{ "asin": "...", "image": "https://m.media-amazon.com/images/I/....jpg" }`.
 
 ## Content
 

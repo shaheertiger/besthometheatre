@@ -9,12 +9,9 @@ export function amazonUrl(p: Pick<Product, 'asin' | 'name' | 'amazonQuery'>): st
   return `https://${SITE.amazonDomain}/s?k=${q}&tag=${tag}`;
 }
 
-/** Amazon product photo. Uses the image id when known, else Amazon's ASIN image endpoint. */
-export function amazonImage(p: Pick<Product, 'asin' | 'imageId'>, size = 400): string | null {
-  if (p.imageId) return `https://m.media-amazon.com/images/I/${p.imageId}._SL${size}_.jpg`;
-  if (p.asin)
-    return `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${p.asin}&Format=_SL${size}_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=${encodeURIComponent(SITE.amazonTag)}`;
-  return null;
+/** Amazon product photo (m.media-amazon.com), same hotlinking as best-proteinpowder.com. Null until an image is fetched. */
+export function amazonImage(p: Pick<Product, 'imageId'>, size = 400): string | null {
+  return p.imageId ? `https://m.media-amazon.com/images/I/${p.imageId}._SL${size}_.jpg` : null;
 }
 
 export const AFFILIATE_REL = 'sponsored nofollow noopener';
