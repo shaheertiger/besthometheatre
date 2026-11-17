@@ -9,7 +9,7 @@ epson-ls12000|Epson Pro Cinema LS12000|Epson|projector|ls12000|Epson Pro Cinema 
 epson-ls800|Epson EpiqVision Ultra LS800|Epson|projector|ls800|Epson EpiqVision Ultra LS800 ultra short throw
 benq-ht2060|BenQ HT2060|BenQ|projector|ht2060|BenQ HT2060 1080p home theater projector
 benq-tk710sti|BenQ TK710STi|BenQ|projector|tk710sti|BenQ TK710STi 4K short throw projector
-benq-ht4550i|BenQ HT4550i|BenQ|projector|ht4550i|BenQ HT4550i 4K laser projector
+benq-ht4550i|BenQ HT4550i|BenQ|projector|ht4550i|BenQ HT4550i 4K LED projector
 benq-w4100i|BenQ W4100i|BenQ|projector|w4100i|BenQ W4100i 4K projector
 benq-th575|BenQ TH575|BenQ|projector|th575|BenQ TH575 1080p projector
 benq-v5010i|BenQ V5010i|BenQ|projector|v5010i|BenQ V5010i ultra short throw laser TV
