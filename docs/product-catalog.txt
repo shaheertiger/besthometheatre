@@ -1,0 +1,230 @@
+# slug | name | brand | category | must tokens (comma) | query
+# --- projectors
+epson-home-cinema-2350|Epson Home Cinema 2350|Epson|projector|2350|Epson Home Cinema 2350 4K PRO-UHD projector
+epson-home-cinema-880|Epson Home Cinema 880|Epson|projector|880|Epson Home Cinema 880 1080p projector
+epson-home-cinema-3800|Epson Home Cinema 3800|Epson|projector|3800|Epson Home Cinema 3800 4K PRO-UHD projector
+epson-home-cinema-5050ub|Epson Home Cinema 5050UB|Epson|projector|5050|Epson Home Cinema 5050UB projector
+epson-ls11000|Epson Pro Cinema LS11000|Epson|projector|ls11000|Epson LS11000 4K laser projector
+epson-ls12000|Epson Pro Cinema LS12000|Epson|projector|ls12000|Epson Pro Cinema LS12000 laser projector
+epson-ls800|Epson EpiqVision Ultra LS800|Epson|projector|ls800|Epson EpiqVision Ultra LS800 ultra short throw
+benq-ht2060|BenQ HT2060|BenQ|projector|ht2060|BenQ HT2060 1080p home theater projector
+benq-tk710sti|BenQ TK710STi|BenQ|projector|tk710sti|BenQ TK710STi 4K short throw projector
+benq-ht4550i|BenQ HT4550i|BenQ|projector|ht4550i|BenQ HT4550i 4K laser projector
+benq-w4100i|BenQ W4100i|BenQ|projector|w4100i|BenQ W4100i 4K projector
+benq-th575|BenQ TH575|BenQ|projector|th575|BenQ TH575 1080p projector
+benq-v5010i|BenQ V5010i|BenQ|projector|v5010i|BenQ V5010i ultra short throw laser TV
+hisense-c2-ultra|Hisense C2 Ultra|Hisense|projector|c2,ultra|Hisense C2 Ultra 4K laser projector
+hisense-px3-pro|Hisense PX3-Pro|Hisense|projector|px3|Hisense PX3-Pro laser TV ultra short throw
+hisense-c1|Hisense C1|Hisense|projector|c1|Hisense C1 4K laser mini projector
+xgimi-horizon-s-max|XGIMI Horizon S Max|XGIMI|projector|horizon,s,max|XGIMI Horizon S Max 4K projector
+xgimi-aura-2|XGIMI Aura 2|XGIMI|projector|aura|XGIMI Aura 2 ultra short throw projector
+valerion-visionmaster-pro2|Valerion VisionMaster Pro2|Valerion|projector|visionmaster,pro2|Valerion VisionMaster Pro2 4K laser projector
+valerion-visionmaster-max|Valerion VisionMaster Max|Valerion|projector|visionmaster,max|Valerion VisionMaster Max projector
+optoma-uhd38x|Optoma UHD38x|Optoma|projector|uhd38x|Optoma UHD38x 4K projector
+optoma-uhd35stx|Optoma UHD35STx|Optoma|projector|uhd35stx|Optoma UHD35STx short throw 4K
+optoma-hd146x|Optoma HD146X|Optoma|projector|hd146x|Optoma HD146X 1080p projector
+optoma-uhz35|Optoma UHZ35|Optoma|projector|uhz35|Optoma UHZ35 4K laser projector
+awol-ltv-3500-pro|AWOL Vision LTV-3500 Pro|AWOL Vision|projector|3500|AWOL Vision LTV-3500 Pro laser projector
+nebula-cosmos-4k-se|Anker Nebula Cosmos 4K SE|Nebula|projector|cosmos,4k,se|Nebula Cosmos 4K SE projector
+dangbei-mars-pro-2|Dangbei Mars Pro 2|Dangbei|projector|mars,pro|Dangbei Mars Pro 2 4K laser projector
+dangbei-n2|Dangbei N2|Dangbei|projector|n2|Dangbei N2 1080p projector
+jmgo-n1s-ultimate|JMGO N1S Ultimate|JMGO|projector|n1s|JMGO N1S Ultimate 4K projector
+formovie-theater-premium|Formovie Theater Premium|Formovie|projector|theater|Formovie Theater Premium UST projector
+sony-vpl-xw5000es|Sony VPL-XW5000ES|Sony|projector|xw5000|Sony VPL-XW5000ES 4K projector
+# --- projector screens
+silver-ticket-str-169120|Silver Ticket STR-169120 Fixed Frame Screen|Silver Ticket|screen|silver ticket,120|Silver Ticket STR-169120 120 inch projector screen
+elite-screens-sable-frame-2|Elite Screens Sable Frame 2|Elite Screens|screen|sable|Elite Screens Sable Frame 2 120 inch
+elite-screens-aeon-clr3|Elite Screens Aeon CLR 3|Elite Screens|screen|aeon|Elite Screens Aeon CLR 3 ALR screen
+elite-screens-spectrum|Elite Screens Spectrum Motorized Screen|Elite Screens|screen|spectrum|Elite Screens Spectrum electric motorized projector screen 120
+elite-screens-cinegrey-3d|Elite Screens Sable Frame CineGrey 3D|Elite Screens|screen|cinegrey|Elite Screens CineGrey 3D projector screen
+vamvo-alr-screen|VAMVO Ambient Light Rejecting Screen|VAMVO|screen|vamvo|VAMVO ALR projector screen fixed frame
+akia-screens-fixed-frame|Akia Screens Fixed Frame Screen|Akia Screens|screen|akia|Akia Screens 120 inch fixed frame projector screen
+elite-screens-manual-b|Elite Screens Manual B Pull Down Screen|Elite Screens|screen|manual|Elite Screens Manual B pull down projector screen 100
+# --- AV receivers
+denon-avr-s770h|Denon AVR-S770H|Denon|receiver|s770h|Denon AVR-S770H 7.2 receiver
+denon-avr-x1800h|Denon AVR-X1800H|Denon|receiver|x1800h|Denon AVR-X1800H 7.2 channel AV receiver
+denon-avr-x2800h|Denon AVR-X2800H|Denon|receiver|x2800h|Denon AVR-X2800H 7.2 channel receiver
+denon-avr-x3800h|Denon AVR-X3800H|Denon|receiver|x3800h|Denon AVR-X3800H 9.4 channel receiver
+denon-avr-x4800h|Denon AVR-X4800H|Denon|receiver|x4800h|Denon AVR-X4800H 9.4 receiver
+marantz-cinema-70s|Marantz Cinema 70s|Marantz|receiver|cinema 70s|Marantz Cinema 70s slim AV receiver
+marantz-cinema-60|Marantz Cinema 60|Marantz|receiver|cinema 60|Marantz Cinema 60 7.2 receiver
+marantz-cinema-50|Marantz Cinema 50|Marantz|receiver|cinema 50|Marantz Cinema 50 9.4 receiver
+yamaha-rx-v4a|Yamaha RX-V4A|Yamaha|receiver|v4a|Yamaha RX-V4A 5.2 receiver
+yamaha-rx-v6a|Yamaha RX-V6A|Yamaha|receiver|v6a|Yamaha RX-V6A 7.2 receiver
+yamaha-rx-a4a|Yamaha AVENTAGE RX-A4A|Yamaha|receiver|a4a|Yamaha AVENTAGE RX-A4A receiver
+sony-str-an1000|Sony STR-AN1000|Sony|receiver|an1000|Sony STR-AN1000 7.2 receiver
+sony-str-dh590|Sony STR-DH590|Sony|receiver|dh590|Sony STR-DH590 5.2 receiver
+onkyo-tx-nr6100|Onkyo TX-NR6100|Onkyo|receiver|nr6100|Onkyo TX-NR6100 7.2 receiver
+onkyo-tx-nr5100|Onkyo TX-NR5100|Onkyo|receiver|nr5100|Onkyo TX-NR5100 7.2 receiver
+onkyo-tx-rz50|Onkyo TX-RZ50|Onkyo|receiver|rz50|Onkyo TX-RZ50 9.2 receiver
+pioneer-vsx-lx305|Pioneer VSX-LX305|Pioneer|receiver|lx305|Pioneer VSX-LX305 9.2 receiver
+pioneer-vsx-535|Pioneer VSX-535|Pioneer|receiver|vsx-535|Pioneer VSX-535 receiver
+# --- amplifiers
+monoprice-monolith-7x200|Monoprice Monolith 7x200 Amplifier|Monoprice|amplifier|monolith,7x200|Monoprice Monolith 7x200 multi channel amplifier
+emotiva-basx-a-700|Emotiva BasX A-700|Emotiva|amplifier|a-700|Emotiva BasX A-700 amplifier
+emotiva-basx-a3|Emotiva BasX A3|Emotiva|amplifier|basx|Emotiva BasX A3 three channel amplifier
+yamaha-a-s501|Yamaha A-S501 Integrated Amplifier|Yamaha|amplifier|a-s501|Yamaha A-S501 integrated amplifier
+rotel-rb-1582|Rotel RB-1582 MkII|Rotel|amplifier|1582|Rotel RB-1582 stereo power amplifier
+fosi-audio-v3|Fosi Audio V3 Amplifier|Fosi Audio|amplifier|fosi,v3|Fosi Audio V3 stereo amplifier
+denon-pma-600ne|Denon PMA-600NE Integrated Amplifier|Denon|amplifier|pma-600ne|Denon PMA-600NE integrated amplifier
+# --- subwoofers
+svs-sb-1000-pro|SVS SB-1000 Pro|SVS|subwoofer|sb-1000|SVS SB-1000 Pro subwoofer
+svs-pb-1000-pro|SVS PB-1000 Pro|SVS|subwoofer|pb-1000|SVS PB-1000 Pro subwoofer
+svs-sb-2000-pro|SVS SB-2000 Pro|SVS|subwoofer|sb-2000|SVS SB-2000 Pro subwoofer
+svs-pb-2000-pro|SVS PB-2000 Pro|SVS|subwoofer|pb-2000|SVS PB-2000 Pro subwoofer
+svs-sb-3000|SVS SB-3000|SVS|subwoofer|sb-3000|SVS SB-3000 subwoofer
+klipsch-r-120sw|Klipsch R-120SW|Klipsch|subwoofer|120sw|Klipsch R-120SW 12 inch subwoofer
+klipsch-r-121sw|Klipsch R-121SW|Klipsch|subwoofer|121sw|Klipsch R-121SW subwoofer
+klipsch-spl-120|Klipsch SPL-120|Klipsch|subwoofer|spl-120|Klipsch SPL-120 subwoofer
+polk-monitor-xt12|Polk Monitor XT12|Polk Audio|subwoofer|xt12|Polk Audio Monitor XT12 subwoofer
+polk-hts-12|Polk HTS 12|Polk Audio|subwoofer|hts 12|Polk Audio HTS 12 subwoofer
+polk-psw10|Polk PSW10|Polk Audio|subwoofer|psw10|Polk Audio PSW10 subwoofer
+monolith-m-12-v2|Monoprice Monolith 12 Subwoofer|Monoprice|subwoofer|monolith,12|Monoprice Monolith 12 inch THX subwoofer
+bic-acoustech-pl-200-ii|BIC Acoustech PL-200 II|BIC America|subwoofer|pl-200|BIC Acoustech PL-200 II subwoofer
+dayton-sub-1200|Dayton Audio SUB-1200|Dayton Audio|subwoofer|sub-1200|Dayton Audio SUB-1200 12 inch subwoofer
+elac-debut-sub3030|ELAC Debut 3030 Subwoofer|ELAC|subwoofer|elac,sub|ELAC Debut Sub3030 subwoofer
+sony-sa-cs9|Sony SA-CS9|Sony|subwoofer|sa-cs9|Sony SA-CS9 subwoofer
+yamaha-ns-sw100|Yamaha NS-SW100|Yamaha|subwoofer|sw100|Yamaha NS-SW100 subwoofer
+fluance-db10|Fluance DB10|Fluance|subwoofer|db10|Fluance DB10 subwoofer
+kanto-sub8|Kanto SUB8|Kanto|subwoofer|sub8|Kanto SUB8 powered subwoofer
+rel-t5x|REL T/5x|REL|subwoofer|t/5x,t5x|REL T/5x subwoofer
+# --- speaker systems / packages
+klipsch-reference-theater-pack|Klipsch Reference Theater Pack 5.1|Klipsch|system|theater pack|Klipsch Reference Theater Pack 5.1 surround sound
+klipsch-r-625fa-51-system|Klipsch Reference R-625FA 5.1.2 Dolby Atmos System|Klipsch|system|625fa|Klipsch Reference Dolby Atmos 5.1.2 home theater system R-625FA
+polk-monitor-xt-51-system|Polk Monitor XT 5.1 Home Theater System|Polk Audio|system|monitor xt|Polk Monitor XT 5.1 home theater speaker system
+svs-prime-satellite-51|SVS Prime Satellite 5.1 System|SVS|system|prime satellite|SVS Prime Satellite 5.1 speaker system
+onkyo-ht-s3910|Onkyo HT-S3910 5.1 Home Theater Package|Onkyo|system|s3910|Onkyo HT-S3910 5.1 home theater package
+yamaha-yht-5960u|Yamaha YHT-5960U Home Theater System|Yamaha|system|5960|Yamaha YHT-5960U home theater in a box
+jamo-s-807-hcs|Jamo Studio S 807 HCS 5.0 System|Jamo|system|807|Jamo Studio S 807 HCS home cinema system
+vizio-m-series-512|Vizio M-Series 5.1.2 Home Theater Sound Bar|Vizio|system|5.1.2|Vizio M-Series 5.1.2 home theater sound bar Dolby Atmos
+nakamichi-dragon-1146|Nakamichi Dragon 11.4.6 Soundbar System|Nakamichi|system|dragon|Nakamichi Dragon 11.4.6 soundbar
+nakamichi-shockwafe-ultra-924|Nakamichi Shockwafe Ultra 9.2.4|Nakamichi|system|shockwafe ultra|Nakamichi Shockwafe Ultra 9.2.4 soundbar
+sony-bravia-theater-quad|Sony Bravia Theater Quad|Sony|system|theater quad|Sony Bravia Theater Quad home theater system
+samsung-hw-q990f|Samsung HW-Q990F 11.1.4 Soundbar|Samsung|system|q990|Samsung HW-Q990F soundbar 11.1.4
+enclave-cinehome-pro|Enclave Audio CineHome Pro 5.1|Enclave Audio|system|cinehome|Enclave Audio CineHome PRO wireless 5.1
+platin-monaco-51|Platin Audio Monaco 5.1 Wireless System|Platin|system|monaco|Platin Monaco 5.1 wireless home theater
+klipsch-flexus-core-300|Klipsch Flexus Core 300 Soundbar|Klipsch|system|flexus|Klipsch Flexus Core 300 soundbar
+fluance-elite-51|Fluance Elite 5.1 Surround Sound System|Fluance|system|fluance,surround|Fluance Elite surround sound home theater 5 speaker system
+sony-ht-s40r|Sony HT-S40R 5.1 Home Theater System|Sony|system|s40r|Sony HT-S40R 5.1 soundbar wireless rear
+# --- soundbars
+sonos-arc-ultra|Sonos Arc Ultra|Sonos|soundbar|arc ultra|Sonos Arc Ultra soundbar
+sonos-beam-gen-2|Sonos Beam (Gen 2)|Sonos|soundbar|beam|Sonos Beam Gen 2 soundbar
+sonos-sub-4|Sonos Sub 4|Sonos|subwoofer|sub 4|Sonos Sub 4 wireless subwoofer
+sonos-era-300|Sonos Era 300|Sonos|wireless-speaker|era 300|Sonos Era 300 speaker
+sony-bravia-theater-bar-9|Sony Bravia Theater Bar 9|Sony|soundbar|bar 9|Sony Bravia Theater Bar 9 soundbar
+sony-bravia-theater-bar-8|Sony Bravia Theater Bar 8|Sony|soundbar|bar 8|Sony Bravia Theater Bar 8 soundbar
+bose-smart-ultra-soundbar|Bose Smart Ultra Soundbar|Bose|soundbar|smart ultra|Bose Smart Ultra Soundbar Dolby Atmos
+bose-smart-soundbar|Bose Smart Soundbar|Bose|soundbar|bose,smart soundbar|Bose Smart Soundbar Dolby Atmos
+bose-bass-module-700|Bose Bass Module 700|Bose|subwoofer|bass module 700|Bose Bass Module 700 subwoofer
+bose-surround-speakers-700|Bose Surround Speakers 700|Bose|wireless-speaker|surround speakers 700|Bose Surround Speakers 700
+jbl-bar-1000|JBL Bar 1000|JBL|soundbar|bar 1000|JBL Bar 1000 7.1.4 soundbar detachable surround
+jbl-bar-1300mk2|JBL Bar 1300MK2|JBL|soundbar|1300|JBL Bar 1300 MK2 soundbar
+samsung-hw-q800f|Samsung HW-Q800F|Samsung|soundbar|q800|Samsung HW-Q800F soundbar
+vizio-v-series-21|Vizio V-Series 2.1 Sound Bar|Vizio|soundbar|vizio,v|Vizio V-Series 2.1 home theater sound bar
+polk-magnifi-max-ax-sr|Polk MagniFi Max AX SR|Polk Audio|soundbar|magnifi max|Polk MagniFi Max AX SR soundbar
+hisense-ax5125h|Hisense AX5125H 5.1.2 Soundbar|Hisense|soundbar|ax5125h|Hisense AX5125H 5.1.2 soundbar
+ultimea-nova-s50|Ultimea Nova S50 Soundbar|Ultimea|soundbar|ultimea|Ultimea Nova S50 Dolby Atmos soundbar
+# --- speakers: bookshelf / tower / center / atmos
+klipsch-r-50m|Klipsch R-50M Bookshelf Speakers|Klipsch|bookshelf|r-50m|Klipsch R-50M bookshelf speakers
+klipsch-rp-600m-ii|Klipsch RP-600M II Bookshelf Speakers|Klipsch|bookshelf|rp-600m|Klipsch RP-600M II bookshelf speakers
+polk-signature-elite-es20|Polk Signature Elite ES20|Polk Audio|bookshelf|es20|Polk Audio Signature Elite ES20 bookshelf
+polk-monitor-xt20|Polk Monitor XT20|Polk Audio|bookshelf|xt20|Polk Audio Monitor XT20 bookshelf speakers
+elac-debut-b62|ELAC Debut 2.0 B6.2|ELAC|bookshelf|b6.2|ELAC Debut 2.0 B6.2 bookshelf speakers
+svs-prime-bookshelf|SVS Prime Bookshelf Speakers|SVS|bookshelf|prime bookshelf|SVS Prime Bookshelf speakers
+kef-q150|KEF Q150 Bookshelf Speakers|KEF|bookshelf|q150|KEF Q150 bookshelf speakers
+kef-q3-meta|KEF Q3 Meta Bookshelf Speakers|KEF|bookshelf|q3 meta|KEF Q3 Meta bookshelf speakers
+edifier-r1280t|Edifier R1280T Powered Bookshelf Speakers|Edifier|bookshelf|r1280t|Edifier R1280T powered bookshelf speakers
+micca-mb42x|Micca MB42X Bookshelf Speakers|Micca|bookshelf|mb42x|Micca MB42X bookshelf speakers
+dayton-b652-air|Dayton Audio B652-AIR Bookshelf Speakers|Dayton Audio|bookshelf|b652|Dayton Audio B652-AIR bookshelf speakers
+wharfedale-diamond-121|Wharfedale Diamond 12.1|Wharfedale|bookshelf|diamond 12.1|Wharfedale Diamond 12.1 bookshelf speakers
+sony-ss-cs5|Sony SS-CS5 Bookshelf Speakers|Sony|bookshelf|ss-cs5|Sony SS-CS5 3-way bookshelf speakers
+pioneer-sp-bs22-lr|Pioneer SP-BS22-LR Andrew Jones Bookshelf Speakers|Pioneer|bookshelf|bs22|Pioneer SP-BS22-LR Andrew Jones bookshelf
+klipsch-r-600f|Klipsch R-600F Floorstanding Speaker|Klipsch|tower|r-600f|Klipsch R-600F floorstanding speaker
+klipsch-r-625fa|Klipsch R-625FA Dolby Atmos Floorstanding Speaker|Klipsch|tower|r-625fa|Klipsch R-625FA Dolby Atmos floorstanding
+klipsch-rp-8000f-ii|Klipsch RP-8000F II Floorstanding Speaker|Klipsch|tower|8000f|Klipsch RP-8000F II floorstanding speaker
+polk-signature-elite-es60|Polk Signature Elite ES60|Polk Audio|tower|es60|Polk Audio Signature Elite ES60 tower
+polk-monitor-xt60|Polk Monitor XT60|Polk Audio|tower|xt60|Polk Audio Monitor XT60 tower speaker
+elac-debut-f62|ELAC Debut 2.0 F6.2 Floorstanding Speaker|ELAC|tower|f6.2|ELAC Debut 2.0 F6.2 floorstanding speaker
+svs-prime-tower|SVS Prime Tower|SVS|tower|prime tower|SVS Prime Tower speaker
+sony-ss-cs3|Sony SS-CS3 Floorstanding Speaker|Sony|tower|ss-cs3|Sony SS-CS3 3-way floor standing speaker
+kef-q7-meta|KEF Q7 Meta Floorstanding Speaker|KEF|tower|q7 meta|KEF Q7 Meta floorstanding speakers
+dayton-t652-air|Dayton Audio T652-AIR Tower Speaker|Dayton Audio|tower|t652|Dayton Audio T652-AIR tower speaker
+klipsch-r-50c|Klipsch R-50C Center Channel Speaker|Klipsch|center|r-50c|Klipsch R-50C center channel speaker
+klipsch-rp-504c-ii|Klipsch RP-504C II Center Channel Speaker|Klipsch|center|504c|Klipsch RP-504C II center channel
+polk-monitor-xt35|Polk Monitor XT35 Center Channel Speaker|Polk Audio|center|xt35|Polk Audio Monitor XT35 center channel
+polk-signature-elite-es35|Polk Signature Elite ES35 Center Channel Speaker|Polk Audio|center|es35|Polk Signature Elite ES35 center channel
+elac-debut-c52|ELAC Debut 2.0 C5.2 Center Channel Speaker|ELAC|center|c5.2|ELAC Debut 2.0 C5.2 center speaker
+svs-prime-center|SVS Prime Center Speaker|SVS|center|prime center|SVS Prime Center speaker
+sony-ss-cs8|Sony SS-CS8 Center Channel Speaker|Sony|center|ss-cs8|Sony SS-CS8 center channel speaker
+kef-q6-meta|KEF Q6 Meta Center Channel Speaker|KEF|center|q6 meta|KEF Q6 Meta center channel speaker
+klipsch-r-41sa|Klipsch R-41SA Dolby Atmos Elevation Speakers|Klipsch|atmos-speaker|41sa|Klipsch R-41SA Dolby Atmos elevation speakers
+polk-monitor-xt90|Polk Monitor XT90 Height Module|Polk Audio|atmos-speaker|xt90|Polk Monitor XT90 Dolby Atmos height module
+elac-debut-a42|ELAC Debut A4.2 Atmos Module|ELAC|atmos-speaker|a4.2|ELAC Debut A4.2 Atmos speakers
+# --- in-wall / ceiling
+polk-rc80i|Polk RC80i In-Ceiling Speakers|Polk Audio|in-wall|rc80i|Polk Audio RC80i in-ceiling speakers
+polk-rc60i|Polk RC60i In-Ceiling Speakers|Polk Audio|in-wall|rc60i|Polk Audio RC60i in-ceiling speakers
+klipsch-cdt-5650-c-ii|Klipsch CDT-5650-C II In-Ceiling Speaker|Klipsch|in-wall|5650|Klipsch CDT-5650-C II in-ceiling speaker
+klipsch-r-5650-w-ii|Klipsch R-5650-W II In-Wall Speaker|Klipsch|in-wall|5650-w|Klipsch R-5650-W II in-wall speaker
+klipsch-r-1650-c|Klipsch R-1650-C In-Ceiling Speaker|Klipsch|in-wall|1650|Klipsch R-1650-C in-ceiling speaker
+micca-m-8c|Micca M-8C In-Ceiling Speakers|Micca|in-wall|m-8c|Micca M-8C in-ceiling speakers
+monoprice-alpha-in-ceiling|Monoprice Alpha In-Ceiling Speakers|Monoprice|in-wall|monoprice,ceiling|Monoprice Alpha 8 inch in-ceiling speakers
+polk-265-rt|Polk 265-RT In-Wall Speaker|Polk Audio|in-wall|265-rt|Polk Audio 265-RT in-wall speaker
+yamaha-ns-iw480|Yamaha NS-IW480 In-Wall Speakers|Yamaha|in-wall|iw480|Yamaha NS-IW480 in-wall speakers
+pyle-pdic80|Pyle PDIC80 In-Ceiling Speakers|Pyle|in-wall|pdic80|Pyle PDIC80 in-ceiling speakers
+# --- high-end
+kef-r3-meta|KEF R3 Meta Bookshelf Speakers|KEF|high-end|r3 meta|KEF R3 Meta bookshelf speakers
+kef-r7-meta|KEF R7 Meta Floorstanding Speakers|KEF|high-end|r7 meta|KEF R7 Meta floorstanding speakers
+svs-ultra-evolution-tower|SVS Ultra Evolution Tower|SVS|high-end|ultra evolution|SVS Ultra Evolution Tower speaker
+polk-reserve-r700|Polk Reserve R700 Floorstanding Speaker|Polk Audio|high-end|r700|Polk Audio Reserve R700 floorstanding
+klipsch-forte-iv|Klipsch Forte IV|Klipsch|high-end|forte|Klipsch Forte IV heritage speaker
+bw-603-s3|Bowers & Wilkins 603 S3|Bowers & Wilkins|high-end|603|Bowers Wilkins 603 S3 floorstanding speaker
+focal-aria-evo-x-no2|Focal Aria Evo X No2|Focal|high-end|aria|Focal Aria Evo X No2 floorstanding speaker
+# --- wireless speakers
+klipsch-the-fives|Klipsch The Fives Powered Speakers|Klipsch|wireless-speaker|fives|Klipsch The Fives powered speakers HDMI ARC
+kef-ls50-wireless-ii|KEF LS50 Wireless II|KEF|wireless-speaker|ls50 wireless|KEF LS50 Wireless II
+sonos-era-100|Sonos Era 100|Sonos|wireless-speaker|era 100|Sonos Era 100 speaker
+edifier-s3000pro|Edifier S3000Pro Wireless Speakers|Edifier|wireless-speaker|s3000|Edifier S3000Pro active wireless speakers
+# --- TVs
+lg-c5-oled|LG C5 OLED evo TV|LG|tv|c5|LG 65 inch OLED evo C5 4K TV
+lg-g5-oled|LG G5 OLED evo TV|LG|tv|g5|LG 65 inch OLED evo G5 TV
+samsung-s90f|Samsung S90F OLED TV|Samsung|tv|s90f|Samsung 65 inch S90F OLED TV
+samsung-s95f|Samsung S95F OLED TV|Samsung|tv|s95f|Samsung 65 inch S95F OLED TV
+sony-bravia-8-ii|Sony Bravia 8 II OLED TV|Sony|tv|bravia 8 ii|Sony BRAVIA 8 II 65 inch OLED
+sony-bravia-9|Sony Bravia 9 Mini LED TV|Sony|tv|bravia 9|Sony BRAVIA 9 75 inch mini LED
+tcl-qm8k|TCL QM8K QD-Mini LED TV|TCL|tv|qm8k|TCL 65 inch QM8K QD-Mini LED TV
+tcl-qm7k|TCL QM7K QD-Mini LED TV|TCL|tv|qm7k|TCL 65 inch QM7K QD-Mini LED TV
+hisense-u8qg|Hisense U8QG Mini-LED TV|Hisense|tv|u8|Hisense 65 inch U8 Mini-LED TV U8QG
+hisense-u75qg|Hisense U75QG Mini-LED TV|Hisense|tv|u7|Hisense 65 inch U7 Mini-LED QLED TV
+# --- seating
+valencia-tuscany-theater-seating|Valencia Tuscany Home Theater Seating|Valencia|seating|valencia,tuscany|Valencia Tuscany home theater seating
+seatcraft-republic|Seatcraft Republic Home Theater Seating|Seatcraft|seating|seatcraft|Seatcraft Republic home theater seating row
+octane-seating-flex-hr|Octane Seating Flex HR Home Theater Seats|Octane Seating|seating|octane|Octane Seating Flex HR home theater seating
+homall-recliner|Homall Single Recliner Chair|Homall|seating|homall,recliner|Homall recliner chair home theater seating
+chita-power-recliner|CHITA Power Lift Recliner|CHITA|seating|chita|CHITA power recliner home theater
+flash-furniture-theater-recliner|Flash Furniture Theater Recliner Row|Flash Furniture|seating|flash furniture|Flash Furniture home theater recliner 3 seat
+esright-recliner|Esright Massage Recliner|Esright|seating|esright|Esright recliner chair home theater seating
+# --- remotes
+sofabaton-x2|SofaBaton X2 Universal Remote|SofaBaton|remote|x2|SofaBaton X2 universal remote hub
+sofabaton-x1s|SofaBaton X1S Universal Remote|SofaBaton|remote|x1s|SofaBaton X1S universal remote
+sofabaton-u2|SofaBaton U2 Universal Remote|SofaBaton|remote|u2|SofaBaton U2 universal remote
+logitech-harmony-665|Logitech Harmony 665|Logitech|remote|harmony|Logitech Harmony 665 universal remote
+ge-universal-remote|GE Universal Remote 4-Device|GE|remote|ge,universal|GE universal remote control 4 device
+# --- wire / cable
+mediabridge-14awg-speaker-wire|Mediabridge 14AWG Speaker Wire|Mediabridge|cable|mediabridge,14|Mediabridge 14AWG speaker wire 100 feet
+amazon-basics-16-gauge-speaker-wire|Amazon Basics 16-Gauge Speaker Wire|Amazon Basics|cable|amazon basics,16|Amazon Basics 16 gauge speaker wire 100 feet
+gearit-14awg-speaker-wire|GearIT 14AWG Speaker Wire|GearIT|cable|gearit|GearIT 14AWG speaker wire
+monoprice-12awg-speaker-wire|Monoprice 12AWG Speaker Wire|Monoprice|cable|monoprice,12|Monoprice 12AWG oxygen free speaker wire
+knukonceptz-kord-12awg|KnuKonceptz Kord 12 Gauge Speaker Wire|KnuKonceptz|cable|knukonceptz|KnuKonceptz Kord 12 gauge speaker wire
+mediabridge-banana-plugs|Mediabridge Banana Plugs (12 Pairs)|Mediabridge|cable|banana|Mediabridge banana plugs 12 pairs
+# --- surge / power
+panamax-m5300-pm|Panamax M5300-PM Power Conditioner|Panamax|power|m5300|Panamax M5300-PM power management
+furman-pst-8d|Furman PST-8D Surge Protector|Furman|power|pst-8|Furman PST-8D power station
+apc-p11vnt3|APC P11VNT3 Home Theater Surge Protector|APC|power|p11vnt3|APC SurgeArrest P11VNT3 home theater surge protector
+austere-vii-8-outlet|Austere VII Series 8-Outlet Power|Austere|power|austere|Austere VII series 8 outlet power surge protector
+tripp-lite-isobar-8|Tripp Lite Isobar 8 Outlet Surge Protector|Tripp Lite|power|isobar|Tripp Lite Isobar 8 outlet surge protector
+# --- popcorn
+great-northern-popcorn-machine|Great Northern Popcorn Foundation Popcorn Machine|Great Northern Popcorn|popcorn|great northern|Great Northern Popcorn machine 8 oz kettle
+nostalgia-vintage-popcorn-cart|Nostalgia Vintage Popcorn Cart|Nostalgia|popcorn|nostalgia|Nostalgia vintage popcorn cart 8 oz
+olde-midway-popcorn-machine|Olde Midway Movie Theater Popcorn Machine|Olde Midway|popcorn|olde midway|Olde Midway popcorn machine 8 ounce kettle
+west-bend-stir-crazy|West Bend Stir Crazy Popcorn Popper|West Bend|popcorn|stir crazy|West Bend Stir Crazy popcorn popper
+whirley-pop-stovetop|Wabash Valley Farms Whirley Pop|Wabash Valley Farms|popcorn|whirley|Whirley Pop stovetop popcorn popper

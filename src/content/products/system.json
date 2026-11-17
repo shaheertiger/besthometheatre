@@ -1,0 +1,1200 @@
+[
+  {
+    "slug": "klipsch-reference-theater-pack",
+    "name": "Klipsch Reference Theater Pack 5.1",
+    "brand": "Klipsch",
+    "category": "system",
+    "amazonQuery": "Klipsch Reference Theater Pack 5.1 surround sound",
+    "priceBand": "$500–$700",
+    "priceTier": 2,
+    "score": 72,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 76
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 64
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 58
+      },
+      {
+        "label": "Ease of setup",
+        "value": 80
+      }
+    ],
+    "summary": "A tidy passive 5.1 kit with horn-loaded satellites and an 8-inch powered sub that gives a small room real surround on a modest budget, as long as you supply the receiver.",
+    "verdict": "The Theater Pack is the simplest way into proper discrete 5.1: four identical satellites, a center and an **8-inch powered subwoofer**. Everything is passive except the sub, so you need an AV receiver such as the [Denon AVR-S770H](/gear/denon-avr-s770h/) or [Yamaha RX-V4A](/gear/yamaha-rx-v4a/) to run it.\n\n**Show the maths on driver size.** Each satellite uses a small 3-inch woofer. Cone area scales with the square of diameter, so a 6.5-inch bookshelf woofer has roughly (6.5 ÷ 3)² ≈ **4.7 times** the radiating area. That is why the satellites can't do midbass on their own: set them to \"Small\" and cross them over at **100–120 Hz**, not the usual 80 Hz, so the sub carries more of the work. That also means sub placement matters more, because higher crossover points make a sub easier to localize. Keep it near the front of the room.\n\nOn paper and by owner reports, the Klipsch horn tweeters give bright, clear dialogue at modest volume, which suits a bedroom or a 150–250 sq ft den. In a larger open-plan room the little drivers and the 8-inch sub run out of headroom before a full bookshelf system would.\n\nIf you want height channels later, there is no upgrade path inside the pack; you'd add separate [Dolby Atmos](/glossary/dolby-atmos/) speakers. For bigger rooms, see the [best home theater systems](/best-home-theater-systems/) roundup.",
+    "bestFor": "Small rooms and apartments that want discrete 5.1 without big speakers",
+    "skipIf": "You have a large room or want Dolby Atmos height channels in the box",
+    "pros": [
+      "Compact, wall-mountable satellites that disappear in a room",
+      "Horn-loaded tweeters keep dialogue clear at low volume",
+      "Powered 8-inch sub included, so a basic receiver can run it",
+      "Cheaper than buying five separate speakers and a sub"
+    ],
+    "cons": [
+      "Small 3-inch woofers need a high 100–120 Hz crossover",
+      "Runs out of headroom in large or open-plan rooms",
+      "No receiver included and no Atmos path inside the kit"
+    ],
+    "specs": {
+      "Channels": "5.1",
+      "Atmos/DTS:X": "Via your receiver (no height speakers included)",
+      "Subwoofer": "8-inch powered, front-firing",
+      "Surrounds": "Included (four identical satellites)",
+      "Inputs": "Spring speaker terminals; sub has line-level/LFE RCA",
+      "Room correction": "None (use your receiver's)",
+      "Streaming": "None (via receiver)",
+      "Wireless": "No",
+      "Amplification": "Passive speakers; needs an AV receiver"
+    },
+    "keySpecs": [
+      "Channels",
+      "Subwoofer",
+      "Surrounds",
+      "Amplification"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Klipsch Reference Theater Pack need a receiver?",
+        "a": "Yes. The satellites and center are passive, so they need an AV receiver with at least five amplified channels and a subwoofer pre-out. The 8-inch subwoofer has its own amplifier and connects with a single RCA cable."
+      },
+      {
+        "q": "What crossover should I use with the Theater Pack?",
+        "a": "Start at 100–120 Hz. The satellites use small 3-inch woofers, so a higher crossover sends more bass to the sub and keeps the satellites from straining at volume."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-r-625fa-51-system",
+    "name": "Klipsch Reference R-625FA 5.1.2 Dolby Atmos System",
+    "brand": "Klipsch",
+    "category": "system",
+    "amazonQuery": "Klipsch Reference Dolby Atmos 5.1.2 home theater system R-625FA",
+    "priceBand": "$1,800–$2,500",
+    "priceTier": 3,
+    "score": 85,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 84
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 86
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 70
+      },
+      {
+        "label": "Ease of setup",
+        "value": 72
+      }
+    ],
+    "summary": "A full Klipsch Reference 5.1.2 package built around Atmos-enabled towers with built-in elevation drivers, giving a real height layer without ceiling speakers.",
+    "verdict": "This bundle pairs the [Klipsch R-625FA](/gear/klipsch-r-625fa/) towers, which have **dual 6.5-inch woofers plus a built-in up-firing elevation driver**, with a matching Reference center, surrounds and a powered sub. The result is a true **5.1.2** layout from a single box, with no holes in the ceiling.\n\n**Count the channels before you buy.** 5.1.2 means five ear-level speakers, one sub and two height channels: that is **seven amplified channels**. A 5.2 receiver like the [Yamaha RX-V4A](/gear/yamaha-rx-v4a/) can't power it; you need a 7.2 model such as the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) or [Denon AVR-X2800H](/gear/denon-avr-x2800h/). Klipsch's horn-loaded designs are high-sensitivity, so you don't need a large amplifier to reach reference levels in a typical room.\n\n**Check the ceiling.** Up-firing drivers bounce sound off the ceiling, so they depend on a flat, hard surface at a normal height (Dolby's guidance assumes roughly 7.5–12 feet). Vaulted, very high or acoustically treated ceilings weaken the effect; in those rooms dedicated in-ceiling speakers are the better route.\n\nOwners consistently describe the Reference sound as lively and dynamic, with forward treble that some find bright in hard-surfaced rooms. Exact bundle components vary by retailer, so check which center, surrounds and sub are included. More options in the [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) guide; the terms are explained in [Dolby Atmos](/glossary/dolby-atmos/).",
+    "bestFor": "Living rooms that want real Atmos height effects without ceiling speakers",
+    "skipIf": "You have vaulted or very high ceilings, or only own a 5-channel receiver",
+    "pros": [
+      "Built-in elevation drivers give a genuine 5.1.2 layout from one bundle",
+      "Dual 6.5-inch woofers in the towers handle midbass with ease",
+      "High sensitivity means a mid-range receiver drives it loudly",
+      "All-Klipsch voicing keeps the front stage consistent"
+    ],
+    "cons": [
+      "Needs a 7-channel receiver, sold separately",
+      "Up-firing effect depends on a flat, reflective ceiling",
+      "Forward treble can sound bright in hard, echoey rooms",
+      "Bundle contents vary by seller"
+    ],
+    "specs": {
+      "Channels": "5.1.2",
+      "Atmos/DTS:X": "Via your receiver; elevation drivers built into the towers",
+      "Subwoofer": "Powered Klipsch Reference sub (model varies by bundle)",
+      "Surrounds": "Included (Reference bookshelf/surround models)",
+      "Inputs": "Binding posts; sub has line-level/LFE RCA",
+      "Room correction": "None (use your receiver's)",
+      "Streaming": "None (via receiver)",
+      "Wireless": "No",
+      "Amplification": "Passive speakers; needs a 7-channel AV receiver"
+    },
+    "keySpecs": [
+      "Channels",
+      "Subwoofer",
+      "Surrounds",
+      "Amplification"
+    ],
+    "faqs": [
+      {
+        "q": "What receiver do I need for a Klipsch 5.1.2 Atmos system?",
+        "a": "Any receiver with seven amplified channels and Dolby Atmos decoding, such as a 7.2-channel Denon, Marantz, Yamaha or Onkyo model. Five channels power the ear-level speakers and two power the elevation drivers."
+      },
+      {
+        "q": "Do the R-625FA elevation drivers work as well as ceiling speakers?",
+        "a": "Not quite. Reflected height sound depends on ceiling height and surface, and owners report the effect is convincing in rooms with flat 8–9 foot ceilings but weaker in vaulted or treated rooms. In-ceiling speakers give more precise overhead placement."
+      },
+      {
+        "q": "Can I add more speakers later?",
+        "a": "Yes, as long as your receiver has spare channels. A 9-channel receiver lets you add a second pair of height or rear surround speakers."
+      }
+    ]
+  },
+  {
+    "slug": "polk-monitor-xt-51-system",
+    "name": "Polk Monitor XT 5.1 Home Theater System",
+    "brand": "Polk Audio",
+    "category": "system",
+    "amazonQuery": "Polk Monitor XT 5.1 home theater speaker system",
+    "priceBand": "$900–$1,300",
+    "priceTier": 2,
+    "score": 79,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 84
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 70
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 66
+      },
+      {
+        "label": "Ease of setup",
+        "value": 78
+      }
+    ],
+    "summary": "A good-value Polk Monitor XT 5.1 package with towers, a center, surrounds and a powered sub, easy to drive and ready to grow into Atmos with XT90 height modules.",
+    "verdict": "Polk's Monitor XT range is the value end of serious passive speakers, and a 5.1 bundle of XT towers, center, surrounds and sub gives you a complete system that a mainstream receiver drives comfortably. The XT tweeters are **Hi-Res certified** and owners describe the overall balance as warm and easy to listen to, which forgives budget amplification and bright rooms.\n\n**The upgrade maths.** Out of the box this is 5.1, which needs **five amplified channels** and a sub pre-out. To reach 5.1.2 you add a pair of [Polk Monitor XT90](/gear/polk-monitor-xt90/) height modules on top of the towers or bookshelves, which takes you to **seven channels**. So if Atmos is even a maybe, buy a 7.2 receiver now (for example the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) or [Onkyo TX-NR6100](/gear/onkyo-tx-nr6100/)) rather than a 5.2 model you'd outgrow.\n\n**Crossover and room size.** Set the towers and surrounds to \"Small\" at 80 Hz and let the sub handle the low end; the receiver's [room correction](/glossary/room-correction/) will tidy up the rest. In a 250–350 sq ft living room the package has enough output for movies at satisfying levels. In a large dedicated room, a stronger sub such as an SVS model is the first upgrade.\n\nBundle contents vary by retailer, so confirm which tower, center and sub are included. See the [best budget home theater system](/best-budget-home-theater-system/) roundup for alternatives.",
+    "bestFor": "Mid-size living rooms that want a complete 5.1 speaker set with an Atmos upgrade path",
+    "skipIf": "You want deep, high-output bass for a large dedicated theater out of the box",
+    "pros": [
+      "Complete matched 5.1 set at a fair price",
+      "Warm, forgiving voicing suits budget receivers",
+      "Clear Atmos upgrade path with XT90 height modules",
+      "Easy load for mainstream AV receivers"
+    ],
+    "cons": [
+      "Included sub is the weak link in larger rooms",
+      "Needs a separate receiver",
+      "Bundle components vary by seller"
+    ],
+    "specs": {
+      "Channels": "5.1",
+      "Atmos/DTS:X": "Via your receiver (add Monitor XT90 modules for height)",
+      "Subwoofer": "Powered Polk Monitor XT sub",
+      "Surrounds": "Included (Monitor XT bookshelf)",
+      "Inputs": "Binding posts; sub has line-level/LFE RCA",
+      "Room correction": "None (use your receiver's)",
+      "Streaming": "None (via receiver)",
+      "Wireless": "No",
+      "Amplification": "Passive speakers; needs an AV receiver"
+    },
+    "keySpecs": [
+      "Channels",
+      "Subwoofer",
+      "Surrounds",
+      "Amplification"
+    ],
+    "faqs": [
+      {
+        "q": "Can the Polk Monitor XT 5.1 system do Dolby Atmos?",
+        "a": "Not on its own. It is a 5.1 package, but you can add a pair of Monitor XT90 height modules and a 7-channel receiver to make it 5.1.2."
+      },
+      {
+        "q": "Is the Polk Monitor XT system hard to drive?",
+        "a": "No. The XT range is designed for mainstream AV receivers, and owners report that entry-level 5.2 and 7.2 models power it to satisfying levels in typical living rooms."
+      }
+    ]
+  },
+  {
+    "slug": "svs-prime-satellite-51",
+    "name": "SVS Prime Satellite 5.1 System",
+    "brand": "SVS",
+    "category": "system",
+    "amazonQuery": "SVS Prime Satellite 5.1 speaker system",
+    "priceBand": "$1,000–$1,400",
+    "priceTier": 3,
+    "score": 84,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 82
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 74
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 66
+      },
+      {
+        "label": "Ease of setup",
+        "value": 82
+      }
+    ],
+    "summary": "Five compact SVS Prime Satellites and a 12-inch sealed SVS sub: small speakers, big-system bass and one of the most balanced compact 5.1 packages you can buy.",
+    "verdict": "The Prime Satellite 5.1 is the \"small speakers, serious sub\" approach done well. Five identical satellites, each with a **4.5-inch woofer and 1-inch aluminum dome tweeter**, pair with a **12-inch sealed SVS subwoofer** from the SB-1000 family. Using five identical speakers means timbre matches perfectly as effects pan around the room, something mixed-model packages can't always claim.\n\n**Show the maths on the crossover.** A 4.5-inch woofer has about (4.5 ÷ 3)² = **2.25 times** the cone area of the 3-inch drivers in many lifestyle kits, so the satellites can blend cleanly at **80–100 Hz**. Start at 80 Hz; if voices sound thin, move to 100 Hz. The sealed 12-inch sub then carries everything below, and sealed designs roll off gently, which tends to sound tight and blend well in small to mid-size rooms.\n\n**Size the sub to the room.** Multiply length × width × height: a 14 × 18 × 8 ft room is about **2,000 cubic feet**, comfortable territory for a sealed 12-inch sub. In an open-plan space twice that volume, owners often add a second sub or step up to a ported model like the [SVS PB-1000 Pro](/gear/svs-pb-1000-pro/).\n\nYou will need a receiver with five channels and a sub pre-out; the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) is a good match and its [room correction](/glossary/room-correction/) suits the sealed sub. More picks in the [best home theater systems](/best-home-theater-systems/) roundup.",
+    "bestFor": "Rooms where speakers must stay small but bass still needs to be tight and full",
+    "skipIf": "You want height channels included, or a single-box soundbar setup",
+    "pros": [
+      "Five identical satellites give seamless panning",
+      "12-inch sealed sub is a genuine step above typical kit subs",
+      "Satellites cross over cleanly at 80–100 Hz",
+      "SVS has a strong reputation for owner support"
+    ],
+    "cons": [
+      "Needs a separate AV receiver",
+      "No height speakers in the package",
+      "Costs more than lifestyle 5.1 kits with smaller subs"
+    ],
+    "specs": {
+      "Channels": "5.1",
+      "Atmos/DTS:X": "Via your receiver (no height speakers included)",
+      "Subwoofer": "12-inch sealed SVS (SB-1000 series)",
+      "Surrounds": "Included (identical Prime Satellites)",
+      "Inputs": "Binding posts; sub has line-level/LFE RCA and speaker-level inputs",
+      "Room correction": "None (use your receiver's)",
+      "Streaming": "None (via receiver)",
+      "Wireless": "No",
+      "Amplification": "Passive speakers; needs an AV receiver"
+    },
+    "keySpecs": [
+      "Channels",
+      "Subwoofer",
+      "Surrounds",
+      "Amplification"
+    ],
+    "faqs": [
+      {
+        "q": "What crossover is best for SVS Prime Satellites?",
+        "a": "Start at 80 Hz with the speakers set to Small. If voices sound lean or the satellites strain at high volume, raise it to 100 Hz so the subwoofer handles more of the upper bass."
+      },
+      {
+        "q": "Is the SVS Prime Satellite 5.1 good for a large room?",
+        "a": "It suits small to mid-size rooms best. For spaces well above about 2,500 cubic feet, add a second subwoofer or a larger ported model to keep bass output up at movie levels."
+      }
+    ]
+  },
+  {
+    "slug": "onkyo-ht-s3910",
+    "name": "Onkyo HT-S3910 5.1 Home Theater Package",
+    "brand": "Onkyo",
+    "category": "system",
+    "amazonQuery": "Onkyo HT-S3910 5.1 home theater package",
+    "priceBand": "$400–$550",
+    "priceTier": 2,
+    "score": 66,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 72
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 52
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 60
+      },
+      {
+        "label": "Ease of setup",
+        "value": 80
+      }
+    ],
+    "summary": "A no-fuss 5.1 home-theater-in-a-box with receiver, speakers and sub in one carton, fine for a first system but limited to 5.1 and modest output.",
+    "verdict": "The HT-S3910 is a classic home-theater-in-a-box: an Onkyo receiver, five compact speakers and a subwoofer, all matched and color-coded so setup takes an afternoon. The receiver handles **4K HDR pass-through** over HDMI and has **Bluetooth** for phone streaming, which covers the basics for a first system.\n\n**Where the maths bites.** The package is **5.1 only**. Dolby TrueHD and DTS-HD Master Audio soundtracks play in full 5.1, but there are no height channels and no spare amplified channels to add them, so a future [Dolby Atmos](/glossary/dolby-atmos/) upgrade means replacing the receiver. Compare that with buying a 7.2 receiver and a passive 5.1 kit separately: you pay more up front but keep the receiver when you add heights.\n\n**Small drivers, small room.** The satellites are compact, so they are happiest in rooms up to roughly 200 sq ft at moderate volume. Owners report clear dialogue and decent punch for TV and casual movies, but the system compresses when pushed in a big room.\n\nThere's no Wi-Fi streaming, and Onkyo's brand has changed hands in recent years, so check current stock and warranty terms before buying. If your budget can stretch, a separate receiver plus the [Klipsch Reference Theater Pack](/gear/klipsch-reference-theater-pack/) is a more future-proof route; see the [best budget home theater system](/best-budget-home-theater-system/) guide.",
+    "bestFor": "First-time buyers who want a complete 5.1 system in one box",
+    "skipIf": "You want Dolby Atmos, Wi-Fi streaming or room-filling output",
+    "pros": [
+      "Receiver, speakers and sub in one box",
+      "4K HDR pass-through over HDMI",
+      "Color-coded cables make setup simple",
+      "Bluetooth for quick phone streaming"
+    ],
+    "cons": [
+      "5.1 only with no path to Atmos",
+      "Compact speakers limit output in larger rooms",
+      "No Wi-Fi streaming"
+    ],
+    "specs": {
+      "Channels": "5.1",
+      "Atmos/DTS:X": "No (Dolby TrueHD and DTS-HD MA in 5.1)",
+      "Subwoofer": "Included",
+      "Surrounds": "Included (compact satellites)",
+      "Inputs": "HDMI inputs with 4K HDR pass-through, HDMI out with ARC, optical, Bluetooth",
+      "Streaming": "Bluetooth",
+      "Wireless": "No (wired speakers)",
+      "Amplification": "Onkyo receiver included"
+    },
+    "keySpecs": [
+      "Channels",
+      "Subwoofer",
+      "Surrounds",
+      "Amplification"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Onkyo HT-S3910 support Dolby Atmos?",
+        "a": "No. It decodes Dolby TrueHD and DTS-HD Master Audio in 5.1, but has no height channels or Atmos decoding."
+      },
+      {
+        "q": "Can I use the HT-S3910 receiver with other speakers?",
+        "a": "Yes. The receiver uses standard speaker terminals, so you can upgrade the speakers later. Check the impedance rating in the manual before connecting 4-ohm speakers."
+      }
+    ]
+  },
+  {
+    "slug": "yamaha-yht-5960u",
+    "name": "Yamaha YHT-5960U Home Theater System",
+    "brand": "Yamaha",
+    "category": "system",
+    "amazonQuery": "Yamaha YHT-5960U home theater in a box",
+    "priceBand": "$550–$700",
+    "priceTier": 2,
+    "score": 71,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 72
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 54
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 70
+      },
+      {
+        "label": "Ease of setup",
+        "value": 82
+      }
+    ],
+    "summary": "Yamaha's 5.1 home-theater-in-a-box adds YPAO room calibration and 4K HDR pass-through to an easy all-in-one package, but stops short of Atmos.",
+    "verdict": "The YHT-5960U bundles a Yamaha 5.1 receiver with compact satellites, a center and a powered subwoofer. What lifts it above most boxed systems is **YPAO room calibration**: you put the supplied mic at your seat and the receiver sets distances, levels and EQ automatically. For people who don't want to learn crossover settings, that alone is worth a lot.\n\n**Do the channel maths before buying.** This is a **5.1** package, so there is nothing to power height speakers. If you think you'll want [Dolby Atmos](/glossary/dolby-atmos/) in two years, a separate 7.2 receiver such as the [Yamaha RX-V6A](/gear/yamaha-rx-v6a/) plus a passive 5.1 kit costs more now but avoids buying a second receiver later.\n\n**HDMI and video.** The receiver passes **4K HDR** (including HDR10, HLG and Dolby Vision) from a streaming box or console to the TV, and supports ARC so TV apps play through the speakers. It doesn't offer 4K120 for current consoles; for that you'd connect the console straight to the TV and use [eARC](/glossary/earc/) or ARC back to the receiver.\n\nThe satellites are small, so expect clean dialogue and tidy effects in a bedroom or modest living room rather than big dynamic swings. Bluetooth covers phone streaming. Compare it with other boxed systems in the [best budget home theater system](/best-budget-home-theater-system/) roundup.",
+    "bestFor": "Small to mid-size rooms that want a calibrated 5.1 system with minimal effort",
+    "skipIf": "You need Atmos, 4K120 gaming pass-through or Wi-Fi multiroom",
+    "pros": [
+      "YPAO auto-calibration takes the guesswork out of setup",
+      "4K HDR pass-through including Dolby Vision",
+      "Matched speakers and powered sub in one box",
+      "Yamaha receivers have a good reliability reputation"
+    ],
+    "cons": [
+      "5.1 only, so no Atmos upgrade path",
+      "Compact satellites limit dynamics in big rooms",
+      "No 4K120 pass-through for current consoles"
+    ],
+    "specs": {
+      "Channels": "5.1",
+      "Atmos/DTS:X": "No",
+      "Subwoofer": "Powered subwoofer included",
+      "Surrounds": "Included (compact satellites)",
+      "Inputs": "HDMI inputs with 4K HDR pass-through, HDMI out with ARC, optical, Bluetooth",
+      "Room correction": "YPAO",
+      "Streaming": "Bluetooth",
+      "Wireless": "No (wired speakers)",
+      "Amplification": "Yamaha receiver included"
+    },
+    "keySpecs": [
+      "Channels",
+      "Subwoofer",
+      "Surrounds",
+      "Amplification"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Yamaha YHT-5960U have room correction?",
+        "a": "Yes. It includes Yamaha's YPAO system with a microphone that measures your room and sets speaker distances, levels and EQ automatically."
+      },
+      {
+        "q": "Is the YHT-5960U good for gaming?",
+        "a": "It passes 4K HDR for 60 Hz sources, but not 4K at 120 Hz. For a current console, connect it straight to the TV and send audio back to the receiver over ARC."
+      }
+    ]
+  },
+  {
+    "slug": "jamo-s-807-hcs",
+    "name": "Jamo Studio S 807 HCS 5.0 System",
+    "brand": "Jamo",
+    "category": "system",
+    "amazonQuery": "Jamo Studio S 807 HCS home cinema system",
+    "priceBand": "$400–$600",
+    "priceTier": 2,
+    "score": 70,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 78
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 58
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 52
+      },
+      {
+        "label": "Ease of setup",
+        "value": 74
+      }
+    ],
+    "summary": "A stylish passive 5.0 speaker set from Jamo's Studio series that sounds lively for the money, but leaves you to add your own subwoofer and receiver.",
+    "verdict": "Jamo, a Danish brand now in the Klipsch group, sells the Studio S 807 HCS as a five-speaker **5.0** home cinema set: front, center and surround speakers with a clean Scandinavian look. There's **no subwoofer**, which is both the catch and the opportunity.\n\n**Why 5.0 changes the maths.** Movies carry a dedicated [LFE](/glossary/lfe/) channel for deep effects, and without a sub the receiver either folds that bass into the front speakers or drops it. Budget for a sub from day one: something like the [Polk PSW10](/gear/polk-psw10/) at the low end or the [Klipsch R-120SW](/gear/klipsch-r-120sw/) for more output. Then set all five Jamo speakers to \"Small\" with an **80 Hz** [crossover](/glossary/crossover/) so the sub takes the load and the speakers play cleaner and louder.\n\n**Total cost check.** Speakers plus a sub plus a 5.2 or 7.2 receiver typically lands near the price of a complete boxed system, but you get better speakers and the freedom to upgrade one piece at a time.\n\nOn paper the set is an easy load for mainstream receivers, and owners describe the sound as bright and energetic, with clear dialogue from the center. That brightness can tip into harshness in rooms with bare floors and walls, so a rug and curtains help. For complete packages that include a sub, see the [best home theater systems](/best-home-theater-systems/) roundup.",
+    "bestFor": "Buyers who want a good-looking passive speaker set and plan to choose their own sub",
+    "skipIf": "You want a complete system with a subwoofer in the box",
+    "pros": [
+      "Attractive Scandinavian design",
+      "Lively, clear sound for the price",
+      "Five matched speakers keep panning consistent",
+      "Freedom to pick your own subwoofer"
+    ],
+    "cons": [
+      "No subwoofer included",
+      "Bright voicing can sound harsh in echoey rooms",
+      "Needs a separate receiver"
+    ],
+    "specs": {
+      "Channels": "5.0",
+      "Atmos/DTS:X": "Via your receiver (no height speakers included)",
+      "Subwoofer": "Not included",
+      "Surrounds": "Included",
+      "Inputs": "Speaker terminals",
+      "Room correction": "None (use your receiver's)",
+      "Streaming": "None (via receiver)",
+      "Wireless": "No",
+      "Amplification": "Passive speakers; needs an AV receiver"
+    },
+    "keySpecs": [
+      "Channels",
+      "Subwoofer",
+      "Surrounds",
+      "Amplification"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Jamo S 807 HCS include a subwoofer?",
+        "a": "No. It is a 5.0 set, so you'll want to add a powered subwoofer for movie bass and the LFE channel."
+      },
+      {
+        "q": "What receiver works with the Jamo S 807 HCS?",
+        "a": "Any 5.1 or 7.1 AV receiver with a subwoofer pre-out works. Set the speakers to Small with an 80 Hz crossover once you add a sub."
+      }
+    ]
+  },
+  {
+    "slug": "vizio-m-series-512",
+    "name": "Vizio M-Series 5.1.2 Home Theater Sound Bar",
+    "brand": "Vizio",
+    "category": "system",
+    "amazonQuery": "Vizio M-Series 5.1.2 home theater sound bar Dolby Atmos",
+    "released": "2020",
+    "priceBand": "$250–$400",
+    "priceTier": 1,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 86
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 72
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 64
+      },
+      {
+        "label": "Ease of setup",
+        "value": 84
+      }
+    ],
+    "summary": "A budget 5.1.2 soundbar system with up-firing drivers, a wireless sub and rear satellites, giving real Atmos and DTS:X at a price most soundbars can't touch.",
+    "verdict": "Vizio's M-Series 5.1.2 is the cheapest way to get every part of an Atmos layout: a 36-inch-class bar with **two up-firing drivers**, a **wireless subwoofer** and a pair of **rear satellites** that plug into the sub. It decodes both [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/), which many pricier bars still skip.\n\n**Read the channel count.** 5.1.2 means left, center, right, two rears, a sub and two height channels. The \".2\" comes from the up-firing drivers bouncing sound off your ceiling, so the effect is best with a flat ceiling around 8 feet. The rears are wired to the sub, not the bar, which keeps cable runs short: put the sub at the back of the room and you only need a power outlet there.\n\n**Connections.** Plug it into your TV's [eARC](/glossary/earc/) port to pass lossless Atmos from TV apps or a player connected to the TV. Bluetooth covers phone streaming; there's no deep Wi-Fi multiroom ecosystem like Sonos.\n\nOwners consistently report surprising scale for the price, with the usual budget caveats: small drivers limit output in large rooms and the sub won't dig into the deepest movie bass. As a value pick it is hard to argue with. Compare it with dedicated bars in the [best soundbar for home theater](/best-soundbar-for-home-theater/) guide and with full systems in the [soundbar vs home theater](/soundbar-vs-home-theater/) explainer.",
+    "bestFor": "Budget buyers who want true 5.1.2 with Atmos and DTS:X in a small to mid-size room",
+    "skipIf": "You have a large room or want Wi-Fi multiroom streaming",
+    "pros": [
+      "True 5.1.2 layout with up-firing drivers at a budget price",
+      "Decodes both Dolby Atmos and DTS:X",
+      "Rears connect to the wireless sub, keeping cable runs short",
+      "Simple setup over HDMI eARC"
+    ],
+    "cons": [
+      "Small drivers limit output in larger rooms",
+      "Sub doesn't reach the deepest movie bass",
+      "Limited streaming beyond Bluetooth"
+    ],
+    "specs": {
+      "Channels": "5.1.2",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Subwoofer": "Wireless subwoofer included",
+      "Surrounds": "Included (wired to the sub)",
+      "Inputs": "HDMI eARC, optical, 3.5 mm aux, USB, Bluetooth",
+      "Room correction": "None",
+      "Streaming": "Bluetooth",
+      "Wireless": "Wireless sub; rears wired to sub",
+      "Amplification": "Built in (active system)"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Vizio M-Series 5.1.2 need a receiver?",
+        "a": "No. It is a self-powered soundbar system. Connect it to your TV's HDMI eARC port and it handles decoding and amplification."
+      },
+      {
+        "q": "Where do the Vizio rear speakers plug in?",
+        "a": "The rear satellites connect by cable to the wireless subwoofer, so placing the sub near the back of the room keeps those runs short."
+      }
+    ]
+  },
+  {
+    "slug": "nakamichi-dragon-1146",
+    "name": "Nakamichi Dragon 11.4.6 Soundbar System",
+    "brand": "Nakamichi",
+    "category": "system",
+    "amazonQuery": "Nakamichi Dragon 11.4.6 soundbar",
+    "priceBand": "$1,500–$2,000",
+    "priceTier": 3,
+    "score": 82,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 84
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 90
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 72
+      },
+      {
+        "label": "Ease of setup",
+        "value": 70
+      }
+    ],
+    "summary": "A huge-channel-count soundbar system with two wireless subs and height-equipped rears that delivers big, enveloping movie sound, at the cost of space and finesse.",
+    "verdict": "The Dragon is Nakamichi's flagship soundbar system and it is built for scale: a long main bar, **two wireless subwoofers** and rear speakers with their own height drivers, decoding [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/).\n\n**Decode the name.** \"11.4.6\" means **11 ear-level channels**, **4 subwoofer channels** across the two subs and **6 height channels**. For comparison, the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) is 11.1.4. More numbers on the box don't automatically mean more precise sound, because many of those channels are virtualized with beam-forming and processing, but the second sub is a genuine advantage: two subs in different spots smooth out room modes, so bass is more even across a row of seats.\n\n**HDMI maths.** It has **HDMI inputs with 4K HDR pass-through** plus [eARC](/glossary/earc/), so a player or streaming box can connect to the bar and the TV link carries lossless audio. Check whether your console's 4K120 mode passes through; if not, connect the console to the TV and let eARC do the work.\n\nOwners love the sheer envelopment and bass weight for movies; the trade-offs are a lot of hardware to place and power (bar, two subs, two rears means **five outlets**), and music playback that is less refined than a good pair of stereo speakers. There's no Wi-Fi multiroom. See the [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) roundup for alternatives.",
+    "bestFor": "Movie fans who want maximum envelopment and bass from a soundbar-style system",
+    "skipIf": "You want a minimalist setup or mainly listen to music",
+    "pros": [
+      "Two wireless subs give fuller, more even bass",
+      "Huge channel count with dedicated rear height drivers",
+      "Decodes Dolby Atmos and DTS:X",
+      "HDMI inputs with 4K HDR pass-through"
+    ],
+    "cons": [
+      "Lots of hardware to place and power",
+      "Music sound is less refined than its movie performance",
+      "No Wi-Fi streaming ecosystem"
+    ],
+    "specs": {
+      "Channels": "11.4.6",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Subwoofer": "Two wireless subwoofers",
+      "Surrounds": "Included, with height drivers",
+      "Inputs": "HDMI inputs with 4K HDR pass-through, HDMI eARC, optical, Bluetooth",
+      "Streaming": "Bluetooth",
+      "Wireless": "Wireless subs and rears",
+      "Amplification": "Built in (active system)"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "What does 11.4.6 mean on the Nakamichi Dragon?",
+        "a": "It describes 11 ear-level channels, 4 subwoofer channels and 6 height channels. Many are created with processing rather than one driver per channel, but it signals a very full layout."
+      },
+      {
+        "q": "Does the Nakamichi Dragon support DTS:X?",
+        "a": "Yes. It decodes both Dolby Atmos and DTS:X, which matters for 4K Blu-ray discs that use DTS:X soundtracks."
+      }
+    ]
+  },
+  {
+    "slug": "nakamichi-shockwafe-ultra-924",
+    "name": "Nakamichi Shockwafe Ultra 9.2.4",
+    "brand": "Nakamichi",
+    "category": "system",
+    "amazonQuery": "Nakamichi Shockwafe Ultra 9.2.4 soundbar",
+    "priceBand": "$900–$1,300",
+    "priceTier": 2,
+    "score": 80,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 86
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 84
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 70
+      },
+      {
+        "label": "Ease of setup",
+        "value": 72
+      }
+    ],
+    "summary": "A 9.2.4 soundbar system with two wireless 10-inch subs and height-equipped rears that gives big Atmos and DTS:X movie sound for well under flagship money.",
+    "verdict": "The Shockwafe Ultra 9.2.4 is the value sweet spot of Nakamichi's lineup: a main bar, **two wireless 10-inch subwoofers** and two rear speakers with up-firing drivers, decoding [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/).\n\n**Two subs, show the maths.** One sub in a corner excites the room's standing waves unevenly, so bass can be boomy in one seat and thin in the next. Two subs placed apart (for example, front left and midway along the right wall) fill in each other's nulls. That's why dual-sub setups are a common upgrade in dedicated theaters, and here it's in the box. Just remember both need power: with the bar and two rears, plan for **five outlets**.\n\n**Inputs.** There are **three HDMI inputs** with 4K HDR pass-through plus an HDMI [eARC](/glossary/earc/) output, so a 4K Blu-ray player and streaming box can feed the bar directly. That's more flexible than single-port bars like the [Sonos Arc Ultra](/gear/sonos-arc-ultra/).\n\nOwners report big, enveloping movie sound and serious low-end weight for the money. The compromises: Bluetooth is the only streaming option, the remote and app are less polished than Sonos or Samsung, and the rears and subs take up floor space. If you want the most movie impact per dollar from a soundbar-type system, it's a strong pick. More in the [best home theater systems](/best-home-theater-systems/) roundup.",
+    "bestFor": "Movie-first living rooms that want dual-sub bass and full Atmos without a receiver",
+    "skipIf": "You want Wi-Fi multiroom streaming or a minimal, single-speaker setup",
+    "pros": [
+      "Two wireless 10-inch subs smooth bass across seats",
+      "Three HDMI inputs plus eARC",
+      "Rear speakers with height drivers for a full 9.2.4 layout",
+      "Decodes Dolby Atmos and DTS:X"
+    ],
+    "cons": [
+      "No Wi-Fi streaming, Bluetooth only",
+      "App and remote less polished than big-brand rivals",
+      "Five components to place and power"
+    ],
+    "specs": {
+      "Channels": "9.2.4",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Subwoofer": "Two wireless 10-inch subwoofers",
+      "Surrounds": "Included, with up-firing drivers",
+      "Inputs": "3x HDMI in (4K HDR pass-through), HDMI eARC, optical, coaxial, Bluetooth",
+      "Room correction": "None",
+      "Streaming": "Bluetooth",
+      "Wireless": "Wireless subs and rears",
+      "Amplification": "Built in (active system)"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Nakamichi Shockwafe Ultra worth it over the Dragon?",
+        "a": "For most rooms, yes. You still get two wireless subs, rear height drivers and Atmos plus DTS:X; the Dragon adds more channels and output for larger spaces."
+      },
+      {
+        "q": "Does the Shockwafe Ultra have HDMI inputs?",
+        "a": "Yes. It has three HDMI inputs with 4K HDR pass-through and an HDMI eARC output to the TV."
+      }
+    ]
+  },
+  {
+    "slug": "sony-bravia-theater-quad",
+    "name": "Sony Bravia Theater Quad",
+    "brand": "Sony",
+    "category": "system",
+    "amazonQuery": "Sony Bravia Theater Quad home theater system",
+    "released": "2024",
+    "priceBand": "$2,000–$2,500",
+    "priceTier": 4,
+    "score": 83,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 70
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 86
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 84
+      },
+      {
+        "label": "Ease of setup",
+        "value": 82
+      }
+    ],
+    "summary": "Four slim wireless speakers and a control box that use Sony's 360 Spatial Sound Mapping to fill a room with Atmos sound, with no bar under the TV at all.",
+    "verdict": "The Bravia Theater Quad replaces the soundbar with **four slim wireless speakers** (two front, two rear) and a small control box that connects to your TV over HDMI [eARC](/glossary/earc/). Sony's **360 Spatial Sound Mapping** uses the four speakers to create \"phantom\" speakers around and above you, and it decodes [Dolby Atmos](/glossary/dolby-atmos/), [DTS:X](/glossary/dts-x/) and IMAX Enhanced.\n\n**What the layout means in practice.** There's **no physical center speaker**, so dialogue is a phantom image between the front pair. That works well when the front speakers sit either side of the screen at ear height, and Sony's **Sound Field Optimization** measures the room to place those phantom channels. It works less well if the speakers are far apart and you sit well off-axis.\n\n**Bass and budget.** No subwoofer is included. Sony's optional wireless subs (SA-SW3 or SA-SW5) are close to essential for movies, so add that to the cost. Also count outlets: four speakers, a control box and a sub need **six power points**, even though the audio is wireless.\n\nStreaming is strong, with Wi-Fi, Chromecast, AirPlay and Spotify Connect, and pairing with a recent Sony Bravia TV adds extra integration. For the money, a passive system and receiver would play louder, but nothing else here is this discreet. See the [best wireless home theater system](/best-wireless-home-theater-system/) roundup and the [Sony home theater review](/sony-home-theater-review/).",
+    "bestFor": "Design-led living rooms that want Atmos surround without a bar or speaker cable runs",
+    "skipIf": "You want deep bass included, or a dedicated center channel for dialogue",
+    "pros": [
+      "No soundbar under the screen; slim, wall-mountable speakers",
+      "Room calibration places virtual speakers around you",
+      "Decodes Dolby Atmos, DTS:X and IMAX Enhanced",
+      "Good Wi-Fi streaming support"
+    ],
+    "cons": [
+      "No subwoofer included, and it really needs one",
+      "Phantom center relies on careful front placement",
+      "Expensive for the output you get"
+    ],
+    "specs": {
+      "Channels": "Four wireless speakers with virtual surround and height",
+      "Atmos/DTS:X": "Dolby Atmos, DTS:X and IMAX Enhanced",
+      "Subwoofer": "Optional (Sony SA-SW3 or SA-SW5)",
+      "Surrounds": "Included (rear pair)",
+      "Inputs": "HDMI eARC on control box",
+      "Room correction": "Sound Field Optimization",
+      "Streaming": "Wi-Fi, Chromecast built-in, AirPlay, Spotify Connect, Bluetooth",
+      "Wireless": "Wireless speakers (each needs power)",
+      "Amplification": "Built in (active system)"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Sony Bravia Theater Quad include a subwoofer?",
+        "a": "No. It works alone, but Sony's optional SA-SW3 or SA-SW5 wireless subwoofers add the low bass that movies need."
+      },
+      {
+        "q": "Are the Bravia Theater Quad speakers fully wireless?",
+        "a": "The audio is wireless, but each speaker and the control box still needs its own power outlet."
+      }
+    ]
+  },
+  {
+    "slug": "samsung-hw-q990f",
+    "name": "Samsung HW-Q990F 11.1.4 Soundbar",
+    "brand": "Samsung",
+    "category": "system",
+    "amazonQuery": "Samsung HW-Q990F soundbar 11.1.4",
+    "released": "2025",
+    "priceBand": "$1,500–$2,000",
+    "priceTier": 3,
+    "score": 87,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 80
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 92
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 88
+      },
+      {
+        "label": "Ease of setup",
+        "value": 84
+      }
+    ],
+    "summary": "Samsung's 11.1.4 flagship with a wireless sub and height-equipped rears, room calibration and strong Samsung TV integration; the most complete all-in-one Atmos package here.",
+    "verdict": "The HW-Q990F is a complete **11.1.4** system in one box: the main bar with up-firing drivers, a **wireless subwoofer** (redesigned and more compact for 2025) and two wireless rear speakers that also have up-firing drivers. It decodes [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/).\n\n**Decode 11.1.4.** Eleven ear-level channels (including side-firing and rear channels), one sub and **four height channels**: two from the bar and two from the rears. That rear height pair is what separates it from 5.1.2 bars: overhead effects can move front to back, not just hang above the screen.\n\n**Connections and setup.** The bar has an **HDMI input** as well as [eARC](/glossary/earc/), so one source can connect directly. **SpaceFit Sound Pro** calibrates the sound to your room. With a recent Samsung TV, **Q-Symphony** lets the TV speakers join in, and wireless Dolby Atmos removes the HDMI cable. Wi-Fi, AirPlay 2 and Spotify Connect cover streaming.\n\n**Compare honestly.** A 5.1.2 passive system and receiver at this money, such as the [Klipsch R-625FA system](/gear/klipsch-r-625fa-51-system/), plays louder with more dynamic range, but needs more space and cabling. For a living room where a receiver isn't wanted, the Q990F is the reference point the rest of this category gets measured against. Owners mainly flag app quirks and the need to tune rear levels. See the [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) and [Samsung home theater review](/samsung-home-theater-review/).",
+    "bestFor": "Living rooms that want the fullest all-in-one Atmos system, especially with a Samsung TV",
+    "skipIf": "You'd rather build a receiver-based system you can upgrade piece by piece",
+    "pros": [
+      "Full 11.1.4 layout with rear height drivers in the box",
+      "Decodes Dolby Atmos and DTS:X",
+      "SpaceFit Sound Pro room calibration",
+      "HDMI input plus eARC, and wireless Atmos with Samsung TVs"
+    ],
+    "cons": [
+      "Expensive for a soundbar system",
+      "Best features need a Samsung TV",
+      "Rear levels often need manual tweaking"
+    ],
+    "specs": {
+      "Channels": "11.1.4",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Subwoofer": "Wireless subwoofer included",
+      "Surrounds": "Included, with up-firing drivers",
+      "Inputs": "HDMI in, HDMI eARC, Wi-Fi, Bluetooth",
+      "Room correction": "SpaceFit Sound Pro",
+      "Streaming": "Wi-Fi, AirPlay 2, Spotify Connect, Bluetooth",
+      "Wireless": "Wireless sub and rears; wireless Atmos with Samsung TVs",
+      "Amplification": "Built in (active system)"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Samsung HW-Q990F work with non-Samsung TVs?",
+        "a": "Yes. Connect it to any TV's HDMI eARC port for Atmos. Features like Q-Symphony and wireless Dolby Atmos need a compatible Samsung TV."
+      },
+      {
+        "q": "Is the Q990F better than a 5.1.2 receiver system?",
+        "a": "It's more convenient and has more height channels, but a good passive system with a receiver usually plays louder with more dynamic range and lets you upgrade parts individually."
+      }
+    ]
+  },
+  {
+    "slug": "enclave-cinehome-pro",
+    "name": "Enclave Audio CineHome Pro 5.1",
+    "brand": "Enclave Audio",
+    "category": "system",
+    "amazonQuery": "Enclave Audio CineHome PRO wireless 5.1",
+    "priceBand": "$1,000–$1,500",
+    "priceTier": 3,
+    "score": 76,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 72
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 66
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 70
+      },
+      {
+        "label": "Ease of setup",
+        "value": 86
+      }
+    ],
+    "summary": "A plug-in wireless 5.1 system using WiSA, with a center hub, satellites and sub that need no speaker wire, aimed at people who want discrete 5.1 without a receiver.",
+    "verdict": "Enclave's CineHome Pro is a **wireless 5.1** speaker system built on the **WiSA** standard. A center-channel hub connects to your TV, then streams audio wirelessly to the front, surround and subwoofer speakers. There's no receiver and no speaker wire to run, which is the whole point.\n\n**The \"wireless\" maths.** Wireless here means no speaker cable, not no cables. Each speaker has its own amplifier and needs a power outlet, so a 5.1 layout needs **six outlets** including the hub. Check where outlets are behind your seats before committing; extension cords along the baseboard undo the tidy look.\n\n**Why WiSA matters.** WiSA sends **uncompressed 24-bit/48 kHz** audio with low latency, so the system doesn't add lip-sync lag or compress the signal the way Bluetooth would. Connect the hub to your TV's [eARC](/glossary/earc/) or ARC port and Dolby Digital and DTS soundtracks play as discrete 5.1. This is a 5.1 system, so there are no [Dolby Atmos](/glossary/dolby-atmos/) height channels.\n\nOwners like the genuine surround separation compared with virtual soundbars and the fast setup. The trade-off is value: for similar money, a 5.2 receiver and the [SVS Prime Satellite 5.1](/gear/svs-prime-satellite-51/) play louder with deeper bass if you can run wire. See the [best wireless home theater system](/best-wireless-home-theater-system/) roundup.",
+    "bestFor": "Renters and finished rooms where running speaker wire to the back isn't an option",
+    "skipIf": "You can run speaker cable and want the most performance for the money",
+    "pros": [
+      "True discrete 5.1 with no speaker wire",
+      "WiSA streams uncompressed audio with low latency",
+      "No receiver needed; connects to the TV",
+      "Fast, simple setup"
+    ],
+    "cons": [
+      "Every speaker needs a power outlet",
+      "No Atmos height channels",
+      "Less output per dollar than wired systems"
+    ],
+    "specs": {
+      "Channels": "5.1",
+      "Atmos/DTS:X": "No height channels (Dolby Digital and DTS 5.1)",
+      "Subwoofer": "Wireless powered subwoofer included",
+      "Surrounds": "Included (wireless)",
+      "Inputs": "HDMI ARC/eARC, optical, Bluetooth",
+      "Room correction": "None",
+      "Streaming": "Bluetooth",
+      "Wireless": "WiSA (uncompressed 24-bit/48 kHz)",
+      "Amplification": "Built into each speaker"
+    },
+    "keySpecs": [
+      "Channels",
+      "Wireless",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Are Enclave CineHome Pro speakers really wireless?",
+        "a": "The audio is wireless over WiSA, but each speaker and the subwoofer has a built-in amplifier and needs its own power outlet."
+      },
+      {
+        "q": "Does the Enclave CineHome Pro support Dolby Atmos?",
+        "a": "No. It is a discrete 5.1 system without height channels."
+      }
+    ]
+  },
+  {
+    "slug": "platin-monaco-51",
+    "name": "Platin Audio Monaco 5.1 Wireless System",
+    "brand": "Platin",
+    "category": "system",
+    "amazonQuery": "Platin Monaco 5.1 wireless home theater",
+    "priceBand": "$1,000–$1,500",
+    "priceTier": 3,
+    "score": 72,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 70
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 62
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 66
+      },
+      {
+        "label": "Ease of setup",
+        "value": 84
+      }
+    ],
+    "summary": "A WiSA-based wireless 5.1 system with a hub, five speakers and a sub, easy to set up without speaker wire but outclassed on value by wired systems.",
+    "verdict": "Platin's Monaco 5.1 follows the same idea as the [Enclave CineHome Pro](/gear/enclave-cinehome-pro/): a **WiSA** hub connects to your TV and streams audio wirelessly to five powered speakers and a subwoofer, so there's no receiver and no speaker wire across the floor.\n\n**Plan the power first.** Each speaker contains its own amplifier, so a 5.1 layout means **six powered boxes** plus the hub, each near an outlet. In a typical living room, the two rear surrounds are the tricky ones. Sketch the room, mark outlets, and confirm your rear speakers can reach one without visible cords.\n\n**Signal quality.** WiSA carries uncompressed **24-bit/48 kHz** audio with low latency, so it's a proper multichannel link, not Bluetooth. Feed it from your TV's [eARC](/glossary/earc/) or ARC port and 5.1 Dolby Digital and DTS soundtracks play discretely. As a 5.1 system there are no [Dolby Atmos](/glossary/dolby-atmos/) height channels.\n\nOwners report easy setup and good separation, with the usual wireless-system caveats: bass is adequate rather than deep, and support and firmware depend on a smaller brand. Compared with the Enclave, the Monaco is a similar proposition; choose on current availability and warranty. If you can run wire, a receiver plus passive speakers gives more performance per dollar; see the [best wireless home theater system](/best-wireless-home-theater-system/) and [soundbar vs home theater](/soundbar-vs-home-theater/) guides.",
+    "bestFor": "Rooms where you need discrete 5.1 but can't run speaker wire",
+    "skipIf": "You want Atmos, deep bass, or the most sound for your budget",
+    "pros": [
+      "Discrete wireless 5.1 with no speaker wire",
+      "WiSA link is uncompressed and low-latency",
+      "No receiver required",
+      "Simple, guided setup"
+    ],
+    "cons": [
+      "Every speaker needs power",
+      "Bass is adequate rather than deep",
+      "Smaller brand, so long-term support is less certain"
+    ],
+    "specs": {
+      "Channels": "5.1",
+      "Atmos/DTS:X": "No height channels (5.1)",
+      "Subwoofer": "Wireless powered subwoofer included",
+      "Surrounds": "Included (wireless)",
+      "Inputs": "HDMI ARC/eARC hub, optical, Bluetooth",
+      "Room correction": "None",
+      "Streaming": "Bluetooth",
+      "Wireless": "WiSA (uncompressed 24-bit/48 kHz)",
+      "Amplification": "Built into each speaker"
+    },
+    "keySpecs": [
+      "Channels",
+      "Wireless",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "How does the Platin Monaco 5.1 connect to a TV?",
+        "a": "Its WiSA hub connects to your TV over HDMI ARC or eARC (or optical) and sends audio wirelessly to each powered speaker."
+      },
+      {
+        "q": "Is the Platin Monaco better than a soundbar?",
+        "a": "It gives real discrete surround from speakers behind you, which virtual soundbars can't match. A soundbar is simpler and needs fewer outlets."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-flexus-core-300",
+    "name": "Klipsch Flexus Core 300 Soundbar",
+    "brand": "Klipsch",
+    "category": "system",
+    "amazonQuery": "Klipsch Flexus Core 300 soundbar",
+    "released": "2024",
+    "priceBand": "$900–$1,200",
+    "priceTier": 2,
+    "score": 81,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 80
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 78
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 84
+      },
+      {
+        "label": "Ease of setup",
+        "value": 80
+      }
+    ],
+    "summary": "Klipsch's flagship 5.1.2 soundbar with up-firing drivers and Dirac Live room correction, expandable with Flexus wireless subs and surrounds.",
+    "verdict": "The Flexus Core 300 is Klipsch's top soundbar: a **5.1.2** bar with built-in woofers and **up-firing drivers** for [Dolby Atmos](/glossary/dolby-atmos/). Its standout feature is **Dirac Live** [room correction](/glossary/room-correction/), the same family of correction used in high-end AV processors, which measures your room and fixes the bass peaks and dips that make most soundbars boom.\n\n**Why room correction matters, in numbers.** In a typical living room, standing waves can swing bass response by **10 dB or more** between frequencies at the listening seat. A 10 dB peak sounds roughly twice as loud as its neighbors, which is what you hear as one-note boom. Taming that is worth more than extra watts.\n\n**Expandability.** The bar works alone, but the Flexus system is modular: add a Flexus wireless subwoofer for deeper bass and the Flexus surround speakers for real rear channels. That lets you spread the cost and build up to a proper surround layout. The bar connects over HDMI [eARC](/glossary/earc/) and adds Wi-Fi streaming.\n\nOwners like the dynamic, punchy Klipsch sound and clear dialogue. Compared with the [Sonos Arc Ultra](/gear/sonos-arc-ultra/), it trades some ecosystem polish for stronger correction and a more modular path. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup and [Klipsch home theater review](/klipsch-home-theater-review/).",
+    "bestFor": "Buyers who want an Atmos bar now and plan to add wireless sub and surrounds later",
+    "skipIf": "You want a complete 5.1.2 or larger system in one box today",
+    "pros": [
+      "Dirac Live room correction tames room bass problems",
+      "Up-firing drivers for real Atmos height",
+      "Modular: add Flexus wireless sub and surrounds",
+      "Lively, dynamic Klipsch sound"
+    ],
+    "cons": [
+      "Sub and surrounds cost extra",
+      "Streaming ecosystem less mature than Sonos",
+      "Single-input design means sources go through the TV"
+    ],
+    "specs": {
+      "Channels": "5.1.2",
+      "Atmos/DTS:X": "Dolby Atmos",
+      "Subwoofer": "Optional Flexus wireless sub",
+      "Surrounds": "Optional Flexus wireless surrounds",
+      "Inputs": "HDMI eARC, Bluetooth",
+      "Room correction": "Dirac Live",
+      "Streaming": "Wi-Fi, Bluetooth",
+      "Wireless": "Wireless sub and surround expansion",
+      "Amplification": "Built in (active system)"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Room correction",
+      "Subwoofer"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Klipsch Flexus Core 300 need a subwoofer?",
+        "a": "It has built-in woofers and works alone, but adding a Flexus wireless subwoofer gives much deeper movie bass."
+      },
+      {
+        "q": "What is Dirac Live on the Flexus Core 300?",
+        "a": "Dirac Live is a room correction system that measures your room with a microphone and adjusts the bar's output to reduce bass peaks and improve clarity at your seat."
+      }
+    ]
+  },
+  {
+    "slug": "fluance-elite-51",
+    "name": "Fluance Elite 5.1 Surround Sound System",
+    "brand": "Fluance",
+    "category": "system",
+    "amazonQuery": "Fluance Elite surround sound home theater 5 speaker system",
+    "priceBand": "$600–$900",
+    "priceTier": 2,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 82
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 58
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 52
+      },
+      {
+        "label": "Ease of setup",
+        "value": 74
+      }
+    ],
+    "summary": "A passive Fluance Elite package with towers, center and surrounds (and a powered sub in 5.1 bundles) that gives full-range sound for a modest outlay.",
+    "verdict": "Fluance's Elite surround package is a classic big-speaker system for the money: **floorstanding towers**, a center and surround speakers, with Fluance's DB-series powered sub included in the 5.1 bundles (some listings are 5.0, so check). It's all passive, so you'll need an AV receiver.\n\n**Why towers help the maths.** Towers put more woofer area in front of you than bookshelves, so they can play down toward the sub's range with less strain. That makes an **80 Hz** [crossover](/glossary/crossover/) easy and gives you the option of running the fronts \"Large\" for music. For movies, \"Small\" at 80 Hz is still the better default because it frees the receiver's amplifier from the deepest bass.\n\n**Power check.** Fluance designs are an easy load for mainstream receivers. A 5.2 model such as the [Sony STR-DH590](/gear/sony-str-dh590/) is enough for 5.1; if you want heights later, buy a 7.2 like the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) so you have two spare channels for [Dolby Atmos](/glossary/dolby-atmos/) speakers.\n\nOwners praise the full sound and finish for the price; the usual budget-speaker notes apply: the treble can be a little forward, and the included sub is fine for living rooms but outgunned by an SVS or a bigger Klipsch in large spaces. For other complete packages see the [best budget home theater system](/best-budget-home-theater-system/) roundup.",
+    "bestFor": "Value buyers with floor space who want full-range towers and a receiver-based system",
+    "skipIf": "You have a small room or want a minimalist, wireless setup",
+    "pros": [
+      "Floorstanding towers give full sound for the money",
+      "Easy load for mainstream receivers",
+      "Good finish and build for the price",
+      "Room to add Atmos speakers with the right receiver"
+    ],
+    "cons": [
+      "Needs a separate receiver",
+      "Included sub is outclassed in large rooms",
+      "Bundles vary between 5.0 and 5.1"
+    ],
+    "specs": {
+      "Channels": "5.1 (some bundles 5.0)",
+      "Atmos/DTS:X": "Via your receiver (no height speakers included)",
+      "Subwoofer": "Fluance DB-series powered sub in 5.1 bundles",
+      "Surrounds": "Included",
+      "Inputs": "Binding posts; sub has line-level/LFE RCA",
+      "Room correction": "None (use your receiver's)",
+      "Streaming": "None (via receiver)",
+      "Wireless": "No",
+      "Amplification": "Passive speakers; needs an AV receiver"
+    },
+    "keySpecs": [
+      "Channels",
+      "Subwoofer",
+      "Surrounds",
+      "Amplification"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Fluance Elite surround system include a subwoofer?",
+        "a": "The 5.1 bundles include a Fluance DB-series powered subwoofer; some listings are 5.0 speaker-only sets. Check the listing before you buy."
+      },
+      {
+        "q": "What receiver should I pair with Fluance Elite speakers?",
+        "a": "Any 5.1 or 7.1 AV receiver works. Choose a 7.2 model if you might add Dolby Atmos height speakers later."
+      }
+    ]
+  },
+  {
+    "slug": "sony-ht-s40r",
+    "name": "Sony HT-S40R 5.1 Home Theater System",
+    "brand": "Sony",
+    "category": "system",
+    "amazonQuery": "Sony HT-S40R 5.1 soundbar wireless rear",
+    "released": "2021",
+    "priceBand": "$300–$450",
+    "priceTier": 1,
+    "score": 68,
+    "scores": [
+      {
+        "label": "Sound for the money",
+        "value": 78
+      },
+      {
+        "label": "Surround & Atmos",
+        "value": 56
+      },
+      {
+        "label": "Features & connectivity",
+        "value": 54
+      },
+      {
+        "label": "Ease of setup",
+        "value": 86
+      }
+    ],
+    "summary": "A budget 5.1 soundbar system with a wired sub and real rear speakers fed by a wireless amplifier, giving true surround for TV and movies at a low price.",
+    "verdict": "The HT-S40R is a budget route to **real** rear speakers. You get a three-channel bar, a wired subwoofer and two rear speakers that plug into a small **wireless amplifier box**, so there's no cable running from the front of the room to the back.\n\n**Read the power claim carefully.** Sony quotes **600 W total**, but that figure is spread across six channels and not measured the way a receiver's watts per channel are. Treat it as a marketing total, not a performance promise. In practice, owners report it fills a small to mid-size living room at TV and movie levels, but it isn't built for very loud playback in a big room.\n\n**Connections.** It connects to the TV with HDMI ARC (or optical) and adds Bluetooth for music. There's **no Dolby Atmos or DTS:X**, and no Wi-Fi streaming, so it's a TV-sound upgrade rather than a smart speaker system. The rear wireless amp still needs a power outlet behind the seats.\n\nFor not much more, the [Vizio M-Series 5.1.2](/gear/vizio-m-series-512/) adds up-firing Atmos drivers. If you only want the simplest upgrade from TV speakers with genuine rear sound, the HT-S40R does the job. Compare options in the [best budget home theater system](/best-budget-home-theater-system/) and [best soundbar for home theater](/best-soundbar-for-home-theater/) guides.",
+    "bestFor": "Budget buyers who want real rear speakers for TV and movies",
+    "skipIf": "You want Dolby Atmos, Wi-Fi streaming or high output",
+    "pros": [
+      "Real rear speakers at a budget price",
+      "Wireless amp avoids cable runs to the back",
+      "Simple HDMI ARC setup",
+      "Wired sub adds useful low-end weight"
+    ],
+    "cons": [
+      "No Dolby Atmos or DTS:X",
+      "No Wi-Fi streaming",
+      "600 W claim is a total, not per-channel power"
+    ],
+    "specs": {
+      "Channels": "5.1",
+      "Atmos/DTS:X": "No",
+      "Subwoofer": "Wired subwoofer included",
+      "Surrounds": "Included (wired to a wireless rear amplifier)",
+      "Inputs": "HDMI ARC, optical, Bluetooth",
+      "Room correction": "None",
+      "Streaming": "Bluetooth",
+      "Wireless": "Wireless rear amplifier",
+      "Amplification": "Built in (active system)"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Are the Sony HT-S40R rear speakers wireless?",
+        "a": "Partly. The rear speakers connect by cable to a small wireless amplifier, which receives audio from the bar and needs a power outlet."
+      },
+      {
+        "q": "Does the Sony HT-S40R support Dolby Atmos?",
+        "a": "No. It is a 5.1 system without Atmos or DTS:X decoding."
+      }
+    ]
+  }
+]

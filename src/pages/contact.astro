@@ -1,0 +1,12 @@
+---
+import Prose from '../layouts/Prose.astro';
+import { SITE } from '../data/site';
+---
+<Prose title="Contact Best Home Theater Review" description="Contact the Best Home Theater Review editorial team with corrections, product suggestions or questions about your home theater setup." h1="Contact Us" path="/contact/" pageType="ContactPage">
+  <p>Email the editorial team at <a href={`mailto:${SITE.email}`}><strong>{SITE.email}</strong></a>.</p>
+  <ul>
+    <li><strong>Corrections:</strong> include the page URL and what's wrong; we fix errors quickly.</li>
+    <li><strong>Product suggestions:</strong> tell us the model and why it belongs on a list.</li>
+    <li><strong>Brands and PR:</strong> we welcome product information, but we don't sell placements or scores.</li>
+  </ul>
+</Prose>

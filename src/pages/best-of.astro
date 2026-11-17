@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import RelatedCards from '../components/RelatedCards.astro';
+import { articles, hubLabel } from '../lib/data';
+import { breadcrumbs, graph, itemList } from '../lib/schema';
+const roundups = articles.filter((a) => a.kind === 'roundup');
+const order = ['system', 'soundbar', 'receiver', 'amplifier', 'subwoofer', 'bookshelf', 'tower', 'center', 'in-wall', 'high-end', 'wireless-speaker', 'projector', 'screen', 'tv', 'seating', 'remote', 'cable', 'power', 'popcorn'];
+const groups = order.map((h) => ({ hub: h, items: roundups.filter((a) => a.hub === h) })).filter((g) => g.items.length);
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'Best Lists', url: '/best-of/' }];
+---
+<Base title="Best Home Theater Gear: Every Best-Of List in One Place" description={`All ${roundups.length} of our home theater best lists: systems, projectors, receivers, speakers, subwoofers, seating and accessories, each matched to room size and budget.`} schema={graph(breadcrumbs(crumbs), itemList(roundups.map((a) => ({ name: a.h1, url: `/${a.slug}/` }))))}>
+  <PageHeader h1="Every Home Theater Best List" crumbs={crumbs} eyebrow="Best Lists" intro="Each list is built for one buying question, with picks by room size, budget and setup. Start with the system, then the screen, then the seats." />
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    {groups.map((g) => (<section class="mt-10"><h2 class="text-xl font-extrabold text-ink">{hubLabel(g.hub)}</h2><RelatedCards articles={g.items} /></section>))}
+  </div>
+</Base>

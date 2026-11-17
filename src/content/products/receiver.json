@@ -1,0 +1,830 @@
+[
+  {
+    "slug": "denon-avr-s770h",
+    "name": "Denon AVR-S770H",
+    "brand": "Denon",
+    "category": "receiver",
+    "amazonQuery": "Denon AVR-S770H 7.2 receiver",
+    "released": "2022",
+    "priceBand": "$550–$700",
+    "priceTier": 2,
+    "score": 80,
+    "scores": [
+      {"label": "Power & channels", "value": 76},
+      {"label": "Room correction", "value": 72},
+      {"label": "Video & HDMI", "value": 86},
+      {"label": "Streaming & ease of use", "value": 86}
+    ],
+    "summary": "A 7.2-channel Denon with 8K-ready HDMI and HEOS streaming that can run a full 5.1.2 Dolby Atmos layout, but its basic Audyssey MultEQ and 75 W rating suit efficient speakers in small to medium rooms.",
+    "verdict": "The AVR-S770H has **seven amplified channels**, so the maths is simple: five ear-level speakers plus two height speakers is seven, which gives you a complete **5.1.2 Dolby Atmos** system, or 7.1 with no heights. It cannot reach 5.1.4 or 7.1.4, and there are no main-channel pre-outs for adding an amp later.\n\nDenon rates it at **75 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)**. That two-channel figure is the best case. With all seven channels busy, they share one power supply, so real multichannel output is lower. Here is why that rarely matters in a normal room: loudness at 1 m = sensitivity + 10 × log10(watts). A 90 dB [sensitivity](/glossary/speaker-sensitivity/) speaker fed 75 W reaches about 108.8 dB at 1 m, or roughly 99 dB at a seat 3 m away. Halve the power and you lose only 3 dB. With 85 dB speakers, that same seat tops out near 94 dB, which is loud but short of reference peaks.\n\nRoom correction is entry-level [Audyssey MultEQ](/glossary/room-correction/), not MultEQ XT or XT32. If you want finer EQ, the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) is the next step up. See the full ranking in our [best home theater receiver](/best-home-theater-receiver/) guide.",
+    "bestFor": "First Atmos system with efficient speakers in a small or medium room",
+    "skipIf": "You plan to add four height speakers or want stronger room correction",
+    "pros": [
+      "Seven channels run a full 5.1.2 Dolby Atmos layout",
+      "8K/60 and 4K/120 pass-through for current consoles and TVs",
+      "HEOS, AirPlay 2 and Bluetooth built in",
+      "Denon's guided setup is easy for first-timers"
+    ],
+    "cons": [
+      "Basic Audyssey MultEQ has less filter resolution than XT or XT32",
+      "No main-channel pre-outs, so no path to 5.1.4 later",
+      "75 W/ch rating needs efficient speakers for big rooms"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "75 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)",
+      "HDMI inputs": "6 in / 1 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Audyssey MultEQ",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "HEOS, AirPlay 2, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "8K/4K120 HDMI"],
+    "faqs": [
+      {"q": "Can the Denon AVR-S770H do Dolby Atmos?", "a": "Yes. It decodes Dolby Atmos and DTS:X and has seven amplified channels, so it can power a 5.1.2 layout with two height or upfiring speakers. It cannot run four height speakers, so 5.1.4 and 7.1.4 are out of reach."},
+      {"q": "What is the difference between the AVR-S770H and AVR-X1800H?", "a": "Both are 7.2-channel receivers. The X1800H adds Audyssey MultEQ XT for finer room correction and a slightly higher 80 W/ch rating. The power gain is about 0.3 dB, so the real reason to step up is the better EQ, not loudness."}
+    ]
+  },
+  {
+    "slug": "denon-avr-x1800h",
+    "name": "Denon AVR-X1800H",
+    "brand": "Denon",
+    "category": "receiver",
+    "amazonQuery": "Denon AVR-X1800H 7.2 channel AV receiver",
+    "released": "2022",
+    "priceBand": "$700–$900",
+    "priceTier": 2,
+    "score": 84,
+    "scores": [
+      {"label": "Power & channels", "value": 78},
+      {"label": "Room correction", "value": 82},
+      {"label": "Video & HDMI", "value": 86},
+      {"label": "Streaming & ease of use", "value": 88}
+    ],
+    "summary": "The sweet-spot Denon for a 5.1.2 Atmos room: Audyssey MultEQ XT, 8K-ready HDMI and HEOS streaming in a 7.2-channel box that is easy to set up.",
+    "verdict": "On paper the AVR-X1800H looks like a small step over the [AVR-S770H](/gear/denon-avr-s770h/): **80 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)** against 75 W. Do the maths and the power gain is 10 × log10(80 ÷ 75) = **0.28 dB**, which nobody can hear. The reason to pay more is room correction.\n\nThe X1800H uses **Audyssey MultEQ XT**, which applies far finer filters than basic MultEQ. That matters most below about 300 Hz, where room modes cause the boomy peaks and dips you hear in most living rooms. Better [room correction](/glossary/room-correction/) will change the sound more than any 0.3 dB of extra headroom.\n\nChannel count is the same: **seven amplified channels**, so you get 5.1.2 Dolby Atmos or 7.1, not 5.1.4. Remember that the rating is for two channels driven. With seven speakers playing a loud action scene, each channel gets less than 80 W, but with 88 dB speakers a 40 W peak still gives about 104 dB at 1 m and roughly 94.5 dB at a 3 m seat.\n\nIf you want a second HDMI output for a projector, look at the [AVR-X2800H](/gear/denon-avr-x2800h/). For the full field, see our [best home theater receiver](/best-home-theater-receiver/) picks.",
+    "bestFor": "Most living rooms building a 5.1.2 Atmos system",
+    "skipIf": "You need two HDMI outputs or more than seven amplified channels",
+    "pros": [
+      "Audyssey MultEQ XT is a clear step up from basic MultEQ",
+      "Full 5.1.2 Dolby Atmos or 7.1 from seven amplified channels",
+      "8K/60 and 4K/120 HDMI pass-through",
+      "HEOS, AirPlay 2 and Bluetooth streaming"
+    ],
+    "cons": [
+      "Only one HDMI output",
+      "No path to 5.1.4 or 7.1.4",
+      "Power gain over the S770H is negligible"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "80 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)",
+      "HDMI inputs": "6 in / 1 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Audyssey MultEQ XT",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "HEOS, AirPlay 2, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "8K/4K120 HDMI"],
+    "faqs": [
+      {"q": "How many speakers can the Denon AVR-X1800H power?", "a": "Seven, plus two subwoofers from its sub outputs. That covers a 5.1.2 Dolby Atmos layout or a 7.1 layout. It cannot power four height speakers at once."},
+      {"q": "Is 80 watts per channel enough for a home theater?", "a": "For most rooms, yes. With speakers rated 88 dB or higher, 80 W gives around 107 dB at 1 m, which is still loud at a 3 m seat. If your speakers are rated 85 dB or lower, or your room is large, consider a 9-channel model with more headroom."}
+    ]
+  },
+  {
+    "slug": "denon-avr-x2800h",
+    "name": "Denon AVR-X2800H",
+    "brand": "Denon",
+    "category": "receiver",
+    "amazonQuery": "Denon AVR-X2800H 7.2 channel receiver",
+    "released": "2022",
+    "priceBand": "$1,000–$1,300",
+    "priceTier": 3,
+    "score": 85,
+    "scores": [
+      {"label": "Power & channels", "value": 80},
+      {"label": "Room correction", "value": 82},
+      {"label": "Video & HDMI", "value": 90},
+      {"label": "Streaming & ease of use", "value": 88}
+    ],
+    "summary": "A 7.2-channel Denon with 95 W/ch, Audyssey MultEQ XT and two HDMI outputs, ideal if you run both a TV and a projector from one 5.1.2 system.",
+    "verdict": "The AVR-X2800H is still a **seven-channel** receiver, so like the [AVR-X1800H](/gear/denon-avr-x1800h/) it powers 5.1.2 Dolby Atmos or 7.1, not 5.1.4. What you pay for is a second HDMI output and a little more power.\n\nDenon rates it at **95 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)**. Compared with 80 W, that is 10 × log10(95 ÷ 80) = **0.75 dB** more headroom. Useful with less sensitive speakers, but not a different class of loudness. The two-channel rating also overstates what you get with seven channels running together: a shared power supply means each channel sees less on a busy movie mix.\n\nThe practical maths for a projector room: a 12 ft seat is about 3.7 m, which costs about 11.3 dB versus 1 m. With 87 dB speakers at 95 W, you get roughly 106.8 dB at 1 m and about 95.5 dB at the seat. That is comfortable movie level with a [subwoofer](/best-subwoofer-for-home-theater/) taking the bass below the [crossover](/glossary/crossover/).\n\nThe second HDMI output is the real reason to buy it: run a TV for daytime and a projector for movies without swapping cables. If you want nine channels for 5.1.4, the [AVR-X3800H](/gear/denon-avr-x3800h/) is the next stop.",
+    "bestFor": "Rooms with both a TV and a projector on a 5.1.2 system",
+    "skipIf": "You plan to add four height speakers",
+    "pros": [
+      "Two HDMI outputs for a TV and a projector",
+      "95 W/ch rating gives a little more headroom than the X1800H",
+      "Audyssey MultEQ XT room correction",
+      "8K/60 and 4K/120 pass-through"
+    ],
+    "cons": [
+      "Still seven channels: no 5.1.4 or 7.1.4",
+      "Only 0.75 dB more headroom than the cheaper X1800H",
+      "Basic sub outputs compared with the X3800H's four independent outs"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "95 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)",
+      "HDMI inputs": "6 in / 2 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Audyssey MultEQ XT",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "HEOS, AirPlay 2, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "HDMI inputs", "Room correction"],
+    "faqs": [
+      {"q": "Is the AVR-X2800H worth it over the AVR-X1800H?", "a": "Only if you need the second HDMI output. Both are seven-channel receivers with Audyssey MultEQ XT. The X2800H's 95 W rating adds about 0.75 dB of headroom over 80 W, which you will barely notice."},
+      {"q": "Can the AVR-X2800H run a projector and a TV?", "a": "Yes. It has two HDMI outputs, so you can connect a TV and a projector and choose which one gets the picture from the receiver's menu or remote."}
+    ]
+  },
+  {
+    "slug": "denon-avr-x3800h",
+    "name": "Denon AVR-X3800H",
+    "brand": "Denon",
+    "category": "receiver",
+    "amazonQuery": "Denon AVR-X3800H 9.4 channel receiver",
+    "released": "2022",
+    "priceBand": "$1,600–$2,000",
+    "priceTier": 3,
+    "score": 89,
+    "scores": [
+      {"label": "Power & channels", "value": 90},
+      {"label": "Room correction", "value": 92},
+      {"label": "Video & HDMI", "value": 88},
+      {"label": "Streaming & ease of use", "value": 86}
+    ],
+    "summary": "Nine amplified channels, 11.4-channel processing, four independent sub outputs and Audyssey XT32 with a Dirac Live upgrade path make this the best-value receiver for a serious 5.1.4 or 7.1.4 room.",
+    "verdict": "The AVR-X3800H is where channel maths gets interesting. It has **nine amplified channels** and **11.4-channel processing**. Nine amps run **5.1.4** (five ear-level, four height) or **7.1.2**. Add a two-channel power amp such as the [Rotel RB-1582 MkII](/gear/rotel-rb-1582/) to the pre-outs and you reach **7.1.4**: 7 + 4 = 11 channels, with the receiver powering nine.\n\nDenon rates it at **105 W/ch (8 Ω, 20 Hz–20 kHz, 0.05% THD, 2 ch driven)**. As with every receiver, the two-channel figure is the ceiling, not what each of nine channels gets on a full-range blast. Offloading the front left and right to an external amp frees the internal supply for the other seven, which is the practical way to get more real multichannel headroom.\n\nThe bass side is strong: **four independent subwoofer outputs** let you place and level each sub separately, which smooths seat-to-seat response far better than one sub. [Room correction](/glossary/room-correction/) is Audyssey MultEQ XT32, with **Dirac Live** available as a paid upgrade.\n\nIt also decodes [DTS:X](/glossary/dts-x/), [Dolby Atmos](/glossary/dolby-atmos/), Auro-3D and IMAX Enhanced. For a 5.1.4 room it is hard to beat on paper; compare it with rivals in the [best home theater receiver](/best-home-theater-receiver/) guide.",
+    "bestFor": "Dedicated rooms building 5.1.4 now with a path to 7.1.4",
+    "skipIf": "You only need 5.1.2 and want to save several hundred dollars",
+    "pros": [
+      "Nine amplified channels for 5.1.4 or 7.1.2",
+      "11.4-channel processing and pre-outs for 7.1.4 with an external amp",
+      "Four independent subwoofer outputs",
+      "Audyssey MultEQ XT32 plus optional Dirac Live",
+      "Decodes Atmos, DTS:X, Auro-3D and IMAX Enhanced"
+    ],
+    "cons": [
+      "7.1.4 requires buying a separate two-channel amp",
+      "Dirac Live is a paid extra",
+      "Big, heavy chassis needs a deep, ventilated shelf"
+    ],
+    "specs": {
+      "Channels": "9.4 (11.4 processing)",
+      "Power (rated)": "105 W/ch (8 Ω, 20 Hz–20 kHz, 0.05% THD, 2 ch driven)",
+      "HDMI inputs": "7 in / 3 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Audyssey MultEQ XT32; Dirac Live (paid upgrade)",
+      "Atmos/DTS:X": "Dolby Atmos, DTS:X, Auro-3D, IMAX Enhanced; up to 7.1.4 with external amp",
+      "Streaming": "HEOS, AirPlay 2, Bluetooth",
+      "Pre-outs": "11.4-channel (4 independent subwoofer)"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "Pre-outs"],
+    "faqs": [
+      {"q": "Can the Denon AVR-X3800H do 7.1.4?", "a": "Yes, with help. It has nine built-in amplifiers and 11-channel processing. Power 5.1.4 or 7.1.2 internally, then add a two-channel power amp on the pre-outs to reach 7.1.4."},
+      {"q": "Does the AVR-X3800H support Dirac Live?", "a": "Yes, as a paid upgrade. It ships with Audyssey MultEQ XT32, and Dirac Live room correction can be added later through a license."},
+      {"q": "Why does the X3800H have four subwoofer outputs?", "a": "Multiple subwoofers placed around the room cancel some room modes, so the bass is more even from seat to seat. Four independent outputs let you set level, distance and EQ for each sub separately."}
+    ]
+  },
+  {
+    "slug": "denon-avr-x4800h",
+    "name": "Denon AVR-X4800H",
+    "brand": "Denon",
+    "category": "receiver",
+    "amazonQuery": "Denon AVR-X4800H 9.4 receiver",
+    "priceBand": "$2,200–$2,600",
+    "priceTier": 4,
+    "score": 88,
+    "scores": [
+      {"label": "Power & channels", "value": 92},
+      {"label": "Room correction", "value": 92},
+      {"label": "Video & HDMI", "value": 90},
+      {"label": "Streaming & ease of use", "value": 82}
+    ],
+    "summary": "The X3800H's 9.4-channel, 11.4-processing platform with 125 W/ch and more HDMI inputs, for larger rooms or less sensitive speakers.",
+    "verdict": "The AVR-X4800H shares the key layout of the [AVR-X3800H](/gear/denon-avr-x3800h/): **nine amplified channels**, **11.4-channel processing**, and four independent subwoofer outputs. Nine amps give you 5.1.4 or 7.1.2, and adding a two-channel amp takes you to 7.1.4.\n\nThe headline difference is power: **125 W/ch (8 Ω, 20 Hz–20 kHz, 0.05% THD, 2 ch driven)** against 105 W. Run the numbers: 10 × log10(125 ÷ 105) = **0.76 dB**. On paper, that is a modest gain. The bigger benefit is a stronger amp section and power supply, which helps when you push nine channels hard in a large room.\n\nHere is a room check. With 86 dB speakers and a 4 m seat (about 12 dB of distance loss from 1 m), 125 W gives roughly 86 + 21 = 107 dB at 1 m and about 95 dB at the seat. That is fine for most viewers, but if you aim for reference peaks with low-sensitivity [speakers](/glossary/speaker-sensitivity/), an external amp for the fronts is still the smarter upgrade.\n\nYou also get Audyssey MultEQ XT32, a paid Dirac Live upgrade, and 8 HDMI inputs. If your room and speakers are average, the X3800H delivers nearly the same result for less. Compare both in our [best home theater receiver](/best-home-theater-receiver/) guide.",
+    "bestFor": "Large rooms and lower-sensitivity speakers in a 5.1.4 or 7.1.4 build",
+    "skipIf": "The X3800H already covers your room; the extra power is under 1 dB",
+    "pros": [
+      "125 W/ch rating is the highest of Denon's 9-channel AVRs here",
+      "Nine amps plus 11.4 processing for 7.1.4 with an external amp",
+      "Four independent subwoofer outputs",
+      "Audyssey MultEQ XT32 with optional Dirac Live",
+      "Eight HDMI inputs and three outputs"
+    ],
+    "cons": [
+      "Under 1 dB more headroom than the cheaper X3800H",
+      "Dirac Live costs extra",
+      "Large and heavy"
+    ],
+    "specs": {
+      "Channels": "9.4 (11.4 processing)",
+      "Power (rated)": "125 W/ch (8 Ω, 20 Hz–20 kHz, 0.05% THD, 2 ch driven)",
+      "HDMI inputs": "8 in / 3 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Audyssey MultEQ XT32; Dirac Live (paid upgrade)",
+      "Atmos/DTS:X": "Dolby Atmos, DTS:X, Auro-3D, IMAX Enhanced; up to 7.1.4 with external amp",
+      "Streaming": "HEOS, AirPlay 2, Bluetooth",
+      "Pre-outs": "11.4-channel (4 independent subwoofer)"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "Pre-outs"],
+    "faqs": [
+      {"q": "AVR-X4800H vs AVR-X3800H: which should I buy?", "a": "For most rooms, the X3800H. Both have nine amplified channels, 11.4 processing and four sub outputs. The X4800H's 125 W rating adds about 0.76 dB over 105 W, plus more HDMI inputs. Pick it for large rooms or less sensitive speakers."},
+      {"q": "How many speakers can the AVR-X4800H power?", "a": "Nine directly, for a 5.1.4 or 7.1.2 layout, plus up to four subwoofers. With a two-channel power amplifier on its pre-outs, it can run a full 7.1.4 system."}
+    ]
+  },
+  {
+    "slug": "marantz-cinema-70s",
+    "name": "Marantz Cinema 70s",
+    "brand": "Marantz",
+    "category": "receiver",
+    "amazonQuery": "Marantz Cinema 70s slim AV receiver",
+    "released": "2022",
+    "priceBand": "$800–$1,000",
+    "priceTier": 2,
+    "score": 78,
+    "scores": [
+      {"label": "Power & channels", "value": 66},
+      {"label": "Room correction", "value": 82},
+      {"label": "Video & HDMI", "value": 84},
+      {"label": "Streaming & ease of use", "value": 88}
+    ],
+    "summary": "A slim 7.2-channel Marantz that fits shelves a full-size AVR will not, with Audyssey MultEQ XT and HEOS, but a 50 W/ch rating that limits it to small rooms and efficient speakers.",
+    "verdict": "The Cinema 70s is built around its height: a slim chassis that fits low TV stands and cabinets. It still has **seven amplified channels**, so it runs **5.1.2 Dolby Atmos** or 7.1, the same layout as a full-size 7.2 receiver.\n\nThe trade-off is power. Marantz rates it at **50 W/ch (8 Ω, 20 Hz–20 kHz, 2 ch driven)**. Here is what that means in a real room. Loudness at 1 m = sensitivity + 10 × log10(watts), and 10 × log10(50) is 17 dB. With 87 dB speakers, that is about 104 dB at 1 m, or roughly 94.5 dB at a 3 m seat. With efficient 91 dB speakers, you get closer to 98.5 dB at the seat. And because the rating is two channels driven, a loud seven-channel scene leaves less per channel.\n\nSo do the maths before you buy: check your speakers' [sensitivity](/glossary/speaker-sensitivity/), keep the seat within about 3 m, and let a powered subwoofer handle everything below the [crossover](/glossary/crossover/). That takes the hardest work off the internal amps.\n\nOn the plus side, you get Audyssey MultEQ XT, HEOS and 8K-ready HDMI. If you have the shelf space, the [Marantz Cinema 60](/gear/marantz-cinema-60/) doubles the rated power for a full-size chassis.",
+    "bestFor": "Small living rooms with low cabinets and efficient speakers",
+    "skipIf": "Your speakers are rated below 87 dB or your seat is more than 3–4 m away",
+    "pros": [
+      "Slim chassis fits where full-size receivers will not",
+      "Seven channels for 5.1.2 Atmos",
+      "Audyssey MultEQ XT room correction",
+      "HEOS streaming and 8K-ready HDMI"
+    ],
+    "cons": [
+      "50 W/ch rating is the lowest of the 7.2 receivers here",
+      "Costs more than full-size rivals with more power",
+      "No path beyond 5.1.2"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "50 W/ch (8 Ω, 20 Hz–20 kHz, 2 ch driven)",
+      "HDMI inputs": "6 in / 1 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Audyssey MultEQ XT",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "HEOS, AirPlay 2, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "HDMI inputs"],
+    "faqs": [
+      {"q": "Is 50 watts per channel enough for home theater?", "a": "In a small room with efficient speakers, yes. With 87 dB speakers, 50 W gives about 104 dB at 1 m and roughly 94.5 dB at a 3 m seat. In larger rooms or with less sensitive speakers, a full-size receiver with more power is a safer choice."},
+      {"q": "Can the Marantz Cinema 70s do Dolby Atmos?", "a": "Yes. It has seven amplified channels and decodes Dolby Atmos and DTS:X, so it supports a 5.1.2 layout with two height or upfiring speakers."}
+    ]
+  },
+  {
+    "slug": "marantz-cinema-60",
+    "name": "Marantz Cinema 60",
+    "brand": "Marantz",
+    "category": "receiver",
+    "amazonQuery": "Marantz Cinema 60 7.2 receiver",
+    "released": "2022",
+    "priceBand": "$1,200–$1,500",
+    "priceTier": 3,
+    "score": 82,
+    "scores": [
+      {"label": "Power & channels", "value": 80},
+      {"label": "Room correction", "value": 82},
+      {"label": "Video & HDMI", "value": 84},
+      {"label": "Streaming & ease of use", "value": 86}
+    ],
+    "summary": "A full-size 7.2-channel Marantz rated at 100 W/ch with Audyssey MultEQ XT and HEOS, a good fit for a 5.1.2 system with mid-sensitivity speakers.",
+    "verdict": "The Cinema 60 is a **seven-channel** receiver, so the layout options are 5.1.2 Dolby Atmos or 7.1. What it adds over the slim [Cinema 70s](/gear/marantz-cinema-70s/) is power.\n\nMarantz rates it at **100 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)**, double the Cinema 70s rating. Doubling power buys **3 dB** of headroom. In a room with 87 dB speakers and a 3 m seat, that moves peak level from about 94.5 dB to about 97.5 dB. Worth having, but remember the test is two channels driven: with seven speakers working at once, the shared supply gives each one less than the label suggests.\n\nAgainst the [Denon AVR-X2800H](/gear/denon-avr-x2800h/), the maths is close: 100 W vs 95 W is about 0.2 dB, and both use Audyssey MultEQ XT [room correction](/glossary/room-correction/). The choice comes down to Marantz's styling and voicing versus the Denon's lower price and dual HDMI outputs.\n\nYou get HEOS, AirPlay 2 and 8K-ready HDMI. What you do not get is a ninth channel: if you want 5.1.4, step up to the [Marantz Cinema 50](/gear/marantz-cinema-50/). For more options, see the [best home theater receiver](/best-home-theater-receiver/) roundup.",
+    "bestFor": "5.1.2 systems where you want Marantz styling with full-size power",
+    "skipIf": "You want four height channels or the lowest price for the specs",
+    "pros": [
+      "100 W/ch rating, double the slim Cinema 70s",
+      "Audyssey MultEQ XT room correction",
+      "HEOS, AirPlay 2 and Bluetooth",
+      "8K/60 and 4K/120 pass-through"
+    ],
+    "cons": [
+      "Seven channels only: no 5.1.4",
+      "Costs more than the similar Denon AVR-X2800H",
+      "Basic sub outputs compared with the Cinema 50"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "100 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Audyssey MultEQ XT",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "HEOS, AirPlay 2, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "8K/4K120 HDMI"],
+    "faqs": [
+      {"q": "Marantz Cinema 60 vs Cinema 70s: what is the difference?", "a": "Both are 7.2-channel receivers with Audyssey MultEQ XT. The Cinema 60 is full-size and rated at 100 W/ch versus 50 W/ch for the slim Cinema 70s. That is 3 dB more headroom, which matters with less sensitive speakers or larger rooms."},
+      {"q": "Can the Marantz Cinema 60 run 5.1.4?", "a": "No. It has seven amplified channels, which covers 5.1.2 or 7.1. For four height speakers, look at a nine-channel model like the Marantz Cinema 50."}
+    ]
+  },
+  {
+    "slug": "marantz-cinema-50",
+    "name": "Marantz Cinema 50",
+    "brand": "Marantz",
+    "category": "receiver",
+    "amazonQuery": "Marantz Cinema 50 9.4 receiver",
+    "released": "2022",
+    "priceBand": "$2,200–$2,600",
+    "priceTier": 4,
+    "score": 87,
+    "scores": [
+      {"label": "Power & channels", "value": 90},
+      {"label": "Room correction", "value": 92},
+      {"label": "Video & HDMI", "value": 88},
+      {"label": "Streaming & ease of use", "value": 80}
+    ],
+    "summary": "Marantz's 9.4-channel receiver with 11.4 processing, four independent sub outputs, Audyssey XT32 and a Dirac Live upgrade, for a 5.1.4 room with a path to 7.1.4.",
+    "verdict": "The Cinema 50 has **nine amplified channels** and **11.4-channel processing**. That means 5.1.4 or 7.1.2 straight out of the box, and 7.1.4 once you add a two-channel power amp on the pre-outs. Seven ear-level plus four height is eleven speakers; the receiver powers nine and the external amp handles two.\n\nMarantz rates it at **110 W/ch (8 Ω, 20 Hz–20 kHz, 0.05% THD, 2 ch driven)**. Against the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) at 105 W, the difference is 10 × log10(110 ÷ 105) = **0.2 dB**. On paper these two share the same core feature set: 11.4 processing, four independent subwoofer outputs, Audyssey MultEQ XT32 and an optional **Dirac Live** license. The Marantz costs more for its styling, front-panel design and house voicing.\n\nThe bass management is the hidden strength. Four independent sub outputs let you run two to four [subwoofers](/best-subwoofer-for-home-theater/) and set each one's distance and level, which evens out the room modes that make bass boom at one seat and vanish at the next.\n\nAs always, the two-channel rating is the best case. For loud 7.1.4 playback, moving the front pair to an external amp frees the internal supply for the rest. Compare it with the Denon in our [best home theater receiver](/best-home-theater-receiver/) guide.",
+    "bestFor": "Design-conscious buyers building a 5.1.4 or 7.1.4 room",
+    "skipIf": "You would rather save money with the near-identical Denon AVR-X3800H",
+    "pros": [
+      "Nine amplified channels and 11.4 processing",
+      "Four independent subwoofer outputs",
+      "Audyssey MultEQ XT32 plus optional Dirac Live",
+      "Decodes Atmos, DTS:X, Auro-3D and IMAX Enhanced"
+    ],
+    "cons": [
+      "Costs much more than the similar Denon AVR-X3800H",
+      "7.1.4 needs an external two-channel amp",
+      "Dirac Live is a paid extra"
+    ],
+    "specs": {
+      "Channels": "9.4 (11.4 processing)",
+      "Power (rated)": "110 W/ch (8 Ω, 20 Hz–20 kHz, 0.05% THD, 2 ch driven)",
+      "HDMI inputs": "7 in / 3 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Audyssey MultEQ XT32; Dirac Live (paid upgrade)",
+      "Atmos/DTS:X": "Dolby Atmos, DTS:X, Auro-3D, IMAX Enhanced; up to 7.1.4 with external amp",
+      "Streaming": "HEOS, AirPlay 2, Bluetooth",
+      "Pre-outs": "11.4-channel (4 independent subwoofer)"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "Pre-outs"],
+    "faqs": [
+      {"q": "Is the Marantz Cinema 50 the same as the Denon AVR-X3800H?", "a": "They share a similar platform: nine amplified channels, 11.4 processing, four sub outputs and Audyssey XT32 with a Dirac Live option. The Marantz is rated at 110 W/ch versus 105 W/ch, about 0.2 dB more, and has different styling and voicing."},
+      {"q": "How do I get 7.1.4 from the Marantz Cinema 50?", "a": "Use its nine amps for seven ear-level and two height speakers, or five ear-level and four heights, then connect a two-channel power amp to the pre-outs for the remaining pair. The receiver processes up to 11 channels."}
+    ]
+  },
+  {
+    "slug": "yamaha-rx-v4a",
+    "name": "Yamaha RX-V4A",
+    "brand": "Yamaha",
+    "category": "receiver",
+    "amazonQuery": "Yamaha RX-V4A 5.2 receiver",
+    "released": "2020",
+    "priceBand": "$450–$600",
+    "priceTier": 1,
+    "score": 73,
+    "scores": [
+      {"label": "Power & channels", "value": 62},
+      {"label": "Room correction", "value": 70},
+      {"label": "Video & HDMI", "value": 76},
+      {"label": "Streaming & ease of use", "value": 86}
+    ],
+    "summary": "A 5.2-channel Yamaha with MusicCast streaming and YPAO calibration that decodes Atmos but has no channels for real height speakers.",
+    "verdict": "Count the amps first: the RX-V4A has **five amplified channels**. That is a 5.1 system: left, center, right and two surrounds, plus a subwoofer. There are no spare channels for height speakers, so while it decodes [Dolby Atmos](/glossary/dolby-atmos/) and DTS:X, it can only render them virtually through Dolby Atmos Height Virtualization. If you want physical 5.1.2, you need seven channels, which means the [Yamaha RX-V6A](/gear/yamaha-rx-v6a/) or a Denon 7.2 model.\n\nYamaha rates it at **80 W/ch (8 Ω, 20 Hz–20 kHz, 0.06% THD, 2 ch driven)**. In a 5.1 system that is a reasonable match for bookshelf speakers. With 87 dB speakers, 80 W gives about 87 + 19 = 106 dB at 1 m, or roughly 96.5 dB at a 3 m seat. Remember the two-channel test: with five speakers playing at once, each gets less, so lean on a powered sub with an 80 Hz [crossover](/glossary/crossover/) to unload the amps.\n\nYou get YPAO [room correction](/glossary/room-correction/), MusicCast multiroom, AirPlay 2 and 8K-ready HDMI on four inputs. It suits a small living room that will stay 5.1. For more options at this price, see our [best budget home theater receiver](/best-budget-home-theater-receiver/) guide.",
+    "bestFor": "Small living rooms that will stay 5.1",
+    "skipIf": "You want real Dolby Atmos height speakers",
+    "pros": [
+      "MusicCast, AirPlay 2 and Spotify Connect built in",
+      "YPAO auto calibration",
+      "8K/60 and 4K/120 HDMI pass-through",
+      "Simple setup for first-time buyers"
+    ],
+    "cons": [
+      "Only five channels: no physical height speakers",
+      "Only four HDMI inputs",
+      "Early 2020 units had a 4K/120 HDMI chipset issue that Yamaha addressed with a free upgrade"
+    ],
+    "specs": {
+      "Channels": "5.2",
+      "Power (rated)": "80 W/ch (8 Ω, 20 Hz–20 kHz, 0.06% THD, 2 ch driven)",
+      "HDMI inputs": "4 in / 1 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "YPAO",
+      "Atmos/DTS:X": "Decodes Dolby Atmos and DTS:X; virtual height only",
+      "Streaming": "MusicCast, AirPlay 2, Spotify Connect, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "Atmos/DTS:X"],
+    "faqs": [
+      {"q": "Does the Yamaha RX-V4A support Dolby Atmos?", "a": "It decodes Dolby Atmos and DTS:X, but with only five amplified channels it cannot power height speakers. It uses Dolby Atmos Height Virtualization to simulate overhead effects from the ear-level speakers."},
+      {"q": "RX-V4A vs RX-V6A: which should I get?", "a": "If you might ever add height speakers, the RX-V6A. It has seven channels for 5.1.2, more HDMI inputs and a higher power rating. The RX-V4A only makes sense if you know you will stay with 5.1."}
+    ]
+  },
+  {
+    "slug": "yamaha-rx-v6a",
+    "name": "Yamaha RX-V6A",
+    "brand": "Yamaha",
+    "category": "receiver",
+    "amazonQuery": "Yamaha RX-V6A 7.2 receiver",
+    "released": "2020",
+    "priceBand": "$600–$800",
+    "priceTier": 2,
+    "score": 80,
+    "scores": [
+      {"label": "Power & channels", "value": 80},
+      {"label": "Room correction", "value": 72},
+      {"label": "Video & HDMI", "value": 82},
+      {"label": "Streaming & ease of use", "value": 86}
+    ],
+    "summary": "A 7.2-channel Yamaha rated at 100 W/ch with seven HDMI inputs, YPAO and MusicCast, a solid 5.1.2 Atmos receiver with a generous power rating for the money.",
+    "verdict": "The RX-V6A has **seven amplified channels**, so it runs a real **5.1.2 Dolby Atmos** system: five ear-level speakers, two height speakers and a subwoofer. That is the key upgrade over the five-channel [RX-V4A](/gear/yamaha-rx-v4a/).\n\nYamaha rates it at **100 W/ch (8 Ω, 20 Hz–20 kHz, 0.06% THD, 2 ch driven)**. Against Denon's 80 W [AVR-X1800H](/gear/denon-avr-x1800h/), that is 10 × log10(100 ÷ 80) = **about 1 dB** more headroom on paper. In a room with 87 dB speakers and a 3 m seat, 100 W gives roughly 107 dB at 1 m and about 97.5 dB at the seat. The usual caveat applies: the test drives two channels, and seven channels playing a loud scene share the same supply.\n\nWhere the Denon pulls ahead is [room correction](/glossary/room-correction/). Yamaha's YPAO is simpler than Audyssey MultEQ XT, so bass control in an awkward room is weaker. On the other hand, seven HDMI inputs is generous at this price, and MusicCast, AirPlay 2 and Spotify Connect cover streaming.\n\nOne note: owners report that early units had a 4K/120 HDMI chipset problem with some consoles, which Yamaha addressed with a free upgrade. See where it lands in the [best budget home theater receiver](/best-budget-home-theater-receiver/) list.",
+    "bestFor": "5.1.2 Atmos systems with lots of HDMI sources",
+    "skipIf": "Your room has bass problems that need stronger room correction",
+    "pros": [
+      "Seven channels for real 5.1.2 Atmos",
+      "100 W/ch rating is strong for the price",
+      "Seven HDMI inputs",
+      "MusicCast, AirPlay 2 and Spotify Connect"
+    ],
+    "cons": [
+      "YPAO is less capable than Audyssey MultEQ XT",
+      "Early units needed an HDMI fix for 4K/120 with some consoles",
+      "No path beyond 5.1.2"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "100 W/ch (8 Ω, 20 Hz–20 kHz, 0.06% THD, 2 ch driven)",
+      "HDMI inputs": "7 in / 1 out",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "YPAO",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "MusicCast, AirPlay 2, Spotify Connect, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "HDMI inputs", "Room correction"],
+    "faqs": [
+      {"q": "Is the Yamaha RX-V6A good for Dolby Atmos?", "a": "Yes, for a 5.1.2 layout. It has seven amplified channels and decodes Dolby Atmos and DTS:X, so you can run two height or upfiring speakers alongside a 5.1 base."},
+      {"q": "Did the RX-V6A have an HDMI problem?", "a": "Some early units had a 4K/120 compatibility issue with certain consoles due to an HDMI chipset. Yamaha offered a free fix for affected units. If you buy used, check with Yamaha whether the unit has been updated."}
+    ]
+  },
+  {
+    "slug": "yamaha-rx-a4a",
+    "name": "Yamaha AVENTAGE RX-A4A",
+    "brand": "Yamaha",
+    "category": "receiver",
+    "amazonQuery": "Yamaha AVENTAGE RX-A4A receiver",
+    "released": "2020",
+    "priceBand": "$1,000–$1,400",
+    "priceTier": 3,
+    "score": 81,
+    "scores": [
+      {"label": "Power & channels", "value": 82},
+      {"label": "Room correction", "value": 74},
+      {"label": "Video & HDMI", "value": 82},
+      {"label": "Streaming & ease of use", "value": 86}
+    ],
+    "summary": "Yamaha's 7.2-channel AVENTAGE model with 110 W/ch, Surround:AI and MusicCast, built for 5.1.2 Atmos in a sturdier chassis than the RX-V line.",
+    "verdict": "The RX-A4A is a **seven-channel** receiver, so it powers 5.1.2 Dolby Atmos or 7.1, the same layout as the cheaper [RX-V6A](/gear/yamaha-rx-v6a/). The AVENTAGE badge buys a more rigid chassis, extra features like Surround:AI, and a bit more rated power.\n\nYamaha rates it at **110 W/ch (8 Ω, 20 Hz–20 kHz, 0.06% THD, 2 ch driven)**. Against the RX-V6A's 100 W, that is 10 × log10(110 ÷ 100) = **0.4 dB**. Against Denon's 95 W [AVR-X2800H](/gear/denon-avr-x2800h/), it is about 0.6 dB. So on paper, you are not buying loudness. With 87 dB speakers and a 3 m seat, all three land within about 1 dB of 97.5 dB peak. And with seven channels working together, the two-channel rating overstates what each speaker gets.\n\nSurround:AI is the feature owners talk about: it analyzes scenes and adjusts the sound field automatically. Room correction is YPAO, which is simpler than Audyssey MultEQ XT or Dirac. If your room has strong bass modes, better [room correction](/glossary/room-correction/) will matter more than the extra watts.\n\nThe RX-A4A makes sense if you like Yamaha's sound and want the sturdier AVENTAGE build. If you want nine channels at a similar price, look at the [Onkyo TX-RZ50](/gear/onkyo-tx-rz50/).",
+    "bestFor": "Yamaha fans who want a sturdier 5.1.2 receiver with Surround:AI",
+    "skipIf": "You want nine channels or stronger room correction for the money",
+    "pros": [
+      "110 W/ch rating, the highest of the Yamaha models here",
+      "Surround:AI automatic sound-field processing",
+      "MusicCast, AirPlay 2 and Spotify Connect",
+      "Rigid AVENTAGE chassis"
+    ],
+    "cons": [
+      "Still seven channels: no 5.1.4",
+      "YPAO is weaker than Audyssey XT32 or Dirac Live",
+      "Only 0.4 dB more headroom than the RX-V6A"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "110 W/ch (8 Ω, 20 Hz–20 kHz, 0.06% THD, 2 ch driven)",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "YPAO",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "MusicCast, AirPlay 2, Spotify Connect, Bluetooth"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "8K/4K120 HDMI"],
+    "faqs": [
+      {"q": "What is Yamaha Surround:AI?", "a": "Surround:AI analyzes what is playing, such as dialogue, music or effects, and adjusts Yamaha's sound field processing in real time. It is a feature of AVENTAGE receivers like the RX-A4A."},
+      {"q": "Is the RX-A4A worth it over the RX-V6A?", "a": "Only if you value the AVENTAGE build and Surround:AI. Both are seven-channel receivers with YPAO. The RX-A4A's 110 W rating adds about 0.4 dB over the RX-V6A's 100 W."}
+    ]
+  },
+  {
+    "slug": "sony-str-an1000",
+    "name": "Sony STR-AN1000",
+    "brand": "Sony",
+    "category": "receiver",
+    "amazonQuery": "Sony STR-AN1000 7.2 receiver",
+    "released": "2022",
+    "priceBand": "$800–$1,000",
+    "priceTier": 2,
+    "score": 80,
+    "scores": [
+      {"label": "Power & channels", "value": 74},
+      {"label": "Room correction", "value": 80},
+      {"label": "Video & HDMI", "value": 84},
+      {"label": "Streaming & ease of use", "value": 88}
+    ],
+    "summary": "A 7.2-channel Sony with 360 Spatial Sound Mapping, Chromecast and AirPlay 2, whose headline power figure uses generous test conditions you need to read carefully.",
+    "verdict": "The STR-AN1000 has **seven amplified channels**, so it runs 5.1.2 Dolby Atmos or 7.1. Sony adds **360 Spatial Sound Mapping**, which uses the speakers you have to create phantom speakers and widen the sound field.\n\nNow the power maths. Sony's headline is **165 W/ch (6 Ω, 1 kHz, 10% THD, 1 ch driven)**. Each of those conditions makes the number bigger than you would see in real use:\n\n- **6 Ω instead of 8 Ω** draws more current, so more watts on paper.\n- **1 kHz only**, not the full 20 Hz–20 kHz band where bass demands the most power.\n- **10% THD** is well into audible clipping. Most receivers here are rated at 0.05–0.08%.\n- **One channel driven**, so the power supply feeds a single amp, not seven.\n\nThe result is that 165 W cannot be compared with Denon's or Yamaha's figures. Treat the AN1000 as a normal 7.2 receiver and do the room maths with efficient speakers: [sensitivity](/glossary/speaker-sensitivity/) of 88 dB or more and a seat within about 3.5 m.\n\nThe strengths are elsewhere: D.C.A.C. IX auto calibration, Chromecast built-in, AirPlay 2 and 8K-ready HDMI. It is a strong choice for Sony TV owners. Compare it with the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) in our [best home theater receiver](/best-home-theater-receiver/) guide.",
+    "bestFor": "Sony TV owners who want Chromecast and spatial processing in a 5.1.2 system",
+    "skipIf": "You want a power rating you can compare directly with rivals",
+    "pros": [
+      "360 Spatial Sound Mapping widens a 5.1.2 layout",
+      "Chromecast built-in, AirPlay 2 and Spotify Connect",
+      "D.C.A.C. IX auto calibration",
+      "8K/60 and 4K/120 HDMI pass-through"
+    ],
+    "cons": [
+      "Headline power is rated at 1 kHz, 10% THD, one channel driven",
+      "Seven channels only: no 5.1.4",
+      "Fewer setup controls than Denon's Audyssey app"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "165 W/ch (6 Ω, 1 kHz, 10% THD, 1 ch driven)",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "D.C.A.C. IX with 360 Spatial Sound Mapping",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "Chromecast built-in, AirPlay 2, Spotify Connect, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "Streaming"],
+    "faqs": [
+      {"q": "Is the Sony STR-AN1000 really 165 watts per channel?", "a": "Only under Sony's test conditions: 6 ohms, 1 kHz, 10% distortion and one channel driven. That figure is not comparable with ratings measured at 8 ohms across 20 Hz–20 kHz with two channels driven, so expect real multichannel output to be much lower."},
+      {"q": "What is 360 Spatial Sound Mapping?", "a": "It is Sony processing that uses your actual speakers and calibration data to create phantom speakers around the room, aiming for a wider, more even surround field than the physical layout alone."}
+    ]
+  },
+  {
+    "slug": "sony-str-dh590",
+    "name": "Sony STR-DH590",
+    "brand": "Sony",
+    "category": "receiver",
+    "amazonQuery": "Sony STR-DH590 5.2 receiver",
+    "released": "2019",
+    "priceBand": "$250–$350",
+    "priceTier": 1,
+    "score": 66,
+    "scores": [
+      {"label": "Power & channels", "value": 58},
+      {"label": "Room correction", "value": 64},
+      {"label": "Video & HDMI", "value": 66},
+      {"label": "Streaming & ease of use", "value": 74}
+    ],
+    "summary": "A low-cost 5.2-channel receiver with 4K HDR pass-through and Bluetooth for a basic 5.1 system, without Dolby Atmos, Wi-Fi or 4K/120.",
+    "verdict": "The STR-DH590 is about the cheapest way into a real **5.1** speaker system. It has **five amplified channels** and two subwoofer outputs, which covers left, center, right and two surrounds. It does not decode Dolby Atmos or DTS:X, so there is no height option at all.\n\nSony rates it at **145 W/ch (6 Ω, 1 kHz, 10% THD, 1 ch driven)**. Read those conditions closely. A 6 Ω load draws more current than 8 Ω, a 1 kHz tone skips the bass that eats amp power, 10% THD is audible clipping, and one channel driven means the power supply is not shared. Those numbers are not comparable with the 8 Ω, 20 Hz–20 kHz, two-channel ratings Denon and Yamaha use.\n\nSo plan the system around efficient speakers. With 88 dB [sensitivity](/glossary/speaker-sensitivity/) bookshelf speakers in a small room, a modest amp still reaches comfortable movie levels, especially if a powered sub takes everything below an 80 Hz [crossover](/glossary/crossover/).\n\nThe HDMI side is basic: **4 inputs, 1 output**, 4K HDR pass-through but no 8K or 4K/120, so a PS5 or Xbox Series X should connect to the TV instead. Bluetooth is built in; Wi-Fi is not. If you can stretch, the [Denon AVR-S770H](/gear/denon-avr-s770h/) adds Atmos and modern HDMI. More options are in our [best budget home theater receiver](/best-budget-home-theater-receiver/) guide.",
+    "bestFor": "Tight budgets building a first 5.1 system",
+    "skipIf": "You want Dolby Atmos, 4K/120 gaming passthrough or Wi-Fi streaming",
+    "pros": [
+      "Very low cost for a real 5.1 receiver",
+      "Two subwoofer outputs",
+      "4K HDR pass-through and Bluetooth",
+      "D.C.A.C. auto calibration"
+    ],
+    "cons": [
+      "No Dolby Atmos or DTS:X",
+      "No 4K/120 or 8K pass-through",
+      "Power rated at 6 Ω, 1 kHz, 10% THD, one channel driven",
+      "No Wi-Fi streaming"
+    ],
+    "specs": {
+      "Channels": "5.2",
+      "Power (rated)": "145 W/ch (6 Ω, 1 kHz, 10% THD, 1 ch driven)",
+      "HDMI inputs": "4 in / 1 out",
+      "8K/4K120 HDMI": "No (4K HDR pass-through)",
+      "Room correction": "D.C.A.C. auto calibration",
+      "Atmos/DTS:X": "No",
+      "Streaming": "Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "8K/4K120 HDMI", "Atmos/DTS:X"],
+    "faqs": [
+      {"q": "Does the Sony STR-DH590 support Dolby Atmos?", "a": "No. It is a 5.2-channel receiver without Dolby Atmos or DTS:X decoding, so it plays surround soundtracks in standard 5.1 and has no height channels."},
+      {"q": "Can I connect a PS5 to the Sony STR-DH590?", "a": "Yes, but at up to 4K/60. It does not pass 4K/120, so for high-frame-rate gaming connect the console directly to the TV and send audio back to the receiver over ARC or optical."}
+    ]
+  },
+  {
+    "slug": "onkyo-tx-nr6100",
+    "name": "Onkyo TX-NR6100",
+    "brand": "Onkyo",
+    "category": "receiver",
+    "amazonQuery": "Onkyo TX-NR6100 7.2 receiver",
+    "priceBand": "$700–$900",
+    "priceTier": 2,
+    "score": 81,
+    "scores": [
+      {"label": "Power & channels", "value": 82},
+      {"label": "Room correction", "value": 72},
+      {"label": "Video & HDMI", "value": 84},
+      {"label": "Streaming & ease of use", "value": 84}
+    ],
+    "summary": "A THX Certified Select 7.2-channel receiver rated at 100 W/ch with Chromecast and AirPlay 2, sized for 5.1.2 rooms around 2,000 cubic feet.",
+    "verdict": "The TX-NR6100 has **seven amplified channels**, so it runs 5.1.2 Dolby Atmos or 7.1. Onkyo rates it at **100 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)**, a little more than Denon's 80 W [AVR-X1800H](/gear/denon-avr-x1800h/): 10 × log10(100 ÷ 80) is about **1 dB** of extra headroom on paper.\n\nThe more useful number is the **THX Certified Select** badge. THX Select is aimed at rooms of about **2,000 cubic feet** with a seat around 10–12 ft from the screen. Do the room maths: 15 × 17 ft with an 8 ft ceiling is 2,040 cu ft, a typical large living room or modest dedicated room. If your space is close to that, the certification says the receiver can reach THX's target levels there with suitable speakers.\n\nAs always, the power rating is two channels driven. Seven speakers sharing the supply in a loud scene get less each, so a powered sub crossed at 80 Hz (see [crossover](/glossary/crossover/)) is important.\n\nRoom correction is Onkyo's AccuEQ with AccuReflex, which is simpler than Audyssey MultEQ XT. You do get Chromecast built-in, AirPlay 2 and 8K-ready HDMI. For a nine-channel Onkyo with Dirac Live, step up to the [TX-RZ50](/gear/onkyo-tx-rz50/). See the [best home theater receiver](/best-home-theater-receiver/) guide for more.",
+    "bestFor": "5.1.2 rooms around 2,000 cubic feet",
+    "skipIf": "You need strong room correction for a difficult room",
+    "pros": [
+      "THX Certified Select for rooms around 2,000 cu ft",
+      "100 W/ch rating",
+      "Chromecast built-in and AirPlay 2",
+      "8K/60 and 4K/120 HDMI pass-through"
+    ],
+    "cons": [
+      "AccuEQ is basic next to Audyssey XT or Dirac Live",
+      "Seven channels only: no 5.1.4",
+      "Onkyo's app and setup are less polished than Denon's"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "100 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "AccuEQ with AccuReflex",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "Chromecast built-in, AirPlay 2, Bluetooth"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "8K/4K120 HDMI"],
+    "faqs": [
+      {"q": "What does THX Certified Select mean on the TX-NR6100?", "a": "THX Select certification targets rooms of roughly 2,000 cubic feet with seating about 10 to 12 feet from the screen. It means the receiver met THX's performance criteria for that room size with suitable speakers."},
+      {"q": "How many speakers can the Onkyo TX-NR6100 power?", "a": "Seven, plus two subwoofers. That covers 5.1.2 Dolby Atmos or 7.1. It cannot power four height speakers."}
+    ]
+  },
+  {
+    "slug": "onkyo-tx-nr5100",
+    "name": "Onkyo TX-NR5100",
+    "brand": "Onkyo",
+    "category": "receiver",
+    "amazonQuery": "Onkyo TX-NR5100 7.2 receiver",
+    "priceBand": "$500–$650",
+    "priceTier": 2,
+    "score": 76,
+    "scores": [
+      {"label": "Power & channels", "value": 76},
+      {"label": "Room correction", "value": 68},
+      {"label": "Video & HDMI", "value": 80},
+      {"label": "Streaming & ease of use", "value": 80}
+    ],
+    "summary": "An affordable 7.2-channel Onkyo with 80 W/ch, Chromecast and AirPlay 2 that covers a basic 5.1.2 Atmos system, with simpler room correction than Denon rivals.",
+    "verdict": "The TX-NR5100 has **seven amplified channels**, enough for **5.1.2 Dolby Atmos** or 7.1. It is Onkyo's answer to the [Denon AVR-S770H](/gear/denon-avr-s770h/).\n\nOnkyo rates it at **80 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)**. Against the Denon's 75 W, that is 10 × log10(80 ÷ 75) = **0.28 dB**, which you will not hear. So compare them on features, not watts. Remember that the rating is for two channels driven: a seven-channel Atmos scene shares one power supply, so real per-channel output is lower.\n\nHere is the room check. With 88 dB speakers, 80 W gives about 88 + 19 = 107 dB at 1 m, or about 97.5 dB at a 3 m seat. That is plenty for a living room if a powered [subwoofer](/best-budget-subwoofer-for-home-theater/) handles the [LFE](/glossary/lfe/) channel and the bass below 80 Hz.\n\nRoom correction is AccuEQ, which handles basic levels and distances but offers less bass control than Audyssey. You do get Chromecast built-in, AirPlay 2 and 8K-ready HDMI. If the price gap is small, the [Onkyo TX-NR6100](/gear/onkyo-tx-nr6100/) adds THX certification and about 1 dB more rated power.",
+    "bestFor": "Budget 5.1.2 systems with Chromecast streaming",
+    "skipIf": "Your room needs strong bass correction",
+    "pros": [
+      "Seven channels for 5.1.2 Atmos at a low price",
+      "Chromecast built-in and AirPlay 2",
+      "8K/60 and 4K/120 HDMI pass-through"
+    ],
+    "cons": [
+      "AccuEQ room correction is basic",
+      "No path beyond 5.1.2",
+      "Only 0.28 dB more rated headroom than the cheaper Denon S770H"
+    ],
+    "specs": {
+      "Channels": "7.2",
+      "Power (rated)": "80 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "AccuEQ",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.2",
+      "Streaming": "Chromecast built-in, AirPlay 2, Bluetooth"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "Streaming"],
+    "faqs": [
+      {"q": "Onkyo TX-NR5100 vs TX-NR6100: what is the difference?", "a": "Both are 7.2-channel receivers with Chromecast and AirPlay 2. The NR6100 is THX Certified Select and rated at 100 W/ch versus 80 W/ch, about 1 dB more headroom."},
+      {"q": "Can the Onkyo TX-NR5100 do Dolby Atmos?", "a": "Yes. With seven amplified channels it can power a 5.1.2 layout, using two ceiling or upfiring height speakers."}
+    ]
+  },
+  {
+    "slug": "onkyo-tx-rz50",
+    "name": "Onkyo TX-RZ50",
+    "brand": "Onkyo",
+    "category": "receiver",
+    "amazonQuery": "Onkyo TX-RZ50 9.2 receiver",
+    "released": "2022",
+    "priceBand": "$1,200–$1,500",
+    "priceTier": 3,
+    "score": 86,
+    "scores": [
+      {"label": "Power & channels", "value": 88},
+      {"label": "Room correction", "value": 92},
+      {"label": "Video & HDMI", "value": 84},
+      {"label": "Streaming & ease of use", "value": 80}
+    ],
+    "summary": "A 9.2-channel THX Certified Select receiver with Dirac Live included, the most affordable way here to get nine amplified channels and top-tier room correction in one box.",
+    "verdict": "The TX-RZ50 has **nine amplified channels**, so it can power **5.1.4** (five ear-level speakers and four heights) or **7.1.2** without an external amp. That is two more channels than any 7.2 receiver, and it is where Atmos starts to sound like sound is moving overhead instead of coming from two points above you.\n\nOnkyo rates it at **120 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)**. Against the 105 W [Denon AVR-X3800H](/gear/denon-avr-x3800h/), that is 10 × log10(120 ÷ 105) = **0.6 dB** on paper. With nine speakers playing at once, every receiver delivers less than its two-channel rating, so the real gap is small either way.\n\nThe big advantage is **Dirac Live** [room correction](/glossary/room-correction/) included in the box. Dirac is widely regarded as one of the most capable correction systems for bass and timing. On the Denon, it costs extra.\n\nWhere the Denon wins: 11.4-channel processing and four independent sub outputs, which matter if you plan 7.1.4 or multiple subwoofers. The RZ50 has **two** sub outputs and processes nine channels. THX Certified Select means it targets rooms around 2,000 cu ft. For a 5.1.4 room that size, compare it with the Denon in our [best home theater receiver](/best-home-theater-receiver/) guide.",
+    "bestFor": "5.1.4 rooms around 2,000 cubic feet that want Dirac Live included",
+    "skipIf": "You plan to expand to 7.1.4 or run three or four subwoofers",
+    "pros": [
+      "Nine amplified channels for 5.1.4 or 7.1.2",
+      "Dirac Live room correction included",
+      "THX Certified Select",
+      "120 W/ch rating",
+      "Chromecast built-in and AirPlay 2"
+    ],
+    "cons": [
+      "Only two subwoofer outputs",
+      "No 11-channel processing for 7.1.4",
+      "Dirac setup takes more effort than one-click calibration"
+    ],
+    "specs": {
+      "Channels": "9.2",
+      "Power (rated)": "120 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Dirac Live (included)",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.4 or 7.1.2",
+      "Streaming": "Chromecast built-in, AirPlay 2, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "Room correction", "Atmos/DTS:X"],
+    "faqs": [
+      {"q": "Does the Onkyo TX-RZ50 come with Dirac Live?", "a": "Yes. Dirac Live room correction is included, so you can run a full Dirac calibration with a measurement mic and the Dirac app without buying a separate license."},
+      {"q": "Can the Onkyo TX-RZ50 do 5.1.4?", "a": "Yes. It has nine amplified channels, enough for five ear-level speakers and four height speakers, plus two subwoofer outputs."}
+    ]
+  },
+  {
+    "slug": "pioneer-vsx-lx305",
+    "name": "Pioneer VSX-LX305",
+    "brand": "Pioneer",
+    "category": "receiver",
+    "amazonQuery": "Pioneer VSX-LX305 9.2 receiver",
+    "priceBand": "$900–$1,200",
+    "priceTier": 3,
+    "score": 82,
+    "scores": [
+      {"label": "Power & channels", "value": 82},
+      {"label": "Room correction", "value": 90},
+      {"label": "Video & HDMI", "value": 80},
+      {"label": "Streaming & ease of use", "value": 78}
+    ],
+    "summary": "A 9.2-channel Pioneer with Dirac Live room correction and Chromecast, one of the cheaper ways to run 5.1.4 Atmos with top-tier room correction.",
+    "verdict": "The VSX-LX305 is a **nine-channel** receiver, so the speaker maths opens up: **5.1.4** (five ear-level plus four height) or **7.1.2**, with two subwoofer outputs. Compared with a 7.2 receiver, that is two more amplified channels, enough to place height speakers both in front of and behind the seats so overhead effects can pan.\n\nIts headline feature is **Dirac Live** [room correction](/glossary/room-correction/). Dirac corrects frequency response and timing, and owners report clear gains in bass evenness compared with simpler auto-EQ systems. On many Denon and Marantz models, Dirac is a paid upgrade.\n\nCheck Pioneer's power rating and its test conditions on the listing before comparing it with rivals. Whatever the number, the usual rule applies: ratings are measured with one or two channels driven, and nine channels share one supply in a busy Atmos scene. In practice, plan the system around efficient [speakers](/glossary/speaker-sensitivity/) (88 dB or more) and a powered subwoofer crossed at 80 Hz to take bass load off the amp.\n\nThe LX305 also supports Chromecast built-in, AirPlay 2 and 8K-ready HDMI. If THX certification matters, its Onkyo cousin the [TX-RZ50](/gear/onkyo-tx-rz50/) is worth comparing. More picks are in our [best home theater receiver](/best-home-theater-receiver/) guide.",
+    "bestFor": "5.1.4 Atmos on a mid-range budget with Dirac Live",
+    "skipIf": "You want 7.1.4 processing or four subwoofer outputs",
+    "pros": [
+      "Nine amplified channels for 5.1.4 or 7.1.2",
+      "Dirac Live room correction",
+      "Chromecast built-in and AirPlay 2",
+      "8K/60 and 4K/120 HDMI pass-through"
+    ],
+    "cons": [
+      "Only two subwoofer outputs",
+      "No 11-channel processing for 7.1.4",
+      "Dirac setup takes more time than one-click calibration"
+    ],
+    "specs": {
+      "Channels": "9.2",
+      "8K/4K120 HDMI": "Yes (8K/60, 4K/120 pass-through)",
+      "Room correction": "Dirac Live",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X, up to 5.1.4 or 7.1.2",
+      "Streaming": "Chromecast built-in, AirPlay 2, Bluetooth",
+      "Pre-outs": "2 subwoofer"
+    },
+    "keySpecs": ["Channels", "Room correction", "Atmos/DTS:X", "8K/4K120 HDMI"],
+    "faqs": [
+      {"q": "Does the Pioneer VSX-LX305 have Dirac Live?", "a": "Yes. Dirac Live room correction is a headline feature of the VSX-LX305, giving you more detailed frequency and timing correction than basic auto-calibration systems."},
+      {"q": "How many height speakers can the VSX-LX305 power?", "a": "Up to four, in a 5.1.4 layout using all nine amplified channels. Alternatively, you can run 7.1.2 with two height speakers."}
+    ]
+  },
+  {
+    "slug": "pioneer-vsx-535",
+    "name": "Pioneer VSX-535",
+    "brand": "Pioneer",
+    "category": "receiver",
+    "amazonQuery": "Pioneer VSX-535 receiver",
+    "priceBand": "$250–$400",
+    "priceTier": 1,
+    "score": 58,
+    "scores": [
+      {"label": "Power & channels", "value": 56},
+      {"label": "Room correction", "value": 58},
+      {"label": "Video & HDMI", "value": 54},
+      {"label": "Streaming & ease of use", "value": 64}
+    ],
+    "summary": "An entry-level Pioneer receiver for a basic surround setup; check the current listing for channel count and HDMI support, because newer budget models offer more.",
+    "verdict": "The VSX-535 sits at the entry end of Pioneer's lineup. We have kept its spec sheet short on purpose: Pioneer's published specifications for this model are hard to confirm, and our rule is to leave a number out rather than guess. Before you buy, check the listing for three things: the number of amplified channels, whether it decodes Dolby Atmos, and whether its HDMI ports pass 4K/120.\n\nHere is the maths to run once you have those numbers. Five amplified channels means 5.1 and nothing more. Seven channels lets you run a real **5.1.2** [Dolby Atmos](/glossary/dolby-atmos/) layout. For power, look for a rating at **8 Ω, 20 Hz–20 kHz, with two channels driven**. A figure quoted at 6 Ω, 1 kHz or 10% THD will look bigger and cannot be compared with Denon or Yamaha ratings.\n\nThen check your speakers' [sensitivity](/glossary/speaker-sensitivity/). Loudness at 1 m = sensitivity + 10 × log10(watts), and you lose roughly 9.5 dB by a 3 m seat. With an entry receiver, efficient speakers of 88 dB or more and a powered sub do most of the heavy lifting.\n\nIn most cases, a current budget model is the safer buy. The [Denon AVR-S770H](/gear/denon-avr-s770h/) gives you seven channels, Atmos and 8K-ready HDMI. See our [best budget home theater receiver](/best-budget-home-theater-receiver/) list for alternatives.",
+    "bestFor": "Basic surround setups where the price is the deciding factor",
+    "skipIf": "You want verified modern features like Atmos height channels and 4K/120 pass-through",
+    "pros": [
+      "Low entry price",
+      "Familiar Pioneer brand and simple operation"
+    ],
+    "cons": [
+      "Published specs are hard to confirm; check the listing carefully",
+      "Newer budget receivers offer more channels and modern HDMI",
+      "Unlikely to suit a growing Atmos system"
+    ],
+    "specs": {
+      "Channels": "Not confirmed: check current listing",
+      "Power (rated)": "Not confirmed: check current listing",
+      "8K/4K120 HDMI": "Not confirmed: check current listing",
+      "Atmos/DTS:X": "Not confirmed: check current listing"
+    },
+    "keySpecs": ["Channels", "Power (rated)", "8K/4K120 HDMI", "Atmos/DTS:X"],
+    "faqs": [
+      {"q": "Is the Pioneer VSX-535 good for home theater?", "a": "It can run a basic surround system, but check the listing for its channel count, Dolby Atmos support and HDMI capabilities first. For a similar budget, current models like the Denon AVR-S770H offer verified 5.1.2 Atmos and 4K/120 pass-through."},
+      {"q": "What should I check before buying an entry-level receiver?", "a": "Confirm the number of amplified channels, whether it decodes Dolby Atmos and DTS:X, whether HDMI passes 4K/120 for consoles, and whether power is rated at 8 ohms across 20 Hz–20 kHz with two channels driven."}
+    ]
+  }
+]

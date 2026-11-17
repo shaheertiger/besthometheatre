@@ -1,0 +1,967 @@
+[
+  {
+    "slug": "klipsch-r-50m",
+    "name": "Klipsch R-50M Bookshelf Speakers",
+    "brand": "Klipsch",
+    "category": "bookshelf",
+    "amazonQuery": "Klipsch R-50M bookshelf speakers",
+    "priceBand": "$200–$300 per pair",
+    "priceTier": 2,
+    "score": 78,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 74
+      },
+      {
+        "label": "Ease to drive",
+        "value": 92
+      },
+      {
+        "label": "Build & finish",
+        "value": 72
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "A horn-loaded 5.25-inch bookshelf pair rated at 93 dB, so even an entry-level receiver drives it loud, though the forward, bright voicing won't suit every room.",
+    "verdict": "The R-50M is the cheapest way into Klipsch's horn-loaded sound: a **1-inch aluminum tweeter on a Tractrix horn** above a **5.25-inch spun-copper woofer**. The figure that matters most for home theater is its **93 dB sensitivity** ([what sensitivity means](/glossary/speaker-sensitivity/)).\n\n**Show the maths.** Every 3 dB of sensitivity halves the amplifier power you need for the same volume. Against a typical 87 dB bookshelf, 93 dB is a 6 dB advantage, so the R-50M needs **one quarter of the power**. Sitting 3 m (about 10 ft) away costs roughly 9.5 dB in free space, which means 1 W gives you about 83.5 dB at the seat. Peaks of 100 dB need about **45 W**, well within any entry-level AVR. The 87 dB speaker needs about 180 W for the same peaks.\n\nThe trade-off is bass. A 5.25-inch woofer can't move much air, so set your receiver's [crossover](/glossary/crossover/) to 80 Hz or a little higher and let a subwoofer do the heavy lifting (see our [budget subwoofer picks](/best-budget-subwoofer-for-home-theater/)). The horn also gives a lively, forward presentation that flatters movie effects but can get fatiguing in a small room with bare floors.\n\nPair it with the [Klipsch R-50C](/gear/klipsch-r-50c/) so the tweeter character matches across the front stage. If you can stretch, the [RP-600M II](/gear/klipsch-rp-600m-ii/) adds a bigger 6.5-inch woofer and a titanium tweeter for a noticeable step up.",
+    "bestFor": "Budget 5.1 systems on modest receivers in small to medium rooms",
+    "skipIf": "You're sensitive to bright treble or want to run without a subwoofer",
+    "pros": [
+      "93 dB sensitivity means low-powered receivers go loud",
+      "Horn tweeter gives crisp, punchy dialogue and effects",
+      "Matches the R-50C center and other Reference models",
+      "Compact enough for shelves and stands"
+    ],
+    "cons": [
+      "5.25-inch woofer needs a subwoofer for movies",
+      "Forward treble can be fatiguing in bright, hard rooms",
+      "Vinyl-wrapped cabinet feels its price"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf, horn-loaded",
+      "Drivers": "1-inch aluminum LTS tweeter on Tractrix horn; 5.25-inch spun-copper IMG woofer",
+      "Sensitivity": "93 dB (2.83 V / 1 m)",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Do the Klipsch R-50M need a subwoofer?",
+        "a": "For movies, yes. The 5.25-inch woofer handles midbass well but can't deliver deep bass at volume. Set the speakers to Small with an 80 Hz crossover and add a subwoofer, and the R-50M will play cleaner and louder because it no longer has to reproduce the lowest octaves."
+      },
+      {
+        "q": "What receiver power do the R-50M need?",
+        "a": "Very little. At 93 dB sensitivity, around 45 W per channel produces 100 dB peaks at a seat 3 m away, before any room gain. Any current entry-level AV receiver has enough power for these in a typical living room."
+      },
+      {
+        "q": "Can I use the R-50M as surround speakers?",
+        "a": "Yes. They make good surrounds behind larger Klipsch fronts because the horn tweeter keeps the timbre consistent as effects pan around the room. Their 8-ohm load is easy on a receiver driving five or seven channels at once."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-rp-600m-ii",
+    "name": "Klipsch RP-600M II Bookshelf Speakers",
+    "brand": "Klipsch",
+    "category": "bookshelf",
+    "amazonQuery": "Klipsch RP-600M II bookshelf speakers",
+    "priceBand": "$500–$650 per pair",
+    "priceTier": 3,
+    "score": 86,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 86
+      },
+      {
+        "label": "Ease to drive",
+        "value": 96
+      },
+      {
+        "label": "Build & finish",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "Klipsch's 6.5-inch horn-loaded bookshelf is rated at 96 dB and 45 Hz, so it plays big and loud on almost any receiver, with treble that's lively rather than laid-back.",
+    "verdict": "The RP-600M II pairs a **1-inch titanium tweeter on a 90x90 Hybrid Tractrix horn** with a **6.5-inch Cerametallic woofer** and a rear Tractrix port. Klipsch rates it at **96 dB sensitivity** and 8 ohms, and those two numbers explain why it's such an easy home theater recommendation.\n\n**Show the maths.** Against an 87 dB speaker, 96 dB is a 9 dB advantage. Because 3 dB equals double the power, 9 dB is 2 × 2 × 2 = **8 times less amplifier power** for the same volume. At 3 m (about 10 ft), 1 W gives about 86.5 dB at your seat. Reference peaks of 105 dB need roughly **71 W**; 100 dB peaks need about **22 W**. A receiver rated at 80 W per channel has real headroom even with every channel working ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe rated **45 Hz (±3 dB)** low end means these can run full-range for music, but for movies cross them to a subwoofer at 60–80 Hz to free up headroom ([crossover basics](/glossary/crossover/)).\n\nThe trade-off is voicing. Horns control dispersion, so toe them in toward the main seat, and expect a forward, energetic sound in a room with bare floors and walls. Soft furnishings tame it.\n\nFor a seamless front stage, match it with the [RP-504C II](/gear/klipsch-rp-504c-ii/) center, or step up to [RP-8000F II](/gear/klipsch-rp-8000f-ii/) towers for the same voice with more bass. See how it ranks in our [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
+    "bestFor": "Medium rooms where you want loud, dynamic movie sound from a mid-priced receiver",
+    "skipIf": "You prefer a soft, relaxed treble or your room is small and acoustically bright",
+    "pros": [
+      "96 dB sensitivity: about 22 W reaches 100 dB peaks at 10 ft",
+      "6.5-inch woofer rated to 45 Hz (±3 dB)",
+      "Dynamic, punchy delivery that suits action films",
+      "Matches the RP-504C II center and RP towers"
+    ],
+    "cons": [
+      "Treble can sound bright in hard-surfaced rooms",
+      "Large for a bookshelf; needs deep shelves or stands",
+      "Horn dispersion rewards careful toe-in"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf, horn-loaded",
+      "Drivers": "1-inch titanium LTS tweeter on 90x90 Hybrid Tractrix horn; 6.5-inch Cerametallic woofer",
+      "Frequency response": "45 Hz–25 kHz ±3 dB",
+      "Sensitivity": "96 dB (2.83 V / 1 m)",
+      "Impedance": "8 ohms",
+      "Recommended power": "100 W RMS / 400 W peak (power handling)",
+      "Bass loading": "Rear Tractrix port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Frequency response",
+      "Impedance"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Klipsch RP-600M II good for home theater?",
+        "a": "Yes, it's one of the easiest bookshelf speakers to drive loud. At 96 dB sensitivity, a mid-priced AV receiver reaches reference-level peaks without strain, and the horn tweeter keeps dialogue crisp. Pair it with the RP-504C II center and a subwoofer for a strong 5.1 core."
+      },
+      {
+        "q": "How far from the wall should the RP-600M II go?",
+        "a": "Give the rear port some breathing room. Around 30 cm (12 inches) from the wall is a sensible starting point; closer adds bass but can make it boomy. If you use a subwoofer with an 80 Hz crossover, wall distance matters less because the sub handles the deepest notes."
+      },
+      {
+        "q": "What's different about the RP-600M II versus the original?",
+        "a": "The II keeps the same basic recipe of a horn-loaded titanium tweeter and 6.5-inch Cerametallic woofer, with updated cabinet details and new finishes. If you already own the original, the upgrade is minor. If you're buying new, get the II for matching with current RP centers."
+      }
+    ]
+  },
+  {
+    "slug": "polk-signature-elite-es20",
+    "name": "Polk Signature Elite ES20",
+    "brand": "Polk Audio",
+    "category": "bookshelf",
+    "amazonQuery": "Polk Audio Signature Elite ES20 bookshelf",
+    "released": "2020",
+    "priceBand": "$350–$500 per pair",
+    "priceTier": 2,
+    "score": 84,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 85
+      },
+      {
+        "label": "Ease to drive",
+        "value": 76
+      },
+      {
+        "label": "Build & finish",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "A smooth, balanced 6.5-inch bookshelf with Polk's Power Port, best on a receiver with some real power because its 86 dB sensitivity asks for more watts than horn rivals.",
+    "verdict": "The ES20 is the bookshelf model in Polk's Signature Elite line: a **1-inch Terylene dome tweeter**, a **6.5-inch Dynamic Balance woofer** and Polk's rear **Power Port**, which is shaped to reduce port turbulence so bass stays clean as volume rises. Polk rates it at 38 Hz–40 kHz without stating a tolerance, so treat the low figure as reach rather than flat output.\n\n**Show the maths.** At **86 dB** sensitivity, the ES20 is 10 dB less efficient than the Klipsch [RP-600M II](/gear/klipsch-rp-600m-ii/). Ten dB is **ten times the power**. At 3 m (10 ft), 1 W gives about 76.5 dB at the seat, so 95 dB peaks need about **70 W** and 100 dB peaks about **225 W**. In practice, a midrange AVR is fine at normal movie volumes, but if you like it near reference, a receiver that actually delivers its rating (or an [external amplifier](/best-home-theater-amplifier/)) earns its keep ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nWhat you get for those extra watts is a smoother tweeter than most horn designs, which suits long movie nights and mixed music listening. Owners consistently describe the ES20 as balanced and easy to live with.\n\nBuild a matched front stage with the [ES35 center](/gear/polk-signature-elite-es35/) and [ES60 towers](/gear/polk-signature-elite-es60/), which share the same Terylene tweeter design. Compare it with its rivals in our [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
+    "bestFor": "Movie-and-music rooms where you want a smooth, non-fatiguing sound",
+    "skipIf": "Your receiver is low-powered and you like to listen near reference level",
+    "pros": [
+      "Smooth, balanced voicing that's easy to listen to for hours",
+      "6.5-inch woofer and Power Port give solid midbass",
+      "Hi-Res certified tweeter extends to 40 kHz on paper",
+      "Matches the ES35 center and ES60 towers"
+    ],
+    "cons": [
+      "86 dB sensitivity needs roughly 10x the power of a 96 dB Klipsch",
+      "Low-frequency rating has no stated tolerance",
+      "Rear port wants space from the wall"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf",
+      "Drivers": "1-inch Terylene dome tweeter; 6.5-inch Dynamic Balance woofer",
+      "Frequency response": "38 Hz–40 kHz (no tolerance stated)",
+      "Sensitivity": "86 dB",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear Power Port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Frequency response"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Polk ES20 need a powerful amplifier?",
+        "a": "It needs more than horn-loaded rivals. At 86 dB, reaching 95 dB peaks at 10 ft takes about 70 W per channel, and 100 dB peaks about 225 W. A decent midrange receiver handles normal movie levels; add an external amp if you listen loud in a big room."
+      },
+      {
+        "q": "What center channel matches the Polk ES20?",
+        "a": "The Signature Elite ES35 center. It shares the same Terylene tweeter design, so voices keep the same tone as they pan from the left speaker to the center and right. Mixing in a center from another brand makes timbre shifts more likely."
+      }
+    ]
+  },
+  {
+    "slug": "polk-monitor-xt20",
+    "name": "Polk Monitor XT20",
+    "brand": "Polk Audio",
+    "category": "bookshelf",
+    "amazonQuery": "Polk Audio Monitor XT20 bookshelf speakers",
+    "released": "2021",
+    "priceBand": "$150–$250 per pair",
+    "priceTier": 2,
+    "score": 77,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 74
+      },
+      {
+        "label": "Ease to drive",
+        "value": 80
+      },
+      {
+        "label": "Build & finish",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "A budget 6.5-inch bookshelf with more cone area than most rivals at its price, best as fronts in a starter 5.1 or as surrounds behind pricier speakers.",
+    "verdict": "The Monitor XT20 is Polk's budget 6.5-inch bookshelf: a **1-inch Terylene dome tweeter**, a **6.5-inch woofer** and a rear port in a vinyl-wrapped box. Like the pricier Signature Elite line, it carries Hi-Res certification, with a rated response of 39 Hz–38 kHz.\n\n**Show the maths.** Cone area scales with diameter squared. Using nominal sizes, a 6.5-inch woofer has 6.5² ÷ 5.25² ≈ **1.5 times the area** of a 5.25-inch woofer. Moving the same distance, 1.5 times the area is about **3.7 dB more output**, which is close to the 3 dB that would otherwise take double the amplifier power. That's the XT20's real advantage over the many 5.25-inch speakers at this price: more midbass before strain, and a cleaner hand-off to a subwoofer at 80 Hz ([crossover basics](/glossary/crossover/)).\n\nIts 8-ohm rating is also easy on budget receivers driving five or seven channels at once ([impedance explained](/glossary/impedance/)).\n\nThe trade-off is refinement. The cabinet and tweeter are built to a price, so expect less polish at high volume than the [Signature Elite ES20](/gear/polk-signature-elite-es20/). For most first systems, that's a fair deal.\n\nBuild out the set with the [XT35 center](/gear/polk-monitor-xt35/), [XT60 towers](/gear/polk-monitor-xt60/) and [XT90 height modules](/gear/polk-monitor-xt90/) for a matched Atmos layout on a budget. See more options in our [best budget home theater speakers](/best-budget-home-theater-speakers/).",
+    "bestFor": "First home theater systems and budget surround speakers",
+    "skipIf": "You want refined treble at high volume; step up to the ES20",
+    "pros": [
+      "6.5-inch woofer gives about 1.5x the cone area of 5.25-inch rivals",
+      "Easy 8-ohm load for budget receivers",
+      "Part of a full matched range including Atmos modules",
+      "Strong value for money"
+    ],
+    "cons": [
+      "Treble less refined than Polk's Signature Elite line",
+      "Vinyl-wrapped cabinet",
+      "Needs a subwoofer for deep movie bass"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf",
+      "Drivers": "1-inch Terylene dome tweeter; 6.5-inch woofer",
+      "Frequency response": "39 Hz–38 kHz (no tolerance stated)",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Frequency response",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Are the Polk Monitor XT20 good for surround sound?",
+        "a": "Yes. They work well as front speakers in a budget 5.1 system or as surrounds behind larger fronts. Pair them with the XT35 center for matched dialogue, and set them to Small with an 80 Hz crossover when you have a subwoofer."
+      },
+      {
+        "q": "What's the difference between the Polk XT20 and ES20?",
+        "a": "Both use a 6.5-inch woofer and 1-inch Terylene tweeter, but the ES20 adds the Power Port, a more solid cabinet and smoother treble. The XT20 costs roughly half as much, which makes it the better pick for tight budgets or surround duty."
+      }
+    ]
+  },
+  {
+    "slug": "elac-debut-b62",
+    "name": "ELAC Debut 2.0 B6.2",
+    "brand": "ELAC",
+    "category": "bookshelf",
+    "amazonQuery": "ELAC Debut 2.0 B6.2 bookshelf speakers",
+    "released": "2018",
+    "priceBand": "$250–$400 per pair",
+    "priceTier": 2,
+    "score": 82,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 83
+      },
+      {
+        "label": "Ease to drive",
+        "value": 78
+      },
+      {
+        "label": "Build & finish",
+        "value": 80
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "Andrew Jones's 6.5-inch aramid bookshelf has a front-firing port and a neutral voice, but its 6-ohm, 87 dB rating means it wants a little more power than the spec suggests.",
+    "verdict": "The Debut 2.0 B6.2 is an Andrew Jones design with a **1-inch cloth dome tweeter**, a **6.5-inch aramid-fiber woofer** and a **front-firing port**. ELAC rates it at 44 Hz–35 kHz, **87 dB** and **6 ohms**.\n\n**Show the maths.** Sensitivity is quoted at 2.83 V, which is 1 W into 8 ohms but about **1.33 W into 6 ohms**. Convert back to a true per-watt figure and the B6.2 is about 85.8 dB/W. At 3 m (10 ft), 1 W gives roughly 76.3 dB at the seat, so 95 dB peaks need about **75 W**. That's within a decent midrange AVR's ability, and most receivers handle a 6-ohm nominal load without fuss ([impedance explained](/glossary/impedance/), [sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe front port is the practical win. Rear-ported speakers boom when pushed against a wall, but the B6.2 tolerates bookshelf or close-to-wall placement better, which matters in real living rooms. The cloth dome tweeter gives a smooth, neutral balance that suits dialogue.\n\nThe trade-off is that it's not as lively or as loud for the watts as a Klipsch [RP-600M II](/gear/klipsch-rp-600m-ii/), and it costs a little more than budget picks like the [Polk Monitor XT20](/gear/polk-monitor-xt20/).\n\nPair it with the [Debut C5.2 center](/gear/elac-debut-c52/) and [A4.2 Atmos modules](/gear/elac-debut-a42/), and see how it ranks in our [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
+    "bestFor": "Shelves and near-wall placement where rear-ported speakers sound boomy",
+    "skipIf": "You're running a low-powered receiver and want maximum volume per watt",
+    "pros": [
+      "Front-firing port tolerates near-wall and shelf placement",
+      "Neutral, smooth voicing that suits dialogue",
+      "6.5-inch aramid woofer rated to 44 Hz",
+      "Matching center and Atmos modules in the same range"
+    ],
+    "cons": [
+      "6-ohm load means 2.83 V sensitivity flatters it by about 1.2 dB",
+      "Less punchy than horn-loaded rivals",
+      "Plain cabinet finish"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf",
+      "Drivers": "1-inch cloth dome tweeter; 6.5-inch aramid-fiber woofer",
+      "Frequency response": "44 Hz–35 kHz",
+      "Sensitivity": "87 dB (2.83 V / 1 m)",
+      "Impedance": "6 ohms",
+      "Recommended power": "Up to 120 W",
+      "Bass loading": "Front port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Bass loading"
+    ],
+    "faqs": [
+      {
+        "q": "Can a receiver handle the ELAC B6.2's 6-ohm impedance?",
+        "a": "Yes. Most AV receivers are rated for 6-ohm speakers, and many have an impedance setting you can leave at its default. Just know that a 6-ohm speaker draws more current than an 8-ohm one at the same volume, so very cheap receivers run warmer."
+      },
+      {
+        "q": "Can the B6.2 go on a bookshelf or close to a wall?",
+        "a": "It handles it better than most. The port fires forward, so bass doesn't get as boomy as a rear-ported design pushed against a wall. Leave a few inches behind it and use a subwoofer with an 80 Hz crossover for the best result."
+      }
+    ]
+  },
+  {
+    "slug": "svs-prime-bookshelf",
+    "name": "SVS Prime Bookshelf Speakers",
+    "brand": "SVS",
+    "category": "bookshelf",
+    "amazonQuery": "SVS Prime Bookshelf speakers",
+    "priceBand": "$450–$600 per pair",
+    "priceTier": 3,
+    "score": 84,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 85
+      },
+      {
+        "label": "Ease to drive",
+        "value": 80
+      },
+      {
+        "label": "Build & finish",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "A neutral, well-built 6.5-inch bookshelf with a genuine ±3 dB rating to 45 Hz, made to pair with SVS subwoofers in a balanced home theater.",
+    "verdict": "The Prime Bookshelf uses a **1-inch aluminum dome tweeter** and a **6.5-inch polypropylene woofer** with a rear port. SVS rates it at **45 Hz–25 kHz ±3 dB**, **87 dB** sensitivity and **8 ohms**, and recommends 20–150 W.\n\nThat ±3 dB is worth noticing. Plenty of brands quote a low-frequency figure with no tolerance, which can hide a steep roll-off. A stated ±3 dB at 45 Hz tells you bass is still close to full strength there, and it makes a clean hand-off to a subwoofer at 80 Hz easy ([crossover explained](/glossary/crossover/)).\n\n**Show the maths.** At 87 dB, 1 W gives about 77.5 dB at a seat 3 m (10 ft) away. For 95 dB peaks you need about **56 W**; for 100 dB peaks about **180 W**. SVS's recommended 20–150 W range fits a typical AVR at normal movie levels. If you want reference peaks in a large room, budget for more amplifier power ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe sound is neutral and detailed rather than warm, which helps dialogue and suits a room with some soft furnishings. The trade-off is the rear port: give it space from the wall, unlike the front-ported [ELAC B6.2](/gear/elac-debut-b62/).\n\nSVS designs these to sit alongside its own subwoofers. Pair them with the [Prime Center](/gear/svs-prime-center/) and [Prime Tower](/gear/svs-prime-tower/) for a timbre-matched front stage, and see our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide for the bass end.",
+    "bestFor": "Balanced 5.1 and 7.1 systems built around a quality subwoofer",
+    "skipIf": "Your speakers must sit flush against a wall or on a deep shelf",
+    "pros": [
+      "Low-frequency rating has a real ±3 dB tolerance",
+      "Neutral, detailed voicing that suits dialogue",
+      "Solid cabinet build for the price",
+      "Easy 8-ohm load"
+    ],
+    "cons": [
+      "Rear port needs space from the wall",
+      "87 dB sensitivity wants real power for reference peaks",
+      "Neutral balance can sound lean in bright rooms"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf",
+      "Drivers": "1-inch aluminum dome tweeter; 6.5-inch polypropylene woofer",
+      "Frequency response": "45 Hz–25 kHz ±3 dB",
+      "Sensitivity": "87 dB",
+      "Impedance": "8 ohms",
+      "Recommended power": "20–150 W",
+      "Bass loading": "Rear port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Frequency response",
+      "Impedance"
+    ],
+    "faqs": [
+      {
+        "q": "Do the SVS Prime Bookshelf speakers need a subwoofer?",
+        "a": "For music they can play full-range thanks to a ±3 dB rating at 45 Hz. For movies, add a subwoofer and cross them over at 80 Hz. That keeps low-frequency effects out of the 6.5-inch woofer and gives you more clean volume."
+      },
+      {
+        "q": "How much power do the SVS Prime Bookshelf speakers need?",
+        "a": "SVS recommends 20–150 W. With 87 dB sensitivity, about 56 W reaches 95 dB peaks at 10 ft, which most AV receivers can deliver. Reference-level peaks in a big room need closer to 180 W, which is external-amplifier territory."
+      }
+    ]
+  },
+  {
+    "slug": "kef-q150",
+    "name": "KEF Q150 Bookshelf Speakers",
+    "brand": "KEF",
+    "category": "bookshelf",
+    "amazonQuery": "KEF Q150 bookshelf speakers",
+    "released": "2017",
+    "priceBand": "$300–$450 per pair",
+    "priceTier": 2,
+    "score": 81,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 82
+      },
+      {
+        "label": "Ease to drive",
+        "value": 74
+      },
+      {
+        "label": "Build & finish",
+        "value": 80
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "A compact coaxial bookshelf whose Uni-Q driver keeps the sound consistent across a wide sofa, though its 86 dB sensitivity and 5.25-inch woofer need power and a subwoofer.",
+    "verdict": "The Q150's party trick is KEF's **Uni-Q** driver: a **1-inch aluminum dome tweeter** mounted at the acoustic center of a **5.25-inch aluminum woofer**. Because both sound from the same point, the balance between treble and midrange stays consistent as you move off-axis, so the person at the end of the sofa hears close to what the center seat hears.\n\n**Show the maths.** KEF rates it at **86 dB** and **8 ohms**, with a recommended 10–100 W. At 3 m (10 ft), 1 W gives about 76.5 dB at the seat. Peaks of 95 dB need about **70 W**, which is right at the top of what many budget receivers really deliver with several channels driven. Reaching 100 dB would take over 200 W, beyond the speaker's recommended range, so these suit small and medium rooms at sensible levels ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe low end is rated **51 Hz–28 kHz ±3 dB**, so cross them to a subwoofer at 80 Hz, or even 90–100 Hz if you listen loud ([crossover basics](/glossary/crossover/)).\n\nThe trade-off versus the newer [KEF Q3 Meta](/gear/kef-q3-meta/) is output: the Q3 Meta's 6.5-inch cone has about 1.5 times the area, plus 1 dB more sensitivity. A coaxial driver also has the same dispersion in any orientation, so a Q150 laid on its side behaves the same, which is useful when a shelf is short.\n\nSee it against rivals in our [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
+    "bestFor": "Wide seating areas in small to medium rooms",
+    "skipIf": "You have a big room, a low-powered receiver, or no subwoofer",
+    "pros": [
+      "Uni-Q coaxial driver keeps sound consistent off-axis",
+      "Compact 11.9-inch-tall cabinet",
+      "Works on its side without changing dispersion",
+      "Clean, detailed midrange for dialogue"
+    ],
+    "cons": [
+      "86 dB sensitivity limits volume on modest receivers",
+      "5.25-inch woofer rated only to 51 Hz (±3 dB)",
+      "Rear port wants space from the wall"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf, coaxial",
+      "Drivers": "Uni-Q: 1-inch aluminum dome tweeter in 5.25-inch aluminum woofer",
+      "Frequency response": "51 Hz–28 kHz ±3 dB",
+      "Sensitivity": "86 dB",
+      "Impedance": "8 ohms",
+      "Recommended power": "10–100 W",
+      "Dimensions": "11.9 x 7.1 x 10.9 in (H x W x D)",
+      "Bass loading": "Rear port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Frequency response",
+      "Impedance"
+    ],
+    "faqs": [
+      {
+        "q": "Is the KEF Q150 good for surround sound?",
+        "a": "Yes, especially as surrounds or in small rooms. The Uni-Q driver gives wide, even dispersion, which helps surround effects sound consistent across several seats. Use a subwoofer and an 80 Hz or higher crossover so the 5.25-inch woofer isn't asked for deep bass."
+      },
+      {
+        "q": "Should I buy the KEF Q150 or the Q3 Meta?",
+        "a": "The Q3 Meta is the stronger speaker: a 6.5-inch Uni-Q driver with KEF's MAT tweeter absorber and 1 dB more sensitivity. Buy the Q150 if space or budget is tight, or as surrounds behind Q Meta fronts."
+      }
+    ]
+  },
+  {
+    "slug": "kef-q3-meta",
+    "name": "KEF Q3 Meta Bookshelf Speakers",
+    "brand": "KEF",
+    "category": "bookshelf",
+    "amazonQuery": "KEF Q3 Meta bookshelf speakers",
+    "released": "2023",
+    "priceBand": "$600–$800 per pair",
+    "priceTier": 3,
+    "score": 88,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 90
+      },
+      {
+        "label": "Ease to drive",
+        "value": 78
+      },
+      {
+        "label": "Build & finish",
+        "value": 86
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "KEF's 6.5-inch Uni-Q bookshelf with MAT tweeter absorber offers exceptionally even dispersion and clean treble, the best all-round bookshelf here if your receiver has decent power.",
+    "verdict": "The Q3 Meta uses KEF's 12th-generation **Uni-Q** coaxial driver: a **1-inch vented aluminum dome tweeter** at the center of a **6.5-inch aluminum cone**, plus **Metamaterial Absorption Technology (MAT)** behind the tweeter. KEF says MAT absorbs 99% of the unwanted sound from the rear of the tweeter, which in practice means cleaner, less edgy treble.\n\n**Show the maths.** Compared with the [KEF Q150](/gear/kef-q150/), the 6.5-inch cone has roughly 6.5² ÷ 5.25² ≈ **1.5 times the area**, worth about 3.7 dB more output at the same excursion. Sensitivity rises from 86 to **87 dB**, and 1 dB less needed means about **21% less amplifier power** for the same volume. At 3 m (10 ft), 1 W gives about 77.5 dB at your seat, so 95 dB peaks need about **56 W** ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe Uni-Q's real benefit for home theater is consistency. Treble and midrange radiate from one point, so off-axis seats get the same tonal balance as the center seat, and voices don't change character as they pan across the front stage.\n\nThe trade-off is efficiency: it's 9 dB less sensitive than the Klipsch [RP-600M II](/gear/klipsch-rp-600m-ii/), so it needs eight times the power for equal volume. A good midrange AVR is enough for most rooms.\n\nPair it with the [Q6 Meta center](/gear/kef-q6-meta/) and [Q7 Meta towers](/gear/kef-q7-meta/) for a fully coaxial front stage. It's our benchmark in the [best bookshelf speakers for home theater](/best-bookshelf-speakers-for-home-theater/).",
+    "bestFor": "Wide sofas and mixed movie/music rooms where every seat matters",
+    "skipIf": "You need maximum volume from a low-powered receiver",
+    "pros": [
+      "Uni-Q coaxial driver gives very even off-axis sound",
+      "MAT absorber cleans up treble",
+      "6.5-inch cone has about 1.5x the area of the Q150",
+      "Matches the Q6 Meta center for seamless pans"
+    ],
+    "cons": [
+      "87 dB sensitivity needs about 8x the power of a 96 dB Klipsch",
+      "Rear port wants space from the wall",
+      "Costs noticeably more than the Q150"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf, coaxial",
+      "Drivers": "Uni-Q with MAT: 1-inch vented aluminum dome tweeter in 6.5-inch aluminum cone",
+      "Sensitivity": "87 dB",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "What is MAT on the KEF Q3 Meta?",
+        "a": "Metamaterial Absorption Technology is a maze-like disc behind the tweeter that soaks up the sound radiating from its rear. KEF says it absorbs 99% of that unwanted output. The result is cleaner, less harsh treble, which you notice most on dialogue and bright effects."
+      },
+      {
+        "q": "What center channel goes with the KEF Q3 Meta?",
+        "a": "The KEF Q6 Meta. It uses the same Uni-Q driver with MAT, so tonal balance stays identical as voices move from the left speaker to the center and right. That timbre match matters more for dialogue than any single spec."
+      }
+    ]
+  },
+  {
+    "slug": "edifier-r1280t",
+    "name": "Edifier R1280T Powered Bookshelf Speakers",
+    "brand": "Edifier",
+    "category": "bookshelf",
+    "amazonQuery": "Edifier R1280T powered bookshelf speakers",
+    "priceBand": "$100–$150 per pair",
+    "priceTier": 1,
+    "score": 68,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 66
+      },
+      {
+        "label": "Ease to drive",
+        "value": 90
+      },
+      {
+        "label": "Build & finish",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "A self-powered 4-inch bookshelf pair that plugs straight into a TV's analog output, great for bedrooms and desks but not a fit for a surround receiver.",
+    "verdict": "The R1280T is a **powered** pair: a built-in **2 × 21 W RMS** amplifier drives a **4-inch woofer** and a **13 mm silk dome tweeter** in each box. You connect a TV, computer or turntable preamp via its **two analog RCA inputs**, and there's a remote for volume.\n\nThat makes it a different animal from everything else here. It has no speaker terminals for an AV receiver, so it can't be part of a 5.1 or Atmos system ([what Atmos needs](/glossary/dolby-atmos/)). The R1280DB variant adds Bluetooth and optical inputs if your TV lacks an analog out.\n\n**Show the maths.** Doubling amplifier power adds 3 dB. A receiver channel rated at 100 W has 10 × log10(100 ÷ 21) ≈ **6.8 dB** more headroom than one 21 W channel here. For a bedroom TV at 2 m or a desk at arm's length, 21 W is plenty. For a living room with seats 3–4 m away and action movies, it runs out of headroom quickly.\n\nThe rated **75 Hz–18 kHz** response confirms the bass limit of a 4-inch woofer. Many owners add a small subwoofer through the TV, but the R1280T has no dedicated sub output.\n\nThe trade-off is simple: you save on a receiver, but you lose surround, HDMI and room correction. If you want a real system, start with passive speakers like the [Polk Monitor XT20](/gear/polk-monitor-xt20/) and a receiver from our [best budget home theater receiver](/best-budget-home-theater-receiver/) list.",
+    "bestFor": "Bedroom TVs, desks and small rooms with no AV receiver",
+    "skipIf": "You want surround sound, an AV receiver or a living-room system",
+    "pros": [
+      "Built-in amplifier: no receiver needed",
+      "Two analog inputs and a remote",
+      "Compact and inexpensive",
+      "Easy upgrade over TV speakers in small rooms"
+    ],
+    "cons": [
+      "Cannot connect to an AV receiver's speaker outputs",
+      "21 W per side limits volume in larger rooms",
+      "4-inch woofer and 75 Hz rating mean little deep bass",
+      "No HDMI, optical or Bluetooth on this model"
+    ],
+    "specs": {
+      "Type": "Powered 2-way bookshelf",
+      "Drivers": "13 mm silk dome tweeter; 4-inch woofer",
+      "Frequency response": "75 Hz–18 kHz",
+      "Recommended power": "Built-in 2 x 21 W RMS amplifier",
+      "Inputs": "2 x RCA analog",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Recommended power",
+      "Inputs",
+      "Frequency response"
+    ],
+    "faqs": [
+      {
+        "q": "Can I connect the Edifier R1280T to an AV receiver?",
+        "a": "Not to its speaker outputs, because the R1280T has its own amplifier and only accepts line-level RCA input. You could feed it from a receiver's pre-out or Zone 2 pre-out if it has one, but it can't serve as surround speakers in a 5.1 system."
+      },
+      {
+        "q": "How do I connect the Edifier R1280T to a TV?",
+        "a": "Use the TV's analog audio output (3.5 mm or RCA) with the supplied cable. If your TV only has optical or HDMI eARC, you'll need a DAC, or choose the R1280DB variant, which adds optical and Bluetooth inputs."
+      }
+    ]
+  },
+  {
+    "slug": "micca-mb42x",
+    "name": "Micca MB42X Bookshelf Speakers",
+    "brand": "Micca",
+    "category": "bookshelf",
+    "amazonQuery": "Micca MB42X bookshelf speakers",
+    "priceBand": "$80–$120 per pair",
+    "priceTier": 1,
+    "score": 70,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 68
+      },
+      {
+        "label": "Ease to drive",
+        "value": 72
+      },
+      {
+        "label": "Build & finish",
+        "value": 66
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "A tiny, inexpensive 4-inch bookshelf that does a creditable job as surrounds or in a small-room 5.1 with a subwoofer, but runs out of bass and volume quickly.",
+    "verdict": "The MB42X is a passive 2-way speaker with a **4-inch woven carbon fiber woofer**, a **0.75-inch silk dome tweeter** and a rear port. Micca rates it at **60 Hz–20 kHz**. It's one of the most popular budget surround speakers for good reason: it's small, inoffensive and cheap.\n\n**Show the maths.** The 4-inch woofer is the limit. Cone area scales with diameter squared, so a 6.5-inch woofer has 6.5² ÷ 4² ≈ **2.6 times the area**. At the same excursion, that's about **8.4 dB more output**, which would take nearly seven times the amplifier power to match. That's why the MB42X sounds fine at moderate levels and then compresses on loud action scenes.\n\nThe fix is the receiver's [crossover](/glossary/crossover/). Set the MB42X to Small and cross it over at 100–120 Hz rather than the usual 80 Hz, so a subwoofer handles everything below. Keep the sub near the front of the room, though: the higher the crossover, the easier it is to hear where the bass comes from.\n\nAs rear or side surrounds, where they handle mostly ambience and effects, the MB42X is easy to recommend. As front speakers, they suit small rooms with seats within 2–3 m.\n\nThe trade-off: for not much more, the [Polk Monitor XT20](/gear/polk-monitor-xt20/) gets you a 6.5-inch woofer. Browse alternatives in our [best budget home theater speakers](/best-budget-home-theater-speakers/).",
+    "bestFor": "Budget surround speakers and very small rooms",
+    "skipIf": "You want them as main speakers in a medium or large room",
+    "pros": [
+      "Very compact and easy to mount or place",
+      "Smooth enough treble for surround duty",
+      "Very low cost per pair",
+      "Good starter speaker for small 5.1 systems"
+    ],
+    "cons": [
+      "4-inch woofer compresses at high volume",
+      "Needs a 100–120 Hz crossover and a subwoofer",
+      "Basic build and finish"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf",
+      "Drivers": "0.75-inch silk dome tweeter; 4-inch woven carbon fiber woofer",
+      "Frequency response": "60 Hz–20 kHz",
+      "Bass loading": "Rear port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Frequency response",
+      "Bass loading",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Are the Micca MB42X good surround speakers?",
+        "a": "Yes. Surrounds mostly carry ambience and effects, which suits a small speaker. Mount them slightly above ear height to the sides or behind the seats, set them to Small in the receiver, and cross them to the subwoofer at 100–120 Hz."
+      },
+      {
+        "q": "What crossover should I use with the Micca MB42X?",
+        "a": "Start at 100 Hz and try 120 Hz if you hear strain on loud scenes. A 4-inch woofer can't handle much below that at volume. Running a higher crossover keeps the sound cleaner, as long as your subwoofer is placed toward the front of the room."
+      }
+    ]
+  },
+  {
+    "slug": "dayton-b652-air",
+    "name": "Dayton Audio B652-AIR Bookshelf Speakers",
+    "brand": "Dayton Audio",
+    "category": "bookshelf",
+    "amazonQuery": "Dayton Audio B652-AIR bookshelf speakers",
+    "priceBand": "$60–$100 per pair",
+    "priceTier": 1,
+    "score": 66,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 64
+      },
+      {
+        "label": "Ease to drive",
+        "value": 74
+      },
+      {
+        "label": "Build & finish",
+        "value": 60
+      },
+      {
+        "label": "Value",
+        "value": 88
+      }
+    ],
+    "summary": "A very cheap 6.5-inch bookshelf with an AMT tweeter, fine as budget surrounds, but its 40 W RMS power handling caps how loud it can play.",
+    "verdict": "The B652-AIR updates Dayton's budget favorite with an **air motion transformer (AMT) tweeter** in place of a dome, paired with a **6.5-inch polypropylene woofer**. Dayton rates it at **70 Hz–20 kHz**, **87 dB (1 W/1 m)**, **6 ohms** and **40 W RMS / 80 W max** power handling.\n\n**Show the maths.** Power handling sets the ceiling. At 87 dB/W, 40 W adds 10 × log10(40) ≈ **16 dB**, for about **103 dB at 1 m**. Sitting 3 m (10 ft) away costs roughly 9.5 dB, so you're looking at around **93.5 dB at the seat** before room gain, at the speaker's continuous limit. That's fine for normal TV and movie levels in a small room, but short of the 100 dB-plus peaks that action scenes contain ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe 6-ohm rating is easy for most receivers ([impedance explained](/glossary/impedance/)), and the 70 Hz rated low end means you'll want a subwoofer with an 80–100 Hz [crossover](/glossary/crossover/).\n\nThe AMT tweeter gives crisp, detailed treble for the money, though the overall build and cabinet are basic. As side or rear surrounds, where demands are lighter, the B652-AIR is excellent value.\n\nThe trade-off: for mains, the [Polk Monitor XT20](/gear/polk-monitor-xt20/) or [Sony SS-CS5](/gear/sony-ss-cs5/) cost a little more but are more refined. See our [best budget home theater speakers](/best-budget-home-theater-speakers/) for the full list.",
+    "bestFor": "Very tight budgets and rear or side surround duty",
+    "skipIf": "You want loud front speakers for a medium or large room",
+    "pros": [
+      "AMT tweeter gives crisp detail for the money",
+      "6.5-inch woofer at a very low price",
+      "Easy 6-ohm load",
+      "Light and easy to wall-mount"
+    ],
+    "cons": [
+      "40 W RMS handling caps output near 93 dB at 10 ft",
+      "Basic cabinet and finish",
+      "Rated only to 70 Hz; needs a subwoofer"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf",
+      "Drivers": "AMT (air motion transformer) tweeter; 6.5-inch polypropylene woofer",
+      "Frequency response": "70 Hz–20 kHz",
+      "Sensitivity": "87 dB (1 W / 1 m)",
+      "Impedance": "6 ohms",
+      "Recommended power": "40 W RMS / 80 W max (power handling)",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Recommended power"
+    ],
+    "faqs": [
+      {
+        "q": "Can a 100 W receiver damage the Dayton B652-AIR?",
+        "a": "Not at sensible volumes. Power handling is about sustained power, and normal listening uses only a few watts. Damage usually comes from clipping a small amplifier at full volume. Set the speakers to Small with a subwoofer and avoid pushing them into audible distortion."
+      },
+      {
+        "q": "Are the Dayton B652-AIR good for home theater?",
+        "a": "They're good budget surrounds. As front speakers, they suit small rooms at moderate volume, since their 40 W RMS handling limits peaks to around 93 dB at 10 ft. Pair them with a subwoofer and an 80–100 Hz crossover."
+      }
+    ]
+  },
+  {
+    "slug": "wharfedale-diamond-121",
+    "name": "Wharfedale Diamond 12.1",
+    "brand": "Wharfedale",
+    "category": "bookshelf",
+    "amazonQuery": "Wharfedale Diamond 12.1 bookshelf speakers",
+    "priceBand": "$250–$400 per pair",
+    "priceTier": 2,
+    "score": 82,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 85
+      },
+      {
+        "label": "Ease to drive",
+        "value": 74
+      },
+      {
+        "label": "Build & finish",
+        "value": 82
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "A compact British bookshelf with a warm, refined voice that suits small rooms and long listening, though its 86 dB rating asks for decent power.",
+    "verdict": "The Diamond 12.1 is the compact model in Wharfedale's long-running Diamond line: a **1-inch soft dome tweeter** over a **5-inch woofer**. Wharfedale rates it at **60 Hz–20 kHz**, **86 dB** and **8 ohms**.\n\nIts appeal is voicing. Where horn designs push detail forward, the Diamond 12.1 is warm and smooth, which makes long movie marathons and music easy on the ears. Owners often single out how natural voices sound, which matters in home theater because dialogue carries most of a film.\n\n**Show the maths.** At **86 dB**, 1 W gives about 76.5 dB at a seat 3 m (10 ft) away. Peaks of 95 dB need about **70 W**; 100 dB needs about **225 W**. Combined with a 5-inch woofer rated to 60 Hz, this tells you the Diamond 12.1 is happiest in small to medium rooms at moderate levels, with a subwoofer taking over at 80 Hz ([crossover basics](/glossary/crossover/), [sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe 8-ohm rating is easy on a receiver ([impedance explained](/glossary/impedance/)), so the limit is how much clean power it really delivers.\n\nThe trade-off: in a big room or at high volume, the [KEF Q3 Meta](/gear/kef-q3-meta/) and [SVS Prime Bookshelf](/gear/svs-prime-bookshelf/) have larger woofers and more headroom. Wharfedale doesn't have a matching center in our catalog, so if timbre matching matters, look at the [best center channel speakers](/best-center-channel-speaker-for-home-theater/) and pick one with a soft-dome tweeter.",
+    "bestFor": "Small rooms and listeners who prefer a warm, smooth sound",
+    "skipIf": "You have a large room or like action movies at high volume",
+    "pros": [
+      "Warm, refined voicing that's easy to listen to",
+      "Natural-sounding dialogue",
+      "Compact cabinet suits small rooms",
+      "Easy 8-ohm load"
+    ],
+    "cons": [
+      "86 dB sensitivity needs real power for loud peaks",
+      "5-inch woofer rated only to 60 Hz",
+      "Less punchy than horn-loaded rivals"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf",
+      "Drivers": "1-inch soft dome tweeter; 5-inch woofer",
+      "Frequency response": "60 Hz–20 kHz ±3 dB",
+      "Sensitivity": "86 dB",
+      "Impedance": "8 ohms",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Frequency response",
+      "Impedance"
+    ],
+    "faqs": [
+      {
+        "q": "Are the Wharfedale Diamond 12.1 good for home theater?",
+        "a": "They're good in small rooms, especially if you also listen to a lot of music. Their warm voicing keeps dialogue natural. Pair them with a subwoofer at an 80 Hz crossover, and expect to need a solid receiver if you like loud action scenes."
+      },
+      {
+        "q": "Do the Diamond 12.1 need a subwoofer?",
+        "a": "For movies, yes. The 5-inch woofer is rated down to 60 Hz, and most film soundtracks have heavy content below that. Let a subwoofer handle everything under 80 Hz and the Diamond 12.1 will also play louder and cleaner."
+      }
+    ]
+  },
+  {
+    "slug": "sony-ss-cs5",
+    "name": "Sony SS-CS5 Bookshelf Speakers",
+    "brand": "Sony",
+    "category": "bookshelf",
+    "amazonQuery": "Sony SS-CS5 3-way bookshelf speakers",
+    "priceBand": "$100–$150 per pair",
+    "priceTier": 1,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 72
+      },
+      {
+        "label": "Ease to drive",
+        "value": 80
+      },
+      {
+        "label": "Build & finish",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 88
+      }
+    ],
+    "summary": "A budget 3-way bookshelf with a super tweeter and an 88 dB rating, a reliable value pick that pairs with Sony's matching center and towers.",
+    "verdict": "The SS-CS5 is unusual at its price: a **3-way** design with a **5.12-inch mica-reinforced cellular woofer**, a **1-inch polyester main tweeter** and a **0.75-inch super tweeter**. Sony rates it at **53 Hz–50 kHz**, **88 dB**, **6 ohms** and 100 W maximum input.\n\nThat 50 kHz figure is well beyond what adults hear (roughly 20 kHz at best), so don't buy it for that. The super tweeter's practical job is to widen high-frequency dispersion, which helps the sound stay consistent across a sofa.\n\n**Show the maths.** The 88 dB rating is quoted at 2.83 V, which is about 1.33 W into 6 ohms, so the true per-watt figure is around **86.8 dB**. At 3 m (10 ft), 1 W gives about 77.3 dB at the seat, so 95 dB peaks need about **60 W**. That's comfortable for a budget AVR in a small to medium room ([sensitivity explained](/glossary/speaker-sensitivity/), [impedance explained](/glossary/impedance/)).\n\nThe 5.12-inch woofer needs help below 80 Hz, so add a subwoofer and set an 80 Hz [crossover](/glossary/crossover/).\n\nThe trade-off: cabinet build and finish are basic, and the treble can sound a little bright. But as a matched budget family with the [SS-CS8 center](/gear/sony-ss-cs8/) and [SS-CS3 towers](/gear/sony-ss-cs3/), it's hard to beat on value. See more in our [best budget home theater speakers](/best-budget-home-theater-speakers/).",
+    "bestFor": "Budget 5.1 systems that want a matched speaker family",
+    "skipIf": "You want premium build or a warm, relaxed treble",
+    "pros": [
+      "3-way design with super tweeter at a budget price",
+      "88 dB sensitivity suits entry-level receivers",
+      "Matches the SS-CS8 center and SS-CS3 towers",
+      "Long track record with owners"
+    ],
+    "cons": [
+      "6-ohm load means the 2.83 V rating flatters it slightly",
+      "Treble can be a touch bright",
+      "Basic cabinet finish"
+    ],
+    "specs": {
+      "Type": "3-way bookshelf",
+      "Drivers": "0.75-inch super tweeter; 1-inch polyester tweeter; 5.12-inch mica-reinforced cellular woofer",
+      "Frequency response": "53 Hz–50 kHz",
+      "Sensitivity": "88 dB (2.83 V / 1 m)",
+      "Impedance": "6 ohms",
+      "Recommended power": "100 W max input",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Frequency response"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Sony SS-CS5 super tweeter matter?",
+        "a": "Not for its 50 kHz extension, which is beyond human hearing. It matters because it spreads high frequencies more widely, so off-center seats hear more consistent treble. Think of it as a dispersion aid rather than a source of extra detail."
+      },
+      {
+        "q": "What center matches the Sony SS-CS5?",
+        "a": "The Sony SS-CS8. It uses the same family of drivers, including the super tweeter, so dialogue keeps the same tone as sounds pan across the front. Add SS-CS3 towers if you want more bass from the front left and right."
+      }
+    ]
+  },
+  {
+    "slug": "pioneer-sp-bs22-lr",
+    "name": "Pioneer SP-BS22-LR Andrew Jones Bookshelf Speakers",
+    "brand": "Pioneer",
+    "category": "bookshelf",
+    "amazonQuery": "Pioneer SP-BS22-LR Andrew Jones bookshelf",
+    "priceBand": "$100–$150 per pair",
+    "priceTier": 1,
+    "score": 72,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 74
+      },
+      {
+        "label": "Ease to drive",
+        "value": 66
+      },
+      {
+        "label": "Build & finish",
+        "value": 72
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "Andrew Jones's classic budget bookshelf still sounds balanced, but its 85 dB rating and 80 W limit make it a small-room speaker, and stock can be patchy.",
+    "verdict": "The SP-BS22-LR is the speaker that put Andrew Jones's budget designs on the map: a **4-inch structured-surface woofer**, a **1-inch soft dome tweeter**, a proper crossover and a rear port. Pioneer rates it at **55 Hz–20 kHz**, **85 dB**, **6 ohms** and **80 W** maximum input. It has been around for over a decade, so availability and pricing vary.\n\n**Show the maths.** This is where the BS22 shows its limits. The 85 dB figure is quoted at 2.83 V, which is about 1.33 W into 6 ohms, so the true per-watt figure is around **83.8 dB**. At 3 m (10 ft), 1 W gives roughly 74.3 dB at the seat. To reach 95 dB peaks you'd need about **118 W**, which is more than its 80 W maximum input. In other words, at a 10 ft seat, it tops out somewhere around 93 dB ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nMove closer and the picture improves: at 2 m (about 6.5 ft), you gain about 3.5 dB, so the same 80 W gets you past 96 dB. That makes it a small-room and near-field speaker.\n\nThe sound is balanced and coherent for the money, with smooth treble and natural voices. Set it to Small with a subwoofer and an 80–100 Hz [crossover](/glossary/crossover/).\n\nThe trade-off: the newer [ELAC Debut 2.0 B6.2](/gear/elac-debut-b62/), also an Andrew Jones design, has a 6.5-inch woofer and much more headroom. See more in our [best budget home theater speakers](/best-budget-home-theater-speakers/).",
+    "bestFor": "Small rooms, bedrooms and near-field listening on a budget",
+    "skipIf": "Your seats are more than about 3 m away or you like loud action films",
+    "pros": [
+      "Balanced, coherent sound for the price",
+      "Smooth soft-dome treble",
+      "Proper crossover design from Andrew Jones",
+      "Compact"
+    ],
+    "cons": [
+      "85 dB at 6 ohms is inefficient; 95 dB peaks at 10 ft exceed its 80 W limit",
+      "4-inch woofer needs a subwoofer",
+      "Availability varies as the model ages"
+    ],
+    "specs": {
+      "Type": "2-way bookshelf",
+      "Drivers": "1-inch soft dome tweeter; 4-inch structured-surface woofer",
+      "Frequency response": "55 Hz–20 kHz",
+      "Sensitivity": "85 dB (2.83 V / 1 m)",
+      "Impedance": "6 ohms",
+      "Recommended power": "80 W max input",
+      "Bass loading": "Rear port",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Recommended power"
+    ],
+    "faqs": [
+      {
+        "q": "Are the Pioneer SP-BS22-LR still worth buying?",
+        "a": "In a small room at a good price, yes. They still sound balanced. But their 85 dB sensitivity and 80 W limit mean they can't reach loud movie peaks at a typical 10 ft seat. For a living room, the ELAC Debut 2.0 B6.2 is the better buy."
+      },
+      {
+        "q": "Do the Pioneer SP-BS22-LR need an amplifier?",
+        "a": "Yes, they're passive speakers and need an AV receiver or stereo amplifier. Any receiver rated for 6-ohm speakers works. Use a subwoofer and set the speakers to Small so the 4-inch woofer isn't asked to play deep bass."
+      }
+    ]
+  }
+]

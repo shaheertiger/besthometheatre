@@ -1,0 +1,77 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import FAQ from '../../components/FAQ.astro';
+import { productsByCategory, productUrl } from '../../lib/data';
+import { breadcrumbs, faqPage, graph } from '../../lib/schema';
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'Tools', url: '/guides/' }, { name: 'Projector Throw Calculator', url: '/tools/projector-throw-calculator/' }];
+// Parse "1.13–1.47:1" / "1.5:1" / "0.25:1" style throw ratios from product specs.
+const presets = productsByCategory('projector').map((p) => {
+  const raw = p.specs['Throw ratio'] ?? '';
+  const nums = (raw.match(/\d+(\.\d+)?/g) ?? []).map(Number).filter((n) => n > 0.1 && n < 3);
+  if (!nums.length) return null;
+  return { slug: p.slug, name: p.name, url: productUrl(p), min: Math.min(...nums), max: Math.max(...nums) };
+}).filter(Boolean);
+const faqs = [
+  { q: 'How do you calculate projector throw distance?', a: 'Multiply the image width by the throw ratio. A 120-inch 16:9 screen is 104.6 inches wide, so a 1.5:1 projector needs 1.5 × 104.6 = 157 inches (13.1 ft) from lens to screen.' },
+  { q: 'What throw ratio do I need for a 100-inch screen in a small room?', a: 'A 100-inch 16:9 image is 87.2 inches wide. If you only have 8 feet (96 inches) to the back wall, you need a throw ratio of about 1.1:1 or lower, which means a short-throw projector or one with a wide zoom.' },
+  { q: 'Is throw distance measured from the lens or the back of the projector?', a: 'Manufacturers measure from the front of the lens to the screen. Add the projector body depth, plus about 4–6 inches for cables, to find how far from the back wall it can actually sit.' },
+  { q: 'Does lens shift change throw distance?', a: 'No. Lens shift moves the image up, down or sideways without changing size or distance, which helps you mount the projector off-center or higher without keystone correction (keystone reduces effective resolution).' },
+];
+const schema = graph(breadcrumbs(crumbs), { '@type': 'SoftwareApplication', name: 'Projector Throw Distance Calculator', applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }, { '@type': 'HowTo', name: 'How to calculate projector throw distance', step: [{ '@type': 'HowToStep', text: 'Find the image width from the screen diagonal and aspect ratio (16:9 width = diagonal × 0.8716).' }, { '@type': 'HowToStep', text: "Find the projector's throw ratio range on its spec sheet." }, { '@type': 'HowToStep', text: 'Multiply the image width by the minimum and maximum throw ratio to get the mounting range.' }] }, faqPage(faqs));
+---
+<Base title="Projector Throw Distance Calculator: Where to Mount It" description="Work out exactly how far your projector needs to sit from the screen for any screen size and throw ratio, with presets for popular home theater projectors." schema={schema}>
+  <PageHeader h1="Projector Throw Distance Calculator" crumbs={crumbs} eyebrow="Tools" intro="Enter your screen size and the projector's throw ratio to see how far from the screen the lens must sit, or pick a projector from our database." />
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+    <form id="throw" class="grid sm:grid-cols-2 gap-4 rounded-2xl border border-slate-200 p-5 bg-white shadow-sm" onsubmit="return false">
+      <label class="block sm:col-span-2 text-sm font-medium">Projector (optional)
+        <select id="preset" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2">
+          <option value="">Custom throw ratio</option>
+          {presets.map((p) => <option value={`${p!.min}|${p!.max}`}>{p!.name} ({p!.min === p!.max ? p!.min : `${p!.min}–${p!.max}`}:1)</option>)}
+        </select>
+      </label>
+      <label class="block text-sm font-medium">Screen diagonal (inches)<input id="diag" type="number" min="40" max="300" value="120" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+      <label class="block text-sm font-medium">Aspect ratio
+        <select id="aspect" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2"><option value="1.7778">16:9 (TV, streaming)</option><option value="2.35">2.35:1 (CinemaScope)</option><option value="1.3333">4:3</option></select>
+      </label>
+      <label class="block text-sm font-medium">Throw ratio min<input id="tmin" type="number" step="0.01" min="0.1" max="3" value="1.30" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+      <label class="block text-sm font-medium">Throw ratio max<input id="tmax" type="number" step="0.01" min="0.1" max="3" value="1.50" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+    </form>
+    <div class="mt-5 grid sm:grid-cols-3 gap-4" aria-live="polite">
+      <div class="rounded-xl bg-ink text-white p-4"><p class="text-xs uppercase tracking-wider text-slate-300">Throw distance</p><p id="outDist" class="mt-1 text-2xl font-extrabold">—</p><p id="outDistM" class="text-sm text-slate-300"></p></div>
+      <div class="rounded-xl border border-slate-200 p-4"><p class="text-xs uppercase tracking-wider text-slate-500">Image width</p><p id="outW" class="mt-1 text-2xl font-extrabold">—</p></div>
+      <div class="rounded-xl border border-slate-200 p-4"><p class="text-xs uppercase tracking-wider text-slate-500">Image height</p><p id="outH" class="mt-1 text-2xl font-extrabold">—</p></div>
+    </div>
+    <div class="prose mt-10">
+      <h2>How the Calculation Works</h2>
+      <p><strong>Throw distance = image width × throw ratio.</strong> For a 16:9 screen, width = diagonal × 0.8716 and height = diagonal × 0.4903. A zoom lens gives a range: the shortest distance uses the minimum ratio, the longest uses the maximum. See <a href="/glossary/throw-ratio/">throw ratio explained</a>.</p>
+      <h2>Next Steps</h2>
+      <ul>
+        <li>Compare picks in <a href="/best-projector-for-home-theater/">the best projectors for home theater</a> and <a href="/best-laser-projector-for-home-theater/">short-throw and laser projectors</a>.</li>
+        <li>Choose a surface: <a href="/best-projector-screen-for-home-theater/">best projector screens</a>.</li>
+        <li>Check the screen size suits your seat with the <a href="/tools/viewing-distance-calculator/">viewing distance calculator</a>.</li>
+      </ul>
+      <h2>FAQ</h2>
+    </div>
+    <FAQ faqs={faqs} />
+  </div>
+  <script is:inline>
+    (function () {
+      const $ = (id) => document.getElementById(id);
+      const ftin = (inch) => { const f = Math.floor(inch / 12); const i = Math.round(inch - f * 12); return i === 12 ? `${f + 1} ft 0 in` : `${f} ft ${i} in`; };
+      function calc() {
+        const d = +$('diag').value, a = +$('aspect').value, mn = +$('tmin').value, mx = Math.max(+$('tmax').value, mn);
+        if (!d || !a || !mn) return;
+        const w = d * a / Math.sqrt(a * a + 1), h = w / a;
+        const lo = w * mn, hi = w * mx;
+        $('outDist').textContent = mn === mx ? ftin(lo) : `${ftin(lo)} – ${ftin(hi)}`;
+        $('outDistM').textContent = mn === mx ? `${(lo * 0.0254).toFixed(2)} m` : `${(lo * 0.0254).toFixed(2)} – ${(hi * 0.0254).toFixed(2)} m`;
+        $('outW').textContent = `${w.toFixed(1)} in`;
+        $('outH').textContent = `${h.toFixed(1)} in`;
+      }
+      $('preset').addEventListener('change', (e) => { if (!e.target.value) return; const [mn, mx] = e.target.value.split('|'); $('tmin').value = mn; $('tmax').value = mx; calc(); });
+      ['diag', 'aspect', 'tmin', 'tmax'].forEach((id) => $(id).addEventListener('input', calc));
+      calc();
+    })();
+  </script>
+</Base>

@@ -1,0 +1,98 @@
+---
+import Base from '../layouts/Base.astro';
+import ProductImage from '../components/ProductImage.astro';
+import Score from '../components/Score.astro';
+import RelatedCards from '../components/RelatedCards.astro';
+import { SITE, CATEGORY_LABELS } from '../data/site';
+import { NAV } from '../data/nav';
+import { products, articles, articleMap, productUrl, brands } from '../lib/data';
+import { itemList, graph } from '../lib/schema';
+
+const goalPicks = [
+  { slug: 'best-home-theater-systems', label: 'Complete systems' },
+  { slug: 'best-projector-for-home-theater', label: 'Projectors' },
+  { slug: 'best-home-theater-receiver', label: 'AV receivers' },
+  { slug: 'best-home-theater-speakers', label: 'Speakers' },
+  { slug: 'best-subwoofer-for-home-theater', label: 'Subwoofers' },
+  { slug: 'best-soundbar-for-home-theater', label: 'Soundbars' },
+  { slug: 'best-budget-home-theater-system', label: 'On a budget' },
+  { slug: 'best-dolby-atmos-home-theater-system', label: 'Dolby Atmos' },
+].map((g) => ({ ...g, a: articleMap.get(g.slug) })).filter((g) => g.a);
+const top = products.filter((p) => ['projector', 'receiver', 'subwoofer', 'system', 'soundbar', 'tower', 'bookshelf', 'tv'].includes(p.category)).slice(0, 10);
+const guides = articles.filter((a) => a.kind !== 'roundup').slice(0, 6);
+const schema = graph(itemList(goalPicks.map((g) => ({ name: g.a!.h1, url: `/${g.slug}/` })), 'Best home theater gear'));
+---
+<Base title="Best Home Theater Review | Independent Home Theater Reviews" description={SITE.description} schema={schema}>
+  <section class="bg-[#0b1120] text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
+      <p class="text-xs font-bold uppercase tracking-[0.2em] text-gold">Independent · Spec-sheet first · No paid rankings</p>
+      <h1 class="mt-4 text-4xl sm:text-5xl font-extrabold tracking-tight leading-[1.1] max-w-3xl">Read the Spec Sheet. Build the Right Home Theater.</h1>
+      <p class="mt-5 text-lg text-slate-300 max-w-2xl">We match projectors, receivers, speakers and subwoofers to your room, your seat and your budget, and we show the maths behind every pick. {products.length} products from {brands.length} brands, scored.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="/best-home-theater-systems/" class="rounded-xl bg-gold text-ink font-bold px-5 py-3 no-underline hover:brightness-95">Best Home Theater Systems</a>
+        <a href="/best-projector-for-home-theater/" class="rounded-xl border border-white/30 font-semibold px-5 py-3 no-underline hover:bg-white/10">Best Projectors</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="mt-14">
+      <h2 class="text-2xl font-extrabold text-ink">Browse by Category</h2>
+      <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {NAV.slice(0, 4).map((g) => (
+          <div class="rounded-2xl border border-slate-200 p-5">
+            <h3 class="font-bold text-ink">{g.label}</h3>
+            <ul class="mt-3 space-y-2 text-sm">{g.links.slice(0, 5).map((l) => <li><a href={l.url} class="text-slate-600 hover:text-brand-600 no-underline"><span aria-hidden="true">{l.icon}</span> {l.title}</a></li>)}</ul>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="mt-14">
+      <h2 class="text-2xl font-extrabold text-ink">Best Home Theater Gear: Picks by Need &amp; Budget</h2>
+      <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {goalPicks.map((g) => {
+          const first = g.a!.picks?.[0];
+          const p = first ? products.find((x) => x.slug === first.product) : undefined;
+          return (
+            <a href={`/${g.slug}/`} class="group rounded-2xl border border-slate-200 p-5 hover:border-brand-500 hover:shadow-sm no-underline">
+              <p class="text-xs font-bold uppercase tracking-wider text-gold-dark">{g.label}</p>
+              <h3 class="mt-1 font-bold text-ink group-hover:text-brand-600 leading-snug">{g.a!.h1}</h3>
+              {p && <p class="mt-2 text-sm text-slate-500">Top pick: <span class="font-semibold text-slate-700">{p.name}</span></p>}
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="mt-14">
+      <h2 class="text-2xl font-extrabold text-ink">The {products.length} Products We Track: Top 10 by BHTR Score</h2>
+      <ol class="mt-5 grid md:grid-cols-2 gap-3">
+        {top.map((p, i) => (
+          <li><a href={productUrl(p)} class="flex items-center gap-4 rounded-xl border border-slate-200 p-3 hover:border-brand-500 no-underline">
+            <span class="w-7 text-center font-extrabold text-slate-400">{i + 1}</span>
+            <ProductImage product={p} size={160} class="w-14 h-14 shrink-0 rounded-lg" />
+            <span class="min-w-0 flex-1"><span class="block font-semibold text-ink leading-snug">{p.name}</span><span class="text-xs text-slate-500">{CATEGORY_LABELS[p.category]} · {p.priceBand}</span></span>
+            <Score score={p.score} />
+          </a></li>
+        ))}
+      </ol>
+      <p class="mt-4"><a href="/gear/" class="font-semibold text-brand-600">See all {products.length} products ranked →</a></p>
+    </section>
+
+    <section class="mt-16 rounded-3xl bg-slate-50 border border-slate-200 p-6 sm:p-10">
+      <h2 class="text-2xl font-extrabold text-ink">Built on the Spec Sheet, Not the Marketing</h2>
+      <p class="mt-3 text-slate-600 max-w-3xl">"4,000 lumens" can mean 1,200 real ones. "150 watts per channel" is usually measured with two channels driven. We read past the headline numbers, convert them into what they mean in your room, and say plainly who should skip a product.</p>
+      <h2 class="mt-10 text-2xl font-extrabold text-ink">How We're Different From Other Review Sites</h2>
+      <div class="mt-5 grid md:grid-cols-3 gap-6">
+        <div><h3 class="font-bold text-ink">We Do the Maths</h3><p class="mt-2 text-sm text-slate-600">Throw distance for your screen, amplifier headroom for your speakers, sub output for your room volume. Try the <a href="/tools/projector-throw-calculator/" class="underline">throw calculator</a>.</p></div>
+        <div><h3 class="font-bold text-ink">Room First, Product Second</h3><p class="mt-2 text-sm text-slate-600">Every pick says who it suits and who should skip it, by room size, light and budget.</p></div>
+        <div><h3 class="font-bold text-ink">No Paid Placements</h3><p class="mt-2 text-sm text-slate-600">Brands can't buy a spot or a score. <a href="/how-we-test/" class="underline">See how we score</a>.</p></div>
+      </div>
+    </section>
+
+    {guides.length > 0 && (
+      <section class="mt-14"><h2 class="text-2xl font-extrabold text-ink">Latest Guides &amp; Brand Reviews</h2><RelatedCards articles={guides} /></section>
+    )}
+  </div>
+</Base>
