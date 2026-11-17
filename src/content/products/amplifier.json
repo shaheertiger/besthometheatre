@@ -9,10 +9,22 @@
     "priceTier": 3,
     "score": 86,
     "scores": [
-      {"label": "Power for the money", "value": 90},
-      {"label": "Connectivity", "value": 86},
-      {"label": "Build quality", "value": 86},
-      {"label": "Ease of setup", "value": 80}
+      {
+        "label": "Power for the money",
+        "value": 90
+      },
+      {
+        "label": "Connectivity",
+        "value": 86
+      },
+      {
+        "label": "Build quality",
+        "value": 86
+      },
+      {
+        "label": "Ease of setup",
+        "value": 80
+      }
     ],
     "summary": "A seven-channel Class AB power amp rated at 200 W/ch into 8 Ω with balanced and RCA inputs, the most power per dollar here for taking the load off a receiver.",
     "verdict": "The Monolith 7x200 does one job: it takes over amplification from your receiver. You need a receiver with **pre-outs** for every channel you want it to drive, such as the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) or [Marantz Cinema 50](/gear/marantz-cinema-50/), which have 11.4-channel pre-outs.\n\nMonoprice rates it at **200 W/ch into 8 Ω and 300 W/ch into 4 Ω**. Compare that with the X3800H's 105 W/ch (2 channels driven): 10 × log10(200 ÷ 105) = **2.8 dB** more headroom per channel on paper. The bigger win is architectural. When the amp drives the seven ear-level and front channels from its own power supply, the receiver's internal amps only handle the heights, so neither supply is stretched.\n\nHere is what that means in a room. With 85 dB [sensitivity](/glossary/speaker-sensitivity/) speakers, 200 W gives 85 + 23 = 108 dB at 1 m. At a 3.5 m seat you lose about 10.9 dB, leaving roughly 97 dB per speaker before the subwoofer adds bass. That is the kind of headroom low-sensitivity towers need in a big room.\n\nA good plan for **7.1.4**: receiver powers four heights, Monolith powers seven ear-level speakers. For the full field, see our [best home theater amplifier](/best-home-theater-amplifier/) guide.",
@@ -36,10 +48,21 @@
       "Inputs": "Balanced XLR and unbalanced RCA",
       "Features": "Toroidal transformer, 12 V trigger"
     },
-    "keySpecs": ["Channels", "Power (rated)", "Class", "Inputs"],
+    "keySpecs": [
+      "Channels",
+      "Power (rated)",
+      "Class",
+      "Inputs"
+    ],
     "faqs": [
-      {"q": "Do I need an amplifier if my receiver is already 7.2?", "a": "Usually not in a small or medium room with efficient speakers. An external amp makes sense with low-sensitivity speakers, a large room, or a 9-channel receiver where you want to add channels for 7.1.4 using its pre-outs."},
-      {"q": "How do I connect the Monolith 7x200 to a receiver?", "a": "Run RCA or XLR cables from the receiver's pre-outs to the amp's inputs, connect speakers to the amp, and set the receiver to use those channels as pre-outs. Your receiver must have pre-outs for each channel the amp will power."}
+      {
+        "q": "Do I need an amplifier if my receiver is already 7.2?",
+        "a": "Usually not in a small or medium room with efficient speakers. An external amp makes sense with low-sensitivity speakers, a large room, or a 9-channel receiver where you want to add channels for 7.1.4 using its pre-outs."
+      },
+      {
+        "q": "How do I connect the Monolith 7x200 to a receiver?",
+        "a": "Run RCA or XLR cables from the receiver's pre-outs to the amp's inputs, connect speakers to the amp, and set the receiver to use those channels as pre-outs. Your receiver must have pre-outs for each channel the amp will power."
+      }
     ]
   },
   {
@@ -52,10 +75,22 @@
     "priceTier": 3,
     "score": 83,
     "scores": [
-      {"label": "Power for the money", "value": 76},
-      {"label": "Connectivity", "value": 84},
-      {"label": "Build quality", "value": 92},
-      {"label": "Ease of setup", "value": 82}
+      {
+        "label": "Power for the money",
+        "value": 76
+      },
+      {
+        "label": "Connectivity",
+        "value": 84
+      },
+      {
+        "label": "Build quality",
+        "value": 92
+      },
+      {
+        "label": "Ease of setup",
+        "value": 82
+      }
     ],
     "summary": "A 200 W/ch Class AB stereo power amp with balanced inputs, ideal for driving front left and right speakers from a receiver's pre-outs.",
     "verdict": "The RB-1582 MkII is a two-channel power amplifier, which makes it the natural partner for a **nine-channel receiver with 11-channel processing**. The maths: a 7.1.4 system has 7 + 4 = **11** speakers. A receiver like the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) powers nine, and the Rotel takes the remaining two, usually the front left and right, which work hardest in most mixes.\n\nRotel rates it at **200 W/ch into 8 Ω (20 Hz–20 kHz, both channels driven)**. Compared with a receiver channel rated at 105 W (2 channels driven), that is 10 × log10(200 ÷ 105) = **2.8 dB** more headroom. More important, the front pair now runs from a separate power supply, so the receiver's supply only feeds nine channels instead of eleven.\n\nIn a room with 86 dB [sensitivity](/glossary/speaker-sensitivity/) towers and a 3.5 m seat, 200 W gives 86 + 23 = 109 dB at 1 m and about 98 dB at the seat. Pair that with a properly set [crossover](/glossary/crossover/) so the subwoofer handles everything below 80 Hz, and the fronts have plenty in reserve.\n\nIt also works as the power half of a stereo system with a preamp. If you need seven channels instead of two, the [Monoprice Monolith 7x200](/gear/monoprice-monolith-7x200/) is the better buy. See the [best home theater amplifier](/best-home-theater-amplifier/) guide for more.",
@@ -79,10 +114,21 @@
       "Inputs": "Balanced XLR and unbalanced RCA",
       "Features": "Toroidal transformer, 12 V trigger"
     },
-    "keySpecs": ["Channels", "Power (rated)", "Class", "Inputs"],
+    "keySpecs": [
+      "Channels",
+      "Power (rated)",
+      "Class",
+      "Inputs"
+    ],
     "faqs": [
-      {"q": "Can I use the Rotel RB-1582 MkII with an AV receiver?", "a": "Yes, if the receiver has pre-outs. Connect the receiver's front left and right pre-outs to the Rotel's inputs and the speakers to the Rotel. The receiver still handles processing and room correction."},
-      {"q": "Will a 200 W amp make my speakers louder than a receiver?", "a": "A little. Going from 105 W to 200 W adds about 2.8 dB of headroom. The bigger benefit is that the receiver's power supply no longer has to feed those channels."}
+      {
+        "q": "Can I use the Rotel RB-1582 MkII with an AV receiver?",
+        "a": "Yes, if the receiver has pre-outs. Connect the receiver's front left and right pre-outs to the Rotel's inputs and the speakers to the Rotel. The receiver still handles processing and room correction."
+      },
+      {
+        "q": "Will a 200 W amp make my speakers louder than a receiver?",
+        "a": "A little. Going from 105 W to 200 W adds about 2.8 dB of headroom. The bigger benefit is that the receiver's power supply no longer has to feed those channels."
+      }
     ]
   },
   {
@@ -95,10 +141,22 @@
     "priceTier": 3,
     "score": 80,
     "scores": [
-      {"label": "Power for the money", "value": 84},
-      {"label": "Connectivity", "value": 78},
-      {"label": "Build quality", "value": 80},
-      {"label": "Ease of setup", "value": 80}
+      {
+        "label": "Power for the money",
+        "value": 84
+      },
+      {
+        "label": "Connectivity",
+        "value": 78
+      },
+      {
+        "label": "Build quality",
+        "value": 80
+      },
+      {
+        "label": "Ease of setup",
+        "value": 80
+      }
     ],
     "summary": "A seven-channel power amp rated at 125 W/ch into 8 Ω that offloads a full set of ear-level speakers from your receiver for less than the Monolith 7x200.",
     "verdict": "The BasX A-700 gives you **seven channels of external amplification**, enough to take every ear-level speaker in a 7.1 or 7.1.4 system off your receiver. You need a receiver with pre-outs for each channel, such as the [Denon AVR-X3800H](/gear/denon-avr-x3800h/).\n\nEmotiva rates it at **125 W/ch into 8 Ω**. On paper, compared with a receiver channel rated at 80 W (2 channels driven), that is 10 × log10(125 ÷ 80) = **1.9 dB** more headroom. Against the [Monoprice Monolith 7x200](/gear/monoprice-monolith-7x200/) at 200 W, the A-700 gives up 10 × log10(200 ÷ 125) = **2 dB**.\n\nWhy buy it then? The value is in splitting the work. A receiver rated by its maker at two channels driven has to feed seven, nine or eleven speakers from one supply. Moving seven channels to a dedicated amp leaves the receiver to power only the heights, which is the practical way to get more real multichannel output.\n\nRun the room numbers: with 87 dB [sensitivity](/glossary/speaker-sensitivity/) speakers, 125 W gives 87 + 21 = 108 dB at 1 m and about 98.5 dB at a 3 m seat. That suits most medium rooms. If your speakers are rated 85 dB or lower and the room is large, the Monolith's extra 2 dB is worth paying for. See our [best home theater amplifier](/best-home-theater-amplifier/) picks.",
@@ -116,12 +174,24 @@
     "specs": {
       "Channels": "7",
       "Power (rated)": "125 W/ch into 8 Ω (manufacturer rating)",
+      "Class": "Not confirmed: check current listing",
       "Inputs": "Line-level RCA"
     },
-    "keySpecs": ["Channels", "Power (rated)", "Inputs"],
+    "keySpecs": [
+      "Channels",
+      "Power (rated)",
+      "Class",
+      "Inputs"
+    ],
     "faqs": [
-      {"q": "Emotiva BasX A-700 vs Monoprice Monolith 7x200: which is better?", "a": "The Monolith is rated at 200 W/ch versus 125 W/ch, about 2 dB more headroom, and suits large rooms and low-sensitivity speakers. The A-700 costs less and is enough for most medium rooms."},
-      {"q": "Does the Emotiva A-700 work with any receiver?", "a": "Only with receivers that have pre-outs for the channels you want it to drive. Many 7.2 receivers only have subwoofer and zone pre-outs, so check before you buy."}
+      {
+        "q": "Emotiva BasX A-700 vs Monoprice Monolith 7x200: which is better?",
+        "a": "The Monolith is rated at 200 W/ch versus 125 W/ch, about 2 dB more headroom, and suits large rooms and low-sensitivity speakers. The A-700 costs less and is enough for most medium rooms."
+      },
+      {
+        "q": "Does the Emotiva A-700 work with any receiver?",
+        "a": "Only with receivers that have pre-outs for the channels you want it to drive. Many 7.2 receivers only have subwoofer and zone pre-outs, so check before you buy."
+      }
     ]
   },
   {
@@ -134,10 +204,22 @@
     "priceTier": 2,
     "score": 70,
     "scores": [
-      {"label": "Power for the money", "value": 68},
-      {"label": "Connectivity", "value": 68},
-      {"label": "Build quality", "value": 72},
-      {"label": "Ease of setup", "value": 74}
+      {
+        "label": "Power for the money",
+        "value": 68
+      },
+      {
+        "label": "Connectivity",
+        "value": 68
+      },
+      {
+        "label": "Build quality",
+        "value": 72
+      },
+      {
+        "label": "Ease of setup",
+        "value": 74
+      }
     ],
     "summary": "A three-channel power amp for the front left, center and right speakers; confirm its power rating on the listing before you compare it with rivals.",
     "verdict": "A three-channel amp like the BasX A3 targets the speakers that do the most work in a movie: **front left, center and right**. Most dialogue sits in the center channel, and the big effects and music sit in the front three, so offloading those three from a receiver gives the biggest return per channel.\n\nWe have kept the spec sheet short here: we could not confirm Emotiva's power rating and test conditions for this model, so we have left them out rather than guess. When you check the listing, look for a rating at **8 Ω across 20 Hz–20 kHz**, and note whether it is quoted with one, two or all three channels driven.\n\nThen run the maths. Loudness at 1 m = sensitivity + 10 × log10(watts). With an 88 dB [sensitivity](/glossary/speaker-sensitivity/) center speaker, 100 W gives 108 dB at 1 m and about 98.5 dB at a 3 m seat. Each doubling of power adds only 3 dB, so an amp is worth adding only if it at least doubles what your receiver delivers per channel.\n\nYour receiver must have pre-outs for L, C and R. Nine-channel models like the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) do. If you want to offload all ear-level channels instead, the [Emotiva BasX A-700](/gear/emotiva-basx-a-700/) covers seven. See the [best home theater amplifier](/best-home-theater-amplifier/) guide.",
@@ -145,7 +227,8 @@
     "skipIf": "Your receiver lacks front pre-outs, or you want verified specs before buying",
     "pros": [
       "Powers the three channels that work hardest in movies",
-      "Frees the receiver's supply for surrounds and heights"
+      "Frees the receiver's supply for surrounds and heights",
+      "Adds headroom to the front three channels without replacing your receiver"
     ],
     "cons": [
       "Power rating not confirmed here; check the listing",
@@ -158,10 +241,21 @@
       "Class": "Not confirmed: check current listing",
       "Inputs": "Not confirmed: check current listing"
     },
-    "keySpecs": ["Channels", "Power (rated)", "Class", "Inputs"],
+    "keySpecs": [
+      "Channels",
+      "Power (rated)",
+      "Class",
+      "Inputs"
+    ],
     "faqs": [
-      {"q": "What is a three-channel amplifier used for in home theater?", "a": "It powers the front left, center and right speakers from a receiver's pre-outs. Those three channels carry most dialogue, music and effects, so they benefit most from extra headroom."},
-      {"q": "Will adding a three-channel amp make a difference?", "a": "Only if it at least doubles the power your receiver delivers to those channels. Each doubling adds about 3 dB. The other benefit is that the receiver's own supply then feeds fewer channels."}
+      {
+        "q": "What is a three-channel amplifier used for in home theater?",
+        "a": "It powers the front left, center and right speakers from a receiver's pre-outs. Those three channels carry most dialogue, music and effects, so they benefit most from extra headroom."
+      },
+      {
+        "q": "Will adding a three-channel amp make a difference?",
+        "a": "Only if it at least doubles the power your receiver delivers to those channels. Each doubling adds about 3 dB. The other benefit is that the receiver's own supply then feeds fewer channels."
+      }
     ]
   },
   {
@@ -175,10 +269,22 @@
     "priceTier": 2,
     "score": 80,
     "scores": [
-      {"label": "Power for the money", "value": 80},
-      {"label": "Connectivity", "value": 84},
-      {"label": "Build quality", "value": 80},
-      {"label": "Ease of setup", "value": 78}
+      {
+        "label": "Power for the money",
+        "value": 80
+      },
+      {
+        "label": "Connectivity",
+        "value": 84
+      },
+      {
+        "label": "Build quality",
+        "value": 80
+      },
+      {
+        "label": "Ease of setup",
+        "value": 78
+      }
     ],
     "summary": "An 85 W/ch stereo integrated amp with a built-in DAC, phono stage and subwoofer output, a good base for a 2.1 TV and music system.",
     "verdict": "The A-S501 is a **stereo integrated amplifier**, not a surround receiver. It makes sense in a 2.0 or 2.1 setup where music matters as much as movies, with the TV feeding it over optical.\n\nYamaha rates it at **85 W/ch (8 Ω, 20 Hz–20 kHz, 0.019% THD)**. Compare that with the [Denon PMA-600NE](/gear/denon-pma-600ne/) at 45 W/ch into 8 Ω: 10 × log10(85 ÷ 45) = **2.8 dB** more headroom. That is close to the 3 dB you get from doubling power, and it is audible with less sensitive bookshelf speakers.\n\nRoom maths: with 87 dB [sensitivity](/glossary/speaker-sensitivity/) speakers, 85 W gives 87 + 19.3 = about 106 dB at 1 m, or about 97 dB at a 3 m seat. That covers loud movie nights in a living room, especially if the **subwoofer output** sends bass to a powered sub. A sub such as the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) takes the deepest notes off the amp entirely and lets the speakers play louder cleanly.\n\nThe built-in DAC (optical and coaxial) and MM phono stage make it a tidy hub for a TV, turntable and streamer. What you give up is surround: no center channel, no surrounds, no Atmos. If you want those, start with our [best home theater receiver](/best-home-theater-receiver/) guide instead.",
@@ -202,10 +308,21 @@
       "Inputs": "Optical and coaxial digital, phono (MM), line-level RCA",
       "Features": "Built-in DAC, subwoofer output, Pure Direct mode, tone controls"
     },
-    "keySpecs": ["Channels", "Power (rated)", "Inputs", "Features"],
+    "keySpecs": [
+      "Channels",
+      "Power (rated)",
+      "Inputs",
+      "Features"
+    ],
     "faqs": [
-      {"q": "Can I use the Yamaha A-S501 for home theater?", "a": "For a 2.0 or 2.1 setup, yes. Connect the TV's optical output to the amp and add a powered subwoofer to the sub output. It does not decode surround sound, so there is no center, surround or Atmos channel."},
-      {"q": "Is 85 watts per channel enough?", "a": "For most living rooms with speakers rated around 87 dB or higher, yes. That gives about 106 dB at 1 m and about 97 dB at a 3 m seat."}
+      {
+        "q": "Can I use the Yamaha A-S501 for home theater?",
+        "a": "For a 2.0 or 2.1 setup, yes. Connect the TV's optical output to the amp and add a powered subwoofer to the sub output. It does not decode surround sound, so there is no center, surround or Atmos channel."
+      },
+      {
+        "q": "Is 85 watts per channel enough?",
+        "a": "For most living rooms with speakers rated around 87 dB or higher, yes. That gives about 106 dB at 1 m and about 97 dB at a 3 m seat."
+      }
     ]
   },
   {
@@ -218,10 +335,22 @@
     "priceTier": 2,
     "score": 77,
     "scores": [
-      {"label": "Power for the money", "value": 70},
-      {"label": "Connectivity", "value": 84},
-      {"label": "Build quality", "value": 78},
-      {"label": "Ease of setup", "value": 80}
+      {
+        "label": "Power for the money",
+        "value": 70
+      },
+      {
+        "label": "Connectivity",
+        "value": 84
+      },
+      {
+        "label": "Build quality",
+        "value": 78
+      },
+      {
+        "label": "Ease of setup",
+        "value": 80
+      }
     ],
     "summary": "A stereo integrated amp with Bluetooth, a built-in DAC and a phono stage, rated at 45 W/ch into 8 Ω and best matched with efficient speakers in a small room.",
     "verdict": "The PMA-600NE is a **stereo integrated amplifier** for a 2.0 or 2.1 TV and music system. It connects to the TV over optical or coaxial, streams from your phone over Bluetooth and has a moving-magnet phono stage.\n\nDenon rates it at **45 W/ch into 8 Ω** and **70 W/ch into 4 Ω**. Here is what that means. Loudness at 1 m = sensitivity + 10 × log10(watts), and 10 × log10(45) is 16.5 dB. With 87 dB [sensitivity](/glossary/speaker-sensitivity/) speakers, that is about 103.5 dB at 1 m and roughly 94 dB at a 3 m seat. With efficient 90 dB speakers, you gain 3 dB, the same as doubling the amp's power.\n\nThat is the key buying lesson: **choose efficient speakers** with this amp. Against the [Yamaha A-S501](/gear/yamaha-a-s501/) at 85 W/ch, the Denon gives up 10 × log10(85 ÷ 45) = **2.8 dB**. A speaker that is 3 dB more sensitive closes that gap completely. Note that 4 Ω speakers draw more current; check your speakers' [impedance](/glossary/impedance/) before you assume the 70 W figure applies.\n\nAnalog Mode switches off the digital circuits for cleaner analog playback. It is a strong choice for a small room. For surround sound, see our [best budget home theater receiver](/best-budget-home-theater-receiver/) guide.",
@@ -245,10 +374,21 @@
       "Inputs": "Bluetooth, optical and coaxial digital, phono (MM), line-level RCA",
       "Features": "Built-in DAC, Analog Mode, tone controls"
     },
-    "keySpecs": ["Channels", "Power (rated)", "Inputs", "Features"],
+    "keySpecs": [
+      "Channels",
+      "Power (rated)",
+      "Inputs",
+      "Features"
+    ],
     "faqs": [
-      {"q": "Is the Denon PMA-600NE powerful enough?", "a": "With efficient speakers in a small or medium room, yes. With 87 dB speakers, 45 W gives about 103.5 dB at 1 m and roughly 94 dB at 3 m. Low-sensitivity speakers or larger rooms call for more power."},
-      {"q": "Can the Denon PMA-600NE connect to a TV?", "a": "Yes. Use the TV's optical output into one of the amp's digital inputs. It plays stereo only, so surround tracks are downmixed by the TV."}
+      {
+        "q": "Is the Denon PMA-600NE powerful enough?",
+        "a": "With efficient speakers in a small or medium room, yes. With 87 dB speakers, 45 W gives about 103.5 dB at 1 m and roughly 94 dB at 3 m. Low-sensitivity speakers or larger rooms call for more power."
+      },
+      {
+        "q": "Can the Denon PMA-600NE connect to a TV?",
+        "a": "Yes. Use the TV's optical output into one of the amp's digital inputs. It plays stereo only, so surround tracks are downmixed by the TV."
+      }
     ]
   },
   {
@@ -261,10 +401,22 @@
     "priceTier": 1,
     "score": 72,
     "scores": [
-      {"label": "Power for the money", "value": 86},
-      {"label": "Connectivity", "value": 58},
-      {"label": "Build quality", "value": 70},
-      {"label": "Ease of setup", "value": 74}
+      {
+        "label": "Power for the money",
+        "value": 86
+      },
+      {
+        "label": "Connectivity",
+        "value": 58
+      },
+      {
+        "label": "Build quality",
+        "value": 70
+      },
+      {
+        "label": "Ease of setup",
+        "value": 74
+      }
     ],
     "summary": "A tiny, low-cost Class D stereo amp built on the TI TPA3255 chip, good for powering passive speakers on a budget but bare on inputs and features.",
     "verdict": "The Fosi V3 is a compact **Class D stereo amplifier** built around Texas Instruments' TPA3255 chip and powered by an external DC supply. It is a no-frills way to drive a pair of passive bookshelf speakers from a TV, streamer or DAC.\n\nWe have not listed a single power figure because Class D amps like this deliver different output depending on the supply voltage and speaker [impedance](/glossary/impedance/), and marketing numbers are often peak figures. Instead, do the maths for your room. Loudness at 1 m = sensitivity + 10 × log10(watts), and you lose about 9.5 dB by a 3 m seat. To hit 100 dB peaks at 3 m with 86 dB speakers, you need 86 + 10 × log10(P) − 9.5 = 100, so P is about **224 W**. With 90 dB speakers, the same target needs only about **89 W**.\n\nThat 4 dB of [sensitivity](/glossary/speaker-sensitivity/) cuts the power needed by more than half, which is why efficient speakers suit a compact amp. For everyday TV listening around 85 dB at the seat, the same 86 dB speakers need under 10 W.\n\nWhat you give up: there is no digital input, so the TV needs an analog output or a separate DAC, and there is no subwoofer output. For a TV system with more connections, the [Yamaha A-S501](/gear/yamaha-a-s501/) is a big step up. See the [best home theater amplifier](/best-home-theater-amplifier/) guide.",
@@ -286,10 +438,21 @@
       "Inputs": "Line-level RCA",
       "Features": "External DC power supply"
     },
-    "keySpecs": ["Channels", "Class", "Inputs", "Features"],
+    "keySpecs": [
+      "Channels",
+      "Class",
+      "Inputs",
+      "Features"
+    ],
     "faqs": [
-      {"q": "Can the Fosi Audio V3 power home theater speakers?", "a": "It can power a pair of passive speakers for stereo TV sound. It has no surround decoding, no digital input and no sub output, so pair it with a TV that has an analog output or use an external DAC."},
-      {"q": "How much power do I really need?", "a": "With 90 dB speakers, about 89 W reaches 100 dB peaks at 3 m; with 86 dB speakers you need about 224 W. Everyday TV listening at around 85 dB needs under 10 W."}
+      {
+        "q": "Can the Fosi Audio V3 power home theater speakers?",
+        "a": "It can power a pair of passive speakers for stereo TV sound. It has no surround decoding, no digital input and no sub output, so pair it with a TV that has an analog output or use an external DAC."
+      },
+      {
+        "q": "How much power do I really need?",
+        "a": "With 90 dB speakers, about 89 W reaches 100 dB peaks at 3 m; with 86 dB speakers you need about 224 W. Everyday TV listening at around 85 dB needs under 10 W."
+      }
     ]
   }
 ]
