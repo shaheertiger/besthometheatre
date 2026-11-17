@@ -241,11 +241,12 @@
     ],
     "cons": [
       "Pricey for the protection features",
-      "Features vary across VII models; check the listing",
-      "No over-voltage disconnect"
+      "Joule rating and coax/Ethernet protection vary across VII models",
+      "Less installer track record than Panamax, Furman or Tripp Lite"
     ],
     "specs": {
       "Outlets": "8",
+      "Joule rating": "Varies by VII model (check listing)",
       "Filtering": "PowerTrue power-line noise filtering",
       "Form factor": "Power strip with braided cord and Omniport USB charging",
       "Coax/Ethernet protection": "Varies by VII model (check listing)",
