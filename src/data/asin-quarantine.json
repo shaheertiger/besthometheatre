@@ -1,1 +1,23 @@
-{}
+{
+  "great-northern-popcorn-machine": "Matched a replacement kettle, not the machine",
+  "austere-vii-8-outlet": "Matched a wall outlet extender, not the 8-outlet power strip",
+  "tripp-lite-isobar-8": "Matched the 10-outlet HT10DBS, not the Isobar 8",
+  "xgimi-horizon-s-max": "Matched Horizon 30 Ultra Max, a different projector",
+  "optoma-uhz35": "Matched the UHZ35ST short-throw variant",
+  "dangbei-n2": "Matched N2 mini, a different model",
+  "formovie-theater-premium": "Matched the non-Premium Theater",
+  "bose-smart-soundbar": "Matched Lifestyle Ultra bundle",
+  "jbl-bar-1000": "Matched Bar 1000MK2 successor",
+  "vizio-v-series-21": "Matched a replacement remote",
+  "ultimea-nova-s50": "Matched Poseidon M60, a different bar",
+  "klipsch-r-625fa-51-system": "Matched a bundle that includes an Onkyo receiver",
+  "polk-monitor-xt-51-system": "Matched a single XT15 pair",
+  "svs-prime-satellite-51": "Matched a single satellite pair, not the 5.1 system",
+  "vizio-m-series-512": "Matched Elevate SE, not the M-Series",
+  "nakamichi-shockwafe-ultra-924": "Matched a power adapter",
+  "klipsch-r-625fa": "Matched a 5.2 system bundle, not the single tower",
+  "hisense-u75qg": "Matched 2026 U7SG, a different model",
+  "klipsch-the-fives": "Matched The Fives II successor",
+  "sonos-era-100": "Matched Era 100 SL 2-pack",
+  "edifier-s3000pro": "Matched S3000MKII, a different model"
+}

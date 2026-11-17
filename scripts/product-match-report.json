@@ -1,0 +1,1428 @@
+[
+  {
+    "slug": "monoprice-monolith-7x200",
+    "name": "Monoprice Monolith 7x200 Amplifier",
+    "status": "rejected",
+    "topResultTitle": "Monolith Multi-Channel Home Theater Power Amplifier - with 5x200 Watt Per Channel InTo 8 Ohms, XLR and RCA Inputs, 2 Toroidal Transformers"
+  },
+  {
+    "slug": "rotel-rb-1582",
+    "name": "Rotel RB-1582 MkII",
+    "status": "rejected",
+    "topResultTitle": "Rotel DX-5 Integrated Amplifier"
+  },
+  {
+    "slug": "emotiva-basx-a-700",
+    "name": "Emotiva BasX A-700",
+    "status": "rejected",
+    "topResultTitle": "Outlaw Audio 7000x 7-Channel Home Theater Power Amplifier, 130W x 7 at 8 Ohms, 200W x 7 at 4 Ohms, Balanced XLR and RCA Inputs, 12V Trigger, Black"
+  },
+  {
+    "slug": "emotiva-basx-a3",
+    "name": "Emotiva BasX A3",
+    "status": "rejected",
+    "topResultTitle": "ALSOZONE+3eAudio PAM253 Multi-Channel Power Amplifier- 3 Channel amp,250W Per Channel,TPA3255 PBTL,GaN & PFFB (THD 0.0003%@8Ω),Auto Mode & Protection for Home Theater (PAM253)"
+  },
+  {
+    "slug": "yamaha-a-s501",
+    "name": "Yamaha A-S501 Integrated Amplifier",
+    "status": "accepted",
+    "asin": "B00MXUCMWO",
+    "matchedTitle": "YAMAHA A-S501SL Natural Sound Integrated Stereo Amplifier (Silver)"
+  },
+  {
+    "slug": "denon-pma-600ne",
+    "name": "Denon PMA-600NE Integrated Amplifier",
+    "status": "accepted",
+    "asin": "B07XL4TM3M",
+    "matchedTitle": "Denon PMA-600NE Bluetooth Stereo Amplifier, 2 Channel Amplifier Home Audio | Integrated Amp 70W x 2, Built-in DAC & Phono Pre-Amp, Analog Mode, Advanced Ultra High Current Power"
+  },
+  {
+    "slug": "fosi-audio-v3",
+    "name": "Fosi Audio V3 Amplifier",
+    "status": "accepted",
+    "asin": "B0CGCSM191",
+    "matchedTitle": "Fosi Audio V3 Stereo Amplifier Home Audio 300 Watts x2 Power TPA3255 Class D Mini Speaker Amp 2 Channel Audio Component for Passive Bookshelf Tower Speakers Desktop Home Theater with 48V Power Supply"
+  },
+  {
+    "slug": "klipsch-r-41sa",
+    "name": "Klipsch R-41SA Dolby Atmos Elevation Speakers",
+    "status": "accepted",
+    "asin": "B07FKCP7PY",
+    "matchedTitle": "Klipsch R-41SA Powerful Detailed Home Speaker Set of 2 Black"
+  },
+  {
+    "slug": "polk-monitor-xt90",
+    "name": "Polk Monitor XT90 Height Module",
+    "status": "accepted",
+    "asin": "B09BMVN8SZ",
+    "matchedTitle": "Polk Audio Monitor XT90 Height Speaker Pair for 3D Sound, Midnight Black | Hi-Res Dolby Atmos-Certified, DTS:X and DTS Virtual:X Compatible, 4\" Dynamically Balanced Woofer, Surround Sound Speakers"
+  },
+  {
+    "slug": "elac-debut-a42",
+    "name": "ELAC Debut A4.2 Atmos Module",
+    "status": "accepted",
+    "asin": "B07B4P9TYJ",
+    "matchedTitle": "ELAC Debut 2.0 A4.2 Dolby Atmos Module Speakers, Black (Pair) - Concentric Driver with 0.5” Polymer Tweeter & 4” Aramid Fiber Woofer"
+  },
+  {
+    "slug": "klipsch-r-50m",
+    "name": "Klipsch R-50M Bookshelf Speakers",
+    "status": "accepted",
+    "asin": "B09PC5FWXT",
+    "matchedTitle": "Klipsch Reference Next-Generation R-50M Horn-Loaded Bookshelf Speakers with 5.25” Spun-Copper Woofers for Best-in-Class Home Theater Sound in Black"
+  },
+  {
+    "slug": "klipsch-rp-600m-ii",
+    "name": "Klipsch RP-600M II Bookshelf Speakers",
+    "status": "accepted",
+    "asin": "B09V5NRNDJ",
+    "matchedTitle": "Klipsch Reference Premiere RP-600M II Ebony Bookshelf Speakers"
+  },
+  {
+    "slug": "polk-signature-elite-es20",
+    "name": "Polk Signature Elite ES20",
+    "status": "accepted",
+    "asin": "B09B7XF3Z9",
+    "matchedTitle": "Polk Audio Signature Elite ES20 Bookshelf Speakers, Pair, Stunning Black | Hi-Res Audio Certified, Dolby Atmos & DTS:X Compatible, 1\" Tweeter & 6.5\" Woofer, Power Port Technology for Effortless Bass"
+  },
+  {
+    "slug": "polk-monitor-xt20",
+    "name": "Polk Monitor XT20",
+    "status": "accepted",
+    "asin": "B09BMVVDX5",
+    "matchedTitle": "Polk Audio Monitor XT20 Bookshelf Surround Speakers (Pair, Midnight Black) | Hi-Res Audio, Dolby Atmos & DTS:X Compatible, 1\" Terylene Tweeter, 6.5\" Dynamically Balanced Woofer"
+  },
+  {
+    "slug": "elac-debut-b62",
+    "name": "ELAC Debut 2.0 B6.2",
+    "status": "accepted",
+    "asin": "B07B4Q5587",
+    "matchedTitle": "ELAC Debut 2.0 B6.2 Bookshelf Speakers, Black (Pair) - 1” Cloth Dome Tweeter & 6.5” Aramid Fiber Woofer - 2-Way Bass Reflex - Up to 35,000 Hz Response"
+  },
+  {
+    "slug": "svs-prime-bookshelf",
+    "name": "SVS Prime Bookshelf Speakers",
+    "status": "accepted",
+    "asin": "B00PASUMV4",
+    "matchedTitle": "SVS Prime Bookshelf Speaker (Pair) – Premium Black Ash"
+  },
+  {
+    "slug": "kef-q150",
+    "name": "KEF Q150 Bookshelf Speakers",
+    "status": "rejected",
+    "topResultTitle": "KEF Q1 Meta Passive Compact Hi-Fi Bookshelf Speakers (Pair), Black | Entry Level Passive Hi-Fi Speaker | Compact Bookshelf Speakers | 2-Way Bass Reflex | For Music, Gaming, TV & Movies"
+  },
+  {
+    "slug": "kef-q3-meta",
+    "name": "KEF Q3 Meta Bookshelf Speakers",
+    "status": "accepted",
+    "asin": "B0DH8FJPTQ",
+    "matchedTitle": "KEF Q3 Meta Passive Midsize Hi-Fi Bookshelf Speakers (Pair), Black | Passive Hi-Fi Speakers | KEF Q-Series Home Theatre System | 2-Way Bass Reflex | For Music, Gaming, TV & Movies"
+  },
+  {
+    "slug": "edifier-r1280t",
+    "name": "Edifier R1280T Powered Bookshelf Speakers",
+    "status": "accepted",
+    "asin": "B088685QVJ",
+    "matchedTitle": "Edifier R1280Ts Powered Bookshelf Speakers - 2.0 Stereo Active Near Field Monitors - Studio Monitor Speaker - 42 Watts RMS with Subwoofer Line Out - Wooden Enclosure"
+  },
+  {
+    "slug": "micca-mb42x",
+    "name": "Micca MB42X Bookshelf Speakers",
+    "status": "accepted",
+    "asin": "B0CSVRTK13",
+    "matchedTitle": "Micca MB42X G2 Passive Bookshelf Speakers for Home Theater Surround Sound, Stereo, and Passive Near Field Monitor, 2-Way (Black, Pair) (Renewed)"
+  },
+  {
+    "slug": "dayton-b652-air",
+    "name": "Dayton Audio B652-AIR Bookshelf Speakers",
+    "status": "rejected",
+    "topResultTitle": "Dayton Audio Classic B65 Bookshelf Speaker Pair 75W Max 6.5 Inch Woofer 1 Inch Silk Dome Tweeter Passive 2-Way Hi-Fi Speakers for Music TV and Home Theater Black"
+  },
+  {
+    "slug": "wharfedale-diamond-121",
+    "name": "Wharfedale Diamond 12.1",
+    "status": "accepted",
+    "asin": "B0HJRQTPMQ",
+    "matchedTitle": "Wharfedale Diamond 12.1i Bookshelf Speaker 2-Way - Walnut"
+  },
+  {
+    "slug": "sony-ss-cs5",
+    "name": "Sony SS-CS5 Bookshelf Speakers",
+    "status": "accepted",
+    "asin": "B0F8PNFBTL",
+    "matchedTitle": "Sony SS-CS5M2 3-Way 3-Driver Hi-Res Compact Bookshelf Speakers (Pair) | CS Speaker Home Theater Series, 5.12-inch Woofer, High Precision Tweeters, Hi-Res Audio, Premium Componentry"
+  },
+  {
+    "slug": "pioneer-sp-bs22-lr",
+    "name": "Pioneer SP-BS22-LR Andrew Jones Bookshelf Speakers",
+    "status": "rejected",
+    "topResultTitle": null
+  },
+  {
+    "slug": "mediabridge-14awg-speaker-wire",
+    "name": "Mediabridge 14AWG Speaker Wire",
+    "status": "rejected",
+    "topResultTitle": "100 ft. Spool High Performance 14 Gauge Speaker Wire, Oxygen Free Pure Copper - UL Listed Class 2"
+  },
+  {
+    "slug": "amazon-basics-16-gauge-speaker-wire",
+    "name": "Amazon Basics 16-Gauge Speaker Wire",
+    "status": "accepted",
+    "asin": "B006LW0W5Y",
+    "matchedTitle": "Amazon Basics 16-Gauge Speaker Wire Cable, Polarity Marked, 100 ft, Bronze"
+  },
+  {
+    "slug": "gearit-14awg-speaker-wire",
+    "name": "GearIT 14AWG Speaker Wire",
+    "status": "accepted",
+    "asin": "B01N3JS3SD",
+    "matchedTitle": "GEARit Speaker Wire 14 Gauge Black Wire 250 ft UL CL3 Rated Copper Wire | with Polarity Mark, Speaker Cable for in-Wall, Home, Car, Outdoor, Garden, Commercial Audio Systems, OFC (Black,2-Conductors)"
+  },
+  {
+    "slug": "monoprice-12awg-speaker-wire",
+    "name": "Monoprice 12AWG Speaker Wire",
+    "status": "accepted",
+    "asin": "B001UNGJF6",
+    "matchedTitle": "Monoprice Enhanced Oxygen-Free Copper Loud Speaker Wire - CL2 In-Wall Rated, Pure Bare Copper, 12Awg, 50 Feet"
+  },
+  {
+    "slug": "knukonceptz-kord-12awg",
+    "name": "KnuKonceptz Kord 12 Gauge Speaker Wire",
+    "status": "accepted",
+    "asin": "B006VP97DE",
+    "matchedTitle": "KnuKonceptz Kord Speaker Cable 12 Gauge Oxygen Free Copper Speaker Wire - 50 Feet Blue"
+  },
+  {
+    "slug": "mediabridge-banana-plugs",
+    "name": "Mediabridge Banana Plugs (12 Pairs)",
+    "status": "rejected",
+    "topResultTitle": "FosPower Banana Plugs (6 Pairs/12 Pcs), 24K Gold Plated Speaker Connectors | Closed screw 24K gold-plated banana plugs (6 pairs / 12 pcs) for speaker wire, receivers & home theater sound systems."
+  },
+  {
+    "slug": "klipsch-r-50c",
+    "name": "Klipsch R-50C Center Channel Speaker",
+    "status": "accepted",
+    "asin": "B09PFBGY6M",
+    "matchedTitle": "Klipsch Reference Next-Generation R-50C Horn-Loaded Center Channel Speakers for Crystal-Clear Home Theater Dialogue in Black"
+  },
+  {
+    "slug": "klipsch-rp-504c-ii",
+    "name": "Klipsch RP-504C II Center Channel Speaker",
+    "status": "accepted",
+    "asin": "B09V5RXS2D",
+    "matchedTitle": "klipsch Reference Premiere RP-504C II Ebony Center Channel Speaker"
+  },
+  {
+    "slug": "polk-monitor-xt35",
+    "name": "Polk Monitor XT35 Center Channel Speaker",
+    "status": "accepted",
+    "asin": "B09BMWZ29F",
+    "matchedTitle": "Polk Monitor XT35 Slim Center Channel Speaker - Hi-Res Audio Certified, Dolby Atmos & DTS:X Compatible, 1\" Terylene Tweeter & Four 3\" Dynamically Balanced Woofers, Wall-Mountable, Midnight Black"
+  },
+  {
+    "slug": "polk-signature-elite-es35",
+    "name": "Polk Signature Elite ES35 Center Channel Speaker",
+    "status": "accepted",
+    "asin": "B09BBDYFC9",
+    "matchedTitle": "Polk Audio Signature Elite ES35 Slim Center Channel Speaker, Stunning Black | Hi-Res Audio Certified, Dolby Atmos & DTS:X Compatible, 1\" Tweeter & (6) 3\" Woofers, Dual Power Port for Effortless Bass"
+  },
+  {
+    "slug": "elac-debut-c52",
+    "name": "ELAC Debut 2.0 C5.2 Center Channel Speaker",
+    "status": "accepted",
+    "asin": "B07B4Q5LW2",
+    "matchedTitle": "ELAC Debut 2.0 C5.2 Center Channel Speaker, Black - 1” Cloth Dome Tweeter & Dual 5.25” Aramid Fiber Woofers - 2-Way Bass Reflex - Up to 35,000 Hz Response"
+  },
+  {
+    "slug": "svs-prime-center",
+    "name": "SVS Prime Center Speaker",
+    "status": "accepted",
+    "asin": "B00PASUGTC",
+    "matchedTitle": "SVS Prime Center Speaker – Premium Black Ash"
+  },
+  {
+    "slug": "sony-ss-cs8",
+    "name": "Sony SS-CS8 Center Channel Speaker",
+    "status": "accepted",
+    "asin": "B0F8PRSP9X",
+    "matchedTitle": "Sony CS Speaker, SS-CS8M2 2-Way 3-Driver Center Channel Speaker | 3-Driver Center Channel Design, Dual 3.94-Inch Woofers, High-Precision 0.98-Inch Tweeter, Bass Reflex Enclosure, Compact"
+  },
+  {
+    "slug": "kef-q6-meta",
+    "name": "KEF Q6 Meta Center Channel Speaker",
+    "status": "accepted",
+    "asin": "B0DH8GQ4FW",
+    "matchedTitle": "KEF Q6 Meta 3-Way Center Channel Passive Hi-Fi Speaker, Black | Passive Center Channel Hi-Fi Speaker | KEF Q-Series Home Theatre System | 2-Way Bass Reflex | For Music, Gaming, TV & Movies"
+  },
+  {
+    "slug": "kef-r3-meta",
+    "name": "KEF R3 Meta Bookshelf Speakers",
+    "status": "accepted",
+    "asin": "B0BV76LTHW",
+    "matchedTitle": "KEF R3 Meta Passive Hi-Fi Bookshelf Speakers, Indigo Gloss | 3-Way Passive Bookshelf Speakers | MAT Technology | Premium Audiophile Sound | Music & Home Theater"
+  },
+  {
+    "slug": "kef-r7-meta",
+    "name": "KEF R7 Meta Floorstanding Speakers",
+    "status": "accepted",
+    "asin": "B0BV772FLV",
+    "matchedTitle": "KEF R7 Meta Passive Floor Speakers, White Gloss | Premium 3-Way Passive Floorstanding Speakers | MAT Technology | Deep Bass | Audiophile Home Theater"
+  },
+  {
+    "slug": "svs-ultra-evolution-tower",
+    "name": "SVS Ultra Evolution Tower",
+    "status": "accepted",
+    "asin": "B0CZ4CZJWL",
+    "matchedTitle": "SVS Ultra Evolution 3-Way Tower Speaker - Each (Black Oak)"
+  },
+  {
+    "slug": "polk-reserve-r700",
+    "name": "Polk Reserve R700 Floorstanding Speaker",
+    "status": "accepted",
+    "asin": "B0934CH89P",
+    "matchedTitle": "Polk Audio Reserve Series R700 Tower Speaker for Home Theater, Black | 1\" Tweeter, 6.5\" Woofer, Dual 8\" Long-Throw Drivers, Hi-Res Certified, Dolby Atmos & IMAX Enhanced for Dynamic Audio"
+  },
+  {
+    "slug": "klipsch-forte-iv",
+    "name": "Klipsch Forte IV",
+    "status": "accepted",
+    "asin": "B08TCDPC2W",
+    "matchedTitle": "Klipsch Forte IV Heritage Premium Floorstanding Horn-Loaded Speakers in American Walnut"
+  },
+  {
+    "slug": "bw-603-s3",
+    "name": "Bowers & Wilkins 603 S3",
+    "status": "accepted",
+    "asin": "B0CKNCNN4P",
+    "matchedTitle": "Bowers & Wilkins 603 S3 Floorstanding Speaker - Each (Black), FP43869"
+  },
+  {
+    "slug": "focal-aria-evo-x-no2",
+    "name": "Focal Aria Evo X No2",
+    "status": "accepted",
+    "asin": "B0CRRZPHSH",
+    "matchedTitle": "Focal Aria Evo X No. 2 Floorstanding Loudspeaker - Each (Prime Walnut)"
+  },
+  {
+    "slug": "polk-rc80i",
+    "name": "Polk RC80i In-Ceiling Speakers",
+    "status": "accepted",
+    "asin": "B00006BMQT",
+    "matchedTitle": "Polk Audio RC80i 2-Way Premium In Ceiling Speakers, 8\" Round Pair, White | Perfect for Damp and Humid Indoor/Outdoor Placement, Bluetooth Ceiling Speakers, Paintable Grille"
+  },
+  {
+    "slug": "polk-rc60i",
+    "name": "Polk RC60i In-Ceiling Speakers",
+    "status": "accepted",
+    "asin": "B00005T3BD",
+    "matchedTitle": "Polk Audio RC60i 2-Way Premium in-Ceiling Speaker, 6.5\" Round Pair, White | Perfect for Damp and Humid Indoor Placement - Bath, Kitchen, Covered Porches, Paintable Grille"
+  },
+  {
+    "slug": "klipsch-cdt-5650-c-ii",
+    "name": "Klipsch CDT-5650-C II In-Ceiling Speaker",
+    "status": "accepted",
+    "asin": "B0074WWK3W",
+    "matchedTitle": "Klipsch CDT-5650-C II In-Ceiling Speaker - White (Each)"
+  },
+  {
+    "slug": "klipsch-r-5650-w-ii",
+    "name": "Klipsch R-5650-W II In-Wall Speaker",
+    "status": "accepted",
+    "asin": "B0074UGWFQ",
+    "matchedTitle": "Klipsch R-5650-W II In-Wall Speaker - White (Each)"
+  },
+  {
+    "slug": "klipsch-r-1650-c",
+    "name": "Klipsch R-1650-C In-Ceiling Speaker",
+    "status": "accepted",
+    "asin": "B001587M02",
+    "matchedTitle": "Klipsch R-1650-C (Ea.) 6.5-inch In-Ceiling Speaker - White (Each)"
+  },
+  {
+    "slug": "micca-m-8c",
+    "name": "Micca M-8C In-Ceiling Speakers",
+    "status": "accepted",
+    "asin": "B002YPS6T6",
+    "matchedTitle": "Micca M-8C 8-Inch 2-Way in-Ceiling Speaker, Round, Each, Paintable, White | 9.4-Inch Cutout Diameter, Whole House Audio, Home Theater, Indoor or Covered Outdoor, 8\" Woofer, 1\" Aimable Silk Tweeter"
+  },
+  {
+    "slug": "monoprice-alpha-in-ceiling",
+    "name": "Monoprice Alpha In-Ceiling Speakers",
+    "status": "accepted",
+    "asin": "B07JZK3FFM",
+    "matchedTitle": "Monoprice 2-Way Carbon Fiber In-Ceiling Speakers - 8-Inch, With 15 Degree Angled Drivers, Pair, Black - Alpha Series"
+  },
+  {
+    "slug": "polk-265-rt",
+    "name": "Polk 265-RT In-Wall Speaker",
+    "status": "accepted",
+    "asin": "B004L9GWSK",
+    "matchedTitle": "Polk Audio 265-RT 3-way In-Wall Speaker, The Vanishing Series, Black | Fits Ceiling/Wall, High-Performance Home Stereo Speakers, Use as Front, Rear, or Surrounds, Power Port, Paintable Grille"
+  },
+  {
+    "slug": "yamaha-ns-iw480",
+    "name": "Yamaha NS-IW480 In-Wall Speakers",
+    "status": "accepted",
+    "asin": "B000O3TFWW",
+    "matchedTitle": "Yamaha NS-IW480C 8\" 3-Way in-Wall Speakers - Pair"
+  },
+  {
+    "slug": "pyle-pdic80",
+    "name": "Pyle PDIC80 In-Ceiling Speakers",
+    "status": "accepted",
+    "asin": "B000CHTHBO",
+    "matchedTitle": "Pyle 8” Ceiling Mount Speakers (Pair) - 300 Watts 70v Transformer with Bypass, Cutout Dimensions -9 3/8'' in. Diameter x 5 3/4'' in. Depth - for Home, Commercial, Worship - PDIC80T"
+  },
+  {
+    "slug": "great-northern-popcorn-machine",
+    "name": "Great Northern Popcorn Foundation Popcorn Machine",
+    "status": "accepted",
+    "asin": "B004VNSM6G",
+    "matchedTitle": "Great Northern Popcorn Foundation Countertop 8oz Popcorn Machine, Red | Antique Movie Theater Style Popcorn Maker Machine with 8oz Stainless Steel Kettle, Old Maids Drawer, Warming Tray and Scoop"
+  },
+  {
+    "slug": "nostalgia-vintage-popcorn-cart",
+    "name": "Nostalgia Vintage Popcorn Cart",
+    "status": "accepted",
+    "asin": "B07H459T1C",
+    "matchedTitle": "Nostalgia Popcorn Maker Machine - Professional Cart With 8 Oz Kettle Makes Up to 32 Cups - Vintage Popcorn Machine Movie Theater Style - Black"
+  },
+  {
+    "slug": "olde-midway-popcorn-machine",
+    "name": "Olde Midway Movie Theater Popcorn Machine",
+    "status": "accepted",
+    "asin": "B01N9KNFBC",
+    "matchedTitle": "Olde Midway Bar Style Popcorn Machine Maker Popper with 8-Ounce Kettle - Black"
+  },
+  {
+    "slug": "west-bend-stir-crazy",
+    "name": "West Bend Stir Crazy Popcorn Popper",
+    "status": "accepted",
+    "asin": "B00KL8SM92",
+    "matchedTitle": "West Bend Stir Crazy Popcorn Popper, Hot Oil Popcorn Maker Machine with Large Serving Bowl Lid and Stirring Rod Perfect for Movie Night Snack Time or Parties, 6-Quart, Red"
+  },
+  {
+    "slug": "whirley-pop-stovetop",
+    "name": "Wabash Valley Farms Whirley Pop",
+    "status": "accepted",
+    "asin": "B07Y3X733T",
+    "matchedTitle": "Original Whirley Pop Popcorn Maker - Wabash Valley Farms Gourmet Popcorn Popper, Aluminum Pot With Nylon Gears, 3-Minute Stove Top Popper, Home Movie Night (Silver)"
+  },
+  {
+    "slug": "panamax-m5300-pm",
+    "name": "Panamax M5300-PM Power Conditioner",
+    "status": "accepted",
+    "asin": "B000SXWGAQ",
+    "matchedTitle": "Panamax M5300-PM 11-Outlet Home Theater Power Conditioner"
+  },
+  {
+    "slug": "furman-pst-8d",
+    "name": "Furman PST-8D Surge Protector",
+    "status": "accepted",
+    "asin": "B0009GI7NC",
+    "matchedTitle": "Furman PST-8D Power Station 8-Outlet Audiophile Surge Protector, SMP | 8-outlet surge protector, 2 isolated banks (digital + linear), aluminum chassis, SMP+, LiFT"
+  },
+  {
+    "slug": "apc-p11vnt3",
+    "name": "APC P11VNT3 Home Theater Surge Protector",
+    "status": "rejected",
+    "topResultTitle": "APC NET9RMBLK Rackmount SurgeArrest 9-Outlet/1700 Joules/120V Surge Protector"
+  },
+  {
+    "slug": "austere-vii-8-outlet",
+    "name": "Austere VII Series 8-Outlet Power",
+    "status": "quarantined"
+  },
+  {
+    "slug": "tripp-lite-isobar-8",
+    "name": "Tripp Lite Isobar 8 Outlet Surge Protector",
+    "status": "accepted",
+    "asin": "B00005122S",
+    "matchedTitle": "Tripp Lite Isobar 8 Outlet Surge Protector Power Strip with Remote Switch, 12ft Cord, Right-Angle Plug, Metal, & $50,000 Insurance (ISOBAR8RM)"
+  },
+  {
+    "slug": "epson-home-cinema-2350",
+    "name": "Epson Home Cinema 2350",
+    "status": "accepted",
+    "asin": "B0BDR8THMJ",
+    "matchedTitle": "Epson Home Cinema 2350 4K PRO-UHD Smart Streaming Projector with Android TV | 3-Chip 3LCD 2800 Lumens Color and White Brightness HDR10 HLG Low Latency 10 W Speaker Bluetooth Home Theater"
+  },
+  {
+    "slug": "epson-home-cinema-880",
+    "name": "Epson Home Cinema 880",
+    "status": "accepted",
+    "asin": "B09BYJ1B4C",
+    "matchedTitle": "Epson 880X 3LCD 1080p Streaming Smart Portable Projector, Android TV, 3,300 Lumens Color Brightness, 3,300 Lumens White Brightness, Built-in Speaker, Bluetooth, 300-Inch Home Entertainment"
+  },
+  {
+    "slug": "epson-home-cinema-3800",
+    "name": "Epson Home Cinema 3800",
+    "status": "accepted",
+    "asin": "B07XF2G9WT",
+    "matchedTitle": "Epson Home Cinema 3800 4K PRO-UHD 3-Chip 3LCD Projector with HDR Technology | Epson Home Cinema 3800 4K PRO-UHD 3-Chip 3LCD Projector with HDR Technology"
+  },
+  {
+    "slug": "epson-home-cinema-5050ub",
+    "name": "Epson Home Cinema 5050UB",
+    "status": "accepted",
+    "asin": "B07P7Y3D6G",
+    "matchedTitle": "Epson Home Cinema 5050UB 4K PRO-UHD 3-Chip 3LCD Projector with HDR | 2600 Lumens Color and White Brightness Advanced Pixel-Shift Processing for Home Theater Movie Projection"
+  },
+  {
+    "slug": "epson-ls11000",
+    "name": "Epson Pro Cinema LS11000",
+    "status": "accepted",
+    "asin": "B09TS2M1ZS",
+    "matchedTitle": "Epson Home Cinema LS11000 4K PRO-UHD Laser Projector with HDR10+ | 3-Chip 3LCD, 2,500 Lumens of Color and White Brightness, 1.2 Mill:1 Dynamic Contrast, Motorized Lens Shift and Focus, 120Hz"
+  },
+  {
+    "slug": "epson-ls12000",
+    "name": "Epson Pro Cinema LS12000",
+    "status": "rejected",
+    "topResultTitle": "Epson Pro Cinema LS9000 4K Laser Projector"
+  },
+  {
+    "slug": "epson-ls800",
+    "name": "Epson EpiqVision Ultra LS800",
+    "status": "accepted",
+    "asin": "B0CQ47DYH8",
+    "matchedTitle": "Epson EpiqVision Ultra LS800 Ultra Short Throw 3-Chip 3LCD Smart Streaming Laser Projector, 4,000 Lumens, 4K PRO-UHD, HDR, 150\" Class, Android TV, 2.1ch Yamaha Built-in Speakers - Black (Renewed)"
+  },
+  {
+    "slug": "benq-ht2060",
+    "name": "BenQ HT2060",
+    "status": "rejected",
+    "topResultTitle": "BenQ W4100i 4K HDR Smart Home Theater Projector 3200 Lumens | 3200 Lumens, REC 709, 100% DCI-P3, HDR10+, Factory Calibrated, Netflix Android TV, 4-Way Lens Shift, 3yr warranty, 3D Support"
+  },
+  {
+    "slug": "benq-tk710sti",
+    "name": "BenQ TK710STi",
+    "status": "accepted",
+    "asin": "B0D486MJN9",
+    "matchedTitle": "BenQ TK710STi 3200 Lumens 4K HDR Short Throw Home Entertainment Projector | 3200 Lumens, Laser Light Source, 4ms Input Lag, 240Hz Gaming, Android TV, Netflix, AirPlay, Home Entertainment, HDR10/HLG"
+  },
+  {
+    "slug": "benq-ht4550i",
+    "name": "BenQ HT4550i",
+    "status": "accepted",
+    "asin": "B0FN9TGGJ3",
+    "matchedTitle": "BenQ HT4550i | 4K HDR LED Smart Home Theater Projector | 3200 Lumens | Android TV built-in Chromecast and Ultra 4K | Supports HDR10+ | HDR10 | HLG | Built-in Speaker (Renewed)"
+  },
+  {
+    "slug": "benq-w4100i",
+    "name": "BenQ W4100i",
+    "status": "accepted",
+    "asin": "B0F2VX6WMV",
+    "matchedTitle": "BenQ W4100i 4K HDR Smart Home Theater Projector 3200 Lumens | 3200 Lumens, REC 709, 100% DCI-P3, HDR10+, Factory Calibrated, Netflix Android TV, 4-Way Lens Shift, 3yr warranty, 3D Support"
+  },
+  {
+    "slug": "benq-th575",
+    "name": "BenQ TH575",
+    "status": "accepted",
+    "asin": "B0H7T3RBGJ",
+    "matchedTitle": "BenQ TH575i 1080p Home Projector, 3800lm, Google TV, 16.7ms Input Lag | 3800lm High Brightness, Licensed Google TV Dongle, 16.7ms Low Input Lag for Gaming, Auto Vertical Keystone, 3 year warranty"
+  },
+  {
+    "slug": "benq-v5010i",
+    "name": "BenQ V5010i",
+    "status": "accepted",
+    "asin": "B0D92SS8WZ",
+    "matchedTitle": "BenQ V5010i 4K RGB Laser Ultra Short Throw TV Projector 2500 Lumens | 2500 ANSI Lumens, HDMI 2.1, Dolby Atmos, eARC, Auto Screen Fit, 40W Audio, Ultra Short Throw, 3 yr warranty"
+  },
+  {
+    "slug": "hisense-c2-ultra",
+    "name": "Hisense C2 Ultra",
+    "status": "accepted",
+    "asin": "B0DHLH7VPH",
+    "matchedTitle": "Hisense C2 Ultra, Triple Laser Smart Portable Projector, 4K UHD, 3,000 Lumens, 65” – 300”, Dolby Vision, IMAX Enhanced, Sound by JBL, Netflix Included, Designed for Xbox, Optical Zoom"
+  },
+  {
+    "slug": "hisense-px3-pro",
+    "name": "Hisense PX3-Pro",
+    "status": "accepted",
+    "asin": "B0DGHZ1C8V",
+    "matchedTitle": "Hisense PX3-PRO Ultra Short Throw Triple Laser Projector, 4K UHD, 80” – 150”, 3,000 Lumens, 3000:1 Contrast, Dolby Vision & Atmos, IMAX Enhanced, 240 High Refresh Rate, Google TV, Designed for Xbox"
+  },
+  {
+    "slug": "hisense-c1",
+    "name": "Hisense C1",
+    "status": "rejected",
+    "topResultTitle": "Hisense M2 Pro, Triple Laser Smart Portable Lifestyle Projector, 4K UHD, 65” – 200”, 1,300 Lumens, Dolby Vision,Optical Zoom, Intelligent Screen Adjustments, Vidaa OS, Netflix Included"
+  },
+  {
+    "slug": "xgimi-horizon-s-max",
+    "name": "XGIMI Horizon S Max",
+    "status": "rejected",
+    "topResultTitle": "XGIMI HORIZON 30 Ultra Max 4K RGB Triple Laser Projector, 6000 ISO Lumens | 10,000:1 Native Contrast, 4K 120Hz, Dual Iris, X-Vision AI Image Processor, Optical Zoom, Harman Kardon Audio, Google TV"
+  },
+  {
+    "slug": "xgimi-aura-2",
+    "name": "XGIMI Aura 2",
+    "status": "accepted",
+    "asin": "B0FMRXB5HB",
+    "matchedTitle": "XGIMI AURA Ultra Short Throw 4K Laser Projector, 2300 ISO lumens, Google TV | Dolby Vision, IMAX Enhanced, 1,000,000:1 Dynamic Contrast Ratio, 0.177:1 Throw Ratio, Harman Kardon AURA 2 GTV White"
+  },
+  {
+    "slug": "valerion-visionmaster-pro2",
+    "name": "Valerion VisionMaster Pro2",
+    "status": "accepted",
+    "asin": "B0DSBYCZJR",
+    "matchedTitle": "Valerion VisionMaster Pro2 Triple Laser Projector 4K with Anti-RBE | Hollywood-Grade Picture Quality, 3D, 300\" IMAX Enhanced, HDR10+, 15000:1 Contrast 3000 ISO Lumens, 0.9-1.5x Optical Zoom"
+  },
+  {
+    "slug": "valerion-visionmaster-max",
+    "name": "Valerion VisionMaster Max",
+    "status": "accepted",
+    "asin": "B0FQNXHVGS",
+    "matchedTitle": "Valerion VisionMaster Max 4K Laser Projector with Anti-RBE, 3500 ISO Lumens | Cinematic Picture Quality, 50000:1 Viewing Contrast with Dynamic Iris, 0.9–1.5x Optical Zoom, 300\" IMAX Enhanced, HDR10+, 3D"
+  },
+  {
+    "slug": "optoma-uhd38x",
+    "name": "Optoma UHD38x",
+    "status": "accepted",
+    "asin": "B0BGVGDB72",
+    "matchedTitle": "Optoma UHD38x Bright, True 4K UHD Gaming Projector | 4000 Lumens | 4.2ms Response Time at 1080p with Enhanced Gaming Mode | Lowest Input Lag on 4K Projector | 240Hz Refresh Rate | HDR10 & HLG, White"
+  },
+  {
+    "slug": "optoma-uhd35stx",
+    "name": "Optoma UHD35STx",
+    "status": "accepted",
+    "asin": "B09XVNJNXT",
+    "matchedTitle": "Optoma UHD35STX 4K UHD Short Throw Gaming and Home Entertainment Projector"
+  },
+  {
+    "slug": "optoma-hd146x",
+    "name": "Optoma HD146X",
+    "status": "accepted",
+    "asin": "B0842QPR1Z",
+    "matchedTitle": "Optoma HD146X 1080P Full HD Vibrant Home Theater Projector"
+  },
+  {
+    "slug": "optoma-uhz35",
+    "name": "Optoma UHZ35",
+    "status": "rejected",
+    "topResultTitle": "Optoma UHZ36 4K UHD Laser HDR Home Theater Projector - Black"
+  },
+  {
+    "slug": "awol-ltv-3500-pro",
+    "name": "AWOL Vision LTV-3500 Pro",
+    "status": "rejected",
+    "topResultTitle": "AWOL VISION LTV-3000 Pro 4K 3D Ultra Short Throw Triple Laser Projector, Dolby Vision & Atmos, HDR10+, 150\" UST Laser TV Home Theater Projector"
+  },
+  {
+    "slug": "nebula-cosmos-4k-se",
+    "name": "Anker Nebula Cosmos 4K SE",
+    "status": "accepted",
+    "asin": "B0DBQ7XP2H",
+    "matchedTitle": "NEBULA Cosmos 4K SE Portable Projector, 1,800 ANSI Lumens | NebulaMaster, HybridBeam, Enhanced Image Quality, Google TV, Portable, 200\" Screen, for Gaming, Home, and Office"
+  },
+  {
+    "slug": "dangbei-mars-pro-2",
+    "name": "Dangbei Mars Pro 2",
+    "status": "rejected",
+    "topResultTitle": "Dangbei DBOX02 Laser Projector 4K GTV, 2450 ISO Lumens, Netflix Officially Licensed, Blu-ray 3D, Home Theater Projector with WiFi and Bluetooth, HDR10+, 200-inch Picture, 2x12W DTS:, Dolby Audio"
+  },
+  {
+    "slug": "dangbei-n2",
+    "name": "Dangbei N2",
+    "status": "quarantined"
+  },
+  {
+    "slug": "jmgo-n1s-ultimate",
+    "name": "JMGO N1S Ultimate",
+    "status": "accepted",
+    "asin": "B0DC62V2KD",
+    "matchedTitle": "JMGO N1S Ultimate Triple Laser 4K Projector, 3300 ISO Lumens, Google TV | Real-Time Auto Screen Fit, HDR10, 300\", Blu-ray 3D, Home Theater Projector with 20W Dolby Digital+"
+  },
+  {
+    "slug": "formovie-theater-premium",
+    "name": "Formovie Theater Premium",
+    "status": "accepted",
+    "asin": "B08F4QNCHX",
+    "matchedTitle": "Formovie Theater Premium Laser 4K Ultra Short Throw Projector | ALPD 4.0 RGB+ Tri-Color Laser 2200 ISO Lm Dolby Vision Atmos Bowers & Wilkins Speaker | Certified Google TV OS"
+  },
+  {
+    "slug": "sony-vpl-xw5000es",
+    "name": "Sony VPL-XW5000ES",
+    "status": "accepted",
+    "asin": "B09XC1K3NH",
+    "matchedTitle": "Sony VPL-XW5000ES 4K HDR Laser Home Theater Projector with Native 4K SXRD Panel, Black"
+  },
+  {
+    "slug": "denon-avr-s770h",
+    "name": "Denon AVR-S770H",
+    "status": "accepted",
+    "asin": "B0CCQ1Q9NT",
+    "matchedTitle": "Denon AVR-S770H 7.2 Ch Home Theater Receiver, 8K UHD HDMI Receiver 75W X 7 | Wireless Streaming via Built-in HEOS, Wi-Fi, Dolby TrueHD, DTS Neural:X & DTS:X Surround Sound for TV, Bluetooth Amplifier"
+  },
+  {
+    "slug": "denon-avr-x1800h",
+    "name": "Denon AVR-X1800H",
+    "status": "accepted",
+    "asin": "B0CFWQP9MC",
+    "matchedTitle": "Denon AVR-X1800H 7.2 Channel AV Stereo Receiver (80W x 7), WiFi, Bluetooth | Wireless Streaming via Built-in HEOS, Supports Dolby Vision, HDR10+, Dynamic HDR, & Home Automation Systems"
+  },
+  {
+    "slug": "denon-avr-x2800h",
+    "name": "Denon AVR-X2800H",
+    "status": "accepted",
+    "asin": "B0BBZ2972F",
+    "matchedTitle": "Denon AVR-X2800H 7.2 Channel Home Theater AV Receiver (95W x 7) - 8K UHD | Dolby Atmos, DTS Virtual:X, HDR10+, Dynamic HDR, HEOS Built-In, Bluetooth & Wi-Fi Amp, Dual Sub Outputs, Multi-Room Music"
+  },
+  {
+    "slug": "denon-avr-x3800h",
+    "name": "Denon AVR-X3800H",
+    "status": "accepted",
+    "asin": "B0BT66Z2S5",
+    "matchedTitle": "Denon AVR-X3800H 9.4 Channel 8K Home Theater Receiver IMAX Enhanced with Dolby Atmos/DTS:X and HEOS Built-In (Factory Certified Refurbished)"
+  },
+  {
+    "slug": "denon-avr-x4800h",
+    "name": "Denon AVR-X4800H",
+    "status": "accepted",
+    "asin": "B0BHX2K5XL",
+    "matchedTitle": "Denon AVR-X4800H 9.4 Ch Home Theater AV Receiver, 8K UHD, 125W x 9 | Dolby Atmos DTS:X, Pro IMAX Enhanced, Auro-3D, HEOS Wireless Multi-Room Music, VRR ALLM Gaming, HDR10+ Dolby Vision, eARC"
+  },
+  {
+    "slug": "marantz-cinema-70s",
+    "name": "Marantz Cinema 70s",
+    "status": "rejected",
+    "topResultTitle": "Marantz Stereo 70s Slimline Stereo Receiver Powered by HEOS™ with 75 W, 8K, and 6 HDMI Inputs"
+  },
+  {
+    "slug": "marantz-cinema-60",
+    "name": "Marantz Cinema 60",
+    "status": "accepted",
+    "asin": "B0BGJHKSLQ",
+    "matchedTitle": "Marantz Cinema 60 Premium 7.2 Channel AV Receiver Powered by HEOS™ with Dolby Atmos, 100 W, 8K, and 6 HDMI Inputs"
+  },
+  {
+    "slug": "marantz-cinema-50",
+    "name": "Marantz Cinema 50",
+    "status": "accepted",
+    "asin": "B0FQ7K2TTQ",
+    "matchedTitle": "Marantz Cinema 50 9.4 Channel (110 Watt X 9) 8K Home Theater AV Receiver with HEOS (Silver/Gold) (Renewed)"
+  },
+  {
+    "slug": "yamaha-rx-v4a",
+    "name": "Yamaha RX-V4A",
+    "status": "accepted",
+    "asin": "B08CKGYLNS",
+    "matchedTitle": "YAMAHA RX-V4A 5.2-Channel AV Receiver with MusicCast | 8K HDMI with MusicCast and YPAO for home theater, gaming and wireless streaming"
+  },
+  {
+    "slug": "yamaha-rx-v6a",
+    "name": "Yamaha RX-V6A",
+    "status": "accepted",
+    "asin": "B08CKJKKBY",
+    "matchedTitle": "YAMAHA RX-V6A 7.2-Channel AV Receiver with MusicCast | 7.2-channel AV receiver with 8K HDMI and Dolby Atmos for gaming, home theater and multi-room audio"
+  },
+  {
+    "slug": "yamaha-rx-a4a",
+    "name": "Yamaha AVENTAGE RX-A4A",
+    "status": "accepted",
+    "asin": "B08DXF1CP6",
+    "matchedTitle": "Yamaha RX-A4A AVENTAGE 7.2-Channel AV Receiver – 8K and 4K/120 HDMI, eARC, Dolby Atmos, DTS:X, Auro-3D, Surround:AI, Wi-Fi, Bluetooth, MusicCast"
+  },
+  {
+    "slug": "sony-str-an1000",
+    "name": "Sony STR-AN1000",
+    "status": "accepted",
+    "asin": "B0BSLX8YR5",
+    "matchedTitle": "Sony STR-AN1000 7.2ch Home Theater 8K A/V Bluetooth Receiver | Dolby Atmos & DTS:X Surround Sound, WiFi, Google Chromecast, Spotify connect, Apple AirPlay, HDMI 2.1"
+  },
+  {
+    "slug": "sony-str-dh590",
+    "name": "Sony STR-DH590",
+    "status": "accepted",
+    "asin": "B078WG7HZY",
+    "matchedTitle": "Sony STRDH590 5.2 Channel Surround Sound Home Theater Receiver: 4K HDR AV Receiver with Bluetooth,Black"
+  },
+  {
+    "slug": "onkyo-tx-nr6100",
+    "name": "Onkyo TX-NR6100",
+    "status": "accepted",
+    "asin": "B09LH9XZJ5",
+    "matchedTitle": "Onkyo TX-NR6100 7.2 Channel THX Certified Network AV Receiver - Black"
+  },
+  {
+    "slug": "onkyo-tx-nr5100",
+    "name": "Onkyo TX-NR5100",
+    "status": "accepted",
+    "asin": "B099X8SGJ5",
+    "matchedTitle": "Onkyo TX–NR5100 7.2-Channel 8K Smart AV Receiver - Black"
+  },
+  {
+    "slug": "onkyo-tx-rz50",
+    "name": "Onkyo TX-RZ50",
+    "status": "accepted",
+    "asin": "B09D8SB7DN",
+    "matchedTitle": "Onkyo TX-RZ50 9.2-Channel THX Certified AV Receiver | 9.2-channel receiver with 8K HDMI and Dirac Live for gaming, streaming and home theater"
+  },
+  {
+    "slug": "pioneer-vsx-lx305",
+    "name": "Pioneer VSX-LX305",
+    "status": "rejected",
+    "topResultTitle": "Pioneer VSX-LX503 9.2 Channel 4k UltraHD Network A/V Receiver Black"
+  },
+  {
+    "slug": "sofabaton-x2",
+    "name": "SofaBaton X2 Universal Remote",
+    "status": "accepted",
+    "asin": "B0GTYWYMD2",
+    "matchedTitle": "SofaBaton X2 Universal Remote with Hub&Charging Dock& R1 Infrared Repeater | SofaBaton X2 Universal Remote Control with Touchscreen, Activities, APP, Works with Alexa&Google Assistant&Home Assistant"
+  },
+  {
+    "slug": "sofabaton-x1s",
+    "name": "SofaBaton X1S Universal Remote",
+    "status": "accepted",
+    "asin": "B0GDDC3CKQ",
+    "matchedTitle": "SofaBaton X1S Smart Universal Remote Control with Hub,One-Click Scenes | Works with IR/Bluetooth/WiFi Devices,Customize Activities,Scroll Wheel,Wake up Screen,Compatible with Alexa Google Assistant"
+  },
+  {
+    "slug": "sofabaton-u2",
+    "name": "SofaBaton U2 Universal Remote",
+    "status": "accepted",
+    "asin": "B0DQSJN72G",
+    "matchedTitle": "SofaBaton U2 Universal Remote (with Backlight), All-in-One Smart Universal Remote Control with Customized APP for TV/Soundbar/DVD/Blu-ray/Projector and More, Macro Buttons & Extended Infrared Range"
+  },
+  {
+    "slug": "logitech-harmony-665",
+    "name": "Logitech Harmony 665",
+    "status": "accepted",
+    "asin": "B0831TXQJJ",
+    "matchedTitle": "Logitech Harmony 665 Advanced Remote Control, Universal Entertainment Remote, Replaces up to 10 remotes with Guided Online Set-up and Interactive Help (Renewed)"
+  },
+  {
+    "slug": "ge-universal-remote",
+    "name": "GE Universal Remote 4-Device",
+    "status": "accepted",
+    "asin": "B01HSSAZX8",
+    "matchedTitle": "GE Universal Remote Control for Samsung LG RokuTV Vizio Sony Philips Sharp | RCA Sanyo Element Smart TVs Soundbars Streaming Players Blu-Ray and More, 4-Device 33709"
+  },
+  {
+    "slug": "silver-ticket-str-169120",
+    "name": "Silver Ticket STR-169120 Fixed Frame Screen",
+    "status": "accepted",
+    "asin": "B00CYLOTPK",
+    "matchedTitle": "Silver Ticket Products STR Series 6 Piece White 1.1 Gain 120\" Diagonal 16:9 Format Projection Screen, Aluminum Frame, Wall Mounted, 109.25x63.625 inches STR-169120"
+  },
+  {
+    "slug": "elite-screens-sable-frame-2",
+    "name": "Elite Screens Sable Frame 2",
+    "status": "accepted",
+    "asin": "B00Y7XA2OA",
+    "matchedTitle": "Elite Screens Sable Frame B2 120\" Fixed Frame Projector Screen SB120WH2 | 16:9 4K/8K UHD CineWhite UHD-B, 1.3 gain, ISF Certified, UST/Short/Standard Compatible Home theater"
+  },
+  {
+    "slug": "elite-screens-aeon-clr3",
+    "name": "Elite Screens Aeon CLR 3",
+    "status": "accepted",
+    "asin": "B08RHQ2V67",
+    "matchedTitle": "Elite Screens Aeon CLR3 123\" ALR Fixed Frame Projector Screen AR123H-CLR3 | 16:9 4K UST 90% Ceiling Light Rejecting, Edge-Free Fixed Frame, Grey Screen for Indoor Home Theater & Movies"
+  },
+  {
+    "slug": "elite-screens-spectrum",
+    "name": "Elite Screens Spectrum Motorized Screen",
+    "status": "accepted",
+    "asin": "B000MX5XPM",
+    "matchedTitle": "Elite Screens Spectrum 120-Inch 4:3 Electric Motorized Projector Screen, 4K/8K Ultra HD Ready, Home Theater, Classroom & Office, White Case, ELECTRIC120V"
+  },
+  {
+    "slug": "elite-screens-cinegrey-3d",
+    "name": "Elite Screens Sable Frame CineGrey 3D",
+    "status": "accepted",
+    "asin": "B011SEIZ5I",
+    "matchedTitle": "Elite Screens Aeon CineGrey 3D 120\" Fixed Frame ProjectionScreen AR120DHD3 | 16:9 Edge Free ISF Certified CineGrey® 3D ALR, 1.2 Gain, High Contrast, 4K/HDR Ready, Standard Throw Compatible Only"
+  },
+  {
+    "slug": "vamvo-alr-screen",
+    "name": "VAMVO Ambient Light Rejecting Screen",
+    "status": "rejected",
+    "topResultTitle": "XGIMI 100'' Fixed Frame Projector Screen 16:9 HD for Home Theater Cinema Business Presentations，Lightweight，Simple Installation，Ultra-Thin Design"
+  },
+  {
+    "slug": "akia-screens-fixed-frame",
+    "name": "Akia Screens Fixed Frame Screen",
+    "status": "accepted",
+    "asin": "B0GXCSXWQZ",
+    "matchedTitle": "Akia Screens Fixed Frame Projector Screen 121 Inch, 16:9, Wall Mount, CineWhite UHD-B, 4K 8K Ready Indoor Home Theater Screen, AK-FF121WH2"
+  },
+  {
+    "slug": "elite-screens-manual-b",
+    "name": "Elite Screens Manual B Pull Down Screen",
+    "status": "accepted",
+    "asin": "B008XGTXWE",
+    "matchedTitle": "Elite Screens Manual B Series 100-INCH, Auto Lock/Slow Retract Mechanism Pull Down Projector Screen 16:9 Diag 4K / 8K Ultra HD 3DReady Home Movie Cinema Theatre, M100H"
+  },
+  {
+    "slug": "valencia-tuscany-theater-seating",
+    "name": "Valencia Tuscany Home Theater Seating",
+    "status": "accepted",
+    "asin": "B093TLJ9TQ",
+    "matchedTitle": "Valencia Tuscany Home Theater Seat - Nappa Leather Power Recliner with Cool Gel Memory Foam, USB-C/A Charging, RGB LED Lights, Adjustable Lumbar & Headrest (Single Recliner,Black)"
+  },
+  {
+    "slug": "seatcraft-republic",
+    "name": "Seatcraft Republic Home Theater Seating",
+    "status": "accepted",
+    "asin": "B06XHX7LML",
+    "matchedTitle": "Seatcraft Republic Home Theater Seating Black Sofa with Fold Down Table | Italian Leather, Powered Headrest, Power Recline, USB-A charging, Fold-Down Table"
+  },
+  {
+    "slug": "octane-seating-flex-hr",
+    "name": "Octane Seating Flex HR Home Theater Seats",
+    "status": "rejected",
+    "topResultTitle": "ANJ Power Recliner Chair Set of 6, Electric Soft Faux Leather Reclining Home Theater Seating - USB Ports, Cup Holders, Hidden Arm Storage Movie & Media Room Chairs (Black)"
+  },
+  {
+    "slug": "homall-recliner",
+    "name": "Homall Single Recliner Chair",
+    "status": "accepted",
+    "asin": "B077N51CR2",
+    "matchedTitle": "Homall Recliner Chair, Recliner Sofa PU Leather for Adults, Black Recliners | Home Theater Seating with Lumbar Support, Reclining Sofa Chair for Living Room"
+  },
+  {
+    "slug": "chita-power-recliner",
+    "name": "CHITA Power Lift Recliner",
+    "status": "accepted",
+    "asin": "B0FPR5N5HB",
+    "matchedTitle": "CHITA Faux Leather Power Recliner Chair, Super Zero Gravity, Chocolate | Electric Recliner for Adults with USB & Type-C Ports, Perfect for Living Room, Bedroom & Home Theater"
+  },
+  {
+    "slug": "flash-furniture-theater-recliner",
+    "name": "Flash Furniture Theater Recliner Row",
+    "status": "rejected",
+    "topResultTitle": "FDW Recliner Sofa Set 3 Seater Home Theater Seating Reclining Couch Sofa for Living Room Manual Recliner Motion for Home Furniture"
+  },
+  {
+    "slug": "esright-recliner",
+    "name": "Esright Massage Recliner",
+    "status": "rejected",
+    "topResultTitle": "Massage Recliner Chair, Home Theater Seating Reclining Sofa, Black | Fabric Reclining Sofa Chair with Overstuffed High-Density Sponge , High Backrest Massage Chair, Soft Linen Upholstery"
+  },
+  {
+    "slug": "sonos-arc-ultra",
+    "name": "Sonos Arc Ultra",
+    "status": "accepted",
+    "asin": "B0DFK28LBB",
+    "matchedTitle": "Sonos Arc Ultra Soundbar with Dolby Atmos - Black | 9.1.4 Surround Sound for TV and Music | Alexa | Works with Sonos Sub 4 & Era 300 | Sound Motion technology"
+  },
+  {
+    "slug": "sonos-beam-gen-2",
+    "name": "Sonos Beam (Gen 2)",
+    "status": "accepted",
+    "asin": "B09GPYL7BJ",
+    "matchedTitle": "Sonos Beam Gen 2 - Black - Soundbar with Dolby Atmos | 5-Driver Array with 3D Surround | Alexa | Works with Sonos Sub Mini & Rears | WiFi | Ethernet & AirPlay 2 | HDMI eARC"
+  },
+  {
+    "slug": "sony-bravia-theater-bar-9",
+    "name": "Sony Bravia Theater Bar 9",
+    "status": "accepted",
+    "asin": "B0CZ7NBW96",
+    "matchedTitle": "Sony BRAVIA Theater Bar 9 Soundbar for TV Home Theater with 13 Speakers | Dolby Atmos & DTS:X Surround Sound, 360 Spatial Sound Mapping, Bluetooth, Spotify Connect, AirPlay 2, HDMI 2.1, HT-A9000"
+  },
+  {
+    "slug": "sony-bravia-theater-bar-8",
+    "name": "Sony Bravia Theater Bar 8",
+    "status": "accepted",
+    "asin": "B0CZ7N9WHK",
+    "matchedTitle": "Sony BRAVIA Theater Bar 8 Soundbar for TV Home Theater with 11 Speakers | Dolby Atmos & DTS:X Surround Sound, 360 Spatial Sound Mapping, Bluetooth, Spotify Connect, AirPlay 2, HDMI 2.1, HT-A8000"
+  },
+  {
+    "slug": "bose-smart-ultra-soundbar",
+    "name": "Bose Smart Ultra Soundbar",
+    "status": "accepted",
+    "asin": "B0C548MYF3",
+    "matchedTitle": "Bose Smart Ultra Dolby Atmos Soundbar, All-in-One Surround Sound System for TV, A.I. Dialogue Mode, Alexa and Google Voice Control, HDMI eARC, Black"
+  },
+  {
+    "slug": "bose-smart-soundbar",
+    "name": "Bose Smart Soundbar",
+    "status": "rejected",
+    "topResultTitle": "Bose Smart Dolby Atmos Soundbar, All-in-One Soundbar for TV, A.I. Dialogue Mode, Voice Control and Amazon Alexa Built-in, Supports Bluetooth/AirPlay/Spotify Connect/Chromecast, Black"
+  },
+  {
+    "slug": "jbl-bar-1000",
+    "name": "JBL Bar 1000",
+    "status": "accepted",
+    "asin": "B0CH1RXHSF",
+    "matchedTitle": "JBL Bar 1000: 7.1.4-Channel Soundbar with Detachable Surround Speakers, MultiBeam™, Dolby Atmos®, and DTS:X®, Black (Renewed)"
+  },
+  {
+    "slug": "jbl-bar-1300mk2",
+    "name": "JBL Bar 1300MK2",
+    "status": "accepted",
+    "asin": "B0FN1JLNCN",
+    "matchedTitle": "JBL Bar 1300XMK2 Dolby Atmos Soundbar with Detachable Speakers - Black | Wireless 12 Inch Subwoofer, DTS:X 3D Audio, Portable Bluetooth Surrounds, PureVoice Dialogue, Wi Fi Streaming For Movies And"
+  },
+  {
+    "slug": "samsung-hw-q800f",
+    "name": "Samsung HW-Q800F",
+    "status": "accepted",
+    "asin": "B0DY1XXYT7",
+    "matchedTitle": "Samsung Q800F 5.1.2ch Q Series Soundbar + Subwoofer, Wireless Dolby Atmos, Q-Symphony, Game Mode Pro, Smart Integration (HW-Q800F, 2025)"
+  },
+  {
+    "slug": "vizio-v-series-21",
+    "name": "Vizio V-Series 2.1 Sound Bar",
+    "status": "rejected",
+    "topResultTitle": "Vizio OEM Replacement Bluetooth Backlit Display Sound Bar Remote Controller for 2.1 5.1 Home Theater, Channel Soundbar System and M V P Series Home Audio System"
+  },
+  {
+    "slug": "polk-magnifi-max-ax-sr",
+    "name": "Polk MagniFi Max AX SR",
+    "status": "accepted",
+    "asin": "B0B9F7WNQH",
+    "matchedTitle": "Polk Audio MagniFi Max AX SR 7.1.2 Soundbar, 10\" Sub, SR2 Surround Speakers | Up to 7.1.2 Channel Home Theater Setup, Dolby Atmos and DTS:X, Polk's Patented VoiceAdjust & SDA Technologies, Black"
+  },
+  {
+    "slug": "hisense-ax5125h",
+    "name": "Hisense AX5125H 5.1.2 Soundbar",
+    "status": "rejected",
+    "topResultTitle": "Hisense AX5140Q 5.1.4ch Home Theater Soundbar with Wireless Subwoofer and Rear Surround Speakers,Up-Firing Speakers,Dolby Atmos,DTS:X,Bluetooth 5.3,HDMI eARC,App Control & Remote Control,7 EQ Modes"
+  },
+  {
+    "slug": "ultimea-nova-s50",
+    "name": "Ultimea Nova S50 Soundbar",
+    "status": "rejected",
+    "topResultTitle": "ULTIMEA 5.1CH Surround Sound Bar System with Dolby Atmos, Poseidon M60 | VoiceMX, BassMX, APP, 300W Soundbar for Smart TV, Surround Sound System for TV, with Subwoofer, Bluetooth 5.4"
+  },
+  {
+    "slug": "svs-sb-1000-pro",
+    "name": "SVS SB-1000 Pro",
+    "status": "accepted",
+    "asin": "B08X51FVZS",
+    "matchedTitle": "SVS SB-1000 Pro Subwoofer (Black Ash) | 12-in Driver, 325 Watt RMS, Sealed Cabinet"
+  },
+  {
+    "slug": "svs-pb-1000-pro",
+    "name": "SVS PB-1000 Pro",
+    "status": "accepted",
+    "asin": "B08X4ZRQC4",
+    "matchedTitle": "SVS PB-1000 Pro Subwoofer (Black Ash) | 12-in Driver, 325 Watt RMS, Ported Cabinet"
+  },
+  {
+    "slug": "svs-sb-2000-pro",
+    "name": "SVS SB-2000 Pro",
+    "status": "accepted",
+    "asin": "B082LNQZ1L",
+    "matchedTitle": "SVS SB-2000 Pro DSP Controlled 12\" Sealed Subwoofer (Black Ash)"
+  },
+  {
+    "slug": "svs-pb-2000-pro",
+    "name": "SVS PB-2000 Pro",
+    "status": "accepted",
+    "asin": "B082LS3VGB",
+    "matchedTitle": "SVS PB-2000 Pro 12\" Ported Subwoofer - Black Ash"
+  },
+  {
+    "slug": "svs-sb-3000",
+    "name": "SVS SB-3000",
+    "status": "accepted",
+    "asin": "B0GGGSHTG1",
+    "matchedTitle": "SVS SB-3000 R|Evolution Sealed Subwoofer - Black Ash"
+  },
+  {
+    "slug": "klipsch-r-120sw",
+    "name": "Klipsch R-120SW",
+    "status": "accepted",
+    "asin": "B07FK2WNW4",
+    "matchedTitle": "Klipsch R-120SW Subwoofer, Black"
+  },
+  {
+    "slug": "klipsch-r-121sw",
+    "name": "Klipsch R-121SW",
+    "status": "rejected",
+    "topResultTitle": "Klipsch Reference Front-Firing Subwoofer with revamped Spun-Copper thermoformed crystalline Polymer woofers"
+  },
+  {
+    "slug": "klipsch-spl-120",
+    "name": "Klipsch SPL-120",
+    "status": "accepted",
+    "asin": "B07FK6Q2CM",
+    "matchedTitle": "Klipsch SPL-120 Powered Subwoofer 12 inches, Black"
+  },
+  {
+    "slug": "polk-monitor-xt12",
+    "name": "Polk Monitor XT12",
+    "status": "accepted",
+    "asin": "B09BMX6GPT",
+    "matchedTitle": "Polk Audio Monitor XT12 12\" Powered Subwoofer, Deep Bass (Midnight Black) | Dolby Atmos & DTS:X Compatible, Dynamic Balanced, 100W Class A/B Amplifier, Low-Resonance MDF Cabinet & Removable Grille"
+  },
+  {
+    "slug": "polk-hts-12",
+    "name": "Polk HTS 12",
+    "status": "rejected",
+    "topResultTitle": "Polk Audio Monitor XT12 12\" Powered Subwoofer, Deep Bass (Midnight Black) | Dolby Atmos & DTS:X Compatible, Dynamic Balanced, 100W Class A/B Amplifier, Low-Resonance MDF Cabinet & Removable Grille"
+  },
+  {
+    "slug": "polk-psw10",
+    "name": "Polk PSW10",
+    "status": "accepted",
+    "asin": "B0002KVQBA",
+    "matchedTitle": "Polk Audio PSW10 10\" Subwoofer, Big Bass Compact Design, Up to 100 Watts | Power Port Technology, Easy Integration with Home Theater Systems, Timbre-Matched with Monitor & T-series Polk Speakers"
+  },
+  {
+    "slug": "monolith-m-12-v2",
+    "name": "Monoprice Monolith 12 Subwoofer",
+    "status": "rejected",
+    "topResultTitle": "Monolith M-10 V2 10-Inch THX Certified Ultra 500 Watt Powered Subwoofer - Low Distortion, High Power Output, Vented HDF Cabinet, RCA and XLR Inputs, for Home Theater Systems, Black Ash Finish"
+  },
+  {
+    "slug": "bic-acoustech-pl-200-ii",
+    "name": "BIC Acoustech PL-200 II",
+    "status": "accepted",
+    "asin": "B074131NKS",
+    "matchedTitle": "BIC America PL-200II Acoustech PL-200 II Indoor 250-Watt-Continuous Powered Subwoofer, Black"
+  },
+  {
+    "slug": "dayton-sub-1200",
+    "name": "Dayton Audio SUB-1200",
+    "status": "rejected",
+    "topResultTitle": "Dayton Audio Classic CS1200 – 12\" 200W Powered Subwoofer with Class-D Amplifier, Deep Bass and Clean Design for Home Theater & Music – Black"
+  },
+  {
+    "slug": "elac-debut-sub3030",
+    "name": "ELAC Debut 3030 Subwoofer",
+    "status": "accepted",
+    "asin": "B07DH9C44C",
+    "matchedTitle": "ELAC Debut 2.0 SUB3030 12” Powered Subwoofer with AutoEQ, Black - Custom Driver & 1000-Watt Peak BASH Amplifier - Advanced Bluetooth - Braced MDF Cabinets"
+  },
+  {
+    "slug": "sony-sa-cs9",
+    "name": "Sony SA-CS9",
+    "status": "accepted",
+    "asin": "B0H1XN5XN7",
+    "matchedTitle": "Sony SA-CS9M2 10-Inch Powerful & Compact Subwoofer with Deep Bass | CS Speaker Home Theater Series, Bass Reflex Enclosure, Reinforced Cellular Cone, Low Vibration, Premium Componentry"
+  },
+  {
+    "slug": "yamaha-ns-sw100",
+    "name": "Yamaha NS-SW100",
+    "status": "accepted",
+    "asin": "B06XRB1JZS",
+    "matchedTitle": "YAMAHA Audio 10\" 100W Powered Subwoofer - Black (NS-SW100BL) | 10-inch 100W powered subwoofer with Twisted Flare Port and Advanced YST II for movies, music and home theater"
+  },
+  {
+    "slug": "fluance-db10",
+    "name": "Fluance DB10",
+    "status": "accepted",
+    "asin": "B01N9TYU9F",
+    "matchedTitle": "Fluance DB10W 10-inch Low Frequency Powered Subwoofer for Home Theater (Natural Walnut)"
+  },
+  {
+    "slug": "kanto-sub8",
+    "name": "Kanto SUB8",
+    "status": "accepted",
+    "asin": "B09GT5D1H9",
+    "matchedTitle": "Kanto SUB8VMB Sealed Powered Subwoofer | 300W Peak Power | 8\" Woofer | Matte Black"
+  },
+  {
+    "slug": "rel-t5x",
+    "name": "REL T/5x",
+    "status": "accepted",
+    "asin": "B0921GVHPC",
+    "matchedTitle": "REL T/5x 8-Inch Powered Subwoofer – Compact Sealed Design with Class AB Amplifier, RCA Inputs, and Powerful Bass for HiFi Stereo Systems, Home Theater, and Surround Sound – High Gloss Black Finish"
+  },
+  {
+    "slug": "sonos-sub-4",
+    "name": "Sonos Sub 4",
+    "status": "accepted",
+    "asin": "B0DFK42525",
+    "matchedTitle": "Sonos Sub 4 - Wireless Subwoofer - Black | Dual Force-Canceling Woofers | Deep, Dynamic Bass | Works with Arc, Arc Ultra, Beam soundbars | WiFi"
+  },
+  {
+    "slug": "bose-bass-module-700",
+    "name": "Bose Bass Module 700",
+    "status": "accepted",
+    "asin": "B07F3BC9YP",
+    "matchedTitle": "Bose Bass Module 700 - White- Wireless, Compact Subwoofer | QuietPort Technology, Active Subwoofer, 12-inch Driver, Home Theater, Movies, Music"
+  },
+  {
+    "slug": "klipsch-reference-theater-pack",
+    "name": "Klipsch Reference Theater Pack 5.1",
+    "status": "accepted",
+    "asin": "B0779GRFWF",
+    "matchedTitle": "Klipsch Black Reference Theater Pack 5.1 Surround Sound System"
+  },
+  {
+    "slug": "klipsch-r-625fa-51-system",
+    "name": "Klipsch Reference R-625FA 5.1.2 Dolby Atmos System",
+    "status": "quarantined"
+  },
+  {
+    "slug": "polk-monitor-xt-51-system",
+    "name": "Polk Monitor XT 5.1 Home Theater System",
+    "status": "quarantined"
+  },
+  {
+    "slug": "svs-prime-satellite-51",
+    "name": "SVS Prime Satellite 5.1 System",
+    "status": "rejected",
+    "topResultTitle": "SVS Prime Elevation Speaker (Pair) - Premium Black Ash"
+  },
+  {
+    "slug": "onkyo-ht-s3910",
+    "name": "Onkyo HT-S3910 5.1 Home Theater Package",
+    "status": "rejected",
+    "topResultTitle": "Klipsch Reference Dolby Atmos Home Theater + Onkyo TX-NR7100 9.2-Channel | Bundle with R-625FA Floorstanding Speakers, R-52C Center, R-41M Surrounds, R-12SW 12\" Subwoofer & Onkyo TX-NR7100 9.2-Channel"
+  },
+  {
+    "slug": "yamaha-yht-5960u",
+    "name": "Yamaha YHT-5960U Home Theater System",
+    "status": "accepted",
+    "asin": "B0973M92QD",
+    "matchedTitle": "Yamaha YHT-5960U Home Theater System with 8K HDMI and MusicCast | 8K HDMI with MusicCast and YPAO calibration for gaming, movies and music"
+  },
+  {
+    "slug": "jamo-s-807-hcs",
+    "name": "Jamo Studio S 807 HCS 5.0 System",
+    "status": "rejected",
+    "topResultTitle": "Jamo S 803 Bookshelf Speaker Pair (Walnut) | Bookshelf audio and home theater with Dolby Atmos ready connections and wood finish"
+  },
+  {
+    "slug": "vizio-m-series-512",
+    "name": "Vizio M-Series 5.1.2 Home Theater Sound Bar",
+    "status": "rejected",
+    "topResultTitle": "VIZIO 5.1.2 Elevate SE Soundbar, Wireless Subwoofer, Surround Sound w/Dolby Atmos & DTS:X, Bluetooth Speaker, QuickFit™ Compatible – SL512X-08 (New, 2024 Model)"
+  },
+  {
+    "slug": "nakamichi-dragon-1146",
+    "name": "Nakamichi Dragon 11.4.6 Soundbar System",
+    "status": "accepted",
+    "asin": "B0CLLJKH8Y",
+    "matchedTitle": "Nakamichi Dragon 11.4.6 Dolby Atmos/DTSX Pro Soundbar, Dual 8\" Opposed Subs | Elite 360° Cinema+Spatial Processing, Dual 8\" Opposing Subwoofers, 58\" Soundbar, HiFi AMTs, Bipolar Surr, 6 Height Ch*3000W"
+  },
+  {
+    "slug": "nakamichi-shockwafe-ultra-924",
+    "name": "Nakamichi Shockwafe Ultra 9.2.4",
+    "status": "rejected",
+    "topResultTitle": "Nakamichi Shockwafe 9.2.4 Dolby Atmos/DTSX Surround Soundbar, Dual 10\" Subs | Plug-and-Play Home Cinema, 45\" Soundbar, Dual 10\" Wireless Subwoofers, 4 Rear Surround Speakers (Wired)"
+  },
+  {
+    "slug": "sony-bravia-theater-quad",
+    "name": "Sony Bravia Theater Quad",
+    "status": "accepted",
+    "asin": "B0DJT53BQC",
+    "matchedTitle": "Sony BRAVIA Theater Quad Home Theater System, Surround Sound Systems with 16 Speakers, Supports Dolby Atmos, DTS:X, and IMAX Enhanced, Home Theater Sound System (HT-A9M2) (Renewed)"
+  },
+  {
+    "slug": "samsung-hw-q990f",
+    "name": "Samsung HW-Q990F 11.1.4 Soundbar",
+    "status": "accepted",
+    "asin": "B0F717JY29",
+    "matchedTitle": "Samsung HW-Q990F Q Series Soundbar 11.1.4 Ch Subwoofer with Rear Speaker with 2 Year Amber Protection Plan (2025)"
+  },
+  {
+    "slug": "enclave-cinehome-pro",
+    "name": "Enclave Audio CineHome Pro 5.1",
+    "status": "accepted",
+    "asin": "B081QPQPGN",
+    "matchedTitle": "Enclave CineHome PRO - 5.1 Wireless Plug and Play Home Theater Surround Sound System - THX, Dolby, DTS WiSA Certified - Includes 5 Active Wireless Speakers, 10-inch Subwoofer & CineHub Transmitter"
+  },
+  {
+    "slug": "platin-monaco-51",
+    "name": "Platin Audio Monaco 5.1 Wireless System",
+    "status": "rejected",
+    "topResultTitle": "Bobtot Surround Sound Systems for TV, 1400 Watts Peak Power 12\" Subwoofer | Strong Bass 5.1 Wired Home Theater System Loud Stereo Audio Speaker with ARC Optical Coaxial Bluetooth AUX DVD Karaoke Input"
+  },
+  {
+    "slug": "klipsch-flexus-core-300",
+    "name": "Klipsch Flexus Core 300 Soundbar",
+    "status": "accepted",
+    "asin": "B0DHF1C4QY",
+    "matchedTitle": "Klipsch Flexus CORE 300 5.1.2 Ch Sound Bar with Dirac Live - Black | Room Correction, Dolby Atmos, Custom Tuned Bass and Powered by Onkyo, 54”W"
+  },
+  {
+    "slug": "fluance-elite-51",
+    "name": "Fluance Elite 5.1 Surround Sound System",
+    "status": "accepted",
+    "asin": "B07QGD613X",
+    "matchedTitle": "Fluance Elite High Definition Surround Sound Home Theater 5.0 Channel Speaker System Including Floorstanding Towers, Center Channel and Rear Surround Speakers - White (SXHTBWH)"
+  },
+  {
+    "slug": "sony-ht-s40r",
+    "name": "Sony HT-S40R 5.1 Home Theater System",
+    "status": "accepted",
+    "asin": "B0961X3R2H",
+    "matchedTitle": "Sony HT-S40R 5.1ch Home Theater Soundbar System,black"
+  },
+  {
+    "slug": "klipsch-r-600f",
+    "name": "Klipsch R-600F Floorstanding Speaker",
+    "status": "accepted",
+    "asin": "B09P8X2Z8P",
+    "matchedTitle": "Klipsch Reference Next-Generation R-600F Horn-Loaded Floorstanding Speaker for Best-in-Class Home Theater"
+  },
+  {
+    "slug": "klipsch-r-625fa",
+    "name": "Klipsch R-625FA Dolby Atmos Floorstanding Speaker",
+    "status": "accepted",
+    "asin": "B07FK6QH39",
+    "matchedTitle": "Klipsch R-625FA Powerful Detailed Floorstanding Single Home Speaker Black"
+  },
+  {
+    "slug": "klipsch-rp-8000f-ii",
+    "name": "Klipsch RP-8000F II Floorstanding Speaker",
+    "status": "accepted",
+    "asin": "B09ZNYPJJQ",
+    "matchedTitle": "Klipsch Reference Premiere RP-8000F II 2.0 Dual Floorstanding Speaker Pair with Larger 90° x 90° Hybrid Tractrix Horn, 8” Cerametallic Woofers for Premium Home Theater Sound in Walnut"
+  },
+  {
+    "slug": "polk-signature-elite-es60",
+    "name": "Polk Signature Elite ES60",
+    "status": "accepted",
+    "asin": "B09BMX4MW4",
+    "matchedTitle": "Polk Audio Signature Elite ES60 Tower Speaker, Single, Contemporary Walnut | Hi-Res Certified, Dolby Atmos & DTS:X Compatible, 1\" Tweeter & (3) 6.5\" Woofers, Power Port Technology for Effortless Bass"
+  },
+  {
+    "slug": "polk-monitor-xt60",
+    "name": "Polk Monitor XT60",
+    "status": "accepted",
+    "asin": "B09BMX2DQN",
+    "matchedTitle": "Polk Audio Monitor XT60 Home Theater Tower Speaker (Single, Midnight Black) | Dolby Atmos, DTS:X & Auro 3D Compatible, 1\" Tweeter, 6.5\" Dynamically Balanced Woofer, (2) 6.5\" Passive Radiators"
+  },
+  {
+    "slug": "elac-debut-f62",
+    "name": "ELAC Debut 2.0 F6.2 Floorstanding Speaker",
+    "status": "accepted",
+    "asin": "B07B4V37VV",
+    "matchedTitle": "ELAC Debut 2.0 F6.2 Floorstanding Speaker, Black (Each) - 1” Cloth Dome Tweeter & Triple 6.5” Aramid Fiber Woofers - 3-Way Bass Reflex - Up to 35,000 Hz Response"
+  },
+  {
+    "slug": "svs-prime-tower",
+    "name": "SVS Prime Tower",
+    "status": "accepted",
+    "asin": "B00TKV0CEY",
+    "matchedTitle": "SVS Prime Tower Speakers - Pair (Premium Black Ash)"
+  },
+  {
+    "slug": "sony-ss-cs3",
+    "name": "Sony SS-CS3 Floorstanding Speaker",
+    "status": "accepted",
+    "asin": "B0F8PRFNWB",
+    "matchedTitle": "Sony SS-CS3M2 3-Way 4-Driver Hi-Res Floorstanding Speaker (Single) | CS Speaker Home Theater Series, Dual 5.12-inch Woofers, High Precision Tweeters, Hi-Res Audio, Premium Componentry"
+  },
+  {
+    "slug": "kef-q7-meta",
+    "name": "KEF Q7 Meta Floorstanding Speaker",
+    "status": "accepted",
+    "asin": "B0DH8G6V2Q",
+    "matchedTitle": "KEF Q7 Meta Passive Floor Speakers, Black | Passive 2.5-Way Floorstanding Speakers | Metamaterial Technology | Deep Bass | KEF Q-Series Home Theater"
+  },
+  {
+    "slug": "dayton-t652-air",
+    "name": "Dayton Audio T652-AIR Tower Speaker",
+    "status": "rejected",
+    "topResultTitle": "Dayton Audio Classic T65 Floor-Standing Tower Speaker Pair (Black)"
+  },
+  {
+    "slug": "lg-c5-oled",
+    "name": "LG C5 OLED evo TV",
+    "status": "accepted",
+    "asin": "B0DYQM4BDB",
+    "matchedTitle": "LG 65-Inch OLED evo AI 4K C5 Series Smart TV (OLED65C5PUA, 2025) | Dolby Atmos, Dolby Vision, HDR10, AI Super Upscaling 4K, FILMMAKER Mode"
+  },
+  {
+    "slug": "lg-g5-oled",
+    "name": "LG G5 OLED evo TV",
+    "status": "rejected",
+    "topResultTitle": "NTQinParts Voice TV Remote Control Controller Replacement for LG OLED55G5WUA 55-Inch, OLED65G5WUA 65-Inch, OLED77G5WUA 77-Inch OLED evo AI 4K G5 Series Smart TV (2025)"
+  },
+  {
+    "slug": "samsung-s90f",
+    "name": "Samsung S90F OLED TV",
+    "status": "accepted",
+    "asin": "B0DXMJGQWC",
+    "matchedTitle": "Samsung 65-Inch Class OLED S90F 4K Smart TV (2025 Model) NQ4 AI Gen3 Processor Upscaling Pro HDR +, Motion Xcelerator 144Hz, Vision Alexa Built-in"
+  },
+  {
+    "slug": "samsung-s95f",
+    "name": "Samsung S95F OLED TV",
+    "status": "accepted",
+    "asin": "B0DXMJFJ7W",
+    "matchedTitle": "Samsung 65-Inch Class OLED S95F 4K Glare Free Smart TV (2025 Model) NQ4 AI Gen3 Processor, HDR Pro, Motion Xcelerator 164Hz, Dolby Atmos, Samsung Vision AI, Alexa Built-in"
+  },
+  {
+    "slug": "sony-bravia-8-ii",
+    "name": "Sony Bravia 8 II OLED TV",
+    "status": "accepted",
+    "asin": "B0DYK7Y2YB",
+    "matchedTitle": "Sony 65 Inch BRAVIA 8 II QD OLED 4K HDR Smart Google TV (K-65XR80M2) | Sony’s brightest OLED with max color, XR Processor with AI Technology, Ultra Slim Design, 4K movie credits included"
+  },
+  {
+    "slug": "sony-bravia-9",
+    "name": "Sony Bravia 9 Mini LED TV",
+    "status": "accepted",
+    "asin": "B0CVQ5C4F5",
+    "matchedTitle": "Sony 75 Inch BRAVIA 9 Mini LED QLED 4K HDR Smart Google TV (K-75XR90) | Dolby Vision/Atmos, PS5 Features, XR Backlight Master Drive, X-Wide Angle, X-Anti Reflection, 4K movie credits included"
+  },
+  {
+    "slug": "tcl-qm8k",
+    "name": "TCL QM8K QD-Mini LED TV",
+    "status": "rejected",
+    "topResultTitle": "TCL 65 Inch QM8L Series SQD-Mini LED QLED 4K Smart Google TV 65QM8L, 144Hz | 2026, Google TV with Gemini, Ultimate Color, Ultimate Brightness & Contrast, Dolby Vision IQ, Dolby Atmos, IMAX Enhanced"
+  },
+  {
+    "slug": "tcl-qm7k",
+    "name": "TCL QM7K QD-Mini LED TV",
+    "status": "accepted",
+    "asin": "B0DVX8WJ7S",
+    "matchedTitle": "TCL 65 Inch Class QM7K Series | Mini LED QLED 4K HDR | 65QM7K, 2025 Model | 120HZ-144HZ Anti Reflective Screen Smart Google TV Dolby Atmos Onkyo Audio | Voice Remote Alexa Gaming Streaming Television"
+  },
+  {
+    "slug": "hisense-u8qg",
+    "name": "Hisense U8QG Mini-LED TV",
+    "status": "accepted",
+    "asin": "B0F1DV217B",
+    "matchedTitle": "Hisense 65\" U8 Series ULED Mini-LED 4K UHD Smart Google TV (65U8QG) - QLED, Native 165Hz, VRR 288, Up to LD5600, 5000 Nits, HDR10+, Dolby Vision IQ · Atmos, IMAX Enhanced, 4.1.2 Ch Audio"
+  },
+  {
+    "slug": "hisense-u75qg",
+    "name": "Hisense U75QG Mini-LED TV",
+    "status": "rejected",
+    "topResultTitle": "Hisense 65\" U7 Mini-LED ULED 4K UHD Best Premium Gaming HDR Smart Google TV (65U7SG, 2026 NEW) - Hi-QLED, Native 165Hz, VRR 330, HDR10+, Dolby Vision IQ·Atmos, IMAX Enhanced, Anti-Reflection, 2.1.2 Ch"
+  },
+  {
+    "slug": "sonos-era-300",
+    "name": "Sonos Era 300",
+    "status": "accepted",
+    "asin": "B0BW2LV57K",
+    "matchedTitle": "Sonos Era 300 Wireless Smart Speaker with Dolby Atmos - Black | 6-Driver Design | Bluetooth | WiFi | Trueplay Tuning | Stereo Pairing | Alexa | Works as Surround with Sonos Soundbars"
+  },
+  {
+    "slug": "bose-surround-speakers-700",
+    "name": "Bose Surround Speakers 700",
+    "status": "accepted",
+    "asin": "B07QQ7PHJJ",
+    "matchedTitle": "Bose Surround Speakers 700, Black"
+  },
+  {
+    "slug": "klipsch-the-fives",
+    "name": "Klipsch The Fives Powered Speakers",
+    "status": "rejected",
+    "topResultTitle": "Klipsch The Fives II Dolby Atmos 5.25\" Powered Speakers, Walnut (Pair)"
+  },
+  {
+    "slug": "kef-ls50-wireless-ii",
+    "name": "KEF LS50 Wireless II",
+    "status": "accepted",
+    "asin": "B08JQPPB9F",
+    "matchedTitle": "KEF LS50 Wireless II Active HiFi Speakers, Carbon Black | Active Wireless Hi-Fi Bookshelf Speakers | Spotify Connect, AirPlay 2, Chromecast | HDMI eARC | High-Resolution Audio"
+  },
+  {
+    "slug": "sonos-era-100",
+    "name": "Sonos Era 100",
+    "status": "accepted",
+    "asin": "B0BW34LCB8",
+    "matchedTitle": "Sonos Era 100 - Black - Wireless, Alexa Enabled Smart Speaker | WiFi | Bluetooth | Pair for Stereo or Surround | 47% faster processor | Next-gen dual-tweeter acoustic architecture"
+  },
+  {
+    "slug": "edifier-s3000pro",
+    "name": "Edifier S3000Pro Wireless Speakers",
+    "status": "rejected",
+    "topResultTitle": "Edifier S3000MKII Audiophile Active Speakers"
+  }
+]

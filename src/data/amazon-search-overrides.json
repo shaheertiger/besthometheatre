@@ -1,0 +1,342 @@
+{
+  "_readme": "Per-product search tuning for npm run images:fetch. query = Amazon search phrase; must = words the Amazon title must contain; exclude = words that reject a result; brand = brand word to require instead of the product's brand. A product listed here is retried even if quarantined.",
+  "monoprice-monolith-7x200": {
+    "query": "Monolith 7x200 Watts Per Channel Multi-Channel Home Theater Power Amplifier",
+    "must": [
+      "7x200"
+    ],
+    "brand": "monolith"
+  },
+  "rotel-rb-1582": {
+    "query": "Rotel RB-1582 MKII stereo power amplifier",
+    "must": [
+      "1582"
+    ]
+  },
+  "emotiva-basx-a-700": {
+    "query": "Emotiva BasX A-700 seven channel power amplifier",
+    "must": [
+      "a-700"
+    ]
+  },
+  "emotiva-basx-a3": {
+    "query": "Emotiva BasX A3 three channel power amplifier",
+    "must": [
+      "basx",
+      "a3"
+    ]
+  },
+  "kef-q150": {
+    "query": "KEF Q150 bookshelf speakers pair",
+    "must": [
+      "q150"
+    ]
+  },
+  "dayton-b652-air": {
+    "query": "Dayton Audio B652-AIR 6.5 inch bookshelf speaker pair",
+    "must": [
+      "b652"
+    ]
+  },
+  "pioneer-sp-bs22-lr": {
+    "query": "Pioneer SP-BS22-LR Andrew Jones bookshelf loudspeakers",
+    "must": [
+      "bs22"
+    ]
+  },
+  "mediabridge-14awg-speaker-wire": {
+    "query": "Mediabridge 14AWG speaker wire 100 feet",
+    "must": [
+      "14"
+    ]
+  },
+  "mediabridge-banana-plugs": {
+    "query": "Mediabridge banana plugs 12 pairs",
+    "must": [
+      "banana"
+    ]
+  },
+  "apc-p11vnt3": {
+    "query": "APC P11VNT3 SurgeArrest 11 outlet home theater",
+    "must": [
+      "p11vnt3"
+    ]
+  },
+  "epson-ls12000": {
+    "query": "Epson Pro Cinema LS12000 4K PRO-UHD laser projector",
+    "must": [
+      "ls12000"
+    ]
+  },
+  "benq-ht2060": {
+    "query": "BenQ HT2060 1080p HDR LED home theater projector",
+    "must": [
+      "ht2060"
+    ]
+  },
+  "hisense-c1": {
+    "query": "Hisense C1 4K laser mini projector",
+    "must": [
+      "c1"
+    ],
+    "exclude": [
+      "c2",
+      "m2"
+    ]
+  },
+  "awol-ltv-3500-pro": {
+    "query": "AWOL Vision LTV-3500 Pro 4K triple laser projector",
+    "must": [
+      "3500"
+    ]
+  },
+  "dangbei-mars-pro-2": {
+    "query": "Dangbei Mars Pro 2 4K laser projector",
+    "must": [
+      "mars pro 2"
+    ]
+  },
+  "marantz-cinema-70s": {
+    "query": "Marantz Cinema 70s 7.2 channel slim AV receiver",
+    "must": [
+      "cinema 70s"
+    ]
+  },
+  "pioneer-vsx-lx305": {
+    "query": "Pioneer Elite VSX-LX305 9.2 channel network AV receiver",
+    "must": [
+      "lx305"
+    ]
+  },
+  "octane-seating-flex-hr": {
+    "query": "Octane Seating Flex HR home theater seats",
+    "must": [
+      "octane"
+    ]
+  },
+  "hisense-ax5125h": {
+    "query": "Hisense AX5125H 5.1.2 channel soundbar",
+    "must": [
+      "ax5125h"
+    ]
+  },
+  "klipsch-r-121sw": {
+    "query": "Klipsch R-121SW 12 inch powered subwoofer",
+    "must": [
+      "121sw"
+    ]
+  },
+  "polk-hts-12": {
+    "query": "Polk Audio HTS 12 powered subwoofer",
+    "must": [
+      "hts"
+    ]
+  },
+  "monolith-m-12-v2": {
+    "query": "Monolith M-12 V2 12 inch THX subwoofer",
+    "must": [
+      "m-12"
+    ],
+    "brand": "monolith"
+  },
+  "dayton-sub-1200": {
+    "query": "Dayton Audio SUB-1200 12 inch 100 watt powered subwoofer",
+    "must": [
+      "sub-1200"
+    ]
+  },
+  "onkyo-ht-s3910": {
+    "query": "Onkyo HT-S3910 5.1 channel home theater package",
+    "must": [
+      "s3910"
+    ]
+  },
+  "jamo-s-807-hcs": {
+    "query": "Jamo Studio S 807 HCS home cinema speaker system",
+    "must": [
+      "807"
+    ]
+  },
+  "platin-monaco-51": {
+    "query": "Platin Audio Monaco 5.1 wireless home theater system",
+    "must": [
+      "monaco"
+    ]
+  },
+  "dayton-t652-air": {
+    "query": "Dayton Audio T652-AIR dual 6.5 inch tower speaker",
+    "must": [
+      "t652"
+    ]
+  },
+  "lg-g5-oled": {
+    "query": "LG 65 inch OLED evo G5 series OLED65G5WUA",
+    "must": [
+      "g5"
+    ],
+    "exclude": [
+      "c5",
+      "c6",
+      "c4",
+      "b5"
+    ]
+  },
+  "tcl-qm8k": {
+    "query": "TCL 65 inch QM8K QD-Mini LED TV 65QM8K",
+    "must": [
+      "qm8k"
+    ]
+  },
+  "great-northern-popcorn-machine": {
+    "query": "Great Northern Popcorn machine 8 oz kettle countertop popper",
+    "must": [
+      "machine"
+    ],
+    "exclude": [
+      "replacement",
+      "kettle only",
+      "kernels"
+    ]
+  },
+  "tripp-lite-isobar-8": {
+    "query": "Tripp Lite Isobar 8 outlet surge protector IBAR8",
+    "must": [
+      "isobar",
+      "8 outlet"
+    ]
+  },
+  "xgimi-horizon-s-max": {
+    "query": "XGIMI Horizon S Max 4K projector",
+    "must": [
+      "horizon s max"
+    ]
+  },
+  "optoma-uhz35": {
+    "query": "Optoma UHZ35 4K laser projector",
+    "must": [
+      "uhz35"
+    ],
+    "exclude": [
+      "uhz35st"
+    ]
+  },
+  "formovie-theater-premium": {
+    "query": "Formovie Theater Premium 4K UST laser projector",
+    "must": [
+      "premium"
+    ]
+  },
+  "bose-smart-soundbar": {
+    "query": "Bose Smart Soundbar Dolby Atmos",
+    "must": [
+      "smart soundbar"
+    ],
+    "exclude": [
+      "ultra",
+      "lifestyle",
+      "600",
+      "900"
+    ]
+  },
+  "jbl-bar-1000": {
+    "query": "JBL Bar 1000 7.1.4 soundbar detachable surround speakers",
+    "must": [
+      "bar 1000"
+    ],
+    "exclude": [
+      "mk2",
+      "mkii",
+      "1000m2",
+      "bar1000m2"
+    ]
+  },
+  "vizio-v-series-21": {
+    "query": "VIZIO V-Series 2.1 home theater sound bar V21",
+    "must": [
+      "v21"
+    ],
+    "exclude": [
+      "remote",
+      "replacement"
+    ]
+  },
+  "ultimea-nova-s50": {
+    "query": "ULTIMEA Nova S50 Dolby Atmos soundbar",
+    "must": [
+      "s50"
+    ]
+  },
+  "svs-prime-satellite-51": {
+    "query": "SVS Prime Satellite 5.1 surround sound speaker system",
+    "must": [
+      "5.1"
+    ]
+  },
+  "vizio-m-series-512": {
+    "query": "VIZIO M-Series 5.1.2 premium home theater sound bar",
+    "must": [
+      "m-series"
+    ],
+    "exclude": [
+      "elevate"
+    ]
+  },
+  "nakamichi-shockwafe-ultra-924": {
+    "query": "Nakamichi Shockwafe Ultra 9.2.4 soundbar",
+    "must": [
+      "shockwafe ultra"
+    ],
+    "exclude": [
+      "adapter",
+      "remote",
+      "cable",
+      "for nakamichi"
+    ]
+  },
+  "klipsch-r-625fa": {
+    "query": "Klipsch R-625FA Dolby Atmos floorstanding speaker",
+    "must": [
+      "625fa"
+    ],
+    "exclude": [
+      "system",
+      "bundle",
+      "onkyo",
+      "denon"
+    ]
+  },
+  "hisense-u75qg": {
+    "query": "Hisense 65 inch U7 Mini-LED 65U75QG",
+    "must": [
+      "u75qg"
+    ]
+  },
+  "klipsch-the-fives": {
+    "query": "Klipsch The Fives powered speaker system HDMI ARC",
+    "must": [
+      "fives"
+    ],
+    "exclude": [
+      "fives ii",
+      "the sevens",
+      "the nines"
+    ]
+  },
+  "sonos-era-100": {
+    "query": "Sonos Era 100 wireless smart speaker",
+    "must": [
+      "era 100"
+    ],
+    "exclude": [
+      " sl",
+      "pack",
+      "set"
+    ]
+  },
+  "edifier-s3000pro": {
+    "query": "Edifier S3000Pro active wireless speakers",
+    "must": [
+      "s3000pro"
+    ]
+  }
+}
