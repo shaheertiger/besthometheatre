@@ -50,7 +50,7 @@
     {
       "product": "klipsch-r-625fa",
       "award": "Best With Built-In Atmos",
-      "body": "The Klipsch R-625FA is the easiest way to add Dolby Atmos without ceiling speakers. It is a tower with **dual 6.5-inch spun-copper woofers** and a horn-loaded 1-inch aluminum tweeter, plus a **built-in up-firing Dolby Atmos elevation module** on top.\n\nThe elevation module bounces sound off the ceiling, creating height effects from the front speaker position. That means a 5.1.2 system with no extra speakers to place and no holes to cut. Pair a set of R-625FAs with a seven-channel receiver such as the [Denon AVR-X1800H](/gear/denon-avr-x1800h/), and you have Atmos with just five speaker positions.\n\nLike other Klipsch Reference speakers, the R-625FA is efficient, which helps when a receiver is powering seven channels.\n\nThe trade-offs: up-firing elevation depends on a flat, hard ceiling of ordinary height, and it never places sounds overhead as precisely as [in-ceiling speakers](/best-in-wall-speakers-for-home-theater/). The horn can sound bright in hard rooms. It is also available as part of the [Klipsch R-625FA 5.1.2 system](/gear/klipsch-r-625fa-51-system/), our top overall pick in the [main home theater speakers guide](/best-home-theater-speakers/), if you want a matched package."
+      "body": "The Klipsch R-625FA is the easiest way to add Dolby Atmos without ceiling speakers. It is a tower with **dual 6.5-inch spun-copper woofers** and a horn-loaded 1-inch aluminum tweeter, plus a **built-in up-firing Dolby Atmos elevation module** on top.\n\nThe elevation module bounces sound off the ceiling, creating height effects from the front speaker position. That means a 5.1.2 system with no extra speakers to place and no holes to cut. Pair a set of R-625FAs with a seven-channel receiver such as the [Denon AVR-X1800H](/gear/denon-avr-x1800h/), and you have Atmos with just five speaker positions.\n\nLike other Klipsch Reference speakers, the R-625FA is efficient, which helps when a receiver is powering seven channels.\n\nThe trade-offs: up-firing elevation depends on a flat, hard ceiling of ordinary height, and it never places sounds overhead as precisely as [in-ceiling speakers](/best-in-wall-speakers-for-home-theater/). The horn can sound bright in hard rooms. It is also available as part of the [Klipsch R-625FA 5.1.2 system](/gear/klipsch-r-625fa-51-system/), which adds an R-52C center, two R-41M surrounds and a 10-inch R-100SW sub and is our top overall pick in the [main home theater speakers guide](/best-home-theater-speakers/), if you want a matched package."
     },
     {
       "product": "polk-monitor-xt60",
@@ -99,10 +99,10 @@
     }
   ],
   "comparisonSpecs": [
+    "Type",
     "Drivers",
-    "Frequency response",
-    "Sensitivity",
-    "Impedance"
+    "Impedance",
+    "Bass loading"
   ],
   "mistakes": [
     {

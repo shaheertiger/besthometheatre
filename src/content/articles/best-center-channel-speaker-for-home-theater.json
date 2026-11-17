@@ -30,7 +30,7 @@
     {
       "product": "kef-q6-meta",
       "award": "Best for Wide Seating",
-      "body": "If your seating spans a wide sofa or two rows, the KEF Q6 Meta delivers the most even dialogue coverage here. Its **Uni-Q driver** places the tweeter at the acoustic center of the midrange cone, so treble and midrange radiate from a single point. That eliminates the horizontal cancellation between tweeter and woofers that conventional centers suffer from when the speaker is laid on its side.\n\nThis generation adds **Metamaterial Absorption Technology (MAT)**, a disc behind the tweeter designed to absorb rear-radiated sound that would otherwise color the treble. The practical result: voices keep the same tonal balance whether you sit in the middle or at the far end of the row.\n\nThe Q6 Meta matches KEF's Q3 Meta bookshelf and [Q7 Meta tower](/gear/kef-q7-meta/), and it blends well with the older [KEF Q150](/gear/kef-q150/) used as surrounds.\n\nThe trade-off is size and power. It is a large center, so measure your shelf, and it needs reasonable amplifier power to play loud. It is also one of the pricier centers here. Compared with the SVS Prime Center, the KEF offers wider, more even coverage; the SVS costs less and plays with more midrange weight."
+      "body": "If your seating spans a wide sofa or two rows, the KEF Q6 Meta delivers the most even dialogue coverage here. Its **Uni-Q driver** places the tweeter at the acoustic center of the midrange cone, so treble and midrange radiate from a single point. That eliminates the horizontal cancellation between tweeter and woofers that conventional centers suffer from when the speaker is laid on its side.\n\nThis generation adds **Metamaterial Absorption Technology (MAT)**, a disc behind the tweeter designed to absorb rear-radiated sound that would otherwise color the treble. The practical result: voices keep the same tonal balance whether you sit in the middle or at the far end of the row.\n\nThe Q6 Meta matches KEF's Q3 Meta bookshelf and [Q7 Meta tower](/gear/kef-q7-meta/), and it blends well with the compact [KEF Q1 Meta](/gear/kef-q1-meta/) used as surrounds, since all three share Uni-Q drivers.\n\nThe trade-off is size and power. It is a large center, so measure your shelf, and it needs reasonable amplifier power to play loud. It is also one of the pricier centers here. Compared with the SVS Prime Center, the KEF offers wider, more even coverage; the SVS costs less and plays with more midrange weight."
     },
     {
       "product": "elac-debut-c52",
@@ -55,7 +55,7 @@
     {
       "product": "polk-monitor-xt35",
       "award": "Best Budget Center",
-      "body": "The Polk Monitor XT35 is a budget center that gets the basics right: clear dialogue, a **Hi-Res certified 1-inch Terylene tweeter** and a compact, horizontal cabinet that fits under most TVs. It matches the [Monitor XT20](/gear/polk-monitor-xt20/) bookshelf and [XT60 tower](/gear/polk-monitor-xt60/), and it comes in the [Polk Monitor XT 5.1 system](/gear/polk-monitor-xt-51-system/).\n\nFor a first surround system, that matching is its main strength. Building a front stage from one series keeps timbre consistent, and the Monitor XT family covers everything from bookshelf and towers to Atmos modules.\n\nPolk's smooth, warm voicing suits dialogue and works well with entry-level receivers. In small to medium rooms at moderate volume, the XT35 is a big step up from TV speakers or a basic soundbar.\n\nThe trade-off is refinement and layout. As a budget two-way horizontal design, it has limited output and less consistent off-axis clarity than the 3-way picks. Compared with the Signature Elite ES35, it is less refined but cheaper. If you need a center to complete a Monitor XT system, it is the obvious choice."
+      "body": "The Polk Monitor XT35 is a budget center that gets the basics right: clear dialogue, a **Hi-Res certified 1-inch Terylene tweeter** and a compact, horizontal cabinet that fits under most TVs. It matches the [Monitor XT20](/gear/polk-monitor-xt20/) bookshelf and [XT60 tower](/gear/polk-monitor-xt60/), so you can build a Monitor XT front stage one piece at a time.\n\nFor a first surround system, that matching is its main strength. Building a front stage from one series keeps timbre consistent, and the Monitor XT family covers everything from bookshelf and towers to Atmos modules.\n\nPolk's smooth, warm voicing suits dialogue and works well with entry-level receivers. In small to medium rooms at moderate volume, the XT35 is a big step up from TV speakers or a basic soundbar.\n\nThe trade-off is refinement and layout. As a budget two-way horizontal design, it has limited output and less consistent off-axis clarity than the 3-way picks. Compared with the Signature Elite ES35, it is less refined but cheaper. If you need a center to complete a Monitor XT system, it is the obvious choice."
     },
     {
       "product": "sony-ss-cs8",
@@ -80,7 +80,7 @@
     },
     {
       "heading": "Matching Your Center to Your Front Speakers",
-      "body": "Timbre matching means your center should sound like your front left and right speakers. The most important factor is the **tweeter type**: aluminum dome, silk or cloth dome, titanium horn or coaxial.\n\n| Your front speakers | Best center match |\n|---|---|\n| SVS Prime | SVS Prime Center |\n| KEF Q Meta or Q150 | KEF Q6 Meta |\n| ELAC Debut 2.0 | ELAC Debut 2.0 C5.2 |\n| Klipsch Reference Premiere | Klipsch RP-504C II |\n| Klipsch Reference | Klipsch R-50C |\n| Polk Signature Elite | Polk Signature Elite ES35 |\n| Polk Monitor XT | Polk Monitor XT35 |\n| Sony SS-CS | Sony SS-CS8 |\n\nIf your front speakers are discontinued, choose a center from the closest current series with the same tweeter material, and use the receiver's [room correction](/glossary/room-correction/) to balance levels. For complete system picks, see our [best home theater speakers guide](/best-home-theater-speakers/)."
+      "body": "Timbre matching means your center should sound like your front left and right speakers. The most important factor is the **tweeter type**: aluminum dome, silk or cloth dome, titanium horn or coaxial.\n\n| Your front speakers | Best center match |\n|---|---|\n| SVS Prime | SVS Prime Center |\n| KEF Q Meta (Q1, Q3 or Q7) | KEF Q6 Meta |\n| ELAC Debut 2.0 | ELAC Debut 2.0 C5.2 |\n| Klipsch Reference Premiere | Klipsch RP-504C II |\n| Klipsch Reference | Klipsch R-50C |\n| Polk Signature Elite | Polk Signature Elite ES35 |\n| Polk Monitor XT | Polk Monitor XT35 |\n| Sony SS-CS | Sony SS-CS8 |\n\nIf your front speakers are discontinued, choose a center from the closest current series with the same tweeter material, and use the receiver's [room correction](/glossary/room-correction/) to balance levels. For complete system picks, see our [best home theater speakers guide](/best-home-theater-speakers/)."
     },
     {
       "heading": "Center Speaker Placement",
@@ -96,9 +96,8 @@
     }
   ],
   "comparisonSpecs": [
+    "Type",
     "Drivers",
-    "Frequency response",
-    "Sensitivity",
     "Impedance"
   ],
   "mistakes": [

@@ -68,7 +68,7 @@
     {
       "heading": "In-Wall, In-Ceiling or On-Wall",
       "position": "before",
-      "body": "There are three ways to mount speakers on or in your walls, and each suits a different job.\n\n- **In-wall speakers** mount flush in the wall cavity, usually in a rectangular frame. They are best for **front left, center and right** speakers and **side surrounds**, where sound should come from ear level.\n- **In-ceiling speakers** mount flush in the ceiling, usually in a round frame. They are best for **Dolby Atmos height channels**, and acceptable for surrounds when wall positions are not available.\n- **On-wall speakers** are freestanding speakers on brackets, or slim speakers designed to hang on the wall. They need no cutting, so they suit renters and finished rooms.\n\nFor on-wall use, pick **sealed or front-ported** speakers, because rear-ported speakers pushed against a wall produce boomy bass. Compact sealed satellites, such as those in the [SVS Prime Satellite 5.1](/gear/svs-prime-satellite-51/), are ideal, and up-firing modules like the [Klipsch R-41SA](/gear/klipsch-r-41sa/) are a no-cut alternative for Atmos.\n\nThe key specs are the same as for any speaker: woofer size, sensitivity and impedance. Two features matter specifically for in-ceiling speakers: **pivoting or aimable tweeters**, which let you direct treble toward the seats, and **paintable grilles**, which let the speakers vanish into the ceiling."
+      "body": "There are three ways to mount speakers on or in your walls, and each suits a different job.\n\n- **In-wall speakers** mount flush in the wall cavity, usually in a rectangular frame. They are best for **front left, center and right** speakers and **side surrounds**, where sound should come from ear level.\n- **In-ceiling speakers** mount flush in the ceiling, usually in a round frame. They are best for **Dolby Atmos height channels**, and acceptable for surrounds when wall positions are not available.\n- **On-wall speakers** are freestanding speakers on brackets, or slim speakers designed to hang on the wall. They need no cutting, so they suit renters and finished rooms.\n\nFor on-wall use, pick **sealed or front-ported** speakers, because rear-ported speakers pushed against a wall produce boomy bass. Compact satellites designed for wall mounting, such as the [SVS Prime Satellites](/gear/svs-prime-satellite-51/) (sold as a pair), are ideal, and up-firing modules like the [Klipsch R-41SA](/gear/klipsch-r-41sa/) are a no-cut alternative for Atmos.\n\nThe key specs are the same as for any speaker: woofer size, sensitivity and impedance. Two features matter specifically for in-ceiling speakers: **pivoting or aimable tweeters**, which let you direct treble toward the seats, and **paintable grilles**, which let the speakers vanish into the ceiling."
     },
     {
       "heading": "How We Chose the Best In-Wall Speakers for Home Theater",
@@ -98,8 +98,8 @@
   "comparisonSpecs": [
     "Type",
     "Drivers",
-    "Frequency response",
-    "Sensitivity"
+    "Mounting",
+    "Impedance"
   ],
   "mistakes": [
     {
