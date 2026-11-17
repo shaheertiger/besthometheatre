@@ -319,8 +319,8 @@
         "value": 92
       }
     ],
-    "summary": "A laser 4K PRO-UHD projector with 4K/120 input, a motorized 2.1x zoom and big lens shift, giving up a little brightness and contrast to the LS12000.",
-    "verdict": "The Epson Pro Cinema LS11000 takes the installer-friendly lens of the [Epson Home Cinema 5050UB](/gear/epson-home-cinema-5050ub/) and adds a **laser light source** and **HDMI 2.1 with 4K/120 input** (see [HDMI 2.1](/glossary/hdmi-2-1/)). Brightness is rated at **2,500 ISO lumens**, with dynamic contrast listed at **1,200,000:1**.\n\nThe lens maths is the same as Epson's flagship: a motorized **1.35–2.84 throw ratio** places a 120\" 16:9 image from **11.8 ft to 24.8 ft** away, and lens shift of about ±96% vertical and ±47% horizontal handles off-center mounting. Light output is about 59 lumens per sq ft at 120\" (roughly 59 foot-lamberts on a 1.0-gain screen before calibration losses). That is comfortable for SDR and decent for HDR in a dark room, but it is not a bright-room projector.\n\nLaser matters for ownership. There is no lamp to replace, it reaches full brightness fast, and output is stable over a far longer life. Against the [Epson Pro Cinema LS12000](/gear/epson-ls12000/), you give up 200 lumens and some contrast, which you will notice most in dark scenes and HDR. If your room is fully light-controlled and you want long-term savings, the LS11000 is the value pick in our [best laser projector guide](/best-laser-projector-for-home-theater/). Check placement with our [projector throw calculator](/tools/projector-throw-calculator/).",
+    "summary": "A laser 4K PRO-UHD projector with 4K/120 input, a motorized 2.1x zoom and big lens shift, for dark rooms that want laser longevity and a flexible lens.",
+    "verdict": "The Epson Pro Cinema LS11000 takes the installer-friendly lens of the [Epson Home Cinema 5050UB](/gear/epson-home-cinema-5050ub/) and adds a **laser light source** and **HDMI 2.1 with 4K/120 input** (see [HDMI 2.1](/glossary/hdmi-2-1/)). Brightness is rated at **2,500 ISO lumens**, with dynamic contrast listed at **1,200,000:1**.\n\nThe lens maths is the same as Epson's flagship: a motorized **1.35–2.84 throw ratio** places a 120\" 16:9 image from **11.8 ft to 24.8 ft** away, and lens shift of about ±96% vertical and ±47% horizontal handles off-center mounting. Light output is about 59 lumens per sq ft at 120\" (roughly 59 foot-lamberts on a 1.0-gain screen before calibration losses). That is comfortable for SDR and decent for HDR in a dark room, but it is not a bright-room projector.\n\nLaser matters for ownership. There is no lamp to replace, it reaches full brightness fast, and output is stable over a far longer life. Its newer sibling, the [Epson Pro Cinema LS9000](/gear/epson-ls9000/), has taken the LS12000's place on our list, but its Amazon listing quotes no lumen or contrast figures, so the LS11000 remains the Epson laser with fully published numbers. If your room is fully light-controlled and you want long-term savings, the LS11000 is the value pick in our [best laser projector guide](/best-laser-projector-for-home-theater/). Check placement with our [projector throw calculator](/tools/projector-throw-calculator/).",
     "bestFor": "Dark dedicated rooms that want laser longevity and a flexible lens without flagship pricing",
     "skipIf": "Your room has significant ambient light or you want the best black levels Epson makes",
     "pros": [
@@ -331,7 +331,7 @@
     ],
     "cons": [
       "2,500 ISO lumens is modest for big screens or HDR",
-      "Blacks trail the LS12000",
+      "Black levels are good, not flagship-class",
       "No built-in speakers or streaming"
     ],
     "specs": {
@@ -352,8 +352,8 @@
     ],
     "faqs": [
       {
-        "q": "What is the difference between the Epson LS11000 and LS12000?",
-        "a": "The LS12000 is rated 200 lumens brighter (2,700 vs 2,500 ISO lumens) and has higher rated contrast, which shows in dark scenes. Both share the motorized 2.1x lens, laser light and 4K/120 input. If your room is fully dark and budget is tight, the LS11000 delivers most of the experience."
+        "q": "What is the difference between the Epson LS11000 and LS9000?",
+        "a": "The LS9000 is the newer Epson Pro Cinema laser model and takes the LS12000's place on our list, with 4K, a laser light source and a powered lens. Its Amazon listing does not quote brightness or contrast, while the LS11000 lists 2,500 ISO lumens, a motorized 2.1x lens and 4K/120 input. Compare Epson's spec sheets before paying more."
       },
       {
         "q": "Is the Epson LS11000 good for gaming?",
@@ -362,23 +362,22 @@
     ]
   },
   {
-    "slug": "epson-ls12000",
-    "name": "Epson Pro Cinema LS12000",
+    "slug": "epson-ls9000",
+    "name": "Epson Pro Cinema LS9000",
     "brand": "Epson",
     "category": "projector",
-    "amazonQuery": "Epson Pro Cinema LS12000 laser projector",
-    "released": "2021",
-    "priceBand": "$4,500–$5,000",
+    "amazonQuery": "Epson Pro Cinema LS9000 4K laser projector",
+    "priceBand": "$3,500–$3,900",
     "priceTier": 4,
-    "score": 89,
+    "score": 85,
     "scores": [
       {
         "label": "Picture quality",
-        "value": 91
+        "value": 86
       },
       {
         "label": "Brightness",
-        "value": 78
+        "value": 76
       },
       {
         "label": "Value",
@@ -386,53 +385,48 @@
       },
       {
         "label": "Setup flexibility",
-        "value": 92
+        "value": 90
       }
     ],
-    "summary": "Epson's flagship laser 4K PRO-UHD projector: excellent contrast, 2,700 ISO lumens, 4K/120 input and a motorized 2.1x lens with lens memory.",
-    "verdict": "The Epson Pro Cinema LS12000 is the best all-round projector Epson sells for a dedicated theater. It pairs a **laser light source** with **4K PRO-UHD** pixel shifting, **2,700 ISO lumens** and dynamic contrast rated at **2,500,000:1**, plus **4K/120 input** over HDMI 2.1.\n\nOn a 120\" 16:9 screen, the motorized **1.35–2.84 throw ratio** puts the lens **11.8 ft to 24.8 ft** away, and lens shift of about ±96% vertical and ±47% horizontal covers awkward mounts. Brightness works out to about 63 lumens per sq ft, roughly 63 foot-lamberts on a 1.0-gain screen before calibration losses. Step up to a 135\" screen (about 54 sq ft) and you still get around 50, which is solid for a dark room. Lens memory also makes it a good match for a 2.35:1 scope screen, where you zoom between aspect ratios.\n\nWhat you pay for over the [Epson Pro Cinema LS11000](/gear/epson-ls11000/) is mostly contrast and a little light; independent reviews widely note the better blacks. Against native 4K rivals like the [Sony VPL-XW5000ES](/gear/sony-vpl-xw5000es/), the Epson is brighter and offers more lens range, while the Sony resolves slightly finer detail. For most dark rooms, it is a top pick in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
-    "bestFor": "Dedicated dark theaters, including 2.35:1 scope-screen setups, that want flagship contrast",
-    "skipIf": "You need a bright-room projector or a compact unit for a living room",
+    "summary": "Epson's current Pro Cinema laser projector, taking over from the LS12000 in our lineup: 4K via 3LCD pixel shifting, a lamp-free laser light source and a powered lens, built for dedicated dark rooms.",
+    "verdict": "The Epson Pro Cinema LS9000 is the successor to the LS12000 on our list and the Epson laser model we now track for dedicated theaters. Amazon's listing confirms the essentials: **4K resolution**, a **laser light source** with no lamps to replace, and **powered lens adjustment** for easier setup. Like every Epson home 4K model, it builds its image on **3LCD** chips with pixel shifting rather than a native 4K panel.\n\nWhat the listing does not give is a lumen or contrast figure, so work the maths from the screen backward. A 120\" 16:9 screen covers **42.7 sq ft**. A common dark-room target is about 16 foot-lamberts for SDR and 30 or more for HDR. On a 1.0-gain screen, that means roughly 42.7 x 16 = **about 680 lumens** delivered for SDR and **about 1,300** for HDR, after calibration, which often takes 30–50% off the rated figure. At 135\" (about 54 sq ft), the HDR target climbs to roughly 1,600 delivered lumens. Hold Epson's spec sheet up against those numbers, then plan placement with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nThe case for it is ownership: a laser that holds its brightness for years, a powered lens that makes ceiling installs less fiddly, and Epson's long record with dark-room projectors. If you want published numbers today, the [Epson Pro Cinema LS11000](/gear/epson-ls11000/) lists 2,500 ISO lumens and a 2.1x motorized lens, and the [Sony VPL-XW5000ES](/gear/sony-vpl-xw5000es/) is the step to native 4K. More options in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
+    "bestFor": "Dedicated dark theaters that want a lamp-free Epson laser projector with a powered lens",
+    "skipIf": "You need published brightness and contrast figures before buying, or a projector for a bright living room",
     "pros": [
-      "Excellent contrast for its class (2,500,000:1 dynamic rating)",
-      "2,700 ISO lumens with equal white and color light",
-      "Laser light source with long life",
-      "Motorized 2.1x zoom, big lens shift and lens memory",
-      "4K/120 input over HDMI 2.1"
+      "Laser light source: no lamp replacements",
+      "Powered lens adjustment simplifies ceiling and shelf installs",
+      "4K detail from Epson's 3LCD pixel shifting",
+      "Designed for dedicated home theaters and media rooms"
     ],
     "cons": [
+      "Amazon listing quotes no lumen or contrast figures",
       "Pixel shifting, not native 4K",
-      "Large and heavy",
-      "No speakers or streaming built in"
+      "Premium price band for a spec sheet you need to verify"
     ],
     "specs": {
-      "Resolution": "4K PRO-UHD (1080p 3LCD with pixel shifting)",
-      "Brightness": "2,700 ISO lumens (white and color)",
+      "Resolution": "4K (3LCD with pixel shifting)",
       "Light source": "Laser",
-      "Throw ratio": "1.35–2.84 (2.1x motorized zoom)",
-      "HDR": "HDR10, HLG",
-      "Contrast": "2,500,000:1 (dynamic, Epson spec)",
-      "Smart platform": "None",
-      "Speakers": "None"
+      "Lens": "Powered lens adjustment",
+      "Designed for": "Dedicated home theaters and media rooms"
     },
     "keySpecs": [
       "Resolution",
-      "Brightness",
       "Light source",
-      "Contrast"
+      "Lens",
+      "Designed for"
     ],
     "faqs": [
       {
-        "q": "Is the Epson LS12000 worth it over the LS11000?",
-        "a": "If your room is dark and you watch a lot of HDR and dark films, yes. The LS12000 has noticeably better rated contrast and 200 more ISO lumens. If budget is the priority, the LS11000 shares the same lens, laser and 4K/120 input."
+        "q": "Is the Epson LS9000 the successor to the LS12000?",
+        "a": "On our list, yes. The LS12000 is discontinued on Amazon, and the LS9000 is the current Epson Pro Cinema laser model that takes its place. Its Amazon listing does not quote brightness or contrast, so compare Epson's published specs before you buy."
       },
       {
-        "q": "Does the Epson LS12000 work with a 2.35:1 screen?",
-        "a": "Yes. Its motorized zoom, focus and shift plus lens memory let you store positions for 16:9 and scope content, so you can fill a 2.35:1 screen without an anamorphic lens."
+        "q": "Is the Epson LS9000 native 4K?",
+        "a": "No. Epson's home theater 4K projectors use 3LCD chips with pixel shifting to put 4K detail on screen. At normal seating distances the difference from native 4K is small; the native 4K Sony VPL-XW5000ES costs more."
       },
       {
-        "q": "Is the Epson LS12000 native 4K?",
-        "a": "No. It uses 1080p 3LCD chips with pixel shifting to place 4K detail on screen. Native 4K projectors such as Sony's SXRD models can look slightly sharper up close, but at normal seating distances the difference is small."
+        "q": "How bright does a projector need to be for a 120-inch screen?",
+        "a": "In a dark room, aim for about 680 delivered lumens for SDR, which is 16 foot-lamberts on a 1.0-gain, 42.7 sq ft screen, and roughly 1,300 or more for HDR. Rated lumens drop after calibration, so leave 30–50% headroom."
       }
     ]
   },
@@ -507,70 +501,74 @@
     ]
   },
   {
-    "slug": "benq-ht2060",
-    "name": "BenQ HT2060",
+    "slug": "benq-tk710",
+    "name": "BenQ TK710",
     "brand": "BenQ",
     "category": "projector",
-    "amazonQuery": "BenQ HT2060 1080p home theater projector",
-    "released": "2023",
-    "priceBand": "$1,000–$1,300",
-    "priceTier": 2,
+    "amazonQuery": "BenQ TK710 4K HDR laser projector",
+    "priceBand": "$1,700–$1,900",
+    "priceTier": 3,
     "score": 82,
     "scores": [
       {
         "label": "Picture quality",
-        "value": 80
+        "value": 81
       },
       {
         "label": "Brightness",
-        "value": 72
+        "value": 82
       },
       {
         "label": "Value",
-        "value": 84
+        "value": 80
       },
       {
         "label": "Setup flexibility",
-        "value": 84
+        "value": 82
       }
     ],
-    "summary": "A 1080p LED projector tuned for accurate color, with a short-ish 1.15–1.5 throw, vertical lens shift and no lamp to replace.",
-    "verdict": "The BenQ HT2060 is a 1080p projector for viewers who care more about accurate color and easy setup than a 4K badge. It uses a **4LED light source** rated at **2,300 ANSI lumens** (see [ANSI lumens explained](/glossary/ansi-lumens/)), so there is no lamp to replace and brightness holds steady over time.\n\nIts lens is unusually friendly for small rooms. The **1.15–1.5 throw ratio** with 1.3x zoom places a 100\" 16:9 image (87.2\" wide) from about **8.4 ft to 10.9 ft** away, and a 120\" image (104.6\" wide) from about **10.0 ft to 13.1 ft**. Vertical lens shift helps it sit on a shelf without keystone. Brightness is about 77 lumens per sq ft at 100\" (29.7 sq ft), and 54 at 120\", or roughly 54 foot-lamberts on a 1.0-gain screen before calibration losses. That is fine for a dark or dim room but not for a sunny one.\n\nThe trade-off is resolution: it is native 1080p, so on a large screen from close up, a 4K pixel-shift model like the [BenQ W4100i](/gear/benq-w4100i/) or [Epson Home Cinema 2350](/gear/epson-home-cinema-2350/) looks sharper. There is no built-in streaming. But for a small theater or bedroom with a 100\" screen, it is one of the best-value picks in our [best budget projector guide](/best-budget-home-theater-projector/). Use our [projector throw calculator](/tools/projector-throw-calculator/) to check your room.",
-    "bestFor": "Small rooms and color-conscious viewers who want a lamp-free 1080p projector",
-    "skipIf": "You sit close to a 120\" screen and want 4K sharpness, or watch with lights on",
+    "summary": "A 4K HDR laser projector with 3,200 ANSI lumens, 1.3x zoom, lens shift and fast gaming modes, the lamp-free successor to the HT2060 in our lineup.",
+    "verdict": "The BenQ TK710 replaces the 1080p HT2060 on our list and moves the formula up a class: **4K UHD** with HDR10 and HLG, a **laser light source** rated at **3,200 ANSI lumens** (see [ANSI lumens explained](/glossary/ansi-lumens/)), **1.3x zoom with lens shift**, and BenQ's claim of **95% Rec.709** color. BenQ quotes **16 ms input lag at 4K/60** and **4 ms at 1080p/240 Hz**, and eARC support lets it pass sound to a soundbar or receiver.\n\nRun the brightness maths for your screen. On a 120\" 16:9 screen (42.7 sq ft), 3,200 lumens is about **75 lumens per sq ft**, roughly 75 foot-lamberts on a 1.0-gain screen before calibration losses. At 135\" (about 54 sq ft) it is still about 59, and at 150\" (66.7 sq ft) about 48. That is comfortable for a dark room at any of those sizes and enough to keep a 100–120\" image watchable with some lights on, especially on an ALR surface (see [how ALR screens work](/glossary/alr-screen/)).\n\nThe 1.3x zoom means the farthest throw is 1.3 times the closest, which gives you some freedom over where the mount goes, and lens shift avoids digital keystone, which softens a 4K image. The Amazon listing does not state the throw ratio, so plug BenQ's spec-sheet figure into our [projector throw calculator](/tools/projector-throw-calculator/) before drilling.\n\nAgainst the lamp-based [Epson Home Cinema 3800](/gear/epson-home-cinema-3800/), it trades a lamp for a laser in a similar price band. If the projector must sit close to the screen, the short-throw [BenQ TK710STi](/gear/benq-tk710sti/) is the variant to look at. For a bright, lamp-free 4K projector that also games well, it is a strong pick in our [best 4K projector guide](/best-4k-projector-for-home-theater/).",
+    "bestFor": "Mixed-use rooms and gamers who want a bright, lamp-free 4K projector with lens shift",
+    "skipIf": "You want the deepest dark-room blacks, or the projector must sit very close to the screen",
     "pros": [
-      "4LED light source, no lamp replacements",
-      "Short-ish 1.15–1.5 throw suits small rooms",
-      "Vertical lens shift and 1.3x zoom",
-      "Color-focused picture modes out of the box"
+      "3,200 ANSI lumens from a long-life laser",
+      "1.3x zoom and lens shift for flexible placement",
+      "16 ms at 4K/60 and 4 ms at 1080p/240 Hz for gaming",
+      "HDR10 and HLG with 95% Rec.709 color claimed",
+      "eARC support and a 3-year warranty"
     ],
     "cons": [
-      "Native 1080p, not 4K",
-      "2,300 ANSI lumens limits big screens and bright rooms",
-      "No built-in streaming"
+      "Pixel-shifting 4K, not native",
+      "DLP blacks trail the best dark-room projectors",
+      "Throw ratio not stated on the Amazon listing"
     ],
     "specs": {
-      "Resolution": "1080p (native, DLP)",
-      "Brightness": "2,300 ANSI lumens",
-      "Light source": "4LED",
-      "Throw ratio": "1.15–1.5 (1.3x optical zoom)",
+      "Resolution": "4K UHD (DLP with XPR pixel shifting)",
+      "Brightness": "3,200 ANSI lumens",
+      "Light source": "Laser",
+      "Lens": "1.3x zoom, lens shift",
       "HDR": "HDR10, HLG",
-      "Smart platform": "None"
+      "Input lag": "16 ms (4K/60), 4 ms (1080p/240 Hz)"
     },
     "keySpecs": [
       "Resolution",
       "Brightness",
       "Light source",
-      "Throw ratio"
+      "Input lag"
     ],
     "faqs": [
       {
-        "q": "How far does the BenQ HT2060 need to be from a 100-inch screen?",
-        "a": "About 8.4 to 10.9 feet from lens to screen. A 100-inch 16:9 image is 87.2 inches wide; multiply that by the 1.15 to 1.5 throw ratio. That short range is why the HT2060 suits small rooms and bedrooms."
+        "q": "Is the BenQ TK710 good for gaming?",
+        "a": "Yes. BenQ quotes 16 ms input lag at 4K/60 for PS5, Xbox and PC, and 4 ms at 1080p/240 Hz. At 240 Hz each frame lasts about 4.2 ms, so the low-lag mode suits fast shooters."
       },
       {
-        "q": "Is the BenQ HT2060 4K?",
-        "a": "No. It is a native 1080p projector. On a 100-inch screen at normal seating distance, 1080p still looks sharp, but if you sit close to a large screen, a 4K pixel-shifting projector shows finer detail."
+        "q": "How big a screen can the BenQ TK710 light?",
+        "a": "In a dark room, 120 to 150 inches is realistic. Its 3,200 lumens work out to about 75 foot-lamberts on a 120-inch 1.0-gain screen and about 48 at 150 inches, before calibration losses."
+      },
+      {
+        "q": "Is the BenQ TK710 the replacement for the HT2060?",
+        "a": "On our list, yes. The HT2060 is no longer sold on Amazon, and the TK710 is BenQ's current laser home theater model in a similar role, adding 4K, HDR and more brightness."
       }
     ]
   },
@@ -805,7 +803,7 @@
       }
     ],
     "summary": "A very bright, low-lag 1080p DLP projector for sports and gaming in rooms with lights on, with basic contrast and a short zoom range.",
-    "verdict": "The BenQ TH575 is a brightness-and-speed projector. It is rated at **3,800 ANSI lumens** from a lamp, native **1080p DLP**, and BenQ quotes **16.7 ms input lag** in its game mode, which makes it a favorite for sports and console gaming on a budget.\n\nHere is why the brightness matters. On a 100\" 16:9 screen (29.7 sq ft), 3,800 lumens is about 128 lumens per sq ft on paper, roughly 128 foot-lamberts on a 1.0-gain screen before calibration losses. At 120\" (42.7 sq ft) it is still about 89. That is enough to watch a game with the lights on, which most home theater projectors cannot do. Throw ratio is about **1.5** at the wide end with a small 1.1x zoom, so a 100\" image needs roughly 10.9 ft and 120\" roughly 13.1 ft. With little zoom and no lens shift, you place the projector to fit the screen, not the other way around; check with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nWhat you give up is film quality. Contrast and color are basic, it does not accept 4K or HDR, and the lamp will need replacing. For movies in a dark room, the [BenQ HT2060](/gear/benq-ht2060/) is the better BenQ. For bright-room sports on a budget, it beats the [Optoma HD146X](/gear/optoma-hd146x/) on brightness; see our [best budget projector guide](/best-budget-home-theater-projector/).",
+    "verdict": "The BenQ TH575 is a brightness-and-speed projector. It is rated at **3,800 ANSI lumens** from a lamp, native **1080p DLP**, and BenQ quotes **16.7 ms input lag** in its game mode, which makes it a favorite for sports and console gaming on a budget.\n\nHere is why the brightness matters. On a 100\" 16:9 screen (29.7 sq ft), 3,800 lumens is about 128 lumens per sq ft on paper, roughly 128 foot-lamberts on a 1.0-gain screen before calibration losses. At 120\" (42.7 sq ft) it is still about 89. That is enough to watch a game with the lights on, which most home theater projectors cannot do. Throw ratio is about **1.5** at the wide end with a small 1.1x zoom, so a 100\" image needs roughly 10.9 ft and 120\" roughly 13.1 ft. With little zoom and no lens shift, you place the projector to fit the screen, not the other way around; check with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nWhat you give up is film quality. Contrast and color are basic, it does not accept 4K or HDR, and the lamp will need replacing. For movies in a dark room, the 4K laser [BenQ TK710](/gear/benq-tk710/) is the better BenQ. For bright-room sports on a budget, it beats the [Optoma HD146X](/gear/optoma-hd146x/) on brightness; see our [best budget projector guide](/best-budget-home-theater-projector/).",
     "bestFor": "Bright-room sports, gaming and casual movie nights on a tight budget",
     "skipIf": "You want HDR, 4K or cinema-grade contrast for a dark theater",
     "pros": [
@@ -943,7 +941,7 @@
       }
     ],
     "summary": "A compact 4K triple-laser projector with a built-in gimbal stand, Dolby Vision and very wide color, rated at 3,000 ANSI lumens.",
-    "verdict": "The Hisense C2 Ultra packs a 4K triple-laser engine into a compact, gimbal-mounted body that you can set on a table and aim at a wall or screen. Hisense rates it at **3,000 ANSI lumens** from its **TriChroma RGB laser** light source, with **Dolby Vision**, HDR10+ and IMAX Enhanced support and color reaching beyond DCI-P3 toward BT.2020.\n\nDo the room maths. On a 120\" 16:9 screen (42.7 sq ft), 3,000 lumens is about 70 lumens per sq ft on paper, roughly 70 foot-lamberts on a 1.0-gain screen before calibration losses. Go to 150\" (about 66.7 sq ft) and it drops to roughly 45, still workable in a dark room. The gimbal plus optical zoom lets you fine-tune size and position without a ceiling mount; plan distances with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nTriple-laser projectors produce very saturated color, but some viewers notice laser speckle (a faint shimmer on flat areas), and native contrast is typical of DLP rather than Epson UB levels. JBL-tuned speakers are fine for casual viewing, though a soundbar is a clear upgrade. Against the [Valerion VisionMaster Pro2](/gear/valerion-visionmaster-pro2/), it is more portable; against the [XGIMI Horizon S Max](/gear/xgimi-horizon-s-max/), it offers wider laser color. It is a strong flexible pick in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
+    "verdict": "The Hisense C2 Ultra packs a 4K triple-laser engine into a compact, gimbal-mounted body that you can set on a table and aim at a wall or screen. Hisense rates it at **3,000 ANSI lumens** from its **TriChroma RGB laser** light source, with **Dolby Vision**, HDR10+ and IMAX Enhanced support and color reaching beyond DCI-P3 toward BT.2020.\n\nDo the room maths. On a 120\" 16:9 screen (42.7 sq ft), 3,000 lumens is about 70 lumens per sq ft on paper, roughly 70 foot-lamberts on a 1.0-gain screen before calibration losses. Go to 150\" (about 66.7 sq ft) and it drops to roughly 45, still workable in a dark room. The gimbal plus optical zoom lets you fine-tune size and position without a ceiling mount; plan distances with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nTriple-laser projectors produce very saturated color, but some viewers notice laser speckle (a faint shimmer on flat areas), and native contrast is typical of DLP rather than Epson UB levels. JBL-tuned speakers are fine for casual viewing, though a soundbar is a clear upgrade. Against the [Valerion VisionMaster Pro2](/gear/valerion-visionmaster-pro2/), it is more portable; against the [XGIMI Horizon 20 Max](/gear/xgimi-horizon-20-max/), it is far more compact, while the XGIMI claims much more light (5,700 ISO lumens) and adds lens shift. It is a strong flexible pick in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
     "bestFor": "Flexible living rooms and multi-use spaces that want laser color without a ceiling mount",
     "skipIf": "You are sensitive to laser speckle or want the deepest blacks for a dark theater",
     "pros": [
@@ -1012,7 +1010,7 @@
       }
     ],
     "summary": "A bright triple-laser ultra short throw TV with Dolby Vision and wide color, rated at 3,000 ANSI lumens, for living rooms that want a 100\"-plus picture.",
-    "verdict": "The Hisense PX3-Pro is a 4K ultra short throw (UST) laser TV that sits a few inches from the wall on a media cabinet. It uses Hisense's **TriChroma RGB triple laser**, rated at **3,000 ANSI lumens**, supports **Dolby Vision** and covers a very wide color gamut.\n\nThe numbers explain why it works in a living room. On a 100\" screen (29.7 sq ft), 3,000 lumens is roughly 101 lumens per sq ft on paper, about 101 foot-lamberts on a 1.0-gain screen before calibration losses. At 120\" (42.7 sq ft) it is about 70. Pair it with a ceiling-light-rejecting UST screen like the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) and it holds contrast with lamps on; on a plain white wall, room light lifts the blacks (see [how ALR screens work](/glossary/alr-screen/)).\n\nUST rules apply: the projector must be level and the screen perfectly flat, so choose a fixed-frame screen. Some viewers notice laser speckle on bright, flat areas, and dark-room blacks are not OLED-like. Compared with the [Epson EpiqVision Ultra LS800](/gear/epson-ls800/), the Hisense trades a little rated brightness for Dolby Vision and wider laser color; compared with the [AWOL Vision LTV-3500 Pro](/gear/awol-ltv-3500-pro/), it is close in brightness. If you want a TV replacement larger than any affordable panel, start here and in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
+    "verdict": "The Hisense PX3-Pro is a 4K ultra short throw (UST) laser TV that sits a few inches from the wall on a media cabinet. It uses Hisense's **TriChroma RGB triple laser**, rated at **3,000 ANSI lumens**, supports **Dolby Vision** and covers a very wide color gamut.\n\nThe numbers explain why it works in a living room. On a 100\" screen (29.7 sq ft), 3,000 lumens is roughly 101 lumens per sq ft on paper, about 101 foot-lamberts on a 1.0-gain screen before calibration losses. At 120\" (42.7 sq ft) it is about 70. Pair it with a ceiling-light-rejecting UST screen like the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) and it holds contrast with lamps on; on a plain white wall, room light lifts the blacks (see [how ALR screens work](/glossary/alr-screen/)).\n\nUST rules apply: the projector must be level and the screen perfectly flat, so choose a fixed-frame screen. Some viewers notice laser speckle on bright, flat areas, and dark-room blacks are not OLED-like. Compared with the [Epson EpiqVision Ultra LS800](/gear/epson-ls800/), the Hisense trades a little rated brightness for Dolby Vision and wider laser color; compared with the [AWOL Vision Aetherion Max](/gear/awol-aetherion-max/) (3,300 ISO lumens), it is close in brightness. If you want a TV replacement larger than any affordable panel, start here and in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
     "bestFor": "Living rooms that want a 100–120\" TV replacement on a low cabinet",
     "skipIf": "You will not add a UST ALR screen, or your room is a dark dedicated theater",
     "pros": [
@@ -1052,71 +1050,76 @@
     ]
   },
   {
-    "slug": "xgimi-horizon-s-max",
-    "name": "XGIMI Horizon S Max",
+    "slug": "xgimi-horizon-20-max",
+    "name": "XGIMI Horizon 20 Max",
     "brand": "XGIMI",
     "category": "projector",
-    "amazonQuery": "XGIMI Horizon S Max 4K projector",
-    "released": "2024",
-    "priceBand": "$1,800–$2,300",
+    "amazonQuery": "XGIMI Horizon 20 Max 4K triple laser projector",
+    "priceBand": "$2,500–$2,700",
     "priceTier": 3,
-    "score": 83,
+    "score": 85,
     "scores": [
       {
         "label": "Picture quality",
-        "value": 84
+        "value": 85
       },
       {
         "label": "Brightness",
-        "value": 82
+        "value": 90
       },
       {
         "label": "Value",
-        "value": 80
+        "value": 82
       },
       {
         "label": "Setup flexibility",
-        "value": 82
+        "value": 86
       }
     ],
-    "summary": "A 4K hybrid laser-and-LED projector with 3,100 ISO lumens, Dolby Vision, IMAX Enhanced and Harman Kardon sound on a built-in stand.",
-    "verdict": "The XGIMI Horizon S Max is a premium all-in-one: a 4K DLP projector with XGIMI's **Dual Light** hybrid laser and LED source, rated at **3,100 ISO lumens**, plus **Dolby Vision**, IMAX Enhanced certification, Harman Kardon speakers and an integrated stand that tilts for easy aiming.\n\nThe throw ratio is about **1.2**, so a 100\" 16:9 image (87.2\" wide) needs about **8.7 ft** and a 120\" image (104.6\" wide) about **10.5 ft** from lens to screen. That suits a coffee table, rear shelf or side table in a typical living room. Brightness at 120\" works out to about 73 lumens per sq ft (3,100 / 42.7), roughly 73 foot-lamberts on a 1.0-gain screen before calibration losses. It handles evening viewing comfortably; in daylight, an ALR screen helps (see [how ALR screens work](/glossary/alr-screen/)).\n\nHybrid laser-LED light aims to deliver laser-like color with less speckle than pure RGB laser, and owners generally report a clean image. As with most DLP projectors, dark-room black levels trail Epson's UB and laser models. It has no optical lens shift, so the stand does the aiming. Against the [Hisense C2 Ultra](/gear/hisense-c2-ultra/), it is a close rival; against the [Dangbei Mars Pro 2](/gear/dangbei-mars-pro-2/), it is brighter. Check fit with our [projector throw calculator](/tools/projector-throw-calculator/) and see our [best 4K projector guide](/best-4k-projector-for-home-theater/).",
-    "bestFor": "Living rooms that want a bright, self-contained 4K projector with good built-in sound",
-    "skipIf": "You need lens shift for a fixed ceiling mount or want the deepest blacks",
+    "summary": "XGIMI's brightest Horizon yet and the successor to the Horizon S Max: a 4K RGB triple-laser projector rated at 5,700 ISO lumens, with optical zoom, lens shift, Dolby Vision and Google TV.",
+    "verdict": "The XGIMI Horizon 20 Max takes over from the Horizon S Max and changes its character. It uses XGIMI's X-Master **RGB triple laser**, rated at **5,700 ISO lumens** peak, with **20,000:1** contrast and **110% BT.2020** color claimed, and it adds **optical zoom and lens shift**, which the S Max lacked. Dolby Vision, IMAX Enhanced, **Google TV** with licensed Netflix and a 240 Hz game mode with **1 ms** claimed input lag round it out.\n\nThe brightness maths is what sets it apart. On a 120\" 16:9 screen (42.7 sq ft), 5,700 lumens is about **133 lumens per sq ft** on paper, roughly 133 foot-lamberts on a 1.0-gain screen before calibration losses. At 150\" (66.7 sq ft) it is still about 85, more than many projectors manage at 100\". Even after a typical 30–50% drop in an accurate picture mode, that is real HDR headroom on a big screen and usable contrast with some lights on (see [ANSI lumens explained](/glossary/ansi-lumens/) for how ISO and ANSI ratings compare). XGIMI quotes images up to 300\", but in a home theater 120–150\" is where the numbers stay strong.\n\nLens shift matters more than it sounds. Digital keystone throws away pixels, while optical shift keeps full 4K detail when the projector sits above or below the screen center. Plan placement with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nCaveats: triple-laser speckle bothers some viewers, and DLP contrast will not match Epson UB or Sony native 4K models in a pitch-black room. Against the [Valerion VisionMaster Pro2](/gear/valerion-visionmaster-pro2/) (3,000 ISO lumens), it is much brighter on paper; against the [Hisense C2 Ultra](/gear/hisense-c2-ultra/), it is brighter but far less compact. See our [best laser projector guide](/best-laser-projector-for-home-theater/).",
+    "bestFor": "Big screens and living rooms with some light that want a bright, all-in-one 4K projector",
+    "skipIf": "You have a pitch-black theater and care more about black levels than brightness",
     "pros": [
-      "3,100 ISO lumens from a hybrid laser-LED source",
+      "5,700 ISO lumens from an RGB triple laser",
+      "Optical zoom and lens shift, unusual for an all-in-one",
       "Dolby Vision and IMAX Enhanced",
-      "Harman Kardon speakers built in",
-      "Integrated tilting stand for easy setup"
+      "Google TV with licensed Netflix built in",
+      "240 Hz gaming with 1 ms claimed input lag"
     ],
     "cons": [
-      "No optical lens shift",
-      "DLP black levels trail Epson's best",
-      "Premium price for a lifestyle projector"
+      "Laser speckle is visible to some viewers",
+      "Peak-brightness rating; accurate picture modes deliver less",
+      "DLP contrast trails the best dark-room projectors"
     ],
     "specs": {
       "Resolution": "4K UHD (DLP with XPR pixel shifting)",
-      "Brightness": "3,100 ISO lumens",
-      "Light source": "Dual Light (laser + LED hybrid)",
-      "Throw ratio": "1.2",
-      "HDR": "Dolby Vision, HDR10, HLG",
-      "Smart platform": "Android TV",
-      "Speakers": "Harman Kardon 2 x 12 W"
+      "Brightness": "5,700 ISO lumens (peak, XGIMI spec)",
+      "Light source": "RGB triple laser (X-Master)",
+      "Lens": "Optical zoom, lens shift",
+      "HDR": "Dolby Vision, HDR10, IMAX Enhanced",
+      "Contrast": "20,000:1 (XGIMI spec)",
+      "Input lag": "1 ms (240 Hz mode, XGIMI spec)",
+      "Smart platform": "Google TV with licensed Netflix"
     },
     "keySpecs": [
       "Resolution",
       "Brightness",
       "Light source",
-      "Throw ratio"
+      "HDR"
     ],
     "faqs": [
       {
-        "q": "How far from the screen should the XGIMI Horizon S Max be?",
-        "a": "About 8.7 feet for a 100-inch 16:9 screen and about 10.5 feet for 120 inches. Those figures come from the 1.2 throw ratio multiplied by the image width. The tilting stand lets you aim the image up without moving the projector."
+        "q": "Is the XGIMI Horizon 20 Max bright enough for daytime?",
+        "a": "It is one of the brightest all-in-one projectors on paper: 5,700 ISO lumens is about 133 foot-lamberts on a 120-inch 1.0-gain screen before losses. With daylight in the room, pair it with an ALR screen so blacks do not gray out."
       },
       {
-        "q": "Does the XGIMI Horizon S Max support Dolby Vision?",
-        "a": "Yes. It supports Dolby Vision, HDR10 and HLG, and it is IMAX Enhanced certified, which is unusual in this price range."
+        "q": "Does the XGIMI Horizon 20 Max have lens shift?",
+        "a": "Yes. It has optical zoom and lens shift, so you can place it off-center without digital keystone, which reduces sharpness. That is a big change from the Horizon S Max it replaces."
+      },
+      {
+        "q": "Does the XGIMI Horizon 20 Max support Dolby Vision?",
+        "a": "Yes, along with IMAX Enhanced. It also runs Google TV with licensed Netflix and Google Home voice control."
       }
     ]
   },
@@ -1149,7 +1152,7 @@
       }
     ],
     "summary": "A 4K ultra short throw laser projector with Dolby Vision, IMAX Enhanced and Harman Kardon sound, rated at 2,300 ISO lumens.",
-    "verdict": "The XGIMI Aura 2 is a 4K ultra short throw (UST) laser projector designed to replace a living-room TV. It sits on a cabinet inches from the wall, carries **Dolby Vision** and IMAX Enhanced support, and XGIMI rates it at **2,300 ISO lumens**. Harman Kardon speakers are built in.\n\nThe throw ratio of about **0.23** means a 100\" image (87.2\" wide) needs only about **20 inches** from lens to screen and 120\" (104.6\" wide) about **24 inches**. On brightness, 2,300 lumens over a 100\" screen (29.7 sq ft) is about 77 lumens per sq ft on paper, and about 54 at 120\". That is comfortable for evening viewing at 100\", but bright daytime rooms call for a ceiling-light-rejecting UST screen such as the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) (see [how ALR screens work](/glossary/alr-screen/)).\n\nThe Aura 2's brightness sits below rivals like the [Epson EpiqVision Ultra LS800](/gear/epson-ls800/) (4,000 ISO lumens) and [AWOL Vision LTV-3500 Pro](/gear/awol-ltv-3500-pro/) (3,500 ISO lumens), so it makes most sense if you value its sound, software and Dolby Vision over maximum light. As with any UST, a fixed-frame, perfectly flat screen and a level cabinet are essential. Compare UST options in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
+    "verdict": "The XGIMI Aura 2 is a 4K ultra short throw (UST) laser projector designed to replace a living-room TV. It sits on a cabinet inches from the wall, carries **Dolby Vision** and IMAX Enhanced support, and XGIMI rates it at **2,300 ISO lumens**. Harman Kardon speakers are built in.\n\nThe throw ratio of about **0.23** means a 100\" image (87.2\" wide) needs only about **20 inches** from lens to screen and 120\" (104.6\" wide) about **24 inches**. On brightness, 2,300 lumens over a 100\" screen (29.7 sq ft) is about 77 lumens per sq ft on paper, and about 54 at 120\". That is comfortable for evening viewing at 100\", but bright daytime rooms call for a ceiling-light-rejecting UST screen such as the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) (see [how ALR screens work](/glossary/alr-screen/)).\n\nThe Aura 2's brightness sits below rivals like the [Epson EpiqVision Ultra LS800](/gear/epson-ls800/) (4,000 ISO lumens) and [AWOL Vision Aetherion Max](/gear/awol-aetherion-max/) (3,300 ISO lumens), so it makes most sense if you value its sound, software and Dolby Vision over maximum light. As with any UST, a fixed-frame, perfectly flat screen and a level cabinet are essential. Compare UST options in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
     "bestFor": "Evening living-room viewing at around 100\" with good built-in sound",
     "skipIf": "Your living room is bright during the day and you want maximum UST brightness",
     "pros": [
@@ -1286,7 +1289,7 @@
       }
     ],
     "summary": "Valerion's flagship 4K RGB triple-laser projector, rated at 3,500 ISO lumens with Dolby Vision, optical zoom and advanced black-level control.",
-    "verdict": "The Valerion VisionMaster Max is the top of Valerion's range and one of the most capable all-in-one projectors under flagship Sony and JVC prices. It uses an **RGB triple laser** rated at **3,500 ISO lumens**, supports **Dolby Vision** and HDR10+, runs Google TV, and adds Valerion's most advanced black-level control for dark rooms. An optical zoom keeps placement flexible.\n\nBrightness is where the maths gets interesting. At 120\" (42.7 sq ft), 3,500 lumens is about 82 lumens per sq ft on paper, roughly 82 foot-lamberts on a 1.0-gain screen before calibration losses. Step up to 150\" (about 66.7 sq ft) and you still get about 52, which is more than many projectors manage at 120\". That makes it a realistic choice for big screens. Assuming the same 0.9–1.5 zoom range as the Pro2, a 120\" image needs roughly 7.8 ft to 13.1 ft; confirm against current specs with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nCaveats: RGB laser speckle is visible to some viewers, and the brand is young, so long-term reliability data is thinner than for Epson or Sony. Against the [Epson Pro Cinema LS12000](/gear/epson-ls12000/), it is brighter and more feature-packed but not as proven; against the [Valerion VisionMaster Pro2](/gear/valerion-visionmaster-pro2/), it buys extra light and contrast. See our [best laser projector guide](/best-laser-projector-for-home-theater/).",
+    "verdict": "The Valerion VisionMaster Max is the top of Valerion's range and one of the most capable all-in-one projectors under flagship Sony and JVC prices. It uses an **RGB triple laser** rated at **3,500 ISO lumens**, supports **Dolby Vision** and HDR10+, runs Google TV, and adds Valerion's most advanced black-level control for dark rooms. An optical zoom keeps placement flexible.\n\nBrightness is where the maths gets interesting. At 120\" (42.7 sq ft), 3,500 lumens is about 82 lumens per sq ft on paper, roughly 82 foot-lamberts on a 1.0-gain screen before calibration losses. Step up to 150\" (about 66.7 sq ft) and you still get about 52, which is more than many projectors manage at 120\". That makes it a realistic choice for big screens. Assuming the same 0.9–1.5 zoom range as the Pro2, a 120\" image needs roughly 7.8 ft to 13.1 ft; confirm against current specs with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nCaveats: RGB laser speckle is visible to some viewers, and the brand is young, so long-term reliability data is thinner than for Epson or Sony. Against Epson's laser models such as the [Epson Pro Cinema LS9000](/gear/epson-ls9000/), it is an all-in-one with Google TV and Dolby Vision built in, while the Epson is a traditional dedicated-room projector with a powered lens from a more proven brand; against the [Valerion VisionMaster Pro2](/gear/valerion-visionmaster-pro2/), it buys extra light and contrast. See our [best laser projector guide](/best-laser-projector-for-home-theater/).",
     "bestFor": "Big-screen dedicated rooms that want maximum brightness and Dolby Vision from one box",
     "skipIf": "You value a long reliability track record or are sensitive to laser speckle",
     "pros": [
@@ -1495,7 +1498,7 @@
       }
     ],
     "summary": "A cheap, bright 1080p DLP projector for first-time buyers and casual gaming, without HDR, zoom flexibility or built-in streaming.",
-    "verdict": "The Optoma HD146X is a starter projector: native **1080p DLP**, a lamp rated at **3,600 ANSI lumens**, and a low enhanced-gaming lag figure (Optoma quotes about 16 ms). It does the basics well for very little money.\n\nWork out the brightness for your screen. On a 100\" 16:9 screen (29.7 sq ft), 3,600 lumens is roughly 121 lumens per sq ft on paper, and about 84 at 120\" (42.7 sq ft). That is ample for a dark room and enough for watching with some lights on, though real output in the most accurate color mode is noticeably lower than the headline figure, as with most DLP projectors rated in their brightest mode (see [ANSI lumens explained](/glossary/ansi-lumens/)).\n\nThe limits are clear. There is essentially no zoom range, so you set image size by moving the projector; plan it with our [projector throw calculator](/tools/projector-throw-calculator/). It does not accept 4K or HDR, contrast is basic and the lamp will need replacing. There is no built-in streaming. The [BenQ TH575](/gear/benq-th575/) is brighter for bright rooms, and the [BenQ HT2060](/gear/benq-ht2060/) is the step up for color and lamp-free ownership. For a first projector for movie nights, it is still a reasonable buy; see our [best budget projector guide](/best-budget-home-theater-projector/).",
+    "verdict": "The Optoma HD146X is a starter projector: native **1080p DLP**, a lamp rated at **3,600 ANSI lumens**, and a low enhanced-gaming lag figure (Optoma quotes about 16 ms). It does the basics well for very little money.\n\nWork out the brightness for your screen. On a 100\" 16:9 screen (29.7 sq ft), 3,600 lumens is roughly 121 lumens per sq ft on paper, and about 84 at 120\" (42.7 sq ft). That is ample for a dark room and enough for watching with some lights on, though real output in the most accurate color mode is noticeably lower than the headline figure, as with most DLP projectors rated in their brightest mode (see [ANSI lumens explained](/glossary/ansi-lumens/)).\n\nThe limits are clear. There is essentially no zoom range, so you set image size by moving the projector; plan it with our [projector throw calculator](/tools/projector-throw-calculator/). It does not accept 4K or HDR, contrast is basic and the lamp will need replacing. There is no built-in streaming. The [BenQ TH575](/gear/benq-th575/) is brighter for bright rooms, and the [BenQ TK710](/gear/benq-tk710/) is the step up to 4K, HDR and lamp-free laser ownership. For a first projector for movie nights, it is still a reasonable buy; see our [best budget projector guide](/best-budget-home-theater-projector/).",
     "bestFor": "First-time buyers, dorms and casual movie or game nights",
     "skipIf": "You want 4K, HDR, zoom flexibility or built-in streaming",
     "pros": [
@@ -1537,15 +1540,14 @@
     ]
   },
   {
-    "slug": "optoma-uhz35",
-    "name": "Optoma UHZ35",
+    "slug": "optoma-uhz36",
+    "name": "Optoma UHZ36",
     "brand": "Optoma",
     "category": "projector",
-    "amazonQuery": "Optoma UHZ35 4K laser projector",
-    "released": "2023",
-    "priceBand": "$1,800–$2,300",
-    "priceTier": 3,
-    "score": 81,
+    "amazonQuery": "Optoma UHZ36 4K laser projector",
+    "priceBand": "$1,100–$1,300",
+    "priceTier": 2,
+    "score": 79,
     "scores": [
       {
         "label": "Picture quality",
@@ -1553,123 +1555,130 @@
       },
       {
         "label": "Brightness",
-        "value": 86
+        "value": 75
       },
       {
         "label": "Value",
-        "value": 78
+        "value": 82
       },
       {
         "label": "Setup flexibility",
-        "value": 76
+        "value": 72
       }
     ],
-    "summary": "A bright, fast 4K laser projector with 3,500 ANSI lumens and 240 Hz gaming support, a lamp-free upgrade on Optoma's budget 4K models.",
-    "verdict": "The Optoma UHZ35 takes the gaming speed of Optoma's budget 4K models and swaps the lamp for a **laser light source**. It is rated at **3,500 ANSI lumens**, uses 4K UHD DLP pixel shifting, and Optoma advertises a 1080p/240 Hz mode for very low lag alongside 4K/60 gaming.\n\nOn a 120\" 16:9 screen (42.7 sq ft), 3,500 lumens works out to about 82 lumens per sq ft on paper, roughly 82 foot-lamberts on a 1.0-gain screen before calibration losses. That gives a comfortable margin for HDR in a dim room or a lamp-lit game night. Laser also means quick start-up, no lamp purchases and steadier brightness over its life, which shifts the long-run cost in its favor versus the lamp-based [Optoma UHD38x](/gear/optoma-uhd38x/).\n\nWhat you do not get is placement freedom on the level of Epson's 3LCD models: zoom is limited and there is no lens shift, so confirm your distance with our [projector throw calculator](/tools/projector-throw-calculator/). Black levels are typical of budget DLP, and some viewers see the rainbow effect. If you want a bright, laser, gaming-friendly projector without moving into flagship pricing, it is a solid middle option; compare it in our [best laser projector guide](/best-laser-projector-for-home-theater/).",
-    "bestFor": "Gamers and mixed-use rooms that want a bright, lamp-free 4K projector",
-    "skipIf": "You need lens shift for an off-center mount or want deep dark-room blacks",
+    "summary": "Optoma's current 4K UHD laser home theater projector and the successor to the UHZ35 in our lineup, with HDR and Filmmaker Mode in a lower price band; check the lumen rating on Optoma's spec sheet.",
+    "verdict": "The Optoma UHZ36 replaces the UHZ35 on our list and keeps the recipe simple: a **4K UHD** DLP image, a **laser light source** with no lamps to replace, **HDR**, and **Filmmaker Mode**, which switches off motion smoothing and extra processing so films look as graded. It sits in a lower price band than the UHZ35 did, which makes it one of the more affordable laser 4K projectors from a major brand.\n\nAmazon's listing is thin, with no lumen, throw or input-lag figures, so here is the maths that tells you whether 4K matters in your room. A 120\" 16:9 screen is 104.6\" wide. Spread 3,840 pixels across it and each is about **0.027\"** wide, against 0.054\" at 1080p. Normal vision resolves about one arcminute, so 1080p pixels merge beyond roughly **15.6 ft** from a 120\" screen, while 4K holds detail down to about **7.8 ft**. If you sit 9–12 ft back, as most theaters do, the step to 4K is visible. Check your seats with our [viewing distance calculator](/tools/viewing-distance-calculator/).\n\nFor brightness, divide Optoma's rated lumens by your screen area: 42.7 sq ft at 120\", 29.7 at 100\". A result above about 50 on a 1.0-gain screen gives comfortable dark-room headroom. Then confirm placement with the [projector throw calculator](/tools/projector-throw-calculator/).\n\nCompared with the lamp-based [Optoma UHD38x](/gear/optoma-uhd38x/), you trade its published 4,000-lumen, low-lag spec for laser longevity. Compared with the [BenQ TK710](/gear/benq-tk710/), it costs less, but the BenQ documents 3,200 lumens and lens shift. More picks in our [best budget projector guide](/best-budget-home-theater-projector/).",
+    "bestFor": "Dark home theaters that want an affordable, lamp-free 4K laser projector from a major brand",
+    "skipIf": "You need verified brightness, lens shift or gaming-lag figures before buying",
     "pros": [
-      "Laser light source, no lamp purchases",
-      "3,500 ANSI lumens for dim and lamp-lit rooms",
-      "240 Hz 1080p gaming mode",
-      "Strong value for a 4K laser"
+      "Laser light source: no lamp replacements",
+      "4K UHD with HDR",
+      "Filmmaker Mode for accurate film playback",
+      "Lower price band than the UHZ35 it replaces"
     ],
     "cons": [
-      "Limited zoom and no lens shift",
-      "Average DLP black levels",
-      "No built-in streaming"
+      "Amazon listing omits lumens, throw ratio and input lag",
+      "Pixel-shifting 4K, not native",
+      "No lens shift listed"
     ],
     "specs": {
       "Resolution": "4K UHD (DLP with XPR pixel shifting)",
-      "Brightness": "3,500 ANSI lumens",
       "Light source": "Laser",
-      "HDR": "HDR10, HLG",
-      "Input lag": "Low-lag 1080p/240 Hz gaming mode",
-      "Smart platform": "None",
-      "Speakers": "Built-in speaker"
+      "HDR": "HDR10",
+      "Picture modes": "Filmmaker Mode"
     },
     "keySpecs": [
       "Resolution",
-      "Brightness",
       "Light source",
-      "Input lag"
+      "HDR",
+      "Picture modes"
     ],
     "faqs": [
       {
-        "q": "Is the Optoma UHZ35 worth it over the UHD38x?",
-        "a": "If you plan to keep it for years, often yes. The UHZ35 is slightly less bright on paper (3,500 vs 4,000 ANSI lumens) but its laser removes lamp purchases and keeps brightness steadier over time."
+        "q": "Is the Optoma UHZ36 a laser projector?",
+        "a": "Yes. It uses a laser light source, so there is no lamp to replace, and brightness stays more stable over its life than a lamp projector's."
       },
       {
-        "q": "Can the Optoma UHZ35 handle a room with lights on?",
-        "a": "Moderately. At 3,500 ANSI lumens it delivers about 82 lumens per square foot on a 120-inch screen before calibration. A lamp or two is fine; strong daylight needs blinds or an ALR screen."
+        "q": "Is 4K worth it on a 120-inch projector screen?",
+        "a": "Usually, yes. On a 120-inch screen, 1080p pixels blur together beyond about 15.6 feet, while 4K holds detail to about 7.8 feet. At typical 9–12 foot seating, the extra sharpness of a 4K UHD projector like the UHZ36 is visible."
+      },
+      {
+        "q": "What is Filmmaker Mode on the Optoma UHZ36?",
+        "a": "It is a picture preset that turns off motion smoothing and extra sharpening so movies display as the director intended. It is the quickest route to an accurate image without a calibration."
       }
     ]
   },
   {
-    "slug": "awol-ltv-3500-pro",
-    "name": "AWOL Vision LTV-3500 Pro",
+    "slug": "awol-aetherion-max",
+    "name": "AWOL Vision Aetherion Max",
     "brand": "AWOL Vision",
     "category": "projector",
-    "amazonQuery": "AWOL Vision LTV-3500 Pro laser projector",
-    "released": "2023",
-    "priceBand": "$3,000–$4,000",
+    "amazonQuery": "AWOL Vision Aetherion Max UST projector",
+    "priceBand": "$3,200–$3,400",
     "priceTier": 4,
-    "score": 84,
+    "score": 85,
     "scores": [
       {
         "label": "Picture quality",
-        "value": 84
+        "value": 86
       },
       {
         "label": "Brightness",
-        "value": 88
+        "value": 84
       },
       {
         "label": "Value",
-        "value": 74
+        "value": 78
       },
       {
         "label": "Setup flexibility",
-        "value": 86
+        "value": 88
       }
     ],
-    "summary": "A bright 4K triple-laser ultra short throw with 3,500 ISO lumens, Dolby Vision and HDR10+, aimed at 100–150\" living-room screens.",
-    "verdict": "The AWOL Vision LTV-3500 Pro is one of the brightest triple-laser ultra short throw (UST) projectors. AWOL rates it at **3,500 ISO lumens**, it supports **Dolby Vision and HDR10+**, and its RGB laser engine covers a very wide color gamut.\n\nThe throw ratio of about **0.25** sets the placement. A 100\" image (87.2\" wide) needs about **22 inches** from lens to screen, 120\" (104.6\" wide) about **26 inches** and 150\" (130.7\" wide) about **33 inches**. Brightness is the reason to go big: 3,500 lumens is about 118 lumens per sq ft at 100\", about 82 at 120\" and about 52 at 150\" (66.7 sq ft), before calibration losses. That makes 120\" practical in a living room and 150\" workable in a darker one.\n\nPair it with a fixed-frame ceiling-light-rejecting UST screen like the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) (see [how ALR screens work](/glossary/alr-screen/)) so room light does not lift blacks. Some viewers notice laser speckle, and smart features are less polished than on Hisense or XGIMI, so many owners add a streaming stick. Compared with the [Hisense PX3-Pro](/gear/hisense-px3-pro/) it is similar in light output; compared with the [Epson EpiqVision Ultra LS800](/gear/epson-ls800/) it adds Dolby Vision. See our [best laser projector guide](/best-laser-projector-for-home-theater/).",
-    "bestFor": "Living rooms that want a 120–150\" UST image with Dolby Vision",
-    "skipIf": "You will not use a UST ALR screen or are sensitive to laser speckle",
+    "summary": "AWOL Vision's current UST flagship and the successor to the LTV-3500 Pro: a 4K RGB triple laser rated at 3,300 ISO lumens with a 0.2 throw ratio, Dolby Vision, HDR10+, Google TV and three HDMI 2.1a inputs.",
+    "verdict": "The AWOL Vision Aetherion Max replaces the LTV-3500 Pro as AWOL's living-room flagship. It is a **4K RGB triple-laser** ultra short throw rated at **3,300 ISO lumens** with **110% Rec.2020** color, and it comes with **Google TV** built in, **three HDMI 2.1a inputs plus DisplayPort 1.4a**, VRR and ALLM, and a 7-level iris that AWOL says reaches **6,000:1 native contrast**. HDR covers **Dolby Vision, HDR10+, HDR10 and HLG**, including Dolby Vision Gaming.\n\nThe throw maths is the reason to buy a UST. At a **0.2 throw ratio**, a 100\" image (87.2\" wide) needs only about **17 inches** from lens to screen, 120\" (104.6\" wide) about **21 inches**, and 150\" (130.7\" wide) about **26 inches**. On brightness, 3,300 lumens over 100\" (29.7 sq ft) is about **111 lumens per sq ft** on paper, and about 77 at 120\" (42.7 sq ft). That is strong evening output at 120\". In daylight, contrast is the problem rather than brightness, so pair it with a ceiling-light-rejecting screen such as the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) (see [how ALR screens work](/glossary/alr-screen/)). AWOL quotes images up to 200\", but the numbers favor 100–150\".\n\nAWOL also claims anti-rainbow-effect processing, which matters if you see DLP color fringing, and native 24/48/50 fps playback for films and sports. UST rules still apply: a level cabinet and a perfectly flat, fixed-frame screen.\n\nAgainst the [Hisense PX3-Pro](/gear/hisense-px3-pro/), it is close in brightness and adds more gaming inputs. Against the [Epson EpiqVision Ultra LS800](/gear/epson-ls800/), it trades some rated light for Dolby Vision and wider laser color. See our [best laser projector guide](/best-laser-projector-for-home-theater/).",
+    "bestFor": "Living rooms that want a 100–150-inch TV replacement with Dolby Vision and serious gaming inputs",
+    "skipIf": "You will not add a UST ALR screen, or you want a ceiling-mounted dark-room projector",
     "pros": [
-      "3,500 ISO lumens, among the brightest triple-laser USTs",
-      "Dolby Vision and HDR10+",
-      "Ultra short throw: about 26 inches from lens for 120\"",
-      "Very wide RGB laser color"
+      "3,300 ISO lumens from an RGB triple laser with 110% Rec.2020 color",
+      "0.2 throw ratio: a 120-inch image from about 21 inches",
+      "Dolby Vision, HDR10+ and Dolby Vision Gaming",
+      "Three HDMI 2.1a inputs plus DisplayPort 1.4a, with VRR and ALLM",
+      "Google TV built in"
     ],
     "cons": [
-      "Needs a flat fixed-frame UST screen for best results",
-      "Some viewers notice laser speckle",
-      "Smart software is less polished than rivals"
+      "Needs a flat, fixed-frame ALR screen to shine in daylight",
+      "Laser speckle is visible to some viewers",
+      "Premium price band"
     ],
     "specs": {
       "Resolution": "4K UHD (DLP with XPR pixel shifting)",
-      "Brightness": "3,500 ISO lumens",
+      "Brightness": "3,300 ISO lumens",
       "Light source": "RGB triple laser",
-      "Throw ratio": "0.25 (ultra short throw)",
+      "Throw ratio": "0.2 (ultra short throw)",
       "HDR": "Dolby Vision, HDR10+, HDR10, HLG",
-      "Speakers": "Built-in, Dolby Atmos decoding"
+      "Contrast": "6,000:1 native, 60,000:1 viewing (AWOL spec)",
+      "Input lag": "1 ms class (1080p/240 Hz)",
+      "Smart platform": "Google TV"
     },
     "keySpecs": [
-      "Resolution",
       "Brightness",
       "Light source",
-      "Throw ratio"
+      "Throw ratio",
+      "HDR"
     ],
     "faqs": [
       {
-        "q": "How far from the wall does the AWOL LTV-3500 Pro sit?",
-        "a": "With a throw ratio of about 0.25, a 100-inch image needs roughly 22 inches from lens to screen, 120 inches about 26 inches and 150 inches about 33 inches. Add the chassis depth for the cabinet position."
+        "q": "How far from the wall does the AWOL Aetherion Max sit?",
+        "a": "Very close. Its 0.2 throw ratio puts a 100-inch image about 17 inches from lens to screen and a 120-inch image about 21 inches. Measure from the lens, and leave room behind it for cables."
       },
       {
-        "q": "Does the AWOL LTV-3500 Pro support Dolby Vision?",
-        "a": "Yes. It supports Dolby Vision as well as HDR10+, HDR10 and HLG, which covers most streaming and disc HDR formats."
+        "q": "Does the AWOL Aetherion Max support Dolby Vision?",
+        "a": "Yes. Dolby Vision, Dolby Vision Gaming, HDR10+, HDR10 and HLG are all listed, along with dynamic tone mapping."
+      },
+      {
+        "q": "Can I connect several consoles to the AWOL Aetherion Max?",
+        "a": "Yes. AWOL lists three HDMI 2.1a inputs and a DisplayPort 1.4a input, with VRR and ALLM, so a PS5, an Xbox and a gaming PC can stay connected at once."
       }
     ]
   },
@@ -1702,7 +1711,7 @@
       }
     ],
     "summary": "A portable 4K projector with Google TV, Dolby Vision and a carry handle, rated at 1,800 ANSI lumens, best for 80–100\" screens in dark rooms.",
-    "verdict": "The Anker Nebula Cosmos 4K SE is a grab-and-go 4K projector for living rooms, bedrooms and the backyard. It is rated at **1,800 ANSI lumens**, supports **Dolby Vision**, runs **Google TV** with the major streaming apps, and has a built-in handle and auto setup (focus, keystone and screen fit).\n\nBrightness defines its sweet spot. On a 100\" 16:9 screen (29.7 sq ft), 1,800 lumens is about 61 lumens per sq ft, roughly 61 foot-lamberts on a 1.0-gain screen before calibration losses. At 120\" (42.7 sq ft) it falls to about 42. That is fine in a dark room at 100\", but in a lit room or on a big screen the picture loses punch, especially HDR. Think of it as an 80–100\" projector for evenings; check distances with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nAuto keystone is convenient, but digital correction trims resolution, so the sharpest image comes from placing it square to the screen. Black levels are typical of DLP. Compared with the [XGIMI Horizon S Max](/gear/xgimi-horizon-s-max/) or [Dangbei Mars Pro 2](/gear/dangbei-mars-pro-2/), it gives up brightness for portability and price. If you want one projector to move between rooms, it is a good fit; for a permanent theater, look at our [best 4K projector guide](/best-4k-projector-for-home-theater/).",
+    "verdict": "The Anker Nebula Cosmos 4K SE is a grab-and-go 4K projector for living rooms, bedrooms and the backyard. It is rated at **1,800 ANSI lumens**, supports **Dolby Vision**, runs **Google TV** with the major streaming apps, and has a built-in handle and auto setup (focus, keystone and screen fit).\n\nBrightness defines its sweet spot. On a 100\" 16:9 screen (29.7 sq ft), 1,800 lumens is about 61 lumens per sq ft, roughly 61 foot-lamberts on a 1.0-gain screen before calibration losses. At 120\" (42.7 sq ft) it falls to about 42. That is fine in a dark room at 100\", but in a lit room or on a big screen the picture loses punch, especially HDR. Think of it as an 80–100\" projector for evenings; check distances with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nAuto keystone is convenient, but digital correction trims resolution, so the sharpest image comes from placing it square to the screen. Black levels are typical of DLP. Compared with the [XGIMI Horizon 20 Max](/gear/xgimi-horizon-20-max/), it gives up a lot of brightness for portability and price. If you want one projector to move between rooms, it is a good fit; for a permanent theater, look at our [best 4K projector guide](/best-4k-projector-for-home-theater/).",
     "bestFor": "Portable movie nights and bedrooms with an 80–100\" screen",
     "skipIf": "You want a 120\"-plus image or plan to watch with lights on",
     "pros": [
@@ -1742,19 +1751,18 @@
     ]
   },
   {
-    "slug": "dangbei-n2",
-    "name": "Dangbei N2",
+    "slug": "dangbei-n2-mini",
+    "name": "Dangbei N2 mini",
     "brand": "Dangbei",
     "category": "projector",
-    "amazonQuery": "Dangbei N2 1080p projector",
-    "released": "2024",
-    "priceBand": "$250–$400",
+    "amazonQuery": "Dangbei N2 mini projector",
+    "priceBand": "$180–$220",
     "priceTier": 1,
-    "score": 65,
+    "score": 64,
     "scores": [
       {
         "label": "Picture quality",
-        "value": 60
+        "value": 58
       },
       {
         "label": "Brightness",
@@ -1766,45 +1774,51 @@
       },
       {
         "label": "Setup flexibility",
-        "value": 80
+        "value": 86
       }
     ],
-    "summary": "A low-cost 1080p LED projector with official Netflix and a gimbal stand, but only 400 ISO lumens, so it needs a dark room and a modest screen.",
-    "verdict": "The Dangbei N2 is an entry-level smart projector, not a home theater centerpiece. It is native **1080p**, uses an LED light source rated at **400 ISO lumens**, and includes official Netflix, Dolby Audio speakers and a tilting gimbal stand.\n\nThe brightness maths sets clear limits. On an 80\" 16:9 screen (about 19 sq ft), 400 lumens is about 21 lumens per sq ft, roughly 21 foot-lamberts on a 1.0-gain screen before calibration losses. That is close to the 16 foot-lamberts often cited as a cinema reference for SDR, so a dark room at 80\" works. At 100\" (29.7 sq ft) it drops to about 13, which looks dim, and any room light washes it out. HDR content will not have much impact at this brightness (see [ANSI lumens explained](/glossary/ansi-lumens/) for how ratings compare).\n\nTreat it as a bedroom, kids' room or dorm projector for evening streaming. The sealed design and built-in apps make it simple, and the price is low. If you want a real step up for a living room, the [Epson Home Cinema 880](/gear/epson-home-cinema-880/) offers about eight times the rated brightness, and the [Anker Nebula Cosmos 4K SE](/gear/nebula-cosmos-4k-se/) adds 4K and much more light. For more budget options, see our [best budget projector guide](/best-budget-home-theater-projector/).",
-    "bestFor": "Bedrooms, dorms and kids' rooms with an 80\" image in the dark",
+    "summary": "A tiny 1080p smart projector with licensed Netflix, a 190° tilt gimbal and full auto setup, the budget successor to the Dangbei N2 for dark bedrooms and dorms; the listing quotes no brightness figure.",
+    "verdict": "The Dangbei N2 mini replaces the N2 on our list and shrinks it further. It is a **native 1080p** smart projector on a built-in **190° tilt gimbal**, so it can aim at a wall, a screen or the ceiling, and it runs a Linux OS with **licensed Netflix**, YouTube and Prime Video. Setup is automatic: **auto focus, auto keystone, screen fit and obstacle avoidance**. Dangbei rates it at **under 27 dB**, quiet enough for a bedroom, and the power supply is built in, so there is one cable and no brick.\n\nThe catch is light, and the listing gives no brightness figure. Here is why that matters: image area grows with the square of the diagonal. Going from 60\" (about 10.7 sq ft) to the maximum 120\" (about 42.7 sq ft) spreads the same light over **four times** the area, so the picture is a quarter as bright. Projectors in this class are built for the dark, so plan on 60–80\" in a blacked-out room and treat 120\" as an occasional treat. Check sizes with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nAuto keystone is convenient, but digital correction rescales the image and softens 1080p detail, so the sharpest picture comes from placing it square to the wall. The built-in Dolby Audio speakers are fine for a bedroom; in a living room, a soundbar is a clear upgrade.\n\nFor a real home theater, step up to the [BenQ TH575](/gear/benq-th575/) for brightness or the [Anker Nebula Cosmos 4K SE](/gear/nebula-cosmos-4k-se/) for 4K in a portable body. As a cheap second screen for kids' rooms and dorms, it is easy to like; see our [best budget projector guide](/best-budget-home-theater-projector/).",
+    "bestFor": "Bedrooms, dorms and kids' rooms with a 60–80-inch image in the dark",
     "skipIf": "You want a living-room or home theater projector, or any daytime viewing",
     "pros": [
-      "Official Netflix built in",
-      "Native 1080p resolution",
-      "Gimbal stand makes aiming easy",
-      "Very low price"
+      "Native 1080p with licensed Netflix built in",
+      "190° gimbal aims at walls or ceilings",
+      "Auto focus, keystone, screen fit and obstacle avoidance",
+      "Quiet: rated under 27 dB",
+      "One cable, no external power brick"
     ],
     "cons": [
-      "Only 400 ISO lumens, so a dark room is essential",
-      "Not suitable for screens much over 80\"",
-      "HDR has little impact at this brightness"
+      "No brightness figure on the listing; dark rooms only",
+      "Not a home theater centerpiece",
+      "Linux app store is smaller than Google TV's"
     ],
     "specs": {
-      "Resolution": "1080p (native, LCD)",
-      "Brightness": "400 ISO lumens",
+      "Resolution": "1080p (native)",
       "Light source": "LED",
-      "Smart platform": "Built-in with official Netflix",
-      "Speakers": "Built-in, Dolby Audio"
+      "Image size": "60–120 in.",
+      "Smart platform": "Linux OS with licensed Netflix, YouTube, Prime Video",
+      "Speakers": "Built-in, Dolby Audio",
+      "Setup": "Auto focus, auto keystone, screen fit, obstacle avoidance; 190° gimbal"
     },
     "keySpecs": [
       "Resolution",
-      "Brightness",
-      "Light source",
-      "Smart platform"
+      "Image size",
+      "Smart platform",
+      "Setup"
     ],
     "faqs": [
       {
-        "q": "Is 400 lumens enough for a projector?",
-        "a": "Only in a dark room on a small screen. On an 80-inch screen, 400 lumens gives about 21 lumens per square foot, which is watchable with lights off. At 100 inches it gets dim, and any ambient light washes it out."
+        "q": "Does the Dangbei N2 mini have Netflix?",
+        "a": "Yes. It ships with officially licensed Netflix, plus YouTube and Prime Video, on its Linux OS, so you do not need a streaming stick for the big apps."
       },
       {
-        "q": "Does the Dangbei N2 have Netflix?",
-        "a": "Yes. It includes official Netflix support along with other streaming apps, so you can stream without a separate stick."
+        "q": "How big can the Dangbei N2 mini project?",
+        "a": "Dangbei lists 60 to 120 inches. Bigger images are dimmer: 120 inches spreads the same light over four times the area of 60 inches, so smaller sizes in a dark room look best."
+      },
+      {
+        "q": "Can the Dangbei N2 mini project on the ceiling?",
+        "a": "Yes. The built-in gimbal tilts 190 degrees, and the power port at its base lets it tilt without the cable getting in the way."
       }
     ]
   },
@@ -1904,7 +1918,7 @@
       }
     ],
     "summary": "A 4K triple-laser ultra short throw TV with Dolby Vision and premium built-in sound, best judged against brighter UST rivals before you buy.",
-    "verdict": "The Formovie Theater Premium is a 4K DLP **ultra short throw** (UST) laser TV with an **RGB triple-laser** light source, **Dolby Vision** support and a built-in premium speaker system. It sits on a cabinet just in front of the wall and throws a 100\"-plus image upward.\n\nFormovie's brightness figures vary by region and rating method, so we have left the number out of the spec table. To compare it with rivals, use the method in this guide: divide the manufacturer's lumen rating by the screen area. A 100\" 16:9 screen covers 29.7 sq ft and a 120\" screen 42.7 sq ft. A 3,000-lumen UST, for example, lands at about 101 lumens per sq ft at 100\" and 70 at 120\". Check the current spec against the [Hisense PX3-Pro](/gear/hisense-px3-pro/) and [AWOL Vision LTV-3500 Pro](/gear/awol-ltv-3500-pro/) before buying.\n\nUST setup rules apply: the projector must be level and the screen perfectly flat, so choose a fixed-frame ceiling-light-rejecting screen like the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) (see [how ALR screens work](/glossary/alr-screen/)). Triple-laser color is vivid, but some viewers notice speckle, and dark-room blacks trail OLED TVs. If built-in sound quality matters to you, it is worth shortlisting; see our [best laser projector guide](/best-laser-projector-for-home-theater/).",
+    "verdict": "The Formovie Theater Premium is a 4K DLP **ultra short throw** (UST) laser TV with an **RGB triple-laser** light source, **Dolby Vision** support and a built-in premium speaker system. It sits on a cabinet just in front of the wall and throws a 100\"-plus image upward.\n\nFormovie's brightness figures vary by region and rating method, so we have left the number out of the spec table. To compare it with rivals, use the method in this guide: divide the manufacturer's lumen rating by the screen area. A 100\" 16:9 screen covers 29.7 sq ft and a 120\" screen 42.7 sq ft. A 3,000-lumen UST, for example, lands at about 101 lumens per sq ft at 100\" and 70 at 120\". Check the current spec against the [Hisense PX3-Pro](/gear/hisense-px3-pro/) and [AWOL Vision Aetherion Max](/gear/awol-aetherion-max/) before buying.\n\nUST setup rules apply: the projector must be level and the screen perfectly flat, so choose a fixed-frame ceiling-light-rejecting screen like the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) (see [how ALR screens work](/glossary/alr-screen/)). Triple-laser color is vivid, but some viewers notice speckle, and dark-room blacks trail OLED TVs. If built-in sound quality matters to you, it is worth shortlisting; see our [best laser projector guide](/best-laser-projector-for-home-theater/).",
     "bestFor": "Living rooms that want a UST laser TV with strong built-in sound",
     "skipIf": "You want the brightest UST available or are sensitive to laser speckle",
     "pros": [
@@ -1971,7 +1985,7 @@
       }
     ],
     "summary": "The most affordable native 4K SXRD laser projector from Sony, with excellent sharpness and processing, but a modest 2,000-lumen rating.",
-    "verdict": "The Sony VPL-XW5000ES is the entry point to **native 4K** projection. Instead of pixel shifting, it uses three 0.61-inch **SXRD** panels with a full 4096 x 2160 pixel grid, a **laser** light source and Sony's picture processing, which independent reviews praise for HDR tone mapping and motion handling.\n\nIts weak point is light. Sony rates it at **2,000 lumens**. On a 120\" 16:9 screen (42.7 sq ft), that is about 47 lumens per sq ft on paper, roughly 47 foot-lamberts on a 1.0-gain screen before calibration losses. Calibrated output will be lower, so for HDR in a dark room, stick to 100–120\" or use a slightly higher-gain screen. At 100\" (29.7 sq ft) the figure is about 67. Its **1.38–2.21 throw ratio** (1.6x zoom) places a 120\" image **12.0–19.3 ft** away; check with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nAgainst the [Epson Pro Cinema LS12000](/gear/epson-ls12000/), the Sony is sharper and more refined on paper and in reviews, while the Epson is brighter with more lens range and lower cost. Against the [Valerion VisionMaster Max](/gear/valerion-visionmaster-max/), the Sony trades brightness and features for native resolution and a proven brand. For a dark, dedicated room where detail matters most, it is a top pick in our [best projector for home theater guide](/best-projector-for-home-theater/).",
+    "verdict": "The Sony VPL-XW5000ES is the entry point to **native 4K** projection. Instead of pixel shifting, it uses three 0.61-inch **SXRD** panels with a full 4096 x 2160 pixel grid, a **laser** light source and Sony's picture processing, which independent reviews praise for HDR tone mapping and motion handling.\n\nIts weak point is light. Sony rates it at **2,000 lumens**. On a 120\" 16:9 screen (42.7 sq ft), that is about 47 lumens per sq ft on paper, roughly 47 foot-lamberts on a 1.0-gain screen before calibration losses. Calibrated output will be lower, so for HDR in a dark room, stick to 100–120\" or use a slightly higher-gain screen. At 100\" (29.7 sq ft) the figure is about 67. Its **1.38–2.21 throw ratio** (1.6x zoom) places a 120\" image **12.0–19.3 ft** away; check with our [projector throw calculator](/tools/projector-throw-calculator/).\n\nAgainst Epson's pixel-shifting laser models, such as the [Epson Pro Cinema LS11000](/gear/epson-ls11000/) and the newer [Epson Pro Cinema LS9000](/gear/epson-ls9000/), the Sony is sharper and more refined on paper and in reviews, while the LS11000 is brighter (2,500 vs 2,000 lumens) with more lens range and a lower price. Against the [Valerion VisionMaster Max](/gear/valerion-visionmaster-max/), the Sony trades brightness and features for native resolution and a proven brand. For a dark, dedicated room where detail matters most, it is a top pick in our [best projector for home theater guide](/best-projector-for-home-theater/).",
     "bestFor": "Dark dedicated theaters where native 4K detail and processing matter most",
     "skipIf": "You want a big 135\"-plus screen, a bright room or the most lumens for the money",
     "pros": [

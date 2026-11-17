@@ -74,14 +74,14 @@
     "name": "Klipsch Reference R-625FA 5.1.2 Dolby Atmos System",
     "brand": "Klipsch",
     "category": "system",
-    "amazonQuery": "Klipsch Reference Dolby Atmos 5.1.2 home theater system R-625FA",
-    "priceBand": "$1,800–$2,500",
+    "amazonQuery": "Klipsch Reference R-625FA 5.1 home theater pack",
+    "priceBand": "$1,200–$1,400",
     "priceTier": 3,
-    "score": 85,
+    "score": 84,
     "scores": [
       {
         "label": "Sound for the money",
-        "value": 84
+        "value": 86
       },
       {
         "label": "Surround & Atmos",
@@ -96,27 +96,29 @@
         "value": 72
       }
     ],
-    "summary": "A full Klipsch Reference 5.1.2 package built around Atmos-enabled towers with built-in elevation drivers, giving a real height layer without ceiling speakers.",
-    "verdict": "This bundle pairs the [Klipsch R-625FA](/gear/klipsch-r-625fa/) towers, which have **dual 6.5-inch woofers plus a built-in up-firing elevation driver**, with a matching Reference center, surrounds and a powered sub. The result is a true **5.1.2** layout from a single box, with no holes in the ceiling.\n\n**Count the channels before you buy.** 5.1.2 means five ear-level speakers, one sub and two height channels: that is **seven amplified channels**. A 5.2 receiver like the [Yamaha RX-V4A](/gear/yamaha-rx-v4a/) can't power it; you need a 7.2 model such as the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) or [Denon AVR-X2800H](/gear/denon-avr-x2800h/). Klipsch's horn-loaded designs are high-sensitivity, so you don't need a large amplifier to reach reference levels in a typical room.\n\n**Check the ceiling.** Up-firing drivers bounce sound off the ceiling, so they depend on a flat, hard surface at a normal height (Dolby's guidance assumes roughly 7.5–12 feet). Vaulted, very high or acoustically treated ceilings weaken the effect; in those rooms dedicated in-ceiling speakers are the better route.\n\nOwners consistently describe the Reference sound as lively and dynamic, with forward treble that some find bright in hard-surfaced rooms. Exact bundle components vary by retailer, so check which center, surrounds and sub are included. More options in the [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) guide; the terms are explained in [Dolby Atmos](/glossary/dolby-atmos/).",
+    "summary": "A full Klipsch Reference 5.1.2 pack: two R-625FA Atmos towers with built-in elevation drivers, two R-41M bookshelf surrounds, an R-52C center and a 10-inch, 300 W R-100SW sub, for real height effects without ceiling speakers.",
+    "verdict": "This Klipsch Reference pack builds a true **5.1.2** layout from one bundle: two [Klipsch R-625FA](/gear/klipsch-r-625fa/) towers with **built-in Dolby Atmos elevation drivers**, two **R-41M** bookshelf speakers for surrounds, an **R-52C** center and an **R-100SW 10-inch subwoofer** with a **300 W** amplifier. The main speakers share Klipsch's **1-inch aluminum LTS tweeter on a Tractrix horn** and **spun-copper IMG woofers**, so timbre stays consistent as effects pan around the room, and a 5-year warranty is included.\n\n**Count the channels before you buy.** 5.1.2 means five ear-level speakers, one sub and two height channels: **seven amplified channels**. A 5.2 receiver like the [Yamaha RX-V4A](/gear/yamaha-rx-v4a/) can't power it; you need a 7.2 model such as the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) or [Denon AVR-X2800H](/gear/denon-avr-x2800h/). Klipsch's horn-loaded designs are high-sensitivity, so a mid-range receiver reaches loud levels in a typical room.\n\n**Check the ceiling.** Elevation drivers bounce sound off the ceiling, so they depend on a flat, hard surface at a normal height (Dolby's guidance assumes roughly 7.5–12 feet). Vaulted or acoustically treated ceilings weaken the effect; in those rooms, in-ceiling speakers are the better route.\n\n**Size the sub to the room.** One 10-inch sub suits small to mid-size rooms. In a 15 x 20 x 9 ft room (2,700 cubic feet) or larger, plan to add or upgrade to a 12-inch model such as the [Klipsch R-120SW](/gear/klipsch-r-120sw/) or [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/).\n\nOwners consistently describe the Reference sound as lively and dynamic, with forward treble that some find bright in hard-surfaced rooms. More options in the [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) guide.",
     "bestFor": "Living rooms that want real Atmos height effects without ceiling speakers",
     "skipIf": "You have vaulted or very high ceilings, or only own a 5-channel receiver",
     "pros": [
       "Built-in elevation drivers give a genuine 5.1.2 layout from one bundle",
-      "Dual 6.5-inch woofers in the towers handle midbass with ease",
+      "Matched Tractrix horn tweeters and IMG woofers across the main speakers",
       "High sensitivity means a mid-range receiver drives it loudly",
-      "All-Klipsch voicing keeps the front stage consistent"
+      "10-inch, 300 W R-100SW sub included",
+      "5-year warranty"
     ],
     "cons": [
       "Needs a 7-channel receiver, sold separately",
       "Up-firing effect depends on a flat, reflective ceiling",
-      "Forward treble can sound bright in hard, echoey rooms",
-      "Bundle contents vary by seller"
+      "10-inch sub limits deep bass in larger rooms",
+      "Forward treble can sound bright in hard, echoey rooms"
     ],
     "specs": {
       "Channels": "5.1.2",
+      "Fronts": "2x R-625FA towers with built-in Dolby Atmos elevation drivers",
       "Atmos/DTS:X": "Via your receiver; elevation drivers built into the towers",
-      "Subwoofer": "Powered Klipsch Reference sub (model varies by bundle)",
-      "Surrounds": "Included (Reference bookshelf/surround models)",
+      "Subwoofer": "Klipsch R-100SW, 10-inch, 300 W amplifier",
+      "Surrounds": "Included (2x R-41M bookshelf)",
       "Inputs": "Binding posts; sub has line-level/LFE RCA",
       "Room correction": "None (use your receiver's)",
       "Streaming": "None (via receiver)",
@@ -131,67 +133,68 @@
     ],
     "faqs": [
       {
+        "q": "What is included in the Klipsch R-625FA 5.1 home theater pack?",
+        "a": "Two R-625FA Dolby Atmos towers, two R-41M bookshelf speakers, an R-52C center and an R-100SW 10-inch powered subwoofer, plus grilles, rubber feet and screws, with a 5-year warranty."
+      },
+      {
         "q": "What receiver do I need for a Klipsch 5.1.2 Atmos system?",
         "a": "Any receiver with seven amplified channels and Dolby Atmos decoding, such as a 7.2-channel Denon, Marantz, Yamaha or Onkyo model. Five channels power the ear-level speakers and two power the elevation drivers."
       },
       {
         "q": "Do the R-625FA elevation drivers work as well as ceiling speakers?",
         "a": "Not quite. Reflected height sound depends on ceiling height and surface, and owners report the effect is convincing in rooms with flat 8–9 foot ceilings but weaker in vaulted or treated rooms. In-ceiling speakers give more precise overhead placement."
-      },
-      {
-        "q": "Can I add more speakers later?",
-        "a": "Yes, as long as your receiver has spare channels. A 9-channel receiver lets you add a second pair of height or rear surround speakers."
       }
     ]
   },
   {
-    "slug": "polk-monitor-xt-51-system",
-    "name": "Polk Monitor XT 5.1 Home Theater System",
+    "slug": "polk-t-series-51-system",
+    "name": "Polk Audio T-Series 5.1 Home Theater System",
     "brand": "Polk Audio",
     "category": "system",
-    "amazonQuery": "Polk Monitor XT 5.1 home theater speaker system",
-    "priceBand": "$900–$1,300",
+    "amazonQuery": "Polk Audio 5.1 home theater system T15 T30 T50 PSW10",
+    "priceBand": "$750–$900",
     "priceTier": 2,
-    "score": 79,
+    "score": 74,
     "scores": [
       {
         "label": "Sound for the money",
-        "value": 84
+        "value": 80
       },
       {
         "label": "Surround & Atmos",
-        "value": 70
+        "value": 62
       },
       {
         "label": "Features & connectivity",
-        "value": 66
+        "value": 54
       },
       {
         "label": "Ease of setup",
-        "value": 78
+        "value": 76
       }
     ],
-    "summary": "A good-value Polk Monitor XT 5.1 package with towers, a center, surrounds and a powered sub, easy to drive and ready to grow into Atmos with XT90 height modules.",
-    "verdict": "Polk's Monitor XT range is the value end of serious passive speakers, and a 5.1 bundle of XT towers, center, surrounds and sub gives you a complete system that a mainstream receiver drives comfortably. The XT tweeters are **Hi-Res certified** and owners describe the overall balance as warm and easy to listen to, which forgives budget amplification and bright rooms.\n\n**The upgrade maths.** Out of the box this is 5.1, which needs **five amplified channels** and a sub pre-out. To reach 5.1.2 you add a pair of [Polk Monitor XT90](/gear/polk-monitor-xt90/) height modules on top of the towers or bookshelves, which takes you to **seven channels**. So if Atmos is even a maybe, buy a 7.2 receiver now (for example the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) or [Onkyo TX-NR6100](/gear/onkyo-tx-nr6100/)) rather than a 5.2 model you'd outgrow.\n\n**Crossover and room size.** Set the towers and surrounds to \"Small\" at 80 Hz and let the sub handle the low end; the receiver's [room correction](/glossary/room-correction/) will tidy up the rest. In a 250–350 sq ft living room the package has enough output for movies at satisfying levels. In a large dedicated room, a stronger sub such as an SVS model is the first upgrade.\n\nBundle contents vary by retailer, so confirm which tower, center and sub are included. See the [best budget home theater system](/best-budget-home-theater-system/) roundup for alternatives.",
-    "bestFor": "Mid-size living rooms that want a complete 5.1 speaker set with an Atmos upgrade path",
-    "skipIf": "You want deep, high-output bass for a large dedicated theater out of the box",
+    "summary": "A complete passive Polk 5.1 starter set: two T50 towers, a T30 center, two T15 bookshelf surrounds and a 10-inch PSW10 powered sub, for a first receiver-based system in a small to mid-size room.",
+    "verdict": "The Polk T-Series 5.1 replaces the Monitor XT 5.1 on our list as Polk's complete starter package. In one bundle you get two **T50 towers** (a 6.5-inch driver, a 1-inch tweeter and **two 6.5-inch passive bass radiators** each), a **T30 center** with two 5.25-inch drivers and a 1-inch tweeter, two **T15 bookshelf** speakers (5.25-inch driver, 0.75-inch tweeter) for the surrounds, and a [Polk PSW10](/gear/polk-psw10/) **10-inch powered subwoofer** rated up to 100 W. That is the \"15 speakers\" Polk counts: 15 drivers across six boxes.\n\n**Show the maths on the bass.** Each tower's 6.5-inch driver plus two 6.5-inch radiators gives about **three times** the radiating area of the driver alone, which helps the towers reach lower than the bookshelves. The sub is the weak link. Polk pitches it at small to mid-size rooms; for reference, a 12 x 16 x 8 ft room is about **1,540 cubic feet**. In a larger space, upgrade the sub first, to something like the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) with its 12-inch sealed driver and 325 W RMS amp.\n\n**Plan the receiver.** These are passive speakers, so you need an AV receiver with at least five channels and a sub pre-out; the [Denon AVR-S770H](/gear/denon-avr-s770h/) or [Yamaha RX-V4A](/gear/yamaha-rx-v4a/) are sensible matches, and their [room correction](/glossary/room-correction/) helps the sub blend. Set the speakers to Small with an 80 Hz [crossover](/glossary/crossover/) as a starting point. Polk notes the set can grow to 7.1 or more later if your receiver has the channels.\n\nIt is a budget set, so do not expect the refinement of the [SVS Prime Satellite 5.1 System](/gear/svs-prime-satellite-51/), but for a first full surround system it covers every channel. More picks in the [best budget home theater system](/best-budget-home-theater-system/) guide.",
+    "bestFor": "First-time buyers who want a complete receiver-based 5.1 system for a small to mid-size room",
+    "skipIf": "You have a large room or want Atmos height channels in the box",
     "pros": [
-      "Complete matched 5.1 set at a fair price",
-      "Warm, forgiving voicing suits budget receivers",
-      "Clear Atmos upgrade path with XT90 height modules",
-      "Easy load for mainstream AV receivers"
+      "Complete 5.1 set: towers, center, surrounds and powered sub in one bundle",
+      "Towers add two 6.5-inch passive radiators each for fuller bass",
+      "Compatible with most home theater receivers",
+      "Can grow to 7.1 or more later"
     ],
     "cons": [
-      "Included sub is the weak link in larger rooms",
-      "Needs a separate receiver",
-      "Bundle components vary by seller"
+      "10-inch, up-to-100 W sub runs out of steam in large rooms",
+      "No height speakers for Atmos",
+      "Needs a separate AV receiver"
     ],
     "specs": {
       "Channels": "5.1",
-      "Atmos/DTS:X": "Via your receiver (add Monitor XT90 modules for height)",
-      "Subwoofer": "Powered Polk Monitor XT sub",
-      "Surrounds": "Included (Monitor XT bookshelf)",
-      "Inputs": "Binding posts; sub has line-level/LFE RCA",
+      "Fronts": "2x T50 towers: 6.5-inch driver, 1-inch tweeter, two 6.5-inch passive radiators",
+      "Atmos/DTS:X": "Via your receiver (no height speakers included)",
+      "Subwoofer": "Polk PSW10, 10-inch powered, up to 100 W",
+      "Surrounds": "Included (2x T15 bookshelf: 5.25-inch driver, 0.75-inch tweeter)",
+      "Inputs": "Speaker terminals; sub has line-level and speaker-level inputs",
       "Room correction": "None (use your receiver's)",
       "Streaming": "None (via receiver)",
       "Wireless": "No",
@@ -199,18 +202,22 @@
     },
     "keySpecs": [
       "Channels",
+      "Fronts",
       "Subwoofer",
-      "Surrounds",
-      "Amplification"
+      "Surrounds"
     ],
     "faqs": [
       {
-        "q": "Can the Polk Monitor XT 5.1 system do Dolby Atmos?",
-        "a": "Not on its own. It is a 5.1 package, but you can add a pair of Monitor XT90 height modules and a 7-channel receiver to make it 5.1.2."
+        "q": "What receiver do I need for the Polk T-Series 5.1 system?",
+        "a": "Any AV receiver with at least five amplified channels and a subwoofer pre-out. Connect the PSW10 to the sub output with an RCA cable, then let the receiver's room correction set levels and crossovers."
       },
       {
-        "q": "Is the Polk Monitor XT system hard to drive?",
-        "a": "No. The XT range is designed for mainstream AV receivers, and owners report that entry-level 5.2 and 7.2 models power it to satisfying levels in typical living rooms."
+        "q": "Can the Polk T-Series 5.1 system do Dolby Atmos?",
+        "a": "Not as supplied. It is a 5.1 set with no height speakers. With a 7-channel receiver, you can add a pair of height or Atmos speakers later for 5.1.2."
+      },
+      {
+        "q": "Which speakers are in the Polk T-Series 5.1 bundle?",
+        "a": "Two T50 towers, one T30 center, two T15 bookshelf speakers and a PSW10 10-inch powered subwoofer."
       }
     ]
   },
@@ -219,10 +226,10 @@
     "name": "SVS Prime Satellite 5.1 System",
     "brand": "SVS",
     "category": "system",
-    "amazonQuery": "SVS Prime Satellite 5.1 speaker system",
-    "priceBand": "$1,000–$1,400",
+    "amazonQuery": "SVS Prime Satellite speakers pair",
+    "priceBand": "$330–$380 per pair",
     "priceTier": 3,
-    "score": 84,
+    "score": 83,
     "scores": [
       {
         "label": "Sound for the money",
@@ -234,34 +241,36 @@
       },
       {
         "label": "Features & connectivity",
-        "value": 66
+        "value": 64
       },
       {
         "label": "Ease of setup",
-        "value": 82
+        "value": 74
       }
     ],
-    "summary": "Five compact SVS Prime Satellites and a 12-inch sealed SVS sub: small speakers, big-system bass and one of the most balanced compact 5.1 packages you can buy.",
-    "verdict": "The Prime Satellite 5.1 is the \"small speakers, serious sub\" approach done well. Five identical satellites, each with a **4.5-inch woofer and 1-inch aluminum dome tweeter**, pair with a **12-inch sealed SVS subwoofer** from the SB-1000 family. Using five identical speakers means timbre matches perfectly as effects pan around the room, something mixed-model packages can't always claim.\n\n**Show the maths on the crossover.** A 4.5-inch woofer has about (4.5 ÷ 3)² = **2.25 times** the cone area of the 3-inch drivers in many lifestyle kits, so the satellites can blend cleanly at **80–100 Hz**. Start at 80 Hz; if voices sound thin, move to 100 Hz. The sealed 12-inch sub then carries everything below, and sealed designs roll off gently, which tends to sound tight and blend well in small to mid-size rooms.\n\n**Size the sub to the room.** Multiply length × width × height: a 14 × 18 × 8 ft room is about **2,000 cubic feet**, comfortable territory for a sealed 12-inch sub. In an open-plan space twice that volume, owners often add a second sub or step up to a ported model like the [SVS PB-1000 Pro](/gear/svs-pb-1000-pro/).\n\nYou will need a receiver with five channels and a sub pre-out; the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) is a good match and its [room correction](/glossary/room-correction/) suits the sealed sub. More picks in the [best home theater systems](/best-home-theater-systems/) roundup.",
+    "summary": "A build-it-yourself SVS 5.1: the Amazon link is one pair of Prime Satellites, and the full system takes two pairs plus the Prime Center and a sub such as the SB-1000 Pro, each bought separately, for compact speakers with serious bass.",
+    "verdict": "The SVS Prime Satellite 5.1 is the \"small speakers, serious sub\" approach, but read the listing before you click: **the Amazon link is for one pair of Prime Satellites**, not a boxed system. To build the 5.1 you buy **two satellite pairs** (fronts and surrounds), an [SVS Prime Center](/gear/svs-prime-center/) and a subwoofer such as the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/), all separately. The price band shown is for one pair; the complete system costs several times that.\n\nEach satellite pairs a **1-inch aluminum dome tweeter** with an FEA-optimized diffuser and a **4.5-inch woofer** with an aluminum shorting ring, joined by SVS's **SoundMatch 2-way crossover**. The cabinet is small enough to wall- or ceiling-mount, and SVS voices the Prime range to blend, so the center matches the satellites as effects pan.\n\n**Show the maths on the crossover.** A 4.5-inch woofer has about (4.5 ÷ 3)² = **2.25 times** the cone area of the 3-inch drivers in many lifestyle kits, so the satellites can hand off cleanly at **80–100 Hz**. Start at 80 Hz; if voices sound thin, move to 100 Hz. The SB-1000 Pro's 12-inch sealed driver and **325 W RMS** amp then carry everything below.\n\n**Size the sub to the room.** A 14 x 18 x 8 ft room is about **2,000 cubic feet**, comfortable for one sealed 12-inch sub. In an open-plan space twice that size, add a second sub or step up to the ported [SVS PB-1000 Pro](/gear/svs-pb-1000-pro/).\n\nYou will need a receiver with five channels and a sub pre-out; the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) and its [room correction](/glossary/room-correction/) suit the sealed sub. More picks in the [best home theater systems](/best-home-theater-systems/) roundup.",
     "bestFor": "Rooms where speakers must stay small but bass still needs to be tight and full",
-    "skipIf": "You want height channels included, or a single-box soundbar setup",
+    "skipIf": "You want one boxed system, height channels included, or a soundbar setup",
     "pros": [
-      "Five identical satellites give seamless panning",
-      "12-inch sealed sub is a genuine step above typical kit subs",
-      "Satellites cross over cleanly at 80–100 Hz",
-      "SVS has a strong reputation for owner support"
+      "Compact satellites wall- or ceiling-mount easily",
+      "1-inch aluminum tweeter and 4.5-inch woofer cross over cleanly at 80–100 Hz",
+      "Prime-series voicing keeps the center and satellites matched",
+      "Pairs with a 12-inch sealed SB-1000 Pro for tight bass",
+      "Easy to build in stages, one pair at a time"
     ],
     "cons": [
+      "Amazon link is one pair: the 5.1 needs two pairs, a center and a sub bought separately",
       "Needs a separate AV receiver",
-      "No height speakers in the package",
-      "Costs more than lifestyle 5.1 kits with smaller subs"
+      "No height speakers"
     ],
     "specs": {
-      "Channels": "5.1",
+      "Channels": "5.1 (two satellite pairs + Prime Center + sub)",
+      "Satellite drivers": "1-inch aluminum dome tweeter, 4.5-inch woofer, SoundMatch 2-way crossover",
       "Atmos/DTS:X": "Via your receiver (no height speakers included)",
-      "Subwoofer": "12-inch sealed SVS (SB-1000 series)",
-      "Surrounds": "Included (identical Prime Satellites)",
-      "Inputs": "Binding posts; sub has line-level/LFE RCA and speaker-level inputs",
+      "Subwoofer": "Not included; SVS SB-1000 Pro (12-inch sealed) suggested, sold separately",
+      "Surrounds": "Second Prime Satellite pair (sold separately)",
+      "Inputs": "Binding posts; SB-1000 Pro has line-level RCA",
       "Room correction": "None (use your receiver's)",
       "Streaming": "None (via receiver)",
       "Wireless": "No",
@@ -269,11 +278,15 @@
     },
     "keySpecs": [
       "Channels",
+      "Satellite drivers",
       "Subwoofer",
-      "Surrounds",
       "Amplification"
     ],
     "faqs": [
+      {
+        "q": "Is the SVS Prime Satellite 5.1 sold as one box?",
+        "a": "Not on Amazon. The listing is for one pair of Prime Satellites. A 5.1 system uses two pairs (fronts and surrounds), the SVS Prime Center and a subwoofer such as the SB-1000 Pro, each bought separately."
+      },
       {
         "q": "What crossover is best for SVS Prime Satellites?",
         "a": "Start at 80 Hz with the speakers set to Small. If voices sound lean or the satellites strain at high volume, raise it to 100 Hz so the subwoofer handles more of the upper bass."
@@ -355,57 +368,56 @@
     ]
   },
   {
-    "slug": "vizio-m-series-512",
-    "name": "Vizio M-Series 5.1.2 Home Theater Sound Bar",
+    "slug": "vizio-elevate-se-sl512x",
+    "name": "VIZIO 5.1.2 Elevate SE Soundbar (SL512X-08)",
     "brand": "Vizio",
     "category": "system",
-    "amazonQuery": "Vizio M-Series 5.1.2 home theater sound bar Dolby Atmos",
-    "released": "2020",
-    "priceBand": "$250–$400",
+    "amazonQuery": "VIZIO 5.1.2 Elevate SE soundbar SL512X-08",
+    "released": "2024",
+    "priceBand": "$350–$450",
     "priceTier": 1,
-    "score": 74,
+    "score": 76,
     "scores": [
       {
         "label": "Sound for the money",
-        "value": 86
+        "value": 84
       },
       {
         "label": "Surround & Atmos",
-        "value": 72
+        "value": 78
       },
       {
         "label": "Features & connectivity",
-        "value": 64
+        "value": 62
       },
       {
         "label": "Ease of setup",
-        "value": 84
+        "value": 82
       }
     ],
-    "summary": "A budget 5.1.2 soundbar system with up-firing drivers, a wireless sub and rear satellites, giving real Atmos and DTS:X at a price most soundbars can't touch.",
-    "verdict": "Vizio's M-Series 5.1.2 is the cheapest way to get every part of an Atmos layout: a 36-inch-class bar with **two up-firing drivers**, a **wireless subwoofer** and a pair of **rear satellites** that plug into the sub. It decodes both [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/), which many pricier bars still skip.\n\n**Read the channel count.** 5.1.2 means left, center, right, two rears, a sub and two height channels. The \".2\" comes from the up-firing drivers bouncing sound off your ceiling, so the effect is best with a flat ceiling around 8 feet. The rears are wired to the sub, not the bar, which keeps cable runs short: put the sub at the back of the room and you only need a power outlet there.\n\n**Connections.** Plug it into your TV's [eARC](/glossary/earc/) port to pass lossless Atmos from TV apps or a player connected to the TV. Bluetooth covers phone streaming; there's no deep Wi-Fi multiroom ecosystem like Sonos.\n\nOwners consistently report surprising scale for the price, with the usual budget caveats: small drivers limit output in large rooms and the sub won't dig into the deepest movie bass. As a value pick it is hard to argue with. Compare it with dedicated bars in the [best soundbar for home theater](/best-soundbar-for-home-theater/) guide and with full systems in the [soundbar vs home theater](/soundbar-vs-home-theater/) explainer.",
-    "bestFor": "Budget buyers who want true 5.1.2 with Atmos and DTS:X in a small to mid-size room",
-    "skipIf": "You have a large room or want Wi-Fi multiroom streaming",
+    "summary": "A 5.1.2 Vizio Elevate SE soundbar system with a wireless sub and height speakers that rotate upward for Dolby Atmos and DTS:X, controlled by your TV remote over eARC; the bar's own remote is sold separately.",
+    "verdict": "The VIZIO 5.1.2 Elevate SE (SL512X-08) replaces the M-Series 5.1.2 on our list and brings Vizio's signature trick down in price: **adaptive height speakers that rotate upward** when Dolby Atmos or DTS:X content is detected, reflecting sound off the ceiling. A **wireless subwoofer** handles bass, and **HDMI eARC** lets your TV remote control the system. Rotating aluminum elements and customizable LED side ports give it the Elevate look, and QuickFit thumbscrews attach it to select Vizio TVs.\n\n**Why rotation matters.** A fixed up-firing driver is aimed at the ceiling even when there is no height information to reflect. Here the drivers turn up only for Atmos and DTS:X content. That bounce still needs a flat ceiling at a normal height. With an 8 ft ceiling, the bar about 2.5 ft up and your ears around 3.3 ft, the reflected path to a seat 10 ft away is about **14.3 ft**, versus 10 ft direct. Under a 12 ft ceiling it grows to about 21 ft, roughly **3 dB quieter**, which is why vaulted rooms weaken the effect. See [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/).\n\nTwo caveats from the listing: the **soundbar remote is not included**, so your TV remote over [eARC](/glossary/earc/) and the Vizio app do the work, and the listing does not detail the surround speakers, so check what is in the box if real rear sound matters to you. Wi-Fi streaming is not listed; Bluetooth covers phones.\n\nCompared with the [Hisense AX5120G 5.1.2 Soundbar](/gear/hisense-ax5120g/), it trades extra inputs for rotating heights. For the cheapest real rear speakers, the [Sony HT-S40R 5.1 Home Theater System](/gear/sony-ht-s40r/) is the alternative. More in the [best budget home theater system](/best-budget-home-theater-system/) and [soundbar vs home theater](/soundbar-vs-home-theater/) guides.",
+    "bestFor": "Budget buyers who want Atmos and DTS:X with real height drivers in a small to mid-size room",
+    "skipIf": "You need Wi-Fi streaming, a bundled remote, or have a large or vaulted room",
     "pros": [
-      "True 5.1.2 layout with up-firing drivers at a budget price",
-      "Decodes both Dolby Atmos and DTS:X",
-      "Rears connect to the wireless sub, keeping cable runs short",
-      "Simple setup over HDMI eARC"
+      "Height speakers rotate up automatically for Atmos and DTS:X",
+      "Wireless subwoofer included",
+      "HDMI eARC lets your TV remote control it",
+      "QuickFit mounting for select Vizio TVs and a distinctive Elevate design"
     ],
     "cons": [
-      "Small drivers limit output in larger rooms",
-      "Sub doesn't reach the deepest movie bass",
-      "Limited streaming beyond Bluetooth"
+      "Soundbar remote sold separately",
+      "Surround speakers not detailed on the listing",
+      "No Wi-Fi streaming listed"
     ],
     "specs": {
       "Channels": "5.1.2",
-      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X; height speakers rotate up automatically",
       "Subwoofer": "Wireless subwoofer included",
-      "Surrounds": "Included (wired to the sub)",
-      "Inputs": "HDMI eARC, optical, 3.5 mm aux, USB, Bluetooth",
-      "Room correction": "None",
+      "Surrounds": "Not detailed on the Amazon listing",
+      "Inputs": "HDMI eARC, Bluetooth",
       "Streaming": "Bluetooth",
-      "Wireless": "Wireless sub; rears wired to sub",
+      "Wireless": "Wireless sub, Bluetooth",
       "Amplification": "Built in (active system)"
     },
     "keySpecs": [
@@ -416,12 +428,16 @@
     ],
     "faqs": [
       {
-        "q": "Does the Vizio M-Series 5.1.2 need a receiver?",
-        "a": "No. It is a self-powered soundbar system. Connect it to your TV's HDMI eARC port and it handles decoding and amplification."
+        "q": "Does the Vizio Elevate SE need a receiver?",
+        "a": "No. It is a self-powered soundbar system. Connect it to your TV's HDMI eARC port and it handles decoding and amplification, with your TV remote controlling volume."
       },
       {
-        "q": "Where do the Vizio rear speakers plug in?",
-        "a": "The rear satellites connect by cable to the wireless subwoofer, so placing the sub near the back of the room keeps those runs short."
+        "q": "How do the Vizio Elevate SE height speakers work?",
+        "a": "When the bar detects Dolby Atmos or DTS:X, its adaptive height speakers rotate upward to bounce sound off the ceiling. A flat ceiling around 8 feet gives the strongest effect."
+      },
+      {
+        "q": "Does the Vizio SL512X-08 come with a remote?",
+        "a": "No, the soundbar remote is sold separately. Your TV remote works over HDMI eARC, and the Vizio app handles updates and advanced settings."
       }
     ]
   },
@@ -876,7 +892,7 @@
       }
     ],
     "summary": "A budget 5.1 soundbar system with a wired sub and real rear speakers fed by a wireless amplifier, giving true surround for TV and movies at a low price.",
-    "verdict": "The HT-S40R is a budget route to **real** rear speakers. You get a three-channel bar, a wired subwoofer and two rear speakers that plug into a small **wireless amplifier box**, so there's no cable running from the front of the room to the back.\n\n**Read the power claim carefully.** Sony quotes **600 W total**, but that figure is spread across six channels and not measured the way a receiver's watts per channel are. Treat it as a marketing total, not a performance promise. In practice, owners report it fills a small to mid-size living room at TV and movie levels, but it isn't built for very loud playback in a big room.\n\n**Connections.** It connects to the TV with HDMI ARC (or optical) and adds Bluetooth for music. There's **no Dolby Atmos or DTS:X**, and no Wi-Fi streaming, so it's a TV-sound upgrade rather than a smart speaker system. The rear wireless amp still needs a power outlet behind the seats.\n\nFor not much more, the [Vizio M-Series 5.1.2](/gear/vizio-m-series-512/) adds up-firing Atmos drivers. If you only want the simplest upgrade from TV speakers with genuine rear sound, the HT-S40R does the job. Compare options in the [best budget home theater system](/best-budget-home-theater-system/) and [best soundbar for home theater](/best-soundbar-for-home-theater/) guides.",
+    "verdict": "The HT-S40R is a budget route to **real** rear speakers. You get a three-channel bar, a wired subwoofer and two rear speakers that plug into a small **wireless amplifier box**, so there's no cable running from the front of the room to the back.\n\n**Read the power claim carefully.** Sony quotes **600 W total**, but that figure is spread across six channels and not measured the way a receiver's watts per channel are. Treat it as a marketing total, not a performance promise. In practice, owners report it fills a small to mid-size living room at TV and movie levels, but it isn't built for very loud playback in a big room.\n\n**Connections.** It connects to the TV with HDMI ARC (or optical) and adds Bluetooth for music. There's **no Dolby Atmos or DTS:X**, and no Wi-Fi streaming, so it's a TV-sound upgrade rather than a smart speaker system. The rear wireless amp still needs a power outlet behind the seats.\n\nFor a little more, the [VIZIO 5.1.2 Elevate SE Soundbar (SL512X-08)](/gear/vizio-elevate-se-sl512x/) adds rotating height speakers for Atmos and DTS:X. If you only want the simplest upgrade from TV speakers with genuine rear sound, the HT-S40R does the job. Compare options in the [best budget home theater system](/best-budget-home-theater-system/) and [best soundbar for home theater](/best-soundbar-for-home-theater/) guides.",
     "bestFor": "Budget buyers who want real rear speakers for TV and movies",
     "skipIf": "You want Dolby Atmos, Wi-Fi streaming or high output",
     "pros": [

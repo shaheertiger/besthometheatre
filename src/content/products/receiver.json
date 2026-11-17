@@ -238,7 +238,7 @@
       }
     ],
     "summary": "Nine amplified channels, 11.4-channel processing, four independent sub outputs and Audyssey XT32 with a Dirac Live upgrade path make this the best-value receiver for a serious 5.1.4 or 7.1.4 room.",
-    "verdict": "The AVR-X3800H is where channel maths gets interesting. It has **nine amplified channels** and **11.4-channel processing**. Nine amps run **5.1.4** (five ear-level, four height) or **7.1.2**. Add a two-channel power amp such as the [Rotel RB-1582 MkII](/gear/rotel-rb-1582/) to the pre-outs and you reach **7.1.4**: 7 + 4 = 11 channels, with the receiver powering nine.\n\nDenon rates it at **105 W/ch (8 Ω, 20 Hz–20 kHz, 0.05% THD, 2 ch driven)**. As with every receiver, the two-channel figure is the ceiling, not what each of nine channels gets on a full-range blast. Offloading the front left and right to an external amp frees the internal supply for the other seven, which is the practical way to get more real multichannel headroom.\n\nThe bass side is strong: **four independent subwoofer outputs** let you place and level each sub separately, which smooths seat-to-seat response far better than one sub. [Room correction](/glossary/room-correction/) is Audyssey MultEQ XT32, with **Dirac Live** available as a paid upgrade.\n\nIt also decodes [DTS:X](/glossary/dts-x/), [Dolby Atmos](/glossary/dolby-atmos/), Auro-3D and IMAX Enhanced. For a 5.1.4 room it is hard to beat on paper; compare it with rivals in the [best home theater receiver](/best-home-theater-receiver/) guide.",
+    "verdict": "The AVR-X3800H is where channel maths gets interesting. It has **nine amplified channels** and **11.4-channel processing**. Nine amps run **5.1.4** (five ear-level, four height) or **7.1.2**. Add a two-channel power amp such as the [Marantz MM7025](/gear/marantz-mm7025/) to the pre-outs and you reach **7.1.4**: 7 + 4 = 11 channels, with the receiver powering nine.\n\nDenon rates it at **105 W/ch (8 Ω, 20 Hz–20 kHz, 0.05% THD, 2 ch driven)**. As with every receiver, the two-channel figure is the ceiling, not what each of nine channels gets on a full-range blast. Offloading the front left and right to an external amp frees the internal supply for the other seven, which is the practical way to get more real multichannel headroom.\n\nThe bass side is strong: **four independent subwoofer outputs** let you place and level each sub separately, which smooths seat-to-seat response far better than one sub. [Room correction](/glossary/room-correction/) is Audyssey MultEQ XT32, with **Dirac Live** available as a paid upgrade.\n\nIt also decodes [DTS:X](/glossary/dts-x/), [Dolby Atmos](/glossary/dolby-atmos/), Auro-3D and IMAX Enhanced. For a 5.1.4 room it is hard to beat on paper; compare it with rivals in the [best home theater receiver](/best-home-theater-receiver/) guide.",
     "bestFor": "Dedicated rooms building 5.1.4 now with a path to 7.1.4",
     "skipIf": "You only need 5.1.2 and want to save several hundred dollars",
     "pros": [
@@ -383,11 +383,11 @@
       }
     ],
     "summary": "A full-size 7.2-channel Marantz rated at 100 W/ch with Audyssey MultEQ XT and HEOS, a good fit for a 5.1.2 system with mid-sensitivity speakers.",
-    "verdict": "The Cinema 60 is a **seven-channel** receiver, so the layout options are 5.1.2 Dolby Atmos or 7.1. What it adds over the slim [Cinema 70s](/gear/marantz-cinema-70s/) is power.\n\nMarantz rates it at **100 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)**, double the Cinema 70s rating. Doubling power buys **3 dB** of headroom. In a room with 87 dB speakers and a 3 m seat, that moves peak level from about 94.5 dB to about 97.5 dB. Worth having, but remember the test is two channels driven: with seven speakers working at once, the shared supply gives each one less than the label suggests.\n\nAgainst the [Denon AVR-X2800H](/gear/denon-avr-x2800h/), the maths is close: 100 W vs 95 W is about 0.2 dB, and both use Audyssey MultEQ XT [room correction](/glossary/room-correction/). The choice comes down to Marantz's styling and voicing versus the Denon's lower price and dual HDMI outputs.\n\nYou get HEOS, AirPlay 2 and 8K-ready HDMI. What you do not get is a ninth channel: if you want 5.1.4, step up to the [Marantz Cinema 50](/gear/marantz-cinema-50/). For more options, see the [best home theater receiver](/best-home-theater-receiver/) roundup.",
+    "verdict": "The Cinema 60 is a **seven-channel** receiver, so the layout options are 5.1.2 Dolby Atmos or 7.1. What it adds over slimline and budget receivers is power.\n\nMarantz rates it at **100 W/ch (8 Ω, 20 Hz–20 kHz, 0.08% THD, 2 ch driven)**, double the 50 W/ch rating common on slimline models. Doubling power buys **3 dB** of headroom. In a room with 87 dB speakers and a 3 m seat, that moves peak level from about 94.5 dB to about 97.5 dB. Worth having, but remember the test is two channels driven: with seven speakers working at once, the shared supply gives each one less than the label suggests.\n\nAgainst the [Denon AVR-X2800H](/gear/denon-avr-x2800h/), the maths is close: 100 W vs 95 W is about 0.2 dB, and both use Audyssey MultEQ XT [room correction](/glossary/room-correction/). The choice comes down to Marantz's styling and voicing versus the Denon's lower price and dual HDMI outputs.\n\nYou get HEOS, AirPlay 2 and 8K-ready HDMI. What you do not get is a ninth channel: if you want 5.1.4, step up to the [Marantz Cinema 50](/gear/marantz-cinema-50/). For more options, see the [best home theater receiver](/best-home-theater-receiver/) roundup.",
     "bestFor": "5.1.2 systems where you want Marantz styling with full-size power",
     "skipIf": "You want four height channels or the lowest price for the specs",
     "pros": [
-      "100 W/ch rating, double the slim Cinema 70s",
+      "100 W/ch rating, double a typical slimline receiver",
       "Audyssey MultEQ XT room correction",
       "HEOS, AirPlay 2 and Bluetooth",
       "8K/60 and 4K/120 pass-through"
@@ -414,8 +414,8 @@
     ],
     "faqs": [
       {
-        "q": "Marantz Cinema 60 vs Cinema 70s: what is the difference?",
-        "a": "Both are 7.2-channel receivers with Audyssey MultEQ XT. The Cinema 60 is full-size and rated at 100 W/ch versus 50 W/ch for the slim Cinema 70s. That is 3 dB more headroom, which matters with less sensitive speakers or larger rooms."
+        "q": "How powerful is the Marantz Cinema 60?",
+        "a": "Marantz rates it at 100 W/ch into 8 ohms, 20 Hz–20 kHz, with two channels driven. That is double the 50 W/ch common on slimline receivers, or 3 dB more headroom. With all seven channels working at once, each gets less than the label suggests, as with any receiver."
       },
       {
         "q": "Can the Marantz Cinema 60 run 5.1.4?",

@@ -356,11 +356,11 @@
     "name": "Bose Smart Soundbar",
     "brand": "Bose",
     "category": "soundbar",
-    "amazonQuery": "Bose Smart Soundbar Dolby Atmos",
+    "amazonQuery": "Bose Smart Dolby Atmos Soundbar",
     "released": "2024",
-    "priceBand": "$400–$500",
+    "priceBand": "$350–$400",
     "priceTier": 2,
-    "score": 77,
+    "score": 78,
     "scores": [
       {
         "label": "Sound quality",
@@ -372,35 +372,36 @@
       },
       {
         "label": "Features & streaming",
-        "value": 84
+        "value": 86
       },
       {
         "label": "Ease of use",
         "value": 88
       }
     ],
-    "summary": "A compact Bose Atmos bar with up-firing drivers and A.I. Dialogue Mode, ideal for smaller rooms, with a clever Personal Surround option via Bose earbuds.",
-    "verdict": "The Bose Smart Soundbar is a compact bar with **five drivers**, including two up-firing dipole transducers, and [Dolby Atmos](/glossary/dolby-atmos/) decoding. It inherits **A.I. Dialogue Mode** from the [Bose Smart Ultra Soundbar](/gear/bose-smart-ultra-soundbar/), which is the main reason it outclasses most bars at its size for TV and movies with lots of talking.\n\n**Personal Surround.** Pair Bose Ultra Open Earbuds and they act as personal rear speakers for the person wearing them. It's a neat solution for one viewer in a room where rear speakers aren't possible, though it doesn't help anyone else on the sofa.\n\n**Five drivers vs nine.** The Smart Ultra has nearly twice the driver count in a longer cabinet, so it plays louder and wider. In a bedroom or a living room up to about 250 sq ft, the smaller bar is enough; above that, step up. Compare it with the [Sonos Beam (Gen 2)](/gear/sonos-beam-gen-2/): the Bose has real up-firing drivers and Bluetooth, while the Sonos has Trueplay tuning and the better multiroom app.\n\n**Connections.** HDMI [eARC](/glossary/earc/), optical, Wi-Fi with AirPlay 2 and Spotify Connect, Bluetooth and built-in Alexa. No DTS:X. You can add a Bose bass module and surrounds later, but the cost adds up quickly. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup.",
+    "summary": "A compact Bose Atmos bar with five drivers (two up-firing), TrueSpace upmixing, A.I. Dialogue Mode, Chromecast, AirPlay 2 and Alexa, plus a clever Personal Surround option using Bose earbuds.",
+    "verdict": "The Bose Smart Soundbar is a compact all-in-one for TVs in smaller rooms. It fits **five transducers** into its slim cabinet, **two of them firing upward** for [Dolby Atmos](/glossary/dolby-atmos/) height, and uses Bose's **TrueSpace** processing to upmix stereo and 5.1 into a wider, taller presentation. **A.I. Dialogue Mode** balances voices against effects, which is the feature most buyers will notice first.\n\n**Do the distance maths.** Sound level falls about **6 dB** every time you double your distance from a single source. Move from a 6 ft seat to a 12 ft seat and the bar needs four times the amplifier power to sound equally loud at your ears. That is why a small bar like this shines in bedrooms and compact living rooms, and why big, open rooms are better served by the [Bose Smart Ultra Soundbar](/gear/bose-smart-ultra-soundbar/) or a bar plus a [Bose Bass Module 700](/gear/bose-bass-module-700/).\n\n**Streaming is a strength.** Bluetooth, **AirPlay 2**, **Spotify Connect** and **Chromecast built-in** cover every phone, and **Amazon Alexa** is built in; Bose Voice4Video can also control your TV and cable or satellite box by voice. Connect it to your TV's [eARC](/glossary/earc/) port so Atmos from TV apps passes through. A remote is included.\n\n**Expansion is the upgrade path.** Add a Bose Bass Module and the [Bose Surround Speakers 700](/gear/bose-surround-speakers-700/), or pair Bose Ultra Open Earbuds as personal rear channels for late-night viewing. DTS:X is not listed. Compare it with the [Sonos Beam (Gen 2)](/gear/sonos-beam-gen-2/) in our [best soundbar for home theater](/best-soundbar-for-home-theater/) guide and with Bose's wider range in the [Bose home theater review](/bose-home-theater-review/).",
     "bestFor": "Bedrooms and small living rooms where dialogue clarity matters most",
     "skipIf": "You have a large room or want DTS:X support",
     "pros": [
-      "A.I. Dialogue Mode in a compact bar",
-      "Up-firing drivers for real Atmos height",
-      "Personal Surround with Bose Ultra Open Earbuds",
-      "Bluetooth plus Wi-Fi streaming"
+      "Five drivers, including two up-firing for Atmos height",
+      "A.I. Dialogue Mode keeps voices clear",
+      "TrueSpace upmixes stereo and 5.1 content",
+      "Wi-Fi, AirPlay 2, Spotify Connect, Chromecast and Alexa built in",
+      "Personal Surround via Bose Ultra Open Earbuds"
     ],
     "cons": [
-      "Limited output for large rooms",
-      "No DTS:X",
-      "Adding Bose sub and surrounds is expensive"
+      "No DTS:X listed",
+      "One compact bar limits output and bass in big rooms",
+      "Bass module and surrounds cost extra"
     ],
     "specs": {
-      "Channels": "5 drivers (incl. 2 up-firing dipole)",
-      "Atmos/DTS:X": "Dolby Atmos (no DTS:X)",
+      "Channels": "5 drivers (incl. 2 up-firing)",
+      "Atmos/DTS:X": "Dolby Atmos (no DTS:X listed); TrueSpace upmixing",
       "Subwoofer": "Optional Bose Bass Module 500 or 700",
       "Surrounds": "Optional Bose surrounds or Ultra Open Earbuds (Personal Surround)",
       "Inputs": "HDMI eARC, optical, Bluetooth",
-      "Streaming": "Wi-Fi, AirPlay 2, Spotify Connect, Alexa built-in",
+      "Streaming": "Wi-Fi, AirPlay 2, Spotify Connect, Chromecast built-in, Alexa built-in",
       "Wireless": "Wireless bass module and surround expansion"
     },
     "keySpecs": [
@@ -411,12 +412,16 @@
     ],
     "faqs": [
       {
-        "q": "What is Personal Surround on the Bose Smart Soundbar?",
-        "a": "It lets Bose Ultra Open Earbuds act as personal rear speakers for the wearer, adding surround effects without placing speakers behind the sofa."
+        "q": "Does the Bose Smart Soundbar support Dolby Atmos?",
+        "a": "Yes. It decodes Dolby Atmos and has two up-firing drivers among its five. Non-Atmos sources such as stereo or 5.1 are upmixed by Bose TrueSpace. DTS:X is not listed."
       },
       {
-        "q": "Is the Bose Smart Soundbar good for small rooms?",
-        "a": "Yes. Its compact size and dialogue processing suit bedrooms and living rooms up to roughly 250 square feet."
+        "q": "What is Personal Surround on the Bose Smart Soundbar?",
+        "a": "It lets you pair Bose Ultra Open Earbuds (sold separately) so they act as rear surround speakers for whoever is wearing them. It is a neat option for late-night viewing or rooms where rear speakers will not fit."
+      },
+      {
+        "q": "Does the Bose Smart Soundbar work with Chromecast and AirPlay?",
+        "a": "Yes. It supports Chromecast built-in, Apple AirPlay 2, Spotify Connect and Bluetooth, and has Amazon Alexa built in, with Bose Voice4Video for voice control of your TV."
       }
     ]
   },
@@ -630,56 +635,57 @@
     ]
   },
   {
-    "slug": "vizio-v-series-21",
-    "name": "Vizio V-Series 2.1 Sound Bar",
+    "slug": "vizio-soundbar-se-sv210y",
+    "name": "VIZIO All-in-One Soundbar SE (SV210Y-08)",
     "brand": "Vizio",
     "category": "soundbar",
-    "amazonQuery": "Vizio V-Series 2.1 home theater sound bar",
-    "priceBand": "$100–$150",
+    "amazonQuery": "VIZIO All-in-One Soundbar SE SV210Y-08",
+    "released": "2024",
+    "priceBand": "$90–$120",
     "priceTier": 1,
-    "score": 66,
+    "score": 65,
     "scores": [
       {
         "label": "Sound quality",
-        "value": 70
+        "value": 66
       },
       {
         "label": "Atmos & surround",
-        "value": 46
+        "value": 50
       },
       {
         "label": "Features & streaming",
-        "value": 60
+        "value": 56
       },
       {
         "label": "Ease of use",
-        "value": 90
+        "value": 88
       }
     ],
-    "summary": "A basic 2.1 soundbar with a wireless sub that's a big step up from TV speakers for very little money, but has no Atmos or real surround.",
-    "verdict": "The Vizio V-Series 2.1 is about the cheapest worthwhile upgrade from built-in TV speakers: a slim bar for left and right channels plus a **wireless subwoofer**. It decodes Dolby Audio and DTS soundtracks and uses **DTS Virtual:X** processing to widen the sound, but there's no [Dolby Atmos](/glossary/dolby-atmos/) and no real surround.\n\n**Why the sub matters, in numbers.** Thin TV speakers struggle below roughly 150–200 Hz, which is where voices get their body and effects get their weight. A separate sub takes everything below the [crossover](/glossary/crossover/) and also carries the [LFE](/glossary/lfe/) channel, so even a small one makes movies sound noticeably bigger. Because the sub is wireless, you can tuck it beside the sofa, which in small rooms often gives fuller bass than placing it by the TV.\n\n**Center channel caveat.** With 2.1 there's no dedicated center speaker, so dialogue is a phantom image between the bar's left and right drivers. Use the dialogue or voice mode if speech gets buried.\n\n**Connections.** HDMI ARC, optical, aux and Bluetooth cover every TV and phone. Owners rate it highly for bedrooms, dorms and second TVs; it runs out of output in a big living room. If you can stretch, the [Vizio M-Series 5.1.2](/gear/vizio-m-series-512/) adds rears and Atmos. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup.",
+    "summary": "A budget all-in-one Vizio bar with two full-range drivers and two integrated bass drivers, Dolby Atmos and DTS:X decoding, HDMI eARC and Bluetooth; there is no separate sub and the remote is sold separately.",
+    "verdict": "The VIZIO All-in-One Soundbar SE (SV210Y-08) replaces the V-Series 2.1 on our list as the cheapest worthwhile step up from TV speakers. It packs **two full-range drivers and two integrated bass drivers** into one bar, so there is no separate subwoofer to place, and Vizio rates it at **95 dB** of output. It decodes **Dolby Atmos and DTS:X**, connects over **HDMI eARC** so your TV remote controls volume, and doubles as a **Bluetooth speaker**. QuickFit thumbscrews attach it directly to select Vizio TVs.\n\n**Put the 95 dB in context.** Movie reference level peaks at 105 dB per channel, so a 95 dB ceiling is 10 dB short, and 10 dB sounds roughly half as loud to most ears. In a bedroom or small living room, that is plenty for TV and casual movies; in a big open-plan space it runs out of headroom.\n\n**Read 'Atmos' carefully.** With four forward-facing drivers and no up-firing or rear speakers, Atmos and DTS:X are rendered virtually; you will not get the overhead effects of a true 5.1.2 system. The difference is explained in [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/).\n\nTwo practical notes: the **remote is sold separately**, so plan on using your TV remote through [eARC](/glossary/earc/), and Vizio says to contact its support if your TV needs an optical connection. Advanced settings live in the Vizio mobile app, which requires a Vizio account.\n\nIf you can stretch, the [VIZIO 5.1.2 Elevate SE Soundbar (SL512X-08)](/gear/vizio-elevate-se-sl512x/) adds a wireless sub and rotating height speakers. More budget options are in the [best budget home theater system](/best-budget-home-theater-system/) guide.",
     "bestFor": "Bedrooms, dorms and second TVs on a tight budget",
-    "skipIf": "You want Atmos, real surround or room-filling output",
+    "skipIf": "You want real overhead Atmos, a separate sub or room-filling output",
     "pros": [
-      "Very affordable upgrade over TV speakers",
-      "Wireless subwoofer adds real bass",
-      "HDMI ARC, optical, aux and Bluetooth",
-      "Simple setup"
+      "Decodes Dolby Atmos and DTS:X at a budget price",
+      "No separate sub to place: integrated bass drivers",
+      "HDMI eARC lets your TV remote control volume",
+      "Bluetooth speaker mode and QuickFit mounting for select Vizio TVs"
     ],
     "cons": [
-      "No Atmos or real surround",
-      "No dedicated center channel",
-      "Limited output in larger rooms"
+      "Remote control sold separately",
+      "Atmos is virtual: no up-firing or rear speakers",
+      "95 dB output ceiling limits big rooms"
     ],
     "specs": {
-      "Channels": "2.1",
-      "Atmos/DTS:X": "No (Dolby Audio, DTS, DTS Virtual:X processing)",
-      "Subwoofer": "Wireless subwoofer included",
-      "Surrounds": "None (virtual only)",
-      "Inputs": "HDMI ARC, optical, 3.5 mm aux, Bluetooth",
-      "Room correction": "None",
+      "Channels": "All-in-one: 2 full-range + 2 integrated bass drivers",
+      "Atmos/DTS:X": "Decodes Dolby Atmos and DTS:X (no up-firing drivers)",
+      "Subwoofer": "None (integrated bass drivers)",
+      "Surrounds": "None",
+      "Inputs": "HDMI eARC, Bluetooth",
       "Streaming": "Bluetooth",
-      "Wireless": "Wireless sub"
+      "Wireless": "Bluetooth",
+      "Max output": "95 dB (Vizio spec)"
     },
     "keySpecs": [
       "Channels",
@@ -689,12 +695,16 @@
     ],
     "faqs": [
       {
-        "q": "Is the Vizio V-Series 2.1 good for movies?",
-        "a": "It's a clear upgrade from TV speakers thanks to its wireless subwoofer, but without Atmos or rear speakers it won't create real surround sound."
+        "q": "Does the Vizio SV210Y-08 have a subwoofer?",
+        "a": "Not a separate one. It uses two integrated bass drivers inside the bar alongside two full-range drivers, which keeps setup simple but limits deep bass compared with a bar and sub."
       },
       {
-        "q": "Does the Vizio V-Series 2.1 connect with HDMI?",
-        "a": "Yes. It connects to your TV's HDMI ARC port, and also offers optical, aux and Bluetooth."
+        "q": "Does the Vizio SV210Y-08 come with a remote?",
+        "a": "No, the soundbar remote is sold separately. Connected to your TV's HDMI eARC port, your TV remote controls the volume, and the Vizio app handles advanced settings."
+      },
+      {
+        "q": "Is the Vizio SV210Y-08 real Dolby Atmos?",
+        "a": "It decodes Dolby Atmos and DTS:X, but with no up-firing or rear speakers the effect is virtual. For true height effects, look at a bar with up-firing drivers or a 5.1.2 system."
       }
     ]
   },
@@ -768,57 +778,57 @@
     ]
   },
   {
-    "slug": "hisense-ax5125h",
-    "name": "Hisense AX5125H 5.1.2 Soundbar",
+    "slug": "hisense-ax5120g",
+    "name": "Hisense AX5120G 5.1.2 Soundbar",
     "brand": "Hisense",
     "category": "soundbar",
-    "amazonQuery": "Hisense AX5125H 5.1.2 soundbar",
-    "released": "2023",
-    "priceBand": "$250–$400",
+    "amazonQuery": "Hisense AX5120G 5.1.2 soundbar",
+    "priceBand": "$300–$350",
     "priceTier": 1,
-    "score": 74,
+    "score": 72,
     "scores": [
       {
         "label": "Sound quality",
-        "value": 74
+        "value": 73
       },
       {
         "label": "Atmos & surround",
-        "value": 78
+        "value": 70
       },
       {
         "label": "Features & streaming",
-        "value": 64
+        "value": 66
       },
       {
         "label": "Ease of use",
         "value": 84
       }
     ],
-    "summary": "A budget 5.1.2 Atmos and DTS:X system with up-firing drivers, a wireless sub and rear speakers, giving real surround for well under mid-range money.",
-    "verdict": "The Hisense AX5125H is a full **5.1.2** system at a budget price: a bar with up-firing drivers, a **wireless subwoofer** and two rear speakers. It decodes both [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/), which is rare at this price.\n\n**Read the power figure carefully.** Hisense quotes **420 W** total. Spread across 5.1.2 (eight channels) that averages about **52 W per channel**, and it isn't measured the way receiver power is, so treat it as a rough guide. In practice owners find it fills small and medium living rooms at movie levels, but it compresses when pushed hard in large rooms.\n\n**Ceiling check.** The \".2\" comes from up-firing drivers reflecting sound off the ceiling. They work best with a flat ceiling around 8–9 feet; vaulted or very high ceilings weaken the effect.\n\n**Connections.** HDMI [eARC](/glossary/earc/), optical and Bluetooth. There's no Wi-Fi streaming or app-based room correction, so it's a TV sound system rather than a smart speaker.\n\nAgainst the [Vizio M-Series 5.1.2](/gear/vizio-m-series-512/), it's a close match on layout and formats; choose on current price and which remote and setup suit you. If you can stretch, the [Samsung HW-Q800F](/gear/samsung-hw-q800f/) adds room tuning and Wi-Fi. See the [best budget home theater system](/best-budget-home-theater-system/) roundup.",
-    "bestFor": "Budget buyers who want real Atmos, DTS:X and rear speakers",
-    "skipIf": "You want Wi-Fi streaming, room correction or large-room output",
+    "summary": "A budget 5.1.2 Hisense bar with a wireless subwoofer, 420 W total, Dolby Atmos and DTS:X, 4K HDMI pass-through and Bluetooth 5.3; the surround channels are built into the bar rather than separate rear speakers.",
+    "verdict": "The Hisense AX5120G takes the budget-Atmos slot on our list. It is a **5.1.2-channel** bar with a **wireless subwoofer**, rated at **420 W** total, and it decodes both **Dolby Atmos** and **DTS:X**. Connections are generous for the money: **HDMI eARC**, an **HDMI input with 4K pass-through**, optical, AUX, USB and **Bluetooth 5.3**. It is Roku TV Ready, so a Roku TV remote controls both, and seven EQ presets cover music, movies and news.\n\n**Know where the surrounds are.** Hisense says the front, center and rear surround channels are all built into the bar. That keeps setup clean, with only the sub to place, but bar-mounted surround channels cannot put effects behind you the way physical rear speakers do. If true rear sound is the goal, choose a system with separate surrounds.\n\n**Read the watts.** 420 W is a total across every driver and the sub, not a per-channel figure measured like a receiver's. Split across eight channels (5 + 1 + 2), it averages about **53 W**, and the sub takes a large share in practice. On paper that suits a small to mid-size living room rather than a large open-plan space.\n\nConnect it to your TV's [eARC](/glossary/earc/) port for lossless Atmos from TV apps, or run a 4K source through its HDMI input. The formats are explained in [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/). For rotating height speakers in a similar price band, compare the [VIZIO 5.1.2 Elevate SE Soundbar (SL512X-08)](/gear/vizio-elevate-se-sl512x/); for real rear speakers on a budget, the [Sony HT-S40R 5.1 Home Theater System](/gear/sony-ht-s40r/) is an option. More picks in the [best soundbar for home theater](/best-soundbar-for-home-theater/) guide.",
+    "bestFor": "Budget buyers who want Atmos, DTS:X and a wireless sub from one simple bar",
+    "skipIf": "You want physical rear speakers, Wi-Fi streaming or large-room output",
     "pros": [
-      "Full 5.1.2 layout with rears at a budget price",
-      "Decodes Dolby Atmos and DTS:X",
+      "5.1.2 channels with Dolby Atmos and DTS:X",
       "Wireless subwoofer included",
-      "Simple HDMI eARC setup"
+      "HDMI eARC plus an HDMI input with 4K pass-through",
+      "Bluetooth 5.3 and Roku TV Ready control",
+      "Seven EQ presets"
     ],
     "cons": [
-      "No Wi-Fi streaming or room correction",
-      "420 W claim is a total, not per channel",
-      "Compresses at high volume in big rooms"
+      "Surround channels are built into the bar, not separate rears",
+      "420 W is a total, not per-channel power",
+      "No Wi-Fi streaming listed"
     ],
     "specs": {
       "Channels": "5.1.2",
       "Atmos/DTS:X": "Dolby Atmos and DTS:X",
       "Subwoofer": "Wireless subwoofer included",
-      "Surrounds": "Rear speakers included",
-      "Inputs": "HDMI eARC, optical, Bluetooth",
-      "Room correction": "None",
-      "Streaming": "Bluetooth",
-      "Wireless": "Wireless sub"
+      "Surrounds": "Built into the bar (no separate rear speakers listed)",
+      "Inputs": "HDMI eARC, HDMI in (4K pass-through), optical, AUX, USB, Bluetooth 5.3",
+      "Streaming": "Bluetooth 5.3",
+      "Wireless": "Wireless sub",
+      "Power (total)": "420 W"
     },
     "keySpecs": [
       "Channels",
@@ -828,12 +838,16 @@
     ],
     "faqs": [
       {
-        "q": "Does the Hisense AX5125H support DTS:X?",
-        "a": "Yes. It decodes both Dolby Atmos and DTS:X, which is uncommon at its price."
+        "q": "Does the Hisense AX5120G come with rear speakers?",
+        "a": "No separate ones. Hisense lists all five main channels, including the left and right surrounds, as built into the bar, plus a wireless subwoofer. For physical rear speakers, choose a system that includes them."
       },
       {
-        "q": "Is the Hisense AX5125H a true 5.1.2 system?",
-        "a": "Yes. It includes a bar with up-firing drivers, a wireless subwoofer and two rear speakers."
+        "q": "Does the Hisense AX5120G support DTS:X?",
+        "a": "Yes. It decodes both Dolby Atmos and DTS:X."
+      },
+      {
+        "q": "Can I plug a game console into the Hisense AX5120G?",
+        "a": "Yes. It has an HDMI input with 4K pass-through, so a console or streamer can run through the bar to your TV, while HDMI eARC carries audio back from your TV's apps."
       }
     ]
   }
