@@ -74,4 +74,5 @@ export const FOOTER_COMPANY = [
   { title: 'Affiliate Disclosure', url: '/affiliate-disclosure/' },
   { title: 'Privacy Policy', url: '/privacy-policy/' },
   { title: 'Contact', url: '/contact/' },
+  { title: 'Sitemap', url: '/sitemap/' },
 ];

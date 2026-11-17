@@ -18,6 +18,16 @@ Every page ships with a canonical, OG/Twitter tags, JSON-LD (Organization, WebSi
 Article, FAQPage, ItemList → Product + Review), XML sitemap, `robots.txt`, `llms.txt`, and a
 `/<slug>.md` markdown copy of each article (linked with `rel="alternate"`, like the protein site).
 
+## Sitemap
+
+- **XML:** `/sitemap-index.xml` (also `/sitemap.xml`, redirected in `vercel.json`), split per template:
+  `sitemap-pages-0.xml` (home, best lists, reviews, guides, hubs, tools), `sitemap-gear-0.xml`,
+  `sitemap-compare-0.xml`, `sitemap-brands-0.xml`, `sitemap-glossary-0.xml`. Each URL carries its real
+  `lastmod` (article `updated` date), a priority, and `<image:image>` entries for the Amazon product photos
+  on that page. Configured in `astro.config.mjs`. Submit `https://www.besthometheaterreview.com/sitemap-index.xml`
+  in Google Search Console and Bing Webmaster Tools.
+- **HTML:** `/sitemap/`, linked from the footer, lists every page for visitors and crawlers.
+
 ## Commands
 
 ```bash
