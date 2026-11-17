@@ -69,10 +69,10 @@ const schema = graph(itemList(goalPicks.map((g) => ({ name: g.a!.h1, url: `/${g.
       <h2 class="text-2xl font-extrabold text-ink">The {products.length} Products We Track: Top 10 by BHTR Score</h2>
       <ol class="mt-5 grid md:grid-cols-2 gap-3">
         {top.map((p, i) => (
-          <li><a href={productUrl(p)} class="flex items-center gap-4 rounded-xl border border-slate-200 p-3 hover:border-brand-500 no-underline">
-            <span class="w-7 text-center font-extrabold text-slate-400">{i + 1}</span>
+          <li class="min-w-0"><a href={productUrl(p)} class="flex items-center gap-3 sm:gap-4 rounded-xl border border-slate-200 p-3 hover:border-brand-500 no-underline">
+            <span class="w-6 sm:w-7 shrink-0 text-center font-extrabold text-slate-500">{i + 1}</span>
             <ProductImage product={p} size={160} class="w-14 h-14 shrink-0 rounded-lg" />
-            <span class="min-w-0 flex-1"><span class="block font-semibold text-ink leading-snug">{p.name}</span><span class="text-xs text-slate-500">{CATEGORY_LABELS[p.category]} · {p.priceBand}</span></span>
+            <span class="min-w-0 flex-1"><span class="block font-semibold text-ink leading-snug break-words">{p.name}</span><span class="text-xs text-slate-500">{CATEGORY_LABELS[p.category]} · {p.priceBand}</span></span>
             <Score score={p.score} />
           </a></li>
         ))}

@@ -8,10 +8,11 @@ import ComparisonTable from '../components/ComparisonTable.astro';
 import FAQ from '../components/FAQ.astro';
 import TOC from '../components/TOC.astro';
 import RelatedCards from '../components/RelatedCards.astro';
+import StickyBuyBar from '../components/StickyBuyBar.astro';
 import { articles, articleMap, getProduct, hubLabel, readMinutes, articleUrl, brandUrl, productsByBrand } from '../lib/data';
 import { md, slugify } from '../lib/md';
 import { articleSchema, breadcrumbs, faqPage, graph, itemList } from '../lib/schema';
-import { amazonImage } from '../lib/amazon';
+import { amazonImage, amazonUrl } from '../lib/amazon';
 import type { Article } from '../lib/types';
 
 export function getStaticPaths() {
@@ -59,6 +60,7 @@ const schema = graph(
 );
 const firstImg = pickProducts[0] ? amazonImage(pickProducts[0], 160) ?? undefined : undefined;
 const brandProducts = a.brand ? productsByBrand(a.brand) : [];
+const barItems = picks.map((pk, i) => { const p = pickProducts[i]; return { slug: p.slug, name: p.name, label: `#${i + 1} · ${pk.award}`, url: amazonUrl(p), image: amazonImage(p, 160), target: `pick-${i + 1}` }; });
 ---
 <Base title={a.title} description={a.metaDescription} type="article" schema={schema} published={a.published} updated={a.updated} section={hubLabel(a.hub)} tags={a.keywords.slice(0, 5)} mdAlternate={`/${a.slug}.md`} preloadImage={firstImg}>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
@@ -112,4 +114,5 @@ const brandProducts = a.brand ? productsByBrand(a.brand) : [];
       <aside class="hidden lg:block"><TOC items={outline} variant="desktop" /></aside>
     </div>
   </div>
+  {barItems.length > 0 && <StickyBuyBar items={barItems} trigger="#quick-picks" mode="track" />}
 </Base>

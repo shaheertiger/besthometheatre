@@ -6,6 +6,8 @@ import AmazonButton from '../../components/AmazonButton.astro';
 import Score from '../../components/Score.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import FAQ from '../../components/FAQ.astro';
+import StickyBuyBar from '../../components/StickyBuyBar.astro';
+import { amazonUrl, amazonImage } from '../../lib/amazon';
 import { productMap, productUrl, compareSlug, articlesForProduct, articleUrl, shortName } from '../../lib/data';
 import { compares } from '../../data/compares';
 import { CATEGORY_LABELS } from '../../data/site';
@@ -56,7 +58,7 @@ const others = compares.filter(([x, y]) => [x, y].some((s) => s === a.slug || s 
     <h1 class="mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight text-ink leading-tight">{h1}</h1>
     <p class="mt-3 text-sm text-slate-500">Updated November 17, 2026 · Based on manufacturer spec sheets and our <a href="/how-we-test/" class="underline">BHTR Score</a>. We may earn a commission from links.</p>
 
-    <div class="mt-6 grid grid-cols-2 gap-3 sm:gap-5">
+    <div id="compare-top" class="mt-6 grid grid-cols-2 gap-3 sm:gap-5">
       {[a, b].map((p) => (
         <div class={`rounded-2xl border p-3 sm:p-5 text-center ${winner === p ? 'border-emerald-400 ring-2 ring-emerald-100' : 'border-slate-200'}`}>
           {winner === p && <p class="text-[11px] font-bold uppercase text-emerald-700 mb-1">Higher score</p>}
@@ -125,4 +127,5 @@ const others = compares.filter(([x, y]) => [x, y].some((s) => s === a.slug || s 
       </div>
     )}
   </div>
+  <StickyBuyBar items={[a, b].map((p) => ({ slug: p.slug, name: p.name, url: amazonUrl(p), image: amazonImage(p, 160) }))} trigger="#compare-top" mode="pair" />
 </Base>

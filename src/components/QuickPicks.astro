@@ -7,7 +7,7 @@ import Score from './Score.astro';
 interface Props { picks: Pick[] }
 const { picks } = Astro.props;
 ---
-<div class="not-prose my-6 rounded-2xl border-2 border-gold/60 bg-amber-50/40 overflow-hidden">
+<div id="quick-picks" class="not-prose my-6 rounded-2xl border-2 border-gold/60 bg-amber-50/40 overflow-hidden">
   <p class="px-4 sm:px-5 pt-4 text-xs font-bold uppercase tracking-wider text-gold-dark">Our top picks at a glance</p>
   <ol class="divide-y divide-amber-200/70">
     {picks.map((pk, i) => {

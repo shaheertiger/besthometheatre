@@ -11,7 +11,8 @@ const { pick, index } = Astro.props;
 const p = getProduct(pick.product);
 const keys = p.keySpecs?.length ? p.keySpecs : Object.keys(p.specs).slice(0, 4);
 ---
-<section class="not-prose mt-10 scroll-mt-20" id={`pick-${index}`}>
+<div id={`pick-${index}`} class="scroll-mt-20">
+<section class="not-prose mt-10">
   <div class="rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
     <div class="bg-ink text-white px-4 sm:px-5 py-2.5 flex items-center justify-between gap-3">
       <span class="text-xs sm:text-sm font-bold uppercase tracking-wide text-gold">{pick.award}</span>
@@ -29,9 +30,9 @@ const keys = p.keySpecs?.length ? p.keySpecs : Object.keys(p.specs).slice(0, 4);
             <div><dt class="text-slate-500 text-xs">{k}</dt><dd class="font-semibold text-ink">{p.specs[k]}</dd></div>
           ))}
         </dl>
-        <div class="mt-4 flex flex-wrap items-center gap-3">
-          <AmazonButton product={p} />
-          <a href={productUrl(p)} class="text-sm font-semibold text-brand-600 hover:text-brand-700">Full specs &amp; score →</a>
+        <div class="mt-4 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3">
+          <AmazonButton product={p} class="w-full sm:w-auto !py-3 sm:!py-2.5" />
+          <a href={productUrl(p)} class="text-sm font-semibold text-brand-600 hover:text-brand-700 text-center sm:text-left py-1">Full specs &amp; score →</a>
         </div>
       </div>
     </div>
@@ -39,3 +40,4 @@ const keys = p.keySpecs?.length ? p.keySpecs : Object.keys(p.specs).slice(0, 4);
 </section>
 <div class="prose mt-5" set:html={md(pick.body)} />
 <ProsCons pros={pick.pros ?? p.pros} cons={pick.cons ?? p.cons} />
+</div>

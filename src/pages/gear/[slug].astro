@@ -6,12 +6,13 @@ import AmazonButton from '../../components/AmazonButton.astro';
 import Score from '../../components/Score.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import FAQ from '../../components/FAQ.astro';
+import StickyBuyBar from '../../components/StickyBuyBar.astro';
 import { products, productsByCategory, productsByBrand, articlesForProduct, productUrl, brandUrl, articleUrl, compareSlug, shortName } from '../../lib/data';
 import { compares } from '../../data/compares';
 import { CATEGORY_LABELS, SITE } from '../../data/site';
 import { md } from '../../lib/md';
 import { breadcrumbs, faqPage, graph, productSchema } from '../../lib/schema';
-import { amazonImage } from '../../lib/amazon';
+import { amazonImage, amazonUrl } from '../../lib/amazon';
 import type { Product, FAQ as F } from '../../lib/types';
 
 export function getStaticPaths() {
@@ -67,7 +68,7 @@ const schema = graph(breadcrumbs(crumbs), productSchema(p), faqPage(faqs));
           <div class="rounded-lg border border-slate-200 p-3"><span class="block text-xs text-slate-500">Best for</span><span class="font-semibold">{p.bestFor}</span></div>
           <div class="rounded-lg border border-slate-200 p-3"><span class="block text-xs text-slate-500">Skip it if</span><span class="font-semibold">{p.skipIf}</span></div>
         </div>
-        <div class="mt-5"><AmazonButton product={p} /></div>
+        <div class="mt-5" id="main-buy"><AmazonButton product={p} class="w-full sm:w-auto" /></div>
       </div>
     </div>
 
@@ -135,4 +136,5 @@ const schema = graph(breadcrumbs(crumbs), productSchema(p), faqPage(faqs));
       )}
     </div>
   </div>
+  <StickyBuyBar items={[{ slug: p.slug, name: p.name, label: `BHTR Score ${p.score}/100 · ${p.priceBand}`, url: amazonUrl(p), image: amazonImage(p, 160) }]} trigger="#main-buy" mode="single" />
 </Base>

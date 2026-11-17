@@ -1,5 +1,7 @@
 ---
+import '@fontsource-variable/inter/wght.css';
 import '../styles/global.css';
+import interLatin from '@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url';
 import { SITE } from '../data/site';
 import { NAV, FOOTER_CATEGORIES, FOOTER_COMPANY } from '../data/nav';
 import { organization, website } from '../lib/schema';
@@ -38,9 +40,9 @@ const path = Astro.url.pathname;
     <link rel="apple-touch-icon" href="/logo.png" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     {mdAlternate && <link rel="alternate" type="text/markdown" href={mdAlternate} />}
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="preload" href={interLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="preconnect" href="https://m.media-amazon.com" crossorigin />
+    <meta name="theme-color" content="#0b1120" />
     {preloadImage && <link rel="preload" as="image" href={preloadImage} />}
     <meta property="og:type" content={type} />
     <meta property="og:url" content={canonical} />
@@ -68,7 +70,7 @@ const path = Astro.url.pathname;
           <div class="flex justify-between items-center h-14 md:h-16">
             <a href="/" class="flex items-center gap-2 no-underline" aria-label={`${SITE.name} home`}>
               <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#f5a524"/><path d="M9 10h14v9H9z" fill="#0b1120"/><path d="M13 22h6l1.5 3h-9z" fill="#0b1120"/><circle cx="16" cy="14.5" r="2.4" fill="#f5a524"/></svg>
-              <span class="font-extrabold tracking-tight text-[15px] md:text-base">BEST HOME THEATER <span class="text-gold">REVIEW</span></span>
+              <span class="font-extrabold tracking-tight whitespace-nowrap text-[13px] min-[380px]:text-[15px] md:text-base">BEST HOME THEATER <span class="text-gold">REVIEW</span></span>
             </a>
             <nav class="hidden lg:flex items-center gap-6" aria-label="Main">
               <a href="/best-of/" class="text-slate-200 hover:text-gold font-medium text-sm no-underline">Best Lists</a>
@@ -91,15 +93,15 @@ const path = Astro.url.pathname;
                 </div>
               ))}
             </nav>
-            <details class="lg:hidden relative">
-              <summary class="list-none cursor-pointer p-2 -mr-2" aria-label="Open menu">
+            <details class="lg:hidden relative" id="mobile-menu">
+              <summary class="list-none cursor-pointer p-2.5 -mr-2.5" aria-label="Open menu">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" /></svg>
               </summary>
-              <div class="fixed left-0 right-0 top-14 bottom-0 overflow-y-auto bg-white text-ink px-4 pb-10 pt-2 shadow-xl">
+              <div class="fixed left-0 right-0 top-14 bottom-0 overflow-y-auto overscroll-contain bg-white text-ink px-4 pb-[calc(2.5rem+env(safe-area-inset-bottom))] pt-2 shadow-xl">
                 <a href="/best-of/" class="block py-3 font-semibold border-b border-slate-100 no-underline text-ink">🏆 All Best Lists</a>
                 {NAV.map((g) => (
                   <div class="py-3 border-b border-slate-100">
-                    <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-1">{g.label}</p>
+                    <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1">{g.label}</p>
                     {g.links.map((l) => <a href={l.url} class="block py-2 text-[15px] text-ink no-underline"><span aria-hidden="true">{l.icon}</span> {l.title}</a>)}
                   </div>
                 ))}
@@ -134,5 +136,13 @@ const path = Astro.url.pathname;
         </div>
       </footer>
     </div>
+    <script>
+      const menu = document.getElementById('mobile-menu') as HTMLDetailsElement | null;
+      if (menu) {
+        menu.addEventListener('toggle', () => document.documentElement.classList.toggle('overflow-hidden', menu.open));
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu.open) menu.open = false; });
+        menu.querySelectorAll('a').forEach((a) => a.addEventListener('click', () => (menu.open = false)));
+      }
+    </script>
   </body>
 </html>
