@@ -1,0 +1,694 @@
+[
+  {
+    "slug": "lg-c5-oled",
+    "name": "LG C5 OLED evo TV",
+    "brand": "LG",
+    "category": "tv",
+    "amazonQuery": "LG 65 inch OLED evo C5 4K TV",
+    "released": "2025",
+    "priceBand": "$1,600–$2,200",
+    "priceTier": 3,
+    "score": 88,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 88
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 78
+      },
+      {
+        "label": "Gaming",
+        "value": 94
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "The default OLED for most home theaters: perfect blacks, Dolby Vision, four HDMI 2.1 ports at 144 Hz and sizes from 42\" to 83\".",
+    "verdict": "The LG C5 OLED evo is the TV we would point most home theater buyers to first. Every pixel makes its own light, so blacks are truly black and there is no blooming around subtitles. It supports **Dolby Vision, HDR10 and HLG**, runs **webOS 25**, and all **four HDMI ports are HDMI 2.1** with 4K at up to **144 Hz** (see [HDMI 2.1](/glossary/hdmi-2-1/)).\n\nSize it for your seat. A 65\" screen is 56.7\" wide, so a 40-degree viewing angle puts you about **6.5 ft** away and a 30-degree angle about **8.8 ft**. At 77\" (67.1\" wide), those figures become about 7.7 ft and 10.4 ft. Run your room through our [viewing distance calculator](/tools/viewing-distance-calculator/). If you sit 10 ft or more from the screen, the 77\" is the better buy.\n\nFour HDMI 2.1 ports matter in a theater: one goes to a soundbar or receiver over **eARC** (see [eARC](/glossary/earc/)), leaving three full-bandwidth inputs for a console, a PC and a streamer. At 144 Hz, each frame lasts about 6.9 ms, which helps PC gaming feel smooth. The trade-off is brightness: in a sunny room, the step-up [LG G5 OLED evo TV](/gear/lg-g5-oled/) and [Samsung S95F OLED TV](/gear/samsung-s95f/) get noticeably brighter, and Mini LED sets like the [TCL QM8K QD-Mini LED TV](/gear/tcl-qm8k/) go brighter still. For a dim or dark room, the C5 is a top pick in our [best TV for home theater guide](/best-tv-for-home-theater/).",
+    "bestFor": "Dim and dark home theaters, movie fans and console or PC gamers",
+    "skipIf": "Your room is very bright during the day and you watch mostly daytime TV",
+    "pros": [
+      "Perfect blacks and no blooming",
+      "Four HDMI 2.1 ports with 4K/144 Hz",
+      "Dolby Vision support",
+      "Wide range of sizes, 42\" to 83\""
+    ],
+    "cons": [
+      "Less bright than G5, S95F and Mini LED rivals",
+      "No HDR10+ support",
+      "Reflective screen in bright rooms"
+    ],
+    "specs": {
+      "Panel": "WOLED (OLED evo)",
+      "Sizes": "42, 48, 55, 65, 77, 83 in.",
+      "Refresh rate": "144 Hz",
+      "HDR": "Dolby Vision, HDR10, HLG",
+      "HDMI 2.1 ports": "4",
+      "eARC": "Yes",
+      "Smart platform": "webOS 25"
+    },
+    "keySpecs": [
+      "Panel",
+      "Refresh rate",
+      "HDR",
+      "HDMI 2.1 ports"
+    ],
+    "faqs": [
+      {
+        "q": "What size LG C5 should I buy for my room?",
+        "a": "Work from your seating distance. At about 6.5 to 8.8 feet, a 65-inch C5 fills a 30 to 40-degree field of view. At about 7.7 to 10.4 feet, the 77-inch does. Most people who sit around 9 to 10 feet away end up happier with the larger size."
+      },
+      {
+        "q": "Is the LG C5 good for gaming?",
+        "a": "Yes. All four HDMI ports support HDMI 2.1 with 4K at up to 144 Hz, plus variable refresh rate. Combined with OLED pixel response, it is one of the best gaming TVs at its price."
+      }
+    ]
+  },
+  {
+    "slug": "lg-g5-oled",
+    "name": "LG G5 OLED evo TV",
+    "brand": "LG",
+    "category": "tv",
+    "amazonQuery": "LG 65 inch OLED evo G5 TV",
+    "released": "2025",
+    "priceBand": "$2,800–$3,400",
+    "priceTier": 4,
+    "score": 91,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 94
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 88
+      },
+      {
+        "label": "Gaming",
+        "value": 94
+      },
+      {
+        "label": "Value",
+        "value": 74
+      }
+    ],
+    "summary": "LG's brightest OLED yet, with a four-stack RGB tandem panel, refresh up to 165 Hz and a slim gallery design, for theaters that want OLED with punch.",
+    "verdict": "The LG G5 OLED evo is LG's flagship and its biggest brightness jump in years. It uses a **Primary RGB Tandem** WOLED panel with four light-emitting layers, which independent reviews have measured as notably brighter than the [LG C5 OLED evo TV](/gear/lg-c5-oled/) while keeping perfect blacks. It supports **Dolby Vision, HDR10 and HLG**, has **four HDMI 2.1 ports**, refreshes at up to **165 Hz** on most sizes, and runs webOS 25.\n\nBrightness is what you are paying for, so put it in context. A projector giving 60 foot-lamberts on screen delivers about 205 nits (1 fL is about 3.43 nits). A flagship OLED's HDR highlights run several times higher, which is why specular highlights such as sunlight on water look so convincing. The G5's extra headroom also makes daytime viewing easier than on the C5. See [HDR explained](/glossary/hdr/) for why peak brightness matters.\n\nFor sizing, a 65\" G5 (56.7\" wide) suits seats about **6.5–8.8 ft** away; a 77\" (67.1\" wide) about 7.7–10.4 ft; and the 83\" (72.3\" wide) about 8.3–11.2 ft. It is designed to hang flat on the wall, so check whether a stand is included in your region. Against the [Samsung S95F OLED TV](/gear/samsung-s95f/), the LG offers Dolby Vision while the Samsung has a matte anti-glare screen. Both are top picks in our [best TV for home theater guide](/best-tv-for-home-theater/).",
+    "bestFor": "Home theaters that want OLED blacks with the most HDR brightness LG offers",
+    "skipIf": "You are on a budget, where the C5 delivers most of the experience for less",
+    "pros": [
+      "Brightest LG OLED to date, per independent reviews",
+      "Perfect blacks with strong HDR highlights",
+      "Four HDMI 2.1 ports, up to 165 Hz",
+      "Dolby Vision support",
+      "Slim design made for wall mounting"
+    ],
+    "cons": [
+      "Expensive",
+      "No HDR10+ support",
+      "Glossy screen reflects more than Samsung's matte S95F"
+    ],
+    "specs": {
+      "Panel": "Primary RGB Tandem WOLED (four-stack)",
+      "Sizes": "48, 55, 65, 77, 83, 97 in.",
+      "Refresh rate": "Up to 165 Hz (size-dependent)",
+      "HDR": "Dolby Vision, HDR10, HLG",
+      "HDMI 2.1 ports": "4",
+      "eARC": "Yes",
+      "Smart platform": "webOS 25"
+    },
+    "keySpecs": [
+      "Panel",
+      "Refresh rate",
+      "HDR",
+      "HDMI 2.1 ports"
+    ],
+    "faqs": [
+      {
+        "q": "Is the LG G5 worth it over the C5?",
+        "a": "If your room gets bright or you want the most HDR impact, yes. The G5 uses a four-stack panel that independent reviews show is noticeably brighter than the C5, and it refreshes up to 165 Hz. In a dark room, the C5 delivers most of the experience for much less."
+      },
+      {
+        "q": "LG G5 or Samsung S95F?",
+        "a": "Both are top-tier OLEDs. The LG supports Dolby Vision and has a glossy screen that keeps blacks deep in dim rooms. The Samsung supports HDR10+ and uses a matte anti-glare finish that handles reflections better in bright rooms."
+      }
+    ]
+  },
+  {
+    "slug": "samsung-s90f",
+    "name": "Samsung S90F OLED TV",
+    "brand": "Samsung",
+    "category": "tv",
+    "amazonQuery": "Samsung 65 inch S90F OLED TV",
+    "released": "2025",
+    "priceBand": "$1,500–$2,000",
+    "priceTier": 3,
+    "score": 87,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 87
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 80
+      },
+      {
+        "label": "Gaming",
+        "value": 92
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "A strong-value OLED with up to 144 Hz gaming, four HDMI 2.1 ports and HDR10+, a direct rival to LG's C5 minus Dolby Vision.",
+    "verdict": "The Samsung S90F OLED is the C5's closest rival and often the better deal. It delivers OLED's perfect blacks, refreshes at up to **144 Hz**, has **four HDMI 2.1 ports**, and supports **HDR10, HDR10+ and HLG**. Samsung does not support Dolby Vision, so Dolby Vision streams and discs play in HDR10 instead.\n\nOne detail to know: most 55\", 65\" and 77\" sets use Samsung Display's **QD-OLED** panels, prized for vivid color, but some sizes and batches use WOLED panels instead. Both look excellent, but if you want a specific panel type, check reviews for your size. Sizing maths is the same as any 16:9 set: a 65\" (56.7\" wide) suits seating about **6.5–8.8 ft** away, a 77\" (67.1\" wide) about **7.7–10.4 ft**. Try our [viewing distance calculator](/tools/viewing-distance-calculator/) for your room.\n\nIn a theater setup, four HDMI 2.1 ports let you connect a receiver or soundbar over eARC and still have three 4K/120-capable inputs. At 144 Hz, each frame lasts about 6.9 ms, good for PC gaming. Brightness is similar to the [LG C5 OLED evo TV](/gear/lg-c5-oled/): fine for dim rooms, less punchy than the [Samsung S95F OLED TV](/gear/samsung-s95f/) in bright ones. If you own a Samsung soundbar, Q-Symphony integration is a bonus; see our [Samsung home theater review](/samsung-home-theater-review/). More picks in our [best TV for home theater guide](/best-tv-for-home-theater/).",
+    "bestFor": "Gamers and movie watchers who want OLED blacks at a lower price",
+    "skipIf": "Dolby Vision support is a must for you",
+    "pros": [
+      "Perfect OLED blacks",
+      "Up to 144 Hz with four HDMI 2.1 ports",
+      "HDR10+ support",
+      "Often discounted below rivals"
+    ],
+    "cons": [
+      "No Dolby Vision",
+      "Panel type varies by size and batch",
+      "Less bright than the S95F in sunny rooms"
+    ],
+    "specs": {
+      "Panel": "OLED (QD-OLED in most 55–77 in. sets; WOLED in some sizes)",
+      "Sizes": "42, 48, 55, 65, 77, 83 in.",
+      "Refresh rate": "Up to 144 Hz",
+      "HDR": "HDR10, HDR10+, HLG (no Dolby Vision)",
+      "HDMI 2.1 ports": "4",
+      "eARC": "Yes",
+      "Smart platform": "Tizen"
+    },
+    "keySpecs": [
+      "Panel",
+      "Refresh rate",
+      "HDR",
+      "HDMI 2.1 ports"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Samsung S90F support Dolby Vision?",
+        "a": "No. Samsung TVs support HDR10+ instead. Dolby Vision content still plays, but in HDR10. Most viewers will not see a big difference on a TV this capable, but it is worth knowing if you collect Dolby Vision discs."
+      },
+      {
+        "q": "Is the Samsung S90F QD-OLED?",
+        "a": "Most 55, 65 and 77-inch S90F sets use QD-OLED panels, but some sizes, including the smallest and largest, use WOLED panels. Both deliver perfect blacks. Check reviews for your size if panel type matters to you."
+      }
+    ]
+  },
+  {
+    "slug": "samsung-s95f",
+    "name": "Samsung S95F OLED TV",
+    "brand": "Samsung",
+    "category": "tv",
+    "amazonQuery": "Samsung 65 inch S95F OLED TV",
+    "released": "2025",
+    "priceBand": "$2,800–$3,400",
+    "priceTier": 4,
+    "score": 91,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 93
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 94
+      },
+      {
+        "label": "Gaming",
+        "value": 94
+      },
+      {
+        "label": "Value",
+        "value": 72
+      }
+    ],
+    "summary": "Samsung's flagship QD-OLED with a matte anti-glare screen, 165 Hz and very high brightness, the best OLED for bright rooms.",
+    "verdict": "The Samsung S95F OLED is the OLED for rooms that are not dark. Its **QD-OLED** panel uses Samsung's **Glare Free** matte finish, which scatters reflections from windows and lamps instead of mirroring them. Add very high brightness, a **165 Hz** refresh rate, **four HDMI 2.1 ports** and **HDR10+**, and it is one of the most capable TVs available.\n\nHere is why the matte screen matters in a theater that doubles as a living room. On a glossy OLED, a lamp behind your seat shows as a bright spot on dark scenes; on the S95F it becomes a soft haze that is far easier to ignore. Brightness adds to that: a projector at 60 foot-lamberts gives about 205 nits, while flagship OLED HDR highlights run several times higher, so the S95F keeps punch even in daylight. See [HDR explained](/glossary/hdr/).\n\nFor sizing, a 65\" (56.7\" wide) suits seats about **6.5–8.8 ft** back, a 77\" (67.1\" wide) about 7.7–10.4 ft, and an 83\" (72.3\" wide) about 8.3–11.2 ft; check our [viewing distance calculator](/tools/viewing-distance-calculator/). At 165 Hz each frame lasts about 6.1 ms. The trade-offs are price, no Dolby Vision, and a matte finish that can make blacks look a touch lifted under direct light. In a dark room, the [LG G5 OLED evo TV](/gear/lg-g5-oled/) is just as good. See our [best TV for home theater guide](/best-tv-for-home-theater/) and our [Samsung home theater review](/samsung-home-theater-review/).",
+    "bestFor": "Bright living rooms and mixed-use theaters that want OLED quality",
+    "skipIf": "You need Dolby Vision or watch only in a dark room, where cheaper OLEDs do nearly as well",
+    "pros": [
+      "Glare Free matte screen handles reflections well",
+      "Very bright for an OLED",
+      "165 Hz with four HDMI 2.1 ports",
+      "HDR10+ support"
+    ],
+    "cons": [
+      "Expensive",
+      "No Dolby Vision",
+      "Matte finish can lift blacks slightly under direct light"
+    ],
+    "specs": {
+      "Panel": "QD-OLED with Glare Free matte finish",
+      "Sizes": "55, 65, 77, 83 in.",
+      "Refresh rate": "165 Hz",
+      "HDR": "HDR10, HDR10+, HLG (no Dolby Vision)",
+      "HDMI 2.1 ports": "4",
+      "eARC": "Yes",
+      "Smart platform": "Tizen"
+    },
+    "keySpecs": [
+      "Panel",
+      "Refresh rate",
+      "HDR",
+      "HDMI 2.1 ports"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Samsung S95F good in a bright room?",
+        "a": "It is the best OLED for it. The Glare Free matte finish diffuses reflections from windows and lamps, and its high brightness keeps HDR punchy in daylight."
+      },
+      {
+        "q": "Samsung S95F or S90F?",
+        "a": "The S95F adds the matte anti-glare screen, higher brightness and 165 Hz. If your room is dim and budget matters, the S90F gives you most of the OLED experience for much less."
+      }
+    ]
+  },
+  {
+    "slug": "sony-bravia-8-ii",
+    "name": "Sony Bravia 8 II OLED TV",
+    "brand": "Sony",
+    "category": "tv",
+    "amazonQuery": "Sony BRAVIA 8 II 65 inch OLED",
+    "released": "2025",
+    "priceBand": "$2,800–$3,500",
+    "priceTier": 4,
+    "score": 89,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 93
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 86
+      },
+      {
+        "label": "Gaming",
+        "value": 80
+      },
+      {
+        "label": "Value",
+        "value": 72
+      }
+    ],
+    "summary": "A QD-OLED with Sony's excellent processing and natural, accurate color, the film lover's OLED, held back by only two HDMI 2.1 ports.",
+    "verdict": "The Sony Bravia 8 II is the OLED for viewers who care most about **picture accuracy and processing**. It uses a **QD-OLED** panel, supports **Dolby Vision, HDR10 and HLG**, runs **Google TV**, and independent reviews praise its motion handling, upscaling and faithful color, which are Sony's strengths. It comes in 55\" and 65\" only.\n\nThe ports need planning in a theater. It has four HDMI inputs, but only **two are HDMI 2.1** with 4K/120, and one of those two is the **eARC** port (see [eARC](/glossary/earc/)). If your soundbar or receiver connects over eARC, that leaves **one** 4K/120 input for a console. With a receiver that has its own HDMI 2.1 inputs, route consoles through the receiver instead; see our [Sony home theater review](/sony-home-theater-review/) for pairing ideas.\n\nSizing caps out at 65\", which is 56.7\" wide. That suits seats about **6.5–8.8 ft** away (40 to 30 degrees); beyond about 9 ft, the image will feel small for a theater. Check with our [viewing distance calculator](/tools/viewing-distance-calculator/). Refresh is 120 Hz rather than 144 Hz, which only matters to PC gamers. If you want a bigger screen, the [LG C5 OLED evo TV](/gear/lg-c5-oled/) and [Samsung S90F OLED TV](/gear/samsung-s90f/) go to 77\" and 83\"; if you want Sony processing at larger sizes, look at the [Sony Bravia 9 Mini LED TV](/gear/sony-bravia-9/). More in our [best TV for home theater guide](/best-tv-for-home-theater/).",
+    "bestFor": "Film lovers who want accurate color and top-tier processing at 55\" or 65\"",
+    "skipIf": "You need more than two 4K/120 inputs or a screen larger than 65\"",
+    "pros": [
+      "Excellent Sony processing and motion handling",
+      "Accurate, natural color out of the box",
+      "QD-OLED with Dolby Vision",
+      "Google TV built in"
+    ],
+    "cons": [
+      "Only two HDMI 2.1 ports, one shared with eARC",
+      "Only 55\" and 65\" sizes",
+      "120 Hz maximum"
+    ],
+    "specs": {
+      "Panel": "QD-OLED",
+      "Sizes": "55, 65 in.",
+      "Refresh rate": "120 Hz",
+      "HDR": "Dolby Vision, HDR10, HLG",
+      "HDMI 2.1 ports": "2 (of 4)",
+      "eARC": "Yes (on one of the HDMI 2.1 ports)",
+      "Smart platform": "Google TV"
+    },
+    "keySpecs": [
+      "Panel",
+      "Refresh rate",
+      "HDR",
+      "HDMI 2.1 ports"
+    ],
+    "faqs": [
+      {
+        "q": "How many HDMI 2.1 ports does the Sony Bravia 8 II have?",
+        "a": "Two of its four HDMI ports support HDMI 2.1 with 4K/120, and one of those is also the eARC port. If you use eARC for a soundbar, you have one full-bandwidth input left for a console."
+      },
+      {
+        "q": "Is the Sony Bravia 8 II good for movies?",
+        "a": "It is one of the best. Sony's processing, accurate color and QD-OLED panel make films look natural and detailed, and it supports Dolby Vision. It is less suited to multi-console gaming setups because of its limited HDMI 2.1 ports."
+      }
+    ]
+  },
+  {
+    "slug": "sony-bravia-9",
+    "name": "Sony Bravia 9 Mini LED TV",
+    "brand": "Sony",
+    "category": "tv",
+    "amazonQuery": "Sony BRAVIA 9 75 inch mini LED",
+    "released": "2024",
+    "priceBand": "$2,500–$3,500",
+    "priceTier": 4,
+    "score": 87,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 90
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 92
+      },
+      {
+        "label": "Gaming",
+        "value": 78
+      },
+      {
+        "label": "Value",
+        "value": 72
+      }
+    ],
+    "summary": "Sony's flagship Mini LED with very high brightness and well-controlled blooming, for big-screen theaters with ambient light.",
+    "verdict": "The Sony Bravia 9 is Sony's brightest TV and its answer for big rooms with light. It is a **Mini LED** set with fine-grained local dimming, sold in **65\", 75\" and 85\"**, supporting **Dolby Vision, HDR10 and HLG** on **Google TV**. Independent reviews widely note its very high brightness and how well Sony's processing controls blooming around bright objects.\n\nBigger sizes change the seating maths. A 75\" screen is 65.4\" wide, which suits seats about **7.5–10.2 ft** away; an 85\" (74.1\" wide) about **8.5–11.5 ft**. That is a realistic theater distance where a 65\" OLED would feel small. Try our [viewing distance calculator](/tools/viewing-distance-calculator/). Area grows fast too: an 85\" screen has about 70% more area than a 65\".\n\nLike the [Sony Bravia 8 II OLED TV](/gear/sony-bravia-8-ii/), it has only **two HDMI 2.1 ports**, one shared with **eARC**, so a soundbar plus two consoles needs planning, or a receiver with its own HDMI 2.1 inputs. Refresh tops out at 120 Hz, and Mini LED will never match OLED's per-pixel blacks, though Sony gets closer than most. Against the cheaper [TCL QM8K QD-Mini LED TV](/gear/tcl-qm8k/), you pay for processing and refinement rather than raw brightness. For a bright living room theater with long seating distances, it is a top pick in our [best TV for home theater guide](/best-tv-for-home-theater/).",
+    "bestFor": "Bright, large rooms that want a 75–85\" screen with refined processing",
+    "skipIf": "You watch in a dark room, where an OLED gives better blacks for similar money",
+    "pros": [
+      "Very high brightness for bright rooms",
+      "Sony processing keeps blooming well controlled",
+      "Available up to 85\"",
+      "Dolby Vision and Google TV"
+    ],
+    "cons": [
+      "Only two HDMI 2.1 ports, one shared with eARC",
+      "Expensive next to TCL and Hisense Mini LED",
+      "120 Hz maximum"
+    ],
+    "specs": {
+      "Panel": "Mini LED (full-array local dimming)",
+      "Sizes": "65, 75, 85 in.",
+      "Refresh rate": "120 Hz",
+      "HDR": "Dolby Vision, HDR10, HLG",
+      "HDMI 2.1 ports": "2 (of 4)",
+      "eARC": "Yes (on one of the HDMI 2.1 ports)",
+      "Smart platform": "Google TV"
+    },
+    "keySpecs": [
+      "Panel",
+      "Sizes",
+      "HDR",
+      "HDMI 2.1 ports"
+    ],
+    "faqs": [
+      {
+        "q": "Sony Bravia 9 or an OLED?",
+        "a": "Choose the Bravia 9 for a bright room or a large 75 to 85-inch screen. Choose an OLED for a dark theater where perfect blacks matter more than peak brightness."
+      },
+      {
+        "q": "What size Bravia 9 suits a home theater?",
+        "a": "If you sit about 7.5 to 10 feet away, the 75-inch works well. At about 8.5 to 11.5 feet, the 85-inch fills a 30 to 40-degree field of view, which is the range most theater guides recommend."
+      }
+    ]
+  },
+  {
+    "slug": "tcl-qm8k",
+    "name": "TCL QM8K QD-Mini LED TV",
+    "brand": "TCL",
+    "category": "tv",
+    "amazonQuery": "TCL 65 inch QM8K QD-Mini LED TV",
+    "released": "2025",
+    "priceBand": "$1,200–$1,800",
+    "priceTier": 2,
+    "score": 85,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 86
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 92
+      },
+      {
+        "label": "Gaming",
+        "value": 86
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "A very bright QD-Mini LED TV with up to 144 Hz and sizes to 98\", offering flagship-class brightness for far less than Sony.",
+    "verdict": "The TCL QM8K is the brightness-per-dollar leader. It is a **QD-Mini LED** TV with thousands of local dimming zones, a 144 Hz panel, **Dolby Vision IQ, HDR10+, HDR10 and HLG**, and **Google TV**. TCL claims **up to 5,000 nits** peak brightness, and independent reviews confirm it is among the brightest TVs available.\n\nPut that number in theater terms. A projector delivering 60 foot-lamberts on screen gives about 205 nits (1 fL is about 3.43 nits), so even a fraction of the QM8K's claimed peak is many times brighter. That is why it handles sunny rooms and gives HDR highlights real impact. Sizes run **65\", 75\", 85\" and 98\"**; the 98\" is 85.4\" wide, which suits seats about **9.8–13.3 ft** away and covers about 28.5 sq ft, close to a 100\" projector screen's 29.7 sq ft. Check our [viewing distance calculator](/tools/viewing-distance-calculator/).\n\nIt has **two HDMI 2.1 ports** (plan around eARC if you add a soundbar or receiver; see [eARC](/glossary/earc/)). Mini LED cannot match OLED's per-pixel blacks, and some blooming is visible around bright objects on dark backgrounds, especially off-angle. Against the [Hisense U8QG Mini-LED TV](/gear/hisense-u8qg/), it is a close rival; against the [Sony Bravia 9 Mini LED TV](/gear/sony-bravia-9/), it is brighter for much less but less refined. See our [best TV for home theater guide](/best-tv-for-home-theater/).",
+    "bestFor": "Bright rooms and big-screen buyers who want maximum brightness for the money",
+    "skipIf": "You watch mostly in a dark room and want OLED-style blacks",
+    "pros": [
+      "Very high brightness (up to 5,000 nits claimed)",
+      "Dolby Vision IQ and HDR10+",
+      "Up to 144 Hz for gaming",
+      "Available up to 98\""
+    ],
+    "cons": [
+      "Only two HDMI 2.1 ports",
+      "Some blooming on dark scenes",
+      "Off-angle viewing loses contrast"
+    ],
+    "specs": {
+      "Panel": "QD-Mini LED (full-array local dimming)",
+      "Sizes": "65, 75, 85, 98 in.",
+      "Refresh rate": "Up to 144 Hz",
+      "HDR": "Dolby Vision IQ, HDR10+, HDR10, HLG",
+      "HDMI 2.1 ports": "2",
+      "eARC": "Yes",
+      "Smart platform": "Google TV",
+      "Peak brightness": "Up to 5,000 nits (TCL claim)"
+    },
+    "keySpecs": [
+      "Panel",
+      "Peak brightness",
+      "HDR",
+      "Refresh rate"
+    ],
+    "faqs": [
+      {
+        "q": "Is the TCL QM8K brighter than OLED?",
+        "a": "Yes, by a wide margin. TCL claims up to 5,000 nits, and independent reviews rank it among the brightest TVs. OLEDs still win on per-pixel blacks, so the QM8K suits bright rooms best."
+      },
+      {
+        "q": "Is a 98-inch TCL QM8K a projector replacement?",
+        "a": "It can be. The 98-inch screen covers about 28.5 square feet, close to a 100-inch projector screen, with far more brightness and no need for a dark room. A projector is still cheaper per inch above 100 inches."
+      }
+    ]
+  },
+  {
+    "slug": "tcl-qm7k",
+    "name": "TCL QM7K QD-Mini LED TV",
+    "brand": "TCL",
+    "category": "tv",
+    "amazonQuery": "TCL 65 inch QM7K QD-Mini LED TV",
+    "released": "2025",
+    "priceBand": "$800–$1,200",
+    "priceTier": 1,
+    "score": 80,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 80
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 84
+      },
+      {
+        "label": "Gaming",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 90
+      }
+    ],
+    "summary": "A bright, affordable QD-Mini LED TV with Dolby Vision, HDR10+ and up to 144 Hz, the value pick for big screens.",
+    "verdict": "The TCL QM7K brings much of the QM8K's formula down to a lower price. It is a **QD-Mini LED** TV with local dimming, up to **144 Hz**, **Dolby Vision IQ, HDR10+, HDR10 and HLG**, and **Google TV**, sold in sizes from 55\" up to 98\".\n\nThe value case is about size. Moving from 65\" to 75\" adds about 33% more screen area (from about 12.6 to 16.7 sq ft), and with the QM7K that step costs far less than with OLED. Seating maths for a 75\" (65.4\" wide): about **7.5 ft** for a 40-degree angle and **10.2 ft** for 30 degrees. For an 85\" (74.1\" wide), about 8.5–11.5 ft. Try our [viewing distance calculator](/tools/viewing-distance-calculator/).\n\nExpect fewer dimming zones and lower peak brightness than the [TCL QM8K QD-Mini LED TV](/gear/tcl-qm8k/), so blooming is more visible on dark scenes with bright objects, and off-angle viewing loses some contrast. It has two HDMI 2.1 ports, enough for a console and an eARC soundbar link with care (see [eARC](/glossary/earc/)). Compared with the [Hisense U75QG Mini-LED TV](/gear/hisense-u75qg/), it is a close rival at a similar price. For a family room or a theater where screen size matters more than perfect blacks, it is a strong value pick in our [best TV for home theater guide](/best-tv-for-home-theater/).",
+    "bestFor": "Family rooms and budget theaters that want a big, bright screen",
+    "skipIf": "You want OLED-level blacks or watch from wide side angles",
+    "pros": [
+      "Bright QD-Mini LED for the price",
+      "Dolby Vision IQ and HDR10+",
+      "Up to 144 Hz for gaming",
+      "Big sizes at low cost"
+    ],
+    "cons": [
+      "More blooming than the QM8K",
+      "Only two HDMI 2.1 ports",
+      "Contrast drops off-angle"
+    ],
+    "specs": {
+      "Panel": "QD-Mini LED (full-array local dimming)",
+      "Sizes": "55 to 98 in.",
+      "Refresh rate": "Up to 144 Hz",
+      "HDR": "Dolby Vision IQ, HDR10+, HDR10, HLG",
+      "HDMI 2.1 ports": "2",
+      "eARC": "Yes",
+      "Smart platform": "Google TV"
+    },
+    "keySpecs": [
+      "Panel",
+      "Refresh rate",
+      "HDR",
+      "Sizes"
+    ],
+    "faqs": [
+      {
+        "q": "TCL QM7K or QM8K?",
+        "a": "The QM8K is brighter, with more dimming zones and less blooming. The QM7K costs less and is still bright for the money. If your room is very bright or you watch a lot of HDR, step up; otherwise the QM7K is the better value."
+      },
+      {
+        "q": "Is the TCL QM7K good for gaming?",
+        "a": "Yes. It supports up to 144 Hz with variable refresh rate over its HDMI 2.1 ports, which suits both consoles and PC gaming."
+      }
+    ]
+  },
+  {
+    "slug": "hisense-u8qg",
+    "name": "Hisense U8QG Mini-LED TV",
+    "brand": "Hisense",
+    "category": "tv",
+    "amazonQuery": "Hisense 65 inch U8 Mini-LED TV U8QG",
+    "released": "2025",
+    "priceBand": "$1,000–$1,400",
+    "priceTier": 2,
+    "score": 84,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 84
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 90
+      },
+      {
+        "label": "Gaming",
+        "value": 86
+      },
+      {
+        "label": "Value",
+        "value": 88
+      }
+    ],
+    "summary": "A very bright Mini-LED TV with high refresh, Dolby Vision IQ and HDR10+, a TCL QM8K rival at a slightly lower price.",
+    "verdict": "The Hisense U8QG is Hisense's mainstream flagship Mini-LED TV. It combines high brightness, full-array local dimming, a high-refresh panel of up to **165 Hz**, **Dolby Vision IQ, HDR10+, HDR10 and HLG**, and **Google TV**, in sizes from 55\" to 100\".\n\nThe 100\" option deserves maths. It is 87.2\" wide and covers about 29.7 sq ft, the same as a 100\" projector screen, so it suits seats about **10–13.6 ft** away. Unlike a projector, it does not need a dark room or a screen. For a 65\" (56.7\" wide), aim for about 6.5–8.8 ft; for 75\" (65.4\" wide), about 7.5–10.2 ft. Try our [viewing distance calculator](/tools/viewing-distance-calculator/).\n\nBrightness is the U8QG's strength, and independent reviews rank it close to the [TCL QM8K QD-Mini LED TV](/gear/tcl-qm8k/). Like all Mini LED sets, it shows some blooming around bright objects on dark backgrounds, and contrast falls off at wide angles. Two HDMI 2.1 ports mean planning if you have a soundbar on eARC plus two consoles (see [eARC](/glossary/earc/)). At up to 165 Hz, each frame lasts about 6.1 ms, which helps PC gaming. If you want Mini LED brightness without Sony prices, it is a strong pick in our [best TV for home theater guide](/best-tv-for-home-theater/); for a cheaper step down, see the [Hisense U75QG Mini-LED TV](/gear/hisense-u75qg/).",
+    "bestFor": "Bright rooms and gamers who want high brightness and refresh for the money",
+    "skipIf": "You want OLED blacks or watch from wide seating angles",
+    "pros": [
+      "High brightness for bright rooms",
+      "Refresh up to 165 Hz for gaming",
+      "Dolby Vision IQ and HDR10+",
+      "Sizes up to 100\""
+    ],
+    "cons": [
+      "Some blooming on dark scenes",
+      "Only two HDMI 2.1 ports",
+      "Contrast drops off-angle"
+    ],
+    "specs": {
+      "Panel": "Mini-LED (full-array local dimming)",
+      "Sizes": "55 to 100 in.",
+      "Refresh rate": "Up to 165 Hz",
+      "HDR": "Dolby Vision IQ, HDR10+, HDR10, HLG",
+      "HDMI 2.1 ports": "2",
+      "eARC": "Yes",
+      "Smart platform": "Google TV"
+    },
+    "keySpecs": [
+      "Panel",
+      "Refresh rate",
+      "HDR",
+      "Sizes"
+    ],
+    "faqs": [
+      {
+        "q": "Hisense U8QG or TCL QM8K?",
+        "a": "They are close rivals. Both are very bright Mini LED sets with Dolby Vision IQ and HDR10+. The Hisense often costs a little less and offers a 100-inch size; the TCL offers a 98-inch. Compare current prices and pick the one that fits your room."
+      },
+      {
+        "q": "Is the Hisense U8QG good for a home theater?",
+        "a": "Yes, especially in a room with some light. Its brightness keeps HDR punchy, and the 100-inch size can stand in for a projector. In a fully dark room, an OLED gives better blacks."
+      }
+    ]
+  },
+  {
+    "slug": "hisense-u75qg",
+    "name": "Hisense U75QG Mini-LED TV",
+    "brand": "Hisense",
+    "category": "tv",
+    "amazonQuery": "Hisense 65 inch U7 Mini-LED QLED TV",
+    "released": "2025",
+    "priceBand": "$600–$900",
+    "priceTier": 1,
+    "score": 79,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 78
+      },
+      {
+        "label": "Bright-room performance",
+        "value": 82
+      },
+      {
+        "label": "Gaming",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 90
+      }
+    ],
+    "summary": "An affordable Mini-LED TV with Dolby Vision IQ, HDR10+ and a high-refresh game mode, the budget route to a big, bright screen.",
+    "verdict": "The Hisense U75QG (the U7 series) is the budget entry to Mini LED. It offers full-array local dimming, **Dolby Vision IQ, HDR10+, HDR10 and HLG**, **Google TV**, and a high-refresh game mode, in sizes from 55\" to 100\".\n\nFor a home theater on a budget, the size maths is the main attraction. A 75\" U7 is 65.4\" wide, which suits seats about **7.5–10.2 ft** away; an 85\" (74.1\" wide) about **8.5–11.5 ft**; and a 100\" about 10–13.6 ft. Going from 65\" to 85\" adds roughly 70% more screen area (about 12.6 to 21.5 sq ft), and the U7 makes that step affordable. Check our [viewing distance calculator](/tools/viewing-distance-calculator/).\n\nThe trade-offs versus the [Hisense U8QG Mini-LED TV](/gear/hisense-u8qg/) are fewer dimming zones and lower brightness, so blooming is more visible and HDR has less punch, especially in bright rooms. Viewing angles are narrow, as with most VA-type LCDs. Two HDMI 2.1 ports cover a console and an eARC soundbar link (see [eARC](/glossary/earc/)). Against the [TCL QM7K QD-Mini LED TV](/gear/tcl-qm7k/), it is a close rival at a similar price. If your priority is the biggest bright screen for the least money, it is a solid pick in our [best TV for home theater guide](/best-tv-for-home-theater/).",
+    "bestFor": "Budget theaters and family rooms that want a large screen for less",
+    "skipIf": "You want deep OLED blacks or strong HDR in a very bright room",
+    "pros": [
+      "Mini LED local dimming at a low price",
+      "Dolby Vision IQ and HDR10+",
+      "High-refresh game mode",
+      "Sizes up to 100\""
+    ],
+    "cons": [
+      "More blooming than the U8QG",
+      "Narrow viewing angles",
+      "Only two HDMI 2.1 ports"
+    ],
+    "specs": {
+      "Panel": "Mini-LED (full-array local dimming)",
+      "Sizes": "55 to 100 in.",
+      "Refresh rate": "High-refresh game mode (rating varies by size)",
+      "HDR": "Dolby Vision IQ, HDR10+, HDR10, HLG",
+      "HDMI 2.1 ports": "2",
+      "eARC": "Yes",
+      "Smart platform": "Google TV"
+    },
+    "keySpecs": [
+      "Panel",
+      "Refresh rate",
+      "HDR",
+      "Sizes"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Hisense U7 worth it over the U8?",
+        "a": "If budget is the priority or your room is not very bright, yes. The U8 is brighter with more dimming zones and less blooming. The U7 gets you Mini LED, Dolby Vision IQ and HDR10+ for much less."
+      },
+      {
+        "q": "What size Hisense U75QG should I buy?",
+        "a": "Match it to your seat. At about 7.5 to 10 feet, the 75-inch fills a 30 to 40-degree field of view. At about 8.5 to 11.5 feet, choose the 85-inch. Larger screens feel more cinematic at the same distance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,658 @@
+[
+  {
+    "slug": "polk-rc80i",
+    "name": "Polk RC80i In-Ceiling Speakers",
+    "brand": "Polk Audio",
+    "category": "in-wall",
+    "amazonQuery": "Polk Audio RC80i in-ceiling speakers",
+    "priceBand": "$100–$180 per pair",
+    "priceTier": 2,
+    "score": 78,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 78
+      },
+      {
+        "label": "Installation",
+        "value": 82
+      },
+      {
+        "label": "Build quality",
+        "value": 76
+      },
+      {
+        "label": "Value",
+        "value": 88
+      }
+    ],
+    "summary": "A popular 8-inch moisture-resistant in-ceiling pair that's an easy, affordable route to overhead Dolby Atmos channels or whole-home audio.",
+    "verdict": "The RC80i is Polk's best-known in-ceiling speaker: an **8-inch Dynamic Balance woofer** with a **1-inch tweeter**, a **paintable round grille** and moisture-resistant construction that suits bathrooms and covered patios as well as home theaters. It's an 8-ohm design sold as a pair.\n\n**Show the maths.** For [Dolby Atmos](/glossary/dolby-atmos/), placement is all about angles. With an 8 ft (2.44 m) ceiling and seated ears at about 3.3 ft (1.0 m), the ceiling is roughly **4.7 ft (1.44 m)** above your ears. For front heights at Dolby's ideal 45 degrees, mount them about 4.7 ft in front of the main seat (tan 45° = 1). Dolby's acceptable range is 30–55 degrees, which works out to between about **3.3 ft** (4.7 ÷ tan 55°) and **8.2 ft** (4.7 ÷ tan 30°) ahead. For a single pair in a 5.1.2 layout, the top-middle position (65–100 degrees) means within about **2.2 ft** of directly overhead.\n\nLine them up roughly with your front left and right speakers, or a little inside them, so effects move cleanly overhead.\n\nThe 8-inch woofer gives the RC80i more output than 6.5-inch rivals (about 1.5 times the cone area), which helps if you also use it for music. For Atmos duty, set a 100–120 Hz [crossover](/glossary/crossover/) and let the sub handle bass.\n\nThe trade-off: an open-back design depends on the joist cavity, so bass varies from room to room. For timbre matching with Polk fronts like the [Signature Elite ES20](/gear/polk-signature-elite-es20/), it's a natural fit. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Affordable Atmos height channels and whole-home audio",
+    "skipIf": "You need precise, room-independent bass from your in-ceiling speakers",
+    "pros": [
+      "8-inch woofer gives more output than 6.5-inch rivals",
+      "Moisture-resistant for bathrooms and patios",
+      "Paintable grille blends into the ceiling",
+      "Strong value per pair"
+    ],
+    "cons": [
+      "Open-back design means bass depends on the cavity",
+      "Basic tweeter compared with premium in-ceilings",
+      "Needs careful placement for Atmos"
+    ],
+    "specs": {
+      "Type": "2-way in-ceiling, round",
+      "Drivers": "1-inch tweeter; 8-inch Dynamic Balance woofer",
+      "Impedance": "8 ohms",
+      "Mounting": "In-ceiling, moisture-resistant, paintable grille",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Where should I install Polk RC80i speakers for Atmos?",
+        "a": "For a 5.1.2 layout, mount them slightly in front of or directly above the main seat, roughly in line with your front left and right speakers. With an 8 ft ceiling, about 2 ft in front of your head is a good starting point. For 5.1.4, put the front pair about 4.7 ft ahead and the rear pair about 4.7 ft behind."
+      },
+      {
+        "q": "Can the Polk RC80i be used in a bathroom?",
+        "a": "Yes. Polk designs the RC80i to resist moisture, which makes it a common choice for bathrooms, kitchens and covered porches. Avoid direct water spray and follow the installation guide."
+      }
+    ]
+  },
+  {
+    "slug": "polk-rc60i",
+    "name": "Polk RC60i In-Ceiling Speakers",
+    "brand": "Polk Audio",
+    "category": "in-wall",
+    "amazonQuery": "Polk Audio RC60i in-ceiling speakers",
+    "priceBand": "$80–$130 per pair",
+    "priceTier": 1,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 72
+      },
+      {
+        "label": "Installation",
+        "value": 84
+      },
+      {
+        "label": "Build quality",
+        "value": 74
+      },
+      {
+        "label": "Value",
+        "value": 88
+      }
+    ],
+    "summary": "The 6.5-inch version of Polk's moisture-resistant in-ceiling speaker, a cheaper height-channel option that suits smaller rooms and tighter joist bays.",
+    "verdict": "The RC60i is the smaller sibling of the [RC80i](/gear/polk-rc80i/): a **6.5-inch Dynamic Balance woofer**, a **1-inch tweeter**, a **paintable round grille** and the same moisture-resistant build. It's an 8-ohm design sold as a pair.\n\n**Show the maths.** Cone area scales with diameter squared, so the RC80i's 8-inch woofer has 8² ÷ 6.5² ≈ **1.5 times the area** of the RC60i, worth about 3.6 dB more output at the same excursion. That sounds like a lot, but for [Dolby Atmos](/glossary/dolby-atmos/) height duty it matters less than you'd think. Heights are usually crossed over at 100–120 Hz ([crossover basics](/glossary/crossover/)), and above 100 Hz a 6.5-inch woofer has plenty of headroom in a typical room.\n\nPlacement follows the same angles. With an 8 ft ceiling and ears at about 3.3 ft, the ceiling is about 4.7 ft above your head. Dolby's front-height range of 30–55 degrees puts the speakers between roughly **3.3 and 8.2 ft** in front of the main seat; 45 degrees is about 4.7 ft. For a single overhead pair, aim for within about **2.2 ft** of directly above the seat (65–100 degrees).\n\nThe smaller cutout also makes it easier to fit around joists, pipes and lighting.\n\nThe trade-off is music output: if the same speakers will play background music around a bigger room, the RC80i is the better buy. For pure height channels in small and medium rooms, the RC60i saves money. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Atmos height channels in small and medium rooms",
+    "skipIf": "You want the same speakers to fill a large room with music",
+    "pros": [
+      "Cheaper than the RC80i with the same build",
+      "Plenty of headroom above a 100 Hz crossover",
+      "Moisture-resistant",
+      "Smaller cutout fits tight spaces"
+    ],
+    "cons": [
+      "Less output than the 8-inch RC80i",
+      "Open-back bass depends on the cavity",
+      "Basic tweeter"
+    ],
+    "specs": {
+      "Type": "2-way in-ceiling, round",
+      "Drivers": "1-inch tweeter; 6.5-inch Dynamic Balance woofer",
+      "Impedance": "8 ohms",
+      "Mounting": "In-ceiling, moisture-resistant, paintable grille",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Polk RC60i or RC80i for Atmos?",
+        "a": "For pure height channels in a small or medium room, the RC60i is enough, because heights are crossed over at 100–120 Hz. Choose the RC80i if the room is large or you'll also use the speakers for music without a subwoofer."
+      },
+      {
+        "q": "Do I need back boxes for the Polk RC60i?",
+        "a": "Not required, but helpful. Without them, the joist cavity acts as the enclosure, which varies by room and can leak sound upstairs. Back boxes or insulation make bass more consistent and reduce sound transfer."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-cdt-5650-c-ii",
+    "name": "Klipsch CDT-5650-C II In-Ceiling Speaker",
+    "brand": "Klipsch",
+    "category": "in-wall",
+    "amazonQuery": "Klipsch CDT-5650-C II in-ceiling speaker",
+    "priceBand": "$180–$300 each",
+    "priceTier": 3,
+    "score": 83,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 84
+      },
+      {
+        "label": "Installation",
+        "value": 78
+      },
+      {
+        "label": "Build quality",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 78
+      }
+    ],
+    "summary": "A 6.5-inch Klipsch in-ceiling speaker built around controlled dispersion, the best pick here for Atmos heights paired with Klipsch fronts.",
+    "verdict": "The CDT-5650-C II is a **6.5-inch two-way in-ceiling speaker** from Klipsch's Controlled Dispersion Technology (CDT) line, which is designed to direct sound toward the listening area rather than spray it across the ceiling. It's an 8-ohm design sold individually.\n\n**Show the maths.** For [Dolby Atmos](/glossary/dolby-atmos/), aiming matters because ceiling speakers sit well off-axis. With an 8 ft (2.44 m) ceiling and seated ears at about 3.3 ft (1.0 m), the ceiling is roughly **4.7 ft** above you. A front height at Dolby's ideal 45 degrees goes about 4.7 ft in front of the seat. That puts your ears **45 degrees off the speaker's straight-down axis**, where many ceiling tweeters lose treble. Directing the output toward the seats keeps height effects crisp.\n\nFor 5.1.4, the rear pair goes about 4.7 ft behind the seat, so front and rear heights end up roughly **9.4 ft apart** on the ceiling. In a small room where that doesn't fit, use Dolby's 30–55 degree window: at 55 degrees, each pair moves in to about 3.3 ft from the seat, roughly 6.6 ft apart.\n\nTimbre is the other reason to choose it. If your fronts are Klipsch, such as the [RP-600M II](/gear/klipsch-rp-600m-ii/) or [RP-8000F II](/gear/klipsch-rp-8000f-ii/), a Klipsch height speaker keeps overhead effects voiced like the rest of the system. Set heights to Small at 100–120 Hz ([crossover basics](/glossary/crossover/)).\n\nThe trade-off: sold individually, it costs well over budget pairs. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/) and [Klipsch home theater review](/klipsch-home-theater-review/).",
+    "bestFor": "Atmos height channels in Klipsch-based systems",
+    "skipIf": "You're on a tight budget; a budget pair costs less than one of these",
+    "pros": [
+      "Controlled dispersion directs sound toward seats",
+      "Matches Klipsch front speakers' voicing",
+      "Solid build quality",
+      "Easy 8-ohm load"
+    ],
+    "cons": [
+      "Sold individually, so four cost a lot",
+      "Open-back bass depends on the cavity",
+      "Overkill for background music"
+    ],
+    "specs": {
+      "Type": "2-way in-ceiling, round, Controlled Dispersion Technology",
+      "Drivers": "6.5-inch woofer with tweeter",
+      "Impedance": "8 ohms",
+      "Mounting": "In-ceiling",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Klipsch CDT-5650-C II good for Dolby Atmos?",
+        "a": "Yes. Its controlled dispersion design helps aim treble toward the seats, which matters because ceiling speakers sit 45 degrees or more off-axis from your ears. It also matches the voicing of Klipsch front speakers."
+      },
+      {
+        "q": "Is the CDT-5650-C II sold as a pair?",
+        "a": "No, it's sold individually, so the price band here is per speaker. A 5.1.4 layout needs four."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-r-5650-w-ii",
+    "name": "Klipsch R-5650-W II In-Wall Speaker",
+    "brand": "Klipsch",
+    "category": "in-wall",
+    "amazonQuery": "Klipsch R-5650-W II in-wall speaker",
+    "priceBand": "$150–$250 each",
+    "priceTier": 2,
+    "score": 78,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 78
+      },
+      {
+        "label": "Installation",
+        "value": 76
+      },
+      {
+        "label": "Build quality",
+        "value": 78
+      },
+      {
+        "label": "Value",
+        "value": 80
+      }
+    ],
+    "summary": "A 6.5-inch Klipsch in-wall speaker that works as hidden left, center, right or surround channels, best paired with Klipsch Reference speakers.",
+    "verdict": "The R-5650-W II is a **6.5-inch two-way in-wall speaker** from Klipsch's Reference architectural line, with a rectangular grille that lets it blend into the wall. It's an 8-ohm design sold individually, and it suits front left, center and right channels in a clean, cable-free install, or side surrounds.\n\n**Show the maths.** An open-back in-wall speaker uses the stud bay as its enclosure. A standard bay between 2x4 studs is about 14.5 in wide, 3.5 in deep and 96 in tall, so its volume is 14.5 × 3.5 × 96 ≈ **4,870 cubic inches, or about 2.8 cubic feet**. That's far bigger than most bookshelf cabinets, which is why in-walls can sound full, but bays vary with fire blocks, insulation and wiring, so bass changes from wall to wall.\n\nFor front channels, get the tweeter close to seated ear height (about 3.3–3.5 ft, or 1.0–1.1 m). If it ends up higher, every foot above ear height at a 10 ft seat shifts the tweeter about **5.7 degrees** off-axis (atan 1/10).\n\nWire matters on long runs. 16 AWG copper has about 4 ohms per 1,000 ft, so a 50 ft run (100 ft round trip) adds 0.4 ohm, about a **0.4 dB loss** into 8 ohms. Use in-wall rated cable.\n\nThe trade-off is that bass depends on the wall, so you'll rely on a subwoofer at 80 Hz ([crossover basics](/glossary/crossover/)). Pair with Klipsch Reference speakers like the [R-50M](/gear/klipsch-r-50m/), and see our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Hidden front or surround channels in Klipsch-based systems",
+    "skipIf": "You can't cut into walls or want consistent, room-independent bass",
+    "pros": [
+      "Disappears into the wall",
+      "Works as front, center or surround",
+      "Matches Klipsch Reference voicing",
+      "Easy 8-ohm load"
+    ],
+    "cons": [
+      "Open-back bass varies with the stud bay",
+      "Sold individually",
+      "Installation takes planning"
+    ],
+    "specs": {
+      "Type": "2-way in-wall, rectangular",
+      "Drivers": "6.5-inch woofer with tweeter",
+      "Impedance": "8 ohms",
+      "Mounting": "In-wall",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Can I use the Klipsch R-5650-W II as a center channel?",
+        "a": "Yes. Mount it below or above the screen with the tweeter as close to ear height as you can, or behind an acoustically transparent screen. Using the same model for left, center and right gives a perfectly matched front stage."
+      },
+      {
+        "q": "Do in-wall speakers need a back box?",
+        "a": "Not always, but it helps. The stud bay acts as the enclosure, and bays vary. A back box makes bass more consistent and reduces sound leaking into the next room."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-r-1650-c",
+    "name": "Klipsch R-1650-C In-Ceiling Speaker",
+    "brand": "Klipsch",
+    "category": "in-wall",
+    "amazonQuery": "Klipsch R-1650-C in-ceiling speaker",
+    "priceBand": "$70–$130 each",
+    "priceTier": 1,
+    "score": 70,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 68
+      },
+      {
+        "label": "Installation",
+        "value": 80
+      },
+      {
+        "label": "Build quality",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 80
+      }
+    ],
+    "summary": "Klipsch's entry-level 6.5-inch in-ceiling speaker, a budget way to add height or background-music speakers with a Klipsch voice.",
+    "verdict": "The R-1650-C is Klipsch's entry-level **6.5-inch two-way in-ceiling speaker**, sold individually with an 8-ohm rating. It's aimed at simple installs: [Dolby Atmos](/glossary/dolby-atmos/) height channels in a budget Klipsch system, or background music in a kitchen or living area.\n\n**Show the maths.** Speaker wire is the overlooked part of ceiling installs, because runs from the receiver to the ceiling get long. Copper wire resistance per 1,000 ft is roughly **4.0 ohms for 16 AWG**, **2.5 for 14 AWG** and **1.6 for 12 AWG**. A 50 ft run is 100 ft of conductor round trip:\n\n- 16 AWG adds about 0.4 ohm, a loss of about **0.4 dB** into 8 ohms.\n- 14 AWG adds about 0.25 ohm, about **0.27 dB**.\n\nA common rule of thumb is to keep wire resistance below 5% of the speaker's impedance, so 16 AWG is fine up to about 50 ft for an 8-ohm speaker, and 14 AWG is the safer choice beyond that. Use in-wall rated (CL2 or CL3) cable.\n\nFor height placement, with an 8 ft ceiling and ears at 3.3 ft, the ceiling is about 4.7 ft above you. Dolby's 30–55 degree front-height window places the speakers between about 3.3 and 8.2 ft in front of the seat. Set a 100–120 Hz [crossover](/glossary/crossover/).\n\nThe trade-off: build and refinement are basic, and the [CDT-5650-C II](/gear/klipsch-cdt-5650-c-ii/) directs sound to the seats better. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Budget Atmos heights or background music with Klipsch voicing",
+    "skipIf": "You want premium in-ceiling sound or controlled dispersion",
+    "pros": [
+      "Low price for a Klipsch in-ceiling",
+      "Easy 8-ohm load",
+      "Works for heights or background music",
+      "Simple installation"
+    ],
+    "cons": [
+      "Sold individually",
+      "Basic build and refinement",
+      "Open-back bass depends on the cavity"
+    ],
+    "specs": {
+      "Type": "2-way in-ceiling, round",
+      "Drivers": "6.5-inch woofer with tweeter",
+      "Impedance": "8 ohms",
+      "Mounting": "In-ceiling",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "What wire gauge should I use for in-ceiling speakers?",
+        "a": "For runs up to about 50 ft to an 8-ohm speaker, 16 AWG is fine. Beyond that, use 14 AWG to keep losses low. Make sure the cable is rated for in-wall use (CL2 or CL3) to meet building codes."
+      },
+      {
+        "q": "Is the Klipsch R-1650-C good for Atmos?",
+        "a": "It's a reasonable budget option for height channels, especially in Klipsch systems where the voicing matches. Pricier models like the CDT-5650-C II do a better job of directing sound toward the seats."
+      }
+    ]
+  },
+  {
+    "slug": "micca-m-8c",
+    "name": "Micca M-8C In-Ceiling Speakers",
+    "brand": "Micca",
+    "category": "in-wall",
+    "amazonQuery": "Micca M-8C in-ceiling speakers",
+    "priceBand": "$80–$130 per pair",
+    "priceTier": 1,
+    "score": 72,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 72
+      },
+      {
+        "label": "Installation",
+        "value": 80
+      },
+      {
+        "label": "Build quality",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "A budget 8-inch in-ceiling pair that's well regarded for its price, a good fit for affordable height channels or multi-room music.",
+    "verdict": "The M-8C is Micca's **8-inch two-way in-ceiling speaker**, sold as a pair, with a tweeter mounted at the center of the woofer. It's a popular budget choice for height channels and for whole-home music in kitchens and living areas.\n\n**Show the maths.** Multi-room installs often wire more than one pair to one amplifier channel, and that's where impedance matters. Two 8-ohm speakers wired in parallel present **4 ohms** (8 × 8 ÷ (8 + 8)); three present about **2.7 ohms**. Many AV receivers aren't rated below 6 ohms, so parallel wiring can trip protection or overheat the amp. Use an impedance-matching speaker selector or a dedicated multi-zone amp instead ([impedance explained](/glossary/impedance/)).\n\nFor [Dolby Atmos](/glossary/dolby-atmos/) heights, follow the same angles as any ceiling speaker. With an 8 ft ceiling and ears at about 3.3 ft, the ceiling is about 4.7 ft above your head. Dolby's front-height range of 30–55 degrees means mounting between roughly 3.3 and 8.2 ft in front of the seat, with 45 degrees at about 4.7 ft. Set a 100–120 Hz [crossover](/glossary/crossover/).\n\nThe 8-inch woofer gives decent output for music. Owners generally report that the M-8C sounds better than its price suggests, though it's not a match for premium models.\n\nThe trade-off is build and finish: grilles and frames are basic, and there's no matching front speaker range in our catalog. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Budget height channels and multi-room music",
+    "skipIf": "You need premium build or a speaker family to match your fronts",
+    "pros": [
+      "8-inch woofer for good output at a low price",
+      "Coaxial layout for even coverage",
+      "Sold as a pair",
+      "Well regarded by owners for the money"
+    ],
+    "cons": [
+      "Basic frames and grilles",
+      "No matching front speakers in our catalog",
+      "Open-back bass depends on the cavity"
+    ],
+    "specs": {
+      "Type": "2-way in-ceiling, round",
+      "Drivers": "8-inch woofer with coaxially mounted tweeter",
+      "Mounting": "In-ceiling",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Mounting",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Can I wire several pairs of Micca M-8C to one receiver?",
+        "a": "Not directly in parallel. Two 8-ohm speakers in parallel present 4 ohms, which many receivers aren't rated for. Use an impedance-matching speaker selector or a multi-zone amplifier to run several pairs safely."
+      },
+      {
+        "q": "Are the Micca M-8C good for Dolby Atmos?",
+        "a": "They're a solid budget option for height channels. Mount them according to Dolby's angles, set a 100–120 Hz crossover, and they'll add convincing overhead effects at a low cost."
+      }
+    ]
+  },
+  {
+    "slug": "monoprice-alpha-in-ceiling",
+    "name": "Monoprice Alpha In-Ceiling Speakers",
+    "brand": "Monoprice",
+    "category": "in-wall",
+    "amazonQuery": "Monoprice Alpha 8 inch in-ceiling speakers",
+    "priceBand": "$80–$140 per pair",
+    "priceTier": 1,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 74
+      },
+      {
+        "label": "Installation",
+        "value": 80
+      },
+      {
+        "label": "Build quality",
+        "value": 72
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "An affordable 8-inch aramid-fiber in-ceiling pair that offers good value for Atmos heights and whole-home audio.",
+    "verdict": "Monoprice's Alpha in-ceiling speakers use an **8-inch aramid-fiber woofer** with a **coaxially mounted tweeter**, sold as a pair. They're a strong value pick for [Dolby Atmos](/glossary/dolby-atmos/) height channels and distributed audio.\n\n**Show the maths.** Coverage is the key question for ceiling speakers. The ceiling is about 4.7 ft above seated ears in a room with an 8 ft ceiling. If a speaker covers roughly a 90-degree cone (45 degrees either side of straight down), the area it covers well at ear height has a radius of 4.7 × tan(45°) = **4.7 ft**, a circle about 9.4 ft across. That's why two pairs usually cover a typical 15 × 20 ft living room for music without dead spots, and why higher ceilings spread coverage further.\n\nFor Atmos, the angles shift. Dolby's front-height window is 30–55 degrees up from the seat, which places the speakers between about **3.3 and 8.2 ft** in front of you, with 45 degrees at about 4.7 ft. A 5.1.4 layout adds a matching pair about the same distance behind. Set heights to Small at 100–120 Hz ([crossover basics](/glossary/crossover/)).\n\nThe aramid cone is stiff and light for the price, and owners generally rate the Alpha series as good value.\n\nThe trade-off: build quality is basic compared with Klipsch or Polk's premium lines, and there's no matching front range in our catalog, so timbre may differ slightly from your fronts. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Budget Atmos heights and whole-home music",
+    "skipIf": "You want premium build or speakers matched to your fronts",
+    "pros": [
+      "8-inch aramid-fiber woofer at a budget price",
+      "Coaxial layout for even coverage",
+      "Sold as a pair",
+      "Good value for multi-room setups"
+    ],
+    "cons": [
+      "Basic build",
+      "No matching front speakers in our catalog",
+      "Open-back bass depends on the cavity"
+    ],
+    "specs": {
+      "Type": "2-way in-ceiling, round",
+      "Drivers": "8-inch aramid-fiber woofer with coaxially mounted tweeter",
+      "Mounting": "In-ceiling",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Mounting",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "How many in-ceiling speakers do I need for a room?",
+        "a": "For music, a common approach is one pair per 15 × 20 ft area with an 8 ft ceiling. For Dolby Atmos, use two (5.1.2) or four (5.1.4), placed at Dolby's recommended angles from the main seat."
+      },
+      {
+        "q": "Are Monoprice Alpha in-ceiling speakers good for Atmos?",
+        "a": "Yes, as a budget option. The 8-inch aramid woofer and coaxial tweeter give decent output and even coverage. Place them at 30–55 degrees from the main seat and use a 100–120 Hz crossover."
+      }
+    ]
+  },
+  {
+    "slug": "polk-265-rt",
+    "name": "Polk 265-RT In-Wall Speaker",
+    "brand": "Polk Audio",
+    "category": "in-wall",
+    "amazonQuery": "Polk Audio 265-RT in-wall speaker",
+    "priceBand": "$150–$250 each",
+    "priceTier": 2,
+    "score": 80,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 80
+      },
+      {
+        "label": "Installation",
+        "value": 74
+      },
+      {
+        "label": "Build quality",
+        "value": 80
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "A dual 6.5-inch Polk in-wall speaker with more output than single-woofer in-walls, a solid pick for hidden front left, center and right channels.",
+    "verdict": "The 265-RT is a rectangular **in-wall speaker with dual 6.5-inch Dynamic Balance woofers** and a tweeter, from Polk's RT series. It's sold individually and suits front left, center and right channels where you want speakers hidden in the wall.\n\n**Show the maths.** Two 6.5-inch woofers equal the cone area of one woofer about 6.5 × √2 ≈ **9.2 inches** across. Doubling cone area is worth about **3 dB more output** at the same excursion, the same as doubling amplifier power. For front channels, which carry most of a film's dialogue and effects, that extra headroom matters more than it does for heights.\n\nThe stud bay is the enclosure. Between 2x4 studs, a standard bay is about 14.5 × 3.5 × 96 in, roughly **4,870 cubic inches (2.8 cubic feet)**, plenty of air, but fire blocks, insulation and wiring change it. That's why open-back in-wall bass varies by wall, and why a subwoofer at 80 Hz does the heavy lifting ([crossover basics](/glossary/crossover/)).\n\nPlace the tweeter near seated ear height (about 3.3–3.5 ft). At a 10 ft seat, each foot above ear height moves the tweeter about **5.7 degrees** off-axis. For a center, mounting just below the screen is usually better than far above it.\n\nThe trade-off: installation takes planning, and it costs more than budget in-walls. For matching with Polk front or surround speakers, see our [Polk Audio review](/polk-audio-review/) and our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Hidden front left, center and right channels",
+    "skipIf": "You can't cut into walls or want plug-and-play setup",
+    "pros": [
+      "Dual 6.5-inch woofers for more output than single-woofer in-walls",
+      "Works for left, center or right",
+      "Disappears into the wall",
+      "Matches Polk voicing"
+    ],
+    "cons": [
+      "Open-back bass varies with the stud bay",
+      "Sold individually",
+      "Installation takes planning"
+    ],
+    "specs": {
+      "Type": "In-wall, rectangular",
+      "Drivers": "Dual 6.5-inch Dynamic Balance woofers with tweeter",
+      "Mounting": "In-wall",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Mounting",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Can the Polk 265-RT be used as a center channel?",
+        "a": "Yes. Its dual woofers give it the output a center channel needs. Mount it just below the screen, or behind an acoustically transparent screen, with the tweeter as close to ear height as possible."
+      },
+      {
+        "q": "Do in-wall speakers sound as good as box speakers?",
+        "a": "Good in-walls come close for dialogue and effects, but bass depends on the wall cavity. With a subwoofer handling everything below 80 Hz, the difference shrinks a lot."
+      }
+    ]
+  },
+  {
+    "slug": "yamaha-ns-iw480",
+    "name": "Yamaha NS-IW480 In-Wall Speakers",
+    "brand": "Yamaha",
+    "category": "in-wall",
+    "amazonQuery": "Yamaha NS-IW480 in-wall speakers",
+    "priceBand": "$120–$220 per pair",
+    "priceTier": 2,
+    "score": 72,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 72
+      },
+      {
+        "label": "Installation",
+        "value": 78
+      },
+      {
+        "label": "Build quality",
+        "value": 74
+      },
+      {
+        "label": "Value",
+        "value": 76
+      }
+    ],
+    "summary": "A Yamaha flush-mount speaker pair for clean, hidden installs, best for surrounds, background music or a second zone powered by your Yamaha receiver.",
+    "verdict": "Yamaha's NS-IW480 is a **flush-mount architectural speaker pair** with a woofer and coaxially mounted tweeter behind a paintable grille. It suits hidden surrounds, background music or a second zone run from a receiver. Yamaha publishes fewer headline specs than some rivals, so check the listing for cutout size and mounting depth before you buy.\n\n**Show the maths.** Many Yamaha receivers can reassign their surround-back amplifier channels to power a **Zone 2** pair, which is a natural use for speakers like these. That means a 7.1-channel receiver drops to 5.1 in the main room when Zone 2 is active, so plan your channel count ([best home theater receiver](/best-home-theater-receiver/)).\n\nImpedance is the other trap. If you want two pairs in one zone, wiring them in parallel turns two 8-ohm speakers into a **4-ohm load** (8 × 8 ÷ 16). Most receivers aren't rated below 6 ohms, so use an impedance-matching speaker selector instead ([impedance explained](/glossary/impedance/)).\n\nFor surrounds, mount them 1–2 ft above seated ear height, slightly behind or beside the main seat. At 6 ft to the side, a speaker 2 ft above ear height sits about **18 degrees** up (atan 2/6), a typical surround elevation that keeps effects clear of seated heads.\n\nThe trade-off: limited published specs and modest output mean this isn't a front-channel speaker for a dedicated theater. For hidden fronts, look at the [Polk 265-RT](/gear/polk-265-rt/). See our [Yamaha home theater review](/yamaha-home-theater-review/) and [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Hidden surrounds and Zone 2 music with a Yamaha receiver",
+    "skipIf": "You need hidden front speakers for a dedicated theater",
+    "pros": [
+      "Clean, flush-mount look with paintable grille",
+      "Natural fit for a Yamaha receiver's Zone 2",
+      "Sold as a pair",
+      "Coaxial layout for even coverage"
+    ],
+    "cons": [
+      "Fewer published specs than rivals",
+      "Modest output for front-channel duty",
+      "Open-back bass depends on the cavity"
+    ],
+    "specs": {
+      "Type": "Flush-mount architectural speaker",
+      "Drivers": "Woofer with coaxially mounted tweeter",
+      "Grille": "Paintable",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Grille",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Can I power the Yamaha NS-IW480 from my receiver's Zone 2?",
+        "a": "Yes, if your receiver supports powered Zone 2. Many Yamaha receivers reassign the surround-back channels to Zone 2, which means you lose those channels in the main room while Zone 2 is in use."
+      },
+      {
+        "q": "Are the Yamaha NS-IW480 good for surround sound?",
+        "a": "They work well as hidden surrounds. Mount them 1–2 ft above ear height, beside or slightly behind the main seat, and set them to Small with an 80–100 Hz crossover in your receiver."
+      }
+    ]
+  },
+  {
+    "slug": "pyle-pdic80",
+    "name": "Pyle PDIC80 In-Ceiling Speakers",
+    "brand": "Pyle",
+    "category": "in-wall",
+    "amazonQuery": "Pyle PDIC80 in-ceiling speakers",
+    "priceBand": "$40–$70 per pair",
+    "priceTier": 1,
+    "score": 55,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 52
+      },
+      {
+        "label": "Installation",
+        "value": 76
+      },
+      {
+        "label": "Build quality",
+        "value": 50
+      },
+      {
+        "label": "Value",
+        "value": 74
+      }
+    ],
+    "summary": "A very cheap 8-inch in-ceiling pair for garages, patios and background music, but not a serious choice for home theater height channels.",
+    "verdict": "The PDIC80 is Pyle's **8-inch two-way in-ceiling speaker**, sold as a pair at a price well below most rivals, with a tweeter at the center of the woofer and an 8-ohm rating. It's best treated as a background-music speaker for garages, workshops and covered patios.\n\n**Show the maths.** Pyle's listings lead with a large **peak** wattage figure, which tells you little. Peak ratings describe brief bursts, not continuous power, and they aren't a measure of loudness. What matters is sensitivity and continuous power handling, and every 3 dB of extra volume needs double the power. Don't choose an in-ceiling speaker by its peak watts.\n\nImpedance matters more for multi-room installs. Two 8-ohm pairs wired in parallel present **4 ohms** (8 × 8 ÷ 16), and three present about 2.7 ohms. Most AV receivers aren't rated for that, so use an impedance-matching speaker selector or a multi-zone amp ([impedance explained](/glossary/impedance/)).\n\nFor [Dolby Atmos](/glossary/dolby-atmos/), the PDIC80 can technically work as height channels. With an 8 ft ceiling, mount them between about 3.3 and 8.2 ft in front of the seat (Dolby's 30–55 degree window). But owners commonly report coarse treble and basic build, and height channels benefit from clean, detailed treble.\n\nThe trade-off is simple: you save money but lose refinement. For theater heights on a budget, the [Polk RC60i](/gear/polk-rc60i/) or [Monoprice Alpha](/gear/monoprice-alpha-in-ceiling/) are better buys. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "bestFor": "Garages, workshops, patios and background music on the lowest budget",
+    "skipIf": "You're installing Atmos height channels for a real home theater",
+    "pros": [
+      "Very low price for an 8-inch pair",
+      "Easy 8-ohm load",
+      "Simple installation",
+      "Fine for background music"
+    ],
+    "cons": [
+      "Coarse treble compared with budget rivals",
+      "Basic build quality",
+      "Peak wattage claims are not a useful guide"
+    ],
+    "specs": {
+      "Type": "2-way in-ceiling, round",
+      "Drivers": "8-inch woofer with coaxially mounted tweeter",
+      "Impedance": "8 ohms",
+      "Mounting": "In-ceiling",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Are Pyle PDIC80 speakers good for home theater?",
+        "a": "They're not a good choice for Atmos height channels in a serious system. They work for background music in garages, patios and workshops. For theater heights on a budget, the Polk RC60i or Monoprice Alpha in-ceiling speakers are better."
+      },
+      {
+        "q": "What does Pyle's peak wattage rating mean?",
+        "a": "It describes brief bursts rather than continuous power, so it says little about how loud or clean the speaker plays. Compare speakers on sensitivity and continuous power handling instead."
+      }
+    ]
+  }
+]

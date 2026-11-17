@@ -1,0 +1,417 @@
+[
+  {
+    "slug": "sonos-era-300",
+    "name": "Sonos Era 300",
+    "brand": "Sonos",
+    "category": "wireless-speaker",
+    "amazonQuery": "Sonos Era 300 speaker",
+    "released": "2023",
+    "priceBand": "$400–$500",
+    "priceTier": 2,
+    "score": 82,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 84
+      },
+      {
+        "label": "Home theater fit",
+        "value": 86
+      },
+      {
+        "label": "Connectivity",
+        "value": 82
+      },
+      {
+        "label": "Value",
+        "value": 72
+      }
+    ],
+    "summary": "Sonos's spatial-audio speaker with an up-firing tweeter; great for Atmos music on its own and the best rear-surround upgrade for an Arc, Arc Ultra or Beam (Gen 2).",
+    "verdict": "The Era 300 is built for spatial audio: **six drivers** (four tweeters, including one firing straight up, plus two side-firing woofers), each with its own Class-D amplifier. Alone it plays Dolby Atmos music convincingly; in a home theater its real job is as a **rear surround with height**.\n\n**System maths.** Pair two Era 300s as rears with a [Sonos Arc Ultra](/gear/sonos-arc-ultra/) and a [Sonos Sub 4](/gear/sonos-sub-4/) and you get a 7.1.4-style layout: the bar's front height channels plus the Era 300s' up-firing tweeters adding rear height. That's the closest a wireless system gets to a receiver-based [Dolby Atmos](/glossary/dolby-atmos/) setup with ceiling speakers, without running a single speaker cable (each Era 300 still needs an outlet).\n\n**Placement.** Rear surrounds sound best roughly **110–135 degrees** from straight ahead, at or a little above ear height. The Era 300 must sit upright with its top clear, so use stands or the official wall mounts rather than tucking it on a bookshelf with a shelf above it, which blocks the up-firing tweeter.\n\n**Compared with the [Era 100](/gear/sonos-era-100/)**, it costs roughly double but adds the height channel. For a Beam (Gen 2) or a 5.1 setup without overhead effects, the Era 100 pair is the better value. Trueplay tuning, Wi-Fi, AirPlay 2, Bluetooth and USB-C line-in round it out. See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) roundup.",
+    "bestFor": "Sonos Arc, Arc Ultra or Beam (Gen 2) owners who want rear height effects",
+    "skipIf": "You only need standard rear surrounds; a pair of Era 100s costs much less",
+    "pros": [
+      "Up-firing tweeter adds rear height in Sonos Atmos systems",
+      "Excellent spatial audio for Atmos music",
+      "Trueplay tuning, Wi-Fi and Bluetooth",
+      "USB-C line-in for a turntable or other source"
+    ],
+    "cons": [
+      "Expensive as a rear pair",
+      "Needs a clear top surface for the up-firing driver",
+      "Unusual shape is awkward on shelves"
+    ],
+    "specs": {
+      "Type": "Powered wireless smart speaker (spatial audio)",
+      "Drivers": "4 tweeters (1 up-firing) + 2 woofers",
+      "Amplification": "6 Class-D amplifiers",
+      "Inputs": "Wi-Fi, Bluetooth, USB-C line-in (adapter)",
+      "Streaming": "AirPlay 2, Spotify Connect, Sonos app",
+      "Home theater role": "Atmos rear surrounds for Sonos Arc, Arc Ultra and Beam (Gen 2)",
+      "Dimensions": "160 × 260 × 185 mm (H × W × D)"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Home theater role",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Can the Sonos Era 300 be used as rear surrounds?",
+        "a": "Yes. A pair works as rear surrounds with the Sonos Arc, Arc Ultra and Beam (Gen 2), adding rear height effects from their up-firing tweeters."
+      },
+      {
+        "q": "Era 300 or Era 100 for Sonos rears?",
+        "a": "Choose the Era 300 if you want rear height effects with an Atmos soundbar. Choose the Era 100 for standard surround sound at about half the cost."
+      }
+    ]
+  },
+  {
+    "slug": "bose-surround-speakers-700",
+    "name": "Bose Surround Speakers 700",
+    "brand": "Bose",
+    "category": "wireless-speaker",
+    "amazonQuery": "Bose Surround Speakers 700",
+    "priceBand": "$500–$600",
+    "priceTier": 2,
+    "score": 70,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 72
+      },
+      {
+        "label": "Home theater fit",
+        "value": 76
+      },
+      {
+        "label": "Connectivity",
+        "value": 56
+      },
+      {
+        "label": "Value",
+        "value": 58
+      }
+    ],
+    "summary": "Compact wireless rear speakers for Bose smart soundbars that add genuine surround effects, but only work in the Bose ecosystem and cost a lot for their size.",
+    "verdict": "The Surround Speakers 700 are small, aluminum-finished rear speakers that connect by short cables to a **wireless receiver module**, which then links to a compatible Bose smart soundbar such as the [Bose Smart Ultra Soundbar](/gear/bose-smart-ultra-soundbar/) or [Bose Smart Soundbar](/gear/bose-smart-soundbar/). There's no streaming or standalone use; their only job is to put effects behind you.\n\n**Why real rears beat virtual surround.** Even the best soundbar processing struggles to place sound convincingly behind the listener, because all the drivers sit in front. Two physical speakers at roughly **110–120 degrees** from center create true side and rear effects, which is the single biggest upgrade most bar owners can make after a subwoofer.\n\n**Cost maths.** Add these and the [Bose Bass Module 700](/gear/bose-bass-module-700/) to a Smart Ultra and the total lands in the same range as the [Samsung HW-Q990F](/gear/samsung-hw-q990f/), which includes sub, rears and four height channels in the box. If you already own a Bose bar and like it, the 700s are the natural add-on; if you're starting from scratch, compare complete systems first.\n\n**Placement and power.** The speakers are tiny and wall-mountable; the receiver module needs a power outlet near your seats. Owners praise the discreet size and seamless integration, while noting the price premium over the standard Bose Surround Speakers. See the [Bose home theater review](/bose-home-theater-review/).",
+    "bestFor": "Owners of a Bose smart soundbar who want discreet, real rear surrounds",
+    "skipIf": "You don't own a Bose soundbar or want the best value per dollar",
+    "pros": [
+      "Genuine rear surround effects for Bose bars",
+      "Very compact, wall-mountable speakers",
+      "Wireless link from the soundbar",
+      "Premium aluminum finish"
+    ],
+    "cons": [
+      "Only work with Bose smart soundbars",
+      "Expensive for the size",
+      "Receiver module still needs a power outlet"
+    ],
+    "specs": {
+      "Type": "Wireless rear surround speakers (pair)",
+      "Drivers": "Compact full-range transducers",
+      "Amplification": "Powered wireless receiver module",
+      "Inputs": "Wireless link from a compatible Bose soundbar",
+      "Streaming": "None (via Bose soundbar)",
+      "Home theater role": "Rear surrounds for Bose smart soundbars"
+    },
+    "keySpecs": [
+      "Type",
+      "Home theater role",
+      "Amplification",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Do Bose Surround Speakers 700 work with any soundbar?",
+        "a": "No. They only pair with compatible Bose smart soundbars such as the Smart Ultra Soundbar and Smart Soundbar."
+      },
+      {
+        "q": "Are Bose Surround Speakers 700 fully wireless?",
+        "a": "The link from the soundbar is wireless, but the speakers connect by cable to a receiver module that needs a power outlet."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-the-fives",
+    "name": "Klipsch The Fives Powered Speakers",
+    "brand": "Klipsch",
+    "category": "wireless-speaker",
+    "amazonQuery": "Klipsch The Fives powered speakers HDMI ARC",
+    "released": "2020",
+    "priceBand": "$700–$900",
+    "priceTier": 3,
+    "score": 80,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 80
+      },
+      {
+        "label": "Home theater fit",
+        "value": 80
+      },
+      {
+        "label": "Connectivity",
+        "value": 88
+      },
+      {
+        "label": "Value",
+        "value": 74
+      }
+    ],
+    "summary": "Powered Klipsch bookshelf speakers with HDMI ARC, a phono input and a sub output, making a simple, great-sounding stereo TV system without a receiver.",
+    "verdict": "The Fives are powered bookshelf speakers with a twist: an **HDMI ARC** input, so they connect straight to your TV and respond to its remote. Each speaker uses a **4.5-inch fiber-composite woofer** and a **1-inch titanium tweeter on a Tractrix horn**, giving the lively, dynamic Klipsch sound. Inputs also include optical, USB, a switchable phono/line input for a turntable, Bluetooth and a **subwoofer output**.\n\n**Stereo isn't surround, so set the TV correctly.** Over ARC the Fives receive stereo PCM. Set your TV's audio output to PCM or stereo so it downmixes 5.1 soundtracks; dialogue then comes from a phantom center between the speakers.\n\n**Placement maths.** For a good stereo image, form an equilateral triangle: if your sofa is **8 feet** from the TV wall, aim for the speakers about **6–8 feet** apart, angled slightly toward you. Put them at ear height or tilt them up, since the horn tweeters are directional.\n\n**Add a sub.** The 4.5-inch woofers are fine for TV and music but don't reach deep movie bass. Use the sub out with a compact sub such as the [Klipsch R-120SW](/gear/klipsch-r-120sw/) or [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) for a capable 2.1 system.\n\nCompared with a soundbar, you get far better stereo separation and music playback, but no virtual surround or Atmos. See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) and [soundbar vs home theater](/soundbar-vs-home-theater/).",
+    "bestFor": "Music-first listeners who want stereo TV sound without a receiver",
+    "skipIf": "You want surround sound or Dolby Atmos",
+    "pros": [
+      "HDMI ARC connects directly to the TV",
+      "Phono input for a turntable",
+      "Subwoofer output for an easy 2.1 upgrade",
+      "Lively, dynamic sound for music and TV"
+    ],
+    "cons": [
+      "Stereo only, no surround or Atmos",
+      "Limited deep bass without a sub",
+      "Speakers are linked by a cable, not fully wireless"
+    ],
+    "specs": {
+      "Type": "Powered bookshelf speakers (pair)",
+      "Drivers": "4.5-inch fiber-composite woofer, 1-inch titanium tweeter on Tractrix horn (per speaker)",
+      "Amplification": "Built-in amplifiers",
+      "Inputs": "HDMI ARC, optical, USB, phono/line RCA, Bluetooth, sub out",
+      "Streaming": "Bluetooth",
+      "Home theater role": "Stereo TV speakers via HDMI ARC"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Inputs",
+      "Home theater role"
+    ],
+    "faqs": [
+      {
+        "q": "Can Klipsch The Fives connect to a TV?",
+        "a": "Yes. They have an HDMI ARC input, so they connect directly to your TV's ARC port and can be controlled with the TV remote."
+      },
+      {
+        "q": "Do Klipsch The Fives need a subwoofer?",
+        "a": "Not for TV and casual music, but movies benefit from one. The Fives have a dedicated subwoofer output for easy connection."
+      }
+    ]
+  },
+  {
+    "slug": "kef-ls50-wireless-ii",
+    "name": "KEF LS50 Wireless II",
+    "brand": "KEF",
+    "category": "wireless-speaker",
+    "amazonQuery": "KEF LS50 Wireless II",
+    "released": "2020",
+    "priceBand": "$2,300–$2,800",
+    "priceTier": 4,
+    "score": 88,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 94
+      },
+      {
+        "label": "Home theater fit",
+        "value": 80
+      },
+      {
+        "label": "Connectivity",
+        "value": 92
+      },
+      {
+        "label": "Value",
+        "value": 66
+      }
+    ],
+    "summary": "KEF's acclaimed all-in-one active speakers with Uni-Q drivers, 380 W per speaker, HDMI eARC and every major streaming service; audiophile stereo for a TV setup.",
+    "verdict": "The LS50 Wireless II packs a complete hi-fi into two speakers. Each has KEF's **5.25-inch Uni-Q driver** (a 0.75-inch aluminum tweeter mounted in the center of the woofer) with **Metamaterial Absorption Technology**, driven by **380 W per speaker**: 100 W for the tweeter and 280 W for the woofer. KEF rates frequency response at **45 Hz–28 kHz ±3 dB**.\n\n**Why that matters on a TV.** The HDMI [eARC](/glossary/earc/) input means the TV and its remote control the speakers directly, and the coaxial Uni-Q design gives an unusually wide, consistent sweet spot, so people off to the side of the sofa still hear a stable center image for dialogue.\n\n**Add a sub at the right crossover.** 45 Hz at ±3 dB is excellent for a 5.25-inch woofer, but movie [LFE](/glossary/lfe/) goes well below that. Use the sub output and the app's high-pass filter: crossing the speakers over at around **80 Hz** frees the woofers from the deepest bass, which lowers distortion and raises clean output. A sealed sub like the [SVS SB-2000 Pro](/gear/svs-sb-2000-pro/) blends well.\n\n**Connections.** Optical, coaxial, analog, Ethernet, Bluetooth, AirPlay 2, Chromecast, Spotify Connect, Tidal Connect and Roon Ready. It's stereo only; there's no surround decoding.\n\nIndependent measurements show excellent performance, and owners rate it among the best active speakers available. It's expensive, but it replaces a streamer, amplifier and speakers. See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/).",
+    "bestFor": "Audiophiles who want top-tier stereo for music and TV from one system",
+    "skipIf": "You want surround sound or have a limited budget",
+    "pros": [
+      "Uni-Q drivers give a wide, stable sweet spot",
+      "380 W per speaker with excellent measured performance",
+      "HDMI eARC plus every major streaming service",
+      "Sub output with app-based crossover"
+    ],
+    "cons": [
+      "Expensive",
+      "Stereo only, no surround decoding",
+      "Deep movie bass still needs a sub"
+    ],
+    "specs": {
+      "Type": "Active wireless stereo speakers (pair)",
+      "Drivers": "5.25-inch Uni-Q (0.75-inch aluminum tweeter in magnesium-aluminum cone) with MAT",
+      "Frequency response": "45 Hz–28 kHz ±3 dB",
+      "Amplification": "380 W per speaker (100 W tweeter, 280 W woofer)",
+      "Inputs": "HDMI eARC, optical, coaxial, analog, Ethernet, Bluetooth, sub out",
+      "Streaming": "AirPlay 2, Chromecast, Spotify Connect, Tidal Connect, Roon Ready",
+      "Home theater role": "Stereo TV speakers via HDMI eARC",
+      "Dimensions": "305 × 200 × 311 mm per speaker (H × W × D)"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Amplification",
+      "Frequency response",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Can the KEF LS50 Wireless II connect to a TV?",
+        "a": "Yes. It has an HDMI eARC input, plus optical and coaxial, so it connects directly to most TVs."
+      },
+      {
+        "q": "Do the KEF LS50 Wireless II need a subwoofer?",
+        "a": "They reach 45 Hz on their own, which is excellent for music. For movies, adding a subwoofer through the dedicated output gives deeper bass and lets the speakers play cleaner."
+      },
+      {
+        "q": "Can the LS50 Wireless II do surround sound?",
+        "a": "No. They are a stereo pair and don't decode surround formats."
+      }
+    ]
+  },
+  {
+    "slug": "sonos-era-100",
+    "name": "Sonos Era 100",
+    "brand": "Sonos",
+    "category": "wireless-speaker",
+    "amazonQuery": "Sonos Era 100 speaker",
+    "released": "2023",
+    "priceBand": "$200–$250",
+    "priceTier": 1,
+    "score": 77,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 76
+      },
+      {
+        "label": "Home theater fit",
+        "value": 80
+      },
+      {
+        "label": "Connectivity",
+        "value": 78
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "A compact Sonos speaker with true stereo from one box, Bluetooth and line-in, and the most cost-effective way to add rear surrounds to a Sonos soundbar.",
+    "verdict": "The Era 100 is Sonos's compact speaker: **two angled tweeters** and a **woofer**, each with its own Class-D amplifier, so a single unit plays in stereo. It adds Bluetooth and a USB-C line-in (with adapter), plus Trueplay tuning.\n\n**As rear surrounds.** A pair of Era 100s is the most cost-effective way to turn a [Sonos Beam (Gen 2)](/gear/sonos-beam-gen-2/) or [Sonos Arc Ultra](/gear/sonos-arc-ultra/) into a real surround system. Add a [Sonos Sub 4](/gear/sonos-sub-4/) and you have a wireless 5.1 with the bar doing front height duty on the Arc Ultra. Compared with [Era 300](/gear/sonos-era-300/) rears, you give up rear height effects but pay about half.\n\n**Placement maths.** Put surrounds about **110–120 degrees** from straight ahead, slightly above ear height. On a typical sofa that means beside or just behind the seats. If the speakers must sit on a back wall, angle them toward the listening position and let Trueplay balance levels.\n\n**Stereo pair for music or TV.** Two Era 100s also make a capable stereo pair. In a room where you sit 8 feet away, aim for them roughly 6–8 feet apart.\n\nThe size limits deep bass, and each speaker needs an outlet. Owners rate the clarity and value highly. See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) and [Sonos home theater review](/sonos-home-theater-review/).",
+    "bestFor": "Sonos soundbar owners who want affordable wireless rear surrounds",
+    "skipIf": "You want rear height effects or deep bass from the speakers alone",
+    "pros": [
+      "Most affordable Sonos rear surround option",
+      "Stereo playback from a single speaker",
+      "Bluetooth and USB-C line-in",
+      "Trueplay tuning"
+    ],
+    "cons": [
+      "No height channel as rears",
+      "Limited deep bass",
+      "Each speaker needs a power outlet"
+    ],
+    "specs": {
+      "Type": "Powered wireless smart speaker",
+      "Drivers": "2 angled tweeters + 1 woofer",
+      "Amplification": "3 Class-D amplifiers",
+      "Inputs": "Wi-Fi, Bluetooth, USB-C line-in (adapter)",
+      "Streaming": "AirPlay 2, Spotify Connect, Sonos app",
+      "Home theater role": "Rear surrounds for Sonos soundbars",
+      "Dimensions": "182.5 × 120 × 130.5 mm (H × W × D)"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Home theater role",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Can the Sonos Era 100 be used as surround speakers?",
+        "a": "Yes. A pair works as wireless rear surrounds with Sonos soundbars including the Beam (Gen 2), Arc and Arc Ultra."
+      },
+      {
+        "q": "Does the Sonos Era 100 have Bluetooth?",
+        "a": "Yes. It supports Bluetooth as well as Wi-Fi streaming and a USB-C line-in with an adapter."
+      }
+    ]
+  },
+  {
+    "slug": "edifier-s3000pro",
+    "name": "Edifier S3000Pro Wireless Speakers",
+    "brand": "Edifier",
+    "category": "wireless-speaker",
+    "amazonQuery": "Edifier S3000Pro active wireless speakers",
+    "released": "2020",
+    "priceBand": "$700–$900",
+    "priceTier": 3,
+    "score": 76,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 84
+      },
+      {
+        "label": "Home theater fit",
+        "value": 66
+      },
+      {
+        "label": "Connectivity",
+        "value": 76
+      },
+      {
+        "label": "Value",
+        "value": 72
+      }
+    ],
+    "summary": "Active stereo speakers with planar tweeters, a wireless link between left and right, and balanced XLR inputs; strong music performance with a simple TV connection over optical.",
+    "verdict": "The S3000Pro is Edifier's flagship active stereo pair. Each speaker combines an **aluminum-cone woofer** with a **planar diaphragm tweeter**, and the two speakers link **wirelessly** to each other, so no cable has to cross the TV wall between them (each speaker still needs power). Inputs include **balanced XLR**, RCA, optical, coaxial and Bluetooth with **aptX HD**.\n\n**Connecting to a TV: set PCM.** There's no HDMI, so the usual route is optical from the TV. Most active speakers like this don't decode Dolby or DTS bitstreams, so set your TV's digital audio output to **PCM**; otherwise you may get silence or noise from streaming apps that send Dolby Digital. The TV then downmixes 5.1 to stereo.\n\n**Placement maths.** Wireless between speakers means freedom on spacing: for a sofa about 9 feet away, place them roughly 7–9 feet apart, slightly toed in, tweeters at ear height.\n\n**Who it suits.** Owners and reviewers praise the detailed, extended treble from the planar tweeters and strong overall value for music. For a TV, you give up HDMI convenience and remote integration compared with the [Klipsch The Fives](/gear/klipsch-the-fives/) or [KEF LS50 Wireless II](/gear/kef-ls50-wireless-ii/).\n\nSee the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) roundup.",
+    "bestFor": "Music-focused listeners who also want simple stereo TV sound",
+    "skipIf": "You want HDMI connection, TV remote control or surround sound",
+    "pros": [
+      "Planar tweeters give detailed, extended treble",
+      "Wireless link between left and right speakers",
+      "Balanced XLR plus optical, coax and RCA inputs",
+      "Bluetooth with aptX HD"
+    ],
+    "cons": [
+      "No HDMI ARC or eARC",
+      "Doesn't decode Dolby or DTS; set the TV to PCM",
+      "Large speakers for a TV stand"
+    ],
+    "specs": {
+      "Type": "Active stereo bookshelf speakers (pair)",
+      "Drivers": "Aluminum-cone woofer + planar diaphragm tweeter (per speaker)",
+      "Amplification": "Built-in amplifiers; wireless link between speakers",
+      "Inputs": "Balanced XLR, RCA, optical, coaxial, Bluetooth (aptX HD)",
+      "Streaming": "Bluetooth",
+      "Home theater role": "Stereo TV speakers via optical"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Inputs",
+      "Home theater role"
+    ],
+    "faqs": [
+      {
+        "q": "Can the Edifier S3000Pro connect to a TV?",
+        "a": "Yes, via optical or coaxial. Set your TV's digital audio output to PCM, since the speakers don't decode Dolby or DTS."
+      },
+      {
+        "q": "Are the Edifier S3000Pro speakers wireless?",
+        "a": "The left and right speakers link wirelessly to each other, and you can stream from a phone over Bluetooth. Each speaker still needs a power connection."
+      }
+    ]
+  }
+]

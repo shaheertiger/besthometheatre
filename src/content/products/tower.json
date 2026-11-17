@@ -1,0 +1,671 @@
+[
+  {
+    "slug": "klipsch-r-600f",
+    "name": "Klipsch R-600F Floorstanding Speaker",
+    "brand": "Klipsch",
+    "category": "tower",
+    "amazonQuery": "Klipsch R-600F floorstanding speaker",
+    "priceBand": "$250–$400 each",
+    "priceTier": 2,
+    "score": 78,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 74
+      },
+      {
+        "label": "Bass output",
+        "value": 78
+      },
+      {
+        "label": "Ease to drive",
+        "value": 92
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "An affordable horn-loaded tower with dual 6.5-inch woofers that plays loud on modest receivers, with the bright, forward character Klipsch is known for.",
+    "verdict": "The R-600F is the smaller tower in Klipsch's current Reference line: a **1-inch aluminum tweeter on a Tractrix horn** plus **two 6.5-inch spun-copper woofers**, in an 8-ohm design. Like the rest of the Reference range, its horn makes it far more sensitive than a typical dome-tweeter tower, which is the key to its appeal on a budget receiver.\n\n**Show the maths.** Two 6.5-inch woofers have the same cone area as one woofer about 6.5 × √2 ≈ **9.2 inches** across. That's enough to fill a medium room with midbass and handle a lower crossover than a bookshelf. On sensitivity, the rule is simple: every 3 dB above a typical 87 dB tower halves the power you need, and 6 dB cuts it to a quarter. Horn-loaded Klipsch towers sit comfortably in that territory, so an entry-level AVR's real-world 50–60 W per channel goes a long way ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nFor movies, still use a subwoofer: set the towers to Small at 60–80 Hz so low-frequency effects go to the sub and the towers keep their headroom for dialogue and music ([crossover basics](/glossary/crossover/)).\n\nThe trade-off is character. The horn gives punchy, forward sound that suits action films but can sound bright in a room with bare floors.\n\nMatch it with the [R-50C center](/gear/klipsch-r-50c/) and [R-50M bookshelves](/gear/klipsch-r-50m/) as surrounds. If you can stretch, the [RP-8000F II](/gear/klipsch-rp-8000f-ii/) is a big step up in bass and refinement. Compare towers in our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
+    "bestFor": "Budget 5.1 systems on entry-level receivers in medium rooms",
+    "skipIf": "You prefer a smooth, laid-back sound or have a very bright room",
+    "pros": [
+      "Horn-loaded design plays loud on modest receivers",
+      "Dual 6.5-inch woofers equal the area of one ~9.2-inch cone",
+      "Easy 8-ohm load",
+      "Matches the R-50C center and R-50M"
+    ],
+    "cons": [
+      "Treble can sound bright in hard-surfaced rooms",
+      "Vinyl-wrapped cabinet",
+      "Still benefits from a subwoofer for movies"
+    ],
+    "specs": {
+      "Type": "Floorstanding, horn-loaded",
+      "Drivers": "1-inch aluminum LTS tweeter on Tractrix horn; dual 6.5-inch spun-copper IMG woofers",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear port",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Do the Klipsch R-600F need a subwoofer?",
+        "a": "For music, they can play without one in a medium room. For movies, add a subwoofer and set the towers to Small at 60–80 Hz. That sends deep effects to the sub and gives the towers more clean headroom for dialogue."
+      },
+      {
+        "q": "Are the Klipsch R-600F sold as a pair?",
+        "a": "Klipsch towers are typically sold individually, so check the listing and budget for two. The price band here is per speaker."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-r-625fa",
+    "name": "Klipsch R-625FA Dolby Atmos Floorstanding Speaker",
+    "brand": "Klipsch",
+    "category": "tower",
+    "amazonQuery": "Klipsch R-625FA Dolby Atmos floorstanding",
+    "priceBand": "$400–$600 each",
+    "priceTier": 3,
+    "score": 79,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 75
+      },
+      {
+        "label": "Bass output",
+        "value": 80
+      },
+      {
+        "label": "Ease to drive",
+        "value": 90
+      },
+      {
+        "label": "Value",
+        "value": 78
+      }
+    ],
+    "summary": "A horn-loaded tower with a built-in Dolby Atmos elevation module, the easiest way to add height channels without ceiling speakers, though true in-ceiling speakers still image better.",
+    "verdict": "The R-625FA is a **dual 6.5-inch horn-loaded tower** from Klipsch's previous Reference generation with a **Dolby Atmos elevation module built into the top**. The module fires up at the ceiling, bounces height effects down to you, and connects through its own terminals, so each tower needs **two amplifier channels**: one for the main section and one for height ([Dolby Atmos explained](/glossary/dolby-atmos/)).\n\n**Show the maths.** Up-firing works by geometry. Dolby's guidance for enabled speakers uses an upward tilt of roughly 20 degrees and favours flat, reflective ceilings about 7.5–12 ft high. Say the top of the tower sits about 1.1 m (3.6 ft) off the floor under a 2.4 m (8 ft) ceiling: the sound rises 1.3 m and travels 1.3 × tan(20°) ≈ **0.47 m** toward you before hitting the ceiling. With the tower 2.5 m from your seat, that reflection point is about 2 m in front of you and 1.4 m above ear height, an elevation of roughly **35 degrees**, inside Dolby's recommended 30–55 degree window for front heights.\n\nThat's the theory. Vaulted, acoustic-tile or very high ceilings break the reflection, and in-ceiling speakers like the [Polk RC80i](/gear/polk-rc80i/) still give more precise overhead placement.\n\nThe main section is classic Klipsch: very sensitive, easy for a receiver to drive, and punchy. Pair it with a 7.2 or 9.2 receiver from our [best home theater receiver](/best-home-theater-receiver/) list, the [R-50C center](/gear/klipsch-r-50c/), and see our [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) guide for full layouts.",
+    "bestFor": "Renters and anyone who wants Atmos height without cutting ceiling holes",
+    "skipIf": "You can install in-ceiling speakers or have a vaulted or very high ceiling",
+    "pros": [
+      "Built-in Atmos module saves separate height speakers",
+      "Horn-loaded main section is very easy to drive",
+      "Dual 6.5-inch woofers for solid midbass",
+      "No ceiling installation needed"
+    ],
+    "cons": [
+      "Each tower uses two amplifier channels",
+      "Height effect depends on a flat, reflective ceiling",
+      "Previous-generation Reference model; stock varies"
+    ],
+    "specs": {
+      "Type": "Floorstanding with built-in Dolby Atmos elevation module",
+      "Drivers": "1-inch aluminum LTS tweeter on 90x90 Tractrix horn; dual 6.5-inch spun-copper IMG woofers; top-mounted up-firing Atmos module",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear port",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "How many receiver channels do the Klipsch R-625FA need?",
+        "a": "Two per tower: one for the main speaker and one for the Atmos module. A pair in a 5.1.2 layout needs a receiver with at least seven powered channels. Set the modules up in the receiver as front height or front Atmos-enabled speakers."
+      },
+      {
+        "q": "Do Atmos up-firing speakers work with any ceiling?",
+        "a": "They work best with a flat, hard ceiling roughly 7.5–12 ft high. Vaulted ceilings, acoustic tiles or exposed beams scatter or absorb the reflection, weakening the height effect. In those rooms, in-ceiling or high wall-mounted speakers are the better choice."
+      }
+    ]
+  },
+  {
+    "slug": "klipsch-rp-8000f-ii",
+    "name": "Klipsch RP-8000F II Floorstanding Speaker",
+    "brand": "Klipsch",
+    "category": "tower",
+    "amazonQuery": "Klipsch RP-8000F II floorstanding speaker",
+    "priceBand": "$600–$800 each",
+    "priceTier": 3,
+    "score": 86,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 84
+      },
+      {
+        "label": "Bass output",
+        "value": 90
+      },
+      {
+        "label": "Ease to drive",
+        "value": 96
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "Klipsch's dual 8-inch horn-loaded tower is rated at 98 dB and 32 Hz, so it hits reference levels on a mid-priced receiver and delivers serious bass even before a subwoofer.",
+    "verdict": "The RP-8000F II pairs a **1-inch titanium tweeter on a 90x90 Hybrid Tractrix horn** with **two 8-inch Cerametallic woofers** and a rear Tractrix port. Klipsch rates it at **32 Hz–25 kHz ±3 dB**, **98 dB** sensitivity, **8 ohms** and 150 W RMS / 600 W peak power handling.\n\n**Show the maths.** At 98 dB, 1 W produces about **88.5 dB** at a seat 3 m (10 ft) away. Reference peaks of 105 dB need just 16.5 dB more, which is **about 45 W**. A typical 87 dB tower needs 11 dB more power for the same result, which is more than **12 times the wattage** (around 560 W). That's why the RP-8000F II is the classic recommendation for people with a mid-priced receiver who want to play films loud ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nBass is the other headline. Two 8-inch woofers equal the cone area of one woofer about 8 × √2 ≈ **11.3 inches** across, and the ±3 dB rating at 32 Hz is unusually deep for a tower at this price. For music you can run them full-range; for movies, still pair a subwoofer and cross over at 60–80 Hz so the towers stay clean on big effects ([crossover basics](/glossary/crossover/)).\n\nThe trade-off is size and voicing. These are big, and the horn's forward treble needs careful toe-in in a lively room.\n\nMatch them with the [RP-504C II center](/gear/klipsch-rp-504c-ii/) and [RP-600M II](/gear/klipsch-rp-600m-ii/) surrounds. See where they rank in our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
+    "bestFor": "Medium to large rooms where you want reference-level movie sound from a mid-priced receiver",
+    "skipIf": "Your room is small or you prefer a soft, relaxed treble",
+    "pros": [
+      "98 dB sensitivity: about 45 W reaches 105 dB peaks at 10 ft",
+      "Dual 8-inch woofers rated to 32 Hz (±3 dB)",
+      "Dynamic, punchy sound for action films",
+      "Matches the RP-504C II center"
+    ],
+    "cons": [
+      "Large cabinet dominates small rooms",
+      "Horn treble can be bright in hard rooms",
+      "Sold individually, so a pair costs double the band"
+    ],
+    "specs": {
+      "Type": "Floorstanding, horn-loaded",
+      "Drivers": "1-inch titanium LTS tweeter on 90x90 Hybrid Tractrix horn; dual 8-inch Cerametallic woofers",
+      "Frequency response": "32 Hz–25 kHz ±3 dB",
+      "Sensitivity": "98 dB (2.83 V / 1 m)",
+      "Impedance": "8 ohms",
+      "Recommended power": "150 W RMS / 600 W peak (power handling)",
+      "Bass loading": "Rear Tractrix port",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Frequency response",
+      "Impedance"
+    ],
+    "faqs": [
+      {
+        "q": "Do the Klipsch RP-8000F II need a subwoofer?",
+        "a": "Not for music in most rooms, since they're rated to 32 Hz (±3 dB). For movies, a subwoofer still helps: it handles the LFE channel and lets the towers run at a 60–80 Hz crossover, which keeps them cleaner on loud scenes."
+      },
+      {
+        "q": "What amplifier power do the RP-8000F II need?",
+        "a": "Very little. At 98 dB sensitivity, about 45 W per channel reaches 105 dB reference peaks at 10 ft. Any mid-priced AV receiver is enough; an external amplifier adds little unless your room is very large."
+      }
+    ]
+  },
+  {
+    "slug": "polk-signature-elite-es60",
+    "name": "Polk Signature Elite ES60",
+    "brand": "Polk Audio",
+    "category": "tower",
+    "amazonQuery": "Polk Audio Signature Elite ES60 tower",
+    "released": "2020",
+    "priceBand": "$450–$650 each",
+    "priceTier": 3,
+    "score": 83,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 85
+      },
+      {
+        "label": "Bass output",
+        "value": 84
+      },
+      {
+        "label": "Ease to drive",
+        "value": 76
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "Polk's flagship Signature Elite tower offers smooth treble and solid Power Port bass for movie-and-music rooms, but it wants a receiver with real power behind it.",
+    "verdict": "The ES60 is the largest tower in Polk's Signature Elite range: a **1-inch Terylene dome tweeter** with multiple **6.5-inch Dynamic Balance woofers** and Polk's **Power Port**, which is shaped to cut port turbulence so bass stays clean at volume. It's an 8-ohm design with a Hi-Res certified tweeter.\n\n**Show the maths.** Polk's dome-tweeter towers are voiced for smoothness, not maximum efficiency, so expect sensitivity in the high 80s rather than the high 90s of Klipsch horns. The difference matters: every 3 dB is double the power. If a horn tower reaches a given volume with 45 W, a tower 9 dB less sensitive needs **eight times that**, around 360 W. In practice that means pairing the ES60 with a receiver that delivers its rated power with several channels driven, or adding an [external amplifier](/best-home-theater-amplifier/) for the fronts ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nWhat you get back is a smooth, balanced voice that's easy to listen to for hours, and multiple woofers that add up to a lot of cone area for midbass. Run them as Small at 60–80 Hz with a subwoofer for movies, or full-range for music ([crossover basics](/glossary/crossover/)).\n\nThe trade-off is that a Klipsch [RP-8000F II](/gear/klipsch-rp-8000f-ii/) will play louder on the same receiver, while the ES60 sounds more refined.\n\nBuild a matched front stage with the [ES35 center](/gear/polk-signature-elite-es35/) and [ES20 bookshelves](/gear/polk-signature-elite-es20/) as surrounds, and read our [Polk Audio review](/polk-audio-review/) for the full range.",
+    "bestFor": "Movie-and-music rooms where smooth, non-fatiguing sound matters",
+    "skipIf": "You have a low-powered receiver and want maximum volume",
+    "pros": [
+      "Smooth, balanced voicing with a Hi-Res tweeter",
+      "Power Port design for cleaner bass at volume",
+      "Multiple 6.5-inch woofers give strong midbass",
+      "Matches the ES35 center and ES20"
+    ],
+    "cons": [
+      "Less efficient than horn-loaded rivals, so needs more power",
+      "Large footprint",
+      "Sold individually"
+    ],
+    "specs": {
+      "Type": "Floorstanding",
+      "Drivers": "1-inch Terylene dome tweeter; 6.5-inch Dynamic Balance woofers",
+      "Impedance": "8 ohms",
+      "Bass loading": "Power Port",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Bass loading"
+    ],
+    "faqs": [
+      {
+        "q": "Can the Polk ES60 add Dolby Atmos?",
+        "a": "Not on its own, since it has no built-in up-firing driver. Polk makes a matching Signature Elite Atmos elevation module that sits on top, or you can add in-ceiling speakers. Either way, your receiver needs extra channels for the heights."
+      },
+      {
+        "q": "What receiver suits the Polk ES60?",
+        "a": "One that delivers real power with several channels driven. Because the ES60 is less efficient than horn-loaded towers, a stronger midrange or upper-tier AVR will let it reach loud movie levels without strain. See our receiver guide for picks."
+      }
+    ]
+  },
+  {
+    "slug": "polk-monitor-xt60",
+    "name": "Polk Monitor XT60",
+    "brand": "Polk Audio",
+    "category": "tower",
+    "amazonQuery": "Polk Audio Monitor XT60 tower speaker",
+    "released": "2021",
+    "priceBand": "$200–$350 each",
+    "priceTier": 2,
+    "score": 77,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 74
+      },
+      {
+        "label": "Bass output",
+        "value": 78
+      },
+      {
+        "label": "Ease to drive",
+        "value": 80
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "A budget tower that gives you a lot of cone area for the money, plus an easy path to Atmos with Polk's XT90 modules, at the cost of refinement.",
+    "verdict": "The Monitor XT60 is the mid-size tower in Polk's budget Monitor XT range: a **1-inch Terylene dome tweeter** and **6.5-inch woofers** in a vinyl-wrapped, ported cabinet, with Hi-Res certification and an 8-ohm rating.\n\n**Show the maths.** Towers win over bookshelves on cone area. Each extra 6.5-inch woofer adds about 33 square inches of nominal cone, and doubling total cone area is worth roughly **3 dB of output** at the same excursion, the same gain you'd get from doubling amplifier power. That's why the XT60 sounds fuller and less strained than the [XT20 bookshelf](/gear/polk-monitor-xt20/) at the same receiver setting. An 8-ohm load is also easy for budget receivers driving five or seven channels ([impedance explained](/glossary/impedance/)).\n\nFor movies, set the XT60 to Small at 60–80 Hz and let a subwoofer handle effects. For music, it can run full-range in a medium room ([crossover basics](/glossary/crossover/)).\n\nThe XT60's other strength is the range around it. The [XT90 height modules](/gear/polk-monitor-xt90/) sit on top for Atmos, and the [XT35 center](/gear/polk-monitor-xt35/) shares the same tweeter, so a matched 5.1.2 system stays affordable.\n\nThe trade-off is refinement: cabinet bracing and treble are built to a price, and the step up to the [Signature Elite ES60](/gear/polk-signature-elite-es60/) is clear. See our [best budget home theater speakers](/best-budget-home-theater-speakers/) for more.",
+    "bestFor": "Budget 5.1 and 5.1.2 systems in medium rooms",
+    "skipIf": "You want refined treble and furniture-grade finish",
+    "pros": [
+      "Lots of cone area for the money",
+      "Easy 8-ohm load",
+      "Matches XT35 center and XT90 Atmos modules",
+      "Hi-Res certified tweeter"
+    ],
+    "cons": [
+      "Vinyl-wrapped cabinet",
+      "Treble less refined than Signature Elite",
+      "Sold individually"
+    ],
+    "specs": {
+      "Type": "Floorstanding",
+      "Drivers": "1-inch Terylene dome tweeter; 6.5-inch woofers",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear port",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Can I put Atmos speakers on top of the Polk XT60?",
+        "a": "Yes. Polk's Monitor XT90 height modules are designed to sit on top of Monitor XT speakers and fire at the ceiling. You'll need a receiver with at least seven channels for a 5.1.2 setup with a pair of modules."
+      },
+      {
+        "q": "Polk XT60 or a bookshelf plus subwoofer?",
+        "a": "If you have floor space, the XT60 gives more midbass and dynamics than an XT20 bookshelf, and it blends more easily with a subwoofer. If space is tight, an XT20 pair plus a good subwoofer at 80 Hz gets you most of the way."
+      }
+    ]
+  },
+  {
+    "slug": "elac-debut-f62",
+    "name": "ELAC Debut 2.0 F6.2 Floorstanding Speaker",
+    "brand": "ELAC",
+    "category": "tower",
+    "amazonQuery": "ELAC Debut 2.0 F6.2 floorstanding speaker",
+    "released": "2018",
+    "priceBand": "$350–$500 each",
+    "priceTier": 3,
+    "score": 82,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 83
+      },
+      {
+        "label": "Bass output",
+        "value": 84
+      },
+      {
+        "label": "Ease to drive",
+        "value": 76
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "A true 3-way tower with three 6.5-inch aramid woofers and a dedicated midrange, offering neutral sound and deep bass, though its 6-ohm rating needs a capable receiver.",
+    "verdict": "The Debut 2.0 F6.2 is an Andrew Jones design and a genuine **3-way**: a **1-inch cloth dome tweeter**, a **5.25-inch aramid-fiber midrange** and **three 6.5-inch aramid-fiber woofers**. ELAC rates it at **35 Hz–35 kHz**, **87 dB** and **6 ohms**.\n\n**Show the maths.** Three 6.5-inch woofers have the same cone area as a single woofer about 6.5 × √3 ≈ **11.3 inches** across, which is why the F6.2 reaches a rated 35 Hz. A dedicated midrange also means the woofers don't have to reproduce voices, which keeps dialogue cleaner at volume.\n\nSensitivity needs a correction. The 87 dB figure is quoted at 2.83 V, which is about **1.33 W into 6 ohms**, so the true per-watt figure is roughly 85.8 dB. At 3 m (10 ft), 1 W gives about 76.3 dB at the seat; 95 dB peaks need around **75 W**, and 100 dB peaks about **235 W**. A solid midrange AVR handles normal levels; enthusiasts who listen loud should consider an [external amplifier](/best-home-theater-amplifier/) ([impedance explained](/glossary/impedance/)).\n\nThe trade-off: it's less efficient than Klipsch horns and plainer in finish than Polk's Signature Elite. But for neutral voicing and real bass, it's strong value.\n\nPair it with the [Debut C5.2 center](/gear/elac-debut-c52/), [B6.2 bookshelves](/gear/elac-debut-b62/) as surrounds and the [A4.2 Atmos modules](/gear/elac-debut-a42/). See all options in our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
+    "bestFor": "Neutral-sounding movie and music systems in medium to large rooms",
+    "skipIf": "You have a low-powered receiver or a very small room",
+    "pros": [
+      "True 3-way with dedicated midrange for cleaner dialogue",
+      "Three 6.5-inch woofers equal one ~11.3-inch cone",
+      "Rated to 35 Hz",
+      "Neutral Andrew Jones voicing"
+    ],
+    "cons": [
+      "6-ohm load: true per-watt sensitivity is about 85.8 dB",
+      "Plain cabinet finish",
+      "Needs a capable receiver for loud peaks"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding",
+      "Drivers": "1-inch cloth dome tweeter; 5.25-inch aramid-fiber midrange; three 6.5-inch aramid-fiber woofers",
+      "Frequency response": "35 Hz–35 kHz",
+      "Sensitivity": "87 dB (2.83 V / 1 m)",
+      "Impedance": "6 ohms",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Frequency response"
+    ],
+    "faqs": [
+      {
+        "q": "Is the ELAC Debut 2.0 F6.2 hard to drive?",
+        "a": "It's moderate. The 6-ohm rating and 87 dB sensitivity mean about 75 W for 95 dB peaks at 10 ft. Most midrange AV receivers manage that. If you listen near reference levels in a large room, add an external amplifier for the front channels."
+      },
+      {
+        "q": "Do I need a subwoofer with the ELAC F6.2?",
+        "a": "For music, it's optional thanks to three 6.5-inch woofers rated to 35 Hz. For movies, a subwoofer handles the LFE channel and lets the towers run at a 60–80 Hz crossover for cleaner, louder sound."
+      }
+    ]
+  },
+  {
+    "slug": "svs-prime-tower",
+    "name": "SVS Prime Tower",
+    "brand": "SVS",
+    "category": "tower",
+    "amazonQuery": "SVS Prime Tower speaker",
+    "priceBand": "$1,000–$1,300 per pair",
+    "priceTier": 3,
+    "score": 85,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 86
+      },
+      {
+        "label": "Bass output",
+        "value": 84
+      },
+      {
+        "label": "Ease to drive",
+        "value": 78
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "A neutral 3-way tower with a dedicated 4.5-inch midrange and a genuine ±3 dB rating to 35 Hz, designed to blend seamlessly with SVS subwoofers.",
+    "verdict": "The Prime Tower is a proper **3-way** design: a **1-inch aluminum dome tweeter**, a **4.5-inch polypropylene midrange** and **two 6.5-inch polypropylene woofers**. SVS rates it at **35 Hz–25 kHz ±3 dB**, **87 dB** and **8 ohms**.\n\nThe ±3 dB tolerance matters. It tells you output is still near full strength at 35 Hz, not just audible. That's deep for a tower at this price, and it makes the crossover to a subwoofer seamless ([crossover explained](/glossary/crossover/)).\n\n**Show the maths.** At 87 dB, 1 W gives about 77.5 dB at a seat 3 m (10 ft) away. Peaks of 95 dB need roughly **56 W**, which most receivers can supply. Reference-level 105 dB peaks would need about **560 W**, which no AVR delivers per channel, so if you want near-reference volume in a large room, an [external amplifier](/best-home-theater-amplifier/) for the fronts makes sense. By comparison, a 98 dB Klipsch [RP-8000F II](/gear/klipsch-rp-8000f-ii/) needs about 45 W for the same peaks ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nWhat the Prime Tower gives back is accuracy. A dedicated midrange keeps voices out of the woofers, and the voicing is neutral, which suits a well-treated room and anyone who values dialogue clarity over punch.\n\nThe trade-off is efficiency and a lean balance in bright, bare rooms.\n\nPair it with the [Prime Center](/gear/svs-prime-center/) for a matched front stage and an SVS sub from our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "bestFor": "Accurate, balanced systems built around a quality subwoofer",
+    "skipIf": "You want maximum volume from a modest receiver",
+    "pros": [
+      "True 3-way with dedicated 4.5-inch midrange",
+      "35 Hz rated with a real ±3 dB tolerance",
+      "Neutral voicing for clear dialogue",
+      "Matches the Prime Center and Prime Bookshelf"
+    ],
+    "cons": [
+      "87 dB sensitivity needs real power for reference peaks",
+      "Can sound lean in bright, hard rooms",
+      "Pricier than budget towers"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding",
+      "Drivers": "1-inch aluminum dome tweeter; 4.5-inch polypropylene midrange; dual 6.5-inch polypropylene woofers",
+      "Frequency response": "35 Hz–25 kHz ±3 dB",
+      "Sensitivity": "87 dB",
+      "Impedance": "8 ohms",
+      "Bass loading": "Rear ported"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Frequency response",
+      "Impedance"
+    ],
+    "faqs": [
+      {
+        "q": "Do the SVS Prime Towers need a subwoofer?",
+        "a": "Not for music in most rooms, since they're rated to 35 Hz (±3 dB). For movies, a subwoofer handles the LFE channel and lets you set the towers to a 60–80 Hz crossover, which frees up amplifier power and keeps them cleaner at volume."
+      },
+      {
+        "q": "What amplifier do the SVS Prime Towers need?",
+        "a": "A decent AV receiver is enough for normal listening: about 56 W per channel gives 95 dB peaks at 10 ft. For near-reference levels in a large room, an external amplifier for the front pair is a worthwhile upgrade."
+      }
+    ]
+  },
+  {
+    "slug": "sony-ss-cs3",
+    "name": "Sony SS-CS3 Floorstanding Speaker",
+    "brand": "Sony",
+    "category": "tower",
+    "amazonQuery": "Sony SS-CS3 3-way floor standing speaker",
+    "priceBand": "$120–$200 each",
+    "priceTier": 2,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 72
+      },
+      {
+        "label": "Bass output",
+        "value": 74
+      },
+      {
+        "label": "Ease to drive",
+        "value": 82
+      },
+      {
+        "label": "Value",
+        "value": 88
+      }
+    ],
+    "summary": "A slim, budget 3-way tower with dual 5.12-inch woofers and a super tweeter, rated at 88 dB, a good value front pair for a starter system.",
+    "verdict": "The SS-CS3 is Sony's budget tower: **two 5.12-inch mica-reinforced cellular woofers**, a **1-inch polyester main tweeter** and a **0.75-inch super tweeter** in a slim cabinet. Sony rates it at **45 Hz–50 kHz**, **88 dB**, **6 ohms** and 145 W maximum input.\n\n**Show the maths.** Two 5.12-inch woofers equal the cone area of one woofer about 5.12 × √2 ≈ **7.2 inches** across, which is more than any bookshelf in this price range. That's why it reaches a rated 45 Hz.\n\nOn sensitivity, the 88 dB figure is quoted at 2.83 V, which is about 1.33 W into 6 ohms. The true per-watt figure is around **86.8 dB**. At 3 m (10 ft), 1 W gives about 77.3 dB at the seat, so 95 dB peaks need about **60 W**, comfortable for an entry-level receiver in a small to medium room ([sensitivity explained](/glossary/speaker-sensitivity/), [impedance explained](/glossary/impedance/)).\n\nThe super tweeter's 50 kHz extension is beyond human hearing. Its useful job is to widen treble dispersion so off-center seats get a more even sound.\n\nThe trade-off: cabinet build and finish are basic, and dual 5.12-inch woofers are no substitute for a subwoofer in movies. Set them to Small at 80 Hz ([crossover basics](/glossary/crossover/)).\n\nBuild a matched budget system with the [SS-CS8 center](/gear/sony-ss-cs8/) and [SS-CS5 bookshelves](/gear/sony-ss-cs5/) as surrounds, and see our [Sony home theater review](/sony-home-theater-review/) for more.",
+    "bestFor": "Starter 5.1 systems that want slim towers on a budget",
+    "skipIf": "You want deep bass without a subwoofer or premium build",
+    "pros": [
+      "Slim cabinet suits small rooms",
+      "3-way design with super tweeter for wide dispersion",
+      "88 dB rating suits entry-level receivers",
+      "Matches the SS-CS8 and SS-CS5"
+    ],
+    "cons": [
+      "Dual 5.12-inch woofers still need a subwoofer for movies",
+      "Basic finish and build",
+      "6-ohm load flatters the 2.83 V sensitivity"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding",
+      "Drivers": "0.75-inch super tweeter; 1-inch polyester tweeter; dual 5.12-inch mica-reinforced cellular woofers",
+      "Frequency response": "45 Hz–50 kHz",
+      "Sensitivity": "88 dB (2.83 V / 1 m)",
+      "Impedance": "6 ohms",
+      "Recommended power": "145 W max input",
+      "Sold as": "Each"
+    },
+    "keySpecs": [
+      "Drivers",
+      "Sensitivity",
+      "Impedance",
+      "Frequency response"
+    ],
+    "faqs": [
+      {
+        "q": "Are the Sony SS-CS3 good for home theater?",
+        "a": "Yes, as front speakers in a budget system. They're easy to drive and match the SS-CS8 center. Add a subwoofer and set them to Small at 80 Hz, because the dual 5.12-inch woofers can't deliver deep movie bass on their own."
+      },
+      {
+        "q": "Are the Sony SS-CS3 sold individually?",
+        "a": "Yes, they're usually sold as single speakers, so budget for two. The price band shown here is per speaker."
+      }
+    ]
+  },
+  {
+    "slug": "kef-q7-meta",
+    "name": "KEF Q7 Meta Floorstanding Speaker",
+    "brand": "KEF",
+    "category": "tower",
+    "amazonQuery": "KEF Q7 Meta floorstanding speakers",
+    "released": "2023",
+    "priceBand": "$1,500–$2,000 per pair",
+    "priceTier": 4,
+    "score": 88,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 90
+      },
+      {
+        "label": "Bass output",
+        "value": 84
+      },
+      {
+        "label": "Ease to drive",
+        "value": 76
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "KEF's Uni-Q tower with MAT brings coaxial imaging and even dispersion to a full-range speaker, the most refined tower here if you can feed it decent power.",
+    "verdict": "The Q7 Meta is a **3-way floorstander** built around KEF's 12th-generation **Uni-Q** driver: a **1-inch vented aluminum dome tweeter** at the center of an aluminum midrange cone, with **Metamaterial Absorption Technology (MAT)** behind the tweeter, plus dedicated aluminum-cone bass drivers. It's an 8-ohm design.\n\n**Show the maths.** The Uni-Q puts tweeter and midrange at the same acoustic point. With a conventional tower, the tweeter and midrange sit several inches apart, so at an off-axis seat their path lengths differ. A 2 cm difference is half a wavelength at about 8.6 kHz (343 m/s ÷ 0.04 m), enough to cause dips in the treble. A coaxial driver removes that path difference, which is why owners describe the Q7 Meta's imaging as stable across the whole sofa.\n\nMAT addresses the other problem. KEF says it absorbs 99% of the sound radiating from the back of the tweeter, which otherwise reflects and smears detail.\n\nLike most dome-tweeter towers, the Q7 Meta isn't as efficient as a Klipsch horn. A 9 dB efficiency gap means **eight times** the power for the same volume, so pair it with a receiver that delivers its rated power, or an [external amplifier](/best-home-theater-amplifier/) for loud, large rooms ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe trade-off is price: it costs well over budget towers, though less than KEF's R Series like the [R7 Meta](/gear/kef-r7-meta/).\n\nPair it with the [Q6 Meta center](/gear/kef-q6-meta/) and [Q3 Meta](/gear/kef-q3-meta/) surrounds for a fully coaxial system. See our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
+    "bestFor": "Wide seating areas and mixed movie/music rooms that value imaging",
+    "skipIf": "You have a low-powered receiver or a tight budget",
+    "pros": [
+      "Uni-Q coaxial driver gives stable imaging off-axis",
+      "MAT absorber for cleaner treble",
+      "Dedicated bass drivers for full-range sound",
+      "Matches Q6 Meta center for seamless pans"
+    ],
+    "cons": [
+      "Less efficient than horn-loaded towers",
+      "Costs more than most mid-range towers",
+      "Needs space from the rear wall"
+    ],
+    "specs": {
+      "Type": "3-way floorstanding, coaxial",
+      "Drivers": "Uni-Q with MAT (1-inch vented aluminum dome tweeter in aluminum midrange); aluminum-cone bass drivers",
+      "Impedance": "8 ohms",
+      "Bass loading": "Ported"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Bass loading"
+    ],
+    "faqs": [
+      {
+        "q": "What makes the KEF Q7 Meta different from other towers?",
+        "a": "Its Uni-Q driver places the tweeter at the center of the midrange cone, so both radiate from one point. That keeps treble and midrange balanced at off-axis seats. KEF's MAT absorber behind the tweeter also reduces unwanted reflections for cleaner high frequencies."
+      },
+      {
+        "q": "What receiver power does the KEF Q7 Meta need?",
+        "a": "A capable midrange receiver is enough for most rooms. Like other dome-tweeter towers, it's less efficient than a Klipsch horn design, so if you listen near reference levels in a large room, an external amplifier for the front pair is worth it."
+      }
+    ]
+  },
+  {
+    "slug": "dayton-t652-air",
+    "name": "Dayton Audio T652-AIR Tower Speaker",
+    "brand": "Dayton Audio",
+    "category": "tower",
+    "amazonQuery": "Dayton Audio T652-AIR tower speaker",
+    "priceBand": "$150–$250 per pair",
+    "priceTier": 1,
+    "score": 66,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 64
+      },
+      {
+        "label": "Bass output",
+        "value": 70
+      },
+      {
+        "label": "Ease to drive",
+        "value": 76
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "An inexpensive dual 6.5-inch tower pair with an AMT tweeter that's fine for a starter system, but its build and refinement show the price.",
+    "verdict": "The T652-AIR is Dayton's budget tower, updated with an **air motion transformer (AMT) tweeter** and **two 6.5-inch polypropylene woofers** in a slim, vinyl-wrapped cabinet. It's sold as a pair, which makes it one of the cheapest ways to get floorstanders.\n\n**Show the maths.** Two 6.5-inch woofers equal the cone area of one woofer about 6.5 × √2 ≈ **9.2 inches** across. Compared with a single 6.5-inch bookshelf, doubling cone area is worth roughly **3 dB more output** at the same excursion, the same gain as doubling amplifier power. That's the T652-AIR's case: more midbass and a fuller sound than a bookshelf at a similar price ([crossover basics](/glossary/crossover/)).\n\nThe AMT tweeter gives crisp, detailed treble for the money. What you give up is cabinet quality: thin walls and minimal bracing mean the box can color the sound at high volume, so it's best at moderate levels with a subwoofer handling everything below 80 Hz.\n\nDayton doesn't make a matched center in our catalog. If you're building 5.1 on a budget, pick a center from our [best center channel speaker](/best-center-channel-speaker-for-home-theater/) guide, ideally one with a bright, detailed tweeter so the timbre doesn't shift too much as voices pan.\n\nThe trade-off: the [Sony SS-CS3](/gear/sony-ss-cs3/) or [Polk Monitor XT60](/gear/polk-monitor-xt60/) cost more per pair but offer matched centers and better build. See our [best budget home theater speakers](/best-budget-home-theater-speakers/).",
+    "bestFor": "The tightest budgets that still want floorstanding speakers",
+    "skipIf": "You want a matched center or refined sound at high volume",
+    "pros": [
+      "Very low price for a pair of towers",
+      "Dual 6.5-inch woofers per speaker",
+      "Crisp AMT tweeter",
+      "Slim footprint"
+    ],
+    "cons": [
+      "Thin, lightly braced cabinet",
+      "No matching center in the range we cover",
+      "Needs a subwoofer for movies"
+    ],
+    "specs": {
+      "Type": "Floorstanding",
+      "Drivers": "AMT (air motion transformer) tweeter; dual 6.5-inch polypropylene woofers",
+      "Finish": "Black vinyl wrap",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Finish",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Are the Dayton T652-AIR good for home theater?",
+        "a": "They're a reasonable starter pair for a small to medium room at moderate volume. Add a subwoofer with an 80 Hz crossover and a center channel. If budget allows, matched families like Sony's SS-CS line or Polk's Monitor XT sound more cohesive."
+      },
+      {
+        "q": "Is the Dayton T652-AIR sold as a pair?",
+        "a": "Yes, it's sold as a pair, so the price band shown here covers two speakers. That makes it one of the cheapest ways to get floorstanding fronts."
+      }
+    ]
+  }
+]

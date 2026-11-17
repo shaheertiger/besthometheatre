@@ -1,0 +1,474 @@
+[
+  {
+    "slug": "valencia-tuscany-theater-seating",
+    "name": "Valencia Tuscany Home Theater Seating",
+    "brand": "Valencia",
+    "category": "seating",
+    "amazonQuery": "Valencia Tuscany home theater seating",
+    "priceBand": "$1,000–$1,800 per seat",
+    "priceTier": 4,
+    "score": 86,
+    "scores": [
+      {
+        "label": "Comfort",
+        "value": 90
+      },
+      {
+        "label": "Build & materials",
+        "value": 88
+      },
+      {
+        "label": "Features",
+        "value": 88
+      },
+      {
+        "label": "Value",
+        "value": 72
+      }
+    ],
+    "summary": "Premium modular theater seating in top-grain leather with power recline, power headrest and lumbar, built to order in straight or curved rows for a dedicated room.",
+    "verdict": "Valencia's Tuscany line is the kind of seating built for a dedicated theater: **top-grain leather**, **power recline**, **power headrest** and **power lumbar**, with USB charging, cup holders and ambient base lighting. It's sold as modular configurations, so you choose single seats, straight rows, curved rows or loveseat sections.\n\n**Plan the row with simple maths.** Total row width is roughly *(number of seats × seat width) + end arms*, and every listing gives those figures, so add them up before you order. Then check the screen: a curved row keeps every seat closer to the same distance and angle, which matters most for the end seats on rows of four or more. Use the [viewing distance calculator](/tools/viewing-distance-calculator/) from the middle seat, then confirm the end seats still fall inside a comfortable angle.\n\n**Riser depth for a second row.** A reclined chair needs much more depth than an upright one. Measure the listed fully-reclined depth, then add about 12 inches of walkway behind the front row. A riser of 12 inches or more lets second-row eyes clear first-row heads; deeper risers make room for a bar ledge.\n\n**Power planning.** Each powered seat needs mains power. A three-seat row with lighting and USB usually connects via a power supply chain, so put an outlet under or behind the riser.\n\nOwners praise the leather quality and comfort; lead times and freight delivery are the main caveats. More in the [best home theater seating](/best-home-theater-seating/) roundup and the [home theater room design](/home-theater-room-design/) guide.",
+    "bestFor": "Dedicated theater rooms that want premium, configurable leather seating",
+    "skipIf": "You have a tight budget or a living room where seats must double as a sofa",
+    "pros": [
+      "Top-grain leather with power recline, headrest and lumbar",
+      "Modular straight or curved rows",
+      "USB charging, cup holders and ambient lighting",
+      "Strong owner reputation for comfort"
+    ],
+    "cons": [
+      "Expensive per seat",
+      "Freight delivery and lead times",
+      "Each row needs a nearby power outlet"
+    ],
+    "specs": {
+      "Type": "Modular home theater seating",
+      "Seats": "Single seats to multi-seat straight or curved rows",
+      "Upholstery": "Top-grain leather",
+      "Recline": "Power recline",
+      "Headrest": "Power headrest and power lumbar",
+      "Features": "USB charging, cup holders, ambient base lighting",
+      "Configurations": "Straight rows, curved rows, loveseats"
+    },
+    "keySpecs": [
+      "Type",
+      "Upholstery",
+      "Recline",
+      "Features"
+    ],
+    "faqs": [
+      {
+        "q": "Can I get Valencia Tuscany seating in a curved row?",
+        "a": "Yes. Tuscany is sold in straight and curved configurations, and curved rows keep end seats closer to the same viewing angle as the center seat."
+      },
+      {
+        "q": "Does Valencia Tuscany need power?",
+        "a": "Yes. The power recline, headrest, lumbar, USB and lighting all need mains power, so plan an outlet near each row."
+      }
+    ]
+  },
+  {
+    "slug": "seatcraft-republic",
+    "name": "Seatcraft Republic Home Theater Seating",
+    "brand": "Seatcraft",
+    "category": "seating",
+    "amazonQuery": "Seatcraft Republic home theater seating row",
+    "priceBand": "$800–$1,400 per seat",
+    "priceTier": 3,
+    "score": 82,
+    "scores": [
+      {
+        "label": "Comfort",
+        "value": 86
+      },
+      {
+        "label": "Build & materials",
+        "value": 82
+      },
+      {
+        "label": "Features",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 76
+      }
+    ],
+    "summary": "Well-equipped leather theater seating with power recline, power headrest and lit cup holders at a lower price per seat than top-tier brands.",
+    "verdict": "Seatcraft's Republic is a popular middle ground between luxury theater seating and furniture-store recliners. Configurations offer **leather upholstery**, **power recline** and a **power headrest**, plus USB charging, lit cup holders and ambient lighting, and you can order single seats or rows.\n\n**Show the room maths.** For each row, total width is *(seats × listed seat width) + end arms*. Then check depth: measure the fully-reclined depth from the listing and add about 12 inches behind it for a walkway. For a second row on a riser, a riser of roughly 12–18 inches gives clear sightlines over first-row heads, and the riser must be deep enough for the fully reclined chair plus that walkway.\n\n**Wall clearance matters in small rooms.** Many power recliners slide forward as they recline so they can sit close to a wall; check the listed wall clearance before pushing a row against the back wall.\n\n**Leather grades.** Seatcraft sells more than one leather grade; top-grain leather wears better and breathes more than bonded or synthetic materials. If you're comparing listings, check what's on the seating surfaces versus the sides and back.\n\nOwners rate the comfort and features for the money, with occasional notes about assembly of row connectors. Compared with [Valencia Tuscany](/gear/valencia-tuscany-theater-seating/), it gives up some materials and power lumbar on many configurations but saves a meaningful amount per seat. See the [best home theater seating](/best-home-theater-seating/) roundup.",
+    "bestFor": "Dedicated rooms and media rooms that want powered leather seating on a mid-range budget",
+    "skipIf": "You want the very best materials or a curved row with every option",
+    "pros": [
+      "Power recline and power headrest",
+      "USB charging and lit cup holders",
+      "Lower cost per seat than luxury brands",
+      "Single seats or rows available"
+    ],
+    "cons": [
+      "Leather grade varies by configuration",
+      "Freight delivery and some assembly",
+      "Needs power at each row"
+    ],
+    "specs": {
+      "Type": "Home theater seating",
+      "Seats": "Single seats or multi-seat rows",
+      "Upholstery": "Leather (grade varies by configuration)",
+      "Recline": "Power recline",
+      "Headrest": "Power headrest",
+      "Features": "USB charging, lit cup holders, ambient lighting",
+      "Configurations": "Single seats, straight rows, loveseat options"
+    },
+    "keySpecs": [
+      "Type",
+      "Upholstery",
+      "Recline",
+      "Features"
+    ],
+    "faqs": [
+      {
+        "q": "Is Seatcraft Republic real leather?",
+        "a": "Seatcraft offers Republic in leather, with the grade depending on configuration. Check the listing for whether top-grain leather covers only seating surfaces or the whole chair."
+      },
+      {
+        "q": "How much space does a Seatcraft Republic row need?",
+        "a": "Add the listed seat widths plus end arms for total width. For depth, use the fully-reclined depth from the listing and allow about 12 inches of walkway behind it."
+      }
+    ]
+  },
+  {
+    "slug": "octane-seating-flex-hr",
+    "name": "Octane Seating Flex HR Home Theater Seats",
+    "brand": "Octane Seating",
+    "category": "seating",
+    "amazonQuery": "Octane Seating Flex HR home theater seating",
+    "priceBand": "$800–$1,300 per seat",
+    "priceTier": 3,
+    "score": 80,
+    "scores": [
+      {
+        "label": "Comfort",
+        "value": 84
+      },
+      {
+        "label": "Build & materials",
+        "value": 82
+      },
+      {
+        "label": "Features",
+        "value": 80
+      },
+      {
+        "label": "Value",
+        "value": 76
+      }
+    ],
+    "summary": "Octane's Flex HR seats pair power recline with an adjustable headrest in leather, aimed at dedicated rooms that want modular rows from a seating specialist.",
+    "verdict": "Octane Seating is a home-theater specialist, and the Flex HR is one of its powered models: **power recline** with an **adjustable headrest** (the \"HR\"), in leather, sold as single seats or modular rows. Accessories like cup holders, USB charging and lighting vary by configuration.\n\n**Why the headrest matters, with numbers.** When you recline, your head moves back and your eye line tilts upward. If your screen sits high, as it often does in rooms with a front-row riser or a center speaker under the screen, a fixed headrest pushes your chin down and you end up craning. A powered headrest lets you bring your eyes back level with the middle of the screen. A good target is having the center of the screen roughly at, or slightly above, seated eye level.\n\n**Row planning.** Total row width is *(seats × listed seat width) + end arms*. For a two-row room, measure the listed fully reclined depth for the front row and add a walkway of about 12 inches; that's your minimum riser depth for the back row. Use the [viewing distance calculator](/tools/viewing-distance-calculator/) to place each row.\n\nOwners tend to praise build quality and support; delivery times and leather grade options are worth confirming before ordering. Compared with [Seatcraft Republic](/gear/seatcraft-republic/), it's similar money with a stronger focus on head support. See the [best home theater seating](/best-home-theater-seating/) roundup and [home theater setup guide](/home-theater-setup-guide/).",
+    "bestFor": "Dedicated theaters with a high screen where adjustable head support matters",
+    "skipIf": "You want a sofa-style sectional or a budget single recliner",
+    "pros": [
+      "Power recline with adjustable headrest",
+      "Modular rows from a theater-seating specialist",
+      "Good owner reputation for build quality",
+      "Accessory options for cup holders and USB"
+    ],
+    "cons": [
+      "Options and leather grades vary, so read the listing carefully",
+      "Freight delivery and lead times",
+      "Needs power at each row"
+    ],
+    "specs": {
+      "Type": "Home theater seating",
+      "Seats": "Single seats or multi-seat rows",
+      "Upholstery": "Leather (grade varies by configuration)",
+      "Recline": "Power recline",
+      "Headrest": "Power adjustable headrest",
+      "Features": "Cup holders and USB charging (varies by configuration)",
+      "Configurations": "Single seats, straight rows, loveseat options"
+    },
+    "keySpecs": [
+      "Type",
+      "Upholstery",
+      "Recline",
+      "Features"
+    ],
+    "faqs": [
+      {
+        "q": "What does HR mean on Octane Flex HR seats?",
+        "a": "HR refers to the adjustable headrest, which lets you tilt your head forward when reclined so your eyes stay level with the screen."
+      },
+      {
+        "q": "Can Octane Flex HR seats go on a riser?",
+        "a": "Yes. Make the riser at least as deep as the fully-reclined chair plus about 12 inches of walkway, and roughly 12 inches or higher for clear sightlines."
+      }
+    ]
+  },
+  {
+    "slug": "homall-recliner",
+    "name": "Homall Single Recliner Chair",
+    "brand": "Homall",
+    "category": "seating",
+    "amazonQuery": "Homall recliner chair home theater seating",
+    "priceBand": "$150–$250",
+    "priceTier": 1,
+    "score": 60,
+    "scores": [
+      {
+        "label": "Comfort",
+        "value": 64
+      },
+      {
+        "label": "Build & materials",
+        "value": 52
+      },
+      {
+        "label": "Features",
+        "value": 54
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "An inexpensive single recliner in faux leather with manual recline, fine as an extra seat or for a small room, but not built for years of nightly use.",
+    "verdict": "Homall's single recliner is one of the cheapest ways to add a reclining seat to a media room. It's upholstered in **PU (faux) leather** with **manual recline** and thick padding, and some versions add cup holders or simple vibration massage. Exact features vary between listings.\n\n**Do the per-seat maths.** A row of three of these costs a fraction of a single seat from [Valencia Tuscany](/gear/valencia-tuscany-theater-seating/). For a guest room, a kids' room or an occasional movie night, that's a sensible trade. For a dedicated theater used nightly, owner reviews suggest PU leather can crack or peel and cushions flatten within a few years, so the cost per year narrows.\n\n**Space check.** Manual recliners usually need clearance from the wall to recline fully. Measure the listed reclined length and add a few inches behind; if you need to put the chair against a wall, look for a \"wall-hugger\" design instead. For multiple chairs side by side, add each listed chair width together; standalone recliners have two arms each, so a row takes more width than a joined theater row.\n\n**Sightlines.** Single recliners sit lower than many theater seats. If you use them behind another row, a riser of 12 inches or more helps.\n\nIt's a practical budget choice, not a long-term investment. See the [best home theater seating](/best-home-theater-seating/) roundup for upgrades.",
+    "bestFor": "Budget rooms, kids' spaces and occasional extra seating",
+    "skipIf": "You want durable leather for nightly use in a dedicated theater",
+    "pros": [
+      "Very affordable",
+      "Manual recline needs no power outlet",
+      "Soft padding for casual viewing",
+      "Easy to move between rooms"
+    ],
+    "cons": [
+      "PU leather can crack or peel over time",
+      "Cushions may flatten with heavy use",
+      "Needs wall clearance to recline"
+    ],
+    "specs": {
+      "Type": "Single recliner chair",
+      "Seats": "1",
+      "Upholstery": "PU (faux) leather",
+      "Recline": "Manual",
+      "Headrest": "Fixed, padded",
+      "Features": "Padded arms; cup holders or massage on some versions"
+    },
+    "keySpecs": [
+      "Type",
+      "Upholstery",
+      "Recline",
+      "Features"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Homall recliner real leather?",
+        "a": "No. It uses PU faux leather, which is affordable and easy to clean but less durable than real leather."
+      },
+      {
+        "q": "Does the Homall recliner need power?",
+        "a": "No. It uses manual recline, so it can go anywhere without an outlet."
+      }
+    ]
+  },
+  {
+    "slug": "chita-power-recliner",
+    "name": "CHITA Power Lift Recliner",
+    "brand": "CHITA",
+    "category": "seating",
+    "amazonQuery": "CHITA power recliner home theater",
+    "priceBand": "$500–$800",
+    "priceTier": 2,
+    "score": 70,
+    "scores": [
+      {
+        "label": "Comfort",
+        "value": 76
+      },
+      {
+        "label": "Build & materials",
+        "value": 68
+      },
+      {
+        "label": "Features",
+        "value": 76
+      },
+      {
+        "label": "Value",
+        "value": 70
+      }
+    ],
+    "summary": "A power lift recliner that tilts forward to help you stand, with smooth motorized recline; a comfortable, accessible single seat for a media room.",
+    "verdict": "CHITA's power lift recliner adds something theater rows don't: a **lift function** that tilts the whole chair forward to help you stand up. Recline is **motorized**, controlled with a wired remote, and versions come in **fabric** or **faux leather**, with USB charging on many listings.\n\n**Who benefits.** For anyone with knee, hip or back issues, standing from a deep recliner after a three-hour film is the hardest part of movie night. The lift motor solves that without compromising recline comfort, and it's often a better choice for one family member than a full matched row.\n\n**Power planning maths.** It's a mains-powered chair, so it needs an outlet within reach of the cord. If you're adding it to a room with other powered seating, count devices: a single outlet strip behind the seats handles several low-draw recliner motors easily, but avoid running the cord across a walkway.\n\n**Space check.** Lift recliners need room in front for the lift tilt and room behind or a wall-hugger design for recline. Measure the listed fully-reclined length and add a few inches. In a theater, place it on an end of a row or on the front row, where the forward tilt won't hit another seat.\n\nOwners rate the comfort and lift mechanism well for the price; fabric versions breathe better than faux leather. See the [best home theater seating](/best-home-theater-seating/) roundup.",
+    "bestFor": "Viewers who need help standing up and want a comfortable powered seat",
+    "skipIf": "You want a matched multi-seat row for a dedicated theater",
+    "pros": [
+      "Power lift helps you stand",
+      "Smooth motorized recline",
+      "Fabric or faux leather options",
+      "USB charging on many versions"
+    ],
+    "cons": [
+      "Needs a power outlet",
+      "Single seat, so it won't match a theater row",
+      "Lift tilt needs clear space in front"
+    ],
+    "specs": {
+      "Type": "Power lift recliner",
+      "Seats": "1",
+      "Upholstery": "Fabric or faux leather (varies by listing)",
+      "Recline": "Power recline with lift",
+      "Headrest": "Padded (fixed on most versions)",
+      "Features": "Lift assist, wired remote, USB charging on many versions"
+    },
+    "keySpecs": [
+      "Type",
+      "Upholstery",
+      "Recline",
+      "Features"
+    ],
+    "faqs": [
+      {
+        "q": "What is a power lift recliner?",
+        "a": "It's a motorized recliner that can also tilt forward and up, helping you stand from a seated position with less strain on your knees and hips."
+      },
+      {
+        "q": "Does the CHITA power recliner need an outlet?",
+        "a": "Yes. Its lift and recline motors run on mains power."
+      }
+    ]
+  },
+  {
+    "slug": "flash-furniture-theater-recliner",
+    "name": "Flash Furniture Theater Recliner Row",
+    "brand": "Flash Furniture",
+    "category": "seating",
+    "amazonQuery": "Flash Furniture home theater recliner 3 seat",
+    "priceBand": "$800–$1,300",
+    "priceTier": 2,
+    "score": 68,
+    "scores": [
+      {
+        "label": "Comfort",
+        "value": 70
+      },
+      {
+        "label": "Build & materials",
+        "value": 64
+      },
+      {
+        "label": "Features",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 76
+      }
+    ],
+    "summary": "A budget three-seat theater row with cup holders and storage arms in faux leather, giving a theater look and layout for the price of one premium seat.",
+    "verdict": "Flash Furniture's three-seat theater recliner row brings the classic theater layout, joined seats with shared arms, **cup holders** and **storage consoles**, at a budget price. Upholstery is a **faux leather** (Flash calls it LeatherSoft on many models), and recline is **manual** on most versions, with powered options in some listings.\n\n**Price per seat, shown.** A three-seat row here costs about the same as a single seat from premium brands like [Valencia Tuscany](/gear/valencia-tuscany-theater-seating/). That's a sensible choice for a family room or a first theater, as long as you accept that materials and cushioning won't match high-end seating over years of use.\n\n**Fit the row.** Joined rows share arms, so a three-seat row is narrower than three standalone recliners. Use the listing's overall width and fully-reclined depth, then add about 12 inches of walkway behind the row. Center the row on the screen, then check distance with the [viewing distance calculator](/tools/viewing-distance-calculator/).\n\n**Second row.** If this goes behind another row, a riser of roughly 12 inches or more helps sightlines. Manual recline is a plus here: no power is needed on the riser.\n\nOwners like the look and storage, with mixed reports on long-term durability of the faux leather and on assembly. See the [best home theater seating](/best-home-theater-seating/) roundup.",
+    "bestFor": "Family rooms and first theaters that want a three-seat row on a budget",
+    "skipIf": "You want premium leather or power headrests",
+    "pros": [
+      "Three-seat theater row for the price of one premium seat",
+      "Cup holders and storage consoles",
+      "Manual recline needs no power",
+      "Shared arms keep the row compact"
+    ],
+    "cons": [
+      "Faux leather durability is mixed",
+      "Cushioning firmer and thinner than premium seats",
+      "Assembly required"
+    ],
+    "specs": {
+      "Type": "Home theater recliner row",
+      "Seats": "3",
+      "Upholstery": "Faux leather (LeatherSoft on many models)",
+      "Recline": "Manual on most versions; power versions sold",
+      "Headrest": "Fixed, padded",
+      "Features": "Cup holders, storage console arms"
+    },
+    "keySpecs": [
+      "Type",
+      "Upholstery",
+      "Recline",
+      "Features"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Flash Furniture theater recliner power or manual?",
+        "a": "Most versions use manual recline, but Flash also sells powered versions. Check the listing before you buy."
+      },
+      {
+        "q": "How much space does a Flash Furniture 3-seat row need?",
+        "a": "Use the listed overall width and fully-reclined depth, and allow about 12 inches of walkway behind the row."
+      }
+    ]
+  },
+  {
+    "slug": "esright-recliner",
+    "name": "Esright Massage Recliner",
+    "brand": "Esright",
+    "category": "seating",
+    "amazonQuery": "Esright recliner chair home theater seating",
+    "priceBand": "$200–$350",
+    "priceTier": 1,
+    "score": 62,
+    "scores": [
+      {
+        "label": "Comfort",
+        "value": 68
+      },
+      {
+        "label": "Build & materials",
+        "value": 54
+      },
+      {
+        "label": "Features",
+        "value": 66
+      },
+      {
+        "label": "Value",
+        "value": 78
+      }
+    ],
+    "summary": "A budget faux-leather recliner with vibration massage and heat; comfortable and feature-rich for the money, but less durable than real theater seating.",
+    "verdict": "Esright's massage recliner packs a lot into a budget chair: **manual recline**, **vibration massage** with selectable zones, **lumbar heat**, cup holders and side pockets, in **PU (faux) leather**. Exact features vary between listings, so check the version you're buying.\n\n**Massage needs power, recline doesn't.** The recline is manual, but massage and heat need a power connection. If you want those features, plan for an outlet nearby or a cord routed along the wall, not across a walkway.\n\n**Per-year maths.** At this price, even a few years of regular use makes it cheap per movie. Owner reviews generally praise comfort and features at first, with recurring notes that PU leather can crack and massage motors can fail over time. For a dedicated theater used nightly, a mid-range leather seat such as the [Seatcraft Republic](/gear/seatcraft-republic/) is a better long-term buy.\n\n**Space check.** Measure the listed reclined length and add a few inches behind for clearance. Several standalone recliners side by side take more width than a joined row because each has two arms; add up the listed chair widths before buying multiples.\n\n**Comparison.** Against the [Homall recliner](/gear/homall-recliner/), Esright usually adds massage and heat for a little more. See the [best home theater seating](/best-home-theater-seating/) roundup.",
+    "bestFor": "Budget buyers who want massage and heat in an extra media-room seat",
+    "skipIf": "You want long-lasting leather or a matched theater row",
+    "pros": [
+      "Vibration massage and lumbar heat at a low price",
+      "Cup holders and side pockets",
+      "Manual recline works without power",
+      "Comfortable padding"
+    ],
+    "cons": [
+      "PU leather can crack over time",
+      "Massage features need an outlet",
+      "Durability less proven than theater-seating brands"
+    ],
+    "specs": {
+      "Type": "Single massage recliner",
+      "Seats": "1",
+      "Upholstery": "PU (faux) leather",
+      "Recline": "Manual",
+      "Headrest": "Fixed, padded",
+      "Features": "Vibration massage, lumbar heat, cup holders, side pockets (varies by listing)"
+    },
+    "keySpecs": [
+      "Type",
+      "Upholstery",
+      "Recline",
+      "Features"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Esright recliner need power?",
+        "a": "The recline is manual, but the massage and heat functions need a power connection."
+      },
+      {
+        "q": "Is the Esright recliner good for a home theater?",
+        "a": "It's a comfortable, feature-rich budget seat for a media room. For nightly use in a dedicated theater, real leather theater seating lasts longer."
+      }
+    ]
+  }
+]

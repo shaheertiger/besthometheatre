@@ -1,0 +1,908 @@
+[
+  {
+    "slug": "sonos-arc-ultra",
+    "name": "Sonos Arc Ultra",
+    "brand": "Sonos",
+    "category": "soundbar",
+    "amazonQuery": "Sonos Arc Ultra soundbar",
+    "released": "2024",
+    "priceBand": "$900–$1,000",
+    "priceTier": 4,
+    "score": 88,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 90
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 84
+      },
+      {
+        "label": "Features & streaming",
+        "value": 90
+      },
+      {
+        "label": "Ease of use",
+        "value": 90
+      }
+    ],
+    "summary": "Sonos's flagship 9.1.4 Atmos bar, with a new Sound Motion woofer for deeper bass, Trueplay tuning and the best multiroom app around; add a Sub 4 and Era 300s for a full system.",
+    "verdict": "The Arc Ultra is the soundbar most people should measure others against. Sonos rates it as **9.1.4**, using **14 drivers** including up-firing and side-firing units and its new **Sound Motion** woofer, which squeezes noticeably more bass out of a slim cabinet than the original Arc. It decodes [Dolby Atmos](/glossary/dolby-atmos/), but not DTS:X.\n\n**Size it to your TV.** A TV's width is about **0.87 × its diagonal**, so a 55-inch set is roughly 48 inches wide and a 65-inch about 57 inches. At around 46 inches wide, the Arc Ultra looks right under a 55-inch TV and fine under 65 or 75 inches.\n\n**One HDMI port, so eARC matters.** The bar has a single HDMI [eARC](/glossary/earc/) connection. Plug your sources into the TV, and make sure the TV's eARC port can pass lossless Dolby TrueHD Atmos; plain ARC only carries compressed Dolby Digital Plus. **Trueplay** room tuning includes a quick mode that uses the bar's own microphones, so Android owners can tune it too.\n\n**The upgrade path.** Add a [Sonos Sub 4](/gear/sonos-sub-4/) and a pair of [Sonos Era 300](/gear/sonos-era-300/) speakers as rears and you have a genuine 7.1.4-style system with overhead rear effects, all wireless. That's a large total outlay, but you can buy it in stages.\n\nOwners rate dialogue clarity and the app highly; the main complaint is the lack of DTS:X for 4K Blu-ray. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup and [Sonos home theater review](/sonos-home-theater-review/).",
+    "bestFor": "Living rooms that want a premium single-bar Atmos setup with room to grow",
+    "skipIf": "You watch lots of DTS:X Blu-rays or need HDMI inputs on the bar",
+    "pros": [
+      "Deeper bass than any slim bar of its size, thanks to Sound Motion",
+      "Clear dialogue and strong Atmos height for a single bar",
+      "Trueplay room tuning, including a mic-based quick tune",
+      "Best-in-class multiroom app; adds Sub 4 and rears wirelessly"
+    ],
+    "cons": [
+      "No DTS:X decoding",
+      "Single HDMI eARC port, no passthrough inputs",
+      "Full Sonos surround system gets expensive"
+    ],
+    "specs": {
+      "Channels": "9.1.4 (14 drivers)",
+      "Atmos/DTS:X": "Dolby Atmos (no DTS:X)",
+      "Subwoofer": "Built-in Sound Motion woofer; optional Sonos Sub 4",
+      "Surrounds": "Optional (pair of Era 100 or Era 300)",
+      "Inputs": "HDMI eARC (optical via adapter), Bluetooth",
+      "Room correction": "Trueplay",
+      "Streaming": "Wi-Fi, AirPlay 2, Spotify Connect, Bluetooth",
+      "Wireless": "Wireless sub and rear expansion"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Sonos Arc Ultra support DTS:X?",
+        "a": "No. It decodes Dolby Atmos (including lossless TrueHD over eARC) and standard DTS, but not DTS:X."
+      },
+      {
+        "q": "Do I need a subwoofer with the Arc Ultra?",
+        "a": "Not necessarily. Its Sound Motion woofer gives solid bass on its own, but adding a Sonos Sub 4 adds the deep low end movies use for explosions and impacts."
+      },
+      {
+        "q": "What TV size suits the Sonos Arc Ultra?",
+        "a": "It's about 46 inches wide, which suits TVs from 55 inches up. A 55-inch TV is roughly 48 inches wide, so the bar sits just inside its edges."
+      }
+    ]
+  },
+  {
+    "slug": "sonos-beam-gen-2",
+    "name": "Sonos Beam (Gen 2)",
+    "brand": "Sonos",
+    "category": "soundbar",
+    "amazonQuery": "Sonos Beam Gen 2 soundbar",
+    "released": "2021",
+    "priceBand": "$400–$500",
+    "priceTier": 2,
+    "score": 79,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 80
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 66
+      },
+      {
+        "label": "Features & streaming",
+        "value": 88
+      },
+      {
+        "label": "Ease of use",
+        "value": 92
+      }
+    ],
+    "summary": "A compact Sonos bar with virtual Atmos, eARC and the full Sonos app, ideal for smaller TVs and rooms, and easy to expand later.",
+    "verdict": "The Beam (Gen 2) packs **five drivers** into a bar about **26 inches wide**, with HDMI [eARC](/glossary/earc/) and [Dolby Atmos](/glossary/dolby-atmos/) decoding. It has **no up-firing drivers**; the height effect is created with processing, so think of it as a clearer, wider-sounding TV upgrade with a hint of height rather than a true overhead experience.\n\n**Size check.** At about 26 inches it suits TVs from roughly 40 to 55 inches. A 43-inch TV is about 0.87 × 43 ≈ **37 inches** wide, so the Beam sits neatly inside its edges; under a 65-inch TV (57 inches wide) it looks undersized and struggles to fill the larger room those TVs usually go in.\n\n**Room size.** Owners find it fills bedrooms and living rooms up to roughly 250 sq ft comfortably. Past that, it runs out of output before the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) does.\n\n**Upgrade path.** Add a [Sonos Sub 4](/gear/sonos-sub-4/) (or the smaller Sub Mini) for bass and a pair of [Sonos Era 100](/gear/sonos-era-100/) speakers as rears and you have a real 5.1 system with excellent app control and Trueplay tuning. There's no Bluetooth, so music streams over Wi-Fi via AirPlay 2, Spotify Connect or the Sonos app.\n\nIt's the safest compact choice for Sonos households. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup.",
+    "bestFor": "Small living rooms and bedrooms with 40–55-inch TVs",
+    "skipIf": "You want true overhead Atmos or have a large, open room",
+    "pros": [
+      "Compact size suits smaller TVs",
+      "HDMI eARC with Dolby Atmos decoding",
+      "Excellent app and Trueplay tuning",
+      "Expands to 5.1 with Sonos sub and rears"
+    ],
+    "cons": [
+      "Virtual height only, no up-firing drivers",
+      "No Bluetooth",
+      "Limited output in larger rooms"
+    ],
+    "specs": {
+      "Channels": "5 drivers (virtual surround and height)",
+      "Atmos/DTS:X": "Dolby Atmos (virtualized; no DTS:X)",
+      "Subwoofer": "Optional Sonos Sub 4 or Sub Mini",
+      "Surrounds": "Optional (pair of Era 100 or Era 300)",
+      "Inputs": "HDMI eARC (optical via adapter)",
+      "Room correction": "Trueplay",
+      "Streaming": "Wi-Fi, AirPlay 2, Spotify Connect",
+      "Wireless": "Wireless sub and rear expansion"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Sonos Beam Gen 2 have up-firing speakers?",
+        "a": "No. It creates Atmos height virtually with processing, so the overhead effect is subtler than bars with up-firing drivers."
+      },
+      {
+        "q": "Does the Sonos Beam Gen 2 have Bluetooth?",
+        "a": "No. It streams over Wi-Fi using AirPlay 2, Spotify Connect and the Sonos app."
+      }
+    ]
+  },
+  {
+    "slug": "sony-bravia-theater-bar-9",
+    "name": "Sony Bravia Theater Bar 9",
+    "brand": "Sony",
+    "category": "soundbar",
+    "amazonQuery": "Sony Bravia Theater Bar 9 soundbar",
+    "released": "2024",
+    "priceBand": "$1,000–$1,400",
+    "priceTier": 4,
+    "score": 85,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 86
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 88
+      },
+      {
+        "label": "Features & streaming",
+        "value": 84
+      },
+      {
+        "label": "Ease of use",
+        "value": 82
+      }
+    ],
+    "summary": "Sony's flagship single bar uses 13 drivers and 360 Spatial Sound Mapping to create a wide, tall Atmos and DTS:X soundfield, with optional wireless subs and rears.",
+    "verdict": "The Bravia Theater Bar 9 is Sony's most capable single soundbar: **13 drivers**, including up-firing units, with Sony's **360 Spatial Sound Mapping** creating phantom speakers around and above you. Unlike the [Sonos Arc Ultra](/gear/sonos-arc-ultra/), it decodes both [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/), plus IMAX Enhanced, which matters if you collect 4K Blu-rays.\n\n**No HDMI input, so check your TV.** The bar has a single HDMI [eARC](/glossary/earc/) port. All sources go into the TV, and the TV passes audio out. Here's the maths that matters: plain ARC only carries compressed Dolby Digital Plus (lossy Atmos), while eARC has the bandwidth for **lossless Dolby TrueHD and DTS-HD MA**. If your TV only has ARC, a disc player's lossless track gets downgraded before it reaches the bar.\n\n**Bar 9 vs Bar 8.** The [Bar 8](/gear/sony-bravia-theater-bar-8/) has **11 drivers** and a shorter cabinet. The two extra drivers and bigger body give the Bar 9 a wider, fuller presentation in larger rooms; in a small room the gap narrows.\n\n**Expansion.** Sony's optional SA-SW3 or SA-SW5 wireless subs and rear speakers turn it into a full system. Streaming includes Wi-Fi, Chromecast, AirPlay and Spotify Connect.\n\nOwners praise the spacious sound and dialogue clarity; the main complaints are the missing HDMI input and the cost of adding a sub. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup and the [Sony home theater review](/sony-home-theater-review/).",
+    "bestFor": "Larger living rooms and 4K Blu-ray fans who want Atmos and DTS:X from one bar",
+    "skipIf": "Your TV lacks eARC or you need HDMI inputs on the soundbar",
+    "pros": [
+      "13 drivers with up-firing units for strong height",
+      "Decodes Dolby Atmos, DTS:X and IMAX Enhanced",
+      "Wide, spacious presentation for a single bar",
+      "Good Wi-Fi streaming support"
+    ],
+    "cons": [
+      "No HDMI input; relies on the TV's eARC",
+      "Sub and rears are expensive extras",
+      "Long cabinet needs a wide stand"
+    ],
+    "specs": {
+      "Channels": "13 drivers (incl. up-firing)",
+      "Atmos/DTS:X": "Dolby Atmos, DTS:X and IMAX Enhanced",
+      "Subwoofer": "Built-in woofers; optional SA-SW3 or SA-SW5",
+      "Surrounds": "Optional Sony wireless rears",
+      "Inputs": "HDMI eARC, Bluetooth",
+      "Streaming": "Wi-Fi, Chromecast built-in, AirPlay, Spotify Connect, Bluetooth",
+      "Wireless": "Wireless sub and rear expansion"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Sony Bravia Theater Bar 9 have HDMI inputs?",
+        "a": "No. It has one HDMI eARC port, so you connect sources to your TV and the TV sends audio to the bar."
+      },
+      {
+        "q": "Is the Bar 9 worth it over the Bar 8?",
+        "a": "In larger rooms, yes: two extra drivers and a bigger cabinet give a wider, fuller sound. In small rooms the Bar 8 gets close for less money."
+      }
+    ]
+  },
+  {
+    "slug": "sony-bravia-theater-bar-8",
+    "name": "Sony Bravia Theater Bar 8",
+    "brand": "Sony",
+    "category": "soundbar",
+    "amazonQuery": "Sony Bravia Theater Bar 8 soundbar",
+    "released": "2024",
+    "priceBand": "$800–$1,000",
+    "priceTier": 3,
+    "score": 81,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 82
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 82
+      },
+      {
+        "label": "Features & streaming",
+        "value": 84
+      },
+      {
+        "label": "Ease of use",
+        "value": 82
+      }
+    ],
+    "summary": "A shorter, cheaper version of Sony's Bar 9 with 11 drivers, Atmos and DTS:X, suited to mid-size rooms and 55–65-inch TVs.",
+    "verdict": "The Bravia Theater Bar 8 uses **11 drivers**, including up-firing units, and the same 360 Spatial Sound Mapping as the [Bar 9](/gear/sony-bravia-theater-bar-9/). It decodes [Dolby Atmos](/glossary/dolby-atmos/), [DTS:X](/glossary/dts-x/) and IMAX Enhanced, so it handles every common 4K disc format, which several rivals at this price, including the Sonos bars, can't.\n\n**Match it to the room.** Bars with more drivers and wider cabinets throw a wider soundstage. The Bar 8's shorter cabinet is a better fit under 55- and 65-inch TVs (about 48 and 57 inches wide) and in rooms up to roughly 300 sq ft, where the Bar 9's extra width matters less. Owners report convincing height effects in rooms with flat, standard-height ceilings.\n\n**Connections.** Like the Bar 9, it has a single HDMI [eARC](/glossary/earc/) port and no HDMI inputs. Make sure your TV has eARC, not just ARC, or lossless Dolby TrueHD and DTS-HD MA from a disc player won't reach the bar intact.\n\n**Build it out.** On its own the bass is decent but limited. Adding Sony's SA-SW3 or SA-SW5 wireless sub is the biggest upgrade; wireless rears come next. Compare the total with a full system like the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) before you commit.\n\nStreaming covers Wi-Fi, Chromecast, AirPlay and Spotify Connect. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup.",
+    "bestFor": "Mid-size rooms and 55–65-inch TVs that want Atmos and DTS:X from a compact bar",
+    "skipIf": "Your TV has only ARC, or you want deep bass without buying a sub",
+    "pros": [
+      "Decodes Dolby Atmos, DTS:X and IMAX Enhanced",
+      "Up-firing drivers in a manageable cabinet",
+      "Same expansion options as the Bar 9",
+      "Good Wi-Fi streaming support"
+    ],
+    "cons": [
+      "No HDMI inputs",
+      "Bass is limited without the optional sub",
+      "Narrower soundstage than the Bar 9 in big rooms"
+    ],
+    "specs": {
+      "Channels": "11 drivers (incl. up-firing)",
+      "Atmos/DTS:X": "Dolby Atmos, DTS:X and IMAX Enhanced",
+      "Subwoofer": "Built-in woofers; optional SA-SW3 or SA-SW5",
+      "Surrounds": "Optional Sony wireless rears",
+      "Inputs": "HDMI eARC, Bluetooth",
+      "Streaming": "Wi-Fi, Chromecast built-in, AirPlay, Spotify Connect, Bluetooth",
+      "Wireless": "Wireless sub and rear expansion"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Sony Bravia Theater Bar 8 support DTS:X?",
+        "a": "Yes. It decodes Dolby Atmos, DTS:X and IMAX Enhanced soundtracks."
+      },
+      {
+        "q": "Should I add a subwoofer to the Bar 8?",
+        "a": "For movies, yes. Sony's SA-SW3 or SA-SW5 wireless subwoofers add the deep bass the bar's built-in woofers can't reach."
+      }
+    ]
+  },
+  {
+    "slug": "bose-smart-ultra-soundbar",
+    "name": "Bose Smart Ultra Soundbar",
+    "brand": "Bose",
+    "category": "soundbar",
+    "amazonQuery": "Bose Smart Ultra Soundbar Dolby Atmos",
+    "released": "2023",
+    "priceBand": "$700–$900",
+    "priceTier": 3,
+    "score": 83,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 84
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 80
+      },
+      {
+        "label": "Features & streaming",
+        "value": 88
+      },
+      {
+        "label": "Ease of use",
+        "value": 88
+      }
+    ],
+    "summary": "Bose's top bar adds A.I. Dialogue Mode and ADAPTiQ room tuning to up-firing Atmos drivers, with broad streaming support and an easy wireless expansion path.",
+    "verdict": "The Smart Ultra Soundbar uses **nine drivers**, including two up-firing dipole transducers, and decodes [Dolby Atmos](/glossary/dolby-atmos/). Its headline feature is **A.I. Dialogue Mode**, which separates voices from the rest of the mix and lifts them. For anyone who keeps riding the volume button to hear dialogue, that's the reason to buy.\n\n**Room tuning.** **ADAPTiQ** uses a headset microphone to measure several listening positions and adjust the bar's EQ, a form of [room correction](/glossary/room-correction/). It's simpler than Dirac on the [Klipsch Flexus Core 300](/gear/klipsch-flexus-core-300/), but it noticeably tidies bass in boomy rooms.\n\n**Build-out maths.** Bose's full system means adding the [Bose Bass Module 700](/gear/bose-bass-module-700/) and [Bose Surround Speakers 700](/gear/bose-surround-speakers-700/). Together those cost about as much as the bar itself, so the complete setup lands in the same price class as the [Samsung HW-Q990F](/gear/samsung-hw-q990f/), which includes sub, rears and four height channels in the box. If you know you want the full system, the Samsung is better value; if you want to buy in steps, Bose's modular path works.\n\n**Connections.** HDMI [eARC](/glossary/earc/), optical, Wi-Fi with Chromecast, AirPlay 2 and Spotify Connect, plus Bluetooth and built-in Alexa. There's no DTS:X. Owners rate the dialogue clarity and app highly. More in the [Bose home theater review](/bose-home-theater-review/).",
+    "bestFor": "Viewers who struggle with dialogue and want a premium, easy-to-use Atmos bar",
+    "skipIf": "You want DTS:X or a full sub-and-rear system in one box for the money",
+    "pros": [
+      "A.I. Dialogue Mode makes voices clearer",
+      "ADAPTiQ room tuning",
+      "Up-firing dipole drivers for Atmos height",
+      "Wide streaming support including Chromecast and AirPlay 2"
+    ],
+    "cons": [
+      "No DTS:X",
+      "Bass module and rears are costly add-ons",
+      "No HDMI inputs for sources"
+    ],
+    "specs": {
+      "Channels": "9 drivers (incl. 2 up-firing dipole)",
+      "Atmos/DTS:X": "Dolby Atmos (no DTS:X)",
+      "Subwoofer": "Optional Bose Bass Module 500 or 700",
+      "Surrounds": "Optional Bose Surround Speakers or Surround Speakers 700",
+      "Inputs": "HDMI eARC, optical, Bluetooth",
+      "Room correction": "ADAPTiQ",
+      "Streaming": "Wi-Fi, Chromecast built-in, AirPlay 2, Spotify Connect, Alexa built-in",
+      "Wireless": "Wireless bass module and surround expansion"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "What is A.I. Dialogue Mode on the Bose Smart Ultra Soundbar?",
+        "a": "It uses processing to identify voices in the soundtrack and raise them relative to music and effects, so dialogue is easier to follow without turning up the volume."
+      },
+      {
+        "q": "Does the Bose Smart Ultra Soundbar need a subwoofer?",
+        "a": "It works on its own, but adding a Bose Bass Module 700 gives much deeper bass for movies."
+      }
+    ]
+  },
+  {
+    "slug": "bose-smart-soundbar",
+    "name": "Bose Smart Soundbar",
+    "brand": "Bose",
+    "category": "soundbar",
+    "amazonQuery": "Bose Smart Soundbar Dolby Atmos",
+    "released": "2024",
+    "priceBand": "$400–$500",
+    "priceTier": 2,
+    "score": 77,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 78
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 70
+      },
+      {
+        "label": "Features & streaming",
+        "value": 84
+      },
+      {
+        "label": "Ease of use",
+        "value": 88
+      }
+    ],
+    "summary": "A compact Bose Atmos bar with up-firing drivers and A.I. Dialogue Mode, ideal for smaller rooms, with a clever Personal Surround option via Bose earbuds.",
+    "verdict": "The Bose Smart Soundbar is a compact bar with **five drivers**, including two up-firing dipole transducers, and [Dolby Atmos](/glossary/dolby-atmos/) decoding. It inherits **A.I. Dialogue Mode** from the [Bose Smart Ultra Soundbar](/gear/bose-smart-ultra-soundbar/), which is the main reason it outclasses most bars at its size for TV and movies with lots of talking.\n\n**Personal Surround.** Pair Bose Ultra Open Earbuds and they act as personal rear speakers for the person wearing them. It's a neat solution for one viewer in a room where rear speakers aren't possible, though it doesn't help anyone else on the sofa.\n\n**Five drivers vs nine.** The Smart Ultra has nearly twice the driver count in a longer cabinet, so it plays louder and wider. In a bedroom or a living room up to about 250 sq ft, the smaller bar is enough; above that, step up. Compare it with the [Sonos Beam (Gen 2)](/gear/sonos-beam-gen-2/): the Bose has real up-firing drivers and Bluetooth, while the Sonos has Trueplay tuning and the better multiroom app.\n\n**Connections.** HDMI [eARC](/glossary/earc/), optical, Wi-Fi with AirPlay 2 and Spotify Connect, Bluetooth and built-in Alexa. No DTS:X. You can add a Bose bass module and surrounds later, but the cost adds up quickly. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup.",
+    "bestFor": "Bedrooms and small living rooms where dialogue clarity matters most",
+    "skipIf": "You have a large room or want DTS:X support",
+    "pros": [
+      "A.I. Dialogue Mode in a compact bar",
+      "Up-firing drivers for real Atmos height",
+      "Personal Surround with Bose Ultra Open Earbuds",
+      "Bluetooth plus Wi-Fi streaming"
+    ],
+    "cons": [
+      "Limited output for large rooms",
+      "No DTS:X",
+      "Adding Bose sub and surrounds is expensive"
+    ],
+    "specs": {
+      "Channels": "5 drivers (incl. 2 up-firing dipole)",
+      "Atmos/DTS:X": "Dolby Atmos (no DTS:X)",
+      "Subwoofer": "Optional Bose Bass Module 500 or 700",
+      "Surrounds": "Optional Bose surrounds or Ultra Open Earbuds (Personal Surround)",
+      "Inputs": "HDMI eARC, optical, Bluetooth",
+      "Streaming": "Wi-Fi, AirPlay 2, Spotify Connect, Alexa built-in",
+      "Wireless": "Wireless bass module and surround expansion"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "What is Personal Surround on the Bose Smart Soundbar?",
+        "a": "It lets Bose Ultra Open Earbuds act as personal rear speakers for the wearer, adding surround effects without placing speakers behind the sofa."
+      },
+      {
+        "q": "Is the Bose Smart Soundbar good for small rooms?",
+        "a": "Yes. Its compact size and dialogue processing suit bedrooms and living rooms up to roughly 250 square feet."
+      }
+    ]
+  },
+  {
+    "slug": "jbl-bar-1000",
+    "name": "JBL Bar 1000",
+    "brand": "JBL",
+    "category": "soundbar",
+    "amazonQuery": "JBL Bar 1000 7.1.4 soundbar detachable surround",
+    "released": "2022",
+    "priceBand": "$800–$1,000",
+    "priceTier": 3,
+    "score": 85,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 84
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 88
+      },
+      {
+        "label": "Features & streaming",
+        "value": 86
+      },
+      {
+        "label": "Ease of use",
+        "value": 82
+      }
+    ],
+    "summary": "A 7.1.4 system with a 10-inch wireless sub and detachable battery-powered surrounds, plus three HDMI inputs, giving real rear sound without permanent speakers.",
+    "verdict": "The JBL Bar 1000 solves the rear-speaker problem cleverly: its two end caps **detach** and run on battery as rear surrounds, then clip back on to recharge. Add the **10-inch wireless subwoofer** and up-firing drivers and you get a **7.1.4** system that decodes [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/).\n\n**Decode the numbers.** 7.1.4 means seven ear-level channels, one sub and four height channels: **12 channels** in all. JBL quotes **880 W** total system power; spread across 12 channels that's a marketing total, not a per-channel rating, but owners consistently report strong output in mid-size to large living rooms.\n\n**HDMI advantage.** With **three HDMI inputs** (with 4K Dolby Vision pass-through) plus an HDMI [eARC](/glossary/earc/) output, a disc player and streaming box can feed the bar directly. That sidesteps TVs whose eARC ports are flaky or which don't pass DTS:X, a common problem with single-port bars like the [Sonos Arc Ultra](/gear/sonos-arc-ultra/).\n\n**Battery reality.** The detachable rears need recharging, typically between long movie sessions. If you leave them out permanently, budget for remembering to dock them.\n\nJBL's room calibration, Wi-Fi with Chromecast and AirPlay 2, and Bluetooth round it out. Its bigger sibling, the [JBL Bar 1300MK2](/gear/jbl-bar-1300mk2/), adds channels and output for larger rooms. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup.",
+    "bestFor": "Living rooms that want real rear surround without permanent rear speakers",
+    "skipIf": "You don't want to manage battery charging for the rear speakers",
+    "pros": [
+      "Detachable battery rears give real surround on demand",
+      "10-inch wireless sub included",
+      "Three HDMI inputs plus eARC",
+      "Decodes Dolby Atmos and DTS:X"
+    ],
+    "cons": [
+      "Rear speakers need regular recharging",
+      "880 W figure is a system total, not per channel",
+      "Bulky bar when the rears are docked"
+    ],
+    "specs": {
+      "Channels": "7.1.4",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Subwoofer": "10-inch wireless subwoofer included",
+      "Surrounds": "Detachable battery-powered rears",
+      "Inputs": "3x HDMI in (4K Dolby Vision pass-through), HDMI eARC, optical, Bluetooth",
+      "Room correction": "JBL automatic room calibration",
+      "Streaming": "Wi-Fi, Chromecast built-in, AirPlay 2, Bluetooth",
+      "Wireless": "Wireless sub and detachable wireless rears"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "How do the JBL Bar 1000 detachable speakers work?",
+        "a": "The bar's end caps detach and run on battery as wireless rear surrounds. When you're done, you clip them back onto the bar to recharge."
+      },
+      {
+        "q": "Does the JBL Bar 1000 have HDMI inputs?",
+        "a": "Yes. It has three HDMI inputs with 4K Dolby Vision pass-through and an HDMI eARC output to the TV."
+      }
+    ]
+  },
+  {
+    "slug": "jbl-bar-1300mk2",
+    "name": "JBL Bar 1300MK2",
+    "brand": "JBL",
+    "category": "soundbar",
+    "amazonQuery": "JBL Bar 1300 MK2 soundbar",
+    "released": "2025",
+    "priceBand": "$1,400–$1,800",
+    "priceTier": 4,
+    "score": 87,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 86
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 92
+      },
+      {
+        "label": "Features & streaming",
+        "value": 86
+      },
+      {
+        "label": "Ease of use",
+        "value": 80
+      }
+    ],
+    "summary": "JBL's largest 11.1.4 bar system with detachable battery surrounds and a big wireless sub, built for large rooms and loud movie nights.",
+    "verdict": "The Bar 1300MK2 is the second-generation version of JBL's flagship. Like the [JBL Bar 1000](/gear/jbl-bar-1000/), its ends **detach** as battery-powered rear surrounds, and it ships with a **wireless subwoofer**. The difference is scale: **11.1.4** channels in a longer bar, aimed at larger rooms. It decodes [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/).\n\n**Decode 11.1.4.** Eleven ear-level channels, one sub and four height channels: **16 channels** in total, versus 12 on the Bar 1000. More channels let JBL's beam-forming place effects more precisely across a wide room, which matters most when seats are spread across a sectional or two rows.\n\n**Room size maths.** In a 300 sq ft room the Bar 1000 is usually enough. Above roughly 400 sq ft, or in open-plan spaces where sound leaks into the kitchen, the 1300MK2's extra drivers and bigger sub keep dynamics intact at the volumes movies need.\n\n**Inputs.** Multiple HDMI inputs plus HDMI [eARC](/glossary/earc/) mean you aren't reliant on the TV's audio passthrough, a real advantage over single-port bars. Wi-Fi streaming with Chromecast and AirPlay and Bluetooth are included.\n\nThe trade-offs are size and cost: the bar is long, and you're paying close to receiver-plus-speakers money. If you can run wire, compare it with a passive system like the [Klipsch R-625FA 5.1.2 system](/gear/klipsch-r-625fa-51-system/). See the [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) roundup.",
+    "bestFor": "Large or open-plan living rooms that want the most from a soundbar-style system",
+    "skipIf": "Your room is small or you have a narrow TV stand",
+    "pros": [
+      "11.1.4 layout with detachable battery rears",
+      "Wireless subwoofer included",
+      "HDMI inputs plus eARC",
+      "Decodes Dolby Atmos and DTS:X"
+    ],
+    "cons": [
+      "Long bar needs a wide stand or wall",
+      "Expensive, close to receiver-system money",
+      "Rears need regular recharging"
+    ],
+    "specs": {
+      "Channels": "11.1.4",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Subwoofer": "Wireless subwoofer included",
+      "Surrounds": "Detachable battery-powered rears",
+      "Inputs": "HDMI inputs with 4K pass-through, HDMI eARC, optical, Bluetooth",
+      "Streaming": "Wi-Fi, Chromecast built-in, AirPlay, Bluetooth",
+      "Wireless": "Wireless sub and detachable wireless rears"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "What's the difference between the JBL Bar 1300MK2 and Bar 1000?",
+        "a": "The 1300MK2 is larger with an 11.1.4 layout versus 7.1.4, giving more channels and output for big rooms. Both have detachable battery rears and a wireless sub."
+      },
+      {
+        "q": "Is the JBL Bar 1300MK2 too big for a small room?",
+        "a": "It can be. In rooms under roughly 300 square feet the Bar 1000 delivers most of the experience in a shorter bar."
+      }
+    ]
+  },
+  {
+    "slug": "samsung-hw-q800f",
+    "name": "Samsung HW-Q800F",
+    "brand": "Samsung",
+    "category": "soundbar",
+    "amazonQuery": "Samsung HW-Q800F soundbar",
+    "released": "2025",
+    "priceBand": "$700–$1,000",
+    "priceTier": 3,
+    "score": 80,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 80
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 78
+      },
+      {
+        "label": "Features & streaming",
+        "value": 84
+      },
+      {
+        "label": "Ease of use",
+        "value": 84
+      }
+    ],
+    "summary": "A 5.1.2 Samsung bar with a wireless sub, up-firing drivers and SpaceFit room tuning; a strong mid-range choice, especially with a Samsung TV.",
+    "verdict": "The HW-Q800F is Samsung's mid-range Atmos system: a **5.1.2** bar with up-firing drivers plus a **wireless subwoofer**, decoding [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/).\n\n**Decode 5.1.2 and the upgrade.** Five ear-level channels, a sub and two height channels. Add one of Samsung's optional wireless rear kits with up-firing drivers and it becomes a **7.1.4**-class system: two extra ear-level and two extra height channels behind you. Buy the bar now and the rears later, but check the combined cost against the [Samsung HW-Q990F](/gear/samsung-hw-q990f/), which includes everything.\n\n**Room tuning and TV tricks.** **SpaceFit Sound Pro** uses a microphone to adapt the EQ to your room, a simple form of [room correction](/glossary/room-correction/). With a compatible Samsung TV, **Q-Symphony** lets the TV's speakers join the bar, and wireless Dolby Atmos removes the HDMI cable entirely.\n\n**Connections.** HDMI [eARC](/glossary/earc/) and optical, Wi-Fi with AirPlay 2 and Spotify Connect, plus Bluetooth. Owners report punchy bass from the included sub and good dialogue with Active Voice Amplifier; the bar is less convincing at overhead effects than larger systems with rear height drivers.\n\nIf you own a Samsung TV and want a complete-feeling system at a mid-range price, this is the obvious pick. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup and [Samsung home theater review](/samsung-home-theater-review/).",
+    "bestFor": "Samsung TV owners who want a mid-priced Atmos bar with a sub included",
+    "skipIf": "You want rear speakers in the box; the Q990F includes them",
+    "pros": [
+      "Wireless sub included",
+      "Decodes Dolby Atmos and DTS:X",
+      "SpaceFit Sound Pro room tuning",
+      "Q-Symphony and wireless Atmos with Samsung TVs"
+    ],
+    "cons": [
+      "Rear speakers cost extra",
+      "Height effects less convincing than bigger systems",
+      "Best features tied to Samsung TVs"
+    ],
+    "specs": {
+      "Channels": "5.1.2",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Subwoofer": "Wireless subwoofer included",
+      "Surrounds": "Optional Samsung wireless rear kit",
+      "Inputs": "HDMI eARC, optical, Bluetooth",
+      "Room correction": "SpaceFit Sound Pro",
+      "Streaming": "Wi-Fi, AirPlay 2, Spotify Connect, Bluetooth",
+      "Wireless": "Wireless sub; wireless Atmos with Samsung TVs"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Can I add rear speakers to the Samsung HW-Q800F?",
+        "a": "Yes. Samsung's optional wireless rear speaker kits pair with the bar; a kit with up-firing drivers turns it into a 7.1.4-class system."
+      },
+      {
+        "q": "Does the HW-Q800F work with non-Samsung TVs?",
+        "a": "Yes, over HDMI eARC. Q-Symphony and wireless Dolby Atmos need a compatible Samsung TV."
+      }
+    ]
+  },
+  {
+    "slug": "vizio-v-series-21",
+    "name": "Vizio V-Series 2.1 Sound Bar",
+    "brand": "Vizio",
+    "category": "soundbar",
+    "amazonQuery": "Vizio V-Series 2.1 home theater sound bar",
+    "priceBand": "$100–$150",
+    "priceTier": 1,
+    "score": 66,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 70
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 46
+      },
+      {
+        "label": "Features & streaming",
+        "value": 60
+      },
+      {
+        "label": "Ease of use",
+        "value": 90
+      }
+    ],
+    "summary": "A basic 2.1 soundbar with a wireless sub that's a big step up from TV speakers for very little money, but has no Atmos or real surround.",
+    "verdict": "The Vizio V-Series 2.1 is about the cheapest worthwhile upgrade from built-in TV speakers: a slim bar for left and right channels plus a **wireless subwoofer**. It decodes Dolby Audio and DTS soundtracks and uses **DTS Virtual:X** processing to widen the sound, but there's no [Dolby Atmos](/glossary/dolby-atmos/) and no real surround.\n\n**Why the sub matters, in numbers.** Thin TV speakers struggle below roughly 150–200 Hz, which is where voices get their body and effects get their weight. A separate sub takes everything below the [crossover](/glossary/crossover/) and also carries the [LFE](/glossary/lfe/) channel, so even a small one makes movies sound noticeably bigger. Because the sub is wireless, you can tuck it beside the sofa, which in small rooms often gives fuller bass than placing it by the TV.\n\n**Center channel caveat.** With 2.1 there's no dedicated center speaker, so dialogue is a phantom image between the bar's left and right drivers. Use the dialogue or voice mode if speech gets buried.\n\n**Connections.** HDMI ARC, optical, aux and Bluetooth cover every TV and phone. Owners rate it highly for bedrooms, dorms and second TVs; it runs out of output in a big living room. If you can stretch, the [Vizio M-Series 5.1.2](/gear/vizio-m-series-512/) adds rears and Atmos. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup.",
+    "bestFor": "Bedrooms, dorms and second TVs on a tight budget",
+    "skipIf": "You want Atmos, real surround or room-filling output",
+    "pros": [
+      "Very affordable upgrade over TV speakers",
+      "Wireless subwoofer adds real bass",
+      "HDMI ARC, optical, aux and Bluetooth",
+      "Simple setup"
+    ],
+    "cons": [
+      "No Atmos or real surround",
+      "No dedicated center channel",
+      "Limited output in larger rooms"
+    ],
+    "specs": {
+      "Channels": "2.1",
+      "Atmos/DTS:X": "No (Dolby Audio, DTS, DTS Virtual:X processing)",
+      "Subwoofer": "Wireless subwoofer included",
+      "Surrounds": "None (virtual only)",
+      "Inputs": "HDMI ARC, optical, 3.5 mm aux, Bluetooth",
+      "Room correction": "None",
+      "Streaming": "Bluetooth",
+      "Wireless": "Wireless sub"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Vizio V-Series 2.1 good for movies?",
+        "a": "It's a clear upgrade from TV speakers thanks to its wireless subwoofer, but without Atmos or rear speakers it won't create real surround sound."
+      },
+      {
+        "q": "Does the Vizio V-Series 2.1 connect with HDMI?",
+        "a": "Yes. It connects to your TV's HDMI ARC port, and also offers optical, aux and Bluetooth."
+      }
+    ]
+  },
+  {
+    "slug": "polk-magnifi-max-ax-sr",
+    "name": "Polk MagniFi Max AX SR",
+    "brand": "Polk Audio",
+    "category": "soundbar",
+    "amazonQuery": "Polk MagniFi Max AX SR soundbar",
+    "released": "2023",
+    "priceBand": "$900–$1,200",
+    "priceTier": 3,
+    "score": 82,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 82
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 86
+      },
+      {
+        "label": "Features & streaming",
+        "value": 84
+      },
+      {
+        "label": "Ease of use",
+        "value": 82
+      }
+    ],
+    "summary": "A complete Polk Atmos system with bar, 10-inch wireless sub and wireless rear speakers, decoding Atmos and DTS:X with Polk's VoiceAdjust for clear dialogue.",
+    "verdict": "The MagniFi Max AX SR is the full-system version of Polk's flagship bar: the MagniFi Max AX bar with up-firing drivers, a **10-inch wireless subwoofer** and Polk's **wireless rear surround speakers** in one box. Polk rates the complete package as **7.1.4**, and it decodes [Dolby Atmos](/glossary/dolby-atmos/), [DTS:X](/glossary/dts-x/) and IMAX Enhanced.\n\n**Decode 7.1.4.** Seven ear-level channels, one sub and four height channels. Rear speakers matter more than height in many rooms: they put effects genuinely behind you rather than relying on processing, which no single bar fully replicates.\n\n**Value maths.** Compare the \"bar + sub + rears in one box\" price with buying each part separately. A [Sonos Arc Ultra](/gear/sonos-arc-ultra/) plus a Sub 4 plus two Era 300s costs well over double. The Polk gives up Sonos's app polish and Trueplay, but includes every piece.\n\n**Dialogue and connections.** Polk's **VoiceAdjust** raises the center channel independently, which helps with quiet dialogue. HDMI [eARC](/glossary/earc/), optical, Wi-Fi with Chromecast and AirPlay 2, and Bluetooth cover streaming.\n\nOwners report strong bass from the 10-inch sub and convincing surround; the main complaints concern app reliability and occasional firmware quirks. If you want an all-in-one system with DTS:X and real rears for less than a Samsung flagship, it's a smart buy. See the [Polk Audio review](/polk-audio-review/) and [best soundbar for home theater](/best-soundbar-for-home-theater/).",
+    "bestFor": "Living rooms that want bar, sub and real rears in one box for a mid-range price",
+    "skipIf": "You want the most polished app and multiroom ecosystem",
+    "pros": [
+      "Complete system: bar, 10-inch sub and wireless rears",
+      "Decodes Dolby Atmos, DTS:X and IMAX Enhanced",
+      "VoiceAdjust for clearer dialogue",
+      "Chromecast and AirPlay 2 streaming"
+    ],
+    "cons": [
+      "App less polished than Sonos",
+      "Takes up more space than a single bar",
+      "Rears still need power outlets"
+    ],
+    "specs": {
+      "Channels": "7.1.4 (with included rears)",
+      "Atmos/DTS:X": "Dolby Atmos, DTS:X and IMAX Enhanced",
+      "Subwoofer": "10-inch wireless subwoofer included",
+      "Surrounds": "Wireless rear speakers included",
+      "Inputs": "HDMI eARC, optical, Bluetooth",
+      "Streaming": "Wi-Fi, Chromecast built-in, AirPlay 2, Bluetooth",
+      "Wireless": "Wireless sub and rears"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "What comes with the Polk MagniFi Max AX SR?",
+        "a": "The soundbar, a 10-inch wireless subwoofer and a pair of wireless rear surround speakers, all designed to work together."
+      },
+      {
+        "q": "Does the Polk MagniFi Max AX SR support DTS:X?",
+        "a": "Yes. It decodes Dolby Atmos, DTS:X and IMAX Enhanced."
+      }
+    ]
+  },
+  {
+    "slug": "hisense-ax5125h",
+    "name": "Hisense AX5125H 5.1.2 Soundbar",
+    "brand": "Hisense",
+    "category": "soundbar",
+    "amazonQuery": "Hisense AX5125H 5.1.2 soundbar",
+    "released": "2023",
+    "priceBand": "$250–$400",
+    "priceTier": 1,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 74
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 78
+      },
+      {
+        "label": "Features & streaming",
+        "value": 64
+      },
+      {
+        "label": "Ease of use",
+        "value": 84
+      }
+    ],
+    "summary": "A budget 5.1.2 Atmos and DTS:X system with up-firing drivers, a wireless sub and rear speakers, giving real surround for well under mid-range money.",
+    "verdict": "The Hisense AX5125H is a full **5.1.2** system at a budget price: a bar with up-firing drivers, a **wireless subwoofer** and two rear speakers. It decodes both [Dolby Atmos](/glossary/dolby-atmos/) and [DTS:X](/glossary/dts-x/), which is rare at this price.\n\n**Read the power figure carefully.** Hisense quotes **420 W** total. Spread across 5.1.2 (eight channels) that averages about **52 W per channel**, and it isn't measured the way receiver power is, so treat it as a rough guide. In practice owners find it fills small and medium living rooms at movie levels, but it compresses when pushed hard in large rooms.\n\n**Ceiling check.** The \".2\" comes from up-firing drivers reflecting sound off the ceiling. They work best with a flat ceiling around 8–9 feet; vaulted or very high ceilings weaken the effect.\n\n**Connections.** HDMI [eARC](/glossary/earc/), optical and Bluetooth. There's no Wi-Fi streaming or app-based room correction, so it's a TV sound system rather than a smart speaker.\n\nAgainst the [Vizio M-Series 5.1.2](/gear/vizio-m-series-512/), it's a close match on layout and formats; choose on current price and which remote and setup suit you. If you can stretch, the [Samsung HW-Q800F](/gear/samsung-hw-q800f/) adds room tuning and Wi-Fi. See the [best budget home theater system](/best-budget-home-theater-system/) roundup.",
+    "bestFor": "Budget buyers who want real Atmos, DTS:X and rear speakers",
+    "skipIf": "You want Wi-Fi streaming, room correction or large-room output",
+    "pros": [
+      "Full 5.1.2 layout with rears at a budget price",
+      "Decodes Dolby Atmos and DTS:X",
+      "Wireless subwoofer included",
+      "Simple HDMI eARC setup"
+    ],
+    "cons": [
+      "No Wi-Fi streaming or room correction",
+      "420 W claim is a total, not per channel",
+      "Compresses at high volume in big rooms"
+    ],
+    "specs": {
+      "Channels": "5.1.2",
+      "Atmos/DTS:X": "Dolby Atmos and DTS:X",
+      "Subwoofer": "Wireless subwoofer included",
+      "Surrounds": "Rear speakers included",
+      "Inputs": "HDMI eARC, optical, Bluetooth",
+      "Room correction": "None",
+      "Streaming": "Bluetooth",
+      "Wireless": "Wireless sub"
+    },
+    "keySpecs": [
+      "Channels",
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Hisense AX5125H support DTS:X?",
+        "a": "Yes. It decodes both Dolby Atmos and DTS:X, which is uncommon at its price."
+      },
+      {
+        "q": "Is the Hisense AX5125H a true 5.1.2 system?",
+        "a": "Yes. It includes a bar with up-firing drivers, a wireless subwoofer and two rear speakers."
+      }
+    ]
+  },
+  {
+    "slug": "ultimea-nova-s50",
+    "name": "Ultimea Nova S50 Soundbar",
+    "brand": "Ultimea",
+    "category": "soundbar",
+    "amazonQuery": "Ultimea Nova S50 Dolby Atmos soundbar",
+    "priceBand": "$150–$250",
+    "priceTier": 1,
+    "score": 63,
+    "scores": [
+      {
+        "label": "Sound quality",
+        "value": 64
+      },
+      {
+        "label": "Atmos & surround",
+        "value": 56
+      },
+      {
+        "label": "Features & streaming",
+        "value": 60
+      },
+      {
+        "label": "Ease of use",
+        "value": 84
+      }
+    ],
+    "summary": "An inexpensive Atmos-badged soundbar with a subwoofer that improves on TV speakers for small rooms, but relies on virtual processing rather than real height or surround.",
+    "verdict": "Ultimea is a budget brand sold mainly on Amazon, and the Nova S50 is its Atmos-badged soundbar with a **subwoofer** included. It's an easy, cheap upgrade over thin TV speakers, connecting over HDMI [eARC](/glossary/earc/), optical or Bluetooth.\n\n**What \"Atmos\" means at this price.** Decoding [Dolby Atmos](/glossary/dolby-atmos/) and reproducing it are different things. Without up-firing drivers or rear speakers, a bar creates height and surround with processing, which can widen the sound but won't place effects above or behind you. Treat the badge as \"plays Atmos soundtracks correctly\", not \"overhead sound\".\n\n**Where the money goes.** The useful upgrade here is the sub. TV speakers barely play below 150–200 Hz, so a separate sub adds the body and [LFE](/glossary/lfe/) weight movies need. In a bedroom or small living room under about 200 sq ft, that alone transforms the experience.\n\n**Check the listing.** Budget brands revise models and bundles often, so confirm the current channel count and included sub before buying. Owners generally rate the value and simple setup; long-term reliability and support are less proven than with Vizio, Sony or Samsung.\n\nFor true surround on a budget, the [Vizio M-Series 5.1.2](/gear/vizio-m-series-512/) or [Hisense AX5125H](/gear/hisense-ax5125h/) cost more but include real rears and up-firing drivers. See the [best soundbar for home theater](/best-soundbar-for-home-theater/) roundup.",
+    "bestFor": "Small rooms and second TVs that need a cheap upgrade with a subwoofer",
+    "skipIf": "You want real overhead or rear sound, or a proven long-term brand",
+    "pros": [
+      "Low price with a subwoofer included",
+      "HDMI eARC, optical and Bluetooth",
+      "Simple setup",
+      "Big improvement over TV speakers in small rooms"
+    ],
+    "cons": [
+      "Atmos is virtual, with no real height or rear channels",
+      "Less proven reliability and support",
+      "Model details change between listings"
+    ],
+    "specs": {
+      "Atmos/DTS:X": "Dolby Atmos decoding with virtual height (no up-firing drivers)",
+      "Subwoofer": "Included",
+      "Surrounds": "None (virtual only)",
+      "Inputs": "HDMI eARC, optical, Bluetooth",
+      "Room correction": "None",
+      "Streaming": "Bluetooth",
+      "Wireless": "Bluetooth"
+    },
+    "keySpecs": [
+      "Atmos/DTS:X",
+      "Subwoofer",
+      "Inputs",
+      "Streaming"
+    ],
+    "faqs": [
+      {
+        "q": "Does the Ultimea Nova S50 give real Dolby Atmos?",
+        "a": "It plays Atmos soundtracks, but without up-firing or rear speakers the height effect is created with processing and is much subtler than true Atmos systems."
+      },
+      {
+        "q": "Is the Ultimea Nova S50 good for a small room?",
+        "a": "Yes. In bedrooms and small living rooms, its included subwoofer adds bass that TV speakers can't produce."
+      }
+    ]
+  }
+]

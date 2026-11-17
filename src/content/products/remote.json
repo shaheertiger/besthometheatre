@@ -1,0 +1,337 @@
+[
+  {
+    "slug": "sofabaton-x2",
+    "name": "SofaBaton X2 Universal Remote",
+    "brand": "SofaBaton",
+    "category": "remote",
+    "amazonQuery": "SofaBaton X2 universal remote hub",
+    "priceBand": "$170–$230",
+    "priceTier": 4,
+    "score": 84,
+    "scores": [
+      {
+        "label": "Device coverage",
+        "value": 90
+      },
+      {
+        "label": "Ease of setup",
+        "value": 78
+      },
+      {
+        "label": "Build & ergonomics",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 76
+      }
+    ],
+    "summary": "SofaBaton's flagship hub-based universal remote controls IR, Bluetooth and Wi-Fi devices with one-press activities; the closest thing to a modern Harmony Elite replacement.",
+    "verdict": "Since Logitech discontinued Harmony, SofaBaton's hub-based remotes have become the go-to replacement, and the X2 is its flagship. A **hub** sits near your equipment and translates commands into **IR, Bluetooth or Wi-Fi**, so the remote doesn't need line of sight and can control gear inside a closed cabinet. Setup runs through the SofaBaton app, and the hub links with **Alexa and Google Assistant** for voice control.\n\n**Why Bluetooth control matters.** Some popular devices, such as Fire TV sticks and PlayStation consoles, don't respond to IR, so IR-only remotes can't control them fully. A hub that speaks Bluetooth covers those boxes too.\n\n**Do the activity maths.** A typical movie setup is TV or projector, AV receiver, streaming box and disc player: four devices. A \"Watch Movie\" activity might send **six to eight commands** (power on three or four devices, switch the TV input, switch the receiver input). That's the job a hub remote does in one press, and it's what simple code-based remotes like the [GE 4-device remote](/gear/ge-universal-remote/) can't.\n\n**Compared with the [SofaBaton X1S](/gear/sofabaton-x1s/),** the X2 is the more premium remote with a refined design; the core hub capability is similar, so if budget matters the X1S does most of the same work. The remote is rechargeable.\n\nOwners report a learning curve when building complex activities in the app. See the [best universal remote for home theater](/best-universal-remote-for-home-theater/) roundup.",
+    "bestFor": "Complex home theaters with gear in cabinets and Bluetooth devices like Fire TV or PlayStation",
+    "skipIf": "You only need to control a TV and one or two IR devices",
+    "pros": [
+      "Hub controls IR, Bluetooth and Wi-Fi devices",
+      "No line of sight needed; works with gear in cabinets",
+      "One-press activities for multi-device setups",
+      "Alexa and Google Assistant integration"
+    ],
+    "cons": [
+      "App setup has a learning curve for complex activities",
+      "Costs much more than code-based remotes",
+      "Hub needs power and a spot near your gear"
+    ],
+    "specs": {
+      "Devices": "Large device library; multi-device activities",
+      "Control": "IR, Bluetooth and Wi-Fi (via hub)",
+      "Hub": "Yes",
+      "App": "SofaBaton app (iOS/Android)",
+      "Voice": "Alexa and Google Assistant via hub",
+      "Battery": "Rechargeable"
+    },
+    "keySpecs": [
+      "Devices",
+      "Control",
+      "Hub",
+      "Voice"
+    ],
+    "faqs": [
+      {
+        "q": "Is the SofaBaton X2 a good Harmony replacement?",
+        "a": "Yes. Like the Harmony Hub remotes, it uses a hub to control IR, Bluetooth and Wi-Fi devices with one-press activities, and it's actively supported."
+      },
+      {
+        "q": "Can the SofaBaton X2 control a Fire TV or PS5?",
+        "a": "Yes. Its hub can send Bluetooth commands, which devices like Fire TV sticks and PlayStation consoles need."
+      }
+    ]
+  },
+  {
+    "slug": "sofabaton-x1s",
+    "name": "SofaBaton X1S Universal Remote",
+    "brand": "SofaBaton",
+    "category": "remote",
+    "amazonQuery": "SofaBaton X1S universal remote",
+    "priceBand": "$130–$180",
+    "priceTier": 3,
+    "score": 80,
+    "scores": [
+      {
+        "label": "Device coverage",
+        "value": 86
+      },
+      {
+        "label": "Ease of setup",
+        "value": 76
+      },
+      {
+        "label": "Build & ergonomics",
+        "value": 78
+      },
+      {
+        "label": "Value",
+        "value": 82
+      }
+    ],
+    "summary": "A hub-based universal remote that handles IR, Bluetooth and Wi-Fi devices with activities and voice assistant support, for less than SofaBaton's flagship.",
+    "verdict": "The X1S brings SofaBaton's hub approach at a lower price than the [SofaBaton X2](/gear/sofabaton-x2/). The **hub** translates commands into **IR, Bluetooth or Wi-Fi**, so you can control equipment hidden in a cabinet and Bluetooth-only devices like Fire TV sticks and PlayStation consoles. It works with **Alexa and Google Assistant** via the hub, and the remote is rechargeable.\n\n**Count your devices first.** A typical theater has a TV or projector, AV receiver, streaming box and disc player; add a motorized screen or smart lights and you're at six. Simple code-based remotes top out at four or so devices, and they can't run multi-step activities. If you have **three or more** devices that need to turn on together, a hub remote earns its price.\n\n**Activity design tip.** Build one activity per source (\"Watch Apple TV\", \"Play Blu-ray\") rather than one big \"Movie\" activity. Each one then sets the right TV and [AV receiver](/best-home-theater-receiver/) inputs, and switching between them only changes what's needed instead of power-cycling everything.\n\n**IR placement.** The hub has to see your IR devices. If gear sits behind solid cabinet doors, place the hub inside the cabinet or use an IR extender.\n\nOwners like the value and device coverage; setup through the app takes some patience. See the [best universal remote for home theater](/best-universal-remote-for-home-theater/) roundup.",
+    "bestFor": "Mid-size home theaters that want hub-based control without flagship pricing",
+    "skipIf": "You only control a TV and soundbar; your TV remote probably already does that",
+    "pros": [
+      "Hub controls IR, Bluetooth and Wi-Fi devices",
+      "Activity-based control for multi-device setups",
+      "Alexa and Google Assistant support",
+      "Good value for a hub remote"
+    ],
+    "cons": [
+      "App setup takes patience",
+      "Hub needs line of sight to IR gear or an extender",
+      "Less premium feel than the X2"
+    ],
+    "specs": {
+      "Devices": "Large device library; multi-device activities",
+      "Control": "IR, Bluetooth and Wi-Fi (via hub)",
+      "Hub": "Yes",
+      "App": "SofaBaton app (iOS/Android)",
+      "Voice": "Alexa and Google Assistant via hub",
+      "Battery": "Rechargeable"
+    },
+    "keySpecs": [
+      "Devices",
+      "Control",
+      "Hub",
+      "Voice"
+    ],
+    "faqs": [
+      {
+        "q": "What's the difference between the SofaBaton X1S and X2?",
+        "a": "Both use a hub to control IR, Bluetooth and Wi-Fi devices. The X2 is the more premium model, while the X1S offers most of the same core control for less."
+      },
+      {
+        "q": "Does the SofaBaton X1S need line of sight?",
+        "a": "The remote talks to the hub without line of sight. The hub itself needs to see IR devices, or you can add an IR extender."
+      }
+    ]
+  },
+  {
+    "slug": "sofabaton-u2",
+    "name": "SofaBaton U2 Universal Remote",
+    "brand": "SofaBaton",
+    "category": "remote",
+    "amazonQuery": "SofaBaton U2 universal remote",
+    "priceBand": "$40–$60",
+    "priceTier": 2,
+    "score": 68,
+    "scores": [
+      {
+        "label": "Device coverage",
+        "value": 70
+      },
+      {
+        "label": "Ease of setup",
+        "value": 76
+      },
+      {
+        "label": "Build & ergonomics",
+        "value": 64
+      },
+      {
+        "label": "Value",
+        "value": 84
+      }
+    ],
+    "summary": "An affordable app-programmed universal remote that controls up to 15 IR and Bluetooth devices without a hub; a sensible step up from code-based remotes.",
+    "verdict": "The SofaBaton U2 is a budget universal remote with a modern twist: you set it up through the **SofaBaton app** over Bluetooth rather than typing in codes, and it controls up to **15 devices** using **IR and Bluetooth**. There's **no hub**, so the remote itself needs line of sight to IR devices.\n\n**Bluetooth is the key advantage.** Many budget remotes are IR-only, which rules out Bluetooth devices such as Fire TV sticks and PlayStation consoles. The U2 can pair with a Bluetooth device, so it covers more of a modern setup than the [GE universal remote](/gear/ge-universal-remote/) or the discontinued [Logitech Harmony 665](/gear/logitech-harmony-665/).\n\n**Where the maths runs out.** Without a hub, multi-device activities rely on the remote sending commands in sequence while you point it at the gear. That works for a simple TV, receiver and streaming box setup on an open shelf. If your equipment is behind cabinet doors or you want one-press control of five or more devices, step up to the [SofaBaton X1S](/gear/sofabaton-x1s/).\n\n**Battery and build.** It runs on replaceable batteries and is lightweight; owners describe it as good value with a few caveats about button feel and occasional app pairing hiccups.\n\nFor a second room or a small theater with gear in view, it's an easy recommendation. See the [best universal remote for home theater](/best-universal-remote-for-home-theater/) roundup.",
+    "bestFor": "Small setups with gear in view, including a Bluetooth streaming stick",
+    "skipIf": "Your equipment is in a closed cabinet or you want hub-based activities",
+    "pros": [
+      "App setup instead of code entry",
+      "Controls up to 15 devices",
+      "IR and Bluetooth control",
+      "Affordable"
+    ],
+    "cons": [
+      "No hub, so IR needs line of sight",
+      "Activities less reliable than hub remotes",
+      "Button feel is basic"
+    ],
+    "specs": {
+      "Devices": "Up to 15",
+      "Control": "IR and Bluetooth",
+      "Hub": "No",
+      "App": "SofaBaton app (setup over Bluetooth)",
+      "Voice": "No",
+      "Battery": "Replaceable batteries"
+    },
+    "keySpecs": [
+      "Devices",
+      "Control",
+      "Hub",
+      "Voice"
+    ],
+    "faqs": [
+      {
+        "q": "Does the SofaBaton U2 need a hub?",
+        "a": "No. It is programmed with the SofaBaton app and controls devices directly over IR and Bluetooth."
+      },
+      {
+        "q": "How many devices can the SofaBaton U2 control?",
+        "a": "Up to 15 devices."
+      }
+    ]
+  },
+  {
+    "slug": "logitech-harmony-665",
+    "name": "Logitech Harmony 665",
+    "brand": "Logitech",
+    "category": "remote",
+    "amazonQuery": "Logitech Harmony 665 universal remote",
+    "priceBand": "$40–$90",
+    "priceTier": 2,
+    "score": 58,
+    "scores": [
+      {
+        "label": "Device coverage",
+        "value": 62
+      },
+      {
+        "label": "Ease of setup",
+        "value": 58
+      },
+      {
+        "label": "Build & ergonomics",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 52
+      }
+    ],
+    "summary": "A discontinued but still-capable activity-based IR remote for up to 10 devices; worth it only if you find one cheaply and accept that support is winding down.",
+    "verdict": "The Harmony 665 was the entry point to Logitech's activity-based remotes, controlling up to **10 devices** over **IR** with one-press activities like \"Watch TV\" and \"Watch a Movie\". Logitech **discontinued the Harmony line in 2021**, so what's on sale now is remaining stock or used units.\n\n**What still works.** The remote is programmed with Logitech's MyHarmony desktop software, and Logitech said it would keep its servers running for existing owners, but it's no longer actively developed and new device codes aren't guaranteed. If you buy one, set it up while the software still works and save your configuration.\n\n**Do the coverage maths.** IR-only means no control of Bluetooth devices such as Fire TV sticks and PlayStation consoles, and no control of gear in closed cabinets without line of sight. Count your devices: a TV, [AV receiver](/best-home-theater-receiver/), Apple TV and Blu-ray player all work over IR, but swap the Apple TV for a Fire TV and you'll be reaching for a second remote.\n\n**Battery.** It runs on two AA batteries, which last a long time in an IR remote.\n\nOwners still praise the activity buttons and ergonomics. But at similar money the [SofaBaton U2](/gear/sofabaton-u2/) adds Bluetooth and active support, and the [SofaBaton X1S](/gear/sofabaton-x1s/) adds a hub. See the [best universal remote for home theater](/best-universal-remote-for-home-theater/) roundup.",
+    "bestFor": "Harmony fans replacing a broken 665 with the same layout",
+    "skipIf": "You want a remote with active software support or Bluetooth control",
+    "pros": [
+      "One-press activities for up to 10 devices",
+      "Comfortable, well-laid-out buttons",
+      "Long battery life on AA cells",
+      "Familiar to existing Harmony users"
+    ],
+    "cons": [
+      "Discontinued; software support is winding down",
+      "IR only, no Bluetooth control",
+      "Needs line of sight to equipment"
+    ],
+    "specs": {
+      "Devices": "Up to 10",
+      "Control": "IR only",
+      "Hub": "No",
+      "App": "MyHarmony desktop software (discontinued line)",
+      "Voice": "No",
+      "Battery": "2 × AA"
+    },
+    "keySpecs": [
+      "Devices",
+      "Control",
+      "Hub",
+      "Voice"
+    ],
+    "faqs": [
+      {
+        "q": "Is the Logitech Harmony 665 still supported?",
+        "a": "Logitech discontinued Harmony remotes in 2021. Existing remotes can still be configured through its software for now, but the line is no longer developed."
+      },
+      {
+        "q": "Can the Harmony 665 control a Fire TV stick?",
+        "a": "No. Fire TV sticks use Bluetooth for most functions, and the Harmony 665 is IR-only."
+      }
+    ]
+  },
+  {
+    "slug": "ge-universal-remote",
+    "name": "GE Universal Remote 4-Device",
+    "brand": "GE",
+    "category": "remote",
+    "amazonQuery": "GE universal remote control 4 device",
+    "priceBand": "$10–$20",
+    "priceTier": 1,
+    "score": 50,
+    "scores": [
+      {
+        "label": "Device coverage",
+        "value": 40
+      },
+      {
+        "label": "Ease of setup",
+        "value": 66
+      },
+      {
+        "label": "Build & ergonomics",
+        "value": 54
+      },
+      {
+        "label": "Value",
+        "value": 90
+      }
+    ],
+    "summary": "A cheap, simple code-based IR remote for up to four devices; fine for replacing a lost TV remote, but no activities, app or Bluetooth control.",
+    "verdict": "The GE 4-device universal remote is the simplest option here: an **IR** remote that you program by entering codes or running an auto-search, and it controls up to **four devices**, typically TV, cable or satellite box, streaming box and audio. It runs on **two AAA batteries**, and there's no app, hub or voice control.\n\n**Run the device count.** A basic home theater with a TV, AV receiver, streaming box and Blu-ray player already uses all four slots. Add a projector or a second streaming device and you're out of room. And each device is controlled separately: turning on a movie setup means pressing the device button, then power, for each component, and switching inputs manually.\n\n**IR only.** It can't control Bluetooth devices like Fire TV sticks or PlayStation consoles, and it needs line of sight. Code libraries also lag behind newer equipment, so a recent receiver or streaming box may only get basic functions.\n\n**Where it makes sense.** As a replacement for a lost TV remote, a remote for a guest room, or a backup for grandparents who want big, simple buttons, it's ideal and nearly disposable at the price.\n\nFor a real home theater, the [SofaBaton U2](/gear/sofabaton-u2/) is the cheapest meaningful upgrade, and the [SofaBaton X1S](/gear/sofabaton-x1s/) is the best value hub remote. See the [best universal remote for home theater](/best-universal-remote-for-home-theater/) roundup.",
+    "bestFor": "Replacing a lost remote or controlling a simple TV setup cheaply",
+    "skipIf": "You have more than four devices or need one-press activities",
+    "pros": [
+      "Very cheap",
+      "Simple setup with code entry or auto-search",
+      "Easy, uncluttered buttons",
+      "Long battery life"
+    ],
+    "cons": [
+      "Only four devices",
+      "No activities, app or Bluetooth",
+      "Newer devices may only get basic functions"
+    ],
+    "specs": {
+      "Devices": "4",
+      "Control": "IR (code entry or auto-search)",
+      "Hub": "No",
+      "App": "None",
+      "Voice": "No",
+      "Battery": "2 × AAA"
+    },
+    "keySpecs": [
+      "Devices",
+      "Control",
+      "Hub",
+      "Voice"
+    ],
+    "faqs": [
+      {
+        "q": "How do I program a GE universal remote?",
+        "a": "Enter the code for your device from GE's code list, or use the auto-search mode, which cycles through codes until your device responds."
+      },
+      {
+        "q": "Can the GE universal remote control a soundbar?",
+        "a": "Often yes, if the soundbar responds to IR and has a code in GE's library. Bluetooth-only devices won't work."
+      }
+    ]
+  }
+]

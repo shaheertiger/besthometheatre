@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "klipsch-r-41sa",
+    "name": "Klipsch R-41SA Dolby Atmos Elevation Speakers",
+    "brand": "Klipsch",
+    "category": "atmos-speaker",
+    "amazonQuery": "Klipsch R-41SA Dolby Atmos elevation speakers",
+    "priceBand": "$180–$280 per pair",
+    "priceTier": 2,
+    "score": 79,
+    "scores": [
+      {
+        "label": "Height effect",
+        "value": 78
+      },
+      {
+        "label": "Placement flexibility",
+        "value": 88
+      },
+      {
+        "label": "Build quality",
+        "value": 74
+      },
+      {
+        "label": "Value",
+        "value": 80
+      }
+    ],
+    "summary": "A horn-loaded Atmos elevation speaker that doubles as a wall-mounted surround, the easiest height-channel add-on for Klipsch Reference systems.",
+    "verdict": "The R-41SA is a dual-purpose speaker: a **1-inch aluminum tweeter on a 90x90 Tractrix horn** and a **4-inch spun-copper woofer**, angled to fire at the ceiling for [Dolby Atmos](/glossary/dolby-atmos/) height effects. Turn it around and its keyhole mount lets it hang on a wall as a surround, which is useful if you change layouts later. It's an 8-ohm design sold as a pair.\n\n**Show the maths.** Up-firing speakers rely on a ceiling bounce. Dolby's guidance for enabled speakers uses an upward tilt of roughly 20 degrees and favours flat, reflective ceilings about 7.5–12 ft (2.3–3.7 m) high. Set the R-41SA on a tower or stand top about 1.0 m (3.3 ft) off the floor under a 2.4 m (8 ft) ceiling: the sound rises 1.4 m and travels 1.4 × tan(20°) ≈ **0.5 m** toward you before reflecting. With the speaker 2.5 m from your seat, the reflection lands about 2 m in front and 1.4 m above ear height, an elevation of about **35 degrees**, inside Dolby's 30–55 degree window for front heights.\n\nEach pair needs two extra amplifier channels, so a 5.1.2 layout needs a seven-channel receiver ([best home theater receiver](/best-home-theater-receiver/)). Set the heights to Small with a 100–150 Hz [crossover](/glossary/crossover/), since a 4-inch woofer can't handle bass.\n\nThe trade-off is the ceiling dependence: vaulted or acoustic-tile ceilings weaken the effect, and in-ceiling speakers like the [Polk RC80i](/gear/polk-rc80i/) image more precisely. Pair the R-41SA with [R-600F](/gear/klipsch-r-600f/) towers to keep the horn timbre consistent, and see our [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) guide.",
+    "bestFor": "Klipsch Reference systems adding Atmos height without ceiling work",
+    "skipIf": "Your ceiling is vaulted, very high or acoustically absorbent",
+    "pros": [
+      "Horn tweeter matches Klipsch Reference fronts",
+      "Doubles as a wall-mounted surround",
+      "No ceiling installation needed",
+      "Easy 8-ohm load"
+    ],
+    "cons": [
+      "Height effect depends on a flat, reflective ceiling",
+      "4-inch woofer needs a 100 Hz+ crossover",
+      "Uses two extra receiver channels per pair"
+    ],
+    "specs": {
+      "Type": "Dolby Atmos elevation / surround speaker (dual-purpose)",
+      "Drivers": "1-inch aluminum LTS tweeter on 90x90 Tractrix horn; 4-inch spun-copper IMG woofer",
+      "Impedance": "8 ohms",
+      "Mounting": "Sits on speaker or shelf; keyhole for wall mounting",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Where should I put the Klipsch R-41SA for Atmos?",
+        "a": "On top of your front speakers or on a shelf at a similar height, firing upward toward a flat ceiling between the speakers and your seat. Ideally the ceiling is 7.5–12 ft high and hard-surfaced. Then set them as front Atmos-enabled or front height speakers in your receiver."
+      },
+      {
+        "q": "Can the Klipsch R-41SA be used as surround speakers?",
+        "a": "Yes. They have a keyhole mount, so you can hang them on the side or rear walls as surrounds. That makes them a flexible buy if you later switch to in-ceiling speakers for height."
+      }
+    ]
+  },
+  {
+    "slug": "polk-monitor-xt90",
+    "name": "Polk Monitor XT90 Height Module",
+    "brand": "Polk Audio",
+    "category": "atmos-speaker",
+    "amazonQuery": "Polk Monitor XT90 Dolby Atmos height module",
+    "priceBand": "$130–$200 per pair",
+    "priceTier": 1,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Height effect",
+        "value": 72
+      },
+      {
+        "label": "Placement flexibility",
+        "value": 78
+      },
+      {
+        "label": "Build quality",
+        "value": 70
+      },
+      {
+        "label": "Value",
+        "value": 86
+      }
+    ],
+    "summary": "An affordable up-firing Atmos module that sits on Polk Monitor XT speakers, the cheapest way to add height channels in this group.",
+    "verdict": "The Monitor XT90 is Polk's budget [Dolby Atmos](/glossary/dolby-atmos/) height module: a compact, angled cabinet that sits on top of your front speakers and fires at the ceiling. It's sold as a pair, matches the Terylene tweeter of the Monitor XT range and has an 8-ohm rating.\n\n**Show the maths.** Up-firing depends on geometry. Dolby's guidance for enabled speakers uses a tilt of roughly 20 degrees from vertical and favours flat, reflective ceilings about 7.5–12 ft high. Put an XT90 on an [XT60 tower](/gear/polk-monitor-xt60/) with its top near 1.1 m (3.6 ft), under a 2.4 m (8 ft) ceiling: the sound rises about 1.3 m and travels 1.3 × tan(20°) ≈ **0.47 m** forward before reflecting. From a seat 2.5 m away, that reflection sits about 2 m in front and 1.4 m above ear height, an elevation of roughly **35 degrees**, inside Dolby's 30–55 degree range.\n\nRaise the ceiling to 3.0 m (about 10 ft) and the rise grows to 1.9 m: the reflection now lands about 0.7 m out and appears at roughly 48 degrees. That's still fine, but much higher ceilings stretch the path and soften the effect.\n\nYou need two extra amplifier channels for a pair, so a 5.1.2 layout needs a seven-channel receiver ([best budget home theater receiver](/best-budget-home-theater-receiver/)). Set them to Small with a 100–150 Hz [crossover](/glossary/crossover/).\n\nThe trade-off is that build and output are basic, and in-ceiling speakers like the [Polk RC60i](/gear/polk-rc60i/) give more precise height. See our [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) guide.",
+    "bestFor": "Budget Polk Monitor XT systems adding Atmos",
+    "skipIf": "You can install in-ceiling speakers or have a vaulted ceiling",
+    "pros": [
+      "Cheapest way to add Atmos height in this group",
+      "Matches Monitor XT tweeter",
+      "Sits on top of speakers: no ceiling work",
+      "Easy 8-ohm load"
+    ],
+    "cons": [
+      "Height effect depends on a flat, reflective ceiling",
+      "Basic build and limited output",
+      "Needs two extra receiver channels"
+    ],
+    "specs": {
+      "Type": "Dolby Atmos elevation module (up-firing)",
+      "Impedance": "8 ohms",
+      "Mounting": "Sits on top of front speakers",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Impedance",
+      "Mounting",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Do the Polk XT90 work with non-Polk speakers?",
+        "a": "Yes, they connect to any receiver with Atmos height channels. They're voiced to match Polk Monitor XT speakers, though, so with other brands the height effects may sound slightly different in tone. That matters less for height channels than for the front three."
+      },
+      {
+        "q": "What receiver do I need for the Polk XT90?",
+        "a": "One that supports Dolby Atmos with at least seven amplified channels for a 5.1.2 layout. In setup, assign them as front Atmos-enabled or front height speakers so the receiver applies the right processing."
+      }
+    ]
+  },
+  {
+    "slug": "elac-debut-a42",
+    "name": "ELAC Debut A4.2 Atmos Module",
+    "brand": "ELAC",
+    "category": "atmos-speaker",
+    "amazonQuery": "ELAC Debut A4.2 Atmos speakers",
+    "priceBand": "$250–$350 per pair",
+    "priceTier": 2,
+    "score": 81,
+    "scores": [
+      {
+        "label": "Height effect",
+        "value": 80
+      },
+      {
+        "label": "Placement flexibility",
+        "value": 78
+      },
+      {
+        "label": "Build quality",
+        "value": 82
+      },
+      {
+        "label": "Value",
+        "value": 80
+      }
+    ],
+    "summary": "A well-built up-firing Atmos module with a 4-inch aramid woofer that matches the ELAC Debut 2.0 range, the most refined height add-on here.",
+    "verdict": "The Debut A4.2 is ELAC's [Dolby Atmos](/glossary/dolby-atmos/) elevation module: a **4-inch aramid-fiber woofer** and a **1-inch cloth dome tweeter** in an angled cabinet that sits on top of your front speakers. It's a **6-ohm** design sold as a pair, and it matches the drivers of the [B6.2](/gear/elac-debut-b62/) and [F6.2](/gear/elac-debut-f62/).\n\n**Show the maths.** Up-firing modules create height by bouncing sound off the ceiling. Dolby's guidance for enabled speakers uses an upward tilt of roughly 20 degrees and favours flat, reflective ceilings about 7.5–12 ft high. Place an A4.2 on a bookshelf stand with its top about 1.0 m off the floor, under a 2.4 m (8 ft) ceiling: the sound rises 1.4 m and travels 1.4 × tan(20°) ≈ **0.5 m** toward you before reflecting. From a seat 2.5 m away, that puts the reflection 2 m in front and 1.4 m above ear height, about **35 degrees** up, inside Dolby's 30–55 degree window.\n\nTimbre matching matters even for heights. When a helicopter flies from the front left speaker up into the height channel, a matched cloth dome tweeter keeps the sound from changing character mid-move.\n\nA pair needs two extra amplifier channels, so plan for a seven-channel receiver for 5.1.2 ([best home theater receiver](/best-home-theater-receiver/)). Set them to Small at 100–150 Hz ([crossover basics](/glossary/crossover/)). The 6-ohm rating is fine for most receivers ([impedance explained](/glossary/impedance/)).\n\nThe trade-off: it costs more than the [Polk XT90](/gear/polk-monitor-xt90/), and in-ceiling speakers still give more precise overhead imaging. See our [best Dolby Atmos home theater system](/best-dolby-atmos-home-theater-system/) guide.",
+    "bestFor": "ELAC Debut 2.0 systems adding Atmos without ceiling work",
+    "skipIf": "You have a vaulted ceiling or can install in-ceiling speakers",
+    "pros": [
+      "Matches Debut 2.0 drivers for seamless pans",
+      "4-inch aramid woofer and cloth dome tweeter",
+      "Solid build for an elevation module",
+      "No ceiling installation"
+    ],
+    "cons": [
+      "Height effect depends on a flat, reflective ceiling",
+      "Costs more than budget modules",
+      "Needs two extra receiver channels"
+    ],
+    "specs": {
+      "Type": "Dolby Atmos elevation module (up-firing)",
+      "Drivers": "1-inch cloth dome tweeter; 4-inch aramid-fiber woofer",
+      "Impedance": "6 ohms",
+      "Mounting": "Sits on top of front speakers",
+      "Sold as": "Pair"
+    },
+    "keySpecs": [
+      "Type",
+      "Drivers",
+      "Impedance",
+      "Sold as"
+    ],
+    "faqs": [
+      {
+        "q": "Can I put the ELAC A4.2 on any speaker?",
+        "a": "Yes, as long as the top is flat and wide enough to hold it securely. It's voiced to match ELAC Debut 2.0 speakers, so you'll get the most seamless height effects with those. On other brands it still works, with a small timbre difference."
+      },
+      {
+        "q": "Are up-firing Atmos modules as good as in-ceiling speakers?",
+        "a": "Usually not quite. In-ceiling speakers place height effects more precisely, especially in rooms with high or uneven ceilings. Up-firing modules are a strong option when you can't cut into the ceiling, and they work best under a flat, hard ceiling 7.5–12 ft high."
+      }
+    ]
+  }
+]

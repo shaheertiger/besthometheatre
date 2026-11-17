@@ -1,0 +1,545 @@
+[
+  {
+    "slug": "silver-ticket-str-169120",
+    "name": "Silver Ticket STR-169120 Fixed Frame Screen",
+    "brand": "Silver Ticket",
+    "category": "screen",
+    "amazonQuery": "Silver Ticket STR-169120 120 inch projector screen",
+    "priceBand": "$300–$450",
+    "priceTier": 2,
+    "score": 81,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 82
+      },
+      {
+        "label": "Ambient light handling",
+        "value": 56
+      },
+      {
+        "label": "Value",
+        "value": 88
+      },
+      {
+        "label": "Ease of install",
+        "value": 80
+      }
+    ],
+    "summary": "A 120\" fixed-frame matte white screen with a velvet-wrapped frame, the long-running value pick for dark home theaters.",
+    "verdict": "The Silver Ticket STR-169120 is the screen many first home theaters start with: a **120\" 16:9 fixed-frame** screen with a matte white, 4K-rated surface stretched over an aluminum frame wrapped in black velvet. The velvet border soaks up overspill so the image edges look crisp.\n\nDo the brightness maths before you pair it with a projector. A 120\" 16:9 screen covers about 42.7 sq ft. With a gain of about **1.1**, a projector rated at 2,800 lumens, such as the [Epson Home Cinema 2350](/gear/epson-home-cinema-2350/), gives roughly 2,800 x 1.1 / 42.7 = **72 foot-lamberts** at its rated output, and a 2,000-lumen projector about 52. Calibrated modes run lower, but both clear the roughly 16 foot-lamberts often cited for SDR cinema with room to spare.\n\nSeating distance follows from the width. The image is 104.6\" wide, so a 40-degree viewing angle puts you about **12 ft** back and a 30-degree angle about **16.3 ft** back; try your room with our [viewing distance calculator](/tools/viewing-distance-calculator/). As a white screen, it has no ambient light rejection, so lights on will gray out blacks. For a light-controlled room it is excellent value; for a living room, look at the [Elite Screens Sable Frame CineGrey 3D](/gear/elite-screens-cinegrey-3d/). More picks in our [best projector screen guide](/best-projector-screen-for-home-theater/).",
+    "bestFor": "Dark, dedicated rooms that want a flat 120\" screen for the money",
+    "skipIf": "You watch with lights on or have an ultra short throw projector",
+    "pros": [
+      "Flat, tensioned fixed-frame surface",
+      "Velvet-wrapped frame absorbs overspill",
+      "Matte white gives wide, even viewing angles",
+      "Strong value for a 120\" screen"
+    ],
+    "cons": [
+      "No ambient light rejection",
+      "Assembly takes two people and some patience",
+      "Not suited to ultra short throw projectors"
+    ],
+    "specs": {
+      "Size": "120 in. diagonal",
+      "Aspect ratio": "16:9",
+      "Gain": "About 1.1",
+      "Material": "Matte white, 4K/8K-rated",
+      "Type": "Fixed frame",
+      "ALR": "No",
+      "Frame": "Aluminum, black velvet-wrapped"
+    },
+    "keySpecs": [
+      "Size",
+      "Gain",
+      "Type",
+      "ALR"
+    ],
+    "faqs": [
+      {
+        "q": "How far should I sit from a 120-inch Silver Ticket screen?",
+        "a": "Roughly 12 to 16 feet. The image is 104.6 inches wide, so a 40-degree viewing angle puts you about 12 feet back and a 30-degree angle about 16.3 feet back. Sit closer for a more cinematic feel, further back for comfort."
+      },
+      {
+        "q": "Can the Silver Ticket screen be used with an ultra short throw projector?",
+        "a": "It is not recommended. Ultra short throw projectors hit the screen at a steep angle, which exaggerates any surface waves and gives no ambient light rejection. Use a ceiling-light-rejecting UST screen instead."
+      }
+    ]
+  },
+  {
+    "slug": "elite-screens-sable-frame-2",
+    "name": "Elite Screens Sable Frame 2",
+    "brand": "Elite Screens",
+    "category": "screen",
+    "amazonQuery": "Elite Screens Sable Frame 2 120 inch",
+    "priceBand": "$250–$400",
+    "priceTier": 2,
+    "score": 83,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 83
+      },
+      {
+        "label": "Ambient light handling",
+        "value": 56
+      },
+      {
+        "label": "Value",
+        "value": 88
+      },
+      {
+        "label": "Ease of install",
+        "value": 82
+      }
+    ],
+    "summary": "A low-cost fixed-frame screen with Elite's 1.1-gain CineWhite material and a velvet frame, a solid match for dark rooms.",
+    "verdict": "The Elite Screens Sable Frame 2 is a **fixed-frame, 16:9** screen using Elite's **CineWhite** matte white material, rated at **1.1 gain**, stretched over a black velvet-covered aluminum frame. It is sold in a range of sizes; 120\" is the common home theater pick.\n\nThe gain number tells you how much light comes back. On a 120\" screen (about 42.7 sq ft), a projector rated at 2,300 lumens, like the [BenQ HT2060](/gear/benq-ht2060/), returns roughly 2,300 x 1.1 / 42.7 = **59 foot-lamberts** at its rated output. A 3,000-lumen model such as the [Epson Home Cinema 3800](/gear/epson-home-cinema-3800/) would give about 77. Calibrated output is always lower than the rated figure, but both have headroom in a dark room. A 1.1 gain is close enough to neutral that viewing angles stay wide and even, which matters for a sofa that runs off-center.\n\nWhat you do not get is ambient light rejection: a white screen reflects room light as readily as projector light, so blacks gray out with lamps on. Assembly is straightforward but best done by two people, and the tension springs need even attention to get a flat surface. If your room is light-controlled, it is one of the best-value screens available; for living rooms, step up to the [Elite Screens Sable Frame CineGrey 3D](/gear/elite-screens-cinegrey-3d/). More in our [best projector screen guide](/best-projector-screen-for-home-theater/).",
+    "bestFor": "Dark home theaters and basements on a budget",
+    "skipIf": "Your room has windows or lights you cannot control during viewing",
+    "pros": [
+      "CineWhite 1.1-gain surface with wide viewing angles",
+      "Tensioned fixed frame keeps the surface flat",
+      "Black velvet border sharpens image edges",
+      "Many sizes available"
+    ],
+    "cons": [
+      "No ambient light rejection",
+      "Two-person assembly",
+      "Not designed for ultra short throw projectors"
+    ],
+    "specs": {
+      "Size": "120 in. diagonal (other sizes available)",
+      "Aspect ratio": "16:9",
+      "Gain": "1.1",
+      "Material": "CineWhite (matte white)",
+      "Type": "Fixed frame",
+      "ALR": "No",
+      "Frame": "Aluminum, black velvet-covered"
+    },
+    "keySpecs": [
+      "Size",
+      "Gain",
+      "Material",
+      "ALR"
+    ],
+    "faqs": [
+      {
+        "q": "What does 1.1 gain mean on the Elite Sable Frame 2?",
+        "a": "It reflects about 10 percent more light toward the center seat than a reference 1.0 white surface. That small boost keeps viewing angles wide while adding a little brightness, a good balance for most dark rooms."
+      },
+      {
+        "q": "Is the Elite Sable Frame 2 good for 4K?",
+        "a": "Yes. CineWhite is a smooth matte surface suited to 4K projectors, and the fixed frame keeps it flat so fine detail stays sharp."
+      }
+    ]
+  },
+  {
+    "slug": "elite-screens-aeon-clr3",
+    "name": "Elite Screens Aeon CLR 3",
+    "brand": "Elite Screens",
+    "category": "screen",
+    "amazonQuery": "Elite Screens Aeon CLR 3 ALR screen",
+    "priceBand": "$1,300–$2,500",
+    "priceTier": 4,
+    "score": 84,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 84
+      },
+      {
+        "label": "Ambient light handling",
+        "value": 92
+      },
+      {
+        "label": "Value",
+        "value": 68
+      },
+      {
+        "label": "Ease of install",
+        "value": 74
+      }
+    ],
+    "summary": "A thin-bezel ceiling-light-rejecting screen built for ultra short throw projectors, the upgrade that makes a UST work in a bright living room.",
+    "verdict": "The Elite Screens Aeon CLR 3 is a **ceiling-light-rejecting (CLR) ALR screen** made specifically for **ultra short throw (UST)** projectors. Its surface is engineered to reflect light arriving from below, where a UST sits, back toward the audience, while sending light from the ceiling and above away from your eyes. The edge-free, thin-bezel aluminum frame keeps it looking like a TV on the wall. See [how ALR screens work](/glossary/alr-screen/) for how these screens work.\n\nWhy it matters is easy to quantify. A UST like the [Epson EpiqVision Ultra LS800](/gear/epson-ls800/) is rated at 4,000 ISO lumens, which on a 100\" screen (29.7 sq ft) is roughly 135 lumens per sq ft at its rated output. Brightness is not the problem in a living room; contrast is. On a white screen, overhead lights add their own reflection to every dark pixel, so blacks turn gray. A CLR surface rejects most of that overhead light, which keeps contrast up even if the screen reflects somewhat less than a 1.0-gain white surface.\n\nThe catches: it only works with UST projectors (a ceiling-mounted projector would be rejected like room light), it costs much more than a white screen, and assembly must be careful because any wave shows at UST angles. Pair it with the [Hisense PX3-Pro](/gear/hisense-px3-pro/) or [AWOL Vision LTV-3500 Pro](/gear/awol-ltv-3500-pro/). More options in our [best projector screen guide](/best-projector-screen-for-home-theater/).",
+    "bestFor": "Bright living rooms with an ultra short throw laser projector",
+    "skipIf": "You use a standard-throw or ceiling-mounted projector",
+    "pros": [
+      "Rejects overhead light to keep contrast in bright rooms",
+      "Designed for the steep angle of UST projectors",
+      "Thin-bezel frame looks like a TV",
+      "Rigid frame keeps the surface flat"
+    ],
+    "cons": [
+      "Works only with ultra short throw projectors",
+      "Expensive compared with white screens",
+      "Assembly must be careful to avoid surface waves"
+    ],
+    "specs": {
+      "Size": "Multiple sizes (check the listing)",
+      "Aspect ratio": "16:9",
+      "Material": "CLR 3 (ceiling light rejecting)",
+      "Type": "Fixed frame, edge-free thin bezel",
+      "ALR": "Yes, ceiling light rejecting (UST only)",
+      "Frame": "Thin-bezel aluminum"
+    },
+    "keySpecs": [
+      "Material",
+      "Type",
+      "ALR",
+      "Frame"
+    ],
+    "faqs": [
+      {
+        "q": "Can I use the Elite Aeon CLR 3 with a regular projector?",
+        "a": "No. The surface is tuned to reflect light coming from below at a steep angle, as an ultra short throw projector does. Light from a ceiling-mounted or shelf projector is treated like room light and rejected, giving a dim, uneven image."
+      },
+      {
+        "q": "Do I need a CLR screen for a UST projector?",
+        "a": "Not to get a picture, but it makes the biggest difference in bright rooms. A white wall or screen reflects overhead light back at you and grays out blacks. A CLR screen keeps contrast when lights are on, which is how most living rooms are used."
+      },
+      {
+        "q": "Is the Aeon CLR 3 hard to install?",
+        "a": "It takes care rather than skill. Assemble the frame on a clean floor, attach the surface evenly so there are no waves, and level it carefully. Ultra short throw projectors exaggerate any curve or wrinkle in the surface."
+      }
+    ]
+  },
+  {
+    "slug": "elite-screens-spectrum",
+    "name": "Elite Screens Spectrum Motorized Screen",
+    "brand": "Elite Screens",
+    "category": "screen",
+    "amazonQuery": "Elite Screens Spectrum electric motorized projector screen 120",
+    "priceBand": "$300–$500",
+    "priceTier": 2,
+    "score": 78,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 76
+      },
+      {
+        "label": "Ambient light handling",
+        "value": 54
+      },
+      {
+        "label": "Value",
+        "value": 82
+      },
+      {
+        "label": "Ease of install",
+        "value": 80
+      }
+    ],
+    "summary": "An electric motorized drop-down screen with MaxWhite 1.1-gain material and a remote, for rooms where the screen must disappear when not in use.",
+    "verdict": "The Elite Screens Spectrum is an **electric motorized** screen that rolls down from a wall- or ceiling-mounted case at the press of a remote, then disappears when the movie ends. It uses Elite's **MaxWhite FG** matte white material at about **1.1 gain**, and a 12-volt trigger input lets compatible projectors lower and raise it automatically.\n\nAt 120\" 16:9, the image area is about 42.7 sq ft, so the screen returns roughly lumens x 1.1 / 42.7. A 2,600-lumen projector like the [Epson Home Cinema 5050UB](/gear/epson-home-cinema-5050ub/) gives about **67 foot-lamberts** at its rated output; a 3,000-lumen model about 77. That is plenty for a dark room. For seating, the 104.6\" image width puts you around **12 ft** back for a 40-degree angle and about 16 ft for 30 degrees; check with our [viewing distance calculator](/tools/viewing-distance-calculator/).\n\nThe trade-off with any roll-down screen is flatness. Without side tensioning, some owners report slight waves or curled edges over time, which show most on bright, flat scenes. That rules it out for ultra short throw projectors, where waves are magnified. There is also no ambient light rejection. If you need a screen that hides away in a living room, it is good value; if it can stay up permanently, a fixed frame like the [Elite Screens Sable Frame 2](/gear/elite-screens-sable-frame-2/) is flatter and cheaper. See our [best projector screen guide](/best-projector-screen-for-home-theater/).",
+    "bestFor": "Living rooms and multi-use spaces where the screen must retract",
+    "skipIf": "You use an ultra short throw projector or want a perfectly flat surface",
+    "pros": [
+      "Motorized drop with remote control",
+      "12 V trigger for automatic raise and lower",
+      "MaxWhite 1.1-gain surface with wide viewing angles",
+      "Wall or ceiling mounting"
+    ],
+    "cons": [
+      "Not tab-tensioned, so slight waves can appear",
+      "No ambient light rejection",
+      "Unsuitable for ultra short throw projectors"
+    ],
+    "specs": {
+      "Size": "120 in. diagonal (other sizes available)",
+      "Aspect ratio": "16:9",
+      "Gain": "About 1.1",
+      "Material": "MaxWhite FG (matte white)",
+      "Type": "Electric motorized, roll-down",
+      "ALR": "No",
+      "Frame": "None (roll-down case)"
+    },
+    "keySpecs": [
+      "Size",
+      "Gain",
+      "Type",
+      "ALR"
+    ],
+    "faqs": [
+      {
+        "q": "Can the Elite Spectrum drop automatically when the projector turns on?",
+        "a": "Yes, if your projector has a 12-volt trigger output. Connect it to the screen's trigger input and the screen lowers when the projector powers on and retracts when it turns off. Otherwise, use the included remote."
+      },
+      {
+        "q": "Will a motorized screen stay flat?",
+        "a": "Mostly. Non-tensioned roll-down screens can develop slight waves or curled edges over time, which show on bright scenes. A tab-tensioned motorized screen or a fixed frame is flatter if that bothers you."
+      }
+    ]
+  },
+  {
+    "slug": "elite-screens-cinegrey-3d",
+    "name": "Elite Screens Sable Frame CineGrey 3D",
+    "brand": "Elite Screens",
+    "category": "screen",
+    "amazonQuery": "Elite Screens CineGrey 3D projector screen",
+    "priceBand": "$450–$800",
+    "priceTier": 3,
+    "score": 85,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 84
+      },
+      {
+        "label": "Ambient light handling",
+        "value": 84
+      },
+      {
+        "label": "Value",
+        "value": 80
+      },
+      {
+        "label": "Ease of install",
+        "value": 80
+      }
+    ],
+    "summary": "A 1.2-gain ambient-light-rejecting fixed-frame screen for standard-throw projectors, the best all-round choice for rooms that are not fully dark.",
+    "verdict": "The Elite Screens Sable Frame CineGrey 3D pairs Elite's budget fixed frame with its **CineGrey 3D** ambient-light-rejecting (ALR) material, rated at **1.2 gain**. Unlike a CLR screen for ultra short throw projectors, it is designed for **standard-throw** projectors on a ceiling or rear shelf. See [how ALR screens work](/glossary/alr-screen/) for the difference.\n\nHere is how the gain and grey surface work together. On a 120\" screen (42.7 sq ft), a 3,000-lumen projector such as the [Epson Home Cinema 3800](/gear/epson-home-cinema-3800/) returns about 3,000 x 1.2 / 42.7 = **84 foot-lamberts** at its rated output, versus about 70 on a 1.0-gain white screen. The angular-reflective surface sends projector light back toward the seats while reflecting light from other angles away, and the grey base keeps blacks darker when lamps are on. In practice that means a living room with some lights on looks far less washed out than on white.\n\nALR comes with trade-offs. Viewing angles are narrower than matte white, so very wide seating rows see a dimmer image at the edges, and some viewers notice a faint texture on bright, flat scenes. It is not for UST projectors. For most mixed-use rooms with a standard projector, it is our first choice; for a fully dark theater, the [Elite Screens Sable Frame 2](/gear/elite-screens-sable-frame-2/) is cheaper and just as good. More in our [best projector screen guide](/best-projector-screen-for-home-theater/).",
+    "bestFor": "Living rooms and media rooms with some ambient light and a standard-throw projector",
+    "skipIf": "You have an ultra short throw projector or a very wide seating layout",
+    "pros": [
+      "1.2 gain adds brightness over matte white",
+      "Rejects ambient light to keep contrast",
+      "Grey base improves black levels with lights on",
+      "Tensioned fixed frame keeps it flat"
+    ],
+    "cons": [
+      "Narrower viewing angle than matte white",
+      "Not for ultra short throw projectors",
+      "Costs more than a white screen"
+    ],
+    "specs": {
+      "Size": "120 in. diagonal (other sizes available)",
+      "Aspect ratio": "16:9",
+      "Gain": "1.2",
+      "Material": "CineGrey 3D (grey ALR)",
+      "Type": "Fixed frame",
+      "ALR": "Yes (for standard-throw projectors)",
+      "Frame": "Aluminum, black velvet-covered"
+    },
+    "keySpecs": [
+      "Size",
+      "Gain",
+      "Material",
+      "ALR"
+    ],
+    "faqs": [
+      {
+        "q": "Does CineGrey 3D work with ultra short throw projectors?",
+        "a": "No. CineGrey 3D is designed for standard-throw projectors mounted on a ceiling or shelf. An ultra short throw projector needs a ceiling-light-rejecting surface such as Elite's CLR line."
+      },
+      {
+        "q": "Is an ALR screen worth it in a dark room?",
+        "a": "Usually not. In a fully light-controlled room, a matte white screen gives wider viewing angles and costs less. ALR earns its price when lights or windows add ambient light during viewing."
+      }
+    ]
+  },
+  {
+    "slug": "vamvo-alr-screen",
+    "name": "VAMVO Ambient Light Rejecting Screen",
+    "brand": "VAMVO",
+    "category": "screen",
+    "amazonQuery": "VAMVO ALR projector screen fixed frame",
+    "priceBand": "$300–$700",
+    "priceTier": 2,
+    "score": 72,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 72
+      },
+      {
+        "label": "Ambient light handling",
+        "value": 76
+      },
+      {
+        "label": "Value",
+        "value": 78
+      },
+      {
+        "label": "Ease of install",
+        "value": 70
+      }
+    ],
+    "summary": "A budget fixed-frame ambient-light-rejecting screen; check which version you buy, because UST and standard-throw ALR surfaces are not interchangeable.",
+    "verdict": "The VAMVO Ambient Light Rejecting Screen is a budget **fixed-frame ALR** screen sold in several sizes. Its appeal is simple: ALR performance for much less than big-name CLR screens. The thing to get right is the surface type, because ALR screens are built for a specific projector position. See [how ALR screens work](/glossary/alr-screen/).\n\nThe geometry is the reason. An **ultra short throw** projector sits below the screen and fires upward at a steep angle, so its screen must reflect light from below and reject light from above. A **standard-throw** projector fires from the ceiling or back of the room, so its ALR screen reflects light from in front. Pair the wrong one and the image looks dim and uneven. Brightness maths still applies: a 3,000-lumen projector on a 100\" screen (29.7 sq ft) gives about 101 lumens per sq ft before the screen's gain is applied, so check VAMVO's stated gain for your version and multiply.\n\nBudget ALR materials generally have narrower viewing angles than matte white, and quality control varies more than with established brands, so inspect the surface on arrival. If your budget cannot stretch to the [Elite Screens Aeon CLR 3](/gear/elite-screens-aeon-clr3/) (UST) or [Elite Screens Sable Frame CineGrey 3D](/gear/elite-screens-cinegrey-3d/) (standard throw), it is a reasonable way to add ambient light rejection. Compare in our [best projector screen guide](/best-projector-screen-for-home-theater/).",
+    "bestFor": "Budget living-room setups that need ambient light rejection",
+    "skipIf": "You are not sure which projector type the version you are buying is built for",
+    "pros": [
+      "Ambient light rejection at a budget price",
+      "Fixed frame keeps the surface flat",
+      "Several sizes available"
+    ],
+    "cons": [
+      "UST and standard-throw versions are not interchangeable",
+      "Narrower viewing angle than matte white",
+      "Quality control is less proven than major brands"
+    ],
+    "specs": {
+      "Size": "Several sizes (check the listing)",
+      "Aspect ratio": "16:9",
+      "Material": "ALR surface (UST and standard-throw versions)",
+      "Type": "Fixed frame",
+      "ALR": "Yes",
+      "Frame": "Thin aluminum frame"
+    },
+    "keySpecs": [
+      "Size",
+      "Material",
+      "Type",
+      "ALR"
+    ],
+    "faqs": [
+      {
+        "q": "Which VAMVO ALR screen do I need?",
+        "a": "Match it to your projector. Ultra short throw projectors need a ceiling-light-rejecting version that reflects light from below. Standard-throw projectors on a ceiling or shelf need a standard ALR version. Using the wrong type produces a dim, uneven image."
+      },
+      {
+        "q": "Is a budget ALR screen worth it?",
+        "a": "If you watch with lights on, yes. Even a budget ALR surface keeps blacks darker than a white screen in a lit room. In a fully dark room, a matte white screen is cheaper and gives wider viewing angles."
+      }
+    ]
+  },
+  {
+    "slug": "akia-screens-fixed-frame",
+    "name": "Akia Screens Fixed Frame Screen",
+    "brand": "Akia Screens",
+    "category": "screen",
+    "amazonQuery": "Akia Screens 120 inch fixed frame projector screen",
+    "priceBand": "$150–$300",
+    "priceTier": 1,
+    "score": 74,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 74
+      },
+      {
+        "label": "Ambient light handling",
+        "value": 50
+      },
+      {
+        "label": "Value",
+        "value": 90
+      },
+      {
+        "label": "Ease of install",
+        "value": 76
+      }
+    ],
+    "summary": "A budget 120\" fixed-frame matte white screen that gets you a flat, framed image for little money in a dark room.",
+    "verdict": "The Akia Screens Fixed Frame Screen is a **120\" 16:9** budget screen with a matte white, 4K-rated surface tensioned over an aluminum frame with a black velvet-style border. It is the cheapest way here to get a flat, framed screen instead of projecting onto a wall.\n\nThe maths shows why a real screen beats a painted wall at this price. A 120\" image covers about 42.7 sq ft. On a neutral, roughly 1.0-gain white surface, a 3,300-lumen projector like the [Epson Home Cinema 880](/gear/epson-home-cinema-880/) returns about 3,300 / 42.7 = **77 foot-lamberts** at its rated output, and a 2,300-lumen projector about 54. The tensioned surface is also flatter and more uniform than most walls, so there are no texture patterns or color tints. For seating, the 104.6\" width works out to about **12 ft** for a 40-degree viewing angle and 16 ft for 30 degrees.\n\nAs with any white screen, there is no ambient light rejection, so a dark room is ideal. Frame finish and long-term durability are less proven than Elite or Silver Ticket, and owners note the assembly instructions are basic. If you want a step up in build and consistency, the [Silver Ticket STR-169120 Fixed Frame Screen](/gear/silver-ticket-str-169120/) or [Elite Screens Sable Frame 2](/gear/elite-screens-sable-frame-2/) cost a little more. More in our [best projector screen guide](/best-projector-screen-for-home-theater/).",
+    "bestFor": "Budget dark rooms upgrading from projecting on a wall",
+    "skipIf": "Your room has ambient light or you want proven long-term build quality",
+    "pros": [
+      "Low price for a 120\" fixed frame",
+      "Tensioned surface flatter than a wall",
+      "Black border sharpens image edges"
+    ],
+    "cons": [
+      "No ambient light rejection",
+      "Build quality less proven than bigger brands",
+      "Basic assembly instructions"
+    ],
+    "specs": {
+      "Size": "120 in. diagonal",
+      "Aspect ratio": "16:9",
+      "Material": "Matte white, 4K-rated",
+      "Type": "Fixed frame",
+      "ALR": "No",
+      "Frame": "Aluminum, black velvet-style border"
+    },
+    "keySpecs": [
+      "Size",
+      "Material",
+      "Type",
+      "ALR"
+    ],
+    "faqs": [
+      {
+        "q": "Is a cheap projector screen better than a wall?",
+        "a": "Usually, yes. A tensioned screen is flatter and more uniform than a painted wall, with no texture or tint, and the black border frames the image. Even a budget fixed frame is a visible upgrade in a dark room."
+      },
+      {
+        "q": "How far should I sit from a 120-inch screen?",
+        "a": "About 12 to 16 feet. A 120-inch 16:9 image is 104.6 inches wide; a 40-degree viewing angle puts you about 12 feet back and a 30-degree angle about 16 feet back."
+      }
+    ]
+  },
+  {
+    "slug": "elite-screens-manual-b",
+    "name": "Elite Screens Manual B Pull Down Screen",
+    "brand": "Elite Screens",
+    "category": "screen",
+    "amazonQuery": "Elite Screens Manual B pull down projector screen 100",
+    "priceBand": "$80–$150",
+    "priceTier": 1,
+    "score": 70,
+    "scores": [
+      {
+        "label": "Picture quality",
+        "value": 68
+      },
+      {
+        "label": "Ambient light handling",
+        "value": 50
+      },
+      {
+        "label": "Value",
+        "value": 88
+      },
+      {
+        "label": "Ease of install",
+        "value": 82
+      }
+    ],
+    "summary": "A simple pull-down screen for rooms where the screen has to disappear, best at 100\" in a dark room on a tight budget.",
+    "verdict": "The Elite Screens Manual B is a **manual pull-down** screen: you pull it down from a wall- or ceiling-mounted case and it locks in place, then retracts when you are done. It uses a matte white surface of about **1.1 gain** and is commonly bought at **100\" 16:9**.\n\nAt 100\", the image is 87.2\" wide and 49\" tall, covering about 29.7 sq ft. A 2,000-lumen projector returns roughly 2,000 x 1.1 / 29.7 = **74 foot-lamberts** at its rated output; a budget 3,600-lumen model like the [Optoma HD146X](/gear/optoma-hd146x/) about 133. That is far more than a dark room needs, so a pull-down at this size gives a bright image even from cheap projectors. The 87.2\" width puts seating about **10 ft** back for a 40-degree angle and about 13.6 ft for 30 degrees; check with our [viewing distance calculator](/tools/viewing-distance-calculator/).\n\nThe compromise is flatness. Pull-down screens are not tensioned, so slight waves and curled edges are common, especially over time, and they show on bright scenes. That makes it a poor match for ultra short throw projectors and for viewers who notice uniformity issues. There is no ambient light rejection. For a bedroom, rental or multipurpose room on a budget, it does the job; for a permanent theater, a fixed frame like the [Elite Screens Sable Frame 2](/gear/elite-screens-sable-frame-2/) is a clear step up. More in our [best projector screen guide](/best-projector-screen-for-home-theater/).",
+    "bestFor": "Bedrooms, rentals and multipurpose rooms where the screen must retract",
+    "skipIf": "You want a perfectly flat surface or use an ultra short throw projector",
+    "pros": [
+      "Very low price",
+      "Retracts when not in use",
+      "Wall or ceiling mounting",
+      "No power or wiring needed"
+    ],
+    "cons": [
+      "Not tensioned, so waves and curled edges are common",
+      "No ambient light rejection",
+      "Unsuitable for ultra short throw projectors"
+    ],
+    "specs": {
+      "Size": "100 in. diagonal (other sizes available)",
+      "Aspect ratio": "16:9",
+      "Gain": "About 1.1",
+      "Material": "MaxWhite matte white",
+      "Type": "Manual pull-down",
+      "ALR": "No",
+      "Frame": "None (pull-down case)"
+    },
+    "keySpecs": [
+      "Size",
+      "Gain",
+      "Type",
+      "ALR"
+    ],
+    "faqs": [
+      {
+        "q": "Will the Elite Manual B screen have waves?",
+        "a": "It may. Manual pull-down screens are not tensioned, so slight waves or curled edges are common and can grow over time. They are most visible on bright, flat scenes. A fixed-frame screen avoids the issue if the screen can stay up."
+      },
+      {
+        "q": "Is a pull-down screen good enough for a home theater?",
+        "a": "For a budget or multipurpose room, yes. It gives a cleaner, brighter image than most walls. For a dedicated theater, a fixed-frame screen is flatter and looks better."
+      }
+    ]
+  }
+]
