@@ -1,9 +1,16 @@
 ---
 import Prose from '../layouts/Prose.astro';
+import { LAB, AUTHOR } from '../data/site';
+import { products } from '../lib/data';
+const tested = products.filter((p) => p.tested);
 ---
-<Prose title="How We Score Home Theater Gear: The BHTR Score Method" description="How the BHTR Score works: spec-sheet analysis, room maths, independent measurements and owner-reported reliability, weighted by category. What we claim and what we don't." h1="How We Score: The BHTR Score" path="/how-we-test/" intro="Every product we cover gets a BHTR Score out of 100. Here is exactly what goes into it.">
+<Prose title="How We Score Home Theater Gear: The BHTR Score Method" description="How the BHTR Score works: our own lab measurements where a product has been tested, plus spec-sheet analysis, room maths and owner-reported reliability." h1="How We Score: The BHTR Score" path="/how-we-test/" intro="Every product we cover gets a BHTR Score out of 100. Here is exactly what goes into it.">
+  <h2>Our Lab</h2>
+  <p>We run our own testing lab in {LAB.location}. A product gets a <strong>Lab tested</strong> badge only after a unit has been through it, and its gear page then shows the test date, the method and the results. {tested.length > 0 ? <>So far <strong>{tested.length}</strong> of the {products.length} products we track have been lab tested.</> : <>We are working through the {products.length} products we track; none carries the badge yet.</>}</p>
+  <p>Until a product has been through the lab, its score is built from the research below, and its page says so.</p>
   <h2>What the Score Is Built On</h2>
   <ol>
+    <li><strong>Our lab results</strong>, for products that carry the Lab tested badge.</li>
     <li><strong>The spec sheet, read properly.</strong> We read past the headline numbers to the conditions behind them: receiver power at two channels driven vs all channels, ISO/ANSI lumens vs "LED lumens", subwoofer response at ±3 dB vs unspecified ranges.</li>
     <li><strong>Room maths.</strong> We convert specs into what they mean in a real room: throw distance for a 100–135 inch screen, amplifier power needed for reference-level peaks at your seat, sub output vs room volume. Our <a href="/tools/projector-throw-calculator/">throw</a> and <a href="/tools/viewing-distance-calculator/">viewing distance</a> calculators use the same formulas.</li>
     <li><strong>Independent measurements.</strong> Where reputable third-party measurements are published (for example frequency response or input lag), we use them to check manufacturer claims.</li>
@@ -22,7 +29,7 @@ import Prose from '../layouts/Prose.astro';
     </tbody>
   </table>
   <h2>What We Don't Claim</h2>
-  <p>We do not run an acoustics lab, and we never say "we tested" unless we have. Our scores are a structured research verdict, not bench measurements. When we add hands-on impressions in future, we will say so clearly on the page.</p>
+  <p>We never say "we tested" about a product that has not been through our lab. Untested products get a structured research verdict, and every guide lists which of its picks are lab tested in its sources section. Guides are written by <a href={AUTHOR.url}>{AUTHOR.name}</a>.</p>
   <h2>Score Bands</h2>
   <ul>
     <li><strong>90–100:</strong> class-leading; rare.</li>

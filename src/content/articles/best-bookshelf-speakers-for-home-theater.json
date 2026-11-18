@@ -17,7 +17,7 @@
   ],
   "hub": "bookshelf",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best bookshelf speakers for home theater can do two jobs: anchor the front of a small or medium room with a subwoofer, and serve as matched surround and rear speakers behind larger towers. Our top pick is the **[KEF Q3 Meta](/gear/kef-q3-meta/)**, a 6.5-inch Uni-Q bookshelf whose coaxial driver keeps sound consistent from every angle, which is exactly what both front and surround speakers need.\n\nThis guide is for anyone choosing compact speakers for a surround system, whether as front left and right, as side and rear surrounds, or as satellites in a compact 5.1. We cover where surrounds should go, what crossover to use, and which picks match the most popular front speaker families.",
   "quickAnswer": "The best bookshelf speakers for home theater for most rooms are the **KEF Q3 Meta**, thanks to a coaxial Uni-Q driver that sounds consistent from any seat. For surrounds on a budget, the **KEF Q1 Meta** offers the same coaxial advantage for less. If your receiver has modest power, the 96 dB **Klipsch RP-600M II** plays loudest per watt.",
   "picksHeading": "The Best Bookshelf Speakers for Home Theater",
@@ -161,5 +161,29 @@
     "best-tower-speakers-for-home-theater",
     "best-center-channel-speaker-for-home-theater"
   ],
-  "bottomLine": "The best bookshelf speakers for home theater for most rooms are the KEF Q3 Meta: a coaxial Uni-Q bookshelf that works equally well as a front or surround speaker. For surrounds on a budget, the KEF Q1 Meta delivers most of the same advantage. The ELAC Debut 2.0 B6.2 is the best value for music and movies, the 96 dB Klipsch RP-600M II suits modest receivers, the SVS Prime Bookshelf completes an SVS system, and the Polk Signature Elite ES20 suits warm-sound fans. For small rooms, choose the Wharfedale Diamond 12.1, and for cheap surrounds the Micca MB42X. Match the tweeter, place surrounds at the right angles and set an 80 Hz crossover."
+  "bottomLine": "The best bookshelf speakers for home theater for most rooms are the KEF Q3 Meta: a coaxial Uni-Q bookshelf that works equally well as a front or surround speaker. For surrounds on a budget, the KEF Q1 Meta delivers most of the same advantage. The ELAC Debut 2.0 B6.2 is the best value for music and movies, the 96 dB Klipsch RP-600M II suits modest receivers, the SVS Prime Bookshelf completes an SVS system, and the Polk Signature Elite ES20 suits warm-sound fans. For small rooms, choose the Wharfedale Diamond 12.1, and for cheap surrounds the Micca MB42X. Match the tweeter, place surrounds at the right angles and set an 80 Hz crossover.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the KEF Q1 Meta Bookshelf Speakers replaces the KEF Q150 Bookshelf Speakers as Best Surround Speakers."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "klipsch-r-50m",
+      "body": "The Klipsch R-50M is a cheaper way to get the horn-loaded sound of the [Klipsch RP-600M II](/gear/klipsch-rp-600m-ii/). Its **93 dB** rating still lets an entry-level receiver play loud, and it matches the R-50C center. It gives up the RP-600M II's 6.5-inch woofer and titanium tweeter, so it leans harder on a subwoofer for movies; choose it if your budget stops short of the RP."
+    },
+    {
+      "product": "polk-monitor-xt20",
+      "body": "The Polk Monitor XT20 is a step up from the [Micca MB42X](/gear/micca-mb42x/) for a first 5.1 system. Its **6.5-inch woofer** has about 2.6 times the cone area of the Micca's 4-inch driver, so it plays louder before it strains and hands off to a subwoofer at a normal 80 Hz. It costs more and is much bigger, so the Micca still makes sense as tiny surrounds."
+    },
+    {
+      "product": "sony-ss-cs5",
+      "body": "The Sony SS-CS5 is a cheaper alternative to the [ELAC Debut 2.0 B6.2](/gear/elac-debut-b62/) if you're building a matched budget family. Its 3-way design adds a super tweeter for wider treble dispersion, and it pairs with the SS-CS8 center and SS-CS3 towers. Its 5.12-inch woofer and basic cabinet trail the ELAC's 6.5-inch aramid woofer and neutral voicing, so the ELAC remains the better buy for music and movies."
+    }
+  ]
 }

@@ -7,9 +7,9 @@ import Score from '../../components/Score.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import FAQ from '../../components/FAQ.astro';
 import StickyBuyBar from '../../components/StickyBuyBar.astro';
-import { products, productsByCategory, productsByBrand, articlesForProduct, productUrl, brandUrl, articleUrl, compareSlug, shortName } from '../../lib/data';
+import { products, productsByCategory, productsByBrand, articlesForProduct, productUrl, brandUrl, articleUrl, compareSlug, shortName, formatDate } from '../../lib/data';
 import { compares } from '../../data/compares';
-import { CATEGORY_LABELS, SITE } from '../../data/site';
+import { CATEGORY_LABELS, SITE, LAB } from '../../data/site';
 import { md } from '../../lib/md';
 import { breadcrumbs, faqPage, graph, productSchema } from '../../lib/schema';
 import { amazonImage, amazonUrl } from '../../lib/amazon';
@@ -55,6 +55,7 @@ const schema = graph(breadcrumbs(crumbs), productSchema(p), faqPage(faqs));
         <h1 class="mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight text-ink leading-tight">{p.name}</h1>
         <div class="mt-3 flex flex-wrap items-center gap-3 text-sm text-slate-600">
           <Score score={p.score} size="lg" />
+          {p.tested && <a href="#lab-results" class="rounded-md bg-emerald-600 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-white no-underline">Lab tested</a>}
           <span>#{rank} of {total} {catLabel.toLowerCase()}</span>
           <span aria-hidden="true">·</span>
           <span>{p.priceBand}</span>
@@ -84,8 +85,27 @@ const schema = graph(breadcrumbs(crumbs), productSchema(p), faqPage(faqs));
         </table>
       </div>
 
+      {p.tested ? (
+        <>
+          <div class="prose"><h2 id="lab-results">{p.name} Lab Results</h2>
+            <p>Measured in our lab in {LAB.location} on <time datetime={p.tested.date}>{formatDate(p.tested.date)}</time>.</p>
+            <p><strong>Method:</strong> {p.tested.method}</p>
+          </div>
+          <div class="not-prose mt-4 overflow-hidden rounded-xl border border-emerald-200">
+            <table class="w-full text-sm">
+              <tbody class="divide-y divide-emerald-100">
+                {p.tested.results.map((r) => <tr><th class="w-2/5 bg-emerald-50 px-4 py-2.5 text-left font-medium text-slate-700">{r.label}</th><td class="px-4 py-2.5 text-ink">{r.value}</td></tr>)}
+              </tbody>
+            </table>
+          </div>
+          {p.tested.notes && <div class="prose" set:html={md(p.tested.notes)} />}
+        </>
+      ) : (
+        <div class="prose"><p class="mt-6 text-[0.95rem] text-slate-600">The {p.name} has not been through our lab in {LAB.location} yet. Its score comes from the spec sheet, room maths, widely published independent measurements and owner reports. <a href="/how-we-test/">How we score</a>.</p></div>
+      )}
+
       <div class="prose"><h2 id="score">BHTR Score: {p.score}/100</h2>
-        <p>Our score weighs the spec sheet, the price band and what owners report over time. <a href="/how-we-test/">See how we score</a>.</p>
+        <p>Our score weighs {p.tested ? 'our lab results, ' : ''}the spec sheet, the price band and what owners report over time. <a href="/how-we-test/">See how we score</a>.</p>
       </div>
       {p.scores && (
         <div class="not-prose mt-4 space-y-3">

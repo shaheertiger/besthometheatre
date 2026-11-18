@@ -1,4 +1,4 @@
-import { SITE } from '../data/site';
+import { SITE, AUTHOR } from '../data/site';
 import type { Article, FAQ, Product } from './types';
 import { amazonImage } from './amazon';
 import { plain } from './md';
@@ -47,7 +47,8 @@ export function faqPage(faqs: FAQ[]) {
   };
 }
 
-const author = () => ({ '@type': 'Organization', name: SITE.author, url: abs('/about/') });
+const author = () => ({ '@type': 'Person', name: AUTHOR.name, url: abs(AUTHOR.url), sameAs: [...AUTHOR.sameAs], alumniOf: { '@type': 'CollegeOrUniversity', name: AUTHOR.alumniOf }, knowsAbout: [...AUTHOR.knowsAbout] });
+export const authorPerson = author;
 
 export function articleSchema(a: Article, url: string) {
   return {

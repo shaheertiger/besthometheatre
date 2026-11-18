@@ -19,7 +19,7 @@
   ],
   "hub": "bookshelf",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best home theater speakers are the ones that sound like a single, seamless system: three matched speakers across the front, surrounds that share the same tweeter, and enough sensitivity that your receiver never runs out of headroom. Our top pick for most rooms is the **[Klipsch Reference R-625FA 5.1.2 Dolby Atmos System](/gear/klipsch-r-625fa-51-system/)**, a complete matched set with height channels built into the towers, so you get Atmos without cutting holes in the ceiling.\n\nThis guide is for anyone building or upgrading a surround setup around an AV receiver, from a first 5.1 in a living room to a dedicated room with towers. We mix complete speaker packages with individual towers, bookshelf and center speakers, and we show the maths that decides which ones suit your amplifier and your room.",
   "quickAnswer": "For most people the best home theater speakers are a matched package such as the **Klipsch Reference R-625FA 5.1.2 system**, because every speaker shares one voicing and the high sensitivity suits mid-price receivers. If you prefer to build piece by piece, the **SVS Prime Tower** with the matching Prime center and bookshelf speakers is the smoothest-sounding route. On a tighter budget, the **Polk T-Series 5.1 system** gets you a full matched set with towers and a 10-inch powered sub.",
   "picksHeading": "The Best Home Theater Speakers Right Now",
@@ -171,5 +171,29 @@
     "best-subwoofer-for-home-theater",
     "best-dolby-atmos-home-theater-system"
   ],
-  "bottomLine": "For most rooms the best home theater speakers are the Klipsch Reference R-625FA 5.1.2 system: a complete, matched Atmos set with a 10-inch sub, efficient enough for any mid-price seven-channel receiver. If you prefer to build around a neutral tower, the SVS Prime Tower and its matching family is the smoothest route, with the KEF Q6 Meta as our pick for a center and the KEF Q1 Meta for surrounds. Owners of modest receivers should look at the 96 dB Klipsch RP-600M II, value buyers at the Polk T-Series 5.1 system, small rooms at an SVS Prime Satellite 5.1 build, and anyone ready for the high end at the KEF R7 Meta. Whatever you choose, match the front three, set an 80 Hz crossover and calibrate."
+  "bottomLine": "For most rooms the best home theater speakers are the Klipsch Reference R-625FA 5.1.2 system: a complete, matched Atmos set with a 10-inch sub, efficient enough for any mid-price seven-channel receiver. If you prefer to build around a neutral tower, the SVS Prime Tower and its matching family is the smoothest route, with the KEF Q6 Meta as our pick for a center and the KEF Q1 Meta for surrounds. Owners of modest receivers should look at the 96 dB Klipsch RP-600M II, value buyers at the Polk T-Series 5.1 system, small rooms at an SVS Prime Satellite 5.1 build, and anyone ready for the high end at the KEF R7 Meta. Whatever you choose, match the front three, set an 80 Hz crossover and calibrate.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the KEF Q1 Meta Bookshelf Speakers replaces the KEF Q150 Bookshelf Speakers as Best Surround Speakers; the Polk Audio T-Series 5.1 Home Theater System replaces the Polk Monitor XT 5.1 Home Theater System as Best Value Speaker Package."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "kef-q7-meta",
+      "body": "The KEF Q7 Meta is a good alternative to the [SVS Prime Tower](/gear/svs-prime-tower/) if you have a wide sofa and care most about imaging. Its **Uni-Q coaxial driver** keeps the sound stable off-axis, and it matches the Q6 Meta center for seamless pans. It costs more and needs decent power, so the SVS, with its dedicated midrange and ±3 dB rating to 35 Hz, remains the better value."
+    },
+    {
+      "product": "kef-q3-meta",
+      "body": "The KEF Q3 Meta is the step up from the [KEF Q1 Meta](/gear/kef-q1-meta/) if you want the same Uni-Q sound with more output. Its 6.5-inch cone has about **1.5 times the area**, worth roughly 3.7 dB, which makes it the stronger front pair. It costs noticeably more and its rear port needs space from the wall, so the Q1 Meta is still the smarter choice for surrounds."
+    },
+    {
+      "product": "kef-r3-meta",
+      "body": "The KEF R3 Meta is the smaller-room version of the [KEF R7 Meta](/gear/kef-r7-meta/), with the same Uni-Q and MAT design and a 3-way layout in a much cheaper bookshelf cabinet. It gives up the R7's dual 6.5-inch bass drivers, so lean on a subwoofer, and its **4-ohm load** still calls for a high-current receiver or an external amp."
+    }
+  ]
 }

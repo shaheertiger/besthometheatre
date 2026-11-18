@@ -5,7 +5,7 @@ import { amazonUrl, AFFILIATE_REL } from '../lib/amazon';
 interface Props { products: Product[]; specs: string[]; awards?: string[] }
 const { products, specs, awards } = Astro.props;
 ---
-<div class="not-prose relative my-6 overflow-x-auto rounded-xl border border-slate-200">
+<div class="not-prose relative my-6 overflow-x-auto rounded-xl border border-slate-200" role="region" aria-label="Spec comparison" tabindex="0">
   <table class="min-w-full text-sm">
     <thead class="bg-slate-50 text-left">
       <tr>

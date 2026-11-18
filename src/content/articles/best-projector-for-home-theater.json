@@ -19,7 +19,7 @@
   ],
   "hub": "projector",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best projector for home theater is the one that puts enough light on your screen, from a spot you can actually mount it, at a sharpness your seats can resolve. For most dedicated rooms and darkened living rooms in 2026, that projector is the [Epson Home Cinema 3800](/gear/epson-home-cinema-3800/): **3,000 lumens**, a 1.62x zoom with generous lens shift, and 4K pixel-shift detail for a fraction of what a laser projector costs.\n\nThis guide is for anyone building a movie room or moving up from a TV. We ranked eight projectors across four types (4K lamp, 4K laser, ultra short throw and smart all-in-one) using the spec sheet, room maths and owner-reported reliability. Each pick names the room it suits and the one trade-off you should know before buying.",
   "quickAnswer": "The **Epson Home Cinema 3800** is the best projector for home theater for most people: bright enough for a 120-inch screen, flexible enough to ceiling-mount almost anywhere, and sharp enough for 4K Blu-ray. For 4K around $1,000, get the **Optoma UHD38x**; for a bright, lamp-free laser that also games well, the **BenQ TK710**. Dedicated dark room? Step up to the **Epson 5050UB** or the laser **Epson LS11000**. No ceiling mount? Get the **Hisense PX3-Pro** ultra short throw.",
   "picks": [
@@ -77,7 +77,7 @@
     },
     {
       "heading": "How We Chose the Best Home Theater Projectors",
-      "body": "We started with the 29 projectors in our catalog and narrowed them to eight using four filters:\n\n- **Brightness against screen size.** Every pick has to reach at least 16 fL on a 120-inch, 1.0-gain screen in a realistic movie mode, assuming 50–70% of its rated lumens.\n- **Placement flexibility.** We weighted optical zoom and lens shift heavily, because digital keystone and digital zoom throw away resolution.\n- **Picture fundamentals over features.** Contrast, HDR handling and color accuracy, judged from manufacturer specs and widely published independent measurements, count for more than app stores and speakers.\n- **Cost of ownership and reliability.** Lamp replacement cost, laser and LED lifespan, and owner-reported failures from forums and retailer reviews.\n\nWe have not bench-tested these projectors in a lab. Rankings come from spec research, room maths and owner-reported experience, and where we could not confirm a spec we left it out."
+      "body": "We started with the 29 projectors in our catalog and narrowed them to eight using four filters:\n\n- **Brightness against screen size.** Every pick has to reach at least 16 fL on a 120-inch, 1.0-gain screen in a realistic movie mode, assuming 50–70% of its rated lumens.\n- **Placement flexibility.** We weighted optical zoom and lens shift heavily, because digital keystone and digital zoom throw away resolution.\n- **Picture fundamentals over features.** Contrast, HDR handling and color accuracy, judged from manufacturer specs and widely published independent measurements, count for more than app stores and speakers.\n- **Cost of ownership and reliability.** Lamp replacement cost, laser and LED lifespan, and owner-reported failures from forums and retailer reviews.\n\nNone of these projectors has been through our lab yet. Rankings come from spec research, room maths and owner-reported experience, and where we could not confirm a spec we left it out."
     },
     {
       "heading": "Lamp vs LED vs Laser: Which Light Source Is Best?",
@@ -172,5 +172,29 @@
     "best-projector-screen-for-home-theater",
     "best-budget-home-theater-projector"
   ],
-  "bottomLine": "The best projector for home theater for most rooms is the **Epson Home Cinema 3800**: 3,000 lumens, a flexible lens and convincing 4K. Want 4K around $1,000? The **Optoma UHD38x** is the brightness-per-dollar champion. Want a bright, lamp-free laser for a room that does movies, sports and games? Get the **BenQ TK710**. For a dedicated dark room, the **Epson 5050UB** has the deepest blacks here, the **Epson LS11000** brings laser convenience and 4K/120, and the **Sony VPL-XW5000ES** is the native 4K pick. Living room without a ceiling mount? The **Hisense PX3-Pro** ultra short throw is the TV replacement, and the **Valerion VisionMaster Pro2** is the smart all-in-one that moves with you."
+  "bottomLine": "The best projector for home theater for most rooms is the **Epson Home Cinema 3800**: 3,000 lumens, a flexible lens and convincing 4K. Want 4K around $1,000? The **Optoma UHD38x** is the brightness-per-dollar champion. Want a bright, lamp-free laser for a room that does movies, sports and games? Get the **BenQ TK710**. For a dedicated dark room, the **Epson 5050UB** has the deepest blacks here, the **Epson LS11000** brings laser convenience and 4K/120, and the **Sony VPL-XW5000ES** is the native 4K pick. Living room without a ceiling mount? The **Hisense PX3-Pro** ultra short throw is the TV replacement, and the **Valerion VisionMaster Pro2** is the smart all-in-one that moves with you.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: added the BenQ TK710 as Best for Mixed-Use Rooms; removed the BenQ HT2060 (Best 1080p Projector)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "epson-ls800",
+      "body": "The Epson EpiqVision Ultra LS800 is a better fit than the [Hisense PX3-Pro](/gear/hisense-px3-pro/) for living rooms that stay bright during the day. It's rated at **4,000 ISO lumens** and has Android TV and a Yamaha 2.1 speaker system built in. It gives up the Hisense's Dolby Vision and very wide triple-laser color, and its black levels are only average in a dark room, so pick the Hisense for mostly evening viewing."
+    },
+    {
+      "product": "epson-home-cinema-2350",
+      "body": "The Epson Home Cinema 2350 is a cheaper alternative to the [Epson Home Cinema 3800](/gear/epson-home-cinema-3800/) with the same 1.6x zoom, plus **Android TV built in**, which the 3800 lacks. It's rated at 2,800 ISO lumens against 3,000 and has no optical lens shift, so the lens must sit near the screen's center line. For shelf or off-center installs, the 3800 is worth the extra."
+    },
+    {
+      "product": "benq-ht4550i",
+      "body": "The BenQ HT4550i is an alternative to the [Epson Home Cinema 5050UB](/gear/epson-home-cinema-5050ub/) if accurate, cinema-style color matters more to you than black levels. It's rated at **3,200 ANSI lumens** with 100% DCI-P3 coverage on paper from a lamp-free 4LED source. Its DLP blacks trail the Epson and its 1.3x zoom is modest next to the Epson's 2.1x, so the 5050UB stays the dark-room pick."
+    }
+  ]
 }
