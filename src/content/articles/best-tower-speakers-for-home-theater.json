@@ -17,7 +17,7 @@
   ],
   "hub": "tower",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best tower speakers for home theater give your front stage the output, scale and bass weight that bookshelf speakers struggle to match in medium and large rooms. Our top pick is the **[SVS Prime Tower](/gear/svs-prime-tower/)**, a true 3-way floorstander with a dedicated midrange, rated down to 35 Hz, and backed by a complete matching family of center, bookshelf and satellite speakers.\n\nThis guide is for anyone choosing front left and right speakers for a surround system, or upgrading from bookshelf speakers. We rank eight towers by room size, receiver power and how well each one builds into a matched system, and we explain placement, crossovers and whether towers can replace a subwoofer.",
   "quickAnswer": "The best tower speakers for home theater for most rooms are the **SVS Prime Tower**, thanks to a 3-way design with a dedicated midrange, 35 Hz bass extension and a matching center and surrounds. For big rooms and modest receivers, the 98 dB **Klipsch RP-8000F II** plays loudest per watt. On a budget, the **ELAC Debut 2.0 F6.2** offers a 3-way design for much less.",
   "picksHeading": "The Best Tower Speakers for Home Theater",
@@ -161,5 +161,21 @@
     "best-center-channel-speaker-for-home-theater",
     "best-subwoofer-for-home-theater"
   ],
-  "bottomLine": "The best tower speakers for home theater for most rooms are the SVS Prime Tower: a 3-way floorstander with a dedicated midrange, 35 Hz bass and a complete matching family. For wide seating, choose the KEF Q7 Meta; for big rooms and modest receivers, the 98 dB Klipsch RP-8000F II; for value, the 3-way ELAC Debut 2.0 F6.2. The Polk Signature Elite ES60 suits warm-sound fans, the Klipsch R-625FA adds Atmos without ceiling speakers, the Polk Monitor XT60 is the best budget tower, and the Sony SS-CS3 is the cheapest matched option. Match the center, keep a subwoofer and give your towers room to breathe."
+  "bottomLine": "The best tower speakers for home theater for most rooms are the SVS Prime Tower: a 3-way floorstander with a dedicated midrange, 35 Hz bass and a complete matching family. For wide seating, choose the KEF Q7 Meta; for big rooms and modest receivers, the 98 dB Klipsch RP-8000F II; for value, the 3-way ELAC Debut 2.0 F6.2. The Polk Signature Elite ES60 suits warm-sound fans, the Klipsch R-625FA adds Atmos without ceiling speakers, the Polk Monitor XT60 is the best budget tower, and the Sony SS-CS3 is the cheapest matched option. Match the center, keep a subwoofer and give your towers room to breathe.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "klipsch-r-600f",
+      "body": "The Klipsch R-600F is a cheaper alternative to the [Klipsch R-625FA](/gear/klipsch-r-625fa/) if you don't need built-in Atmos. It has a similar horn-loaded 1-inch aluminum tweeter, **dual 6.5-inch woofers** and an easy 8-ohm load, so it plays loud on modest receivers, but it drops the up-firing elevation module. Since each R-625FA uses two amplifier channels, the R-600F is the better fit for a 5.1 receiver or a room that will get ceiling speakers later."
+    },
+    {
+      "product": "dayton-classic-t65",
+      "body": "The Dayton Audio Classic T65 is a cheaper way into floorstanders than the [Sony SS-CS3](/gear/sony-ss-cs3/), since it's sold as a pair rather than each. It has larger **dual 6.5-inch woofers** and 150 W power handling, but the listing gives no sensitivity, impedance or frequency response, and there's no matched Dayton center. The Sony's published 88 dB rating and matching SS-CS8 center make it the safer base for a 5.1 system."
+    }
+  ]
 }

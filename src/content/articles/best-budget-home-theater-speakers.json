@@ -17,7 +17,7 @@
   ],
   "hub": "bookshelf",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best budget home theater speakers are not the cheapest boxes you can find; they are the ones that keep your front three matched and play loud on an entry-level receiver. Our top pick is the **[Polk Audio T-Series 5.1 Home Theater System](/gear/polk-t-series-51-system/)**, a full matched set with two towers, a center, two surrounds and a 10-inch powered subwoofer in one box.\n\nThis guide is for anyone building a first surround system on a tight budget, or replacing the speakers from an old home-theater-in-a-box. We cover complete packages, build-your-own pairs and one all-in-one bundle with a receiver, and we explain where cheap speakers cut corners so you know which compromises are worth making.",
   "quickAnswer": "The best budget home theater speakers for most people are the **Polk T-Series 5.1 system**, because it gives you five matched speakers, including towers, and a 10-inch powered sub in one purchase. If you would rather build your own, **Sony's SS-CS5 bookshelf speakers** with the matching SS-CS3 towers and SS-CS8 center are the cheapest matched 3-way route. For low-power receivers, the 93 dB **Klipsch R-50M** plays loudest per watt.",
   "picksHeading": "The Best Budget Home Theater Speakers",
@@ -148,5 +148,29 @@
     "best-budget-subwoofer-for-home-theater",
     "best-home-theater-speakers"
   ],
-  "bottomLine": "The best budget home theater speakers for most people are the Polk T-Series 5.1 system: matched, complete with towers, and backed by a 10-inch powered sub you can upgrade later in a bigger room. Builders on the tightest budget should look at Sony's SS-CS5 with the SS-CS3 and SS-CS8, owners of low-power receivers at the 93 dB Klipsch R-50M, and music lovers at the ELAC Debut 2.0 B6.2. The Dayton Classic T65 is the cheapest good tower, the Klipsch Reference Theater Pack the compact choice, and the Yamaha YHT-5960U the all-in-one with a receiver. Protect the center and front pair, buy a sub that suits your room, and save on surrounds."
+  "bottomLine": "The best budget home theater speakers for most people are the Polk T-Series 5.1 system: matched, complete with towers, and backed by a 10-inch powered sub you can upgrade later in a bigger room. Builders on the tightest budget should look at Sony's SS-CS5 with the SS-CS3 and SS-CS8, owners of low-power receivers at the 93 dB Klipsch R-50M, and music lovers at the ELAC Debut 2.0 B6.2. The Dayton Classic T65 is the cheapest good tower, the Klipsch Reference Theater Pack the compact choice, and the Yamaha YHT-5960U the all-in-one with a receiver. Protect the center and front pair, buy a sub that suits your room, and save on surrounds.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the Dayton Audio Classic T65 Tower Speakers replaces the Dayton Audio T652-AIR Tower Speaker as Best Cheap Tower Speakers; the Polk Audio T-Series 5.1 Home Theater System replaces the Polk Monitor XT 5.1 Home Theater System as Best Overall Budget Package; removed the Pioneer SP-BS22-LR Andrew Jones Bookshelf Speakers (Best Cheap Surround Speakers)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "polk-monitor-xt20",
+      "body": "The Polk Monitor XT20 is a cheaper alternative to the [Klipsch R-50M](/gear/klipsch-r-50m/) if you want more woofer for the money. Its **6.5-inch driver** has about 1.5 times the cone area of the Klipsch's 5.25-inch woofer, and Polk's matched XT range includes a center, towers and Atmos modules. The R-50M's 93 dB horn design plays louder per watt, so it stays the better choice for low-powered receivers."
+    },
+    {
+      "product": "sony-ss-cs3",
+      "body": "The Sony SS-CS3 is an alternative to the [Dayton Audio Classic T65](/gear/dayton-classic-t65/) if you want a matched system with published specs. Sony rates it at **88 dB** and 45 Hz, and it pairs with the SS-CS8 center and SS-CS5 surrounds. It is sold individually, so a pair costs more, and its dual 5.12-inch woofers have less cone area than the Dayton's dual 6.5-inch drivers."
+    },
+    {
+      "product": "fluance-elite-51",
+      "body": "The Fluance Elite 5.1 is an alternative to the [Polk T-Series 5.1](/gear/polk-t-series-51-system/) if finish matters to you. Owners praise its build and finish for the price, and its passive towers, center and surrounds are an easy load for mainstream receivers. Some bundles ship as 5.0 without the sub, so check the listing; the Polk's complete, consistent bundle keeps it the simpler first system."
+    }
+  ]
 }

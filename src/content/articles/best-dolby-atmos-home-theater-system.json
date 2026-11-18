@@ -17,7 +17,7 @@
   ],
   "hub": "system",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best Dolby Atmos home theater system puts real speakers above and around you, not just a soundbar that promises height. Our top pick is the [Klipsch Reference R-625FA 5.1.2 package](/gear/klipsch-r-625fa-51-system/): R-625FA towers with Atmos elevation drivers built in, an R-52C center, two R-41M surrounds and a 10-inch subwoofer, paired with a seven-channel receiver. If you want Atmos without a receiver, the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) is the best all-in-one.\n\nThis guide is for buyers who specifically want height effects (rain overhead, aircraft passing above, a room that sounds taller than it is) and want to know which systems actually deliver them. We ranked seven systems by how many discrete height channels they produce, where those channels sit, which formats they decode and how much headroom they have, using spec sheets, room maths and owner reports.",
   "quickAnswer": "The best Dolby Atmos home theater system is the **Klipsch Reference R-625FA 5.1.2 package** with a seven-channel receiver, because it uses real speakers for every channel and can grow to 5.1.4. The best all-in-one Atmos system is the **Samsung HW-Q990F** (11.1.4, rear height drivers included). On a budget, the **VIZIO 5.1.2 Elevate SE** delivers real height drivers, which rotate upward for Atmos and DTS:X, for far less.",
   "picks": [
@@ -161,5 +161,29 @@
     "best-home-theater-receiver",
     "best-in-wall-speakers-for-home-theater"
   ],
-  "bottomLine": "The best Dolby Atmos home theater system is the [Klipsch Reference R-625FA 5.1.2 package](/gear/klipsch-r-625fa-51-system/) with a seven-channel receiver: real speakers for every channel and room to grow to 5.1.4. For Atmos in one box, the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) adds rear height drivers. The [Polk MagniFi Max AX SR](/gear/polk-magnifi-max-ax-sr/) is the 7.1.4 value pick, the [Nakamichi Dragon](/gear/nakamichi-dragon-1146/) has the most height channels, the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) is best for music and streaming, the [JBL Bar 1000](/gear/jbl-bar-1000/) solves rear placement with detachable surrounds, and the [VIZIO 5.1.2 Elevate SE](/gear/vizio-elevate-se-sl512x/) is the budget way in."
+  "bottomLine": "The best Dolby Atmos home theater system is the [Klipsch Reference R-625FA 5.1.2 package](/gear/klipsch-r-625fa-51-system/) with a seven-channel receiver: real speakers for every channel and room to grow to 5.1.4. For Atmos in one box, the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) adds rear height drivers. The [Polk MagniFi Max AX SR](/gear/polk-magnifi-max-ax-sr/) is the 7.1.4 value pick, the [Nakamichi Dragon](/gear/nakamichi-dragon-1146/) has the most height channels, the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) is best for music and streaming, the [JBL Bar 1000](/gear/jbl-bar-1000/) solves rear placement with detachable surrounds, and the [VIZIO 5.1.2 Elevate SE](/gear/vizio-elevate-se-sl512x/) is the budget way in.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the VIZIO 5.1.2 Elevate SE Soundbar (SL512X-08) replaces the Vizio M-Series 5.1.2 Home Theater Sound Bar as Best Budget Dolby Atmos."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "jbl-bar-1300mk2",
+      "body": "The JBL Bar 1300MK2 is a step up from the [JBL Bar 1000](/gear/jbl-bar-1000/) for large or open-plan rooms. It moves to an **11.1.4** layout with 16 channels against the Bar 1000's 12, adds a bigger wireless sub and keeps the detachable battery rears. It costs more and needs a wider stand or wall, so the Bar 1000 remains the better fit for most mid-size living rooms."
+    },
+    {
+      "product": "sony-bravia-theater-quad",
+      "body": "The Sony Bravia Theater Quad is an alternative to the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) if you don't want a bar under your TV. Its **four slim wireless speakers** create virtual surround and height, and it adds IMAX Enhanced and Chromecast built-in. It costs more, has no physical center channel and ships without a subwoofer, so the Samsung remains the more complete package."
+    },
+    {
+      "product": "klipsch-flexus-core-300",
+      "body": "The Klipsch Flexus Core 300 is an alternative to the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) if your room has boomy bass. Its **Dirac Live** room correction is stronger than Trueplay, it uses up-firing drivers for Atmos height, and it expands with Flexus wireless subs and surrounds. Its streaming ecosystem is less mature than Sonos's, so the Arc Ultra, with its 9.1.4 layout and Sound Motion woofer, remains the more polished single bar."
+    }
+  ]
 }

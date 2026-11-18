@@ -18,7 +18,7 @@
   ],
   "hub": "in-wall",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best in wall speakers for home theater disappear into your walls and ceiling while still delivering clear dialogue and convincing Dolby Atmos height effects. Our top pick is the **[Polk RC80i](/gear/polk-rc80i/)**, an 8-inch in-ceiling speaker that has become the default choice for Atmos height channels and hidden surrounds because it combines real bass output, paintable grilles and moisture resistance at a modest price.\n\nThis guide covers both in-wall and in-ceiling speakers, for anyone building a dedicated room, finishing a basement or adding height channels to an existing system. We explain where ceiling speakers should go for Atmos, with the angles worked out for real ceiling heights, and when on-wall speakers make more sense.",
   "quickAnswer": "The best in-wall speakers for home theater for most rooms are the **Polk RC80i** in-ceiling speakers, thanks to their 8-inch woofers, paintable grilles and low price. If you want to aim the sound at your seats for Atmos, the **Klipsch CDT-5650-C II** has aimable drivers. For hidden front left, center and right speakers, the 3-way **Polk 265-RT** in-wall is the best choice.",
   "picksHeading": "The Best In-Wall and In-Ceiling Speakers",
@@ -158,5 +158,17 @@
     "best-speaker-wire-for-home-theater",
     "home-theater-room-design"
   ],
-  "bottomLine": "The best in-wall speakers for home theater for most rooms are the Polk RC80i: 8-inch in-ceiling speakers that handle Atmos height channels and hidden surrounds at a modest price. Choose the Klipsch CDT-5650-C II when your ceiling positions need aiming, the 3-way Polk 265-RT for hidden front speakers, the Klipsch R-5650-W II for in-wall surrounds, the Klipsch R-1650-C to match a Klipsch front stage, and the Polk RC60i for small rooms. On a tight budget, the Micca M-8C and Monoprice Alpha both pair 8-inch woofers with pivoting tweeters. Place height speakers using Dolby's angles, use CL2 or CL3 wire and insulate the cavity."
+  "bottomLine": "The best in-wall speakers for home theater for most rooms are the Polk RC80i: 8-inch in-ceiling speakers that handle Atmos height channels and hidden surrounds at a modest price. Choose the Klipsch CDT-5650-C II when your ceiling positions need aiming, the 3-way Polk 265-RT for hidden front speakers, the Klipsch R-5650-W II for in-wall surrounds, the Klipsch R-1650-C to match a Klipsch front stage, and the Polk RC60i for small rooms. On a tight budget, the Micca M-8C and Monoprice Alpha both pair 8-inch woofers with pivoting tweeters. Place height speakers using Dolby's angles, use CL2 or CL3 wire and insulate the cavity.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "yamaha-ns-iw480",
+      "body": "The Yamaha NS-IW480 is an alternative to the [Klipsch R-5650-W II](/gear/klipsch-r-5650-w-ii/) for hidden surrounds if you own a Yamaha receiver and want a Zone 2 pair. It's sold as a pair rather than individually and has a **paintable flush-mount grille**. Yamaha publishes fewer specs and its output is modest, though, so the Klipsch is the better choice in Klipsch-based systems or for front-channel duty."
+    }
+  ]
 }

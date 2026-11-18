@@ -18,7 +18,7 @@
   ],
   "hub": "soundbar",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best soundbar for home theater has to do more than fix muffled TV dialogue: it should decode Dolby Atmos, produce real bass and, ideally, grow into a full surround system. Our top pick is the [Sonos Arc Ultra](/gear/sonos-arc-ultra/), the most capable single bar available, which expands wirelessly with a Sonos sub and rear speakers whenever you are ready.\n\nThis guide is for anyone who wants home theater sound from a soundbar rather than a receiver and separate speakers. We ranked eight bars and soundbar systems on what they do out of the box, how far they expand, what formats they decode and how they connect to your TV, using spec sheets, room maths and owner-reported reliability. If you want everything in one box from day one, the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) is the complete-system pick.",
   "quickAnswer": "The best soundbar for home theater is the **Sonos Arc Ultra**: a 9.1.4-rated Dolby Atmos bar with Trueplay room tuning that expands with a Sonos Sub 4 and rear speakers. If you want a complete soundbar home theater system in one box, buy the **Samsung HW-Q990F** (11.1.4, wireless sub and rears included). On a budget, the **VIZIO 5.1.2 Elevate SE** adds a wireless sub and rotating Atmos height speakers.",
   "picksHeading": "The Best Soundbars for Home Theater",
@@ -168,5 +168,29 @@
     "best-home-theater-systems",
     "best-wireless-home-theater-system"
   ],
-  "bottomLine": "The best soundbar for home theater is the [Sonos Arc Ultra](/gear/sonos-arc-ultra/): the strongest single bar and the easiest to grow into a full system. For everything in one box, the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) is the best complete soundbar system. Sony TV owners should look at the [Bravia Theater Bar 9](/gear/sony-bravia-theater-bar-9/), surround on a mid-range budget comes from the [JBL Bar 1000](/gear/jbl-bar-1000/), dialogue is clearest on the [Bose Smart Ultra](/gear/bose-smart-ultra-soundbar/), the [Klipsch Flexus Core 300](/gear/klipsch-flexus-core-300/) is the expandable mid-range bar, the [Sonos Beam (Gen 2)](/gear/sonos-beam-gen-2/) suits small rooms, and the [VIZIO 5.1.2 Elevate SE](/gear/vizio-elevate-se-sl512x/) is the budget system with a wireless sub and rotating height speakers."
+  "bottomLine": "The best soundbar for home theater is the [Sonos Arc Ultra](/gear/sonos-arc-ultra/): the strongest single bar and the easiest to grow into a full system. For everything in one box, the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) is the best complete soundbar system. Sony TV owners should look at the [Bravia Theater Bar 9](/gear/sony-bravia-theater-bar-9/), surround on a mid-range budget comes from the [JBL Bar 1000](/gear/jbl-bar-1000/), dialogue is clearest on the [Bose Smart Ultra](/gear/bose-smart-ultra-soundbar/), the [Klipsch Flexus Core 300](/gear/klipsch-flexus-core-300/) is the expandable mid-range bar, the [Sonos Beam (Gen 2)](/gear/sonos-beam-gen-2/) suits small rooms, and the [VIZIO 5.1.2 Elevate SE](/gear/vizio-elevate-se-sl512x/) is the budget system with a wireless sub and rotating height speakers.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the VIZIO 5.1.2 Elevate SE Soundbar (SL512X-08) replaces the Vizio M-Series 5.1.2 Home Theater Sound Bar as Best Budget Soundbar System."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "jbl-bar-1300mk2",
+      "body": "The JBL Bar 1300MK2 is a step up from the [JBL Bar 1000](/gear/jbl-bar-1000/) if you have a large or open-plan living room. It decodes **11.1.4** channels instead of 7.1.4 and keeps the detachable battery rears and wireless sub, but it's pricier and its longer bar needs a wide stand or wall. In a room of around 300 sq ft, the Bar 1000 is still the better buy."
+    },
+    {
+      "product": "sony-bravia-theater-bar-8",
+      "body": "The Sony Bravia Theater Bar 8 is a shorter, cheaper alternative to the [Sony Bravia Theater Bar 9](/gear/sony-bravia-theater-bar-9/) for mid-size rooms and 55–65-inch TVs. It keeps Dolby Atmos, DTS:X and IMAX Enhanced decoding plus the same sub and rear expansion options, but it has **11 drivers instead of 13** and a narrower soundstage in big rooms. Like the Bar 9, it has no HDMI inputs."
+    },
+    {
+      "product": "polk-magnifi-max-ax-sr",
+      "body": "The Polk MagniFi Max AX SR is a good alternative to the [JBL Bar 1000](/gear/jbl-bar-1000/) if you don't want to recharge rear speakers. Both are **7.1.4** systems with a 10-inch wireless sub and Atmos and DTS:X decoding, and the Polk adds IMAX Enhanced and VoiceAdjust for dialogue. Its rears need power outlets, its app is less polished, and it lacks the JBL's three HDMI inputs, so the Bar 1000 remains the better hub."
+    }
+  ]
 }

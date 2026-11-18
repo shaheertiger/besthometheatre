@@ -18,7 +18,7 @@
   ],
   "hub": "receiver",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best budget home theater receiver for most people is the **[Denon AVR-S770H](/gear/denon-avr-s770h/)**: it is the least expensive receiver here that ticks all four boxes that matter in 2026, namely seven channels for 5.1.2 Dolby Atmos, 4K/120-capable HDMI, automatic room calibration and Wi-Fi streaming. This page is for buyers who want a real surround system without paying for features they won't use.\n\nCheap receivers cut corners in predictable places: fewer channels, simpler room EQ, older HDMI, inflated power ratings. We rank each pick by what you give up, not just what it costs. If you only need 5.1, the **[Yamaha RX-V4A](/gear/yamaha-rx-v4a/)** is the smarter buy, and the **[Sony STR-DH590](/gear/sony-str-dh590/)** is the cheapest sensible receiver for a basic setup.",
   "quickAnswer": "The Denon AVR-S770H is the best budget home theater receiver: 7.2 channels for 5.1.2 Atmos, HDMI 2.1 with 4K/120, Audyssey calibration and HEOS streaming. For a 5.1 system, the Yamaha RX-V4A adds 4K/120 gaming support for less. The Sony STR-DH590 is the cheapest worthwhile option, but it has no Atmos or Wi-Fi.",
   "picksHeading": "The best budget AV receivers",
@@ -150,5 +150,21 @@
     "best-budget-home-theater-speakers",
     "best-budget-subwoofer-for-home-theater"
   ],
-  "bottomLine": "The **Denon AVR-S770H** is the best budget home theater receiver because it's the cheapest way to get 5.1.2 Atmos, HDMI 2.1, room calibration and streaming in one box. The **Yamaha RX-V4A** is the smarter buy for a 5.1 system with a console, and the **Sony STR-DH590** is the cheapest worthwhile receiver if you can live without Atmos and Wi-Fi. Spend a little more for the **Onkyo TX-NR6100** (Dirac Live), the **Denon AVR-X1800H** (Audyssey MultEQ XT) or the **Yamaha RX-V6A** (music and multiroom)."
+  "bottomLine": "The **Denon AVR-S770H** is the best budget home theater receiver because it's the cheapest way to get 5.1.2 Atmos, HDMI 2.1, room calibration and streaming in one box. The **Yamaha RX-V4A** is the smarter buy for a 5.1 system with a console, and the **Sony STR-DH590** is the cheapest worthwhile receiver if you can live without Atmos and Wi-Fi. Spend a little more for the **Onkyo TX-NR6100** (Dirac Live), the **Denon AVR-X1800H** (Audyssey MultEQ XT) or the **Yamaha RX-V6A** (music and multiroom).",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "onkyo-tx-nr5100",
+      "body": "The Onkyo TX-NR5100 is an alternative to the [Denon AVR-S770H](/gear/denon-avr-s770h/) if you stream with Chromecast. It adds **Chromecast built-in** alongside AirPlay 2, and its 80 W/ch rating is only 0.28 dB above the Denon's 75 W, so choose on features, not watts. Its AccuEQ room correction offers less bass control than the Denon's Audyssey, so the S770H remains the better pick for most rooms."
+    },
+    {
+      "product": "sony-str-an1000",
+      "body": "The Sony STR-AN1000 is an alternative to the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) for Sony TV owners. It adds **360 Spatial Sound Mapping** to widen a 5.1.2 layout, plus Chromecast built-in and Spotify Connect, but it sits in a slightly higher price band. Its 165 W headline is rated at 1 kHz, 10% THD with one channel driven, so it can't be compared with the Denon's figure, and Audyssey MultEQ XT keeps the Denon the better all-rounder."
+    }
+  ]
 }

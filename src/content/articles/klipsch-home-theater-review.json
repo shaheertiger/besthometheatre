@@ -18,7 +18,7 @@
   "hub": "brands",
   "brand": "Klipsch",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best Klipsch speakers for home theater for most rooms are the [RP-600M II](/gear/klipsch-rp-600m-ii/) bookshelf speakers paired with the [RP-504C II](/gear/klipsch-rp-504c-ii/) center, with the [RP-8000F II](/gear/klipsch-rp-8000f-ii/) towers as the step up for big rooms. This page is for anyone building a receiver-based system who likes the lively, punchy sound Klipsch's horn tweeters are known for.\n\nWe also answer the second question every Klipsch buyer asks: which is the best home theater receiver for Klipsch speakers? Because Klipsch designs are unusually efficient, you need far less power than you might think. The maths is below, built on Klipsch's spec sheets and owner reports rather than lab benches.",
   "quickAnswer": "The best Klipsch speakers for home theater are the Reference Premiere RP-600M II bookshelf speakers with the RP-504C II center for most rooms, or RP-8000F II towers for large rooms. On a budget, the Reference Theater Pack is the easiest 5.1 start. For a receiver, the Denon AVR-X1800H is the best match for most Klipsch systems: Klipsch's high sensitivity means its rated power is plenty, and Audyssey helps tame the bright horn treble.",
   "picksHeading": "The Klipsch Home Theater Lineup, Ranked",
@@ -152,5 +152,11 @@
     "best-home-theater-speakers",
     "polk-audio-review"
   ],
-  "bottomLine": "The best Klipsch speakers for home theater are the [RP-600M II](/gear/klipsch-rp-600m-ii/) and [RP-504C II](/gear/klipsch-rp-504c-ii/) for most rooms, [RP-8000F II](/gear/klipsch-rp-8000f-ii/) towers for large spaces, the [R-625FA](/gear/klipsch-r-625fa/) for Atmos without ceiling speakers, the [Reference Theater Pack](/gear/klipsch-reference-theater-pack/) for small rooms, and the [R-120SW](/gear/klipsch-r-120sw/) for value bass. Pair them with a [Denon AVR-X1800H](/gear/denon-avr-x1800h/), which has more than enough power for efficient Klipsch speakers plus the room correction to keep their lively treble in check. If you prefer a softer sound, compare Polk before you buy."
+  "bottomLine": "The best Klipsch speakers for home theater are the [RP-600M II](/gear/klipsch-rp-600m-ii/) and [RP-504C II](/gear/klipsch-rp-504c-ii/) for most rooms, [RP-8000F II](/gear/klipsch-rp-8000f-ii/) towers for large spaces, the [R-625FA](/gear/klipsch-r-625fa/) for Atmos without ceiling speakers, the [Reference Theater Pack](/gear/klipsch-reference-theater-pack/) for small rooms, and the [R-120SW](/gear/klipsch-r-120sw/) for value bass. Pair them with a [Denon AVR-X1800H](/gear/denon-avr-x1800h/), which has more than enough power for efficient Klipsch speakers plus the room correction to keep their lively treble in check. If you prefer a softer sound, compare Polk before you buy.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick and a sources section."
+    }
+  ]
 }

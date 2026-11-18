@@ -74,4 +74,8 @@ export interface Article {
   bottomLine: string;
   /** Brand this review covers (for kind === 'review'). */
   brand?: string;
+  /** Dated revision notes, newest first. Only substantive changes (picks swapped, sections added). */
+  updates?: { date: string; note: string }[];
+  /** Optional hand-written notable mentions. When absent, roundups list the best unpicked models automatically. */
+  mentions?: { product: string; body: string }[];
 }

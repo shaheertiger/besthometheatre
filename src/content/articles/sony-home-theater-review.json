@@ -18,7 +18,7 @@
   "hub": "brands",
   "brand": "Sony",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best home theater for Sony Bravia TVs is the [Sony Bravia Theater Bar 9](/gear/sony-bravia-theater-bar-9/), because it decodes both Dolby Atmos and DTS:X and uses Acoustic Center Sync to turn your Bravia's own speakers into part of the center channel. This guide is for Bravia owners who want to stay in the Sony family and need to know which soundbar, wireless system or receiver setup fits their room.\n\nWe rank six Sony products, from the budget HT-S40R to the four-speaker Bravia Theater Quad and the STR-AN1000 receiver, and explain the TV features that make Sony pair best with Sony. Rankings are built on Sony's spec sheets and owner reports, not lab benches.",
   "quickAnswer": "The best home theater for a Sony Bravia is the Bravia Theater Bar 9: 13 speakers, Dolby Atmos and DTS:X, room calibration and Acoustic Center Sync with compatible Bravia TVs. For a wireless system with no bar under the TV, choose the Bravia Theater Quad. For full surround on a budget, pair the STR-AN1000 receiver with Sony's SS-CS speakers. Smaller rooms suit the Bravia Theater Bar 8.",
   "picksHeading": "The Sony Home Theater Lineup, Ranked",
@@ -157,5 +157,11 @@
     "best-tv-for-home-theater",
     "samsung-home-theater-review"
   ],
-  "bottomLine": "The best home theater for Sony Bravia owners is the [Bravia Theater Bar 9](/gear/sony-bravia-theater-bar-9/), with the [Bar 8](/gear/sony-bravia-theater-bar-8/) for smaller rooms and the [Bravia Theater Quad](/gear/sony-bravia-theater-quad/) for a bar-free wireless setup. On a budget, the [HT-S40R](/gear/sony-ht-s40r/) adds real rear speakers, and for the most output per dollar, pair the [STR-AN1000](/gear/sony-str-an1000/) with [SS-CS3](/gear/sony-ss-cs3/) towers. Sony's DTS:X support and Acoustic Center Sync make it the natural partner for a Bravia, as long as you budget for a subwoofer."
+  "bottomLine": "The best home theater for Sony Bravia owners is the [Bravia Theater Bar 9](/gear/sony-bravia-theater-bar-9/), with the [Bar 8](/gear/sony-bravia-theater-bar-8/) for smaller rooms and the [Bravia Theater Quad](/gear/sony-bravia-theater-quad/) for a bar-free wireless setup. On a budget, the [HT-S40R](/gear/sony-ht-s40r/) adds real rear speakers, and for the most output per dollar, pair the [STR-AN1000](/gear/sony-str-an1000/) with [SS-CS3](/gear/sony-ss-cs3/) towers. Sony's DTS:X support and Acoustic Center Sync make it the natural partner for a Bravia, as long as you budget for a subwoofer.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick and a sources section."
+    }
+  ]
 }

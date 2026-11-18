@@ -19,7 +19,7 @@
   ],
   "hub": "projector",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best budget home theater projector is the one that spends your money on light, lens and picture quality instead of marketing claims, and for most people in 2026 that is the [Optoma UHD38x](/gear/optoma-uhd38x/). It typically sells around the $1,000 mark and is rated at **4,000 lumens**, with pixel-shift 4K and 4.2 ms gaming lag. That is more real brightness than many projectors costing twice as much.\n\nThis guide is for first-time projector buyers and anyone building a movie room on a tight budget. We split the picks into two tiers, **under $500** and **around $1,000**, and checked every claim against the spec sheet, because the budget end of the market is where inflated lumens and \"4K supported\" labels hide the most.",
   "quickAnswer": "The **Optoma UHD38x** is the best budget home theater projector: 4,000 lumens and 4K pixel shifting for around $1,000. Under $500, the **Epson Home Cinema 880** is the safest buy, with 3,300 lumens from a real brand. Gamers on a budget should get the **BenQ TH575** (16.7 ms lag), and if you want built-in streaming at 4K, the **Epson Home Cinema 2350** is the pick.",
   "picks": [
@@ -159,5 +159,29 @@
     "best-4k-projector-for-home-theater",
     "best-budget-home-theater-system"
   ],
-  "bottomLine": "The best budget home theater projector is the **Optoma UHD38x**: 4,000 lumens and pixel-shift 4K for around $1,000. Under $500, the **Epson Home Cinema 880** is the safe, bright 1080p choice, and the **Dangbei N2 mini** is the compact smart option for small dark rooms. Gamers should look at the **BenQ TH575**, streamers at the **Epson Home Cinema 2350**, and short rooms at the **Optoma UHD35STx**, which throws 120 inches from about 4.4 feet. If you can stretch past the budget tier, the laser **BenQ TK710** ends lamp replacements for good. Spend what is left on a screen and sound."
+  "bottomLine": "The best budget home theater projector is the **Optoma UHD38x**: 4,000 lumens and pixel-shift 4K for around $1,000. Under $500, the **Epson Home Cinema 880** is the safe, bright 1080p choice, and the **Dangbei N2 mini** is the compact smart option for small dark rooms. Gamers should look at the **BenQ TH575**, streamers at the **Epson Home Cinema 2350**, and short rooms at the **Optoma UHD35STx**, which throws 120 inches from about 4.4 feet. If you can stretch past the budget tier, the laser **BenQ TK710** ends lamp replacements for good. Spend what is left on a screen and sound.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the Dangbei N2 mini replaces the Dangbei N2 as Best Smart Projector Under $500; added the BenQ TK710 as Best Step-Up Laser; removed the BenQ HT2060 (Best Stretch Pick for Movies)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "optoma-hd146x",
+      "body": "The Optoma HD146X is a slightly cheaper alternative to the [Epson Home Cinema 880](/gear/epson-home-cinema-880/) if you play games. Optoma quotes about **16 ms** of lag in its enhanced gaming mode, and it is rated at 3,600 ANSI lumens. The Epson's 3LCD design avoids the rainbow effect some viewers see with single-chip DLP and rates white and color brightness equally, so it remains the better pick for movie nights."
+    },
+    {
+      "product": "optoma-uhz36",
+      "body": "The Optoma UHZ36 is an alternative to the [Optoma UHD38x](/gear/optoma-uhd38x/) if you'd rather never replace a lamp. Its **laser light source**, HDR and Filmmaker Mode suit a dark home theater. The Amazon listing omits lumens, throw ratio and input lag, while the UHD38x publishes 4,000 lumens and low gaming lag, so the UHD38x remains the safer pick until you've checked Optoma's spec sheet."
+    },
+    {
+      "product": "nebula-cosmos-4k-se",
+      "body": "The Anker Nebula Cosmos 4K SE is an alternative to the [Epson Home Cinema 2350](/gear/epson-home-cinema-2350/) if you want one projector to move between rooms. It has a carry handle, auto setup, **Dolby Vision**, Google TV and a lamp-free light source. At 1,800 ANSI lumens it is much dimmer than the Epson's 2,800 ISO lumens and suits 80–100-inch screens in dark rooms, so the Epson remains better for a permanent setup."
+    }
+  ]
 }

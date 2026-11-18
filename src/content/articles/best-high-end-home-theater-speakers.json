@@ -16,7 +16,7 @@
   ],
   "hub": "high-end",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best high end home theater speakers do two things cheaper speakers cannot: they keep voices and effects precisely anchored for every seat, and they stay clean and composed at reference volume. Our top pick is the **[KEF R7 Meta](/gear/kef-r7-meta/)**, a 3-way tower whose coaxial Uni-Q driver gives unusually even sound across a wide sofa, backed by a complete matching family of center and Atmos models.\n\nThis guide is for buyers spending serious money on a dedicated room or a high-end living room system, who want speakers that are equally convincing with music. We compare seven audiophile picks on dispersion, efficiency, amplifier demands and how completely each one builds into a matched surround system.",
   "quickAnswer": "The best high-end home theater speaker for most people is the **KEF R7 Meta**, because its Uni-Q driver gives precise imaging for every seat and KEF sells matching center and Atmos models. For movie-first rooms with lots of bass, the **SVS Ultra Evolution Tower** offers a full family at a lower price. If you want maximum dynamics from modest amplification, the 99 dB **Klipsch Forte IV** is in a class of its own.",
   "picksHeading": "The Best High-End Home Theater Speakers",
@@ -143,5 +143,17 @@
     "best-home-theater-speakers",
     "best-subwoofer-for-home-theater"
   ],
-  "bottomLine": "The best high-end home theater speakers for most buyers are the KEF R7 Meta: precise imaging for every seat and a complete matching family. Movie-first rooms should look at the SVS Ultra Evolution Tower, while the 99 dB Klipsch Forte IV offers unmatched dynamics from modest power. The Bowers & Wilkins 603 S3 is the most refined music-and-movies choice, the Polk Reserve R700 the best value flagship, the Focal Aria Evo X No2 the pick for detail lovers, and the KEF R3 Meta the best high-end bookshelf and surround. Whatever you choose, match the center to the fronts, plan for amplification and treat the room."
+  "bottomLine": "The best high-end home theater speakers for most buyers are the KEF R7 Meta: precise imaging for every seat and a complete matching family. Movie-first rooms should look at the SVS Ultra Evolution Tower, while the 99 dB Klipsch Forte IV offers unmatched dynamics from modest power. The Bowers & Wilkins 603 S3 is the most refined music-and-movies choice, the Polk Reserve R700 the best value flagship, the Focal Aria Evo X No2 the pick for detail lovers, and the KEF R3 Meta the best high-end bookshelf and surround. Whatever you choose, match the center to the fronts, plan for amplification and treat the room.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section and notable mentions."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "kef-q7-meta",
+      "body": "The KEF Q7 Meta is a cheaper way into the coaxial sound of the [KEF R7 Meta](/gear/kef-r7-meta/). Its **Uni-Q driver with MAT** gives the same stable off-axis imaging, and its 8-ohm rating is an easier load than the R7's 4 ohms. The R7's dual 6.5-inch bass drivers and exceptional build and finish still make it the pick for large dedicated rooms with serious amplification."
+    }
+  ]
 }
