@@ -54,11 +54,16 @@ in `src/content/`. Types live in `src/lib/types.ts`.
    `/glossary/impedance/`, `/glossary/alr-screen/`, `/glossary/hdr/`, `/glossary/pixel-shifting/`,
    `/glossary/lfe/`, `/glossary/hdmi-2-1/`, `/glossary/dts-x/`). Only link to article slugs listed in
    `docs/keyword-map.json`, product slugs in `docs/product-catalog.txt`, and those glossary/tool URLs.
-7. **Honesty = E-E-A-T.** We have NOT bench-tested products in a lab. Never write "we tested",
-   "in our testing", "we measured", "our lab". Write "on paper", "the spec sheet says", "owners
-   report", "independent measurements show" (only where widely documented), "we'd pick". The method
-   is spec research + room maths + owner-reported reliability, explained on `/how-we-test/`.
-   Never invent figures. If you are not sure of a spec, leave it out.
+7. **Honesty = E-E-A-T.** Articles are by **Justin Lee** (`AUTHOR` in `src/data/site.ts`, page at
+   `/authors/justin-lee/`). We have our own lab in Mississauga, Ontario (`LAB`). A product counts as
+   tested **only** when its product JSON has a `tested` record (`date`, `method`, `results`, optional
+   `notes`) with real measurements from the lab. Those products get a "Lab tested" badge and a Lab
+   Results section automatically, and the article sources list them.
+   - For a product with a `tested` record you may write "we tested", "in our lab", "we measured", citing
+     the recorded results.
+   - For every other product, never write "we tested", "in our testing", "we measured" or "our lab
+     results". Write "on paper", "the spec sheet says", "owners report", "independent measurements show"
+     (only where widely documented), "we'd pick". Never invent figures; if unsure of a spec, leave it out.
 8. **No prices.** Use `priceBand` ("$400–$500" street-price ranges) only. Never quote an exact price
    or a sale. Prices change and Amazon's rules forbid stale prices.
 9. **Dates.** `published` and `updated`: "2026-11-17". Write for late 2026 and mention newer models only if

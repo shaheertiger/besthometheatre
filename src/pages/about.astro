@@ -1,9 +1,9 @@
 ---
 import Prose from '../layouts/Prose.astro';
-import { SITE } from '../data/site';
+import { SITE, AUTHOR, LAB } from '../data/site';
 import { products, articles, brands } from '../lib/data';
 ---
-<Prose title="About Best Home Theater Review: Who We Are and How We Work" description="Best Home Theater Review is an independent home theater buying guide. Recommendations are built on spec sheets and room maths, and rankings are never sold." h1="About Best Home Theater Review" path="/about/" pageType="AboutPage" intro="An independent buying guide for people building a home theater, from a first soundbar to a dedicated room.">
+<Prose title="About Best Home Theater Review: Who We Are and How We Work" description="Best Home Theater Review is an independent home theater buying guide with its own testing lab. Recommendations show their working, and rankings are never sold." h1="About Best Home Theater Review" path="/about/" pageType="AboutPage" intro="An independent buying guide for people building a home theater, from a first soundbar to a dedicated room.">
   <h2>What We Do</h2>
   <p>Most home theater "best of" lists repeat the marketing copy. We start from the spec sheet and do the maths: how far a projector must sit from your screen, how many speakers a receiver can actually power at once, how much amplifier headroom a speaker's sensitivity demands, and what all of that costs.</p>
   <p>Today we track <strong>{products.length} products</strong> from <strong>{brands.length} brands</strong> across <strong>{articles.length} in-depth guides</strong>, and we update them as new models arrive and old ones are discontinued.</p>
@@ -14,6 +14,10 @@ import { products, articles, brands } from '../lib/data';
     <li><strong>We tell you when to skip it.</strong> Every product page has a "skip it if" line, and our brand reviews say where each brand falls short.</li>
     <li><strong>No paid placements.</strong> Brands cannot pay to be included or ranked. See our <a href="/editorial-policy/">editorial policy</a>.</li>
   </ul>
+  <h2>Who Writes the Guides</h2>
+  <p>Our guides and reviews are written by <a href={AUTHOR.url}>{AUTHOR.name}</a>, a software engineer with a background in embedded systems and digital signal processing (previously at Apple and Tesla; University of Waterloo Computer Science).</p>
+  <h2>Our Lab</h2>
+  <p>We have our own testing lab in {LAB.location}. Products that have been through it carry a <strong>Lab tested</strong> badge, with the test date, method and results on their gear page.</p>
   <h2>How We Score</h2>
   <p>Every product gets a BHTR Score out of 100. Our <a href="/how-we-test/">methodology page</a> explains exactly what goes into it and, just as importantly, what we don't claim.</p>
   <h2>How We Make Money</h2>
