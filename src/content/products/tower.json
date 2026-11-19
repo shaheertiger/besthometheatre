@@ -43,10 +43,14 @@
     ],
     "specs": {
       "Type": "Floorstanding, horn-loaded",
-      "Drivers": "1-inch aluminum LTS tweeter on Tractrix horn; dual 6.5-inch spun-copper IMG woofers",
+      "Drivers": "1-inch aluminum LTS tweeter on Tractrix horn; dual 6.5-inch spun-copper TCP woofers",
+      "Frequency response": "38 Hz–21 kHz ±3 dB",
+      "Sensitivity": "96 dB in-room (2.83 V / 1 m)",
       "Impedance": "8 ohms",
       "Bass loading": "Rear port",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "40.0 × 9.4 × 15.2 in (1017 × 240 × 386 mm)",
+      "Weight": "41 lb (18.6 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -110,9 +114,13 @@
     "specs": {
       "Type": "Floorstanding with built-in Dolby Atmos elevation module",
       "Drivers": "1-inch aluminum LTS tweeter on 90x90 Tractrix horn; dual 6.5-inch spun-copper IMG woofers; top-mounted up-firing Atmos module",
+      "Frequency response": "38 Hz–21 kHz ±3 dB (main tower section)",
+      "Sensitivity": "96 dB (2.83 V / 1 m)",
       "Impedance": "8 ohms",
       "Bass loading": "Rear port",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "40.0 × 9.4 × 17.3 in (1017 × 240 × 439 mm)",
+      "Weight": "49 lb (22.2 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -158,13 +166,13 @@
         "value": 82
       }
     ],
-    "summary": "Klipsch's dual 8-inch horn-loaded tower is rated at 98 dB and 32 Hz, so it hits reference levels on a mid-priced receiver and delivers serious bass even before a subwoofer.",
-    "verdict": "The RP-8000F II pairs a **1-inch titanium tweeter on a 90x90 Hybrid Tractrix horn** with **two 8-inch Cerametallic woofers** and a rear Tractrix port. Klipsch rates it at **32 Hz–25 kHz ±3 dB**, **98 dB** sensitivity, **8 ohms** and 150 W RMS / 600 W peak power handling.\n\n**Show the maths.** At 98 dB, 1 W produces about **88.5 dB** at a seat 3 m (10 ft) away. Reference peaks of 105 dB need just 16.5 dB more, which is **about 45 W**. A typical 87 dB tower needs 11 dB more power for the same result, which is more than **12 times the wattage** (around 560 W). That's why the RP-8000F II is the classic recommendation for people with a mid-priced receiver who want to play films loud ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nBass is the other headline. Two 8-inch woofers equal the cone area of one woofer about 8 × √2 ≈ **11.3 inches** across, and the ±3 dB rating at 32 Hz is unusually deep for a tower at this price. For music you can run them full-range; for movies, still pair a subwoofer and cross over at 60–80 Hz so the towers stay clean on big effects ([crossover basics](/glossary/crossover/)).\n\nThe trade-off is size and voicing. These are big, and the horn's forward treble needs careful toe-in in a lively room.\n\nMatch them with the [RP-504C II center](/gear/klipsch-rp-504c-ii/) and [RP-600M II](/gear/klipsch-rp-600m-ii/) surrounds. See where they rank in our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
+    "summary": "Klipsch's dual 8-inch horn-loaded tower is rated at 98 dB and 35 Hz, so it hits reference levels on a mid-priced receiver and delivers serious bass even before a subwoofer.",
+    "verdict": "The RP-8000F II pairs a **1-inch titanium tweeter on a 90x90 Hybrid Tractrix horn** with **two 8-inch Cerametallic woofers** and a rear Tractrix port. Klipsch rates it at **35 Hz–25 kHz ±3 dB**, **98 dB** sensitivity, **8 ohms** and 150 W RMS / 600 W peak power handling.\n\n**Show the maths.** At 98 dB, 1 W produces about **88.5 dB** at a seat 3 m (10 ft) away. Reference peaks of 105 dB need just 16.5 dB more, which is **about 45 W**. A typical 87 dB tower needs 11 dB more power for the same result, which is more than **12 times the wattage** (around 560 W). That's why the RP-8000F II is the classic recommendation for people with a mid-priced receiver who want to play films loud ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nBass is the other headline. Two 8-inch woofers equal the cone area of one woofer about 8 × √2 ≈ **11.3 inches** across, and the ±3 dB rating at 35 Hz is unusually deep for a tower at this price. For music you can run them full-range; for movies, still pair a subwoofer and cross over at 60–80 Hz so the towers stay clean on big effects ([crossover basics](/glossary/crossover/)).\n\nThe trade-off is size and voicing. These are big, and the horn's forward treble needs careful toe-in in a lively room.\n\nMatch them with the [RP-504C II center](/gear/klipsch-rp-504c-ii/) and [RP-600M II](/gear/klipsch-rp-600m-ii/) surrounds. See where they rank in our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
     "bestFor": "Medium to large rooms where you want reference-level movie sound from a mid-priced receiver",
     "skipIf": "Your room is small or you prefer a soft, relaxed treble",
     "pros": [
       "98 dB sensitivity: about 45 W reaches 105 dB peaks at 10 ft",
-      "Dual 8-inch woofers rated to 32 Hz (±3 dB)",
+      "Dual 8-inch woofers rated to 35 Hz (±3 dB)",
       "Dynamic, punchy sound for action films",
       "Matches the RP-504C II center"
     ],
@@ -176,12 +184,14 @@
     "specs": {
       "Type": "Floorstanding, horn-loaded",
       "Drivers": "1-inch titanium LTS tweeter on 90x90 Hybrid Tractrix horn; dual 8-inch Cerametallic woofers",
-      "Frequency response": "32 Hz–25 kHz ±3 dB",
+      "Frequency response": "35 Hz–25 kHz ±3 dB",
       "Sensitivity": "98 dB (2.83 V / 1 m)",
       "Impedance": "8 ohms",
       "Recommended power": "150 W RMS / 600 W peak (power handling)",
       "Bass loading": "Rear Tractrix port",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "43.1 × 10.8 × 18.3 in (1095 × 275 × 463 mm)",
+      "Weight": "61.4 lb (27.9 kg) each"
     },
     "keySpecs": [
       "Drivers",
@@ -192,7 +202,7 @@
     "faqs": [
       {
         "q": "Do the Klipsch RP-8000F II need a subwoofer?",
-        "a": "Not for music in most rooms, since they're rated to 32 Hz (±3 dB). For movies, a subwoofer still helps: it handles the LFE channel and lets the towers run at a 60–80 Hz crossover, which keeps them cleaner on loud scenes."
+        "a": "Not for music in most rooms, since they're rated to 35 Hz (±3 dB). For movies, a subwoofer still helps: it handles the LFE channel and lets the towers run at a 60–80 Hz crossover, which keeps them cleaner on loud scenes."
       },
       {
         "q": "What amplifier power do the RP-8000F II need?",
@@ -246,9 +256,13 @@
     "specs": {
       "Type": "Floorstanding",
       "Drivers": "1-inch Terylene dome tweeter; 6.5-inch Dynamic Balance woofers",
-      "Impedance": "8 ohms",
+      "Frequency response": "32 Hz–40 kHz (no tolerance stated)",
+      "Sensitivity": "90 dB (2.83 V / 1 m)",
+      "Impedance": "Compatible with 4- and 8-ohm outputs",
       "Bass loading": "Power Port",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "44.5 × 8.5 × 15.7 in (1130 × 216 × 399 mm)",
+      "Weight": "52 lb (23.6 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -295,13 +309,13 @@
         "value": 86
       }
     ],
-    "summary": "A budget tower that gives you a lot of cone area for the money, plus an easy path to Atmos with Polk's XT90 modules, at the cost of refinement.",
-    "verdict": "The Monitor XT60 is the mid-size tower in Polk's budget Monitor XT range: a **1-inch Terylene dome tweeter** and **6.5-inch woofers** in a vinyl-wrapped, ported cabinet, with Hi-Res certification and an 8-ohm rating.\n\n**Show the maths.** Towers win over bookshelves on cone area. Each extra 6.5-inch woofer adds about 33 square inches of nominal cone, and doubling total cone area is worth roughly **3 dB of output** at the same excursion, the same gain you'd get from doubling amplifier power. That's why the XT60 sounds fuller and less strained than the [XT20 bookshelf](/gear/polk-monitor-xt20/) at the same receiver setting. An 8-ohm load is also easy for budget receivers driving five or seven channels ([impedance explained](/glossary/impedance/)).\n\nFor movies, set the XT60 to Small at 60–80 Hz and let a subwoofer handle effects. For music, it can run full-range in a medium room ([crossover basics](/glossary/crossover/)).\n\nThe XT60's other strength is the range around it. The [XT90 height modules](/gear/polk-monitor-xt90/) sit on top for Atmos, and the [XT35 center](/gear/polk-monitor-xt35/) shares the same tweeter, so a matched 5.1.2 system stays affordable.\n\nThe trade-off is refinement: cabinet bracing and treble are built to a price, and the step up to the [Signature Elite ES60](/gear/polk-signature-elite-es60/) is clear. See our [best budget home theater speakers](/best-budget-home-theater-speakers/) for more.",
+    "summary": "A budget tower that gives you a lot of bass radiating area for the money, plus an easy path to Atmos with Polk's XT90 modules, at the cost of refinement.",
+    "verdict": "The Monitor XT60 is the mid-size tower in Polk's budget Monitor XT range: a **1-inch Terylene dome tweeter**, a **6.5-inch woofer** and **two 6.5-inch passive radiators** in a vinyl-wrapped sealed cabinet, with Hi-Res certification.\n\n**Show the maths.** Towers win over bookshelves on radiating area. The two passive radiators are driven by air pressure inside the cabinet and move with the woofer at low frequencies, so the XT60 has three times the bass radiating area of the [XT20 bookshelf](/gear/polk-monitor-xt20/)'s single 6.5-inch woofer. Every doubling of area is worth roughly **3 dB of bass output** at the same excursion, which is why the XT60 sounds fuller and less strained at the same receiver setting. Polk rates it as compatible with 4- and 8-ohm outputs (4.4-ohm minimum), so budget receivers driving five or seven channels cope fine ([impedance explained](/glossary/impedance/)).\n\nFor movies, set the XT60 to Small at 60–80 Hz and let a subwoofer handle effects. For music, it can run full-range in a medium room ([crossover basics](/glossary/crossover/)).\n\nThe XT60's other strength is the range around it. The [XT90 height modules](/gear/polk-monitor-xt90/) sit on top for Atmos, and the [XT35 center](/gear/polk-monitor-xt35/) shares the same tweeter, so a matched 5.1.2 system stays affordable.\n\nThe trade-off is refinement: cabinet bracing and treble are built to a price, and the step up to the [Signature Elite ES60](/gear/polk-signature-elite-es60/) is clear. See our [best budget home theater speakers](/best-budget-home-theater-speakers/) for more.",
     "bestFor": "Budget 5.1 and 5.1.2 systems in medium rooms",
     "skipIf": "You want refined treble and furniture-grade finish",
     "pros": [
-      "Lots of cone area for the money",
-      "Easy 8-ohm load",
+      "Woofer plus two passive radiators for plenty of bass area",
+      "Works with any 4- or 8-ohm receiver",
       "Matches XT35 center and XT90 Atmos modules",
       "Hi-Res certified tweeter"
     ],
@@ -312,10 +326,14 @@
     ],
     "specs": {
       "Type": "Floorstanding",
-      "Drivers": "1-inch Terylene dome tweeter; 6.5-inch woofers",
-      "Impedance": "8 ohms",
-      "Bass loading": "Rear port",
-      "Sold as": "Each"
+      "Drivers": "1-inch Terylene dome tweeter; 6.5-inch woofer; two 6.5-inch passive radiators",
+      "Frequency response": "38 Hz–40 kHz overall; 43 Hz–26 kHz (−3 dB limits)",
+      "Sensitivity": "86 dB (2.83 V / 1 m)",
+      "Impedance": "Compatible with 4- and 8-ohm outputs (4.4-ohm minimum)",
+      "Bass loading": "Sealed, with two passive radiators",
+      "Sold as": "Each",
+      "Dimensions": "36.4 × 7.5 × 9.1 in (925 × 191 × 231 mm)",
+      "Weight": "20 lb (9.1 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -362,14 +380,14 @@
         "value": 84
       }
     ],
-    "summary": "A true 3-way tower with three 6.5-inch aramid woofers and a dedicated midrange, offering neutral sound and deep bass, though its 6-ohm rating needs a capable receiver.",
-    "verdict": "The Debut 2.0 F6.2 is an Andrew Jones design and a genuine **3-way**: a **1-inch cloth dome tweeter**, a **5.25-inch aramid-fiber midrange** and **three 6.5-inch aramid-fiber woofers**. ELAC rates it at **35 Hz–35 kHz**, **87 dB** and **6 ohms**.\n\n**Show the maths.** Three 6.5-inch woofers have the same cone area as a single woofer about 6.5 × √3 ≈ **11.3 inches** across, which is why the F6.2 reaches a rated 35 Hz. A dedicated midrange also means the woofers don't have to reproduce voices, which keeps dialogue cleaner at volume.\n\nSensitivity needs a correction. The 87 dB figure is quoted at 2.83 V, which is about **1.33 W into 6 ohms**, so the true per-watt figure is roughly 85.8 dB. At 3 m (10 ft), 1 W gives about 76.3 dB at the seat; 95 dB peaks need around **75 W**, and 100 dB peaks about **235 W**. A solid midrange AVR handles normal levels; enthusiasts who listen loud should consider an [external amplifier](/best-home-theater-amplifier/) ([impedance explained](/glossary/impedance/)).\n\nThe trade-off: it's less efficient than Klipsch horns and plainer in finish than Polk's Signature Elite. But for neutral voicing and real bass, it's strong value.\n\nPair it with the [Debut C5.2 center](/gear/elac-debut-c52/), [B6.2 bookshelves](/gear/elac-debut-b62/) as surrounds and the [A4.2 Atmos modules](/gear/elac-debut-a42/). See all options in our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
+    "summary": "A true 3-way tower with three 6.5-inch aramid cones, offering neutral sound and deep bass, though its 6-ohm rating needs a capable receiver.",
+    "verdict": "The Debut 2.0 F6.2 is an Andrew Jones design and a genuine **3-way**: a **1-inch cloth dome tweeter**, and **three 6.5-inch woven aramid-fiber cones**, split by crossovers at 90 Hz and 2.2 kHz. ELAC rates it at **39 Hz–35 kHz**, **87 dB** and **6 ohms**.\n\n**Show the maths.** Three 6.5-inch cones have the same area as a single driver about 6.5 × √3 ≈ **11.3 inches** across, which helps the F6.2 reach a rated 39 Hz. The 3-way split also means the cones handling deep bass don't have to reproduce voices, which keeps dialogue cleaner at volume.\n\nSensitivity needs a correction. The 87 dB figure is quoted at 2.83 V, which is about **1.33 W into 6 ohms**, so the true per-watt figure is roughly 85.8 dB. At 3 m (10 ft), 1 W gives about 76.3 dB at the seat; 95 dB peaks need around **75 W**, and 100 dB peaks about **235 W**. A solid midrange AVR handles normal levels; enthusiasts who listen loud should consider an [external amplifier](/best-home-theater-amplifier/) ([impedance explained](/glossary/impedance/)).\n\nThe trade-off: it's less efficient than Klipsch horns and plainer in finish than Polk's Signature Elite. But for neutral voicing and real bass, it's strong value.\n\nPair it with the [Debut C5.2 center](/gear/elac-debut-c52/), [B6.2 bookshelves](/gear/elac-debut-b62/) as surrounds and the [A4.2 Atmos modules](/gear/elac-debut-a42/). See all options in our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
     "bestFor": "Neutral-sounding movie and music systems in medium to large rooms",
     "skipIf": "You have a low-powered receiver or a very small room",
     "pros": [
-      "True 3-way with dedicated midrange for cleaner dialogue",
-      "Three 6.5-inch woofers equal one ~11.3-inch cone",
-      "Rated to 35 Hz",
+      "True 3-way design for cleaner dialogue",
+      "Three 6.5-inch cones equal one ~11.3-inch driver in area",
+      "Rated to 39 Hz",
       "Neutral Andrew Jones voicing"
     ],
     "cons": [
@@ -379,11 +397,13 @@
     ],
     "specs": {
       "Type": "3-way floorstanding",
-      "Drivers": "1-inch cloth dome tweeter; 5.25-inch aramid-fiber midrange; three 6.5-inch aramid-fiber woofers",
-      "Frequency response": "35 Hz–35 kHz",
+      "Drivers": "1-inch cloth dome tweeter; three 6.5-inch woven aramid-fiber cones (3-way, crossovers at 90 Hz and 2.2 kHz)",
+      "Frequency response": "39 Hz–35 kHz",
       "Sensitivity": "87 dB (2.83 V / 1 m)",
       "Impedance": "6 ohms",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "43.2 × 7.7 × 10.6 in (1097 × 195 × 268 mm)",
+      "Weight": "43.9 lb (19.9 kg) each"
     },
     "keySpecs": [
       "Drivers",
@@ -398,7 +418,7 @@
       },
       {
         "q": "Do I need a subwoofer with the ELAC F6.2?",
-        "a": "For music, it's optional thanks to three 6.5-inch woofers rated to 35 Hz. For movies, a subwoofer handles the LFE channel and lets the towers run at a 60–80 Hz crossover for cleaner, louder sound."
+        "a": "For music, it's optional thanks to three 6.5-inch cones rated to 39 Hz. For movies, a subwoofer handles the LFE channel and lets the towers run at a 60–80 Hz crossover for cleaner, louder sound."
       }
     ]
   },
@@ -429,13 +449,13 @@
         "value": 84
       }
     ],
-    "summary": "A neutral 3-way tower with a dedicated 4.5-inch midrange and a genuine ±3 dB rating to 35 Hz, designed to blend seamlessly with SVS subwoofers.",
-    "verdict": "The Prime Tower is a proper **3-way** design: a **1-inch aluminum dome tweeter**, a **4.5-inch polypropylene midrange** and **two 6.5-inch polypropylene woofers**. SVS rates it at **35 Hz–25 kHz ±3 dB**, **87 dB** and **8 ohms**.\n\nThe ±3 dB tolerance matters. It tells you output is still near full strength at 35 Hz, not just audible. That's deep for a tower at this price, and it makes the crossover to a subwoofer seamless ([crossover explained](/glossary/crossover/)).\n\n**Show the maths.** At 87 dB, 1 W gives about 77.5 dB at a seat 3 m (10 ft) away. Peaks of 95 dB need roughly **56 W**, which most receivers can supply. Reference-level 105 dB peaks would need about **560 W**, which no AVR delivers per channel, so if you want near-reference volume in a large room, an [external amplifier](/best-home-theater-amplifier/) for the fronts makes sense. By comparison, a 98 dB Klipsch [RP-8000F II](/gear/klipsch-rp-8000f-ii/) needs about 45 W for the same peaks ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nWhat the Prime Tower gives back is accuracy. A dedicated midrange keeps voices out of the woofers, and the voicing is neutral, which suits a well-treated room and anyone who values dialogue clarity over punch.\n\nThe trade-off is efficiency and a lean balance in bright, bare rooms.\n\nPair it with the [Prime Center](/gear/svs-prime-center/) for a matched front stage and an SVS sub from our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "summary": "A neutral 3-way tower with a dedicated 4.5-inch midrange and a genuine ±3 dB rating to 30 Hz, designed to blend seamlessly with SVS subwoofers.",
+    "verdict": "The Prime Tower is a proper **3-way** design: a **1-inch aluminum dome tweeter**, a **4.5-inch polypropylene midrange** and **two 6.5-inch polypropylene woofers**. SVS rates it at **30 Hz–25 kHz ±3 dB**, **87 dB** and **8 ohms**.\n\nThe ±3 dB tolerance matters. It tells you output is still near full strength at 30 Hz, not just audible. That's deep for a tower at this price, and it makes the crossover to a subwoofer seamless ([crossover explained](/glossary/crossover/)).\n\n**Show the maths.** At 87 dB, 1 W gives about 77.5 dB at a seat 3 m (10 ft) away. Peaks of 95 dB need roughly **56 W**, which most receivers can supply. Reference-level 105 dB peaks would need about **560 W**, which no AVR delivers per channel, so if you want near-reference volume in a large room, an [external amplifier](/best-home-theater-amplifier/) for the fronts makes sense. By comparison, a 98 dB Klipsch [RP-8000F II](/gear/klipsch-rp-8000f-ii/) needs about 45 W for the same peaks ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nWhat the Prime Tower gives back is accuracy. A dedicated midrange keeps voices out of the woofers, and the voicing is neutral, which suits a well-treated room and anyone who values dialogue clarity over punch.\n\nThe trade-off is efficiency and a lean balance in bright, bare rooms.\n\nPair it with the [Prime Center](/gear/svs-prime-center/) for a matched front stage and an SVS sub from our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
     "bestFor": "Accurate, balanced systems built around a quality subwoofer",
     "skipIf": "You want maximum volume from a modest receiver",
     "pros": [
       "True 3-way with dedicated 4.5-inch midrange",
-      "35 Hz rated with a real ±3 dB tolerance",
+      "30 Hz rated with a real ±3 dB tolerance",
       "Neutral voicing for clear dialogue",
       "Matches the Prime Center and Prime Bookshelf"
     ],
@@ -447,10 +467,12 @@
     "specs": {
       "Type": "3-way floorstanding",
       "Drivers": "1-inch aluminum dome tweeter; 4.5-inch polypropylene midrange; dual 6.5-inch polypropylene woofers",
-      "Frequency response": "35 Hz–25 kHz ±3 dB",
+      "Frequency response": "30 Hz–25 kHz ±3 dB",
       "Sensitivity": "87 dB",
       "Impedance": "8 ohms",
-      "Bass loading": "Rear ported"
+      "Bass loading": "Rear ported",
+      "Dimensions": "36.0 × 8.0 × 11.1 in (914 × 203 × 282 mm)",
+      "Weight": "40.1 lb (18.2 kg) each"
     },
     "keySpecs": [
       "Drivers",
@@ -461,7 +483,7 @@
     "faqs": [
       {
         "q": "Do the SVS Prime Towers need a subwoofer?",
-        "a": "Not for music in most rooms, since they're rated to 35 Hz (±3 dB). For movies, a subwoofer handles the LFE channel and lets you set the towers to a 60–80 Hz crossover, which frees up amplifier power and keeps them cleaner at volume."
+        "a": "Not for music in most rooms, since they're rated to 30 Hz (±3 dB). For movies, a subwoofer handles the LFE channel and lets you set the towers to a 60–80 Hz crossover, which frees up amplifier power and keeps them cleaner at volume."
       },
       {
         "q": "What amplifier do the SVS Prime Towers need?",
@@ -518,7 +540,9 @@
       "Sensitivity": "88 dB (2.83 V / 1 m)",
       "Impedance": "6 ohms",
       "Recommended power": "145 W max input",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "36.3 × 9.1 × 10.2 in (922 × 230 × 260 mm)",
+      "Weight": "25.4 lb (11.5 kg) each"
     },
     "keySpecs": [
       "Drivers",
@@ -566,7 +590,7 @@
       }
     ],
     "summary": "KEF's Uni-Q tower with MAT brings coaxial imaging and even dispersion to a full-range speaker, the most refined tower here if you can feed it decent power.",
-    "verdict": "The Q7 Meta is a **3-way floorstander** built around KEF's 12th-generation **Uni-Q** driver: a **1-inch vented aluminum dome tweeter** at the center of an aluminum midrange cone, with **Metamaterial Absorption Technology (MAT)** behind the tweeter, plus dedicated aluminum-cone bass drivers. It's an 8-ohm design.\n\n**Show the maths.** The Uni-Q puts tweeter and midrange at the same acoustic point. With a conventional tower, the tweeter and midrange sit several inches apart, so at an off-axis seat their path lengths differ. A 2 cm difference is half a wavelength at about 8.6 kHz (343 m/s ÷ 0.04 m), enough to cause dips in the treble. A coaxial driver removes that path difference, which is why owners describe the Q7 Meta's imaging as stable across the whole sofa.\n\nMAT addresses the other problem. KEF says it absorbs 99% of the sound radiating from the back of the tweeter, which otherwise reflects and smears detail.\n\nLike most dome-tweeter towers, the Q7 Meta isn't as efficient as a Klipsch horn. A 9 dB efficiency gap means **eight times** the power for the same volume, so pair it with a receiver that delivers its rated power, or an [external amplifier](/best-home-theater-amplifier/) for loud, large rooms ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe trade-off is price: it costs well over budget towers, though less than KEF's R Series like the [R7 Meta](/gear/kef-r7-meta/).\n\nPair it with the [Q6 Meta center](/gear/kef-q6-meta/) and [Q3 Meta](/gear/kef-q3-meta/) surrounds for a fully coaxial system. See our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
+    "verdict": "The Q7 Meta is a **3-way floorstander** built around KEF's 12th-generation **Uni-Q** driver: a **0.75-inch (19 mm) vented aluminum dome tweeter** at the center of a 4-inch aluminum midrange cone, with **Metamaterial Absorption Technology (MAT)** behind the tweeter, plus two dedicated 6.5-inch aluminum-cone bass drivers. KEF rates it at **87 dB** and **4 ohms nominal** (3.2 ohms minimum), so it wants a receiver comfortable with 4-ohm loads.\n\n**Show the maths.** The Uni-Q puts tweeter and midrange at the same acoustic point. With a conventional tower, the tweeter and midrange sit several inches apart, so at an off-axis seat their path lengths differ. A 2 cm difference is half a wavelength at about 8.6 kHz (343 m/s ÷ 0.04 m), enough to cause dips in the treble. A coaxial driver removes that path difference, which is why owners describe the Q7 Meta's imaging as stable across the whole sofa.\n\nMAT addresses the other problem. KEF says it absorbs 99% of the sound radiating from the back of the tweeter, which otherwise reflects and smears detail.\n\nLike most dome-tweeter towers, the Q7 Meta isn't as efficient as a Klipsch horn. A 9 dB efficiency gap means **eight times** the power for the same volume, so pair it with a receiver that delivers its rated power, or an [external amplifier](/best-home-theater-amplifier/) for loud, large rooms ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe trade-off is price: it costs well over budget towers, though less than KEF's R Series like the [R7 Meta](/gear/kef-r7-meta/).\n\nPair it with the [Q6 Meta center](/gear/kef-q6-meta/) and [Q3 Meta](/gear/kef-q3-meta/) surrounds for a fully coaxial system. See our [best tower speakers for home theater](/best-tower-speakers-for-home-theater/).",
     "bestFor": "Wide seating areas and mixed movie/music rooms that value imaging",
     "skipIf": "You have a low-powered receiver or a tight budget",
     "pros": [
@@ -582,9 +606,13 @@
     ],
     "specs": {
       "Type": "3-way floorstanding, coaxial",
-      "Drivers": "Uni-Q with MAT (1-inch vented aluminum dome tweeter in aluminum midrange); aluminum-cone bass drivers",
-      "Impedance": "8 ohms",
-      "Bass loading": "Ported"
+      "Drivers": "Uni-Q with MAT (0.75-inch vented aluminum dome tweeter in 4-inch aluminum midrange); two 6.5-inch aluminum-cone bass drivers",
+      "Frequency response": "46 Hz–20 kHz ±3 dB",
+      "Sensitivity": "87 dB (2.83 V / 1 m)",
+      "Impedance": "4 ohms nominal (3.2-ohm minimum)",
+      "Bass loading": "Ported",
+      "Dimensions": "39.4 × 12.5 × 12.4 in (1001 × 317 × 315 mm)",
+      "Weight": "40.6 lb (18.4 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -648,11 +676,15 @@
     "specs": {
       "Type": "Floorstanding",
       "Drivers": "1-inch silk dome tweeter; dual 6.5-inch poly woofers",
-      "Recommended power": "150 W power handling",
-      "Dimensions": "Over 39 in tall",
+      "Frequency response": "35 Hz–20 kHz (no tolerance stated)",
+      "Sensitivity": "87 dB",
+      "Impedance": "6 ohms",
+      "Recommended power": "80 W RMS, 150 W max power handling",
       "Bass loading": "Bass reflex",
       "Finish": "Black",
-      "Sold as": "Pair"
+      "Sold as": "Pair",
+      "Dimensions": "Over 39 in tall",
+      "Weight": "18.5 lb (8.4 kg) each"
     },
     "keySpecs": [
       "Type",
