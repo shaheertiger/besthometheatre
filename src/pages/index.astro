@@ -7,6 +7,7 @@ import { SITE, CATEGORY_LABELS } from '../data/site';
 import { NAV } from '../data/nav';
 import { products, articles, articleMap, productUrl, brands } from '../lib/data';
 import { itemList, graph } from '../lib/schema';
+import { md } from '../lib/md';
 
 const goalPicks = [
   { slug: 'best-home-theater-systems', label: 'Complete systems' },
@@ -19,6 +20,7 @@ const goalPicks = [
   { slug: 'best-dolby-atmos-home-theater-system', label: 'Dolby Atmos' },
 ].map((g) => ({ ...g, a: articleMap.get(g.slug) })).filter((g) => g.a);
 const top = products.filter((p) => ['projector', 'receiver', 'subwoofer', 'system', 'soundbar', 'tower', 'bookshelf', 'tv'].includes(p.category)).slice(0, 10);
+const systems = articleMap.get('best-home-theater-systems');
 const guides = articles.filter((a) => a.kind !== 'roundup').slice(0, 6);
 const schema = graph(itemList(goalPicks.map((g) => ({ name: g.a!.h1, url: `/${g.slug}/` })), 'Best home theater gear'));
 ---
@@ -36,6 +38,14 @@ const schema = graph(itemList(goalPicks.map((g) => ({ name: g.a!.h1, url: `/${g.
   </section>
 
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    {systems?.quickAnswer && (
+      <section class="mt-14 rounded-2xl border border-brand-100 bg-brand-50 p-6 sm:p-8" aria-labelledby="best-system">
+        <p class="text-xs font-bold uppercase tracking-wider text-brand-700">Quick answer</p>
+        <h2 id="best-system" class="mt-1 text-2xl font-extrabold text-ink">What Is the Best Home Theater System?</h2>
+        <div class="prose mt-3 max-w-3xl" set:html={md(systems.quickAnswer)} />
+        <p class="mt-4"><a href="/best-home-theater-systems/" class="font-semibold text-brand-600">See all {systems.picks?.length} picks in our best home theater system guide →</a></p>
+      </section>
+    )}
     <section class="mt-14">
       <h2 class="text-2xl font-extrabold text-ink">Browse by Category</h2>
       <div class="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">

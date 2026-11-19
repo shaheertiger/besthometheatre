@@ -13,6 +13,10 @@ export const compares: [string, string][] = [
   ['epson-ls11000', 'epson-ls9000'],
   ['epson-home-cinema-880', 'benq-th575'],
   // Receivers
+  ['denon-avr-x3800h','denon-avr-x4800h'],
+  ['denon-avr-x3800h','onkyo-tx-rz50'],
+  ['yamaha-rx-v6a','denon-avr-x2800h'],
+  ['monolith-5x200','outlaw-audio-5000x'],
   ['denon-avr-x1800h', 'yamaha-rx-v6a'],
   ['denon-avr-x2800h', 'denon-avr-x3800h'],
   ['denon-avr-s770h', 'denon-avr-x1800h'],
@@ -21,6 +25,7 @@ export const compares: [string, string][] = [
   ['yamaha-rx-v4a', 'sony-str-dh590'],
   ['marantz-cinema-60', 'denon-avr-x3800h'],
   // Subwoofers
+  ['sonos-sub-4','svs-sb-1000-pro'],
   ['svs-sb-1000-pro', 'svs-pb-1000-pro'],
   ['svs-sb-1000-pro', 'klipsch-r-120sw'],
   ['svs-pb-2000-pro', 'svs-sb-2000-pro'],
@@ -29,6 +34,8 @@ export const compares: [string, string][] = [
   ['klipsch-r-120sw', 'klipsch-r-12sw'],
   ['dayton-classic-cs1200', 'polk-psw10'],
   // Soundbars & systems
+  ['polk-t-series-51-system','fluance-elite-51'],
+  ['enclave-cinehome-pro','sony-bravia-theater-quad'],
   ['sonos-arc-ultra', 'bose-smart-ultra-soundbar'],
   ['sonos-arc-ultra', 'samsung-hw-q990f'],
   ['sony-bravia-theater-bar-9', 'sonos-arc-ultra'],
@@ -39,6 +46,11 @@ export const compares: [string, string][] = [
   ['klipsch-reference-theater-pack', 'polk-t-series-51-system'],
   ['svs-prime-satellite-51', 'klipsch-reference-theater-pack'],
   // Speakers
+  ['klipsch-r-50m','klipsch-rp-600m-ii'],
+  ['elac-debut-f62','svs-prime-tower'],
+  ['svs-prime-center','kef-q6-meta'],
+  ['polk-monitor-xt90','klipsch-r-41sa'],
+  ['kef-ls50-wireless-ii','klipsch-the-fives-ii'],
   ['klipsch-rp-600m-ii', 'elac-debut-b62'],
   ['polk-signature-elite-es20', 'klipsch-r-50m'],
   ['klipsch-r-600f', 'polk-monitor-xt60'],
@@ -48,6 +60,11 @@ export const compares: [string, string][] = [
   ['polk-rc80i', 'micca-m-8c'],
   ['klipsch-cdt-5650-c-ii', 'polk-rc80i'],
   // TVs
+  ['hisense-u7sg','hisense-u8qg'],
+  ['hisense-u7sg','tcl-qm7k'],
+  ['samsung-s90f','samsung-s95f'],
+  ['lg-c5-oled','lg-c6-oled'],
+  ['sony-bravia-8-ii','sony-bravia-9'],
   ['lg-c5-oled', 'samsung-s90f'],
   ['lg-c6-oled', 'samsung-s95f'],
   ['sony-bravia-8-ii', 'lg-c5-oled'],

@@ -49,7 +49,7 @@
     {
       "heading": "Choose Your Configuration First",
       "position": "before",
-      "body": "Speaker configurations are written as **ear-level speakers . subwoofers . height speakers**. A 5.1.2 system has five ear-level speakers, one subwoofer and two height speakers.\n\n| Layout | Speakers | Best for |\n|---|---|---|\n| 2.1 | Left, right, subwoofer | Small rooms, music-first setups |\n| 3.1 | Adds a center channel | Clear dialogue without surrounds |\n| 5.1 | Adds two surrounds | The classic surround setup for most rooms |\n| 7.1 | Adds two rear surrounds | Long rooms with seating away from the back wall |\n| 5.1.2 | 5.1 plus two height speakers | Best value Dolby Atmos |\n| 7.1.4 or 5.1.4 | Four height speakers | Dedicated theaters with the budget and receiver to match |\n\nThe best home theater configuration for most living rooms is **5.1 or 5.1.2**. Choose 7.1 only if there are at least a few feet between your seats and the back wall for the rear speakers. Choose four height speakers when you can mount them in the ceiling and your receiver can power or process eleven channels."
+      "body": "Speaker configurations are written as **ear-level speakers . subwoofers . height speakers**. A 5.1.2 system has five ear-level speakers, one subwoofer and two height speakers.\n\n| Layout | Speakers | Best for |\n|---|---|---|\n| 2.1 | Left, right, subwoofer | Small rooms, music-first setups |\n| 3.1 | Adds a center channel | Clear dialogue without surrounds |\n| 5.1 | Adds two surrounds | The classic surround setup for most rooms |\n| 7.1 | Adds two rear surrounds | Long rooms with seating away from the back wall |\n| 5.1.2 | 5.1 plus two height speakers | Best value Dolby Atmos |\n| 7.1.4 or 5.1.4 | Four height speakers | Dedicated theaters with the budget and receiver to match |\n\nThe best home theater configuration for most living rooms is **5.1 or 5.1.2**. Choose 7.1 only if there are at least a few feet between your seats and the back wall for the rear speakers. Choose four height speakers when you can mount them in the ceiling and your receiver can power or process eleven channels.\n\nIf you would rather buy one matched package than choose every part, our [best home theater system](/best-home-theater-systems/) guide ranks complete soundbar systems, speaker packages and home-theater-in-a-box bundles by room size."
     },
     {
       "heading": "Best Home Theater Setup Components Checklist",
@@ -138,9 +138,9 @@
     }
   ],
   "related": [
+    "best-home-theater-systems",
     "best-home-theater-receiver",
-    "home-theater-room-design",
-    "best-movies-for-home-theater"
+    "home-theater-room-design"
   ],
   "bottomLine": "The best home theater setup components are a display sized to your seating distance, a receiver like the [Denon AVR-X1800H](/gear/denon-avr-x1800h/), matched speakers such as the [Klipsch R-625FA 5.1.2 system](/gear/klipsch-r-625fa-51-system/), and a subwoofer like the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/), with the [LG C5 OLED](/gear/lg-c5-oled/) as a strong display for rooms that are not fully dark. Pick the configuration your room supports, place speakers at Dolby's angles, crawl for the best subwoofer spot, and run room correction with an 80 Hz crossover."
 }
