@@ -9,8 +9,9 @@ import FAQ from '../../components/FAQ.astro';
 import StickyBuyBar from '../../components/StickyBuyBar.astro';
 import { products, productsByCategory, productsByBrand, articlesForProduct, productUrl, brandUrl, articleUrl, compareSlug, shortName, formatDate } from '../../lib/data';
 import { compares } from '../../data/compares';
+import { firmwareFor } from '../../data/firmware';
 import { CATEGORY_LABELS, SITE, LAB } from '../../data/site';
-import { md } from '../../lib/md';
+import { md, mdInline } from '../../lib/md';
 import { breadcrumbs, faqPage, graph, productSchema } from '../../lib/schema';
 import { amazonImage, amazonUrl } from '../../lib/amazon';
 import type { Product, FAQ as F } from '../../lib/types';
@@ -40,7 +41,9 @@ const specFaqs: F[] = [
   ...specFaq('Dimensions', `What are the dimensions of the ${p.name}?`, (v) => `The ${p.name} measures **${v}**${p.specs['Weight'] ? ` and weighs **${p.specs['Weight']}**` : ''}, according to the manufacturer's spec sheet. See the [full ${sn} specs](#specs) for everything else.`),
   ...specFaq('Frequency response', `What is the frequency response of the ${p.name}?`, (v) => `The manufacturer rates the ${p.name}'s frequency response at **${v}**. ${['bookshelf', 'tower', 'center', 'in-wall', 'atmos-speaker', 'high-end', 'wireless-speaker'].includes(p.category) ? `For movies, pair it with a subwoofer and set your receiver's [crossover](/glossary/crossover/) to around 80 Hz so deep bass goes to the sub.` : 'Figures are published by the maker and measured under their own conditions.'}`),
 ];
-const faqs = [...(p.faqs ?? []), ...specFaqs, ...autoFaqs];
+const fw = firmwareFor(p.slug);
+const fwFaqs: F[] = fw ? [{ q: `How do I update the firmware on the ${p.name}?`, a: `${fw.network ? `Connect it to the internet, then go to **${fw.network}**.` : ''}${fw.usb ? ` ${fw.network ? 'You can also update from a USB stick: ' : 'Updates are installed from a USB stick: '}${fw.usb.charAt(0).toLowerCase() + fw.usb.slice(1)}` : ''}${fw.cautions ? ` ${fw.cautions}` : ''} Release notes and files are on [${p.brand}'s support site](${fw.supportUrl}).`.trim() }] : [];
+const faqs = [...(p.faqs ?? []), ...specFaqs, ...fwFaqs, ...autoFaqs];
 const glance = (p.keySpecs?.length ? p.keySpecs : Object.keys(p.specs)).filter((k) => p.specs[k]).slice(0, 4);
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -133,6 +136,19 @@ const schema = graph(breadcrumbs(crumbs), productSchema(p), faqPage(faqs));
 
       <div class="prose"><h2 id="verdict">Our Verdict</h2><Fragment set:html={md(p.verdict)} /></div>
       <ProsCons pros={p.pros} cons={p.cons} />
+
+      {fw && (
+        <div class="prose"><h2 id="firmware">{sn} Firmware &amp; Updates</h2>
+          <p>Firmware updates fix bugs and can add features and format support, so check for one when you first set up the {sn} and whenever HDMI, eARC or streaming misbehaves.</p>
+          <ul>
+            {fw.network && <li><strong>Update over the internet:</strong> <Fragment set:html={mdInline(fw.network)} /></li>}
+            {fw.auto && <li><strong>Automatic updates:</strong> <Fragment set:html={mdInline(fw.auto)} /></li>}
+            {fw.usb && <li><strong>USB update:</strong> <Fragment set:html={mdInline(fw.usb)} /></li>}
+          </ul>
+          {fw.cautions && <p><strong>Before you start:</strong> {fw.cautions}</p>}
+          <p>Release notes and update files: <a href={fw.supportUrl} target="_blank" rel="noopener">{p.brand} support</a>. Steps from {p.brand}'s own manual and support pages.</p>
+        </div>
+      )}
 
       {(cheaper.length > 0 || better.length > 0 || sameBrand.length > 0) && (
         <div class="prose"><h2 id="alternatives">Alternatives to the {p.name}</h2></div>
