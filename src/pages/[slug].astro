@@ -5,13 +5,13 @@ import Byline from '../components/Byline.astro';
 import QuickPicks from '../components/QuickPicks.astro';
 import PickBlock from '../components/PickBlock.astro';
 import ComparisonTable from '../components/ComparisonTable.astro';
-import DecisionTable from '../components/DecisionTable.astro';
 import NotableMentions from '../components/NotableMentions.astro';
 import AllProductsTable from '../components/AllProductsTable.astro';
 import FAQ from '../components/FAQ.astro';
 import TOC from '../components/TOC.astro';
 import RelatedCards from '../components/RelatedCards.astro';
 import BeforeYouBuy from '../components/BeforeYouBuy.astro';
+import { FORMAT } from '../data/site';
 import StickyBuyBar from '../components/StickyBuyBar.astro';
 import { articles, articleMap, getProduct, hubLabel, readMinutes, articleUrl, brandUrl, productsByBrand, productsByCategory, productUrl, formatDate } from '../lib/data';
 import { CATEGORY_LABELS, LAB } from '../data/site';
@@ -59,16 +59,16 @@ type H2 = { id: string; label: string };
 const outline: H2[] = [];
 let n = 0;
 const num = (label: string, id?: string) => { n += 1; const h = { id: id ?? slugify(label), label: `${n}. ${label}` }; outline.push(h); return h; };
+// Order follows thehonestreviewers.com, our best performer on Bing: picks first, then the buying guide,
+// Before You Buy, FAQ and mistakes; "Everything Else", related guides and the bottom line close the page.
 const leadH = lead.map((s) => num(s.heading));
-const tableH = picks.length > 1 ? num('Compare the Picks at a Glance', 'compare-picks') : null;
-const methodH = method ? num(method.heading) : null;
 const picksH = picks.length ? num(a.listName ? `The ${picks.length} Best ${a.listName}, Compared & Ranked` : (a.picksHeading ?? `The Best ${short}`), 'the-picks') : null;
 const specsH = picks.length > 1 && columns.length ? num('Spec Sheets Side by Side', 'side-by-side') : null;
+const methodH = method ? num(method.heading) : null;
 const mentionsH = mentions.length ? num('Notable Mentions', 'mentions') : null;
 const guidanceH = guidance.map((s) => num(s.heading));
-const mistakesH = a.mistakes?.length ? num('Common Mistakes to Avoid', 'mistakes') : null;
-const bottomH = num('The Bottom Line', 'bottom-line');
 const faqH = num('Frequently Asked Questions', 'faq');
+const mistakesH = a.mistakes?.length ? num('Common Mistakes to Avoid', 'mistakes') : null;
 const sourcesH = num('Sources and Recent Updates', 'sources');
 const allH = isRoundup && catProducts.length > picks.length ? num(`All ${catLabel} We Track`, 'all-models') : null;
 
@@ -111,11 +111,14 @@ const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(
         <TOC items={outline} variant="guide" />
         {lead.length > 0 && <div class="prose">{lead.map((s, i) => (<><h2 id={leadH[i].id}>{leadH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}</div>}
 
-        {tableH && (
-          <div class="prose"><h2 id={tableH.id}>{tableH.label}</h2>
-            <p>What each pick is for, the limitation most likely to change your mind, and its score and street-price band. Tap a name to jump to the full write-up.</p>
-          </div>
-          <DecisionTable picks={picks} label={`${a.h1}: picks compared`} />
+        <div class="prose">
+          {picksH && <h2 id={picksH.id}>{picksH.label}</h2>}
+        </div>
+        {picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}
+
+        {specsH && (
+          <div class="prose"><h2 id={specsH.id}>{specsH.label}</h2></div>
+          <ComparisonTable products={pickProducts} specs={columns} awards={picks.map((p) => p.award)} />
         )}
 
         {methodH && method && (
@@ -128,16 +131,6 @@ const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(
           </section>
         )}
 
-        <div class="prose">
-          {picksH && <h2 id={picksH.id}>{picksH.label}</h2>}
-        </div>
-        {picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}
-
-        {specsH && (
-          <div class="prose"><h2 id={specsH.id}>{specsH.label}</h2></div>
-          <ComparisonTable products={pickProducts} specs={columns} awards={picks.map((p) => p.award)} />
-        )}
-
         {mentionsH && (
           <div class="prose"><h2 id={mentionsH.id}>{mentionsH.label}</h2>
             <p>Good models that just missed the list, and the situations where one of them is the better buy.</p>
@@ -147,20 +140,18 @@ const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(
 
         <div class="prose">
           {guidance.map((s, i) => (<><h2 id={guidanceH[i].id}>{guidanceH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}
-          {mistakesH && (
-            <>
-              <h2 id={mistakesH.id}>{mistakesH.label}</h2>
-              {a.mistakes!.map((m) => (<><h3>{m.title}</h3><Fragment set:html={md(m.body)} /></>))}
-            </>
-          )}
-          <h2 id={bottomH.id}>{bottomH.label}</h2>
-          <Fragment set:html={md(a.bottomLine)} />
         </div>
         <BeforeYouBuy slug={a.slug} />
         <div class="prose">
           <h2 id={faqH.id}>{faqH.label}</h2>
         </div>
         <FAQ faqs={a.faqs} />
+        {mistakesH && (
+          <div class="prose">
+            <h2 id={mistakesH.id}>{mistakesH.label}</h2>
+            {a.mistakes!.map((m) => (<><h3>{m.title}</h3><Fragment set:html={md(m.body)} /></>))}
+          </div>
+        )}
 
         <div class="prose">
           <h2 id={sourcesH.id}>{sourcesH.label}</h2>
@@ -199,8 +190,12 @@ const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(
             <p>See the full <a href={brandUrl(a.brand!)}>{a.brand} brand page</a> for spec sheets and scores on all {brandProducts.length} models.</p>
           </div>
         )}
+        {sameHub.length > 0 && (<div class="prose"><h2 id="everything-else">Everything Else About {a.hub === 'guides' || a.hub === 'brands' ? FORMAT.topic : hubLabel(a.hub)}</h2></div><RelatedCards articles={sameHub} />)}
         {related.length > 0 && (<div class="prose"><h2 id="related">Related {a.hub === 'guides' || a.hub === 'brands' ? '' : hubLabel(a.hub).replace(/s$/, '') + ' '}Guides</h2></div><RelatedCards articles={related} />)}
-        {sameHub.length > 0 && (<div class="prose"><h2 id="everything-else">Everything Else About {hubLabel(a.hub)}</h2></div><RelatedCards articles={sameHub} />)}
+        <div class="prose">
+          <h2 id="bottom-line">The Bottom Line</h2>
+          <Fragment set:html={md(a.bottomLine)} />
+        </div>
       </article>
       <aside class="hidden lg:block"><TOC items={outline} variant="desktop" /></aside>
     </div>

@@ -68,6 +68,8 @@ export const CATEGORY_ICONS: Record<string, string> = {
 
 /** Roundup format (title, meta description and "Before You Buy" box), modelled on our best-performing Bing pages. */
 export const FORMAT = {
+  /** Site topic for "Everything Else About …" on guide and brand pages. */
+  topic: 'Home Theater',
   /** What every roundup compares products on, used in the meta description. */
   criteria: 'spec sheets, room size and real-world price',
   alsoNeededLabel: 'Also Needed for This Setup',
