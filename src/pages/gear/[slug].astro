@@ -118,7 +118,7 @@ const schema = graph(breadcrumbs(crumbs), productSchema(p), faqPage(faqs));
           {p.tested.notes && <div class="prose" set:html={md(p.tested.notes)} />}
         </>
       ) : (
-        <div class="prose"><p class="mt-6 text-[0.95rem] text-slate-600">The {p.name} has not been through our lab in {LAB.location} yet. Its score comes from the spec sheet, room maths, widely published independent measurements and owner reports. <a href="/how-we-test/">How we score</a>.</p></div>
+        <div class="prose"><p class="mt-6 text-[0.95rem] text-slate-600">Its score comes from the spec sheet, room maths, widely published independent measurements and owner reports. <a href="/how-we-test/">How we score</a>.</p></div>
       )}
 
       <div class="prose"><h2 id="score">BHTR Score: {p.score}/100</h2>

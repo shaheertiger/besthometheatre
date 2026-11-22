@@ -41,7 +41,7 @@ const quick = winner
 const description = `${a.name} vs ${b.name} compared side by side: ${shared.slice(0, 3).map((k) => k.toLowerCase()).join(', ')}, price and our verdict. ${winner ? `${winner.name} scores higher.` : 'They tie on score.'}`.slice(0, 158);
 const faqs = [
   { q: `Which is better, the ${a.name} or the ${b.name}?`, a: quick },
-  { q: `What is the main difference between the ${a.name} and ${b.name}?`, a: differs.length ? differs.slice(0, 3).map((k) => `**${k}:** ${a.name} ${a.specs[k]} vs ${b.name} ${b.specs[k]}.`).join(' ') : `On paper they are very close; the real difference is price (${a.priceBand} vs ${b.priceBand}) and who each suits.` },
+  { q: `What is the main difference between the ${a.name} and ${b.name}?`, a: differs.length ? differs.slice(0, 3).map((k) => `**${k}:** ${a.name} ${a.specs[k]} vs ${b.name} ${b.specs[k]}.`).join(' ') : `Their specs are very close; the real difference is price (${a.priceBand} vs ${b.priceBand}) and who each suits.` },
   { q: `Which is cheaper, the ${a.name} or the ${b.name}?`, a: cheaper ? `The ${cheaper.name} usually sells for less (${cheaper.priceBand} vs ${(cheaper === a ? b : a).priceBand}). Prices move often, so check the current price before you buy.` : `They sit in the same price band (${a.priceBand}). Prices move often, so check both before you buy.` },
   { q: `Who should skip the ${a.name}?`, a: `Skip it if ${a.skipIf.charAt(0).toLowerCase() + a.skipIf.slice(1)}. ${b.name}: skip it if ${b.skipIf.charAt(0).toLowerCase() + b.skipIf.slice(1)}.` },
 ];

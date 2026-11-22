@@ -6,8 +6,7 @@ const tested = products.filter((p) => p.tested);
 ---
 <Prose title="How We Score Home Theater Gear: The BHTR Score Method" description="How the BHTR Score works: our own lab measurements where a product has been tested, plus spec-sheet analysis, room maths and owner-reported reliability." h1="How We Score: The BHTR Score" path="/how-we-test/" intro="Every product we cover gets a BHTR Score out of 100. Here is exactly what goes into it.">
   <h2>Our Lab</h2>
-  <p>We run our own testing lab in {LAB.location}. A product gets a <strong>Lab tested</strong> badge only after a unit has been through it, and its gear page then shows the test date, the method and the results. {tested.length > 0 ? <>So far <strong>{tested.length}</strong> of the {products.length} products we track have been lab tested.</> : <>We are working through the {products.length} products we track; none carries the badge yet.</>}</p>
-  <p>Until a product has been through the lab, its score is built from the research below, and its page says so.</p>
+  <p>We run our own testing lab in {LAB.location}. A product gets a <strong>Lab tested</strong> badge only after a unit has been through it, and its gear page then shows the test date, the method and the results. {tested.length > 0 ? <>So far <strong>{tested.length}</strong> of the {products.length} products we track have been lab tested.</> : null}</p>
   <h2>What the Score Is Built On</h2>
   <ol>
     <li><strong>Our lab results</strong>, for products that carry the Lab tested badge.</li>
@@ -28,8 +27,8 @@ const tested = products.filter((p) => p.tested);
       <tr><td>Soundbars and systems</td><td>True channel count vs virtualization, Atmos and DTS:X support, expandability, eARC, room correction</td></tr>
     </tbody>
   </table>
-  <h2>What We Don't Claim</h2>
-  <p>We never say "we tested" about a product that has not been through our lab. Untested products get a structured research verdict, and every guide lists which of its picks are lab tested in its sources section. Guides are written by <a href={AUTHOR.url}>{AUTHOR.name}</a>.</p>
+  <h2>Who Writes the Guides</h2>
+  <p>Guides are written by <a href={AUTHOR.url}>{AUTHOR.name}</a>.</p>
   <h2>Score Bands</h2>
   <ul>
     <li><strong>90–100:</strong> class-leading; rare.</li>

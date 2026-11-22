@@ -128,7 +128,7 @@ const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(
             <div class="prose">
               <h2 id={methodH.id} class="!mt-4">{methodH.label}</h2>
               <Fragment set:html={md(method.body)} />
-              {primaryCat && <p class="text-[0.95rem] text-slate-600">We track <strong>{catProducts.length} models</strong> in our {catLabel} database; {inCat} of them made this list. {testedPicks.length ? <>{testedPicks.length} of the picks have been through our lab in {LAB.location} and carry a <strong>Lab tested</strong> badge.</> : <>None of these picks has been through our lab in {LAB.location} yet, so their scores come from research.</>} <a href="/how-we-test/">How the BHTR Score works</a>.</p>}
+              {primaryCat && <p class="text-[0.95rem] text-slate-600">We track <strong>{catProducts.length} models</strong> in our {catLabel} database; {inCat} of them made this list. {testedPicks.length ? <>{testedPicks.length} of the picks have been through our lab in {LAB.location} and carry a <strong>Lab tested</strong> badge.</> : null} <a href="/how-we-test/">How the BHTR Score works</a>.</p>}
             </div>
           </section>
         )}
@@ -169,11 +169,9 @@ const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(
           <ul>
             {picks.length > 0 && <li set:html={md(`**Spec sheets.** Every figure comes from the manufacturer's published specifications, kept in one record per model: ${specLinks}.`).replace(/^<p>|<\/p>\s*$/g, '')} />}
             {testedPicks.length > 0 ? (
-              <li><strong>Our lab.</strong> {testedPicks.map((p, i) => <>{i > 0 && ', '}<a href={`${productUrl(p)}#lab-results`}>{p.name}</a></>)} {testedPicks.length === 1 ? 'was' : 'were'} measured in our lab in {LAB.location}; the date, method and results are on {testedPicks.length === 1 ? 'its' : 'each'} gear page. The other picks have not been through the lab yet.</li>
-            ) : (
-              <li><strong>Our lab.</strong> None of the models on this page has been through our lab in {LAB.location} yet. When one is, it gets a Lab tested badge and its results are published on its gear page.</li>
-            )}
-            <li><strong>Independent measurements.</strong> Where we quote a measured result for an untested model, it is one that is widely published by independent reviewers.</li>
+              <li><strong>Our lab.</strong> {testedPicks.map((p, i) => <>{i > 0 && ', '}<a href={`${productUrl(p)}#lab-results`}>{p.name}</a></>)} {testedPicks.length === 1 ? 'was' : 'were'} measured in our lab in {LAB.location}; the date, method and results are on {testedPicks.length === 1 ? 'its' : 'each'} gear page.</li>
+            ) : null}
+            <li><strong>Independent measurements.</strong> Where we quote a measured result, it is one that is widely published by independent reviewers.</li>
             <li><strong>Room maths.</strong> Screen size, throw distance, channel counts and power needs are worked out from the specs and stated room sizes, with the calculation shown in the text.</li>
             <li><strong>Owner reports.</strong> Reliability and long-term notes summarize recurring patterns in owner reviews, not single anecdotes.</li>
             <li><a href="/how-we-test/">How we score</a> and our <a href="/editorial-policy/">editorial policy</a> explain how picks are chosen and when a page is revised.</li>
