@@ -22,7 +22,7 @@ const top = products.filter((p) => ['projector', 'receiver', 'subwoofer', 'syste
 const guides = articles.filter((a) => a.kind !== 'roundup').slice(0, 6);
 const schema = graph(itemList(goalPicks.map((g) => ({ name: g.a!.h1, url: `/${g.slug}/` })), 'Best home theater gear'));
 ---
-<Base title="Best Home Theater Review | Independent Home Theater Reviews" description={SITE.description} schema={schema}>
+<Base mdAlternate="/index.md" title="Best Home Theater Review | Independent Home Theater Reviews" description={SITE.description} schema={schema}>
   <section class="bg-[#0b1120] text-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14 sm:py-20">
       <p class="text-xs font-bold uppercase tracking-[0.2em] text-gold">Independent · Spec-sheet first · No paid rankings</p>

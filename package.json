@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "check:links": "node scripts/check-build.mjs",
     "images:fetch": "node --env-file-if-exists=.env scripts/fetch-product-images.mjs",
-    "images:review": "node scripts/review-matches.mjs"
+    "images:review": "node scripts/review-matches.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",

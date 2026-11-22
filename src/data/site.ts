@@ -50,3 +50,11 @@ export const CATEGORY_ICONS: Record<string, string> = {
   soundbar: '📶', bookshelf: '🔈', tower: '🗼', center: '🎙️', 'atmos-speaker': '⬆️', 'in-wall': '🧱',
   'high-end': '💎', 'wireless-speaker': '📡', tv: '📺', seating: '🛋️', remote: '🎮', cable: '🔌', power: '⚡', popcorn: '🍿',
 };
+
+/** Roundup format (title, meta description and "Before You Buy" box), modelled on our best-performing Bing pages. */
+export const FORMAT = {
+  /** What every roundup compares products on, used in the meta description. */
+  criteria: 'spec sheets, room size and real-world price',
+  alsoNeededLabel: 'Also Needed for This Setup',
+  alsoNeeded: ['best-speaker-wire-for-home-theater', 'best-surge-protector-for-home-theater', 'best-universal-remote-for-home-theater', 'best-projector-screen-for-home-theater'],
+};

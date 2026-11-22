@@ -11,18 +11,19 @@ export function getStaticPaths() {
 
 export const GET: APIRoute = ({ props }) => {
   const a = (props as { article: Article }).article;
-  const out: string[] = [`# ${a.h1}`, '', `> ${a.metaDescription}`, '', `Source: ${SITE.url}/${a.slug}/ · Updated ${a.updated} · ${SITE.author}`, '', a.intro, ''];
+  const out: string[] = [`# ${a.displayH1 ?? a.h1}`, '', `> ${a.metaDescription}`, '', `Source: ${SITE.url}/${a.slug}/ · Updated ${a.updated} · ${SITE.author}`, '', a.intro, ''];
   if (a.quickAnswer) out.push('## Quick answer', '', a.quickAnswer, '');
-  a.sections.filter((s) => s.position === 'before').forEach((s) => out.push(`## ${s.heading}`, '', s.body, ''));
   if (a.picks?.length) {
-    out.push(`## ${a.picksHeading ?? 'Our picks'}`, '');
+    out.push(`## ${a.listName ? `The ${a.picks.length} Best ${a.listName}, Compared & Ranked` : (a.picksHeading ?? 'Our picks')}`, '');
     a.picks.forEach((pk, i) => {
       const p = getProduct(pk.product);
       out.push(`### ${i + 1}. ${p.name} (${pk.award})`, '', `Score: ${p.score}/100 · ${p.priceBand} · [Check price](${amazonUrl(p)})`, '', pk.body, '');
     });
   }
+  a.sections.filter((s) => s.position === 'before').forEach((s) => out.push(`## ${s.heading}`, '', s.body, ''));
   a.sections.filter((s) => s.position !== 'before').forEach((s) => out.push(`## ${s.heading}`, '', s.body, ''));
-  if (a.faqs.length) { out.push('## FAQ', ''); a.faqs.forEach((f) => out.push(`### ${f.q}`, '', f.a, '')); }
+  if (a.faqs.length) { out.push('## Frequently Asked Questions', ''); a.faqs.forEach((f) => out.push(`### ${f.q}`, '', f.a, '')); }
+  if (a.mistakes?.length) { out.push('## Common Mistakes to Avoid', ''); a.mistakes.forEach((m) => out.push(`### ${m.title}`, '', m.body, '')); }
   out.push('## The Bottom Line', '', a.bottomLine, '');
   return new Response(out.join('\n'), { headers: { 'Content-Type': 'text/markdown; charset=utf-8' } });
 };

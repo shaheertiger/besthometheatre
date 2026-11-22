@@ -6,9 +6,16 @@ import AmazonButton from './AmazonButton.astro';
 import Score from './Score.astro';
 interface Props { picks: Pick[] }
 const { picks } = Astro.props;
+const top = picks.length ? getProduct(picks[0].product) : undefined;
 ---
 <div id="quick-picks" class="not-prose my-6 rounded-2xl border-2 border-gold/60 bg-amber-50/40 overflow-hidden">
-  <p class="px-4 sm:px-5 pt-4 text-xs font-bold uppercase tracking-wider text-gold-dark">Our top picks at a glance</p>
+  <p class="px-4 sm:px-5 pt-4 text-xs font-bold uppercase tracking-wider text-gold-dark">Our Picks at a Glance</p>
+  {top && (
+    <div class="px-4 sm:px-5 py-3 border-b border-amber-200/70">
+      <p class="text-xs font-extrabold uppercase tracking-widest text-slate-500">The Short Answer</p>
+      <p class="mt-1 text-[15px] text-slate-800 leading-relaxed"><strong class="text-ink">{top.name}</strong> ({picks[0].award}). {top.summary}</p>
+    </div>
+  )}
   <ol class="divide-y divide-amber-200/70">
     {picks.map((pk, i) => {
       const p = getProduct(pk.product);

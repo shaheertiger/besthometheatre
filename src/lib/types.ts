@@ -56,6 +56,10 @@ export interface Article {
   title: string;
   metaDescription: string;
   h1: string;
+  /** Plural list noun for roundup titles, e.g. "Pacifier Clips" → "8 Best Pacifier Clips in 2026". */
+  listName?: string;
+  /** On-page H1; set from listName for roundups. Falls back to h1. */
+  displayH1?: string;
   keyword: string;
   keywords: string[];
   /** Hub category key from CATEGORY_LABELS, or 'guides' / 'brands'. */
