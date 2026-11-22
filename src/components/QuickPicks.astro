@@ -26,7 +26,8 @@ const top = picks.length ? getProduct(picks[0].product) : undefined;
           <div class="min-w-0 flex-1">
             <p class="text-[11px] font-bold uppercase tracking-wide text-gold-dark">{pk.award}</p>
             <a href={`#pick-${i + 1}`} class="block font-semibold text-ink hover:text-brand-600 leading-snug no-underline">{p.name}</a>
-            <p class="text-xs text-slate-500 mt-0.5 flex items-center gap-2"><Score score={p.score} /> <span>{p.priceBand}</span></p>
+            <p class="text-xs text-slate-600 mt-0.5 leading-snug">{p.bestFor}</p>
+            <p class="text-xs text-slate-500 mt-1 flex items-center gap-2"><Score score={p.score} /> <span>{p.priceBand}</span></p>
           </div>
           <AmazonButton product={p} label="View" class="!px-3 !py-2 !text-sm shrink-0" />
         </li>

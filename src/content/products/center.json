@@ -43,9 +43,13 @@
     ],
     "specs": {
       "Type": "2-way center channel, horn-loaded",
-      "Drivers": "1-inch aluminum LTS tweeter on Tractrix horn; dual 5.25-inch spun-copper IMG woofers",
+      "Drivers": "1-inch aluminum LTS tweeter on Tractrix horn; dual 5.25-inch spun-copper TCP woofers",
+      "Frequency response": "90 Hz–21 kHz ±3 dB",
+      "Sensitivity": "96 dB (2.83 V / 1 m, in-room)",
       "Impedance": "8 ohms",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "7.0 × 18.8 × 8.2 in (178 × 476 × 208 mm)",
+      "Weight": "14 lb (6.3 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -108,9 +112,13 @@
     ],
     "specs": {
       "Type": "Center channel, horn-loaded",
-      "Drivers": "1-inch titanium LTS tweeter on Hybrid Tractrix horn; 5.25-inch Cerametallic woofers",
+      "Drivers": "1-inch titanium LTS tweeter on Hybrid Tractrix horn; four 5.25-inch Cerametallic woofers",
+      "Frequency response": "50 Hz–25 kHz ±3 dB",
+      "Sensitivity": "96 dB (2.83 V / 1 m, in-room)",
       "Impedance": "8 ohms",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "6.9 × 32.1 × 15.1 in (174 × 814 × 383 mm)",
+      "Weight": "36.3 lb (16.5 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -157,13 +165,13 @@
         "value": 86
       }
     ],
-    "summary": "A budget dual-woofer center that matches the Monitor XT range's Terylene tweeter, a sensible pick for affordable 5.1 systems.",
-    "verdict": "The Monitor XT35 is the center for Polk's budget Monitor XT range: a **1-inch Terylene dome tweeter** flanked by **dual woofers**, with Hi-Res certification and an 8-ohm rating. It matches the [XT20](/gear/polk-monitor-xt20/) and [XT60](/gear/polk-monitor-xt60/), which share the same tweeter.\n\n**Show the maths.** Timbre matching is the main reason to buy a center from the same family. As voices pan from left to center to right, any change in tweeter material is audible. Keeping all three fronts on the same Terylene dome means the pan sounds seamless.\n\nA horizontal dual-woofer center has one limitation. With woofers roughly 20 cm (8 inches) apart, a seat 30 degrees off-axis hears one woofer about 10 cm later than the other. That's half a wavelength at **about 1.7 kHz** (343 ÷ 0.2), where the woofers partly cancel. Keep the main seats within about ±20 degrees of the center and you won't notice it.\n\nPlacement is the cheap upgrade. If the center sits 0.6 m off the floor and your ears are at 1.0 m, a 3 m seat sits about **7.6 degrees** above the tweeter's axis (atan 0.4/3), so tilt it up slightly.\n\nThe 8-ohm load is easy on budget receivers ([impedance explained](/glossary/impedance/)), and an 80 Hz [crossover](/glossary/crossover/) keeps voice fundamentals in the center.\n\nThe trade-off: dialogue is clear but less refined than the [Signature Elite ES35](/gear/polk-signature-elite-es35/). See our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
+    "summary": "A budget four-woofer center that matches the Monitor XT range's Terylene tweeter, a sensible pick for affordable 5.1 systems.",
+    "verdict": "The Monitor XT35 is the center for Polk's budget Monitor XT range: a **1-inch Terylene dome tweeter** flanked by **four 3-inch bi-laminate woofers**, with Hi-Res certification. It matches the [XT20](/gear/polk-monitor-xt20/) and [XT60](/gear/polk-monitor-xt60/), which share the same tweeter.\n\n**Show the maths.** Timbre matching is the main reason to buy a center from the same family. As voices pan from left to center to right, any change in tweeter material is audible. Keeping all three fronts on the same Terylene dome means the pan sounds seamless.\n\nA horizontal multi-woofer center has one limitation. With woofers roughly 20 cm (8 inches) apart, a seat 30 degrees off-axis hears one woofer about 10 cm later than the other. That's half a wavelength at **about 1.7 kHz** (343 ÷ 0.2), where the woofers partly cancel. Keep the main seats within about ±20 degrees of the center and you won't notice it.\n\nPlacement is the cheap upgrade. If the center sits 0.6 m off the floor and your ears are at 1.0 m, a 3 m seat sits about **7.6 degrees** above the tweeter's axis (atan 0.4/3), so tilt it up slightly.\n\nPolk rates it as compatible with 4- and 8-ohm outputs, so it is easy on budget receivers ([impedance explained](/glossary/impedance/)), and an 80 Hz [crossover](/glossary/crossover/) keeps voice fundamentals in the center.\n\nThe trade-off: dialogue is clear but less refined than the [Signature Elite ES35](/gear/polk-signature-elite-es35/). See our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
     "bestFor": "Budget Polk Monitor XT systems",
     "skipIf": "You want premium refinement or have very wide seating",
     "pros": [
       "Matches Monitor XT fronts' Terylene tweeter",
-      "Easy 8-ohm load",
+      "Works with any 4- or 8-ohm receiver",
       "Hi-Res certified",
       "Low price"
     ],
@@ -174,9 +182,13 @@
     ],
     "specs": {
       "Type": "2-way center channel",
-      "Drivers": "1-inch Terylene dome tweeter; dual woofers",
-      "Impedance": "8 ohms",
-      "Sold as": "Each"
+      "Drivers": "1-inch Terylene dome tweeter; four 3-inch bi-laminate woofers",
+      "Frequency response": "57 Hz–40 kHz overall; 84 Hz–26 kHz (−3 dB)",
+      "Sensitivity": "87 dB (1 W / 1 m)",
+      "Impedance": "Compatible with 4- and 8-ohm outputs",
+      "Sold as": "Each",
+      "Dimensions": "4.2 × 24.4 × 5.6 in (106 × 620 × 141 mm)",
+      "Weight": "14 lb (6.4 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -224,26 +236,30 @@
       }
     ],
     "summary": "A smooth, full-sounding center that matches Polk's Signature Elite fronts, great for natural dialogue but happiest on a receiver with real power.",
-    "verdict": "The ES35 is the larger center in Polk's Signature Elite range: a **1-inch Terylene dome tweeter**, **dual Dynamic Balance woofers** and Polk's **Power Port** for cleaner bass at volume. It's an 8-ohm design that matches the [ES20](/gear/polk-signature-elite-es20/) and [ES60](/gear/polk-signature-elite-es60/).\n\n**Show the maths.** The center channel does more work than any other speaker in a film mix. It carries most of the dialogue and often hits the highest peaks. The Signature Elite range is voiced for smoothness rather than maximum efficiency (the ES20 bookshelf is rated at 86 dB), so plan for power. At 86 dB, 1 W gives about 76.5 dB at a 3 m seat, and 95 dB peaks need about **70 W**. Every 3 dB louder doubles that ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe upside is natural, full-bodied voices that don't sound shouty. Owners often call out how well the ES35 handles deep male voices, which have fundamentals starting around 85 Hz, just above a standard 80 Hz [crossover](/glossary/crossover/).\n\nPlacement: a horizontal dual-woofer center partly cancels at off-axis seats around the frequency where the woofers' path difference equals half a wavelength. With woofers about 20 cm apart and a seat 30 degrees off, that's near **1.7 kHz**. Keep main seats within ±20 degrees and tilt the center toward ear height.\n\nThe trade-off: it's large for some TV stands, and a horn center like the Klipsch [RP-504C II](/gear/klipsch-rp-504c-ii/) plays louder on less power. See our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
+    "verdict": "The ES35 is the larger center in Polk's Signature Elite range: a **1-inch Terylene dome tweeter**, **six 3-inch mica-fortified polypropylene woofers** and Polk's **dual Power Ports** for cleaner bass at volume. Polk rates it as compatible with 4- and 8-ohm outputs, and it matches the [ES20](/gear/polk-signature-elite-es20/) and [ES60](/gear/polk-signature-elite-es60/).\n\n**Show the maths.** The center channel does more work than any other speaker in a film mix. It carries most of the dialogue and often hits the highest peaks. The Signature Elite range is voiced for smoothness rather than maximum efficiency (the ES20 bookshelf is rated at 86 dB), so plan for power. At 86 dB, 1 W gives about 76.5 dB at a 3 m seat, and 95 dB peaks need about **70 W**. Every 3 dB louder doubles that ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe upside is natural, full-bodied voices that don't sound shouty. Owners often call out how well the ES35 handles deep male voices, which have fundamentals starting around 85 Hz, just above a standard 80 Hz [crossover](/glossary/crossover/).\n\nPlacement: a horizontal multi-woofer center partly cancels at off-axis seats around the frequency where the woofers' path difference equals half a wavelength. With woofers about 20 cm apart and a seat 30 degrees off, that's near **1.7 kHz**. Keep main seats within ±20 degrees and tilt the center toward ear height.\n\nThe trade-off: it's large for some TV stands, and a horn center like the Klipsch [RP-504C II](/gear/klipsch-rp-504c-ii/) plays louder on less power. See our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
     "bestFor": "Polk Signature Elite systems where natural dialogue matters most",
     "skipIf": "Your receiver is low-powered or your TV stand is shallow",
     "pros": [
       "Smooth, natural dialogue",
       "Matches ES20 and ES60 tweeters",
-      "Power Port for cleaner low end",
+      "Dual Power Ports for cleaner low end",
       "Solid build"
     ],
     "cons": [
       "Needs real power for loud peaks",
       "Large for some stands",
-      "Off-axis dip typical of dual-woofer centers"
+      "Off-axis dip typical of horizontal multi-woofer centers"
     ],
     "specs": {
       "Type": "2-way center channel",
-      "Drivers": "1-inch Terylene dome tweeter; dual Dynamic Balance woofers",
-      "Impedance": "8 ohms",
-      "Bass loading": "Power Port",
-      "Sold as": "Each"
+      "Drivers": "1-inch Terylene dome tweeter; six 3-inch mica-fortified polypropylene woofers",
+      "Frequency response": "70 Hz–40 kHz (overall)",
+      "Sensitivity": "88 dB",
+      "Impedance": "Compatible with 4- and 8-ohm outputs",
+      "Bass loading": "Dual rear Power Ports",
+      "Sold as": "Each",
+      "Dimensions": "4.1 × 24.4 × 6.1 in (104 × 620 × 155 mm)",
+      "Weight": "14 lb (6.4 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -290,9 +306,9 @@
       }
     ],
     "summary": "A neutral dual 5.25-inch aramid center that matches the ELAC Debut 2.0 fronts, solid value for clear dialogue on a midrange receiver.",
-    "verdict": "The Debut 2.0 C5.2 is ELAC's compact center: a **1-inch cloth dome tweeter** between **two 5.25-inch aramid-fiber woofers**, rated at **6 ohms**. It's an Andrew Jones design that matches the [B6.2](/gear/elac-debut-b62/) and [F6.2](/gear/elac-debut-f62/).\n\n**Show the maths.** Timbre matching is the reason to buy it. Voices pan constantly between front speakers; when all three share the same cloth dome tweeter and aramid woofers, those pans sound seamless.\n\nThe 6-ohm rating needs a small correction when you read sensitivity. Most ELAC figures are quoted at 2.83 V, which is **1.33 W into 6 ohms**, so subtract about 1.2 dB to get the true per-watt figure. Most AV receivers handle 6-ohm loads comfortably ([impedance explained](/glossary/impedance/)).\n\nLike any horizontal two-woofer center, the C5.2 has an off-axis dip. With woofers roughly 20 cm apart, a seat 30 degrees off-center hears one woofer 10 cm later, half a wavelength at about **1.7 kHz**. Keep main seats within ±20 degrees and it isn't an issue.\n\nPlacement tips: keep the front edge flush with the shelf, and tilt it about **7–8 degrees** if it sits 0.4 m below your ears at a 3 m seat. Set an 80 Hz [crossover](/glossary/crossover/) so voice fundamentals (from about 85 Hz) stay in the center.\n\nThe trade-off: the 3-way [SVS Prime Center](/gear/svs-prime-center/) avoids the dual-woofer dip with a dedicated midrange, but costs more. See our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
+    "verdict": "The Debut 2.0 C5.2 is ELAC's compact center: a **1-inch cloth dome tweeter** between **two 5.25-inch aramid-fiber woofers**, rated at **8 ohms**. It's an Andrew Jones design that matches the [B6.2](/gear/elac-debut-b62/) and [F6.2](/gear/elac-debut-f62/).\n\n**Show the maths.** Timbre matching is the reason to buy it. Voices pan constantly between front speakers; when all three share the same cloth dome tweeter and aramid woofers, those pans sound seamless.\n\nELAC rates it at **87 dB** (2.83 V / 1 m), and because it is an 8-ohm design, 2.83 V is exactly 1 W, so that figure needs no correction. An 8-ohm load is easy for any AV receiver ([impedance explained](/glossary/impedance/)).\n\nLike any horizontal two-woofer center, the C5.2 has an off-axis dip. With woofers roughly 20 cm apart, a seat 30 degrees off-center hears one woofer 10 cm later, half a wavelength at about **1.7 kHz**. Keep main seats within ±20 degrees and it isn't an issue.\n\nPlacement tips: keep the front edge flush with the shelf, and tilt it about **7–8 degrees** if it sits 0.4 m below your ears at a 3 m seat. Set an 80 Hz [crossover](/glossary/crossover/) so voice fundamentals (from about 85 Hz) stay in the center.\n\nThe trade-off: the 3-way [SVS Prime Center](/gear/svs-prime-center/) avoids the dual-woofer dip with a dedicated midrange, but costs more. See our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
     "bestFor": "ELAC Debut 2.0 systems and neutral-sounding budget setups",
-    "skipIf": "Your seating is very wide or your receiver struggles with 6-ohm loads",
+    "skipIf": "Your seating is very wide and you want the most even off-axis dialogue",
     "pros": [
       "Matches Debut 2.0 B6.2 and F6.2 drivers",
       "Neutral, clear dialogue",
@@ -301,14 +317,18 @@
     ],
     "cons": [
       "Off-axis dip typical of dual-woofer centers",
-      "6-ohm load draws more current",
+      "Less efficient than horn-loaded centers",
       "Plain finish"
     ],
     "specs": {
       "Type": "2-way center channel",
       "Drivers": "1-inch cloth dome tweeter; dual 5.25-inch aramid-fiber woofers",
-      "Impedance": "6 ohms",
-      "Sold as": "Each"
+      "Frequency response": "55 Hz–35 kHz",
+      "Sensitivity": "87 dB (2.83 V / 1 m)",
+      "Impedance": "8 ohms",
+      "Sold as": "Each",
+      "Dimensions": "7.1 × 21.3 × 8.6 in (180 × 540 × 219 mm)",
+      "Weight": "18.3 lb (8.3 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -355,11 +375,11 @@
       }
     ],
     "summary": "A 3-way center with a dedicated midrange that avoids the off-axis dialogue dip of typical dual-woofer centers, and matches SVS Prime fronts.",
-    "verdict": "The Prime Center is a **3-way** design: a **1-inch aluminum dome tweeter**, a **4.5-inch polypropylene midrange** and **two 5.25-inch polypropylene woofers**, rated at **8 ohms**. It uses the same tweeter family as the [Prime Bookshelf](/gear/svs-prime-bookshelf/) and [Prime Tower](/gear/svs-prime-tower/).\n\n**Show the maths.** The dedicated midrange is the point. In a typical horizontal two-woofer center, both woofers play the vocal range. With woofers roughly 20 cm apart, a seat 30 degrees off-axis hears one about 10 cm later than the other, which is half a wavelength at about **1.7 kHz** (343 ÷ 0.2). The two cancel there, right in the range that carries vocal clarity.\n\nIn a 3-way center, the midrange takes over the voice band from the woofers, so the off-axis cancellation shifts below the range where intelligibility lives. That's why 3-way centers sound more consistent across a wide sofa.\n\nThe second reason is timbre. Matching the fronts' aluminum dome tweeter means voices keep the same character as they pan from left to center to right.\n\nPlan for power: SVS's Prime family is rated in the high 80s for sensitivity, so a 3 dB-louder peak needs double the watts ([sensitivity explained](/glossary/speaker-sensitivity/)). A midrange AVR handles normal levels. Set an 80 Hz [crossover](/glossary/crossover/) so voice fundamentals (from about 85 Hz) stay in the center.\n\nThe trade-off is cost and a neutral, slightly lean balance in bright rooms. See how it ranks in our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
+    "verdict": "The Prime Center is a **3-way** design: a **1-inch aluminum dome tweeter**, a **3.5-inch polypropylene midrange** and **two 5.25-inch polypropylene woofers**, rated at **8 ohms**. It uses the same tweeter family as the [Prime Bookshelf](/gear/svs-prime-bookshelf/) and [Prime Tower](/gear/svs-prime-tower/).\n\n**Show the maths.** The dedicated midrange is the point. In a typical horizontal two-woofer center, both woofers play the vocal range. With woofers roughly 20 cm apart, a seat 30 degrees off-axis hears one about 10 cm later than the other, which is half a wavelength at about **1.7 kHz** (343 ÷ 0.2). The two cancel there, right in the range that carries vocal clarity.\n\nIn a 3-way center, the midrange takes over the voice band from the woofers, so the off-axis cancellation shifts below the range where intelligibility lives. That's why 3-way centers sound more consistent across a wide sofa.\n\nThe second reason is timbre. Matching the fronts' aluminum dome tweeter means voices keep the same character as they pan from left to center to right.\n\nPlan for power: SVS's Prime family is rated in the high 80s for sensitivity, so a 3 dB-louder peak needs double the watts ([sensitivity explained](/glossary/speaker-sensitivity/)). A midrange AVR handles normal levels. Set an 80 Hz [crossover](/glossary/crossover/) so voice fundamentals (from about 85 Hz) stay in the center.\n\nThe trade-off is cost and a neutral, slightly lean balance in bright rooms. See how it ranks in our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
     "bestFor": "Wide seating rows and SVS Prime systems",
     "skipIf": "You need maximum volume from a low-powered receiver",
     "pros": [
-      "Dedicated 4.5-inch midrange avoids the dual-woofer dialogue dip",
+      "Dedicated 3.5-inch midrange avoids the dual-woofer dialogue dip",
       "Matches Prime Bookshelf and Tower tweeters",
       "Neutral, clear voices",
       "Easy 8-ohm load"
@@ -371,9 +391,13 @@
     ],
     "specs": {
       "Type": "3-way center channel",
-      "Drivers": "1-inch aluminum dome tweeter; 4.5-inch polypropylene midrange; dual 5.25-inch polypropylene woofers",
+      "Drivers": "1-inch aluminum dome tweeter; 3.5-inch polypropylene midrange; dual 5.25-inch polypropylene woofers",
+      "Frequency response": "48 Hz–25 kHz ±3 dB",
+      "Sensitivity": "86 dB (2.83 V / 1 m)",
       "Impedance": "8 ohms",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "7.7 × 18.6 × 9.2 in (196 × 472 × 234 mm)",
+      "Weight": "20.2 lb (9.2 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -419,13 +443,13 @@
         "value": 88
       }
     ],
-    "summary": "A budget center with dual 5.12-inch woofers and a super tweeter that matches Sony's SS-CS family, a strong value choice for starter systems.",
-    "verdict": "The SS-CS8 is the center for Sony's budget SS-CS family: **two 5.12-inch mica-reinforced cellular woofers**, a **1-inch polyester main tweeter** and a **0.75-inch super tweeter**, rated at **6 ohms**. It matches the [SS-CS5](/gear/sony-ss-cs5/) and [SS-CS3](/gear/sony-ss-cs3/).\n\n**Show the maths.** Timbre matching matters more than spec sheets for a center. Voices pan between front speakers constantly, and the SS-CS8's driver family matches the SS-CS5 and SS-CS3, so those pans stay seamless.\n\nThe 6-ohm rating is common and easy for receivers, but remember that sensitivity quoted at 2.83 V means 1.33 W into 6 ohms, so subtract about 1.2 dB for a true per-watt figure ([impedance explained](/glossary/impedance/)).\n\nAs with all horizontal dual-woofer centers, there's an off-axis dip. With woofers roughly 20 cm apart, a seat 30 degrees off-axis hears one woofer about 10 cm later, half a wavelength at about **1.7 kHz**. Keep the main seats within ±20 degrees.\n\nPlacement: set it on the front edge of your stand and angle it up about **7–8 degrees** if it sits 0.4 m below your ears at a 3 m seat (atan 0.4/3). Use an 80 Hz [crossover](/glossary/crossover/) so a subwoofer takes effects and voice fundamentals stay in the center.\n\nThe trade-off: build and finish are basic, and dialogue is less refined than pricier centers. But at this price, matched with Sony fronts, it's very good value. See our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
+    "summary": "A budget 2-way, 3-driver center that matches Sony's SS-CS family, a strong value choice for starter systems.",
+    "verdict": "The SS-CS8 is the center for Sony's budget SS-CS family: a **2-way, 3-driver** design with a **1-inch (25 mm) dome tweeter** and **4-inch (10 cm) woofers**, rated at **6 ohms**. It matches the [SS-CS5](/gear/sony-ss-cs5/) and [SS-CS3](/gear/sony-ss-cs3/).\n\n**Show the maths.** Timbre matching matters more than spec sheets for a center. Voices pan between front speakers constantly, and the SS-CS8 shares its voicing and finish with the SS-CS5 and SS-CS3, so those pans stay smooth.\n\nThe 6-ohm rating is common and easy for receivers, but remember that sensitivity quoted at 2.83 V means 1.33 W into 6 ohms, so subtract about 1.2 dB for a true per-watt figure ([impedance explained](/glossary/impedance/)).\n\nAs with all horizontal dual-woofer centers, there's an off-axis dip. With woofers roughly 20 cm apart, a seat 30 degrees off-axis hears one woofer about 10 cm later, half a wavelength at about **1.7 kHz**. Keep the main seats within ±20 degrees.\n\nPlacement: set it on the front edge of your stand and angle it up about **7–8 degrees** if it sits 0.4 m below your ears at a 3 m seat (atan 0.4/3). Use an 80 Hz [crossover](/glossary/crossover/) so a subwoofer takes effects and voice fundamentals stay in the center.\n\nThe trade-off: build and finish are basic, and dialogue is less refined than pricier centers. But at this price, matched with Sony fronts, it's very good value. See our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
     "bestFor": "Budget Sony SS-CS systems",
     "skipIf": "You want refined dialogue or your fronts aren't Sony",
     "pros": [
       "Matches SS-CS5 and SS-CS3 drivers",
-      "Super tweeter widens treble dispersion",
+      "Compact 16.9-inch-wide cabinet",
       "Easy 6-ohm load",
       "Very low price"
     ],
@@ -435,10 +459,13 @@
       "Dialogue less refined than pricier centers"
     ],
     "specs": {
-      "Type": "3-way center channel",
-      "Drivers": "0.75-inch super tweeter; 1-inch polyester tweeter; dual 5.12-inch mica-reinforced cellular woofers",
+      "Type": "2-way, 3-driver center channel",
+      "Drivers": "1-inch (25 mm) dome tweeter; 4-inch (10 cm) cone woofers",
+      "Frequency response": "55 Hz–25 kHz",
       "Impedance": "6 ohms",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "5.7 × 16.9 × 8.7 in (146 × 430 × 220 mm)",
+      "Weight": "11.0 lb (5.0 kg)"
     },
     "keySpecs": [
       "Type",
@@ -449,7 +476,7 @@
     "faqs": [
       {
         "q": "What speakers match the Sony SS-CS8?",
-        "a": "The Sony SS-CS5 bookshelf and SS-CS3 tower. They share the same driver family, including the super tweeter, so voices keep a consistent tone as they pan across the front stage."
+        "a": "The Sony SS-CS5 bookshelf and SS-CS3 tower. They are voiced as one family, so voices keep a consistent tone as they pan across the front stage."
       },
       {
         "q": "Is the Sony SS-CS8 good enough for dialogue?",
@@ -486,14 +513,14 @@
       }
     ],
     "summary": "A Uni-Q center with MAT that keeps dialogue tonally consistent across a wide sofa, the best center here for anyone with KEF Q Meta fronts.",
-    "verdict": "The Q6 Meta puts KEF's 12th-generation **Uni-Q** driver at the center of the cabinet: a **1-inch vented aluminum dome tweeter** in the middle of an aluminum midrange cone, with **MAT** behind the tweeter, flanked by **aluminum bass drivers**. It's rated at **8 ohms** and matches the [Q3 Meta](/gear/kef-q3-meta/) and [Q7 Meta](/gear/kef-q7-meta/).\n\n**Show the maths.** The usual problem with centers is horizontal layout. Two woofers side by side, about 20 cm apart, cancel at an off-axis seat where their path difference equals half a wavelength: at 30 degrees off-axis that's near **1.7 kHz** (343 ÷ 0.2), right in the vocal range.\n\nThe Q6 Meta avoids it. Voices come from the Uni-Q driver, a single point source that radiates the vocal range evenly in every direction, while the outer drivers handle bass where wavelengths are long enough that their spacing doesn't matter. At 200 Hz the wavelength is about 1.7 m, so a 20 cm spacing is irrelevant.\n\nThe second benefit is timbre. With the same Uni-Q driver in the left, center and right speakers, a voice panning across the screen keeps exactly the same tonal balance.\n\nPlan for a receiver with decent power, as dome-tweeter designs are less efficient than Klipsch horns ([sensitivity explained](/glossary/speaker-sensitivity/)). Set an 80 Hz [crossover](/glossary/crossover/).\n\nThe trade-off is price: it costs more than most fronts in our budget picks. See where it ranks in our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
+    "verdict": "The Q6 Meta puts KEF's 12th-generation **Uni-Q** driver at the center of the cabinet: a **0.75-inch (19 mm) vented aluminum dome tweeter** in the middle of an aluminum midrange cone, with **MAT** behind the tweeter, flanked by **aluminum bass drivers**. KEF rates it at **86 dB** and **4 ohms nominal** (3.2 ohms minimum), so give it a receiver that is comfortable with 4-ohm loads. It matches the [Q3 Meta](/gear/kef-q3-meta/) and [Q7 Meta](/gear/kef-q7-meta/).\n\n**Show the maths.** The usual problem with centers is horizontal layout. Two woofers side by side, about 20 cm apart, cancel at an off-axis seat where their path difference equals half a wavelength: at 30 degrees off-axis that's near **1.7 kHz** (343 ÷ 0.2), right in the vocal range.\n\nThe Q6 Meta avoids it. Voices come from the Uni-Q driver, a single point source that radiates the vocal range evenly in every direction, while the outer drivers handle bass where wavelengths are long enough that their spacing doesn't matter. At 200 Hz the wavelength is about 1.7 m, so a 20 cm spacing is irrelevant.\n\nThe second benefit is timbre. With the same Uni-Q driver in the left, center and right speakers, a voice panning across the screen keeps exactly the same tonal balance.\n\nPlan for a receiver with decent power, as dome-tweeter designs are less efficient than Klipsch horns ([sensitivity explained](/glossary/speaker-sensitivity/)). Set an 80 Hz [crossover](/glossary/crossover/).\n\nThe trade-off is price: it costs more than most fronts in our budget picks. See where it ranks in our [best center channel speaker for home theater](/best-center-channel-speaker-for-home-theater/).",
     "bestFor": "KEF Q Meta systems and wide seating rows",
     "skipIf": "Your fronts aren't KEF or your budget is tight",
     "pros": [
       "Uni-Q point source avoids the dual-woofer off-axis dip",
       "Identical tonal balance with Q Meta fronts",
       "MAT absorber for clean treble",
-      "Easy 8-ohm load"
+      "Uni-Q keeps dialogue consistent across wide seating"
     ],
     "cons": [
       "Costs more than most budget fronts",
@@ -502,9 +529,13 @@
     ],
     "specs": {
       "Type": "Center channel, coaxial",
-      "Drivers": "Uni-Q with MAT (1-inch vented aluminum dome tweeter in aluminum midrange); aluminum bass drivers",
-      "Impedance": "8 ohms",
-      "Sold as": "Each"
+      "Drivers": "Uni-Q with MAT (0.75-inch vented aluminum dome tweeter in aluminum midrange); aluminum bass drivers",
+      "Frequency response": "63 Hz–20 kHz ±3 dB",
+      "Sensitivity": "86 dB (2.83 V / 1 m)",
+      "Impedance": "4 ohms nominal (3.2-ohm minimum)",
+      "Sold as": "Each",
+      "Dimensions": "8.3 × 24.8 × 11.9 in (210 × 629 × 303 mm)",
+      "Weight": "31.1 lb (14.1 kg) each"
     },
     "keySpecs": [
       "Type",

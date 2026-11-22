@@ -44,8 +44,12 @@
     "specs": {
       "Type": "2-way in-ceiling, round",
       "Drivers": "1-inch tweeter; 8-inch Dynamic Balance woofer",
+      "Frequency response": "35 Hz–20 kHz",
+      "Sensitivity": "90 dB (1 W / 1 m)",
       "Impedance": "8 ohms",
       "Mounting": "In-ceiling, moisture-resistant, paintable grille",
+      "Cutout size": "9.4 in (238 mm) diameter",
+      "Mounting depth": "3.25 in (83 mm)",
       "Sold as": "Pair"
     },
     "keySpecs": [
@@ -93,7 +97,7 @@
       }
     ],
     "summary": "The 6.5-inch version of Polk's moisture-resistant in-ceiling speaker, a cheaper height-channel option that suits smaller rooms and tighter joist bays.",
-    "verdict": "The RC60i is the smaller sibling of the [RC80i](/gear/polk-rc80i/): a **6.5-inch Dynamic Balance woofer**, a **1-inch tweeter**, a **paintable round grille** and the same moisture-resistant build. It's an 8-ohm design sold as a pair.\n\n**Show the maths.** Cone area scales with diameter squared, so the RC80i's 8-inch woofer has 8² ÷ 6.5² ≈ **1.5 times the area** of the RC60i, worth about 3.6 dB more output at the same excursion. That sounds like a lot, but for [Dolby Atmos](/glossary/dolby-atmos/) height duty it matters less than you'd think. Heights are usually crossed over at 100–120 Hz ([crossover basics](/glossary/crossover/)), and above 100 Hz a 6.5-inch woofer has plenty of headroom in a typical room.\n\nPlacement follows the same angles. With an 8 ft ceiling and ears at about 3.3 ft, the ceiling is about 4.7 ft above your head. Dolby's front-height range of 30–55 degrees puts the speakers between roughly **3.3 and 8.2 ft** in front of the main seat; 45 degrees is about 4.7 ft. For a single overhead pair, aim for within about **2.2 ft** of directly above the seat (65–100 degrees).\n\nThe smaller cutout also makes it easier to fit around joists, pipes and lighting.\n\nThe trade-off is music output: if the same speakers will play background music around a bigger room, the RC80i is the better buy. For pure height channels in small and medium rooms, the RC60i saves money. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "verdict": "The RC60i is the smaller sibling of the [RC80i](/gear/polk-rc80i/): a **6.5-inch Dynamic Balance woofer**, a **0.75-inch tweeter**, a **paintable round grille** and the same moisture-resistant build. It's an 8-ohm design sold as a pair.\n\n**Show the maths.** Cone area scales with diameter squared, so the RC80i's 8-inch woofer has 8² ÷ 6.5² ≈ **1.5 times the area** of the RC60i, worth about 3.6 dB more output at the same excursion. That sounds like a lot, but for [Dolby Atmos](/glossary/dolby-atmos/) height duty it matters less than you'd think. Heights are usually crossed over at 100–120 Hz ([crossover basics](/glossary/crossover/)), and above 100 Hz a 6.5-inch woofer has plenty of headroom in a typical room.\n\nPlacement follows the same angles. With an 8 ft ceiling and ears at about 3.3 ft, the ceiling is about 4.7 ft above your head. Dolby's front-height range of 30–55 degrees puts the speakers between roughly **3.3 and 8.2 ft** in front of the main seat; 45 degrees is about 4.7 ft. For a single overhead pair, aim for within about **2.2 ft** of directly above the seat (65–100 degrees).\n\nThe smaller cutout also makes it easier to fit around joists, pipes and lighting.\n\nThe trade-off is music output: if the same speakers will play background music around a bigger room, the RC80i is the better buy. For pure height channels in small and medium rooms, the RC60i saves money. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
     "bestFor": "Atmos height channels in small and medium rooms",
     "skipIf": "You want the same speakers to fill a large room with music",
     "pros": [
@@ -109,9 +113,13 @@
     ],
     "specs": {
       "Type": "2-way in-ceiling, round",
-      "Drivers": "1-inch tweeter; 6.5-inch Dynamic Balance woofer",
+      "Drivers": "0.75-inch tweeter; 6.5-inch Dynamic Balance woofer",
+      "Frequency response": "40 Hz–20 kHz",
+      "Sensitivity": "89 dB (1 W / 1 m)",
       "Impedance": "8 ohms",
       "Mounting": "In-ceiling, moisture-resistant, paintable grille",
+      "Cutout size": "7.6 in (192 mm) diameter",
+      "Mounting depth": "2.4 in (60 mm)",
       "Sold as": "Pair"
     },
     "keySpecs": [
@@ -176,8 +184,12 @@
     "specs": {
       "Type": "2-way in-ceiling, round, Controlled Dispersion Technology",
       "Drivers": "6.5-inch woofer with tweeter",
+      "Frequency response": "63 Hz–23 kHz ±3 dB",
+      "Sensitivity": "94 dB (2.83 V / 1 m)",
       "Impedance": "8 ohms",
       "Mounting": "In-ceiling",
+      "Cutout size": "8.3 in (211 mm) diameter",
+      "Mounting depth": "4.5 in (114 mm)",
       "Sold as": "Each"
     },
     "keySpecs": [
@@ -242,8 +254,12 @@
     "specs": {
       "Type": "2-way in-wall, rectangular",
       "Drivers": "6.5-inch woofer with tweeter",
+      "Frequency response": "52 Hz–23 kHz ±3 dB",
+      "Sensitivity": "93 dB (2.83 V / 1 m)",
       "Impedance": "8 ohms",
       "Mounting": "In-wall",
+      "Cutout size": "13.0 × 8.0 in (330 × 203 mm), H × W",
+      "Mounting depth": "3.75 in (95 mm)",
       "Sold as": "Each"
     },
     "keySpecs": [
@@ -308,8 +324,11 @@
     "specs": {
       "Type": "2-way in-ceiling, round",
       "Drivers": "6.5-inch woofer with tweeter",
+      "Frequency response": "57 Hz–20 kHz ±3 dB",
+      "Sensitivity": "91 dB (2.83 V / 1 m)",
       "Impedance": "8 ohms",
       "Mounting": "In-ceiling",
+      "Cutout size": "8.3 in (211 mm) diameter",
       "Sold as": "Each"
     },
     "keySpecs": [
@@ -374,7 +393,12 @@
     "specs": {
       "Type": "2-way in-ceiling, round",
       "Drivers": "8-inch woofer with coaxially mounted tweeter",
+      "Frequency response": "40 Hz–20 kHz",
+      "Sensitivity": "90 dB (1 W / 1 m)",
+      "Impedance": "8 ohms",
       "Mounting": "In-ceiling",
+      "Cutout size": "9.4 in (239 mm) diameter",
+      "Mounting depth": "3.5 in (89 mm)",
       "Sold as": "Pair"
     },
     "keySpecs": [
@@ -504,7 +528,12 @@
     "specs": {
       "Type": "In-wall, rectangular",
       "Drivers": "Dual 6.5-inch Dynamic Balance woofers with tweeter",
+      "Frequency response": "30 Hz–27 kHz overall; 45 Hz–25 kHz (−3 dB)",
+      "Sensitivity": "91 dB (1 W / 1 m)",
+      "Impedance": "8 ohms",
       "Mounting": "In-wall",
+      "Cutout size": "19 3/16 × 7 1/4 in (487 × 184 mm), H × W",
+      "Mounting depth": "3.25 in (83 mm)",
       "Sold as": "Each"
     },
     "keySpecs": [
@@ -526,7 +555,7 @@
   },
   {
     "slug": "yamaha-ns-iw480",
-    "name": "Yamaha NS-IW480 In-Wall Speakers",
+    "name": "Yamaha NS-IW480C In-Ceiling Speakers",
     "brand": "Yamaha",
     "category": "in-wall",
     "amazonQuery": "Yamaha NS-IW480 in-wall speakers",
@@ -551,24 +580,29 @@
         "value": 76
       }
     ],
-    "summary": "A Yamaha flush-mount speaker pair for clean, hidden installs, best for surrounds, background music or a second zone powered by your Yamaha receiver.",
-    "verdict": "Yamaha's NS-IW480 is a **flush-mount architectural speaker pair** with a woofer and coaxially mounted tweeter behind a paintable grille. It suits hidden surrounds, background music or a second zone run from a receiver. Yamaha publishes fewer headline specs than some rivals, so check the listing for cutout size and mounting depth before you buy.\n\n**Show the maths.** Many Yamaha receivers can reassign their surround-back amplifier channels to power a **Zone 2** pair, which is a natural use for speakers like these. That means a 7.1-channel receiver drops to 5.1 in the main room when Zone 2 is active, so plan your channel count ([best home theater receiver](/best-home-theater-receiver/)).\n\nImpedance is the other trap. If you want two pairs in one zone, wiring them in parallel turns two 8-ohm speakers into a **4-ohm load** (8 × 8 ÷ 16). Most receivers aren't rated below 6 ohms, so use an impedance-matching speaker selector instead ([impedance explained](/glossary/impedance/)).\n\nFor surrounds, mount them 1–2 ft above seated ear height, slightly behind or beside the main seat. At 6 ft to the side, a speaker 2 ft above ear height sits about **18 degrees** up (atan 2/6), a typical surround elevation that keeps effects clear of seated heads.\n\nThe trade-off: limited published specs and modest output mean this isn't a front-channel speaker for a dedicated theater. For hidden fronts, look at the [Polk 265-RT](/gear/polk-265-rt/). See our [Yamaha home theater review](/yamaha-home-theater-review/) and [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "summary": "A Yamaha 3-way in-ceiling speaker pair for clean, hidden installs, best for surrounds, background music or a second zone powered by your Yamaha receiver.",
+    "verdict": "Yamaha's NS-IW480C is a **3-way in-ceiling speaker pair**: an **8-inch mica-filled polypropylene woofer** and **two 0.75-inch dome tweeters** on a swivel assembly you can aim toward the seats, behind a paintable grille. Yamaha rates it at **50 Hz–28 kHz**, **86 dB** and **8 ohms**. It needs a **9.4-inch (240 mm) cutout** and **4.4 inches (112 mm)** of mounting depth, so check your ceiling joists and insulation before you buy. It suits hidden surrounds, background music or a second zone run from a receiver.\n\n**Show the maths.** Many Yamaha receivers can reassign their surround-back amplifier channels to power a **Zone 2** pair, which is a natural use for speakers like these. That means a 7.1-channel receiver drops to 5.1 in the main room when Zone 2 is active, so plan your channel count ([best home theater receiver](/best-home-theater-receiver/)).\n\nImpedance is the other trap. If you want two pairs in one zone, wiring them in parallel turns two 8-ohm speakers into a **4-ohm load** (8 × 8 ÷ 16). Most receivers aren't rated below 6 ohms, so use an impedance-matching speaker selector instead ([impedance explained](/glossary/impedance/)).\n\nFor surrounds, place them in the ceiling slightly behind or beside the main seat and swivel the tweeters toward the listeners. With an 8 ft ceiling and ears at about 3.3 ft, a speaker 6 ft to the side sits about **38 degrees** up (atan 4.7/6), so aiming the tweeters matters for clear effects.\n\nThe trade-off: 86 dB sensitivity and ceiling placement mean this isn't a front-channel speaker for a dedicated theater. For hidden fronts, look at the [Polk 265-RT](/gear/polk-265-rt/). See our [Yamaha home theater review](/yamaha-home-theater-review/) and [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
     "bestFor": "Hidden surrounds and Zone 2 music with a Yamaha receiver",
     "skipIf": "You need hidden front speakers for a dedicated theater",
     "pros": [
-      "Clean, flush-mount look with paintable grille",
+      "Clean in-ceiling look with paintable grille",
       "Natural fit for a Yamaha receiver's Zone 2",
       "Sold as a pair",
-      "Coaxial layout for even coverage"
+      "Swivel tweeters aim treble toward the seats"
     ],
     "cons": [
-      "Fewer published specs than rivals",
+      "86 dB sensitivity needs a bit more power",
       "Modest output for front-channel duty",
       "Open-back bass depends on the cavity"
     ],
     "specs": {
-      "Type": "Flush-mount architectural speaker",
-      "Drivers": "Woofer with coaxially mounted tweeter",
+      "Type": "3-way in-ceiling speaker",
+      "Drivers": "8-inch mica-filled polypropylene woofer; two 0.75-inch dome tweeters on a swivel assembly",
+      "Frequency response": "50 Hz–28 kHz",
+      "Sensitivity": "86 dB (2.83 V / 1 m)",
+      "Impedance": "8 ohms",
+      "Cutout size": "9.4 in (240 mm) diameter",
+      "Mounting depth": "4.4 in (112 mm)",
       "Grille": "Paintable",
       "Sold as": "Pair"
     },
@@ -580,12 +614,12 @@
     ],
     "faqs": [
       {
-        "q": "Can I power the Yamaha NS-IW480 from my receiver's Zone 2?",
+        "q": "Can I power the Yamaha NS-IW480C from my receiver's Zone 2?",
         "a": "Yes, if your receiver supports powered Zone 2. Many Yamaha receivers reassign the surround-back channels to Zone 2, which means you lose those channels in the main room while Zone 2 is in use."
       },
       {
-        "q": "Are the Yamaha NS-IW480 good for surround sound?",
-        "a": "They work well as hidden surrounds. Mount them 1–2 ft above ear height, beside or slightly behind the main seat, and set them to Small with an 80–100 Hz crossover in your receiver."
+        "q": "Are the Yamaha NS-IW480C good for surround sound?",
+        "a": "They work well as hidden surrounds. Mount them in the ceiling slightly behind or beside the main seat, aim the swivel tweeters toward the listeners, and set them to Small with an 80–100 Hz crossover in your receiver."
       }
     ]
   },
@@ -617,12 +651,12 @@
       }
     ],
     "summary": "A very cheap 8-inch in-ceiling pair for garages, patios and background music, but not a serious choice for home theater height channels.",
-    "verdict": "The PDIC80 is Pyle's **8-inch two-way in-ceiling speaker**, sold as a pair at a price well below most rivals, with a tweeter at the center of the woofer and an 8-ohm rating. It's best treated as a background-music speaker for garages, workshops and covered patios.\n\n**Show the maths.** Pyle's listings lead with a large **peak** wattage figure, which tells you little. Peak ratings describe brief bursts, not continuous power, and they aren't a measure of loudness. What matters is sensitivity and continuous power handling, and every 3 dB of extra volume needs double the power. Don't choose an in-ceiling speaker by its peak watts.\n\nImpedance matters more for multi-room installs. Two 8-ohm pairs wired in parallel present **4 ohms** (8 × 8 ÷ 16), and three present about 2.7 ohms. Most AV receivers aren't rated for that, so use an impedance-matching speaker selector or a multi-zone amp ([impedance explained](/glossary/impedance/)).\n\nFor [Dolby Atmos](/glossary/dolby-atmos/), the PDIC80 can technically work as height channels. With an 8 ft ceiling, mount them between about 3.3 and 8.2 ft in front of the seat (Dolby's 30–55 degree window). But owners commonly report coarse treble and basic build, and height channels benefit from clean, detailed treble.\n\nThe trade-off is simple: you save money but lose refinement. For theater heights on a budget, the [Polk RC60i](/gear/polk-rc60i/) or [Monoprice Alpha](/gear/monoprice-alpha-in-ceiling/) are better buys. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
+    "verdict": "The PDIC80 is Pyle's **8-inch two-way in-ceiling speaker**, sold as a pair at a price well below most rivals, with a tweeter at the center of the woofer and a rated impedance of 4–8 ohms. It's best treated as a background-music speaker for garages, workshops and covered patios.\n\n**Show the maths.** Pyle's listings lead with a large **peak** wattage figure, which tells you little. Peak ratings describe brief bursts, not continuous power, and they aren't a measure of loudness. What matters is sensitivity and continuous power handling, and every 3 dB of extra volume needs double the power. Don't choose an in-ceiling speaker by its peak watts.\n\nImpedance matters more for multi-room installs. Pyle rates them at 4–8 ohms, so two pairs wired in parallel can present **2–4 ohms** (8 × 8 ÷ 16 = 4 at best), and three present about 2.7 ohms. Most AV receivers aren't rated for that, so use an impedance-matching speaker selector or a multi-zone amp ([impedance explained](/glossary/impedance/)).\n\nFor [Dolby Atmos](/glossary/dolby-atmos/), the PDIC80 can technically work as height channels. With an 8 ft ceiling, mount them between about 3.3 and 8.2 ft in front of the seat (Dolby's 30–55 degree window). But owners commonly report coarse treble and basic build, and height channels benefit from clean, detailed treble.\n\nThe trade-off is simple: you save money but lose refinement. For theater heights on a budget, the [Polk RC60i](/gear/polk-rc60i/) or [Monoprice Alpha](/gear/monoprice-alpha-in-ceiling/) are better buys. See our [best in-wall speakers for home theater](/best-in-wall-speakers-for-home-theater/).",
     "bestFor": "Garages, workshops, patios and background music on the lowest budget",
     "skipIf": "You're installing Atmos height channels for a real home theater",
     "pros": [
       "Very low price for an 8-inch pair",
-      "Easy 8-ohm load",
+      "Very low price for a pair",
       "Simple installation",
       "Fine for background music"
     ],
@@ -634,8 +668,11 @@
     "specs": {
       "Type": "2-way in-ceiling, round",
       "Drivers": "8-inch woofer with coaxially mounted tweeter",
-      "Impedance": "8 ohms",
+      "Frequency response": "55 Hz–22 kHz",
+      "Impedance": "4–8 ohms",
       "Mounting": "In-ceiling",
+      "Cutout size": "9.4 in (238 mm) diameter",
+      "Mounting depth": "3.5 in (89 mm)",
       "Sold as": "Pair"
     },
     "keySpecs": [

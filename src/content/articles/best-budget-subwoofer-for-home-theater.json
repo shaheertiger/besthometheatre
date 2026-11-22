@@ -19,7 +19,7 @@
   ],
   "hub": "subwoofer",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best budget subwoofer for home theater is the **[ELAC Debut 2.0 Sub3030](/gear/elac-debut-sub3030/)**: a 12-inch sub with a **500 W RMS** amplifier, a rated response down to **25 Hz**, and app control with automatic room EQ, features that usually cost much more. This guide is for anyone who wants real movie bass without paying premium-sub money, whether you're finishing a first 5.1 system or replacing a weak sub from a speaker package.\n\nCheap subwoofers vary more than any other budget component. Some have honest specs and real output; others quote huge peak watts and a frequency range with no tolerance. We rank by the numbers that predict performance: RMS power, driver size and extension at a stated limit. If the Sub3030 is a stretch, the **[Klipsch R-120SW](/gear/klipsch-r-120sw/)** and **[Dayton Audio Classic CS1200](/gear/dayton-classic-cs1200/)** cover cheaper tiers.",
   "quickAnswer": "The ELAC Debut 2.0 Sub3030 is the best budget subwoofer for home theater: a 12-inch driver, 500 W RMS, 25 Hz extension and app-based AutoEQ. The BIC Acoustech PL-200 II offers the most output per dollar when you can find it, the Klipsch R-120SW is the best value 12-inch from a major brand, and the Dayton Audio Classic CS1200 is the cheapest 12-inch sub worth buying.",
   "picksHeading": "The best budget home theater subwoofers",
@@ -42,7 +42,7 @@
     {
       "product": "polk-monitor-xt12",
       "award": "Best Under $300",
-      "body": "The Polk Monitor XT12 is one of the least expensive 12-inch subs from a major speaker brand. Polk rates it as a **12-inch, 100 W** powered subwoofer with a frequency response of **24–160 Hz**, and it's designed to match Polk's Monitor XT speakers, such as the [Polk Monitor XT20](/gear/polk-monitor-xt20/) bookshelves and [Monitor XT60](/gear/polk-monitor-xt60/) towers.\n\nThe 100 W rating is the catch. Compared with the [Klipsch R-120SW](/gear/klipsch-r-120sw/) at 200 W RMS, that's **3 dB less** amplifier headroom (half the power), so the XT12 runs out of output sooner in medium and large rooms. In a small or medium living room at normal volumes, the 12-inch driver still moves plenty of air, and it's a large step up from the 8- or 10-inch subs bundled with many budget systems.\n\nPolk's 24 Hz figure isn't given with a tolerance, so treat it as the point where bass is audible rather than flat; expect strong output from the low 30s upward.\n\nThe trade-off: limited power, no app and basic controls. Who it suits: anyone building a Polk Monitor XT system, a [budget 5.1 setup](/best-budget-home-theater-system/) in a small room, or a buyer who wants a 12-inch sub under $300. If you can spend a little more, the R-120SW is the better movie sub."
+      "body": "The Polk Monitor XT12 is one of the least expensive 12-inch subs from a major speaker brand. Polk rates it as a **12-inch** powered subwoofer with a **50 W RMS (100 W peak)** amplifier and a frequency response of **24–160 Hz**, and it's designed to match Polk's Monitor XT speakers, such as the [Polk Monitor XT20](/gear/polk-monitor-xt20/) bookshelves and [Monitor XT60](/gear/polk-monitor-xt60/) towers.\n\nThe 50 W RMS rating is the catch. Compared with the [Klipsch R-120SW](/gear/klipsch-r-120sw/) at 200 W RMS, that's **6 dB less** amplifier headroom (a quarter of the power), so the XT12 runs out of output sooner in medium and large rooms. In a small or medium living room at normal volumes, the 12-inch driver still moves plenty of air, and it's a large step up from the 8- or 10-inch subs bundled with many budget systems.\n\nPolk's 24 Hz figure isn't given with a tolerance, so treat it as the point where bass is audible rather than flat; expect strong output from the low 30s upward.\n\nThe trade-off: limited power, no app and basic controls. Who it suits: anyone building a Polk Monitor XT system, a [budget 5.1 setup](/best-budget-home-theater-system/) in a small room, or a buyer who wants a 12-inch sub under $300. If you can spend a little more, the R-120SW is the better movie sub."
     },
     {
       "product": "dayton-classic-cs1200",
@@ -131,7 +131,7 @@
     },
     {
       "q": "What is the best subwoofer for home theater under $300?",
-      "a": "The Polk Monitor XT12 is a good 12-inch sub under $300, rated at 100 W with a 24–160 Hz response. The Dayton Audio Classic CS1200 is also 12-inch, with a 200 W amp and speaker-level inputs, though Dayton publishes no frequency response. Both suit small to medium rooms; for bigger rooms or louder listening, stretch to the Klipsch R-120SW."
+      "a": "The Polk Monitor XT12 is a good 12-inch sub under $300, rated at 50 W RMS (100 W peak) with a 24–160 Hz response. The Dayton Audio Classic CS1200 is also 12-inch, with a 200 W amp and speaker-level inputs, though Dayton publishes no frequency response. Both suit small to medium rooms; for bigger rooms or louder listening, stretch to the Klipsch R-120SW."
     },
     {
       "q": "Is a cheap subwoofer worth it?",
@@ -155,5 +155,29 @@
     "best-budget-home-theater-receiver",
     "best-budget-home-theater-speakers"
   ],
-  "bottomLine": "The **ELAC Debut 2.0 Sub3030** is the best budget subwoofer for home theater, with 500 W RMS, 25 Hz extension and AutoEQ near the top of the budget range. The **BIC Acoustech PL-200 II** offers the most output per dollar when you can find it, the **Klipsch R-120SW** is the dependable 12-inch from a major brand, and the **Polk Monitor XT12** and **Dayton Audio Classic CS1200** cover tighter budgets. The **Polk PSW10** suits small rooms, and if you can stretch, the **SVS SB-1000 Pro** is where budget compromises end."
+  "bottomLine": "The **ELAC Debut 2.0 Sub3030** is the best budget subwoofer for home theater, with 500 W RMS, 25 Hz extension and AutoEQ near the top of the budget range. The **BIC Acoustech PL-200 II** offers the most output per dollar when you can find it, the **Klipsch R-120SW** is the dependable 12-inch from a major brand, and the **Polk Monitor XT12** and **Dayton Audio Classic CS1200** cover tighter budgets. The **Polk PSW10** suits small rooms, and if you can stretch, the **SVS SB-1000 Pro** is where budget compromises end.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the Dayton Audio Classic CS1200 replaces the Dayton Audio SUB-1200 as Cheapest 12-Inch Worth Buying."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "klipsch-r-12sw",
+      "body": "The Klipsch R-12SW is a cheaper alternative to the [Klipsch R-120SW](/gear/klipsch-r-120sw/) if your budget is tight. It also uses a **12-inch copper-spun** front-firing woofer, and adds a low-pass crossover and phase control on the sub. Its 400 W figure is a dynamic rating and Klipsch lists no frequency response, while the R-120SW publishes 200 W RMS and 29 Hz, so the R-120SW is the more predictable buy."
+    },
+    {
+      "product": "monolith-m-10-v2",
+      "body": "The Monolith M-10 V2 is an alternative to the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) if you want more amplifier and install flexibility. Its **500 W RMS** amp gives about 1.9 dB more headroom, it is THX Certified Select, and a port plug lets you run it ported or sealed. Its 10-inch driver has less cone area and there's no app EQ, so the SVS remains easier to tune from your seat."
+    },
+    {
+      "product": "klipsch-spl-120",
+      "body": "The Klipsch SPL-120 is an alternative to the [ELAC Debut 3030](/gear/elac-debut-sub3030/) if your receiver already handles room correction well. It pairs a **12-inch Cerametallic driver** with a front-firing ported cabinet built for punchy home theater bass. It has no app or built-in EQ, so the ELAC's Auto EQ makes it the better pick when your receiver's correction is basic."
+    }
+  ]
 }

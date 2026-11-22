@@ -18,7 +18,7 @@
   ],
   "hub": "wireless-speaker",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best wireless speakers for home theater are the ones that cut the long speaker-wire runs to the back of the room without adding lip-sync problems or trapping you in an ecosystem you will regret. Our top pick is the **[Enclave Audio CineHome Pro 5.1](/gear/enclave-cinehome-pro/)**, a true five-speaker-plus-sub system that connects to your TV over HDMI eARC and needs no receiver at all.\n\nThis guide is for anyone who wants surround sound but cannot run wires behind the sofa, or who wants a simpler alternative to an AV receiver and passive speakers. One thing first: \"wireless\" speakers still need power, so every speaker on this list plugs into an outlet or a wired power module.",
   "quickAnswer": "The best wireless speakers for home theater for most people are the **Enclave CineHome Pro 5.1**, a WiSA-based system with a real center speaker and subwoofer that plugs into your TV's HDMI eARC port. For Dolby Atmos without wires to the rear, the **Sony Bravia Theater Quad** is the strongest option. If you already own a Sonos soundbar, add **Sonos Era 300** speakers as surrounds.",
   "picksHeading": "The Best Wireless Speakers for Home Theater",
@@ -41,7 +41,7 @@
     {
       "product": "kef-ls50-wireless-ii",
       "award": "Best Wireless Stereo for Movies and Music",
-      "body": "Not everyone needs surround. If you want a stereo pair that sounds superb with music and still lifts movies far beyond TV speakers, the KEF LS50 Wireless II is the best choice. Each speaker has a **Uni-Q driver with MAT** (a 0.75-inch aluminum tweeter in a 5.25-inch magnesium-aluminum cone), powered by **380 watts per speaker** (280 W for the woofer, 100 W for the tweeter) with digital active crossovers.\n\nIt connects to your TV over **HDMI eARC**, so the TV remote controls volume, and the two speakers can link to each other wirelessly, which means only the primary speaker needs a cable from the TV. A **subwoofer output** lets you add a sub such as the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) for movie bass.\n\nThe trade-off is that this is a 2.0 or 2.1 system: no center, no surrounds, no Atmos. Dialogue comes from a phantom center, which works well if you sit between the speakers. Both speakers also still need power. Compared with the Klipsch The Fives II below, the KEF is the more refined music speaker and links its two speakers wirelessly; the Fives II cost much less and add HDMI 2.1 passthrough for gaming."
+      "body": "Not everyone needs surround. If you want a stereo pair that sounds superb with music and still lifts movies far beyond TV speakers, the KEF LS50 Wireless II is the best choice. Each speaker has a **Uni-Q driver with MAT** (a 1-inch aluminum tweeter in a 5.25-inch aluminum cone), powered by **380 watts per speaker** (280 W for the woofer, 100 W for the tweeter) with digital active crossovers.\n\nIt connects to your TV over **HDMI eARC**, so the TV remote controls volume, and the two speakers can link to each other wirelessly, which means only the primary speaker needs a cable from the TV. A **subwoofer output** lets you add a sub such as the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) for movie bass.\n\nThe trade-off is that this is a 2.0 or 2.1 system: no center, no surrounds, no Atmos. Dialogue comes from a phantom center, which works well if you sit between the speakers. Both speakers also still need power. Compared with the Klipsch The Fives II below, the KEF is the more refined music speaker and links its two speakers wirelessly; the Fives II cost much less and add HDMI 2.1 passthrough for gaming."
     },
     {
       "product": "klipsch-the-fives-ii",
@@ -152,5 +152,21 @@
     "best-soundbar-for-home-theater",
     "best-home-theater-speakers"
   ],
-  "bottomLine": "The best wireless speakers for home theater for most rooms are the Enclave CineHome Pro 5.1, a real center-and-surrounds system that plugs into your TV over HDMI eARC. Choose the Sony Bravia Theater Quad for wireless Dolby Atmos, the Sonos Era 300 or cheaper Era 100 if you own a Sonos soundbar, and the Bose Surround Speakers 700 for Bose bars. For stereo, the KEF LS50 Wireless II is the refined music choice, and the Klipsch The Fives II add HDMI 2.1 passthrough for gaming for much less. Remember that every wireless speaker needs power, use HDMI rather than Bluetooth, and check what ecosystem you are buying into."
+  "bottomLine": "The best wireless speakers for home theater for most rooms are the Enclave CineHome Pro 5.1, a real center-and-surrounds system that plugs into your TV over HDMI eARC. Choose the Sony Bravia Theater Quad for wireless Dolby Atmos, the Sonos Era 300 or cheaper Era 100 if you own a Sonos soundbar, and the Bose Surround Speakers 700 for Bose bars. For stereo, the KEF LS50 Wireless II is the refined music choice, and the Klipsch The Fives II add HDMI 2.1 passthrough for gaming for much less. Remember that every wireless speaker needs power, use HDMI rather than Bluetooth, and check what ecosystem you are buying into.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section and notable mentions."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: added the Klipsch The Fives II Powered Speakers as Best Powered HDMI Speakers for TV and Gaming; removed the Klipsch The Fives Powered Speakers (Best Powered HDMI Speakers on a Budget); removed the Platin Audio Monaco 5.1 Wireless System (Best Value WiSA System)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "edifier-s3000mkii",
+      "body": "The Edifier S3000MKII is a much cheaper alternative to the [KEF LS50 Wireless II](/gear/kef-ls50-wireless-ii/) for music-first stereo setups. It pairs planar magnetic tweeters with 6.5-inch aluminum woofers, a rated **38 Hz** low end and a wireless link between speakers. It has no HDMI or eARC, though, so the TV connects over optical or coaxial set to PCM, which is why the KEF remains the better TV speaker."
+    }
+  ]
 }

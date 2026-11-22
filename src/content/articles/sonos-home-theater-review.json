@@ -18,7 +18,7 @@
   "hub": "brands",
   "brand": "Sonos",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best Sonos home theater setup for most living rooms is the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) with a pair of [Era 100](/gear/sonos-era-100/) speakers as surrounds, then a [Sub 4](/gear/sonos-sub-4/) when you are ready for deeper bass. This guide is for anyone who wants Sonos's wireless, app-driven approach and needs to know which combination to buy for their room and budget.\n\nWe break Sonos into three tiers, from a compact Beam-based system to the full Arc Ultra, Sub 4 and Era 300 build, and show the room maths behind each. Rankings are built on Sonos's spec sheets and owner reports, not lab benches. One honest warning up front: Sonos does not decode DTS:X, and every tier costs more than a comparable Samsung all-in-one.",
   "quickAnswer": "The best Sonos home theater setup depends on room size. Small rooms: Beam (Gen 2) plus Sub 4. Medium living rooms: Arc Ultra plus two Era 100s as surrounds. Large rooms and film fans: Arc Ultra, Sub 4 and two Era 300s, which adds rear height effects for full Dolby Atmos. Buy the soundbar first, then add whichever piece fixes your biggest gap.",
   "picksHeading": "The Sonos Home Theater Lineup",
@@ -62,7 +62,7 @@
     },
     {
       "heading": "The Best Sonos Home Theater Setup at Every Budget",
-      "body": "The best Sonos home theater setup is the one that fixes your room's biggest problem first. Here is how each tier earns its place, with room volume as the guide (length x width x height in feet).\n\n**Starter: Beam (Gen 2) + Sub 4.** For rooms under about 2,000 cubic feet, such as 12 x 15 x 8 ft (1,440 cu ft). In a small room you sit close to the bar, so virtual Atmos works reasonably well, and the Beam's weakness is bass, not width. Adding the [Sub 4](/gear/sonos-sub-4/) fixes that. If budget is tight, the Sub Mini does the same job at lower output.\n\n**Middle: Arc Ultra + two Era 100s.** For rooms of about 2,000 to 3,500 cubic feet, such as 16 x 18 x 9 ft (2,592 cu ft). The [Arc Ultra](/gear/sonos-arc-ultra/) has enough bass on its own to sound full in a medium room, so the bigger gap is the lack of sound behind you. Two [Era 100s](/gear/sonos-era-100/) give you real rear surround channels. Add the Sub 4 later.\n\n**Full: Arc Ultra + Sub 4 + two Era 300s.** For rooms over about 3,000 cubic feet or open-plan spaces, and for anyone who watches a lot of Atmos films. The [Era 300s](/gear/sonos-era-300/) add rear height channels, and the Sub 4 provides the low end the scale of this system needs. In very large rooms, the Arc Ultra can take a second Sub 4.\n\nA simple upgrade path: buy the Arc Ultra, add Era 100s, add a Sub 4, and if you still want more, move the Era 100s to another room and add Era 300s at the back. Nothing you buy gets wasted."
+      "body": "The best Sonos home theater setup is the one that fixes your room's biggest problem first. Here is how each tier earns its place, with room volume as the guide (length x width x height in feet).\n\n**Starter: Beam (Gen 2) + Sub 4.** For rooms under about 2,000 cubic feet, such as 12 x 15 x 8 ft (1,440 cu ft). In a small room you sit close to the bar, so virtual Atmos works reasonably well, and the Beam's weakness is bass, not width. Adding the [Sub 4](/gear/sonos-sub-4/) fixes that. If budget is tight, the Sub Mini does the same job at lower output.\n\n**Middle: Arc Ultra + two Era 100s.** For rooms of about 2,000 to 3,500 cubic feet, such as 16 x 18 x 9 ft (2,592 cu ft). The [Arc Ultra](/gear/sonos-arc-ultra/) has enough bass on its own to sound full in a medium room, so the bigger gap is the lack of sound behind you. Two [Era 100s](/gear/sonos-era-100/) give you real rear surround channels. Add the Sub 4 later.\n\n**Full: Arc Ultra + Sub 4 + two Era 300s.** For rooms over about 3,000 cubic feet or open-plan spaces, and for anyone who watches a lot of Atmos films. The [Era 300s](/gear/sonos-era-300/) add rear height channels, and the Sub 4 provides the low end the scale of this system needs. In very large rooms, the Arc Ultra can take a second Sub 4.\n\nA simple upgrade path: buy the Arc Ultra, add Era 100s, add a Sub 4, and if you still want more, move the Era 100s to another room and add Era 300s at the back. Nothing you buy gets wasted.\n\nFor how an Arc Ultra system compares with the Samsung HW-Q990F and receiver-based speaker packages, see our [best home theater system](/best-home-theater-systems/) rankings, where it is our Best Soundbar-Based System."
     },
     {
       "heading": "Setup and Placement Tips",
@@ -82,7 +82,7 @@
     },
     {
       "heading": "How We Chose These Setups",
-      "body": "We started from the three combinations Sonos buyers ask about most, then checked each against room volume, TV width and cost. Product rankings reflect what each piece adds to a real living room, based on Sonos's published specs and owner-reported reliability; we have not bench-tested them in a lab.\n\nThe Arc Ultra ranks first because it anchors two of the three tiers. The Beam ranks second as the only sensible small-room bar. The Sub 4 ranks above the surrounds because it improves every film, not only surround mixes. Between the surrounds, the Era 300 ranks higher for capability, but the Era 100 earns its place as the better value for most living rooms. We left out the Ray because its lack of HDMI makes it a TV speaker upgrade rather than a home theater foundation."
+      "body": "We started from the three combinations Sonos buyers ask about most, then checked each against room volume, TV width and cost. Product rankings reflect what each piece adds to a real living room, based on Sonos's published specs and owner-reported reliability; none of them has been through our lab yet.\n\nThe Arc Ultra ranks first because it anchors two of the three tiers. The Beam ranks second as the only sensible small-room bar. The Sub 4 ranks above the surrounds because it improves every film, not only surround mixes. Between the surrounds, the Era 300 ranks higher for capability, but the Era 100 earns its place as the better value for most living rooms. We left out the Ray because its lack of HDMI makes it a TV speaker upgrade rather than a home theater foundation."
     },
     {
       "heading": "Who Should Skip Sonos",
@@ -146,5 +146,11 @@
     "best-wireless-home-theater-system",
     "best-soundbar-for-home-theater"
   ],
-  "bottomLine": "The best Sonos home theater setup for most homes is the [Arc Ultra](/gear/sonos-arc-ultra/) with two [Era 100s](/gear/sonos-era-100/), adding a [Sub 4](/gear/sonos-sub-4/) when budget allows. Small rooms should start with the [Beam (Gen 2)](/gear/sonos-beam-gen-2/) and a sub, and film fans with big rooms should finish with [Era 300s](/gear/sonos-era-300/) for full Dolby Atmos. Sonos is not the cheapest way to get surround sound and it skips DTS:X, but no rival matches how easily it grows, moves between rooms and doubles as a whole-home music system."
+  "bottomLine": "The best Sonos home theater setup for most homes is the [Arc Ultra](/gear/sonos-arc-ultra/) with two [Era 100s](/gear/sonos-era-100/), adding a [Sub 4](/gear/sonos-sub-4/) when budget allows. Small rooms should start with the [Beam (Gen 2)](/gear/sonos-beam-gen-2/) and a sub, and film fans with big rooms should finish with [Era 300s](/gear/sonos-era-300/) for full Dolby Atmos. Sonos is not the cheapest way to get surround sound and it skips DTS:X, but no rival matches how easily it grows, moves between rooms and doubles as a whole-home music system.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick and a sources section."
+    }
+  ]
 }

@@ -36,8 +36,11 @@ const path = Astro.url.pathname;
     {noindex ? <meta name="robots" content="noindex, follow" /> : <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />}
     {SITE.adsenseId && <meta name="google-adsense-account" content={SITE.adsenseId} />}
     {SITE.googleSiteVerification && <meta name="google-site-verification" content={SITE.googleSiteVerification} />}
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     {mdAlternate && <link rel="alternate" type="text/markdown" href={mdAlternate} />}
     <link rel="preload" href={interLatin} as="font" type="font/woff2" crossorigin />
@@ -74,13 +77,13 @@ const path = Astro.url.pathname;
             </a>
             <nav class="hidden lg:flex items-center gap-6" aria-label="Main">
               <a href="/best-of/" class="text-slate-200 hover:text-gold font-medium text-sm no-underline">Best Lists</a>
-              {NAV.map((g) => (
+              {NAV.map((g, gi) => (
                 <div class="relative group">
                   <button class="flex items-center gap-1 text-slate-200 group-hover:text-gold font-medium text-sm" aria-haspopup="true">
                     {g.label}
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" /></svg>
                   </button>
-                  <div class="invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition absolute left-1/2 -translate-x-1/2 top-full pt-3 w-80">
+                  <div class={`invisible opacity-0 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100 transition absolute top-full pt-3 w-80 ${gi >= NAV.length - 2 ? 'right-0' : 'left-1/2 -translate-x-1/2'}`}>
                     <div class="bg-white text-ink rounded-xl shadow-xl ring-1 ring-black/5 p-2">
                       {g.links.map((l) => (
                         <a href={l.url} class="flex gap-3 items-start p-2.5 rounded-lg hover:bg-slate-50 no-underline">

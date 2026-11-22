@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.5",
+    "@astrojs/vercel": "^8.2.11",
     "@fontsource-variable/inter": "^5.2.8",
     "@tailwindcss/vite": "4.3.5",
+    "@vercel/analytics": "^2.0.1",
     "amazon-creators-api": "^1.2.2",
     "astro": "5.18.2",
     "marked": "15.0.12",

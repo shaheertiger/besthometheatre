@@ -19,7 +19,7 @@
   ],
   "hub": "system",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best budget home theater system gets you real surround channels and a subwoofer without paying for features you will never notice. Our top pick is the [VIZIO 5.1.2 Elevate SE](/gear/vizio-elevate-se-sl512x/): a soundbar with height speakers that rotate upward, plus a wireless subwoofer, with Dolby Atmos and DTS:X, usually in the $350–$450 band. Nothing else this cheap pairs real height drivers, a sub and both surround formats.\n\nThis guide is for anyone shopping for a cheap, affordable or low-cost home theater system, roughly under $500 for the system itself, plus two stretch picks for people who want a receiver. We ranked six picks by real channels per dollar, what else you would need to buy, and how well each one fills a typical small or medium room. Every recommendation comes from spec sheets, room maths and owner-reported reliability, not marketing wattage.",
   "quickAnswer": "The best budget home theater system is the **VIZIO 5.1.2 Elevate SE**, which pairs a soundbar with rotating height speakers and a wireless sub, with Dolby Atmos and DTS:X, for roughly $350–$450. For guaranteed real rear speakers, choose the **Sony HT-S40R**. If you want a real AV receiver in the box and can stretch the budget, the **Yamaha YHT-5960U** is the best budget home theater in a box.",
   "picksHeading": "The Best Budget Home Theater Systems",
@@ -155,5 +155,25 @@
     "best-budget-home-theater-receiver",
     "best-budget-subwoofer-for-home-theater"
   ],
-  "bottomLine": "The best budget home theater system is the [VIZIO 5.1.2 Elevate SE](/gear/vizio-elevate-se-sl512x/), which pairs rotating height speakers and a wireless sub with Dolby Atmos and DTS:X in the $350–$450 band. Choose the [Sony HT-S40R](/gear/sony-ht-s40r/) for the easiest 5.1 with real rear speakers, the [Hisense AX5120G](/gear/hisense-ax5120g/) as a cheaper Atmos alternative with more inputs, the [Yamaha YHT-5960U](/gear/yamaha-yht-5960u/) if you want a real receiver in the box, the [Klipsch Reference Theater Pack](/gear/klipsch-reference-theater-pack/) to build separates in stages, or the [VIZIO All-in-One Soundbar SE](/gear/vizio-soundbar-se-sv210y/) as the cheapest worthwhile upgrade over TV speakers."
+  "bottomLine": "The best budget home theater system is the [VIZIO 5.1.2 Elevate SE](/gear/vizio-elevate-se-sl512x/), which pairs rotating height speakers and a wireless sub with Dolby Atmos and DTS:X in the $350–$450 band. Choose the [Sony HT-S40R](/gear/sony-ht-s40r/) for the easiest 5.1 with real rear speakers, the [Hisense AX5120G](/gear/hisense-ax5120g/) as a cheaper Atmos alternative with more inputs, the [Yamaha YHT-5960U](/gear/yamaha-yht-5960u/) if you want a real receiver in the box, the [Klipsch Reference Theater Pack](/gear/klipsch-reference-theater-pack/) to build separates in stages, or the [VIZIO All-in-One Soundbar SE](/gear/vizio-soundbar-se-sv210y/) as the cheapest worthwhile upgrade over TV speakers.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the Hisense AX5120G 5.1.2 Soundbar replaces the Hisense AX5125H 5.1.2 Soundbar as Best Budget Atmos Alternative; the Yamaha YHT-5960U Home Theater System replaces the Onkyo HT-S3910 5.1 Home Theater Package as Best Budget Home Theater in a Box; the VIZIO 5.1.2 Elevate SE Soundbar (SL512X-08) replaces the Vizio M-Series 5.1.2 Home Theater Sound Bar as Best Budget Overall; the VIZIO All-in-One Soundbar SE (SV210Y-08) replaces the Vizio V-Series 2.1 Sound Bar as Cheapest Real Upgrade; removed the Jamo Studio S 807 HCS 5.0 System (Best Budget System for Music)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "bose-smart-soundbar",
+      "body": "The Bose Smart Soundbar is a step up from the [VIZIO All-in-One Soundbar SE](/gear/vizio-soundbar-se-sv210y/) if you want real height drivers and smart features in one compact bar. It has **two up-firing drivers**, A.I. Dialogue Mode, Wi-Fi streaming with Chromecast and AirPlay 2, and a remote in the box. It costs much more, lists no DTS:X and its bass module is extra, so the Vizio stays the pick for tight budgets."
+    },
+    {
+      "product": "sonos-beam-gen-2",
+      "body": "The Sonos Beam (Gen 2) is an alternative to the [Hisense AX5120G](/gear/hisense-ax5120g/) if you'd rather start small and expand. It adds **Trueplay** tuning, Wi-Fi streaming and the Sonos app, and it grows into a 5.1 system with a Sonos sub and rears. Out of the box it has no subwoofer, no DTS:X and only virtual height, so the Hisense gives you more channels for less."
+    }
+  ]
 }

@@ -20,7 +20,7 @@
   ],
   "hub": "screen",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best projector screen for home theater is flat, close to neutral in color, sized for your seats and matched to your projector and room. For most dark or dim rooms with a ceiling- or shelf-mounted projector, that is the [Elite Screens Sable Frame 2](/gear/elite-screens-sable-frame-2/): a fixed-frame screen with a near-unity-gain white surface, a velvet-wrapped frame that absorbs overspill, and a wide range of sizes.\n\nA screen is the cheapest picture upgrade in a projector setup, and the most often skipped. This guide is for anyone choosing between white, gray and ambient light rejecting (ALR) screens, or between fixed, motorized and pull-down designs. We picked six screens for different rooms and projectors, using material specs, room maths and owner-reported durability.",
   "quickAnswer": "The **Elite Screens Sable Frame 2** is the best projector screen for home theater in a light-controlled room: flat, neutral and affordable. On a tight budget, the **Silver Ticket STR-169120** gives you a 120-inch fixed frame for less. For a room with ambient light and a ceiling-mounted projector, get the **Elite Screens CineGrey 3D**; for an ultra short throw projector, get a ceiling-light-rejecting screen like the **Elite Screens Aeon CLR 3**.",
   "picks": [
@@ -68,7 +68,7 @@
     },
     {
       "heading": "How We Chose These Screens",
-      "body": "We compared every screen in our catalog against four criteria:\n\n- **Surface flatness and frame design**, since waves and ripples are the most visible screen flaw.\n- **Material suitability**: gain, color neutrality and viewing angle, from manufacturer specifications.\n- **Room fit**: one strong option for dark rooms, ambient-light rooms, ultra short throw projectors, and rooms where the screen has to disappear.\n- **Owner-reported durability and quality control**, including assembly issues, material defects and how well screens hold up over years.\n\nWe have not bench-tested these screens in a lab. Rankings come from specs, room maths and long-term owner reports. Where a manufacturer does not publish a figure we could confirm, we left it out."
+      "body": "We compared every screen in our catalog against four criteria:\n\n- **Surface flatness and frame design**, since waves and ripples are the most visible screen flaw.\n- **Material suitability**: gain, color neutrality and viewing angle, from manufacturer specifications.\n- **Room fit**: one strong option for dark rooms, ambient-light rooms, ultra short throw projectors, and rooms where the screen has to disappear.\n- **Owner-reported durability and quality control**, including assembly issues, material defects and how well screens hold up over years.\n\nNone of these screens has been through our lab yet. Rankings come from specs, room maths and long-term owner reports. Where a manufacturer does not publish a figure we could confirm, we left it out."
     },
     {
       "heading": "What Size Screen Do You Need?",
@@ -163,5 +163,21 @@
     "best-4k-projector-for-home-theater",
     "best-laser-projector-for-home-theater"
   ],
-  "bottomLine": "The best projector screen for home theater in a dark room is the **Elite Screens Sable Frame 2**, with a flat, neutral 1.1-gain surface and a velvet border. On a budget, the **Silver Ticket STR-169120** gets you a 120-inch fixed frame for less. Rooms with ambient light should use the **Elite Screens CineGrey 3D** with a long-throw projector. Ultra short throw owners need a ceiling-light-rejecting screen like the **Elite Screens Aeon CLR 3**. If the screen has to disappear, the **Elite Spectrum** is the motorized pick and the **Elite Manual B** is the simple pull-down. Size it from your seats, then match it to your projector's lumens."
+  "bottomLine": "The best projector screen for home theater in a dark room is the **Elite Screens Sable Frame 2**, with a flat, neutral 1.1-gain surface and a velvet border. On a budget, the **Silver Ticket STR-169120** gets you a 120-inch fixed frame for less. Rooms with ambient light should use the **Elite Screens CineGrey 3D** with a long-throw projector. Ultra short throw owners need a ceiling-light-rejecting screen like the **Elite Screens Aeon CLR 3**. If the screen has to disappear, the **Elite Spectrum** is the motorized pick and the **Elite Manual B** is the simple pull-down. Size it from your seats, then match it to your projector's lumens.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: removed the VAMVO Ambient Light Rejecting Screen (Best Budget ALR)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "akia-screens-fixed-frame",
+      "body": "The Akia Screens Fixed Frame is a cheaper alternative to the [Silver Ticket STR-169120](/gear/silver-ticket-str-169120/) if you're moving up from projecting on a wall. It's also a **120-inch 16:9 matte white fixed frame** with a black velvet-style border, but its build quality is less proven and owners note basic assembly instructions. The Silver Ticket remains the safer buy if you want a screen that lasts."
+    }
+  ]
 }

@@ -21,19 +21,31 @@ in `src/content/`. Types live in `src/lib/types.ts`.
    label": lumens per dollar, throw distance for a real room, watts per channel *at the stated test
    conditions*, how many height channels the receiver can actually power, subwoofer driver size vs room
    volume. Do the calculation in the text.
-5. **Numbered H2 sections** (the template numbers them automatically). Roundups use roughly this
-   order. `position: "before"` sections go ahead of the product list:
-   - (before) What to look for / what the spec that matters really means
-   - [picks: auto]
-   - [comparison table: auto from `comparisonSpecs`]
-   - How we chose / ranked these
-   - 3–6 buying-guide sections answering People Also Ask questions (5.1 vs 7.1, room size, budget
-     tiers, setup/placement, compatibility)
-   - Who should buy / who can skip
+5. **Page order (Master Google SEO Format + RTINGS).** The template builds this order automatically from
+   the JSON, numbering the H2s. It follows the structure of the best-performing RTINGS roundups
+   (intro → "How We Test" → picks by price tier and use → Notable Mentions → Recent Updates → All Reviews):
+   - Title, H1, author, published + updated dates, `intro` (the immediate recommendation)
+   - Shortlist [auto from `picks`: award, product, `bestFor`, score, price band]
+   - `quickAnswer`
+   - (reviews and guides only) `position: "before"` sections, e.g. "The Short Verdict"
+   - **Compare the Picks at a Glance** [auto: best for, skip it if, score, price band]
+   - **Evaluation method**: the section whose heading starts with "How We …" is lifted out and shown
+     before the picks with a count of models we track. Every roundup and review needs one.
+   - The picks [auto `PickBlock`: specs, `skipIf`, `body`, pros/cons]
+   - Spec Sheets Side by Side [auto from `comparisonSpecs`]
+   - **Notable Mentions** (roundups): `mentions` [{`product`, `body`}], 2–3 unpicked models that fit the
+     page's intent. Each body (40–80 words) compares the model to one named, linked pick and says who
+     should choose it instead. Omit the key if every relevant product is already a pick.
+   - Buying-guide sections (on roundups, `before` sections also move here, after the picks):
+     what to look for, PAA questions, budget tiers, setup, who should buy / skip
    - [Common mistakes: `mistakes`, 4–5 items]
+   - The Bottom Line: `bottomLine`, 1 paragraph that names the picks again
    - [FAQ: `faqs`, 6–8 items: real PAA-style questions, 40–90 word answers that start with the answer]
-   - [Related guides: `related`, 3 article slugs]
-   - [Bottom line: `bottomLine`, 1 paragraph that names the picks again]
+   - **Sources and Recent Updates**: `updates` [{`date`, `note`}], newest first. Log only substantive
+     changes (a pick replaced, added or removed; a section added) and bump `updated` when you do.
+     The sources list is generated.
+   - All <Category> We Track (roundups) [auto: every model in the main category, ranked by score]
+   - [Related guides: `related`, 3 article slugs], More in hub
 6. **Internal links.** Link generously in markdown bodies: to other articles (`/best-home-theater-receiver/`),
    product pages (`/gear/<product-slug>/`), brand pages (`/brands/<brand-slug>/`), tools
    (`/tools/projector-throw-calculator/`, `/tools/viewing-distance-calculator/`) and glossary terms
@@ -42,11 +54,16 @@ in `src/content/`. Types live in `src/lib/types.ts`.
    `/glossary/impedance/`, `/glossary/alr-screen/`, `/glossary/hdr/`, `/glossary/pixel-shifting/`,
    `/glossary/lfe/`, `/glossary/hdmi-2-1/`, `/glossary/dts-x/`). Only link to article slugs listed in
    `docs/keyword-map.json`, product slugs in `docs/product-catalog.txt`, and those glossary/tool URLs.
-7. **Honesty = E-E-A-T.** We have NOT bench-tested products in a lab. Never write "we tested",
-   "in our testing", "we measured", "our lab". Write "on paper", "the spec sheet says", "owners
-   report", "independent measurements show" (only where widely documented), "we'd pick". The method
-   is spec research + room maths + owner-reported reliability, explained on `/how-we-test/`.
-   Never invent figures. If you are not sure of a spec, leave it out.
+7. **Honesty = E-E-A-T.** Articles are by **Justin Lee** (`AUTHOR` in `src/data/site.ts`, page at
+   `/authors/justin-lee/`). We have our own lab in Mississauga, Ontario (`LAB`). A product counts as
+   tested **only** when its product JSON has a `tested` record (`date`, `method`, `results`, optional
+   `notes`) with real measurements from the lab. Those products get a "Lab tested" badge and a Lab
+   Results section automatically, and the article sources list them.
+   - For a product with a `tested` record you may write "we tested", "in our lab", "we measured", citing
+     the recorded results.
+   - For every other product, never write "we tested", "in our testing", "we measured" or "our lab
+     results". Write "on paper", "the spec sheet says", "owners report", "independent measurements show"
+     (only where widely documented), "we'd pick". Never invent figures; if unsure of a spec, leave it out.
 8. **No prices.** Use `priceBand` ("$400–$500" street-price ranges) only. Never quote an exact price
    or a sale. Prices change and Amazon's rules forbid stale prices.
 9. **Dates.** `published` and `updated`: "2026-11-17". Write for late 2026 and mention newer models only if
@@ -111,7 +128,7 @@ or "guides", or "brands" for brand reviews), `published`, `updated`, `intro`, `q
 `picksHeading` (optional), `picks` [{`product`, `award`, `body`, optional `pros`/`cons` overrides}],
 `sections` [{`heading`, `body`, optional `position`: "before"}], `comparisonSpecs` (3–5 spec keys
 that exist on the picked products), `mistakes` [{`title`, `body`}], `faqs` [{`q`, `a`}], `related`
-(3 article slugs), `bottomLine`, and `brand` (brand reviews only; must exactly equal the `brand` field of products).
+(3 article slugs), `bottomLine`, `updates` (dated revision notes), `mentions` (roundups), and `brand` (brand reviews only; must exactly equal the `brand` field of products).
 
 Headings must NOT include numbers; the template adds them. Do not repeat the keyword in every heading.
 

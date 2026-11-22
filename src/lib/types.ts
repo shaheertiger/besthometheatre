@@ -32,6 +32,17 @@ export interface Product {
   /** Spec keys to surface on cards (3–4). */
   keySpecs?: string[];
   faqs?: FAQ[];
+  /**
+   * Results from our own lab. Only add this for a unit that was actually measured.
+   * Products without it are never described as tested anywhere on the site.
+   */
+  tested?: {
+    date: string;
+    /** What was measured and how (equipment, room, settings). */
+    method: string;
+    results: { label: string; value: string }[];
+    notes?: string;
+  };
 }
 
 export interface Pick {
@@ -78,4 +89,8 @@ export interface Article {
   bottomLine: string;
   /** Brand this review covers (for kind === 'review'). */
   brand?: string;
+  /** Dated revision notes, newest first. Only substantive changes (picks swapped, sections added). */
+  updates?: { date: string; note: string }[];
+  /** Optional hand-written notable mentions. When absent, roundups list the best unpicked models automatically. */
+  mentions?: { product: string; body: string }[];
 }

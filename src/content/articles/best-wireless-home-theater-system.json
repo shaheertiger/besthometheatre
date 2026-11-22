@@ -20,7 +20,7 @@
   ],
   "hub": "system",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best wireless home theater system gives you real surround sound without running speaker wire around the room. Our top pick is the [Sony Bravia Theater Quad](/gear/sony-bravia-theater-quad/): four wireless speakers (no soundbar at all) with Dolby Atmos, DTS:X and automatic room tuning, all fed from one HDMI eARC connection to your TV.\n\nOne thing to know before you buy: \"wireless\" means no speaker wire, not no cables. Every wireless speaker has its own amplifier, so every one needs a power outlet. This guide explains how the different wireless links work, what latency means for lip sync, and how to plan power. Then it ranks six systems on spec sheets, room maths and owner-reported reliability.",
   "quickAnswer": "The best wireless home theater system is the **Sony Bravia Theater Quad**, four wireless speakers with Dolby Atmos and DTS:X and no soundbar. For a wireless 5.1 system with a traditional speaker layout, the **Enclave CineHome Pro** is the pick. On a budget, the **Sony HT-S40R** adds wireless rear speakers for much less. Every wireless speaker still needs a power outlet.",
   "picks": [
@@ -151,5 +151,29 @@
     "best-soundbar-for-home-theater",
     "best-home-theater-systems"
   ],
-  "bottomLine": "The best wireless home theater system is the [Sony Bravia Theater Quad](/gear/sony-bravia-theater-quad/): four wireless speakers, Atmos and DTS:X, and no soundbar under the screen. The [Enclave CineHome Pro](/gear/enclave-cinehome-pro/) is the best traditional wireless 5.1 system, the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) is the most expandable ecosystem, the [Bose Smart Ultra Soundbar](/gear/bose-smart-ultra-soundbar/) leads on dialogue, the [JBL Bar 1000](/gear/jbl-bar-1000/) has battery surrounds that need no outlet, and the [Sony HT-S40R](/gear/sony-ht-s40r/) is the budget route. Whichever you choose, plan a power outlet for every speaker."
+  "bottomLine": "The best wireless home theater system is the [Sony Bravia Theater Quad](/gear/sony-bravia-theater-quad/): four wireless speakers, Atmos and DTS:X, and no soundbar under the screen. The [Enclave CineHome Pro](/gear/enclave-cinehome-pro/) is the best traditional wireless 5.1 system, the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) is the most expandable ecosystem, the [Bose Smart Ultra Soundbar](/gear/bose-smart-ultra-soundbar/) leads on dialogue, the [JBL Bar 1000](/gear/jbl-bar-1000/) has battery surrounds that need no outlet, and the [Sony HT-S40R](/gear/sony-ht-s40r/) is the budget route. Whichever you choose, plan a power outlet for every speaker. If you are renting or short on space, our [home theater systems matched to your lifestyle](/best-home-theater-system-by-lifestyle/) guide picks systems for renters, new parents and portable setups.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: removed the Platin Audio Monaco 5.1 Wireless System (Best WiSA Alternative)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "samsung-hw-q990f",
+      "body": "The Samsung HW-Q990F is a cheaper alternative to the [Sony Bravia Theater Quad](/gear/sony-bravia-theater-quad/) that includes the subwoofer the Quad lacks. Its **11.1.4** layout puts a wireless sub and height-equipped wireless rears in the box, adds an HDMI input and offers wireless Atmos with Samsung TVs. You still get a bar under the screen, though, and its best features need a Samsung TV, so pick the Quad if you want no bar at all."
+    },
+    {
+      "product": "jbl-bar-1300mk2",
+      "body": "The JBL Bar 1300MK2 is a bigger version of the [JBL Bar 1000](/gear/jbl-bar-1000/), with the same detachable battery rears and wireless sub but **11.1.4** channels instead of 7.1.4. That extra scale suits large or open-plan rooms where the Bar 1000 can run out of steam. It's pricier, its longer bar needs a wide stand or wall, and its rears still need regular recharging, so the Bar 1000 is the better value for most rooms."
+    },
+    {
+      "product": "polk-magnifi-max-ax-sr",
+      "body": "The Polk MagniFi Max AX SR is a good alternative to the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) if you want a complete wireless system in one box. It includes a **10-inch wireless sub** and wireless rears and decodes DTS:X, which the Sonos doesn't. Its app is less polished, though, and it has no multiroom ecosystem to match Sonos, so the Arc Ultra is the better choice if you plan to build out a Sonos setup over time."
+    }
+  ]
 }

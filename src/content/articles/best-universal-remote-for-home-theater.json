@@ -20,7 +20,7 @@
   ],
   "hub": "remote",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The **best universal remote for home theater** turns a TV, AV receiver, streamer and disc player into one button press: \"Watch Movie\" powers everything on, picks the right inputs and hands volume to the receiver. This guide is for anyone juggling three or more remotes, or anyone who lost their Logitech Harmony and wants a replacement.\n\nOur top pick is the [SofaBaton X1S](/gear/sofabaton-x1s/), a hub-based remote that controls infrared and Bluetooth gear, works through closed cabinet doors and supports Alexa and Google Assistant. If you want SofaBaton's newer flagship, the [SofaBaton X2](/gear/sofabaton-x2/) is the upgrade; for simple setups, the [GE 4-Device remote](/gear/ge-universal-remote/) costs very little.",
   "quickAnswer": "The best universal remote for home theater is the **SofaBaton X1S** for most people: its Wi-Fi hub blasts infrared and pairs with Bluetooth devices, so it controls gear in cabinets and Bluetooth-only streamers, with one-touch activities. The **SofaBaton U2** is the best hubless option for line-of-sight setups, and the **GE 4-Device remote** is the budget pick for a TV, receiver and two sources.",
   "picksHeading": "The Best Universal Remotes for Home Theater",
@@ -59,7 +59,7 @@
     },
     {
       "heading": "How We Chose These Remotes",
-      "body": "We have not run these remotes through a lab. Picks were chosen on the spec sheet and owner reports: supported device count, control methods (IR, Bluetooth, Wi-Fi), whether a hub is included, activity and macro support, app quality, voice assistant integration and long-term reliability. We also weighed availability, which is why the Logitech Harmony 665 appears as a legacy pick rather than a main recommendation after Logitech ended Harmony production."
+      "body": "None of these remotes has been through our lab yet. Picks were chosen on the spec sheet and owner reports: supported device count, control methods (IR, Bluetooth, Wi-Fi), whether a hub is included, activity and macro support, app quality, voice assistant integration and long-term reliability. We also weighed availability, which is why the Logitech Harmony 665 appears as a legacy pick rather than a main recommendation after Logitech ended Harmony production."
     },
     {
       "heading": "IR vs RF vs Bluetooth vs Wi-Fi",
@@ -145,5 +145,11 @@
     "best-home-theater-receiver",
     "best-home-theater-systems"
   ],
-  "bottomLine": "The [SofaBaton X1S](/gear/sofabaton-x1s/) is the best universal remote for home theater for most people, thanks to its hub, IR plus Bluetooth control and one-touch activities. Step up to the [SofaBaton X2](/gear/sofabaton-x2/) for the newest hardware, choose the [SofaBaton U2](/gear/sofabaton-u2/) for an open-shelf system without a hub, and pick the [GE 4-Device remote](/gear/ge-universal-remote/) for basic setups on a tiny budget. The [Logitech Harmony 665](/gear/logitech-harmony-665/) is worth it only as a fairly priced legacy unit."
+  "bottomLine": "The [SofaBaton X1S](/gear/sofabaton-x1s/) is the best universal remote for home theater for most people, thanks to its hub, IR plus Bluetooth control and one-touch activities. Step up to the [SofaBaton X2](/gear/sofabaton-x2/) for the newest hardware, choose the [SofaBaton U2](/gear/sofabaton-u2/) for an open-shelf system without a hub, and pick the [GE 4-Device remote](/gear/ge-universal-remote/) for basic setups on a tiny budget. The [Logitech Harmony 665](/gear/logitech-harmony-665/) is worth it only as a fairly priced legacy unit.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick and a sources section."
+    }
+  ]
 }

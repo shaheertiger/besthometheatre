@@ -49,7 +49,8 @@
       "Inputs": "Wi-Fi, Bluetooth, USB-C line-in (adapter)",
       "Streaming": "AirPlay 2, Spotify Connect, Sonos app",
       "Home theater role": "Atmos rear surrounds for Sonos Arc, Arc Ultra and Beam (Gen 2)",
-      "Dimensions": "160 × 260 × 185 mm (H × W × D)"
+      "Dimensions": "6.3 × 10.2 × 7.3 in (160 × 260 × 185 mm)",
+      "Weight": "9.9 lb (4.5 kg)"
     },
     "keySpecs": [
       "Type",
@@ -116,7 +117,8 @@
       "Amplification": "Powered wireless receiver module",
       "Inputs": "Wireless link from a compatible Bose soundbar",
       "Streaming": "None (via Bose soundbar)",
-      "Home theater role": "Rear surrounds for Bose smart soundbars"
+      "Home theater role": "Rear surrounds for Bose smart soundbars",
+      "Weight": "0.78 lb (0.35 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -180,10 +182,13 @@
     "specs": {
       "Type": "Powered bookshelf speakers (pair) with built-in AVR processing",
       "Drivers": "5.25-inch woofer (per speaker)",
+      "Frequency response": "50 Hz–25 kHz ±3 dB",
       "Amplification": "Built-in Onkyo-designed amplification",
-      "Inputs": "HDMI 2.1 eARC with passthrough (4K/120, VRR, ALLM, HDR)",
+      "Inputs": "HDMI 2.1 eARC with passthrough (8K, 4K/120, VRR, ALLM, HDR10+, Dolby Vision)",
       "Streaming": "Google Cast, AirPlay 2, Spotify Connect, Tidal Connect, Qobuz Connect",
-      "Home theater role": "Stereo TV speakers with Dolby Atmos processing via HDMI eARC"
+      "Home theater role": "Stereo TV speakers with Dolby Atmos processing via HDMI eARC",
+      "Dimensions": "12.9 × 7.1 × 10.8 in (327 × 181 × 273 mm) each",
+      "Weight": "18.2 lb (8.3 kg) primary speaker"
     },
     "keySpecs": [
       "Type",
@@ -235,7 +240,7 @@
       }
     ],
     "summary": "KEF's acclaimed all-in-one active speakers with Uni-Q drivers, 380 W per speaker, HDMI eARC and every major streaming service; audiophile stereo for a TV setup.",
-    "verdict": "The LS50 Wireless II packs a complete hi-fi into two speakers. Each has KEF's **5.25-inch Uni-Q driver** (a 0.75-inch aluminum tweeter mounted in the center of the woofer) with **Metamaterial Absorption Technology**, driven by **380 W per speaker**: 100 W for the tweeter and 280 W for the woofer. KEF rates frequency response at **45 Hz–28 kHz ±3 dB**.\n\n**Why that matters on a TV.** The HDMI [eARC](/glossary/earc/) input means the TV and its remote control the speakers directly, and the coaxial Uni-Q design gives an unusually wide, consistent sweet spot, so people off to the side of the sofa still hear a stable center image for dialogue.\n\n**Add a sub at the right crossover.** 45 Hz at ±3 dB is excellent for a 5.25-inch woofer, but movie [LFE](/glossary/lfe/) goes well below that. Use the sub output and the app's high-pass filter: crossing the speakers over at around **80 Hz** frees the woofers from the deepest bass, which lowers distortion and raises clean output. A sealed sub like the [SVS SB-2000 Pro](/gear/svs-sb-2000-pro/) blends well.\n\n**Connections.** Optical, coaxial, analog, Ethernet, Bluetooth, AirPlay 2, Chromecast, Spotify Connect, Tidal Connect and Roon Ready. It's stereo only; there's no surround decoding.\n\nIndependent measurements show excellent performance, and owners rate it among the best active speakers available. It's expensive, but it replaces a streamer, amplifier and speakers. See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/).",
+    "verdict": "The LS50 Wireless II packs a complete hi-fi into two speakers. Each has KEF's **5.25-inch Uni-Q driver** (a 1-inch vented aluminum tweeter mounted in the center of the woofer) with **Metamaterial Absorption Technology**, driven by **380 W per speaker**: 100 W for the tweeter and 280 W for the woofer. KEF rates frequency response at **45 Hz–28 kHz ±3 dB**.\n\n**Why that matters on a TV.** The HDMI [eARC](/glossary/earc/) input means the TV and its remote control the speakers directly, and the coaxial Uni-Q design gives an unusually wide, consistent sweet spot, so people off to the side of the sofa still hear a stable center image for dialogue.\n\n**Add a sub at the right crossover.** 45 Hz at ±3 dB is excellent for a 5.25-inch woofer, but movie [LFE](/glossary/lfe/) goes well below that. Use the sub output and the app's high-pass filter: crossing the speakers over at around **80 Hz** frees the woofers from the deepest bass, which lowers distortion and raises clean output. A sealed sub like the [SVS SB-2000 Pro](/gear/svs-sb-2000-pro/) blends well.\n\n**Connections.** Optical, coaxial, analog, Ethernet, Bluetooth, AirPlay 2, Chromecast, Spotify Connect, Tidal Connect and Roon Ready. It's stereo only; there's no surround decoding.\n\nIndependent measurements show excellent performance, and owners rate it among the best active speakers available. It's expensive, but it replaces a streamer, amplifier and speakers. See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/).",
     "bestFor": "Audiophiles who want top-tier stereo for music and TV from one system",
     "skipIf": "You want surround sound or have a limited budget",
     "pros": [
@@ -251,13 +256,14 @@
     ],
     "specs": {
       "Type": "Active wireless stereo speakers (pair)",
-      "Drivers": "5.25-inch Uni-Q (0.75-inch aluminum tweeter in magnesium-aluminum cone) with MAT",
+      "Drivers": "5.25-inch Uni-Q (1-inch vented aluminum dome tweeter in magnesium-aluminum cone) with MAT",
       "Frequency response": "45 Hz–28 kHz ±3 dB",
       "Amplification": "380 W per speaker (100 W tweeter, 280 W woofer)",
       "Inputs": "HDMI eARC, optical, coaxial, analog, Ethernet, Bluetooth, sub out",
       "Streaming": "AirPlay 2, Chromecast, Spotify Connect, Tidal Connect, Roon Ready",
       "Home theater role": "Stereo TV speakers via HDMI eARC",
-      "Dimensions": "305 × 200 × 311 mm per speaker (H × W × D)"
+      "Dimensions": "12.0 × 7.9 × 12.2 in (305 × 200 × 311 mm) each",
+      "Weight": "22.2 lb (10.1 kg) primary; 22.0 lb (10.0 kg) secondary"
     },
     "keySpecs": [
       "Drivers",
@@ -330,7 +336,8 @@
       "Inputs": "Wi-Fi, Bluetooth, USB-C line-in (adapter)",
       "Streaming": "AirPlay 2, Spotify Connect, Sonos app",
       "Home theater role": "Rear surrounds for Sonos soundbars",
-      "Dimensions": "182.5 × 120 × 130.5 mm (H × W × D)"
+      "Dimensions": "7.2 × 4.7 × 5.1 in (183 × 120 × 131 mm)",
+      "Weight": "4.5 lb (2.0 kg)"
     },
     "keySpecs": [
       "Type",
@@ -377,7 +384,7 @@
       }
     ],
     "summary": "Edifier's flagship active stereo pair and successor to the S3000Pro, with planar magnetic tweeters, 6.5-inch aluminum woofers, 256 W RMS and a wireless link between speakers.",
-    "verdict": "The S3000MKII is the successor to Edifier's S3000Pro. Each speaker pairs a **planar magnetic tweeter** with a **6.5-inch aluminum woofer**, the system delivers **256 W RMS**, and Edifier rates it at **38 Hz–40 kHz**. The two speakers talk over a **5.8/5.2 GHz wireless link**, so no cable crosses the TV wall (each still needs power). Inputs include **balanced XLR**, RCA, optical, coaxial, **USB-B** (all digital inputs at 24-bit/192 kHz) and **Bluetooth 5.0 with aptX HD**.\n\n**Connecting to a TV: set PCM.** There's no HDMI, so use optical or coaxial from the TV. Active speakers like this generally don't decode Dolby or DTS bitstreams, so set the TV's digital output to **PCM**; the TV then downmixes 5.1 to stereo.\n\n**Show the maths.** 256 W RMS across two speakers is **128 W per speaker**. A 38 Hz low end is about 1.1 octaves below an 80 Hz crossover point (log2(80 ÷ 38) ≈ 1.07), so for music they can run without a sub. For movies, where [LFE](/glossary/lfe/) effects reach well below 38 Hz, a subwoofer still helps.\n\n**Placement.** With the sofa about 9 feet away, place them roughly 7–9 feet apart, toed in, tweeters at ear height. Four EQ presets (Classic, Monitor, Dynamic, Vocal), the ConneX app and an IR remote cover tuning.\n\nFor a TV, you give up HDMI convenience compared with the [Klipsch The Fives II](/gear/klipsch-the-fives-ii/) or [KEF LS50 Wireless II](/gear/kef-ls50-wireless-ii/). See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) roundup.",
+    "verdict": "The S3000MKII is the successor to Edifier's S3000Pro. Each speaker pairs a **planar magnetic tweeter** with a **6.5-inch aluminum woofer**, the system delivers **256 W RMS**, and Edifier rates it at **38 Hz–40 kHz**. The two speakers talk over a **5.8 GHz wireless link**, so no cable crosses the TV wall (each still needs power). Inputs include **balanced XLR**, RCA, optical, coaxial, **USB-B** (all digital inputs at 24-bit/192 kHz) and **Bluetooth 5.0 with aptX HD**.\n\n**Connecting to a TV: set PCM.** There's no HDMI, so use optical or coaxial from the TV. Active speakers like this generally don't decode Dolby or DTS bitstreams, so set the TV's digital output to **PCM**; the TV then downmixes 5.1 to stereo.\n\n**Show the maths.** 256 W RMS across two speakers is **128 W per speaker**. A 38 Hz low end is about 1.1 octaves below an 80 Hz crossover point (log2(80 ÷ 38) ≈ 1.07), so for music they can run without a sub. For movies, where [LFE](/glossary/lfe/) effects reach well below 38 Hz, a subwoofer still helps.\n\n**Placement.** With the sofa about 9 feet away, place them roughly 7–9 feet apart, toed in, tweeters at ear height. Four EQ presets (Classic, Monitor, Dynamic, Vocal), the ConneX app and an IR remote cover tuning.\n\nFor a TV, you give up HDMI convenience compared with the [Klipsch The Fives II](/gear/klipsch-the-fives-ii/) or [KEF LS50 Wireless II](/gear/kef-ls50-wireless-ii/). See the [best wireless speakers for home theater](/best-wireless-speakers-for-home-theater/) roundup.",
     "bestFor": "Music-first stereo systems that also play TV over optical",
     "skipIf": "You want HDMI, TV remote integration or Dolby decoding",
     "pros": [
@@ -395,10 +402,12 @@
       "Type": "Active stereo bookshelf speakers (pair)",
       "Drivers": "Planar magnetic tweeter + 6.5-inch aluminum woofer (per speaker)",
       "Frequency response": "38 Hz–40 kHz",
-      "Amplification": "256 W RMS total; 5.8/5.2 GHz wireless link between speakers",
+      "Amplification": "256 W RMS total; 5.8 GHz wireless link between speakers",
       "Inputs": "Balanced XLR, RCA, optical, coaxial, USB-B (24-bit/192 kHz), Bluetooth 5.0 (aptX HD)",
       "Streaming": "Bluetooth (aptX HD)",
-      "Home theater role": "Stereo TV speakers via optical or coaxial"
+      "Home theater role": "Stereo TV speakers via optical or coaxial",
+      "Dimensions": "14.2 × 8.7 × 10.6 in (360 × 222 × 268 mm) each",
+      "Weight": "44.1 lb (20 kg) per pair (net)"
     },
     "keySpecs": [
       "Type",

@@ -5,16 +5,20 @@ import Byline from '../components/Byline.astro';
 import QuickPicks from '../components/QuickPicks.astro';
 import PickBlock from '../components/PickBlock.astro';
 import ComparisonTable from '../components/ComparisonTable.astro';
+import DecisionTable from '../components/DecisionTable.astro';
+import NotableMentions from '../components/NotableMentions.astro';
+import AllProductsTable from '../components/AllProductsTable.astro';
 import FAQ from '../components/FAQ.astro';
 import TOC from '../components/TOC.astro';
 import RelatedCards from '../components/RelatedCards.astro';
-import StickyBuyBar from '../components/StickyBuyBar.astro';
 import BeforeYouBuy from '../components/BeforeYouBuy.astro';
-import { articles, articleMap, getProduct, hubLabel, readMinutes, articleUrl, brandUrl, productsByBrand } from '../lib/data';
+import StickyBuyBar from '../components/StickyBuyBar.astro';
+import { articles, articleMap, getProduct, hubLabel, readMinutes, articleUrl, brandUrl, productsByBrand, productsByCategory, productUrl, formatDate } from '../lib/data';
+import { CATEGORY_LABELS, LAB } from '../data/site';
 import { md, slugify } from '../lib/md';
 import { articleSchema, breadcrumbs, faqPage, graph, itemList } from '../lib/schema';
 import { amazonImage, amazonUrl } from '../lib/amazon';
-import type { Article } from '../lib/types';
+import type { Article, Section } from '../lib/types';
 
 export function getStaticPaths() {
   return articles.map((a) => ({ params: { slug: a.slug }, props: { article: a } }));
@@ -24,7 +28,9 @@ const { article: a } = Astro.props as { article: Article };
 const url = articleUrl(a);
 const picks = a.picks ?? [];
 const pickProducts = picks.map((p) => getProduct(p.product));
-const before = a.sections.filter((s) => s.position === 'before');
+const isRoundup = a.kind === 'roundup';
+const short = a.h1.replace(/^Best /, '');
+
 // Comparison columns: keep specs most picks actually have; top up from shared key specs.
 const coverage = (k: string) => pickProducts.filter((p) => p.specs[k]).length / Math.max(1, pickProducts.length);
 const columns = (a.comparisonSpecs ?? []).filter((k) => coverage(k) >= 0.5);
@@ -32,20 +38,39 @@ for (const k of [...new Set(pickProducts.flatMap((p) => p.keySpecs ?? []))].sort
   if (columns.length >= 4) break;
   if (!columns.includes(k) && coverage(k) >= 0.6) columns.push(k);
 }
-const after = a.sections.filter((s) => s.position !== 'before');
 
-// Numbered H2 outline, same pattern as our proven templates.
+// Evaluation method ("How We Chose/Ranked…") moves ahead of the picks, like RTINGS' "How We Test" box.
+const method: Section | undefined = picks.length && a.kind !== 'guide' ? a.sections.find((s) => /^How We /i.test(s.heading)) : undefined;
+const rest = a.sections.filter((s) => s !== method);
+// Roundups put the answer first: buying-guide sections follow the picks. Reviews and guides keep their intro sections up top.
+const lead = isRoundup ? [] : rest.filter((s) => s.position === 'before');
+const guidance = isRoundup ? rest : rest.filter((s) => s.position !== 'before');
+
+// Primary category: the one most picks belong to (for the method footnote and the "all models" table).
+const catCounts = new Map<string, number>();
+pickProducts.forEach((p) => catCounts.set(p.category, (catCounts.get(p.category) ?? 0) + 1));
+const primaryCat = [...catCounts.entries()].sort((x, y) => y[1] - x[1] || (x[0] === a.hub ? -1 : 1))[0]?.[0];
+const catLabel = primaryCat ? CATEGORY_LABELS[primaryCat] ?? primaryCat : '';
+const catProducts = primaryCat ? productsByCategory(primaryCat) : [];
+const mentions = (isRoundup ? a.mentions ?? [] : []).filter((m) => !picks.some((pk) => pk.product === m.product));
+
+// Numbered H2 outline.
 type H2 = { id: string; label: string };
 const outline: H2[] = [];
 let n = 0;
 const num = (label: string, id?: string) => { n += 1; const h = { id: id ?? slugify(label), label: `${n}. ${label}` }; outline.push(h); return h; };
-// Order follows our best-performing Bing pages: picks first, then the buying guide, FAQ, mistakes.
-const picksH = picks.length ? num(a.listName ? `The ${picks.length} Best ${a.listName}, Compared & Ranked` : (a.picksHeading ?? `The Best ${a.h1.replace(/^Best /, '')}`), 'the-picks') : null;
-const tableH = picks.length > 1 ? num(`${a.h1.replace(/^Best /, '')} Side by Side`, 'side-by-side') : null;
-const beforeH = before.map((s) => num(s.heading));
-const afterH = after.map((s) => num(s.heading));
-const faqH = num('Frequently Asked Questions', 'faq');
+const leadH = lead.map((s) => num(s.heading));
+const tableH = picks.length > 1 ? num('Compare the Picks at a Glance', 'compare-picks') : null;
+const methodH = method ? num(method.heading) : null;
+const picksH = picks.length ? num(a.listName ? `The ${picks.length} Best ${a.listName}, Compared & Ranked` : (a.picksHeading ?? `The Best ${short}`), 'the-picks') : null;
+const specsH = picks.length > 1 && columns.length ? num('Spec Sheets Side by Side', 'side-by-side') : null;
+const mentionsH = mentions.length ? num('Notable Mentions', 'mentions') : null;
+const guidanceH = guidance.map((s) => num(s.heading));
 const mistakesH = a.mistakes?.length ? num('Common Mistakes to Avoid', 'mistakes') : null;
+const bottomH = num('The Bottom Line', 'bottom-line');
+const faqH = num('Frequently Asked Questions', 'faq');
+const sourcesH = num('Sources and Recent Updates', 'sources');
+const allH = isRoundup && catProducts.length > picks.length ? num(`All ${catLabel} We Track`, 'all-models') : null;
 
 const related = a.related.map((s) => articleMap.get(s)).filter(Boolean) as Article[];
 const sameHub = articles.filter((x) => x.hub === a.hub && x.slug !== a.slug && !a.related.includes(x.slug)).slice(0, 6);
@@ -63,60 +88,119 @@ const schema = graph(
 const firstImg = pickProducts[0] ? amazonImage(pickProducts[0], 160) ?? undefined : undefined;
 const brandProducts = a.brand ? productsByBrand(a.brand) : [];
 const barItems = picks.map((pk, i) => { const p = pickProducts[i]; return { slug: p.slug, name: p.name, label: `#${i + 1} · ${pk.award}`, url: amazonUrl(p), image: amazonImage(p, 160), target: `pick-${i + 1}` }; });
+const testedPicks = pickProducts.filter((p) => p.tested);
+const inCat = pickProducts.filter((p) => p.category === primaryCat).length;
+const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(', ');
 ---
 <Base title={a.title} description={a.metaDescription} type="article" schema={schema} published={a.published} updated={a.updated} section={hubLabel(a.hub)} tags={a.keywords.slice(0, 5)} mdAlternate={`/${a.slug}.md`} preloadImage={firstImg}>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+  <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-6">
     <Breadcrumbs items={crumbs} />
     <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_240px] lg:gap-12 mt-4">
-      <article class="max-w-3xl">
+      <article class="max-w-[760px] min-w-0">
         <p class="text-xs font-bold uppercase tracking-wider text-brand-600">{hubLabel(a.hub)}</p>
-        <h1 class="mt-2 text-3xl sm:text-4xl font-extrabold tracking-tight text-ink leading-tight">{a.displayH1 ?? a.h1}</h1>
+        <h1 class="mt-2 text-[2.125rem] lg:text-5xl font-extrabold tracking-tight text-ink leading-[1.12]">{a.displayH1 ?? a.h1}</h1>
         <Byline updated={a.updated} published={a.published} minutes={readMinutes(a)} />
         <div class="prose mt-6" set:html={md(a.intro)} />
         {picks.length > 0 && <QuickPicks picks={picks} />}
         {a.quickAnswer && (
           <div class="not-prose my-6 rounded-xl bg-brand-50 border border-brand-100 p-4 sm:p-5">
             <p class="text-xs font-bold uppercase tracking-wider text-brand-700">Quick answer</p>
-            <div class="prose mt-1 text-[1rem]" set:html={md(a.quickAnswer)} />
+            <div class="prose mt-1 !text-[1.0625rem]" set:html={md(a.quickAnswer)} />
           </div>
         )}
         <TOC items={outline} variant="guide" />
+        {lead.length > 0 && <div class="prose">{lead.map((s, i) => (<><h2 id={leadH[i].id}>{leadH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}</div>}
+
+        {tableH && (
+          <div class="prose"><h2 id={tableH.id}>{tableH.label}</h2>
+            <p>What each pick is for, the limitation most likely to change your mind, and its score and street-price band. Tap a name to jump to the full write-up.</p>
+          </div>
+          <DecisionTable picks={picks} label={`${a.h1}: picks compared`} />
+        )}
+
+        {methodH && method && (
+          <section class="method-box not-prose mt-12 border-t-4 border-gold pt-1" aria-labelledby={methodH.id}>
+            <div class="prose">
+              <h2 id={methodH.id} class="!mt-4">{methodH.label}</h2>
+              <Fragment set:html={md(method.body)} />
+              {primaryCat && <p class="text-[0.95rem] text-slate-600">We track <strong>{catProducts.length} models</strong> in our {catLabel} database; {inCat} of them made this list. {testedPicks.length ? <>{testedPicks.length} of the picks have been through our lab in {LAB.location} and carry a <strong>Lab tested</strong> badge.</> : <>None of these picks has been through our lab in {LAB.location} yet, so their scores come from research.</>} <a href="/how-we-test/">How the BHTR Score works</a>.</p>}
+            </div>
+          </section>
+        )}
+
         <div class="prose">
           {picksH && <h2 id={picksH.id}>{picksH.label}</h2>}
         </div>
         {picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}
-        {tableH && (
-          <div class="prose"><h2 id={tableH.id}>{tableH.label}</h2></div>
+
+        {specsH && (
+          <div class="prose"><h2 id={specsH.id}>{specsH.label}</h2></div>
           <ComparisonTable products={pickProducts} specs={columns} awards={picks.map((p) => p.award)} />
         )}
+
+        {mentionsH && (
+          <div class="prose"><h2 id={mentionsH.id}>{mentionsH.label}</h2>
+            <p>Good models that just missed the list, and the situations where one of them is the better buy.</p>
+          </div>
+          <NotableMentions items={mentions} />
+        )}
+
         <div class="prose">
-          {before.map((s, i) => (<><h2 id={beforeH[i].id}>{beforeH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}
-          {after.map((s, i) => (<><h2 id={afterH[i].id}>{afterH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}
-        </div>
-        {!a.draft && <BeforeYouBuy slug={a.slug} />}
-        <div class="prose">
-          <h2 id={faqH.id}>{faqH.label}</h2>
-        </div>
-        <FAQ faqs={a.faqs} />
-        {mistakesH && (
-          <div class="prose">
+          {guidance.map((s, i) => (<><h2 id={guidanceH[i].id}>{guidanceH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}
+          {mistakesH && (
             <>
               <h2 id={mistakesH.id}>{mistakesH.label}</h2>
               {a.mistakes!.map((m) => (<><h3>{m.title}</h3><Fragment set:html={md(m.body)} /></>))}
             </>
+          )}
+          <h2 id={bottomH.id}>{bottomH.label}</h2>
+          <Fragment set:html={md(a.bottomLine)} />
+        </div>
+        <BeforeYouBuy slug={a.slug} />
+        <div class="prose">
+          <h2 id={faqH.id}>{faqH.label}</h2>
+        </div>
+        <FAQ faqs={a.faqs} />
+
+        <div class="prose">
+          <h2 id={sourcesH.id}>{sourcesH.label}</h2>
+          {a.updates?.length ? (
+            <>
+              <h3>Recent updates</h3>
+              <ul>{a.updates.map((u) => <li><strong><time datetime={u.date}>{formatDate(u.date)}</time>:</strong> {u.note}</li>)}</ul>
+            </>
+          ) : (
+            <p>First published <time datetime={a.published}>{formatDate(a.published)}</time>; last reviewed <time datetime={a.updated}>{formatDate(a.updated)}</time>.</p>
+          )}
+          <h3>What this page is based on</h3>
+          <ul>
+            {picks.length > 0 && <li set:html={md(`**Spec sheets.** Every figure comes from the manufacturer's published specifications, kept in one record per model: ${specLinks}.`).replace(/^<p>|<\/p>\s*$/g, '')} />}
+            {testedPicks.length > 0 ? (
+              <li><strong>Our lab.</strong> {testedPicks.map((p, i) => <>{i > 0 && ', '}<a href={`${productUrl(p)}#lab-results`}>{p.name}</a></>)} {testedPicks.length === 1 ? 'was' : 'were'} measured in our lab in {LAB.location}; the date, method and results are on {testedPicks.length === 1 ? 'its' : 'each'} gear page. The other picks have not been through the lab yet.</li>
+            ) : (
+              <li><strong>Our lab.</strong> None of the models on this page has been through our lab in {LAB.location} yet. When one is, it gets a Lab tested badge and its results are published on its gear page.</li>
+            )}
+            <li><strong>Independent measurements.</strong> Where we quote a measured result for an untested model, it is one that is widely published by independent reviewers.</li>
+            <li><strong>Room maths.</strong> Screen size, throw distance, channel counts and power needs are worked out from the specs and stated room sizes, with the calculation shown in the text.</li>
+            <li><strong>Owner reports.</strong> Reliability and long-term notes summarize recurring patterns in owner reviews, not single anecdotes.</li>
+            <li><a href="/how-we-test/">How we score</a> and our <a href="/editorial-policy/">editorial policy</a> explain how picks are chosen and when a page is revised.</li>
+          </ul>
+        </div>
+
+        {allH && (
+          <div class="prose"><h2 id={allH.id}>{allH.label}</h2>
+            <p>Our picks above are what we would buy for most people. If you'd rather choose yourself, here is every model in our {catLabel} database, ranked by BHTR Score.</p>
           </div>
+          <AllProductsTable products={catProducts} picked={pickProducts.map((p) => p.slug)} label={`All ${catLabel} ranked by score`} />
         )}
+
         {brandProducts.length > 0 && (
           <div class="prose"><h2 id="every-product">Every {a.brand} Product We Track</h2>
             <p>See the full <a href={brandUrl(a.brand!)}>{a.brand} brand page</a> for spec sheets and scores on all {brandProducts.length} models.</p>
           </div>
         )}
-        {sameHub.length > 0 && (<div class="prose"><h2 id="everything-else">Everything Else About {hubLabel(a.hub)}</h2></div><RelatedCards articles={sameHub} />)}
         {related.length > 0 && (<div class="prose"><h2 id="related">Related {a.hub === 'guides' || a.hub === 'brands' ? '' : hubLabel(a.hub).replace(/s$/, '') + ' '}Guides</h2></div><RelatedCards articles={related} />)}
-        <div class="prose">
-          <h2 id="bottom-line">The Bottom Line</h2>
-          <Fragment set:html={md(a.bottomLine)} />
-        </div>
+        {sameHub.length > 0 && (<div class="prose"><h2 id="everything-else">Everything Else About {hubLabel(a.hub)}</h2></div><RelatedCards articles={sameHub} />)}
       </article>
       <aside class="hidden lg:block"><TOC items={outline} variant="desktop" /></aside>
     </div>

@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import vercel from '@astrojs/vercel';
 import { readFileSync, readdirSync } from 'node:fs';
 
 const SITE = 'https://www.besthometheaterreview.com';
@@ -48,6 +49,10 @@ export default defineConfig({
   site: SITE,
   trailingSlash: 'always',
   build: { format: 'directory', inlineStylesheets: 'always' },
+  output: 'static',
+  adapter: vercel({
+    webAnalytics: { enabled: true },
+  }),
   integrations: [
     sitemap({
       filter: (page) => !page.includes('/404'),

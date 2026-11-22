@@ -88,7 +88,9 @@ Use our [throw distance calculator](/tools/projector-throw-calculator/) to check
 
 **How much do you need?** For a dark, dedicated room and a 100–120 inch matte white screen, about **1,500–2,000 ANSI lumens** is plenty for SDR. HDR benefits from more headroom. A living room with lights on needs 2,500–3,000+ lumens and ideally an [ALR screen](/glossary/alr-screen/).
 
-Calibrated "movie" modes typically deliver noticeably less than the headline figure, which is measured in the brightest (often greenish) mode.`,
+Calibrated "movie" modes typically deliver noticeably less than the headline figure, which is measured in the brightest (often greenish) mode.
+
+**ANSI vs ISO lumens.** The original ANSI brightness standard (IT7.215) was withdrawn in 2003, and **ISO 21118** is the international standard that took its place. Both average light readings taken across a full-white test image at several points on the screen, so a 2,000 ANSI lumen projector and a 2,000 ISO lumen projector should look similarly bright. Treat ANSI and ISO figures as interchangeable for shopping, and treat any other kind of "lumens" with suspicion until you find an ANSI or ISO number on the spec sheet.`,
     related: [
       { title: 'ALR screens explained', url: '/glossary/alr-screen/' },
       { title: 'Best Budget Home Theater Projectors', url: '/best-budget-home-theater-projector/' },
@@ -210,6 +212,51 @@ Impedance and [sensitivity](/glossary/speaker-sensitivity/) together tell you ho
     related: [
       { title: 'Speaker sensitivity explained', url: '/glossary/speaker-sensitivity/' },
       { title: 'Best Home Theater Amplifiers', url: '/best-home-theater-amplifier/' },
+    ],
+  },
+  {
+    slug: 'mini-led',
+    term: 'Mini LED',
+    short: 'An LCD TV backlight built from thousands of tiny LEDs grouped into local dimming zones, for very high brightness and deeper blacks than standard LED TVs.',
+    body: `A **Mini LED** TV is still an LCD TV. The difference is the backlight: instead of a few dozen or a few hundred conventional LEDs, it uses thousands of much smaller ones. They are grouped into **local dimming zones** that the TV brightens or dims independently, so a bright explosion can sit next to a near-black night sky in the same frame.
+
+**Why it matters for home theater:**
+
+- **Brightness.** Mini LED sets are the brightest TVs you can buy, with HDR highlights that commonly run from about 1,000 to several thousand nits. That makes them the better choice for bright living rooms and for [HDR](/glossary/hdr/) that really pops.
+- **No burn-in.** The LEDs light an LCD panel, so static logos, game HUDs and news tickers carry no risk of permanent retention.
+- **Price per inch.** Big Mini LED screens (75 to 100 inches) cost far less than OLEDs of the same size.
+
+**The trade-offs.** Each zone still lights many pixels, so bright objects on dark backgrounds can show a faint halo, called **blooming**. More zones and better processing reduce it, but no Mini LED matches the pixel-level black of [OLED](/glossary/oled/) in a dark room. Many Mini LED TVs use VA panels, which lose contrast and colour when you sit well off to the side.
+
+**Mini LED vs Micro LED.** They are different technologies. Micro LED has no LCD layer at all: every pixel is its own tiny LED, like OLED but without organic materials. Today it is reserved for very expensive, very large displays.
+
+**Reading the spec sheet:** "QD-Mini LED" or "QLED Mini LED" means a quantum-dot colour layer sits on top of the Mini LED backlight. Zone counts and peak-brightness figures are manufacturer claims measured in the TV's brightest mode, so compare them with independent measurements before you buy.`,
+    related: [
+      { title: 'Best TVs for Home Theater', url: '/best-tv-for-home-theater/' },
+      { title: 'OLED explained', url: '/glossary/oled/' },
+      { title: 'HDR explained', url: '/glossary/hdr/' },
+    ],
+  },
+  {
+    slug: 'oled',
+    term: 'OLED (WOLED and QD-OLED)',
+    short: 'A self-emissive TV technology where every pixel makes its own light and can switch fully off, giving perfect blacks and wide viewing angles with no backlight.',
+    body: `In an **OLED** (organic light-emitting diode) TV, every pixel produces its own light. There is no backlight, so a pixel showing black is simply switched off. The result is **perfect black and effectively infinite contrast**, with no blooming around bright objects. That is why OLED is the favourite of dedicated, light-controlled home theaters.
+
+**Two kinds of OLED panel:**
+
+- **WOLED** (white OLED, used by LG and in some Sony, Panasonic and Samsung models) uses white sub-pixels with colour filters, plus an extra white sub-pixel for brightness.
+- **QD-OLED** (Samsung Display, used in Samsung's S95F, most sizes of the S90F, and Sony's Bravia 8 II) uses blue OLED material with quantum-dot colour converters, which helps colour volume at high brightness.
+
+Both deliver the same core advantages: pixel-level contrast, very wide viewing angles that suit sofas with side seats, and near-instant response for gaming.
+
+**The trade-offs.** OLED TVs are not as bright as the best [Mini LED](/glossary/mini-led/) sets, especially across large bright areas of the screen, so a sunny living room can wash them out. Static elements left on screen for many hours can cause **burn-in**; modern sets use pixel shifting and refresh cycles to limit it, and normal mixed viewing rarely causes problems. Large OLEDs (83 inches and up) also cost much more than Mini LED TVs of the same size.
+
+**Which to choose:** pick OLED for a dark or dim room and the best movie contrast; pick Mini LED for a bright room, very large screen sizes or heavy static content.`,
+    related: [
+      { title: 'Best TVs for Home Theater', url: '/best-tv-for-home-theater/' },
+      { title: 'Mini LED explained', url: '/glossary/mini-led/' },
+      { title: 'HDR explained', url: '/glossary/hdr/' },
     ],
   },
   {

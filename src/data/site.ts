@@ -10,9 +10,7 @@ export const SITE = {
   description:
     'Independent home theater reviews: projectors, AV receivers, speakers, subwoofers and complete systems checked against the spec sheet, room size and real cost. No paid placements.',
   locale: 'en_US',
-  author: 'David Watson',
-  authorRole: 'Editor',
-  authorUrl: '/authors/david-watson/',
+  author: 'Justin Lee',
   email: 'editors@besthometheaterreview.com',
   ogImage: '/og-default.png',
   /** Amazon Associates tracking ID used on every Amazon link. */
@@ -23,6 +21,21 @@ export const SITE = {
   /** Optional: Google Search Console verification token. */
   googleSiteVerification: '',
 } as const;
+
+/** Article author. Facts only from his public profile; keep in sync with /authors/justin-lee/. */
+export const AUTHOR = {
+  name: 'Justin Lee',
+  slug: 'justin-lee',
+  url: '/authors/justin-lee/',
+  role: 'Author',
+  shortBio: 'Software engineer (ex-Apple, ex-Tesla firmware) with a background in digital signal processing. University of Waterloo Computer Science.',
+  sameAs: ['https://www.linkedin.com/in/justinllee32/'],
+  knowsAbout: ['Digital signal processing', 'Embedded software', 'Firmware', 'Home theater'],
+  alumniOf: 'University of Waterloo',
+} as const;
+
+/** Our testing lab. Products get a "Lab tested" badge only when they have a `tested` record. */
+export const LAB = { location: 'Mississauga, Ontario' } as const;
 
 export const CATEGORY_LABELS: Record<string, string> = {
   projector: 'Projectors',

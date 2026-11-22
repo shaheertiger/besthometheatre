@@ -1,0 +1,34 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import { AUTHOR, SITE } from '../../data/site';
+import { articles, articleUrl, formatDate } from '../../lib/data';
+import { authorPerson, breadcrumbs, graph } from '../../lib/schema';
+
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'About', url: '/about/' }, { name: AUTHOR.name, url: AUTHOR.url }];
+const byDate = [...articles].sort((a, b) => b.updated.localeCompare(a.updated) || a.h1.localeCompare(b.h1));
+const schema = graph(breadcrumbs(crumbs), { '@type': 'ProfilePage', url: SITE.url + AUTHOR.url, name: `${AUTHOR.name}, ${SITE.name}`, mainEntity: { ...authorPerson(), description: AUTHOR.shortBio } });
+---
+<Base title={`${AUTHOR.name}: Author at ${SITE.name}`} description={`${AUTHOR.name} writes the buying guides and reviews on ${SITE.name}. ${AUTHOR.shortBio}`} schema={schema}>
+  <PageHeader h1={AUTHOR.name} crumbs={crumbs} intro={`${AUTHOR.role}, ${SITE.name}`} />
+  <div class="max-w-3xl mx-auto px-5 sm:px-6 lg:px-8">
+    <div class="prose mt-6">
+      <p>Justin Lee writes the buying guides, brand reviews and product verdicts on {SITE.name}.</p>
+      <p>He is a software engineer whose work has sat close to the hardware: embedded and firmware engineering, and digital signal processing, the same discipline behind room correction, bass management and the processing inside every AV receiver and soundbar.</p>
+      <h2>Background</h2>
+      <ul>
+        <li><strong>Apple</strong>, Software Engineer (2024–2026) and Software Engineer Intern (2023), Cupertino</li>
+        <li><strong>Tesla</strong>, Firmware Engineer Intern (2023), Palo Alto</li>
+        <li><strong>Coherent Logix</strong>, Digital Signal Processing Software Engineer Intern (2022), Waterloo</li>
+        <li><strong>Peraso</strong>, Embedded Software Engineer co-op (2021–2022), Toronto</li>
+        <li><strong>University of Waterloo</strong>, Bachelor's degree in Computer Science (2019–2024)</li>
+      </ul>
+      <p>Profile: <a href={AUTHOR.sameAs[0]} rel="me noopener" target="_blank">LinkedIn</a></p>
+      <h2>How He Works</h2>
+      <p>Every guide follows our published <a href="/how-we-test/">scoring method</a> and <a href="/editorial-policy/">editorial policy</a>. Products that have been through our lab carry a <strong>Lab tested</strong> badge with the date, method and results on their gear page; everything else is scored from spec sheets, room maths, widely published independent measurements and owner-reported reliability, and the page says so.</p>
+      <h2>Articles by {AUTHOR.name}</h2>
+      <ul>{byDate.map((a) => <li><a href={articleUrl(a)}>{a.h1}</a> <span class="text-slate-500 text-sm">· updated {formatDate(a.updated)}</span></li>)}</ul>
+      <p>Spotted an error? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+    </div>
+  </div>
+</Base>
