@@ -47,7 +47,7 @@ export function faqPage(faqs: FAQ[]) {
   };
 }
 
-const author = () => ({ '@type': 'Organization', name: SITE.author, url: abs('/about/') });
+export const author = () => ({ '@type': 'Person', name: SITE.author, jobTitle: SITE.authorRole, url: abs(SITE.authorUrl), worksFor: { '@type': 'Organization', name: SITE.name, url: SITE.url + '/' } });
 
 export function articleSchema(a: Article, url: string) {
   return {

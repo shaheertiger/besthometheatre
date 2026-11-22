@@ -11,7 +11,7 @@ export function getStaticPaths() {
 
 export const GET: APIRoute = ({ props }) => {
   const a = (props as { article: Article }).article;
-  const out: string[] = [`# ${a.displayH1 ?? a.h1}`, '', `> ${a.metaDescription}`, '', `Source: ${SITE.url}/${a.slug}/ · Updated ${a.updated} · ${SITE.author}`, '', a.intro, ''];
+  const out: string[] = [`# ${a.displayH1 ?? a.h1}`, '', `> ${a.metaDescription}`, '', `Source: ${SITE.url}/${a.slug}/ · Updated ${a.updated} · By ${SITE.author}, ${SITE.authorRole}`, '', a.intro, ''];
   if (a.quickAnswer) out.push('## Quick answer', '', a.quickAnswer, '');
   if (a.picks?.length) {
     out.push(`## ${a.listName ? `The ${a.picks.length} Best ${a.listName}, Compared & Ranked` : (a.picksHeading ?? 'Our picks')}`, '');

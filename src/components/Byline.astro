@@ -5,7 +5,7 @@ interface Props { updated: string; published?: string; minutes?: number }
 const { updated, published, minutes } = Astro.props;
 ---
 <div class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-500">
-  <span>By <a href="/about/" class="font-semibold text-slate-700 hover:text-brand-600 no-underline">{SITE.author}</a></span>
+  <span>By <a href={SITE.authorUrl} rel="author" class="font-semibold text-slate-700 hover:text-brand-600 no-underline">{SITE.author}</a>, {SITE.authorRole}</span>
   <span aria-hidden="true">·</span>
   <span>Updated <time datetime={updated}>{formatDate(updated)}</time></span>
   {minutes && <><span aria-hidden="true">·</span><span>{minutes} min read</span></>}

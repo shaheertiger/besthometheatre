@@ -10,7 +10,9 @@ export const SITE = {
   description:
     'Independent home theater reviews: projectors, AV receivers, speakers, subwoofers and complete systems checked against the spec sheet, room size and real cost. No paid placements.',
   locale: 'en_US',
-  author: 'Best Home Theater Review Editorial Team',
+  author: 'David Watson',
+  authorRole: 'Editor',
+  authorUrl: '/authors/david-watson/',
   email: 'editors@besthometheaterreview.com',
   ogImage: '/og-default.png',
   /** Amazon Associates tracking ID used on every Amazon link. */

@@ -1,0 +1,31 @@
+---
+import Prose from '../../layouts/Prose.astro';
+import { SITE } from '../../data/site';
+import { articles, articleUrl } from '../../lib/data';
+import { author } from '../../lib/schema';
+
+const live = articles.filter((a) => !a.draft);
+const groups = [
+  { heading: 'Best Lists', items: live.filter((a) => a.kind === 'roundup') },
+  { heading: 'Brand Reviews', items: live.filter((a) => a.kind === 'review') },
+  { heading: 'Guides', items: live.filter((a) => a.kind === 'guide') },
+].filter((g) => g.items.length);
+---
+<Prose
+  title={`${SITE.author}, ${SITE.authorRole} at ${SITE.name}`}
+  description={`${SITE.author} is the ${SITE.authorRole.toLowerCase()} of ${SITE.name} and writes all ${live.length} of its buying guides, brand reviews and how-to guides.`}
+  h1={SITE.author}
+  path={SITE.authorUrl}
+  pageType="ProfilePage"
+  mainEntity={author()}
+  intro={`${SITE.authorRole}, ${SITE.name}`}
+>
+  <p>{SITE.author} is the {SITE.authorRole.toLowerCase()} of {SITE.name} and writes every guide on the site: {live.length} pages, each built on spec sheets and published sources and updated as products change. Read <a href="/how-we-test/">how we score products</a> and our <a href="/editorial-policy/">editorial policy</a> for the method behind every page.</p>
+  <p>Spotted an error? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We correct factual errors quickly and note material updates on the page.</p>
+  {groups.map((g) => (
+    <>
+      <h2>{g.heading} by {SITE.author}</h2>
+      <ul>{g.items.map((a) => <li><a href={articleUrl(a)}>{a.title}</a></li>)}</ul>
+    </>
+  ))}
+</Prose>
