@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import AffiliateNote from '../components/AffiliateNote.astro';
 import Byline from '../components/Byline.astro';
 import QuickPicks from '../components/QuickPicks.astro';
 import PickBlock from '../components/PickBlock.astro';
@@ -196,6 +197,7 @@ const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(
           <h2 id="bottom-line">The Bottom Line</h2>
           <Fragment set:html={md(a.bottomLine)} />
         </div>
+        <AffiliateNote />
       </article>
       <aside class="hidden lg:block"><TOC items={outline} variant="desktop" /></aside>
     </div>
