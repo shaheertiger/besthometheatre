@@ -47,7 +47,10 @@ function splitSteps(heading: string, body: string): { before: string; steps: Ste
   return { before: lines.slice(0, first).join('\n').trim(), steps, after: lines.slice(last + 1).join('\n').trim() };
 }
 
-const sections = a.sections.map((s) => ({ ...s, id: slugify(s.heading), split: splitSteps(s.heading, s.body) }));
+const parsed = a.sections.map((s) => ({ ...s, id: slugify(s.heading), split: splitSteps(s.heading, s.body) }));
+// Like the reference, the first step-by-step section comes straight after the short answer.
+const firstSteps = parsed.findIndex((s) => s.split);
+const sections = firstSteps > 0 ? [parsed[firstSteps], ...parsed.filter((_, i) => i !== firstSteps)] : parsed;
 const toc = [
   { id: 'short-answer', label: shortLabel },
   ...sections.map((s) => ({ id: s.id, label: s.heading })),
