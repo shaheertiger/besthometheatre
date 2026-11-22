@@ -11,6 +11,20 @@ export function getStaticPaths() {
 
 export const GET: APIRoute = ({ props }) => {
   const a = (props as { article: Article }).article;
+  if (a.kind === 'guide') {
+    // Same order as the HTML guide layout (GuidePage.astro).
+    const g: string[] = [`# ${a.h1}`, '', `> ${a.metaDescription}`, '', `Source: ${SITE.url}/${a.slug}/ · Updated ${a.updated} · By ${SITE.author}`, ''];
+    g.push(`## ${a.h1.split(':')[0].trim()}: The Short Answer`, '', a.quickAnswer ?? '', '', a.intro, '');
+    a.sections.forEach((s) => g.push(`## ${s.heading}`, '', s.body, ''));
+    if (a.picks?.length) {
+      g.push(`## ${a.picksHeading ?? 'Our Picks'}`, '');
+      a.picks.forEach((pk, i) => { const p = getProduct(pk.product); g.push(`### ${i + 1}. ${p.name} (${pk.award})`, '', pk.body, ''); });
+    }
+    if (a.mistakes?.length) { g.push('## Common Mistakes to Avoid', ''); a.mistakes.forEach((m) => g.push(`### ${m.title}`, '', m.body, '')); }
+    g.push('## The Bottom Line', '', a.bottomLine, '');
+    if (a.faqs.length) { g.push('## Frequently Asked Questions', ''); a.faqs.forEach((f) => g.push(`### ${f.q}`, '', f.a, '')); }
+    return new Response(g.join('\n'), { headers: { 'Content-Type': 'text/markdown; charset=utf-8' } });
+  }
   const out: string[] = [`# ${a.displayH1 ?? a.h1}`, '', `> ${a.metaDescription}`, '', `Source: ${SITE.url}/${a.slug}/ · Updated ${a.updated} · ${SITE.author}`, '', a.intro, ''];
   if (a.quickAnswer) out.push('## Quick answer', '', a.quickAnswer, '');
   const picks = a.picks ?? [];

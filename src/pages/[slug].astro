@@ -11,6 +11,7 @@ import FAQ from '../components/FAQ.astro';
 import TOC from '../components/TOC.astro';
 import RelatedCards from '../components/RelatedCards.astro';
 import BeforeYouBuy from '../components/BeforeYouBuy.astro';
+import GuidePage from '../components/GuidePage.astro';
 import { FORMAT } from '../data/site';
 import StickyBuyBar from '../components/StickyBuyBar.astro';
 import { articles, articleMap, getProduct, hubLabel, readMinutes, articleUrl, brandUrl, productsByBrand, productsByCategory, productUrl, formatDate } from '../lib/data';
@@ -92,6 +93,7 @@ const testedPicks = pickProducts.filter((p) => p.tested);
 const inCat = pickProducts.filter((p) => p.category === primaryCat).length;
 const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(', ');
 ---
+{a.kind === 'guide' && !a.draft ? <GuidePage article={a} /> : (
 <Base title={a.title} description={a.metaDescription} type="article" schema={schema} published={a.published} updated={a.updated} section={hubLabel(a.hub)} tags={a.keywords.slice(0, 5)} mdAlternate={`/${a.slug}.md`} preloadImage={firstImg}>
   <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-6">
     <Breadcrumbs items={crumbs} />
@@ -202,3 +204,4 @@ const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(
   </div>
   {barItems.length > 0 && <StickyBuyBar items={barItems} trigger="#quick-picks" mode="track" />}
 </Base>
+)}
