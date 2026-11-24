@@ -4,6 +4,7 @@
   "title": "Best Home Theater Receiver (2026): 6 AVRs Matched to Your Room",
   "metaDescription": "The best home theater receiver for 5.1, 7.2 and Dolby Atmos rooms, ranked on real channel counts, rated power, 4K/120 HDMI and room correction.",
   "h1": "Best Home Theater Receiver",
+  "listName": "Home Theater Receivers",
   "keyword": "best home theater receiver",
   "keywords": [
     "best av receiver for home theater",
@@ -18,7 +19,7 @@
   ],
   "hub": "receiver",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best home theater receiver for most people in 2026 is the **[Denon AVR-X3800H](/gear/denon-avr-x3800h/)**: nine amplified channels, 11.4-channel processing, Audyssey MultEQ XT32 and an optional Dirac Live upgrade mean it can start as a 5.1.2 system and grow into a full 7.1.4 Dolby Atmos room. This guide is for anyone choosing an AV receiver (AVR) to power passive speakers, from a first 5.1 setup to a dedicated theater.\n\nEvery pick is ranked on the spec sheet, not the box: how many speakers it can actually power, what its watts-per-channel figure means at the stated test conditions, which HDMI inputs pass 4K/120 for gaming, and how good its room correction is. If your budget is tighter, the **[Denon AVR-X1800H](/gear/denon-avr-x1800h/)** covers 5.1.2 for much less, and the **[Yamaha RX-V4A](/gear/yamaha-rx-v4a/)** is the pick for a simple 5.1 system.",
   "quickAnswer": "The Denon AVR-X3800H is the best home theater receiver for most people: 9 amplified channels, 11.4 processing, Audyssey MultEQ XT32 and Dirac Live support, so it can run a 5.1.4 Atmos system out of the box. The Denon AVR-X1800H is the best value 7.2 receiver, and the Yamaha RX-V4A is the best budget 5.2 receiver if you don't need height speakers.",
   "picksHeading": "The best home theater receivers right now",
@@ -36,7 +37,7 @@
     {
       "product": "onkyo-tx-rz50",
       "award": "Best for Dirac Live Room Correction",
-      "body": "The Onkyo TX-RZ50 is the least expensive route on this list to **nine amplified channels with Dirac Live** room correction included in the box. Onkyo rates it at **120 W per channel (8 ohms, 20 Hz–20 kHz, 0.08% THD, two channels driven)**. Against the X3800H's 105 W, that is 10 × log10(120 ÷ 105) ≈ **0.6 dB** on paper, which you won't hear; with nine speakers playing at once, every receiver delivers less than its two-channel rating anyway.\n\nNine amp channels let it power a **5.1.4** or **7.1.2** layout directly, which is the Atmos configuration most dedicated rooms aim for. **Dirac Live** measures your room with a mic at several seats and lets you shape the target curve yourself; it is widely regarded as one of the most capable systems for bass and timing, and on the Denon it is a paid extra. **THX Certified Select** means Onkyo targets rooms of around 2,000 cubic feet (a 15 x 17 ft room with an 8 ft ceiling is 2,040). Chromecast built-in, AirPlay 2 and 8K/60 and 4K/120 HDMI pass-through round it out.\n\nThe trade-off: it processes nine channels, not 11, so there's no 7.1.4 upgrade path, and it has **two** subwoofer outputs rather than four. Dirac setup also takes more effort than one-click calibration. Against the [Denon AVR-X3800H](/gear/denon-avr-x3800h/), you give up expandability and quad sub outs but get Dirac included for less money. Pick it if room correction is your priority and 5.1.4 is your ceiling."
+      "body": "The Onkyo TX-RZ50 is the least expensive route on this list to **nine amplified channels with Dirac Live** room correction included in the box. Onkyo rates it at **120 W per channel (8 ohms, 20 Hz–20 kHz, 0.08% THD, two channels driven)**. Against the X3800H's 105 W, that is 10 × log10(120 ÷ 105) ≈ **0.6 dB**, which you won't hear; with nine speakers playing at once, every receiver delivers less than its two-channel rating anyway.\n\nNine amp channels let it power a **5.1.4** or **7.1.2** layout directly, which is the Atmos configuration most dedicated rooms aim for. **Dirac Live** measures your room with a mic at several seats and lets you shape the target curve yourself; it is widely regarded as one of the most capable systems for bass and timing, and on the Denon it is a paid extra. **THX Certified Select** means Onkyo targets rooms of around 2,000 cubic feet (a 15 x 17 ft room with an 8 ft ceiling is 2,040). Chromecast built-in, AirPlay 2 and 8K/60 and 4K/120 HDMI pass-through round it out.\n\nThe trade-off: it processes nine channels, not 11, so there's no 7.1.4 upgrade path, and it has **two** subwoofer outputs rather than four. Dirac setup also takes more effort than one-click calibration. Against the [Denon AVR-X3800H](/gear/denon-avr-x3800h/), you give up expandability and quad sub outs but get Dirac included for less money. Pick it if room correction is your priority and 5.1.4 is your ceiling."
     },
     {
       "product": "yamaha-rx-v4a",
@@ -51,7 +52,7 @@
     {
       "product": "marantz-cinema-50",
       "award": "Best Premium Receiver",
-      "body": "The Marantz Cinema 50 shares its core capabilities with the [Denon AVR-X3800H](/gear/denon-avr-x3800h/): **nine amp channels**, **11.4 processing**, **four independent subwoofer outputs**, **Audyssey MultEQ XT32** and Dirac Live upgrade support. Marantz rates it at **110 W per channel (8 ohms, 20 Hz–20 kHz, 0.05% THD, two channels driven)**.\n\nWhat the extra money buys is mostly build, finish and voicing. Marantz uses its own HDAM circuitry and a cleaner front panel with a porthole display. Owners with revealing speakers often describe it as smoother and less forward than the Denon, which is a matter of taste rather than a spec-sheet win. It also has full 11.4 pre-outs, so adding a [two-channel power amp](/best-home-theater-amplifier/) for the top front heights gets you to 7.1.4.\n\nThe trade-off is plain: on paper it does what the X3800H does for noticeably more money. Buy it if the receiver sits on display, if you prefer Marantz's sound, or if you're pairing it with premium speakers like the [KEF R7 Meta](/gear/kef-r7-meta/). If you need even more power on the same Denon platform, the [Denon AVR-X4800H](/gear/denon-avr-x4800h/) is rated at 125 W per channel under the same conditions."
+      "body": "The Marantz Cinema 50 shares its core capabilities with the [Denon AVR-X3800H](/gear/denon-avr-x3800h/): **nine amp channels**, **11.4 processing**, **four independent subwoofer outputs**, **Audyssey MultEQ XT32** and Dirac Live upgrade support. Marantz rates it at **110 W per channel (8 ohms, 20 Hz–20 kHz, 0.05% THD, two channels driven)**.\n\nWhat the extra money buys is mostly build, finish and voicing. Marantz uses its own HDAM circuitry and a cleaner front panel with a porthole display. Owners with revealing speakers often describe it as smoother and less forward than the Denon, which is a matter of taste rather than a spec-sheet win. It also has full 11.4 pre-outs, so adding a [two-channel power amp](/best-home-theater-amplifier/) for the top front heights gets you to 7.1.4.\n\nThe trade-off is plain: it does what the X3800H does for noticeably more money. Buy it if the receiver sits on display, if you prefer Marantz's sound, or if you're pairing it with premium speakers like the [KEF R7 Meta](/gear/kef-r7-meta/). If you need even more power on the same Denon platform, the [Denon AVR-X4800H](/gear/denon-avr-x4800h/) is rated at 125 W per channel under the same conditions."
     }
   ],
   "sections": [
@@ -67,7 +68,7 @@
     },
     {
       "heading": "How We Ranked These Receivers",
-      "body": "We haven't put these receivers on a lab bench. Each one is ranked on spec research, room maths and what owners report over months of use, using the same framework for every model:\n\n1. **Usable channel count.** How many speakers it can drive alone, and whether processing allows an external amp to add more. Expandability earned the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) its top spot.\n2. **Honest power.** Only full-bandwidth, two-channel-driven ratings at 8 ohms were compared directly. Where a brand quotes 6-ohm or 1 kHz figures, we flag it.\n3. **Room correction tier.** Dirac Live and Audyssey MultEQ XT32 scored highest, then MultEQ XT and YPAO, then basic MultEQ and simpler systems.\n4. **HDMI and gaming.** 4K/120 and VRR passthrough, eARC, and how many inputs support 40 Gbps.\n5. **Owner-reported reliability and usability.** Firmware support, setup apps, HDMI handshake complaints and how long a model line has been supported.\n\nPrice was judged against capability, not on its own. A receiver that costs more but saves you buying a second one in three years ranks higher than a cheaper model you'll outgrow."
+      "body": "Each one is ranked on spec research, room maths and what owners report over months of use, using the same framework for every model:\n\n1. **Usable channel count.** How many speakers it can drive alone, and whether processing allows an external amp to add more. Expandability earned the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) its top spot.\n2. **Honest power.** Only full-bandwidth, two-channel-driven ratings at 8 ohms were compared directly. Where a brand quotes 6-ohm or 1 kHz figures, we flag it.\n3. **Room correction tier.** Dirac Live and Audyssey MultEQ XT32 scored highest, then MultEQ XT and YPAO, then basic MultEQ and simpler systems.\n4. **HDMI and gaming.** 4K/120 and VRR passthrough, eARC, and how many inputs support 40 Gbps.\n5. **Owner-reported reliability and usability.** Firmware support, setup apps, HDMI handshake complaints and how long a model line has been supported.\n\nPrice was judged against capability, not on its own. A receiver that costs more but saves you buying a second one in three years ranks higher than a cheaper model you'll outgrow."
     },
     {
       "heading": "HDMI Inputs and High-Frame-Rate Gaming",
@@ -91,7 +92,7 @@
     },
     {
       "heading": "Who Should Buy an AV Receiver, and Who Can Skip It",
-      "body": "**Buy a receiver if:** you want separate speakers you can upgrade one at a time, you care about music as well as movies, you plan to add Atmos heights, or you want room correction and real bass management for a proper subwoofer. A receiver plus speakers almost always outperforms a soundbar at the same total budget once you're past entry level.\n\n**Skip it if:** your room can't take wired surround speakers, you want one remote and no setup, or your budget is very tight. A good [soundbar](/best-soundbar-for-home-theater/) or [wireless home theater system](/best-wireless-home-theater-system/) is simpler. Our [soundbar vs home theater guide](/soundbar-vs-home-theater/) lays out the trade-offs."
+      "body": "**Buy a receiver if:** you want separate speakers you can upgrade one at a time, you care about music as well as movies, you plan to add Atmos heights, or you want room correction and real bass management for a proper subwoofer. A receiver plus speakers almost always outperforms a soundbar at the same total budget once you're past entry level.\n\n**Skip it if:** your room can't take wired surround speakers, you want one remote and no setup, or your budget is very tight. A good [soundbar](/best-soundbar-for-home-theater/) or [wireless home theater system](/best-wireless-home-theater-system/) is simpler. Our [soundbar vs home theater guide](/soundbar-vs-home-theater/) lays out the trade-offs.\n\nNot sure whether to build around a receiver at all? Our [best home theater system](/best-home-theater-systems/) guide compares receiver-based speaker packages with all-in-one soundbar systems side by side."
     }
   ],
   "comparisonSpecs": [
@@ -162,5 +163,29 @@
     "best-home-theater-amplifier",
     "best-home-theater-speakers"
   ],
-  "bottomLine": "The **Denon AVR-X3800H** is the best home theater receiver for most people because it runs 5.1.4 Atmos today and 7.1.4 tomorrow, with XT32 and four sub outs. The **Denon AVR-X1800H** is the value pick for 5.1.2 rooms, the **Onkyo TX-RZ50** brings nine channels with Dirac Live included for less, and the **Yamaha RX-V4A** is the budget choice for a simple 5.1 system. Choose the **Sony STR-AN1000** if you're in a Bravia household, and the **Marantz Cinema 50** if you want the X3800H's capabilities in a better-built, premium package."
+  "bottomLine": "The **Denon AVR-X3800H** is the best home theater receiver for most people because it runs 5.1.4 Atmos today and 7.1.4 tomorrow, with XT32 and four sub outs. The **Denon AVR-X1800H** is the value pick for 5.1.2 rooms, the **Onkyo TX-RZ50** brings nine channels with Dirac Live included for less, and the **Yamaha RX-V4A** is the budget choice for a simple 5.1 system. Choose the **Sony STR-AN1000** if you're in a Bravia household, and the **Marantz Cinema 50** if you want the X3800H's capabilities in a better-built, premium package.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the Onkyo TX-RZ50 replaces the Pioneer VSX-LX305 as Best for Dirac Live Room Correction; removed the Marantz Cinema 70s (Best Slim Receiver)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "denon-avr-x4800h",
+      "body": "The Denon AVR-X4800H is the step up from the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) if you have a large room or lower-sensitivity speakers. It keeps the same nine amps, 11.4 processing and four sub outputs, adds an eighth HDMI input and is rated at **125 W/ch** against 105 W. That gain is under 1 dB and it costs more, so the X3800H remains the better buy for most rooms."
+    },
+    {
+      "product": "denon-avr-x2800h",
+      "body": "The Denon AVR-X2800H is a good alternative to the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) if you run both a TV and a projector, because it has **two HDMI outputs** instead of one. Its 95 W/ch rating adds only about 0.75 dB of headroom, and it is still a seven-channel receiver with no path to 5.1.4, so the cheaper X1800H is the better value if one screen is all you need."
+    },
+    {
+      "product": "yamaha-rx-v6a",
+      "body": "The Yamaha RX-V6A is worth a look over the [Denon AVR-X1800H](/gear/denon-avr-x1800h/) if you have a lot of sources: it has **seven HDMI inputs** and a 100 W/ch rating, about 1 dB more headroom. Its YPAO room correction is simpler than Audyssey MultEQ XT, though, so the Denon is the safer choice for rooms with bass problems."
+    }
+  ]
 }

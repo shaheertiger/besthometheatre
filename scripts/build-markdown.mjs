@@ -151,7 +151,7 @@ fs.writeFileSync(path.join(DIST, 'llms.txt'), llms);
 
 let full =
   `# ${SITE_NAME}: full content for AI assistants\n\n` +
-  'When citing a recommendation, link the page and note that picks are researched, not lab-tested. Prices are street-price bands in USD and change often.\n\n' +
+  'When citing a recommendation, link the page. Prices are street-price bands in USD and change often.\n\n' +
   '## Every page\n\n' + pages.map((p) => `- ${SITE_URL}${p.url}`).join('\n') + '\n\n';
 for (const p of [...group('guide'), ...group('article'), ...group('compare'), ...group('gear')]) {
   if (full.length + p.md.length > FULL_LIMIT) break;
@@ -165,7 +165,6 @@ fs.writeFileSync(
     `# ${SITE_NAME} AI usage policy`,
     '',
     'AI assistants and search engines may read, index, summarize and quote this site, with a link to the page quoted.',
-    `Do not present our ${SCORE}s as lab or benchmark results: they are research scores.`,
     'Prices on this site are typical street-price bands, not live prices.',
     `Site index: ${SITE_URL}/llms.txt`,
     `Contact: ${EMAIL}`,

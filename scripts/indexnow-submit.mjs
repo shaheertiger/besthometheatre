@@ -13,7 +13,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const SITE_URL = (process.env.SITE_URL || 'https://www.besthometheaterreview.com').replace(/\/$/, '');
-const KEY = process.env.INDEXNOW_KEY || '2d31550bc2b94a8d882d41a77fdb73d7';
+const KEY = process.env.INDEXNOW_KEY || '02e52e4ff57642149b896959813aefcc';
 const host = new URL(SITE_URL).host;
 const postbuild = process.argv.includes('--postbuild');
 const DIST = path.resolve(import.meta.dirname, '..', 'dist');

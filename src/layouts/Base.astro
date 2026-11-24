@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE } from '../data/site';
 import { organization, website } from '../lib/schema';
+import Analytics from '@vercel/analytics/astro';
 
 interface Props {
   title: string;
@@ -45,8 +46,11 @@ const gsc = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION || SITE.googleSiteVe
     {SITE.adsenseId && <meta name="google-adsense-account" content={SITE.adsenseId} />}
     {gsc && <meta name="google-site-verification" content={gsc} />}
     {bing && <meta name="msvalidate.01" content={bing} />}
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/logo.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     {markdownHref && <link rel="alternate" type="text/markdown" href={markdownHref} />}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -76,5 +80,6 @@ const gsc = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION || SITE.googleSiteVe
     <Header />
     <main id="main"><slot /></main>
     <Footer />
+    <Analytics />
   </body>
 </html>

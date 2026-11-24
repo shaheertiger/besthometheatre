@@ -18,8 +18,8 @@
   "hub": "brands",
   "brand": "Samsung",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
-  "intro": "The best home theater for Samsung smart TV owners is the [Samsung HW-Q990F](/gear/samsung-hw-q990f/), an 11.1.4-channel soundbar system with a wireless subwoofer and up-firing rear speakers in the box, plus Q-Symphony to blend your TV's speakers into the mix. This page is for anyone with a Samsung TV (or about to buy one) who wants to know which Samsung sound system fits their room, and when a receiver or another brand makes more sense.\n\nWe cover Samsung's two flagship soundbars and its two best OLED TVs for a home theater, explain Q-Symphony and wireless Dolby Atmos in plain terms, and flag the compatibility catches, including DTS. Rankings are built on Samsung's spec sheets and owner reports, not lab benches.",
+  "updated": "2026-11-18",
+  "intro": "The best home theater for Samsung smart TV owners is the [Samsung HW-Q990F](/gear/samsung-hw-q990f/), an 11.1.4-channel soundbar system with a wireless subwoofer and up-firing rear speakers in the box, plus Q-Symphony to blend your TV's speakers into the mix. This page is for anyone with a Samsung TV (or about to buy one) who wants to know which Samsung sound system fits their room, and when a receiver or another brand makes more sense.\n\nWe cover Samsung's two flagship soundbars and its two best OLED TVs for a home theater, explain Q-Symphony and wireless Dolby Atmos in plain terms, and flag the compatibility catches, including DTS. Rankings are built on Samsung's spec sheets and owner reports.",
   "quickAnswer": "The best home theater for a Samsung smart TV is the HW-Q990F: 11.1.4 channels, Dolby Atmos and DTS:X, a wireless sub and rears included, and Q-Symphony so the TV speakers play along. On a tighter budget, the HW-Q800F gives you 5.1.2 with a sub. If you are choosing the TV too, the S95F is the best Samsung TV for home theater, and the S90F is the value pick.",
   "picksHeading": "The Samsung Home Theater Lineup, Ranked",
   "picks": [
@@ -85,7 +85,7 @@
     },
     {
       "heading": "Who Should Skip Samsung",
-      "body": "- **Dolby Vision fans choosing a TV.** Look at LG or Sony instead.\n- **Owners of non-Samsung TVs who want TV integration.** Q-Symphony will not work; pick a soundbar that matches your TV brand, or choose purely on sound.\n- **Multiroom music fans.** Sonos is the stronger platform.\n- **Big-room movie fans.** A receiver with passive speakers and a dedicated sub scales further. Start with our [best home theater systems](/best-home-theater-systems/) roundup.\n\nWe ranked these four products using Samsung's published specs, room maths and owner-reported reliability, not lab benches."
+      "body": "- **Dolby Vision fans choosing a TV.** Look at LG or Sony instead.\n- **Owners of non-Samsung TVs who want TV integration.** Q-Symphony will not work; pick a soundbar that matches your TV brand, or choose purely on sound.\n- **Multiroom music fans.** Sonos is the stronger platform.\n- **Big-room movie fans.** A receiver with passive speakers and a dedicated sub scales further. Start with our [best home theater systems](/best-home-theater-systems/) roundup.\n\nWe ranked these four products using Samsung's published specs, room maths and owner-reported reliability."
     }
   ],
   "mistakes": [
@@ -145,5 +145,11 @@
     "best-tv-for-home-theater",
     "sony-home-theater-review"
   ],
-  "bottomLine": "The best home theater for a Samsung smart TV is the [HW-Q990F](/gear/samsung-hw-q990f/), which puts a bar, sub and up-firing rears with DTS:X in one box for less than rival systems; smaller rooms and budgets should choose the [HW-Q800F](/gear/samsung-hw-q800f/). If you are buying the TV too, the [S95F](/gear/samsung-s95f/) is the best Samsung for home theater and the [S90F](/gear/samsung-s90f/) is the value pick. Just remember the two catches, no Dolby Vision and patchy DTS on the TV side, and connect disc players to the soundbar or a receiver."
+  "bottomLine": "The best home theater for a Samsung smart TV is the [HW-Q990F](/gear/samsung-hw-q990f/), which puts a bar, sub and up-firing rears with DTS:X in one box for less than rival systems; smaller rooms and budgets should choose the [HW-Q800F](/gear/samsung-hw-q800f/). If you are buying the TV too, the [S95F](/gear/samsung-s95f/) is the best Samsung for home theater and the [S90F](/gear/samsung-s90f/) is the value pick. Just remember the two catches, no Dolby Vision and patchy DTS on the TV side, and connect disc players to the soundbar or a receiver.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick and a sources section."
+    }
+  ]
 }

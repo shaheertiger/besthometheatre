@@ -4,6 +4,7 @@
   "title": "Best TV for Home Theater (2026): 8 OLED & Mini LED Picks",
   "metaDescription": "The best TV for home theater in 2026: 8 OLED and Mini LED picks from budget to flagship, plus a projector vs TV breakdown and size-by-seat-distance maths.",
   "h1": "Best TV for Home Theater",
+  "listName": "TVs for Home Theater",
   "keyword": "best tv for home theater",
   "keywords": [
     "best home theater television",
@@ -19,7 +20,7 @@
   ],
   "hub": "tv",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best TV for home theater combines deep blacks, enough brightness for HDR, a size that fills your field of view, and the connections to run a real sound system. For most people in 2026 that is the [LG C5 OLED](/gear/lg-c5-oled/): per-pixel contrast, four full HDMI 2.1 ports, Dolby Vision, a 144Hz panel and sizes from 42 to 83 inches.\n\nThis guide is for anyone deciding between OLED and Mini LED, or between a TV and a projector, for a movie room or living room. We picked eight TVs from budget to flagship using manufacturer specs, widely published independent measurements, seat-distance maths and owner-reported reliability, and we include a full projector vs TV comparison.",
   "quickAnswer": "The **LG C5 OLED** is the best TV for home theater for most rooms: perfect blacks, four HDMI 2.1 ports and Dolby Vision at a sensible price. Film purists should get the **Sony Bravia 8 II**, and bright rooms call for the **Samsung S95F**. The newer **LG C6** is the value OLED, the **TCL QM8L** claims the most brightness for the money, and the **Hisense U8QG** goes up to 100 inches. On a budget, the **Hisense U7SG** is the pick.",
   "picks": [
@@ -46,12 +47,12 @@
     {
       "product": "sony-bravia-9",
       "award": "Best Mini LED",
-      "body": "If you want TV-level HDR punch at sizes up to 85 inches, the Bravia 9 is the most refined Mini LED here. Mini LED TVs use thousands of tiny LEDs behind an LCD panel, grouped into local dimming zones, and Sony's **XR Backlight Master Drive** controls them precisely enough to keep blooming (halos around bright objects) well under control. The result is very high brightness with deep blacks for an LCD.\n\nBrightness is the point. A Mini LED can sustain much higher full-screen and highlight brightness than OLED, so HDR content looks closer to how it was mastered, and the picture holds up in a sunny room. Combine that with Sony's natural color and motion processing and you have a TV that suits both daytime sports and evening films.\n\nIt comes in **65, 75 and 85 inches**, runs **Google TV**, supports **Dolby Vision**, and has a **120Hz** panel. At 10 feet, the 85-inch model fills about 34 degrees of your view.\n\n**The trade-off:** like the Bravia 8 II, it has only **two HDMI 2.1 ports**, and even the best local dimming cannot match OLED's per-pixel black in a fully dark room, especially with off-angle viewing. It is a premium TV, priced against flagship OLEDs. If your room is dark, the [LG C5](/gear/lg-c5-oled/) is better value; if it is bright or you want 85 inches, the Bravia 9 is the pick. For more Mini LED brightness for less money, see the TCL below, and for sizes up to 100 inches, the Hisense U8QG."
+      "body": "If you want TV-level HDR punch at sizes up to 85 inches, the Bravia 9 is the most refined Mini LED here. [Mini LED](/glossary/mini-led/) TVs use thousands of tiny LEDs behind an LCD panel, grouped into local dimming zones, and Sony's **XR Backlight Master Drive** controls them precisely enough to keep blooming (halos around bright objects) well under control. The result is very high brightness with deep blacks for an LCD.\n\nBrightness is the point. A Mini LED can sustain much higher full-screen and highlight brightness than OLED, so HDR content looks closer to how it was mastered, and the picture holds up in a sunny room. Combine that with Sony's natural color and motion processing and you have a TV that suits both daytime sports and evening films.\n\nIt comes in **65, 75 and 85 inches**, runs **Google TV**, supports **Dolby Vision**, and has a **120Hz** panel. At 10 feet, the 85-inch model fills about 34 degrees of your view.\n\n**The trade-off:** like the Bravia 8 II, it has only **two HDMI 2.1 ports**, and even the best local dimming cannot match OLED's per-pixel black in a fully dark room, especially with off-angle viewing. It is a premium TV, priced against flagship OLEDs. If your room is dark, the [LG C5](/gear/lg-c5-oled/) is better value; if it is bright or you want 85 inches, the Bravia 9 is the pick. For more Mini LED brightness for less money, see the TCL below, and for sizes up to 100 inches, the Hisense U8QG."
     },
     {
       "product": "tcl-qm8l",
       "award": "Best Mini LED Value",
-      "body": "Home theaters reward brightness as well as size, and on paper the QM8L gives you the most of it for the money. It is the successor to the QM8K and what TCL calls an **SQD-Mini LED** TV: up to **4,000+ dimming zones**, up to **6,000 nits** peak (TCL's claim), a **7,000:1** static contrast ratio and an Ultra Color Filter for purer color. It supports **Dolby Vision IQ**, HDR10 and IMAX Enhanced, runs **Google TV with Gemini**, and has **eARC** for your receiver or soundbar.\n\n**Why the brightness matters:** a projector image at 16 foot-lamberts is about 55 nits (1 fL is about 3.43 nits), and even a punchy 60 fL is only about 205 nits. A 6,000-nit claim is roughly 30 times that bright projector for HDR highlights. Sustained output will sit below the claim, but it shrugs off afternoon sun.\n\nFor gaming, the panel runs **144 Hz** natively (about 6.9 ms per frame) with Game Accelerator 288 VRR and **AMD FreeSync Premium Pro**.\n\n**Size maths:** the Amazon listing is for the **65-inch** model. At 10 feet, a 65-inch TV fills only about 27 degrees of your view, below SMPTE's 30-degree minimum, so it suits seats roughly 6.5 to 8.8 feet away.\n\n**The trade-off:** processing and blooming. TCL's motion handling and upscaling are not as polished as Sony's, and Mini LED blooming is more visible than on the Bravia 9 in dark scenes with bright objects. If you want 85 inches or more, the [Hisense U8QG](/gear/hisense-u8qg/) below goes up to 100. More on [TCL](/brands/tcl/)."
+      "body": "Home theaters reward brightness as well as size, and the QM8L gives you the most of it for the money. It is the successor to the QM8K and what TCL calls an **SQD-Mini LED** TV: up to **4,000+ dimming zones**, up to **6,000 nits** peak (TCL's claim), a **7,000:1** static contrast ratio and an Ultra Color Filter for purer color. It supports **Dolby Vision IQ**, HDR10 and IMAX Enhanced, runs **Google TV with Gemini**, and has **eARC** for your receiver or soundbar.\n\n**Why the brightness matters:** a projector image at 16 foot-lamberts is about 55 nits (1 fL is about 3.43 nits), and even a punchy 60 fL is only about 205 nits. A 6,000-nit claim is roughly 30 times that bright projector for HDR highlights. Sustained output will sit below the claim, but it shrugs off afternoon sun.\n\nFor gaming, the panel runs **144 Hz** natively (about 6.9 ms per frame) with Game Accelerator 288 VRR and **AMD FreeSync Premium Pro**.\n\n**Size maths:** the Amazon listing is for the **65-inch** model. At 10 feet, a 65-inch TV fills only about 27 degrees of your view, below SMPTE's 30-degree minimum, so it suits seats roughly 6.5 to 8.8 feet away.\n\n**The trade-off:** processing and blooming. TCL's motion handling and upscaling are not as polished as Sony's, and Mini LED blooming is more visible than on the Bravia 9 in dark scenes with bright objects. If you want 85 inches or more, the [Hisense U8QG](/gear/hisense-u8qg/) below goes up to 100. More on [TCL](/brands/tcl/)."
     },
     {
       "product": "hisense-u8qg",
@@ -77,7 +78,7 @@
     },
     {
       "heading": "How We Ranked These TVs",
-      "body": "We compared every TV in our catalog on:\n\n- **Picture fundamentals:** contrast, HDR brightness, color volume and processing, based on manufacturer specs and widely published independent measurements.\n- **Home theater connectivity:** eARC, number of HDMI 2.1 ports, HDR format support.\n- **Size range:** how big each model goes, and the price per inch at large sizes.\n- **Room fit:** dark-room vs bright-room strengths.\n- **Owner-reported reliability**, including panel issues and software support.\n\nWe have not bench-tested these TVs in a lab. Rankings come from spec research, published measurements, seat-distance maths and owner reports, and we leave out figures we could not confirm. We deliberately included options for dark rooms, bright rooms, very large screens and tight budgets."
+      "body": "We compared every TV in our catalog on:\n\n- **Picture fundamentals:** contrast, HDR brightness, color volume and processing, based on manufacturer specs and widely published independent measurements.\n- **Home theater connectivity:** eARC, number of HDMI 2.1 ports, HDR format support.\n- **Size range:** how big each model goes, and the price per inch at large sizes.\n- **Room fit:** dark-room vs bright-room strengths.\n- **Owner-reported reliability**, including panel issues and software support.Rankings come from spec research, published measurements, seat-distance maths and owner reports, and we leave out figures we could not confirm. We deliberately included options for dark rooms, bright rooms, very large screens and tight budgets."
     },
     {
       "heading": "Projector vs TV for a Home Theater",
@@ -85,7 +86,7 @@
     },
     {
       "heading": "OLED vs Mini LED for Movies",
-      "body": "**OLED** (LG C5 and C6, Sony Bravia 8 II, Samsung S95F and S90F) makes light at each pixel. Black is truly black, there is no blooming, and viewing angles are wide, so every seat in the room sees the same picture. The trade-off is brightness: OLEDs are dimmer than Mini LED, especially on full-screen bright scenes, and there is a small long-term risk of burn-in with static content, though modern panels manage this well.\n\n**Mini LED** (Sony Bravia 9, TCL QM8L and QM7K, Hisense U8QG and U7SG) lights an LCD panel from behind with thousands of small LEDs in dimming zones. It gets far brighter, which helps HDR and daytime viewing, and it comes in larger sizes for less money. The trade-off is blooming around bright objects on dark backgrounds and weaker off-angle performance.\n\n**For a dedicated, dark home theater, OLED is the better choice.** For a bright living-room theater, or if you want 85 to 100 inches on a budget, Mini LED makes more sense."
+      "body": "**[OLED](/glossary/oled/)** (LG C5 and C6, Sony Bravia 8 II, Samsung S95F and S90F) makes light at each pixel. Black is truly black, there is no blooming, and viewing angles are wide, so every seat in the room sees the same picture. The trade-off is brightness: OLEDs are dimmer than Mini LED, especially on full-screen bright scenes, and there is a small long-term risk of burn-in with static content, though modern panels manage this well.\n\n**Mini LED** (Sony Bravia 9, TCL QM8L and QM7K, Hisense U8QG and U7SG) lights an LCD panel from behind with thousands of small LEDs in dimming zones. It gets far brighter, which helps HDR and daytime viewing, and it comes in larger sizes for less money. The trade-off is blooming around bright objects on dark backgrounds and weaker off-angle performance.\n\n**For a dedicated, dark home theater, OLED is the better choice.** For a bright living-room theater, or if you want 85 to 100 inches on a budget, Mini LED makes more sense.\n\nFor the full background on each technology, see our glossary entries on [Mini LED](/glossary/mini-led/) and [OLED](/glossary/oled/)."
     },
     {
       "heading": "What Size TV for a Home Theater?",
@@ -168,5 +169,25 @@
     "best-soundbar-for-home-theater",
     "best-home-theater-systems"
   ],
-  "bottomLine": "The best TV for home theater for most rooms is the **LG C5 OLED**: perfect blacks, four HDMI 2.1 ports and sizes up to 83 inches. Film purists should pick the **Sony Bravia 8 II**, the newer **LG C6** is the value OLED with a 165 Hz panel, and the **Samsung S95F** is the bright-room OLED with an anti-glare finish. The **Sony Bravia 9** is the most refined Mini LED, the **TCL QM8L** claims the most brightness for the money, the **Hisense U8QG** delivers bright-room punch at sizes up to 100 inches, and the **Hisense U7SG** is the budget pick. If you want more than 100 inches and can darken the room, a projector is the better buy."
+  "bottomLine": "The best TV for home theater for most rooms is the **LG C5 OLED**: perfect blacks, four HDMI 2.1 ports and sizes up to 83 inches. Film purists should pick the **Sony Bravia 8 II**, the newer **LG C6** is the value OLED with a 165 Hz panel, and the **Samsung S95F** is the bright-room OLED with an anti-glare finish. The **Sony Bravia 9** is the most refined Mini LED, the **TCL QM8L** claims the most brightness for the money, the **Hisense U8QG** delivers bright-room punch at sizes up to 100 inches, and the **Hisense U7SG** is the budget pick. If you want more than 100 inches and can darken the room, a projector is the better buy.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick, a sources section, notable mentions and a ranked table of every model we track in the category."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the Hisense U7SG Mini-LED TV replaces the Hisense U75QG Mini-LED TV as Best Budget; added the TCL QM8L SQD-Mini LED TV as Best Mini LED Value; added the LG C6 OLED evo TV as Best Value OLED; removed the TCL QM8K QD-Mini LED TV (Best Big-Screen Value); removed the LG G5 OLED evo TV (Best Premium OLED)."
+    }
+  ],
+  "mentions": [
+    {
+      "product": "samsung-s90f",
+      "body": "The Samsung S90F is a direct rival to the [LG C5 OLED](/gear/lg-c5-oled/), with the same 42- to 83-inch size range, up to **144 Hz** and four HDMI 2.1 ports. It supports HDR10+ and is often cheaper than the C5, but it lacks Dolby Vision and its panel type varies by size. Choose it if you want OLED blacks for less; pick the C5 if Dolby Vision matters to you."
+    },
+    {
+      "product": "tcl-qm7k",
+      "body": "The TCL QM7K is a good alternative to the [TCL QM8L](/gear/tcl-qm8l/) if you want a wider choice of big screens, with sizes from **55 to 98 inches**. It adds HDR10+ alongside Dolby Vision IQ, but it shows more blooming than the QM8L, has only two HDMI 2.1 ports and loses contrast off-angle. For a family room where screen size matters more than black levels, it's a sensible pick."
+    }
+  ]
 }

@@ -1,0 +1,167 @@
+---
+/**
+ * Informational guide layout, the enthusiastreview.com article template (ArticlePage.astro):
+ * kicker, H1, dek, byline → "<H1>: The Short Answer" box → "On this page" → question H2s
+ * (numbered bold lists under "How to…" headings render as H3 steps) → Common Mistakes →
+ * The Bottom Line → FAQ → Sources → Parts Mentioned → Related.
+ */
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import StickyBuyBar from './StickyBuyBar.astro';
+import TOC from './TOC.astro';
+import Byline from './Byline.astro';
+import FAQ from './FAQ.astro';
+import RelatedCards from './RelatedCards.astro';
+import PickBlock from './PickBlock.astro';
+import ProductImage from './ProductImage.astro';
+import AmazonButton from './AmazonButton.astro';
+import Score from './Score.astro';
+import { articles, articleMap, articleUrl, getProduct, productMap, productUrl, readMinutes, formatDate } from '../lib/data';
+import { FORMAT, SITE } from '../data/site';
+import { md, slugify } from '../lib/md';
+import { articleSchema, breadcrumbs, faqPage, graph } from '../lib/schema';
+import { amazonImage, amazonUrl } from '../lib/amazon';
+import type { Article, Product } from '../lib/types';
+
+interface Props { article: Article }
+const { article: a } = Astro.props;
+const url = articleUrl(a);
+// "The Binky Fairy: How …" → "The Binky Fairy: The Short Answer"; "Baby Won't Take a Pacifier? …" → "Baby Won't Take a Pacifier? The Short Answer".
+const lead = a.h1.split(':')[0].trim();
+const shortLabel = lead.includes('?') ? `${lead.replace(/\?.*$/, '?')} The Short Answer` : `${lead}: The Short Answer`;
+const picks = a.picks ?? [];
+
+// Numbered "**Title.** text" lists under a "How to…" heading become H3 steps, like the reference page.
+type Step = { title: string; body: string };
+function splitSteps(heading: string, body: string): { before: string; steps: Step[]; after: string } | null {
+  if (!/^how to/i.test(heading)) return null;
+  const lines = body.split('\n');
+  const idx = lines.map((l, i) => (/^\d+\.\s+\*\*[^*]+\*\*/.test(l) ? i : -1)).filter((i) => i >= 0);
+  if (idx.length < 3) return null;
+  // Items must be one contiguous list (allowing blank lines between items).
+  const first = idx[0], last = idx[idx.length - 1];
+  for (let i = first; i <= last; i++) if (lines[i].trim() && !idx.includes(i) && !/^\s{2,}/.test(lines[i])) return null;
+  const steps = idx.map((i, k) => {
+    const end = k + 1 < idx.length ? idx[k + 1] : last + 1;
+    const text = [lines[i], ...lines.slice(i + 1, end)].join('\n').replace(/^\d+\.\s+/, '');
+    const m = text.match(/^\*\*([^*]+?)[.:]?\*\*[.:]?\s*([\s\S]*)$/)!;
+    return { title: m[1].trim(), body: m[2].trim() };
+  });
+  return { before: lines.slice(0, first).join('\n').trim(), steps, after: lines.slice(last + 1).join('\n').trim() };
+}
+
+const parsed = a.sections.map((s) => ({ ...s, id: slugify(s.heading), split: splitSteps(s.heading, s.body) }));
+// Like the reference, the first step-by-step section comes straight after the short answer.
+const firstSteps = parsed.findIndex((s) => s.split);
+const sections = firstSteps > 0 ? [parsed[firstSteps], ...parsed.filter((_, i) => i !== firstSteps)] : parsed;
+const toc = [
+  { id: 'short-answer', label: shortLabel },
+  ...sections.map((s) => ({ id: s.id, label: s.heading })),
+  ...(picks.length ? [{ id: 'the-picks', label: a.picksHeading ?? 'Our Picks' }] : []),
+  ...(a.mistakes?.length ? [{ id: 'mistakes', label: 'Common Mistakes to Avoid' }] : []),
+  { id: 'bottom-line', label: 'The Bottom Line' },
+  ...(a.faqs.length ? [{ id: 'faq', label: 'Frequently Asked Questions' }] : []),
+  { id: 'sources', label: 'Sources' },
+];
+
+// Everything the page says, for Sources and Parts Mentioned.
+const text = [a.intro, a.quickAnswer, ...a.sections.map((s) => s.body), ...picks.map((p) => p.body), ...(a.mistakes ?? []).map((m) => m.body), ...a.faqs.map((f) => f.a), a.bottomLine].filter(Boolean).join('\n');
+const sources: { label: string; url: string; host: string }[] = [];
+for (const m of text.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g)) {
+  const href = m[2];
+  if (href.includes(SITE.url.replace('https://', '')) || /amazon\.|amzn\./.test(href) || sources.some((s) => s.url === href)) continue;
+  sources.push({ label: m[1], url: href, host: new URL(href).hostname.replace(/^www\./, '') });
+}
+const mentionedSlugs = [...new Set([...picks.map((p) => p.product), ...[...text.matchAll(/\]\(\/gear\/([a-z0-9-]+)\/\)/g)].map((m) => m[1])])];
+const mentioned = mentionedSlugs.map((s) => productMap.get(s)).filter((p): p is Product => !!p).slice(0, 10);
+
+const related = [...a.related.map((s) => articleMap.get(s)), ...articles.filter((x) => x.kind === 'guide' && x.slug !== a.slug && !a.related.includes(x.slug))]
+  .filter((x): x is Article => !!x && !x.draft).slice(0, 6);
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'Guides', url: '/guides/' }, { name: a.h1, url }];
+const ogImg = mentioned[0] ? amazonImage(mentioned[0], 500) ?? undefined : undefined;
+const schema = graph(articleSchema(a, url, ogImg), breadcrumbs(crumbs), ...(a.faqs.length ? [faqPage(a.faqs)] : []));
+const sticky = mentioned[0];
+const kind = /^how to/i.test(a.h1) ? 'How-To' : 'Guide';
+---
+<Base title={a.title} description={a.metaDescription} type="article" schema={schema} published={a.published} updated={a.updated} section={FORMAT.topic} tags={a.keywords.slice(0, 5)} ogImage={ogImg}>
+  <article class="article">
+    <header class="a-head col">
+      <Breadcrumbs items={crumbs} />
+      <div class="kicker">{FORMAT.topic} · {kind}</div>
+      <h1 class="a-title">{a.h1}</h1>
+      <p class="dek">{a.metaDescription}</p>
+      <Byline updated={a.updated} published={a.published} minutes={readMinutes(a)} disclosure={picks.length > 0} />
+    </header>
+
+    <div class="col body numbered">
+      <h2 id="short-answer">{shortLabel}</h2>
+      {a.quickAnswer && <div class="answer-box" set:html={md(a.quickAnswer)} />}
+      <Fragment set:html={md(a.intro)} />
+    </div>
+
+    <div class="col"><TOC items={toc} /></div>
+
+    <div class="col body numbered">
+      {sections.map((s) => (
+        <>
+          <h2 id={s.id}>{s.heading}</h2>
+          {s.split ? (
+            <>
+              {s.split.before && <Fragment set:html={md(s.split.before)} />}
+              <ol class="howto-steps">
+                {s.split.steps.map((st) => (<li><h3>{st.title}</h3><Fragment set:html={md(st.body)} /></li>))}
+              </ol>
+              {s.split.after && <Fragment set:html={md(s.split.after)} />}
+            </>
+          ) : <Fragment set:html={md(s.body)} />}
+        </>
+      ))}
+      {picks.length > 0 && <h2 id="the-picks">{a.picksHeading ?? 'Our Picks'}</h2>}
+    </div>
+    {picks.length > 0 && <div class="col">{picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}</div>}
+
+    <div class="col body numbered">
+      {a.mistakes?.length ? (
+        <>
+          <h2 id="mistakes">Common Mistakes to Avoid</h2>
+          {a.mistakes.map((m) => (<><h3>{m.title}</h3><Fragment set:html={md(m.body)} /></>))}
+        </>
+      ) : null}
+      <h2 id="bottom-line">The Bottom Line</h2>
+      <Fragment set:html={md(a.bottomLine)} />
+      {a.faqs.length > 0 && (<><h2 id="faq">Frequently Asked Questions</h2><FAQ faqs={a.faqs} /></>)}
+      <h2 id="sources">Sources</h2>
+      {sources.length > 0 ? (
+        <ul>{sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.label}</a> <span class="fine">({s.host})</span></li>)}</ul>
+      ) : (
+        <ul><li>Manufacturer specifications for every product mentioned, kept in our <a href="/gear/">product database</a>.</li><li>Our <a href="/how-we-test/">scoring method</a> and <a href="/editorial-policy/">editorial policy</a>.</li></ul>
+      )}
+      <p class="fine">Checked against these sources as of <time datetime={a.updated}>{formatDate(a.updated)}</time>. Spotted a change? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. When you buy through our links we may earn a commission, at no cost to you. <a href="/affiliate-disclosure/">Disclosure</a>.</p>
+    </div>
+
+    {mentioned.length > 0 && (
+      <div class="col">
+        <h2 class="section-title" id="parts">{FORMAT.mentionedLabel}</h2>
+        <div class="mentioned">
+          {mentioned.map((p) => (
+            <div class="mentioned-row">
+              <ProductImage product={p} size={64} />
+              <div><a href={productUrl(p)}>{p.name}</a><span class="fine"> · {p.priceBand}</span></div>
+              <Score score={p.score} />
+              <AmazonButton product={p} label="Price" small />
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    {related.length > 0 && (
+      <aside class="wrap related">
+        <h2 class="section-title">Related</h2>
+        <RelatedCards articles={related} />
+      </aside>
+    )}
+
+    {sticky && <StickyBuyBar mobileOnly items={[{ slug: sticky.slug, name: sticky.name, label: `${SITE.score} ${sticky.score}/100 · ${sticky.priceBand}`, url: amazonUrl(sticky), image: null }]} />}
+  </article>
+</Base>

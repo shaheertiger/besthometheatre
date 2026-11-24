@@ -47,12 +47,12 @@
   ],
   "sections": [
     {
-      "heading": "Choose Your Configuration First",
+      "heading": "Which home theater configuration should you choose?",
       "position": "before",
-      "body": "Speaker configurations are written as **ear-level speakers . subwoofers . height speakers**. A 5.1.2 system has five ear-level speakers, one subwoofer and two height speakers.\n\n| Layout | Speakers | Best for |\n|---|---|---|\n| 2.1 | Left, right, subwoofer | Small rooms, music-first setups |\n| 3.1 | Adds a center channel | Clear dialogue without surrounds |\n| 5.1 | Adds two surrounds | The classic surround setup for most rooms |\n| 7.1 | Adds two rear surrounds | Long rooms with seating away from the back wall |\n| 5.1.2 | 5.1 plus two height speakers | Best value Dolby Atmos |\n| 7.1.4 or 5.1.4 | Four height speakers | Dedicated theaters with the budget and receiver to match |\n\nThe best home theater configuration for most living rooms is **5.1 or 5.1.2**. Choose 7.1 only if there are at least a few feet between your seats and the back wall for the rear speakers. Choose four height speakers when you can mount them in the ceiling and your receiver can power or process eleven channels."
+      "body": "Speaker configurations are written as **ear-level speakers . subwoofers . height speakers**. A 5.1.2 system has five ear-level speakers, one subwoofer and two height speakers.\n\n| Layout | Speakers | Best for |\n|---|---|---|\n| 2.1 | Left, right, subwoofer | Small rooms, music-first setups |\n| 3.1 | Adds a center channel | Clear dialogue without surrounds |\n| 5.1 | Adds two surrounds | The classic surround setup for most rooms |\n| 7.1 | Adds two rear surrounds | Long rooms with seating away from the back wall |\n| 5.1.2 | 5.1 plus two height speakers | Best value Dolby Atmos |\n| 7.1.4 or 5.1.4 | Four height speakers | Dedicated theaters with the budget and receiver to match |\n\nThe best home theater configuration for most living rooms is **5.1 or 5.1.2**. Choose 7.1 only if there are at least a few feet between your seats and the back wall for the rear speakers. Choose four height speakers when you can mount them in the ceiling and your receiver can power or process eleven channels.\n\nIf you would rather buy one matched package than choose every part, our [best home theater system](/best-home-theater-systems/) guide ranks complete soundbar systems, speaker packages and home-theater-in-a-box bundles by room size."
     },
     {
-      "heading": "Best Home Theater Setup Components Checklist",
+      "heading": "What components do you need for a home theater setup?",
       "position": "before",
       "body": "Use this checklist before you buy:\n\n- **Display:** a TV or projector sized for your seating distance. Use the [viewing distance calculator](/tools/viewing-distance-calculator/) and, for projectors, the [projector throw calculator](/tools/projector-throw-calculator/).\n- **AV receiver:** enough amplified channels for your layout, [HDMI 2.1](/glossary/hdmi-2-1/) inputs for 4K120 sources, [eARC](/glossary/earc/), and [room correction](/glossary/room-correction/).\n- **Front left and right speakers:** bookshelf or tower speakers matched in brand and series.\n- **Center channel:** from the same series as the fronts, so voices sound consistent.\n- **Surround speakers:** bookshelf, on-wall or in-wall models.\n- **Height speakers (for Atmos):** in-ceiling, on-ceiling or up-firing modules.\n- **Subwoofer:** sized for room volume; two subs smooth bass across more seats.\n- **Sources:** a 4K streamer and, for the best quality, a 4K Blu-ray player.\n- **Infrastructure:** [speaker wire](/best-speaker-wire-for-home-theater/) of the right gauge, HDMI cables, a [surge protector](/best-surge-protector-for-home-theater/) and a [universal remote](/best-universal-remote-for-home-theater/)."
     },
@@ -61,27 +61,27 @@
       "body": "There is no perfect formula, but this split works for most separate-component systems:\n\n| Component | Share of budget |\n|---|---|\n| Speakers (fronts, center, surrounds, heights) | 35% to 40% |\n| Display | 25% to 35% |\n| Subwoofer | 10% to 15% |\n| AV receiver | 15% to 20% |\n| Cables, mounts, power, remote | 5% |\n\nSpeakers get the largest share because they shape the sound more than anything else and last through several receivers. For a budget home theater setup under $1,000 including a TV you already own, a [quality soundbar](/best-soundbar-for-home-theater/) or a [budget system](/best-budget-home-theater-system/) usually beats a cheap component system. In the $2,000–$5,000 range, separate components start to pull clearly ahead."
     },
     {
-      "heading": "Speaker Placement by Dolby Guidelines",
+      "heading": "Where should you place home theater speakers?",
       "body": "Dolby's home theater guidelines give angles measured from the main seat, with 0 degrees pointing straight at the screen:\n\n| Speaker | Horizontal angle from center | Height |\n|---|---|---|\n| Center | 0 degrees | As close to ear height as possible, angled toward listeners |\n| Front left and right | 22 to 30 degrees | Tweeters near ear height |\n| Surround left and right (5.1) | 90 to 110 degrees | Ear height or slightly above |\n| Side surrounds (7.1) | 90 to 110 degrees | Ear height or slightly above |\n| Rear surrounds (7.1) | 135 to 150 degrees | Ear height or slightly above |\n\n**The maths for front speakers:** if your main seat is 10 feet from the front wall, a 30-degree angle puts each front speaker about 5.8 feet to the side of center (10 x tan 30 degrees), or 11.5 feet apart. At 22 degrees, it is about 4 feet each side, or 8 feet apart. Most living rooms land in between.\n\nToe the front speakers in slightly toward the main seat, keep them at equal distances from it, and leave space between speakers and side walls where possible."
     },
     {
-      "heading": "Height Speakers for Dolby Atmos",
+      "heading": "Where do Dolby Atmos height speakers go?",
       "body": "For **two height speakers** (5.1.2 or 7.1.2), Dolby recommends placing them overhead, slightly in front of or directly above the main seat, at an elevation of roughly **65 to 100 degrees** when viewed from the seat. For **four height speakers**, place the front pair at about **30 to 55 degrees** of elevation in front of you and the rear pair at about **125 to 150 degrees** behind you, each roughly in line with the front left and right speakers.\n\n**Up-firing (Atmos-enabled) speakers** sit on top of the front speakers or towers and bounce sound off the ceiling. They work best with flat, hard ceilings at typical residential height. They are the easiest option for renters and finished rooms; in-ceiling speakers are more precise. See our [in-ceiling speaker guide](/best-in-wall-speakers-for-home-theater/)."
     },
     {
-      "heading": "Subwoofer Placement",
+      "heading": "Where should you put the subwoofer?",
       "body": "Room shape controls bass more than the subwoofer does, so placement is worth an hour of effort.\n\n**The subwoofer crawl:** put the subwoofer at your main seat, play bass-heavy content or a test tone, then crawl around the room's front half at floor level. Where the bass sounds strongest and most even, place the subwoofer. Front corners often give the most output, but not always the smoothest response.\n\n**Two subwoofers are better than one.** Research on small rooms has shown that two subs, for example at the midpoints of opposite walls, give more even bass across several seats than one sub anywhere. Your AV receiver can then measure and level them together.\n\nAvoid placing the main seat against the back wall, where bass piles up, or dead-center in the room, where some bass notes cancel. Seats about a third of the room's length from the back wall often sound smoother."
     },
     {
-      "heading": "Projector or TV Setup and Viewing Distance",
+      "heading": "How far should you sit from a TV or projector screen?",
       "body": "For a cinema-like view, aim for the screen to fill about **30 to 40 degrees** of your field of view. A 65-inch 16:9 TV is about 57 inches wide; at a 36-degree viewing angle, the ideal distance is about 87 inches, or just over 7 feet. A 120-inch projector screen is about 105 inches wide, so the same angle puts the seat about 13.5 feet away. Check your room with the [viewing distance calculator](/tools/viewing-distance-calculator/).\n\nMount the screen so its center sits slightly above seated eye height. For projectors, use the [throw calculator](/tools/projector-throw-calculator/) to find the mounting distance for your projector's [throw ratio](/glossary/throw-ratio/), and control light: a dark room matters more than extra lumens. On TVs, use Filmmaker Mode or the Cinema preset and turn off motion smoothing."
     },
     {
-      "heading": "Connections and Wiring",
+      "heading": "How do you connect and wire a home theater?",
       "body": "For the simplest high-quality setup:\n\n- Connect **sources to the AV receiver** by HDMI, and the receiver's HDMI output to the TV or projector. Or connect sources to a TV and send audio back to the receiver over **eARC**, which carries lossless Dolby Atmos.\n- Use **Ultra High Speed HDMI** cables for 4K120 and gaming.\n- Use the right **speaker wire gauge** for each run, and keep polarity consistent.\n- Connect the subwoofer to the receiver's **sub or LFE output** with an RCA cable.\n- Plug everything into one surge protector so components share a ground, which also reduces hum."
     },
     {
-      "heading": "Calibration Step by Step",
+      "heading": "How to Calibrate a Home Theater, Step by Step",
       "body": "Calibration is where a good system becomes a great one, and it costs nothing.\n\n1. **Set the subwoofer** to its LFE input (or set its own crossover to maximum or bypass), phase at 0 and volume knob near the middle.\n2. **Run room correction** (Audyssey, YPAO, Dirac Live, MCACC or Sony's DCAC). Put the microphone on a tripod at seated ear height, not on a sofa back, and measure the main seat first, then nearby seats.\n3. **Check speaker sizes and crossovers.** Set all speakers to Small with a [crossover](/glossary/crossover/) of **80 Hz**, the THX recommendation and the best default. Use 100 to 120 Hz for small satellites; go lower only for large towers that genuinely play deep.\n4. **Check distances and levels.** Room correction usually gets these right. If adjusting by hand, use an SPL meter on C-weighting and set each channel to the same level from the main seat.\n5. **Fine-tune bass and dialogue by ear.** Many people prefer the subwoofer 2 to 4 dB above flat for movies, and some raise the center channel 1 to 2 dB for clearer dialogue.\n6. **Leave bass and treble controls flat** and let room correction handle EQ. If you must adjust, cut rather than boost.\n7. **Test with demo scenes** from our [best movies for home theater guide](/best-movies-for-home-theater/)."
     }
   ],
@@ -138,9 +138,10 @@
     }
   ],
   "related": [
+    "best-home-theater-systems",
     "best-home-theater-receiver",
     "home-theater-room-design",
-    "best-movies-for-home-theater"
+    "how-much-does-a-home-theater-cost"
   ],
   "bottomLine": "The best home theater setup components are a display sized to your seating distance, a receiver like the [Denon AVR-X1800H](/gear/denon-avr-x1800h/), matched speakers such as the [Klipsch R-625FA 5.1.2 system](/gear/klipsch-r-625fa-51-system/), and a subwoofer like the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/), with the [LG C5 OLED](/gear/lg-c5-oled/) as a strong display for rooms that are not fully dark. Pick the configuration your room supports, place speakers at Dolby's angles, crawl for the best subwoofer spot, and run room correction with an 80 Hz crossover."
 }

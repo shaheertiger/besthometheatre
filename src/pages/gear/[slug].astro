@@ -11,8 +11,9 @@ import StickyBuyBar from '../../components/StickyBuyBar.astro';
 import { AUTHOR, authorUrl } from '../../data/authors';
 import { productUpdated, formatDate, products, productsByCategory, productsByBrand, articlesForProduct, productUrl, brandUrl, articleUrl, compareSlug, shortName } from '../../lib/data';
 import { compares } from '../../data/compares';
-import { CATEGORY_LABELS, SITE } from '../../data/site';
-import { md } from '../../lib/md';
+import { CATEGORY_LABELS, SITE, LAB } from '../../data/site';
+import { firmwareFor } from '../../data/firmware';
+import { md, mdInline } from '../../lib/md';
 import { breadcrumbs, faqPage, graph, productSchema } from '../../lib/schema';
 import { amazonImage, amazonUrl } from '../../lib/amazon';
 import type { Product, FAQ as F } from '../../lib/types';
@@ -37,7 +38,17 @@ const autoFaqs: F[] = [
   { q: `Is the ${p.name} worth it?`, a: `${p.summary} It scores **${p.score}/100** on our ${SITE.score}, ranking #${rank} of the ${total} ${catLabel.toLowerCase()} we track. It is best for ${lc(p.bestFor)}; skip it if ${lc(p.skipIf)}.` },
   ...(cheaper[0] ? [{ q: `What is a cheaper alternative to the ${p.name}?`, a: `The [${cheaper[0].name}](${productUrl(cheaper[0])}) (${cheaper[0].priceBand}) scores ${cheaper[0].score}/100. ${cheaper[0].summary}` }] : []),
 ];
-const faqs = [...(p.faqs ?? []), ...autoFaqs];
+// Spec-intent questions people search for ("<model> dimensions", "<model> frequency response").
+const specFaq = (key: string, q: string, a: (v: string) => string): F[] => (p.specs[key] && !(p.faqs ?? []).some((f) => f.q.toLowerCase().includes(key.toLowerCase())) ? [{ q, a: a(p.specs[key]) }] : []);
+const specFaqs: F[] = [
+  ...specFaq('Dimensions', `What are the dimensions of the ${p.name}?`, (v) => `The ${p.name} measures **${v}**${p.specs['Weight'] ? ` and weighs **${p.specs['Weight']}**` : ''}, according to the manufacturer's spec sheet. See the [full specs](#specs) for everything else.`),
+  ...specFaq('Frequency response', `What is the frequency response of the ${p.name}?`, (v) => `The manufacturer rates the ${p.name}'s frequency response at **${v}**. ${['bookshelf', 'tower', 'center', 'in-wall', 'atmos-speaker', 'high-end', 'wireless-speaker'].includes(p.category) ? `For movies, pair it with a subwoofer and set your receiver's [crossover](/glossary/crossover/) to around 80 Hz so deep bass goes to the sub.` : 'Figures are published by the maker and measured under their own conditions.'}`),
+];
+// Firmware & Updates (src/data/firmware.ts): only menu paths verified against the maker's manual or support pages.
+const fw = firmwareFor(p.slug);
+const fwUrl = fw ? fw.supportUrls?.[p.slug] ?? fw.supportUrl : '';
+const fwFaqs: F[] = fw ? [{ q: `How do I update the firmware on the ${p.name}?`, a: `${fw.network ? `Connect it to the internet, then go to **${fw.network}**.` : ''}${fw.usb ? ` ${fw.network ? 'You can also update from a USB stick: ' : 'Updates are installed from a USB stick: '}${fw.usb.charAt(0).toLowerCase() + fw.usb.slice(1)}` : ''}${fw.cautions ? ` ${fw.cautions}` : ''} Release notes and files are on [${p.brand}'s support site](${fwUrl}).`.trim() }] : [];
+const faqs = [...(p.faqs ?? []), ...specFaqs, ...fwFaqs, ...autoFaqs];
 const crumbs = [
   { name: 'Home', url: '/' },
   { name: 'All Gear', url: '/gear/' },
@@ -78,6 +89,7 @@ const updated = productUpdated(p);
       <h1 class="a-title">{p.name}</h1>
       <div class="gear-meta">
         <Score score={p.score} size="lg" />
+        {p.tested && <a class="tag" href="#lab-results">Lab tested</a>}
         <span>By <a href={authorUrl}>{AUTHOR.name}</a> · #{rank} of {total} {catLabel.toLowerCase()} · {p.priceBand}{p.released && <> · Released {p.released}</>} · Updated <time datetime={updated}>{formatDate(updated)}</time></span>
       </div>
     </header>
@@ -110,7 +122,16 @@ const updated = productUpdated(p);
           <tbody>{Object.entries(p.specs).map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}<tr><th scope="row">Street price</th><td>{p.priceBand} (typical band; check the live price)</td></tr></tbody>
         </table>
       </div>
-      <p class="fine">Specs from {p.brand}'s published spec sheet and product listings. The score comes from the spec sheet, room maths, published independent measurements and owner reports. <a href="/how-we-test/">How we score</a>.</p>
+      <p class="fine">Specs from {p.brand}'s published spec sheet and product listings. The score comes from {p.tested ? 'our lab results, ' : ''}the spec sheet, room maths, published independent measurements and owner reports. <a href="/how-we-test/">How we score</a>.</p>
+
+      {p.tested && (
+        <>
+          <h2 id="lab-results">{p.name} Lab Results</h2>
+          <p>Measured in our lab in {LAB.location} on <time datetime={p.tested.date}>{formatDate(p.tested.date)}</time>. <strong>Method:</strong> {p.tested.method}</p>
+          <div class="table-wrap"><table class="spec-table kv"><tbody>{p.tested.results.map((r) => <tr><th scope="row">{r.label}</th><td>{r.value}</td></tr>)}</tbody></table></div>
+          {p.tested.notes && <Fragment set:html={md(p.tested.notes)} />}
+        </>
+      )}
 
       <h2 id="score">{SITE.score}: {p.score}/100</h2>
       <p>The {SITE.score} weighs the spec sheet against the price band and what owners report over time.</p>
@@ -139,6 +160,20 @@ const updated = productUpdated(p);
         <>
           <h3>More from {p.brand}</h3>
           <div class="alt-cards">{sameBrand.map((x) => <a class="alt-card" href={productUrl(x)}><ProductImage product={x} size={64} /><span><strong>{x.name}</strong><small><Score score={x.score} /> · {x.priceBand}</small></span></a>)}</div>
+        </>
+      )}
+
+      {fw && (
+        <>
+          <h2 id="firmware">{sn} Firmware and Updates</h2>
+          <p>Firmware updates fix bugs and can add features and format support, so check for one when you first set up the {sn} and whenever HDMI, audio formats or connected features misbehave.</p>
+          <ul>
+            {fw.network && <li><strong>Update over the internet:</strong> <Fragment set:html={mdInline(fw.network)} /></li>}
+            {fw.auto && <li><strong>Automatic updates:</strong> <Fragment set:html={mdInline(fw.auto)} /></li>}
+            {fw.usb && <li><strong>USB update:</strong> <Fragment set:html={mdInline(fw.usb)} /></li>}
+          </ul>
+          {fw.cautions && <p><strong>Before you start:</strong> {fw.cautions}</p>}
+          <p>Release notes and update files: <a href={fwUrl} target="_blank" rel="noopener">{p.brand} support</a>. Steps from {p.brand}'s own manual and support pages.</p>
         </>
       )}
 

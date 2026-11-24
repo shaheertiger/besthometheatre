@@ -97,13 +97,13 @@
       }
     ],
     "summary": "A two-channel Marantz power amp rated at 140 W/ch into 8 Ω and 170 W/ch into 6 Ω, with XLR and RCA inputs, the tidy way to add the eleventh and twelfth channels to a nine-channel receiver.",
-    "verdict": "The MM7025 is a **two-channel power amplifier**, and its natural job is completing a big Atmos layout. A 7.1.4 system has 7 + 4 = **11** speakers. A nine-channel receiver like the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) or [Marantz Cinema 50](/gear/marantz-cinema-50/) powers nine, and the MM7025 drives the other two from its own supply, usually the front left and right.\n\nMarantz rates it at **140 W/ch into 8 Ω and 170 W/ch into 6 Ω**, with a **high-current toroidal transformer**, discrete output transistors and Marantz's current-feedback design. Each channel takes **balanced XLR or RCA**.\n\n**Show the maths.** Against a receiver channel rated at 105 W, 10 × log10(140 ÷ 105) = **1.25 dB** more headroom on paper. That alone is small. The real gain is that the receiver's supply now feeds nine channels instead of eleven, so it has more in reserve on loud scenes. With 86 dB [sensitivity](/glossary/speaker-sensitivity/) towers, 140 W gives 86 + 21.5 = **107.5 dB at 1 m** and about **96.5 dB** at a 3.5 m seat. Set a proper [crossover](/glossary/crossover/) so the subwoofer handles everything below 80 Hz and the fronts keep their headroom for the midrange.\n\nAuto-standby and remote power control mean it can wake with the system. If you need five or seven channels, the [Outlaw Audio 5000x](/gear/outlaw-audio-5000x/) or [Outlaw Audio 7000x](/gear/outlaw-audio-7000x/) gives more channels per dollar. See the [best home theater amplifier](/best-home-theater-amplifier/) guide.",
+    "verdict": "The MM7025 is a **two-channel power amplifier**, and its natural job is completing a big Atmos layout. A 7.1.4 system has 7 + 4 = **11** speakers. A nine-channel receiver like the [Denon AVR-X3800H](/gear/denon-avr-x3800h/) or [Marantz Cinema 50](/gear/marantz-cinema-50/) powers nine, and the MM7025 drives the other two from its own supply, usually the front left and right.\n\nMarantz rates it at **140 W/ch into 8 Ω and 170 W/ch into 6 Ω**, with Marantz's stated conditions of 20 Hz–20 kHz and two channels driven, an **oversized EI-core power transformer**, discrete output transistors and Marantz's current-feedback design. Each channel takes **balanced XLR or RCA**.\n\n**Show the maths.** Against a receiver channel rated at 105 W, 10 × log10(140 ÷ 105) = **1.25 dB** more headroom. That alone is small. The real gain is that the receiver's supply now feeds nine channels instead of eleven, so it has more in reserve on loud scenes. With 86 dB [sensitivity](/glossary/speaker-sensitivity/) towers, 140 W gives 86 + 21.5 = **107.5 dB at 1 m** and about **96.5 dB** at a 3.5 m seat. Set a proper [crossover](/glossary/crossover/) so the subwoofer handles everything below 80 Hz and the fronts keep their headroom for the midrange.\n\nAuto-standby and remote power control mean it can wake with the system. If you need five or seven channels, the [Outlaw Audio 5000x](/gear/outlaw-audio-5000x/) or [Outlaw Audio 7000x](/gear/outlaw-audio-7000x/) gives more channels per dollar. See the [best home theater amplifier](/best-home-theater-amplifier/) guide.",
     "bestFor": "Adding two channels to a nine-channel receiver for 7.1.4",
     "skipIf": "You need more than two channels of amplification",
     "pros": [
       "140 W/ch into 8 Ω, 170 W/ch into 6 Ω",
       "Balanced XLR and RCA inputs on each channel",
-      "High-current toroidal transformer for dynamic peaks",
+      "Oversized EI-core transformer and current-feedback design",
       "Auto-standby and remote power on/off"
     ],
     "cons": [
@@ -113,9 +113,14 @@
     ],
     "specs": {
       "Channels": "2",
-      "Power (rated)": "140 W/ch into 8 Ω; 170 W/ch into 6 Ω (manufacturer rating)",
+      "Power (rated)": "140 W × 2 (8 ohms, 20 Hz–20 kHz, 0.08% THD, two channels driven); 170 W × 2 (6 ohms, 20 Hz–20 kHz, two channels driven)",
+      "Frequency response": "8 Hz–100 kHz ±3 dB (1 W, 8 ohms)",
+      "THD": "0.08% (at rated output, 20 Hz–20 kHz)",
+      "Signal-to-noise ratio": "105 dB (IHF-A)",
       "Inputs": "Balanced XLR and unbalanced RCA",
-      "Features": "High-current toroidal transformer, current-feedback topology, auto-standby, remote power on/off, gold-plated speaker terminals"
+      "Features": "Oversized EI-core power transformer, current-feedback topology, auto-standby, remote power on/off, gold-plated speaker terminals",
+      "Dimensions": "5.0 × 17.3 × 13.9 in (126 × 440 × 352 mm)",
+      "Weight": "23.8 lb (10.8 kg)"
     },
     "keySpecs": [
       "Channels",
@@ -178,10 +183,14 @@
     ],
     "specs": {
       "Channels": "7",
-      "Power (rated)": "130 W/ch into 8 Ω; 200 W/ch into 4 Ω (all channels driven, 20 Hz–20 kHz, <0.03% THD)",
+      "Power (rated)": "130 W × 7 (8 ohms, all channels driven, 20 Hz–20 kHz, <0.03% THD); 200 W × 7 (4 ohms, 20 Hz–20 kHz, <0.06% THD)",
+      "Frequency response": "20 Hz–20 kHz ±0.5 dB (at rated output)",
+      "THD": "<0.03% (at rated output, 130 W)",
+      "Signal-to-noise ratio": "111 dB (A-weighted)",
       "Inputs": "Balanced XLR and differential-sensing RCA",
       "Features": "12 V trigger, per-channel rectification and protection relays, 111 dBA signal-to-noise ratio, 5-year warranty",
-      "Dimensions": "5.82 x 17 x 16.75 in (H x W x D)"
+      "Dimensions": "5.8 × 17.0 × 16.8 in (148 × 432 × 425 mm)",
+      "Weight": "61.5 lb (27.9 kg)"
     },
     "keySpecs": [
       "Channels",
@@ -248,10 +257,14 @@
     ],
     "specs": {
       "Channels": "5",
-      "Power (rated)": "120 W/ch into 8 Ω; 180 W/ch into 4 Ω (20 Hz–20 kHz, <0.02% THD)",
+      "Power (rated)": "120 W × 5 (8 ohms, all channels driven, 20 Hz–20 kHz, <0.02% THD); 180 W × 5 (4 ohms, all channels driven, 20 Hz–20 kHz, <0.03% THD)",
+      "Frequency response": "20 Hz–20 kHz ±0.5 dB (at rated output)",
+      "THD": "<0.02% (at rated output, 120 W, 8 ohms)",
+      "Signal-to-noise ratio": "111 dB (A-weighted)",
       "Inputs": "Balanced XLR and differential-sensing RCA",
       "Features": "12 V trigger, per-channel rectification and protection relays, 111 dBA signal-to-noise ratio, 5-year warranty",
-      "Dimensions": "5.82 x 17 x 16.75 in (H x W x D)"
+      "Dimensions": "5.8 × 17.0 × 16.8 in (148 × 432 × 425 mm)",
+      "Weight": "49 lb (22.2 kg)"
     },
     "keySpecs": [
       "Channels",
@@ -317,8 +330,13 @@
       "Channels": "2",
       "Power (rated)": "85 W/ch (8 Ω, 20 Hz–20 kHz, 0.019% THD)",
       "Class": "AB",
+      "Frequency response": "10 Hz–100 kHz ±1.0 dB",
+      "THD": "0.019% (CD to speaker out, 20 Hz–20 kHz, 50 W/8 ohms)",
+      "Signal-to-noise ratio": "99 dB (CD, input shorted, 200 mV)",
       "Inputs": "Optical and coaxial digital, phono (MM), line-level RCA",
-      "Features": "Built-in DAC, subwoofer output, Pure Direct mode, tone controls"
+      "Features": "Built-in DAC, subwoofer output, Pure Direct mode, tone controls",
+      "Dimensions": "5.9 × 17.1 × 15.2 in (151 × 435 × 387 mm)",
+      "Weight": "22.7 lb (10.3 kg)"
     },
     "keySpecs": [
       "Channels",
@@ -381,10 +399,15 @@
     ],
     "specs": {
       "Channels": "2",
-      "Power (rated)": "45 W/ch into 8 Ω; 70 W/ch into 4 Ω",
+      "Power (rated)": "45 W × 2 (8 ohms, 20 Hz–20 kHz, 0.07% THD); 70 W × 2 (4 ohms, 1 kHz, 0.7% THD)",
       "Class": "AB",
+      "Frequency response": "5 Hz–100 kHz (0 to −3 dB)",
+      "THD": "0.01% (rated output −3 dB, 8 ohms, 1 kHz)",
+      "Signal-to-noise ratio": "105 dB (high-level inputs, A-weighted, inputs shorted); 84 dB (phono MM)",
       "Inputs": "Bluetooth, optical and coaxial digital, phono (MM), line-level RCA",
-      "Features": "Built-in DAC, Analog Mode, tone controls"
+      "Features": "Built-in DAC, Analog Mode, tone controls",
+      "Dimensions": "4.8 × 17.1 × 12.1 in (121 × 434 × 308 mm)",
+      "Weight": "16.3 lb (7.4 kg)"
     },
     "keySpecs": [
       "Channels",
@@ -446,7 +469,11 @@
     ],
     "specs": {
       "Channels": "2",
+      "Power (rated)": "300 W × 2 (4 ohms; Fosi's published maximum, no THD or bandwidth stated)",
       "Class": "D (Texas Instruments TPA3255)",
+      "Frequency response": "20 Hz–20 kHz (±0.1 dB)",
+      "THD": "<0.003%",
+      "Signal-to-noise ratio": "≥110 dB",
       "Inputs": "Line-level RCA",
       "Features": "External DC power supply"
     },

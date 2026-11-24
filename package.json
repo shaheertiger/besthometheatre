@@ -19,6 +19,7 @@
     "@vercel/functions": "^3.11.3",
     "amazon-creators-api": "^1.2.2",
     "astro": "5.18.2",
-    "marked": "15.0.12"
+    "marked": "15.0.12",
+    "@vercel/analytics": "^2.0.1"
   }
 }

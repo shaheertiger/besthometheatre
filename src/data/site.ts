@@ -10,7 +10,7 @@ export const SITE = {
   description:
     'Independent home theater reviews: projectors, AV receivers, speakers, subwoofers and complete systems checked against the spec sheet, room size and real cost. No paid placements.',
   locale: 'en_US',
-  author: 'Best Home Theater Review Editorial Team',
+  author: 'Justin Lee',
   email: 'editors@besthometheaterreview.com',
   ogImage: '/og-default.png',
   /** Amazon Associates tracking ID used on every Amazon link. */
@@ -25,6 +25,21 @@ export const SITE = {
   /** Name of the research score shown on every product. */
   score: 'BHTR Score',
 } as const;
+
+/** Article author. Facts only from his public profile; keep in sync with /authors/justin-lee/. */
+export const AUTHOR = {
+  name: 'Justin Lee',
+  slug: 'justin-lee',
+  url: '/authors/justin-lee/',
+  role: 'Author',
+  shortBio: 'Software engineer (ex-Apple, ex-Tesla firmware) with a background in digital signal processing. University of Waterloo Computer Science.',
+  sameAs: ['https://www.linkedin.com/in/justinllee32/'],
+  knowsAbout: ['Digital signal processing', 'Embedded software', 'Firmware', 'Home theater'],
+  alumniOf: 'University of Waterloo',
+} as const;
+
+/** Our testing lab. Products get a "Lab tested" badge only when they have a `tested` record. */
+export const LAB = { location: 'Mississauga, Ontario' } as const;
 
 export const CATEGORY_LABELS: Record<string, string> = {
   projector: 'Projectors',
@@ -53,4 +68,16 @@ export const CATEGORY_ICONS: Record<string, string> = {
   projector: '📽️', screen: '🖼️', receiver: '🎛️', amplifier: '🔊', subwoofer: '🔉', system: '🎬',
   soundbar: '📶', bookshelf: '🔈', tower: '🗼', center: '🎙️', 'atmos-speaker': '⬆️', 'in-wall': '🧱',
   'high-end': '💎', 'wireless-speaker': '📡', tv: '📺', seating: '🛋️', remote: '🎮', cable: '🔌', power: '⚡', popcorn: '🍿',
+};
+
+/** Roundup format (title, meta description and "Before You Buy" box), modelled on our best-performing Bing pages. */
+export const FORMAT = {
+  /** Heading for the product list at the end of guide pages. */
+  mentionedLabel: 'Gear Mentioned',
+  /** Site topic for "Everything Else About …" on guide and brand pages. */
+  topic: 'Home Theater',
+  /** What every roundup compares products on, used in the meta description. */
+  criteria: 'spec sheets, room size and real-world price',
+  alsoNeededLabel: 'Also Needed for This Setup',
+  alsoNeeded: ['best-speaker-wire-for-home-theater', 'best-surge-protector-for-home-theater', 'best-universal-remote-for-home-theater', 'best-projector-screen-for-home-theater'],
 };

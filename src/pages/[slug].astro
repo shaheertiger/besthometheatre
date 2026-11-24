@@ -15,7 +15,9 @@ import Score from '../components/Score.astro';
 import AmazonButton from '../components/AmazonButton.astro';
 import RelatedCards from '../components/RelatedCards.astro';
 import StickyBuyBar from '../components/StickyBuyBar.astro';
-import { SITE, CATEGORY_LABELS } from '../data/site';
+import GuidePage from '../components/GuidePage.astro';
+import ProductImage from '../components/ProductImage.astro';
+import { SITE, CATEGORY_LABELS, LAB } from '../data/site';
 import { compares } from '../data/compares';
 import { articles, articleMap, getProduct, productMap, hubLabel, readMinutes, articleUrl, brandUrl, productUrl, productsByBrand, productsByCategory, compareSlug, shortName, formatDate } from '../lib/data';
 import { md, mdInline, slugify } from '../lib/md';
@@ -36,8 +38,13 @@ const isReview = a.kind === 'review';
 const isGuide = a.kind === 'guide';
 const cat = CATEGORY_LABELS[a.hub] ? a.hub : top?.category;
 const catLabel = cat ? CATEGORY_LABELS[cat] : hubLabel(a.hub);
-const before = a.sections.filter((s) => s.position === 'before');
-const after = a.sections.filter((s) => s.position !== 'before');
+// The article's own "How We Chose/Ranked …" section, when it has one, is the method block ahead of the picks.
+const method = (a.picks?.length && a.kind !== 'guide') ? a.sections.find((s) => /^How We /i.test(s.heading)) : undefined;
+const before = a.sections.filter((s) => s !== method && s.position === 'before');
+const after = a.sections.filter((s) => s !== method && s.position !== 'before');
+const testedPicks = (a.picks ?? []).map((pk) => getProduct(pk.product)).filter((p) => p.tested);
+// Notable mentions: strong models that missed the list, and when they're the better buy.
+const mentions = (a.mentions ?? []).filter((m) => productMap.has(m.product) && !(a.picks ?? []).some((pk) => pk.product === m.product)).map((m) => ({ p: getProduct(m.product), body: m.body }));
 const subject = a.h1.replace(/^(The )?Best /, '');
 
 // Spec table columns: keep specs most picks actually have; top up from shared key specs.
@@ -57,9 +64,10 @@ const headToHead = compares.filter(([x, y]) => pickSlugs.has(x) && pickSlugs.has
 // Numbered H2 outline: Short Answer first (the Bing rule), then the enthusiastreview.com order.
 const H = {
   short: `${a.h1.includes(':') ? a.h1.split(':')[0].trim() : a.h1}: The Short Answer`,
-  how: isReview && a.brand ? `How We Ranked the ${a.brand} Lineup` : `How We Ranked These ${catLabel}`,
+  how: method?.heading ?? (isReview && a.brand ? `How We Ranked the ${a.brand} Lineup` : `How We Ranked These ${catLabel}`),
   picks: a.picksHeading ?? (isReview && a.brand ? `The ${a.brand} Lineup, Ranked` : `${a.h1}: Our ${picks.length} Picks`),
   specs: 'Spec Sheets Side by Side',
+  mentions: 'Notable Mentions',
   mistakes: 'Common Mistakes to Avoid',
   bottom: 'The Bottom Line',
   faq: 'Frequently Asked Questions',
@@ -73,6 +81,7 @@ const outline: [string, string][] = [
   ...before.map((s) => [slugify(s.heading), s.heading] as [string, string]),
   ...(hasPicks ? [['picks', H.picks] as [string, string]] : []),
   ...(picks.length > 1 ? [['specs', H.specs] as [string, string]] : []),
+  ...(mentions.length ? [['mentions', H.mentions] as [string, string]] : []),
   ...after.map((s) => [slugify(s.heading), s.heading] as [string, string]),
   ...(a.mistakes?.length ? [['mistakes', H.mistakes] as [string, string]] : []),
   ['bottom-line', H.bottom],
@@ -106,6 +115,7 @@ const sources = [
   `Our [${SITE.score} method](/how-we-test/) and room maths ([throw](/tools/projector-throw-calculator/) and [viewing distance](/tools/viewing-distance-calculator/) calculators)`,
 ];
 ---
+{a.kind === 'guide' ? <GuidePage article={a} /> : (
 <Base title={a.title} description={a.metaDescription} type="article" schema={schema} published={a.published} updated={a.updated} section={catLabel} tags={a.keywords.slice(0, 5)} mdAlternate={`/${a.slug}.md`} preloadImage={top ? amazonImage(top, 160) ?? undefined : undefined} ogImage={firstImg}>
   <article class="article">
     <header class="a-head col">
@@ -152,6 +162,8 @@ const sources = [
       {hasPicks && !isGuide && (
         <>
           <h2 id="how-we-ranked">{num('how-we-ranked')}{H.how}</h2>
+          {method ? <Fragment set:html={md(method.body)} /> : (
+            <>
           <p>Every product on this page has a full spec sheet and a {SITE.score} out of 100. We ranked {isReview && a.brand ? `${a.brand}'s lineup` : `these ${catLabel.toLowerCase()}`} on four things, weighted by what changes the result in a real room:</p>
           <ul class="criteria">
             <li><strong>The spec sheet, read properly.</strong> Power at all channels driven, ISO lumens, response at ±3 dB: the conditions behind the headline number.</li>
@@ -159,7 +171,9 @@ const sources = [
             <li><strong>Value for the price band.</strong> A great budget model can outrank an expensive mediocre one.</li>
             <li><strong>Owner-reported reliability.</strong> Recurring failures, firmware problems and support issues over months of use.</li>
           </ul>
-          {tracked.length > 0 && <p class="fine">We track {tracked.length} {isReview && a.brand ? `${a.brand} products` : catLabel.toLowerCase()}; {picks.length} made this list. Scores are research scores, not lab results. <a href="/how-we-test/">How the {SITE.score} works</a>.</p>}
+            </>
+          )}
+          {tracked.length > 0 && <p class="fine">We track {tracked.length} {isReview && a.brand ? `${a.brand} products` : catLabel.toLowerCase()}; {picks.length} made this list.{testedPicks.length > 0 && <> {testedPicks.length} of the picks have been through our lab in {LAB.location} and carry a <strong>Lab tested</strong> badge.</>} <a href="/how-we-test/">How the {SITE.score} works</a>.</p>}
         </>
       )}
 
@@ -174,6 +188,22 @@ const sources = [
         <>
           <h2 id="specs">{num('specs')}{H.specs}</h2>
           <ComparisonTable products={pickProducts} specs={columns} />
+        </>
+      )}
+
+      {mentions.length > 0 && (
+        <>
+          <h2 id="mentions">{num('mentions')}{H.mentions}</h2>
+          {mentions.map(({ p, body }) => (
+            <div class="mention has-thumb">
+              <ProductImage product={p} size={72} />
+              <div class="mention-main">
+                <h3><a href={productUrl(p)}>{p.name}</a></h3>
+                <p class="mention-meta"><Score score={p.score} /> · {p.priceBand}</p>
+                <Fragment set:html={md(body)} />
+              </div>
+            </div>
+          ))}
         </>
       )}
 
@@ -195,9 +225,16 @@ const sources = [
 
       <h2 id="sources">{num('sources')}{H.sources}</h2>
       <h3>Recent updates</h3>
-      <ul><li><time datetime={a.updated}>{formatDate(a.updated)}</time>: {hasPicks ? 'picks, prices and specs rechecked.' : 'advice and links rechecked.'}</li></ul>
+      {a.updates?.length ? (
+        <ul>{a.updates.map((u) => <li><time datetime={u.date}>{formatDate(u.date)}</time>: {u.note}</li>)}</ul>
+      ) : (
+        <ul><li><time datetime={a.updated}>{formatDate(a.updated)}</time>: {hasPicks ? 'picks, prices and specs rechecked.' : 'advice and links rechecked.'}</li></ul>
+      )}
       <h3>What this page is based on</h3>
-      <ul>{(hasPicks ? sources : sources.slice(-2)).map((s) => <li set:html={mdInline(s)} />)}</ul>
+      <ul>
+        {testedPicks.length > 0 && <li><strong>Our lab.</strong> {testedPicks.map((p, i) => <>{i > 0 && ', '}<a href={`${productUrl(p)}#lab-results`}>{p.name}</a></>)} {testedPicks.length === 1 ? 'was' : 'were'} measured in our lab in {LAB.location}; the date, method and results are on {testedPicks.length === 1 ? 'its' : 'each'} gear page.</li>}
+        {(hasPicks ? sources : sources.slice(-2)).map((s) => <li set:html={mdInline(s)} />)}
+      </ul>
       <p class="fine">Spotted a spec that changed or a product that went out of stock? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
 
       {tracked.length > 0 && (
@@ -250,3 +287,4 @@ const sources = [
     {top && <StickyBuyBar items={[{ slug: top.slug, name: top.name, label: `${picks[0].award} · ${SITE.score} ${top.score}/100 · ${top.priceBand}`, url: amazonUrl(top), image: amazonImage(top, 160) }]} />}
   </article>
 </Base>
+)}

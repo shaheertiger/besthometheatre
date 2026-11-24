@@ -4,6 +4,7 @@
   "title": "Best Speaker Wire for Home Theater (2026): 6 Picks + Gauges",
   "metaDescription": "The best speaker wire for home theater, with a gauge vs run length chart, CCA vs OFC copper explained, CL2/CL3 in-wall ratings and banana plug advice.",
   "h1": "Best Speaker Wire for Home Theater",
+  "listName": "Speaker Wires for Home Theater",
   "keyword": "best speaker wire for home theater",
   "keywords": [
     "best speaker cable for home theater",
@@ -18,7 +19,7 @@
   ],
   "hub": "cable",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The **best speaker wire for home theater** is thick enough for your run length, made of solid copper rather than copper-clad aluminum, and rated for in-wall use if it goes behind drywall. Beyond that, expensive cable buys looks, not sound. This guide is for anyone wiring a 5.1, 7.1 or Atmos system and wondering what gauge to buy and how much.\n\nOur top pick is the [Monoprice 12AWG oxygen-free copper wire](/gear/monoprice-12awg-speaker-wire/), which covers long surround and height runs with margin to spare. For typical living rooms, [Amazon Basics 14-gauge](/gear/amazon-basics-14-gauge-speaker-wire/) is the value choice, and [FosPower banana plugs](/gear/fospower-banana-plugs/) make hookups cleaner.",
   "quickAnswer": "For most home theaters, buy **14 AWG oxygen-free copper** for runs under about 40 feet to 8-ohm speakers, and **12 AWG** for longer runs or 4-ohm speakers. The **Monoprice 12AWG** is our top pick, **Amazon Basics 14-gauge** is the best value, and in-wall runs need cable printed with a **CL2 or CL3** rating. Avoid copper-clad aluminum unless you go two gauge sizes thicker.",
   "picksHeading": "The Best Speaker Wire and Accessories",
@@ -157,5 +158,15 @@
     "best-in-wall-speakers-for-home-theater",
     "home-theater-setup-guide"
   ],
-  "bottomLine": "The [Monoprice 12AWG](/gear/monoprice-12awg-speaker-wire/) is the best speaker wire for home theater if you want one spool that covers every run. [Amazon Basics 14-gauge](/gear/amazon-basics-14-gauge-speaker-wire/) is the value choice for typical living rooms, the [KnuKonceptz Kord](/gear/knukonceptz-kord-12awg/) is the flexible 12-gauge option, the CL2 version of the [GearIT 14AWG](/gear/gearit-14awg-speaker-wire/) is for in-wall runs, and [Amazon Basics 16-gauge](/gear/amazon-basics-16-gauge-speaker-wire/) covers short runs cheaply. Finish the job with [FosPower banana plugs](/gear/fospower-banana-plugs/), and size gauge to run length and impedance using the chart above."
+  "bottomLine": "The [Monoprice 12AWG](/gear/monoprice-12awg-speaker-wire/) is the best speaker wire for home theater if you want one spool that covers every run. [Amazon Basics 14-gauge](/gear/amazon-basics-14-gauge-speaker-wire/) is the value choice for typical living rooms, the [KnuKonceptz Kord](/gear/knukonceptz-kord-12awg/) is the flexible 12-gauge option, the CL2 version of the [GearIT 14AWG](/gear/gearit-14awg-speaker-wire/) is for in-wall runs, and [Amazon Basics 16-gauge](/gear/amazon-basics-16-gauge-speaker-wire/) covers short runs cheaply. Finish the job with [FosPower banana plugs](/gear/fospower-banana-plugs/), and size gauge to run length and impedance using the chart above.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick and a sources section."
+    },
+    {
+      "date": "2026-11-17",
+      "note": "Swapped out models that were discontinued or no longer stocked on Amazon: the FosPower Banana Plugs (12 Pairs) replaces the Mediabridge Banana Plugs (12 Pairs) as Best Banana Plugs; the Amazon Basics 14-Gauge Speaker Wire replaces the Mediabridge 14AWG Speaker Wire as Best Value."
+    }
+  ]
 }

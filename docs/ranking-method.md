@@ -81,7 +81,7 @@ Guides without picks use the article skeleton: Short Answer → lede → On this
 5. `scripts/build-markdown.mjs` → a Markdown twin of every page (`/best-x/` → `/best-x.md`, `/` → `/index.md`),
    `llms.txt`, `llms-full.txt`, `ai.txt`, `sitemap.md` and `md-catalog.json`, converted from the built HTML.
 6. `scripts/indexnow-submit.mjs --postbuild` → on a Vercel production build, submits every URL in
-   `dist/sitemap.xml` to IndexNow (Bing, Yandex, Seznam, Naver). The key file is `public/2d31550bc2b94a8d882d41a77fdb73d7.txt`.
+   `dist/sitemap.xml` to IndexNow (Bing, Yandex, Seznam, Naver). The key file is `public/02e52e4ff57642149b896959813aefcc.txt`.
    Run `npm run indexnow` to resubmit the live sitemap by hand.
 
 `middleware.js` (Vercel Routing Middleware, `@dualmark/core`) serves the Markdown twins: `/x.md`, any page with

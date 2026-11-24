@@ -18,7 +18,7 @@
   "hub": "brands",
   "brand": "Yamaha",
   "published": "2026-11-17",
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "intro": "The best Yamaha home theater receiver for most people is the **[Yamaha RX-V6A](/gear/yamaha-rx-v6a/)**: seven channels rated at **100 W each (8 ohms, 20 Hz–20 kHz, two channels driven)**, HDMI 2.1 with 4K/120 support, YPAO room calibration and MusicCast multiroom streaming, wrapped in what is still one of the easiest receivers to set up. This review is for anyone weighing Yamaha against Denon, Sony or Onkyo, or choosing between Yamaha's receivers, home-theater-in-a-box packages, subwoofers and amps.\n\nWe cover what Yamaha does well (usability, music, multiroom), where it falls short (room correction depth, slower model updates), and which Yamaha product fits which room. If you're on a budget, the **[Yamaha RX-V4A](/gear/yamaha-rx-v4a/)** is the 5.2 pick; if you want an all-in-one box, the **[Yamaha YHT-5960U](/gear/yamaha-yht-5960u/)** bundles everything.",
   "quickAnswer": "Yamaha makes some of the easiest, most music-friendly home theater receivers available. The RX-V6A is the best Yamaha receiver for most rooms (7.2, 100 W, 4K/120, YPAO, MusicCast), the RX-V4A is the budget 5.2 pick, and the AVENTAGE RX-A4A is the premium choice. Denon offers more channels and advanced room correction for similar money; Yamaha wins on usability and multiroom music.",
   "picksHeading": "The Yamaha home theater lineup",
@@ -63,7 +63,7 @@
     {
       "position": "before",
       "heading": "Who Yamaha Is",
-      "body": "Yamaha started in 1887 as a maker of reed organs and grew into one of the world's largest musical instrument companies, making pianos, guitars, drums and pro audio gear. (Yamaha Motor, the motorcycle maker, is a separate company that shares the name and logo heritage.) That musical background shapes its audio products: Yamaha has long voiced its receivers and amplifiers with music in mind.\n\nIn home theater, Yamaha is known for a few signature technologies:\n\n- **CINEMA DSP:** digital sound-field processing that simulates the acoustics of real venues. Yamaha has refined it for decades; the newer **Surround:AI** on AVENTAGE models applies it automatically by scene.\n- **YPAO (Yamaha Parametric room Acoustic Optimizer):** Yamaha's [room correction](/glossary/room-correction/) system, included on every current receiver, with multipoint measurement on higher models.\n- **MusicCast:** Yamaha's multiroom platform, linking receivers, soundbars and wireless speakers in one app.\n\nToday's lineup splits into the mainstream **RX-V** receivers, the premium **AVENTAGE** (RX-A) line, home-theater-in-a-box packages, and a range of speakers, subwoofers, in-wall speakers like the [NS-IW480](/gear/yamaha-ns-iw480/) and stereo amplifiers. See all products on our [Yamaha brand page](/brands/yamaha/)."
+      "body": "Yamaha started in 1887 as a maker of reed organs and grew into one of the world's largest musical instrument companies, making pianos, guitars, drums and pro audio gear. (Yamaha Motor, the motorcycle maker, is a separate company that shares the name and logo heritage.) That musical background shapes its audio products: Yamaha has long voiced its receivers and amplifiers with music in mind.\n\nIn home theater, Yamaha is known for a few signature technologies:\n\n- **CINEMA DSP:** digital sound-field processing that simulates the acoustics of real venues. Yamaha has refined it for decades; the newer **Surround:AI** on AVENTAGE models applies it automatically by scene.\n- **YPAO (Yamaha Parametric room Acoustic Optimizer):** Yamaha's [room correction](/glossary/room-correction/) system, included on every current receiver, with multipoint measurement on higher models.\n- **MusicCast:** Yamaha's multiroom platform, linking receivers, soundbars and wireless speakers in one app.\n\nToday's lineup splits into the mainstream **RX-V** receivers, the premium **AVENTAGE** (RX-A) line, home-theater-in-a-box packages, and a range of speakers, subwoofers, in-ceiling speakers like the [NS-IW480C](/gear/yamaha-ns-iw480/) and stereo amplifiers. See all products on our [Yamaha brand page](/brands/yamaha/)."
     },
     {
       "heading": "What Yamaha Does Well",
@@ -148,5 +148,11 @@
     "best-budget-home-theater-receiver",
     "best-home-theater-systems"
   ],
-  "bottomLine": "Yamaha builds some of the easiest, most music-friendly home theater gear you can buy. The **RX-V6A** is the best Yamaha home theater receiver for most rooms, the **RX-V4A** is the budget 5.1 choice, and the **AVENTAGE RX-A4A** adds premium build and Surround:AI. The **YHT-5960U** is the one-box option, the **NS-SW100** is a matched sub for small rooms, and the **A-S501** is the pick for a music-first 2.1 setup. If you want more channels or deeper room correction for the money, look at Denon instead."
+  "bottomLine": "Yamaha builds some of the easiest, most music-friendly home theater gear you can buy. The **RX-V6A** is the best Yamaha home theater receiver for most rooms, the **RX-V4A** is the budget 5.1 choice, and the **AVENTAGE RX-A4A** adds premium build and Surround:AI. The **YHT-5960U** is the one-box option, the **NS-SW100** is a matched sub for small rooms, and the **A-S501** is the pick for a music-first 2.1 setup. If you want more channels or deeper room correction for the money, look at Denon instead.",
+  "updates": [
+    {
+      "date": "2026-11-18",
+      "note": "Reorganized the page so the comparison table and how we chose come before the picks. Added a \"skip it if\" line on each pick and a sources section."
+    }
+  ]
 }

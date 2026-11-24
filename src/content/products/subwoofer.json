@@ -47,8 +47,10 @@
       "Amplifier": "325 W RMS / 820 W peak (Class D)",
       "Frequency response": "20–270 Hz ±3 dB",
       "Enclosure": "Sealed, front-firing",
-      "Inputs": "Line-level RCA (stereo)",
-      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, room gain compensation"
+      "Inputs": "Line-level RCA (stereo), speaker-level inputs, line output",
+      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, room gain compensation",
+      "Dimensions": "13.5 × 13.0 × 14.8 in (342 × 330 × 375 mm)",
+      "Weight": "26.0 lb (11.9 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -95,13 +97,13 @@
         "value": 80
       }
     ],
-    "summary": "The ported sibling of the SB-1000 Pro, with the same 12-inch driver and 325 W RMS amp but deeper extension to 18 Hz and selectable port tuning, for rooms up to about 3,000 cubic feet.",
-    "verdict": "The PB-1000 Pro uses the same **12-inch driver** and **325 W RMS (820 W peak)** amp as the [SB-1000 Pro](/gear/svs-sb-1000-pro/), but in a larger **ported** cabinet. SVS rates it at **18–270 Hz ±3 dB**, 2 Hz deeper than the sealed version.\n\nThat 2 Hz matters more than it looks. To play the same level at 18 Hz as at 36 Hz, a driver must move **four times** the air. A port tuned low adds output right where the cone struggles, so on paper the PB-1000 Pro plays louder in the deepest octave, where explosions and rumble live.\n\nRoom maths: a 15 × 20 ft room with an 8 ft ceiling is **2,400 cu ft**. As a rough guide, a single ported 12-inch sub like this covers rooms up to about 3,000 cu ft at movie levels. Beyond that, plan for two subs; two identical subs placed together can add up to about **6 dB**.\n\nThe app lets you switch between **three tuning modes**, including a sealed mode, so you can trade some deep output for a tighter roll-off. It also handles [crossover](/glossary/crossover/), phase and parametric EQ.\n\nThe cost is size: the cabinet is much bigger than the sealed model. If you have the floor space, it is one of the best-value movie subs in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "summary": "The ported sibling of the SB-1000 Pro, with the same 12-inch driver and 325 W RMS amp but deeper extension to 17 Hz and selectable port tuning, for rooms up to about 3,000 cubic feet.",
+    "verdict": "The PB-1000 Pro uses the same **12-inch driver** and **325 W RMS (820 W peak)** amp as the [SB-1000 Pro](/gear/svs-sb-1000-pro/), but in a larger **ported** cabinet. SVS rates it at **17–260 Hz ±3 dB** in its standard mode, 3 Hz deeper than the sealed version.\n\nThose 3 Hz matter more than they look. To play the same level at 17 Hz as at 34 Hz, a driver must move **four times** the air. A port tuned low adds output right where the cone struggles, so the PB-1000 Pro plays louder in the deepest octave, where explosions and rumble live.\n\nRoom maths: a 15 × 20 ft room with an 8 ft ceiling is **2,400 cu ft**. As a rough guide, a single ported 12-inch sub like this covers rooms up to about 3,000 cu ft at movie levels. Beyond that, plan for two subs; two identical subs placed together can add up to about **6 dB**.\n\nThe app lets you switch between **two tuning modes**, standard and sealed (19–260 Hz), so you can trade some deep output for a tighter roll-off. It also handles [crossover](/glossary/crossover/), phase and parametric EQ.\n\nThe cost is size: the cabinet is much bigger than the sealed model. If you have the floor space, it is one of the best-value movie subs in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
     "bestFor": "Movie-first rooms up to about 3,000 cubic feet",
     "skipIf": "You need a compact cabinet or listen mainly to music in a small room",
     "pros": [
-      "Ported design reaches 18 Hz (±3 dB)",
-      "Three selectable tuning modes via the app",
+      "Ported design reaches 17 Hz (±3 dB)",
+      "Standard and sealed tuning modes via the app",
       "325 W RMS amp and 12-inch driver",
       "SVS app with parametric EQ"
     ],
@@ -113,10 +115,12 @@
     "specs": {
       "Driver": "12-inch",
       "Amplifier": "325 W RMS / 820 W peak (Class D)",
-      "Frequency response": "18–270 Hz ±3 dB",
-      "Enclosure": "Ported, front-firing; three tuning modes",
+      "Frequency response": "17–260 Hz ±3 dB (standard mode); 19–260 Hz (sealed mode)",
+      "Enclosure": "Ported, front-firing; two tuning modes (standard and sealed)",
       "Inputs": "Line-level RCA (stereo)",
-      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, port tuning modes"
+      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, port tuning modes",
+      "Dimensions": "18.9 × 15.0 × 20.0 in (479 × 380 × 509 mm)",
+      "Weight": "42.5 lb (19.3 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -127,11 +131,11 @@
     "faqs": [
       {
         "q": "SVS PB-1000 Pro vs SB-1000 Pro: which is better for movies?",
-        "a": "The PB-1000 Pro. It uses the same driver and amp but its ported cabinet extends to 18 Hz versus 20 Hz and plays louder in the deepest octave. The SB-1000 Pro is smaller and a better fit for tight spaces and music."
+        "a": "The PB-1000 Pro. It uses the same driver and amp but its ported cabinet extends to 17 Hz versus 20 Hz and plays louder in the deepest octave. The SB-1000 Pro is smaller and a better fit for tight spaces and music."
       },
       {
         "q": "What are the tuning modes on the PB-1000 Pro?",
-        "a": "The SVS app lets you select different port tuning modes, including a sealed mode. Lower tuning gives more deep bass; sealed mode gives a tighter, gentler roll-off."
+        "a": "The SVS app switches between two modes: standard (17–260 Hz ±3 dB) and sealed (19–260 Hz). Lower tuning gives more deep bass; sealed mode gives a tighter, gentler roll-off."
       }
     ]
   },
@@ -164,7 +168,7 @@
       }
     ],
     "summary": "A sealed 12-inch sub with a 550 W RMS amp, 19 Hz extension and SVS app control, offering clearly more headroom than the SB-1000 Pro in a cabinet that still fits a living room.",
-    "verdict": "The SB-2000 Pro steps up from the [SB-1000 Pro](/gear/svs-sb-1000-pro/) with a beefier **12-inch driver** and a **550 W RMS (1,500 W peak)** amplifier. SVS rates it at **19–260 Hz ±3 dB** in a **sealed** cabinet.\n\nRun the amp maths first: 10 × log10(550 ÷ 325) = **2.3 dB** more power headroom than the SB-1000 Pro. The driver is built for more excursion, so in practice the gap at high levels in the bottom octave can be larger than the amp figure suggests.\n\nRoom maths: a 15 × 20 ft room with an 8 ft ceiling is **2,400 cu ft**. As a rough guide, the SB-2000 Pro suits sealed-sub rooms up to about **3,000 cu ft**, which is a step beyond what the 1000 Pro can handle comfortably. Sealed subs also benefit most from room gain in smaller rooms, where the room itself boosts the lowest notes.\n\nThe SVS app adds parametric EQ, phase, [crossover](/glossary/crossover/) and room gain compensation. If you want even more output and deeper extension and have space for a big box, the ported [SVS PB-2000 Pro](/gear/svs-pb-2000-pro/) reaches 16 Hz. For a sealed sub that fits most rooms, this is a strong pick to compare in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "verdict": "The SB-2000 Pro steps up from the [SB-1000 Pro](/gear/svs-sb-1000-pro/) with a beefier **12-inch driver** and a **550 W RMS (1,500 W peak)** amplifier. SVS rates it at **19–240 Hz ±3 dB** in a **sealed** cabinet.\n\nRun the amp maths first: 10 × log10(550 ÷ 325) = **2.3 dB** more power headroom than the SB-1000 Pro. The driver is built for more excursion, so in practice the gap at high levels in the bottom octave can be larger than the amp figure suggests.\n\nRoom maths: a 15 × 20 ft room with an 8 ft ceiling is **2,400 cu ft**. As a rough guide, the SB-2000 Pro suits sealed-sub rooms up to about **3,000 cu ft**, which is a step beyond what the 1000 Pro can handle comfortably. Sealed subs also benefit most from room gain in smaller rooms, where the room itself boosts the lowest notes.\n\nThe SVS app adds parametric EQ, phase, [crossover](/glossary/crossover/) and room gain compensation. If you want even more output and deeper extension and have space for a big box, the ported [SVS PB-2000 Pro](/gear/svs-pb-2000-pro/) reaches 16 Hz. For a sealed sub that fits most rooms, this is a strong pick to compare in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
     "bestFor": "Living rooms and dedicated rooms up to about 3,000 cubic feet that need a compact cabinet",
     "skipIf": "You have a very large room and space for a big ported sub",
     "pros": [
@@ -180,10 +184,12 @@
     "specs": {
       "Driver": "12-inch",
       "Amplifier": "550 W RMS / 1,500 W peak (Class D)",
-      "Frequency response": "19–260 Hz ±3 dB",
+      "Frequency response": "19–240 Hz ±3 dB",
       "Enclosure": "Sealed, front-firing",
       "Inputs": "Line-level RCA (stereo)",
-      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, room gain compensation"
+      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, room gain compensation",
+      "Dimensions": "14.6 × 14.2 × 15.6 in (372 × 360 × 395 mm)",
+      "Weight": "38.6 lb (17.5 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -231,7 +237,7 @@
       }
     ],
     "summary": "A big ported 12-inch sub with a 550 W RMS amp and 16 Hz extension, built for movie rooms up to about 4,000 cubic feet.",
-    "verdict": "The PB-2000 Pro takes the driver and **550 W RMS (1,500 W peak)** amp of the [SB-2000 Pro](/gear/svs-sb-2000-pro/) and puts them in a large **ported** cabinet. SVS rates it at **16–260 Hz ±3 dB**, the deepest figure in this category.\n\nThat extension is where the maths gets expensive. For the same output at 16 Hz as at 32 Hz, the system must move **four times** the air. The port does much of that work near its tuning frequency, which is why a ported 12-inch can outgun a sealed one in the bottom octave, at the cost of a bigger box.\n\nRoom maths: an 18 × 22 ft room with a 9 ft ceiling is **3,564 cu ft**. As a rough guide, a single PB-2000 Pro suits dedicated rooms up to about **4,000 cu ft**. In a larger or open-plan space, two subs are better than one bigger sub: they add up to about **6 dB** when placed together, and spread around the room they smooth seat-to-seat response.\n\nThe app gives you **three tuning modes**, parametric EQ, phase and [crossover](/glossary/crossover/) control. Pair it with a receiver that has strong [room correction](/glossary/room-correction/) for the best result. If you have the floor space, it is the deepest sub here per dollar; see our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide for the full comparison.",
+    "verdict": "The PB-2000 Pro takes the driver and **550 W RMS (1,500 W peak)** amp of the [SB-2000 Pro](/gear/svs-sb-2000-pro/) and puts them in a large **ported** cabinet. SVS rates it at **16–290 Hz ±3 dB** in standard mode, the deepest figure in this category.\n\nThat extension is where the maths gets expensive. For the same output at 16 Hz as at 32 Hz, the system must move **four times** the air. The port does much of that work near its tuning frequency, which is why a ported 12-inch can outgun a sealed one in the bottom octave, at the cost of a bigger box.\n\nRoom maths: an 18 × 22 ft room with a 9 ft ceiling is **3,564 cu ft**. As a rough guide, a single PB-2000 Pro suits dedicated rooms up to about **4,000 cu ft**. In a larger or open-plan space, two subs are better than one bigger sub: they add up to about **6 dB** when placed together, and spread around the room they smooth seat-to-seat response.\n\nThe app gives you **two tuning modes** (standard and sealed), parametric EQ, phase and [crossover](/glossary/crossover/) control. Pair it with a receiver that has strong [room correction](/glossary/room-correction/) for the best result. If you have the floor space, it is the deepest sub here per dollar; see our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide for the full comparison.",
     "bestFor": "Dedicated movie rooms up to about 4,000 cubic feet",
     "skipIf": "You need a small cabinet or your room is under 1,500 cubic feet",
     "pros": [
@@ -248,10 +254,12 @@
     "specs": {
       "Driver": "12-inch",
       "Amplifier": "550 W RMS / 1,500 W peak (Class D)",
-      "Frequency response": "16–260 Hz ±3 dB",
-      "Enclosure": "Ported, front-firing; three tuning modes",
+      "Frequency response": "16–290 Hz ±3 dB (standard mode); 17–290 Hz (sealed mode)",
+      "Enclosure": "Ported, front-firing; two tuning modes (standard and sealed)",
       "Inputs": "Line-level RCA (stereo)",
-      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, port tuning modes"
+      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, port tuning modes",
+      "Dimensions": "20.9 × 17.3 × 23.6 in (532 × 440 × 600 mm)",
+      "Weight": "64.8 lb (29.4 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -266,7 +274,7 @@
       },
       {
         "q": "How low does the PB-2000 Pro go?",
-        "a": "SVS rates it at 16–260 Hz ±3 dB, which is deeper than any other sub in this category, and well into the range you feel more than hear."
+        "a": "SVS rates it at 16–290 Hz ±3 dB, which is deeper than any other sub in this category, and well into the range you feel more than hear."
       }
     ]
   },
@@ -297,14 +305,14 @@
         "value": 88
       }
     ],
-    "summary": "A sealed 13-inch sub with an 800 W RMS amp, balanced XLR inputs and the SVS app, the most powerful sealed sub here in a cabinet that still fits a living room.",
-    "verdict": "The SB-3000 pairs a **13-inch driver** with an **800 W RMS (2,500 W peak)** amplifier in a **sealed** cabinet. SVS rates it at **18–270 Hz ±3 dB**.\n\nCompare it with the [SB-2000 Pro](/gear/svs-sb-2000-pro/). Cone area: (13 ÷ 12)² = **1.17×**, worth about 1.4 dB at the same cone travel. Amp power: 10 × log10(800 ÷ 550) = **1.6 dB** more. Neither number is huge alone, but together, plus a driver built for more excursion, they add real headroom in the bottom octave.\n\nRoom maths: an 18 × 22 ft room with a 9 ft ceiling is **3,564 cu ft**. As a rough guide, the SB-3000 is a sealed sub that can handle rooms up to about 3,500 cu ft at movie levels. In larger spaces, two of them will do more than one bigger sub: two subs placed together add up to about 6 dB, and spread out they smooth the room's peaks and dips.\n\nIt adds **balanced XLR inputs and outputs**, useful for long cable runs, plus the SVS app with parametric EQ, phase, [crossover](/glossary/crossover/) and room gain compensation. If you want maximum deep output and have space, the ported [SVS PB-2000 Pro](/gear/svs-pb-2000-pro/) goes 2 Hz lower for less money. For a sealed sub with headroom, this is a top contender in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "summary": "A sealed 13-inch sub with an 800 W RMS amp and the SVS app, the most powerful sealed sub here in a cabinet that still fits a living room.",
+    "verdict": "The SB-3000 pairs a **13-inch driver** with an **800 W RMS (2,500 W peak)** amplifier in a **sealed** cabinet. SVS rates it at **18–270 Hz ±3 dB**.\n\nCompare it with the [SB-2000 Pro](/gear/svs-sb-2000-pro/). Cone area: (13 ÷ 12)² = **1.17×**, worth about 1.4 dB at the same cone travel. Amp power: 10 × log10(800 ÷ 550) = **1.6 dB** more. Neither number is huge alone, but together, plus a driver built for more excursion, they add real headroom in the bottom octave.\n\nRoom maths: an 18 × 22 ft room with a 9 ft ceiling is **3,564 cu ft**. As a rough guide, the SB-3000 is a sealed sub that can handle rooms up to about 3,500 cu ft at movie levels. In larger spaces, two of them will do more than one bigger sub: two subs placed together add up to about 6 dB, and spread out they smooth the room's peaks and dips.\n\nIt has stereo RCA line-level inputs and outputs (no XLR), plus the SVS app with parametric EQ, phase, [crossover](/glossary/crossover/) and room gain compensation. If you want maximum deep output and have space, the ported [SVS PB-2000 Pro](/gear/svs-pb-2000-pro/) goes 2 Hz lower for less money. For a sealed sub with headroom, this is a top contender in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
     "bestFor": "Large living rooms that want sealed-sub tightness with high output",
     "skipIf": "You have space for a big ported sub and want the most bass per dollar",
     "pros": [
       "13-inch driver and 800 W RMS amp",
       "Sealed cabinet extends to 18 Hz (±3 dB)",
-      "Balanced XLR and RCA inputs and outputs",
+      "Stereo RCA inputs and outputs for daisy-chaining a second sub",
       "SVS app with parametric EQ and room gain compensation"
     ],
     "cons": [
@@ -316,8 +324,10 @@
       "Amplifier": "800 W RMS / 2,500 W peak (Class D)",
       "Frequency response": "18–270 Hz ±3 dB",
       "Enclosure": "Sealed, front-firing",
-      "Inputs": "Line-level RCA and balanced XLR (in and out)",
-      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, room gain compensation"
+      "Inputs": "Line-level RCA (stereo in and out)",
+      "App/EQ": "SVS app (Bluetooth): parametric EQ, phase, crossover, room gain compensation",
+      "Dimensions": "15.6 × 15.2 × 17.8 in (397 × 385 × 451 mm)",
+      "Weight": "54.5 lb (24.7 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -332,7 +342,7 @@
       },
       {
         "q": "Does the SVS SB-3000 have XLR inputs?",
-        "a": "Yes. It has balanced XLR as well as RCA line-level inputs and outputs, which helps on long cable runs from the receiver."
+        "a": "No. SVS lists only stereo RCA line-level inputs and outputs. For a very long run from the receiver, use a well-shielded RCA cable."
       }
     ]
   },
@@ -382,8 +392,10 @@
       "Driver": "12-inch copper-spun",
       "Amplifier": "200 W RMS / 400 W peak",
       "Frequency response": "29–120 Hz ±3 dB",
-      "Enclosure": "Front-firing, ported",
-      "Inputs": "LFE RCA, line-level"
+      "Enclosure": "Front-firing woofer, rear port",
+      "Inputs": "LFE RCA, line-level",
+      "Dimensions": "16.5 × 14.0 × 19.2 in (419 × 356 × 488 mm)",
+      "Weight": "31.0 lb (14.1 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -445,9 +457,13 @@
     ],
     "specs": {
       "Driver": "12-inch copper-spun IMG woofer, front-firing",
-      "Amplifier": "All-digital, 400 W dynamic power (manufacturer rating)",
+      "Amplifier": "200 W RMS / 400 W dynamic peak, all-digital",
+      "Frequency response": "29–120 Hz ±3 dB",
+      "Enclosure": "Ported (bass reflex)",
       "Inputs": "Line-level and LFE RCA",
-      "App/EQ": "None; low-pass crossover and phase control on the sub"
+      "App/EQ": "None; low-pass crossover and phase control on the sub",
+      "Dimensions": "16.5 × 14.0 × 19.2 in (419 × 356 × 488 mm)",
+      "Weight": "33.0 lb (15.0 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -462,7 +478,7 @@
       },
       {
         "q": "Klipsch R-12SW vs R-120SW: what is the difference?",
-        "a": "Both use a 12-inch copper-spun front-firing woofer. Klipsch quotes the R-12SW at 400 W dynamic power and the R-120SW at 200 W RMS and 400 W peak, so on paper the amps are in the same class. Pick whichever costs less when you buy."
+        "a": "Both use a 12-inch copper-spun front-firing woofer. Klipsch quotes the R-12SW at 400 W dynamic power and the R-120SW at 200 W RMS and 400 W peak, so the amps are in the same class. Pick whichever costs less when you buy."
       },
       {
         "q": "What crossover should I use with the R-12SW?",
@@ -512,9 +528,13 @@
     ],
     "specs": {
       "Driver": "12-inch Cerametallic",
+      "Amplifier": "300 W RMS (600 W peak), Class D",
+      "Frequency response": "24–125 Hz (no tolerance stated)",
       "Enclosure": "Front-firing, ported",
       "Inputs": "LFE/line-level RCA",
-      "App/EQ": "None (use your receiver's room correction)"
+      "App/EQ": "None (use your receiver's room correction)",
+      "Dimensions": "17.8 × 14.7 × 19.9 in (451 × 374 × 506 mm)",
+      "Weight": "45.0 lb (20.4 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -561,7 +581,7 @@
       }
     ],
     "summary": "A budget 12-inch sub that brings real bass to a small or medium room for little money, matched to Polk's Monitor XT speakers.",
-    "verdict": "The Monitor XT12 is about the least you can spend on a **12-inch** sub from a major brand. It pairs naturally with Polk's Monitor XT speakers, such as the [Polk Monitor XT60](/gear/polk-monitor-xt60/) towers. Polk lists the amp at **100 W RMS**; frequency response is not listed here because we could not confirm it.\n\nDriver size is the main reason to pick it over a 10-inch at the same price. Cone area grows with the square of diameter: (12 ÷ 10)² = **1.44×**, about 3 dB more output at the same cone travel. In bass, 3 dB is the same gain you would get from doubling amplifier power.\n\nRoom maths: a 12 × 14 ft room with an 8 ft ceiling is **1,344 cu ft**. As a rough guide, a budget 12-inch sub with a modest amp suits rooms up to about **1,500 cu ft**. In bigger rooms it will run out of headroom first in the deepest notes, because each octave lower needs **four times** the cone movement for the same level.\n\nSet your receiver's [crossover](/glossary/crossover/) at 80 Hz so the sub only handles what it does best, and run your receiver's [room correction](/glossary/room-correction/). If you can stretch, the [Klipsch R-120SW](/gear/klipsch-r-120sw/) doubles the RMS amp power. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
+    "verdict": "The Monitor XT12 is about the least you can spend on a **12-inch** sub from a major brand. It pairs naturally with Polk's Monitor XT speakers, such as the [Polk Monitor XT60](/gear/polk-monitor-xt60/) towers. Polk rates the amp at **50 W RMS (100 W peak)**, Class A/B, and quotes extension down to **24 Hz** without a tolerance.\n\nDriver size is the main reason to pick it over a 10-inch at the same price. Cone area grows with the square of diameter: (12 ÷ 10)² = **1.44×**, about 3 dB more output at the same cone travel. In bass, 3 dB is the same gain you would get from doubling amplifier power.\n\nRoom maths: a 12 × 14 ft room with an 8 ft ceiling is **1,344 cu ft**. As a rough guide, a budget 12-inch sub with a modest amp suits rooms up to about **1,500 cu ft**. In bigger rooms it will run out of headroom first in the deepest notes, because each octave lower needs **four times** the cone movement for the same level.\n\nSet your receiver's [crossover](/glossary/crossover/) at 80 Hz so the sub only handles what it does best, and run your receiver's [room correction](/glossary/room-correction/). If you can stretch, the [Klipsch R-120SW](/gear/klipsch-r-120sw/) has four times the RMS amp power. See our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
     "bestFor": "Small and medium rooms on a tight budget",
     "skipIf": "Your room is over about 1,500 cubic feet or you want deep bass below 30 Hz",
     "pros": [
@@ -570,15 +590,19 @@
       "Easy LFE hookup"
     ],
     "cons": [
-      "Modest 100 W RMS amp limits headroom",
+      "Modest 50 W RMS amp limits headroom",
       "No app or built-in room EQ",
       "Not for large rooms"
     ],
     "specs": {
       "Driver": "12-inch",
-      "Amplifier": "100 W RMS",
-      "Inputs": "LFE RCA, line-level",
-      "App/EQ": "None (use your receiver's room correction)"
+      "Amplifier": "50 W RMS / 100 W peak (Class A/B)",
+      "Frequency response": "24–160 Hz (no tolerance stated)",
+      "Enclosure": "Ported (bass reflex)",
+      "Inputs": "LFE and line-level RCA, speaker binding posts",
+      "App/EQ": "None (use your receiver's room correction)",
+      "Dimensions": "16.4 × 16.0 × 17.9 in (418 × 406 × 456 mm)",
+      "Weight": "39.0 lb (17.7 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -589,7 +613,7 @@
     "faqs": [
       {
         "q": "Is the Polk Monitor XT12 good for home theater?",
-        "a": "For small and medium rooms, yes. Its 12-inch driver gives more output than most 10-inch subs at the price, but its 100 W amp limits headroom in rooms over about 1,500 cubic feet."
+        "a": "For small and medium rooms, yes. Its 12-inch driver gives more output than most 10-inch subs at the price, but its 50 W RMS amp limits headroom in rooms over about 1,500 cubic feet."
       },
       {
         "q": "Does the Polk XT12 work with any receiver?",
@@ -624,8 +648,8 @@
         "value": 80
       }
     ],
-    "summary": "A 12-inch long-throw Polk sub with a 300 W Class D amp, dual ports and 360-degree phase control, styled to match Signature Elite speakers and rated by Polk down to 18 Hz.",
-    "verdict": "The Signature Elite ES12 is the sub Polk designed for its [Signature Elite ES20](/gear/polk-signature-elite-es20/) and [ES60](/gear/polk-signature-elite-es60/) speakers. It uses a **12-inch long-throw woofer with a mineral-filled polymer cone**, a **300 W Class D amp**, **dual Power Ports** and a braced cabinet. Polk says it reaches down to **18 Hz**, though it gives no tolerance with that figure.\n\n**Show the maths.** Compare that 18 Hz claim with the 29 Hz rating of the [Klipsch R-120SW](/gear/klipsch-r-120sw/): log2(29 ÷ 18) is about **0.7 octave** deeper. Each octave lower needs about **four times** the cone movement for the same level, which is why a long-throw driver and twin ports matter. On amp power, 10 × log10(300 ÷ 200) = **1.8 dB** more headroom than a 200 W sub.\n\n**Room maths.** A 14 × 18 ft room with an 8 ft ceiling is **2,016 cu ft**. As a rough guide, a ported 12-inch with 300 W suits rooms up to about **2,000–2,500 cu ft**. Beyond that, two subs beat one.\n\n**Setup.** Time-Smart phase control gives **360 degrees** of adjustment and a **4th-order low-pass filter** keeps the top end clean, which helps it blend with your mains at an 80 Hz [crossover](/glossary/crossover/). There is no app, so lean on your receiver's [room correction](/glossary/room-correction/). The catch is value: the [SVS PB-1000 Pro](/gear/svs-pb-1000-pro/) costs about the same and adds app EQ. See our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "summary": "A 12-inch long-throw Polk sub with a 300 W Class D amp, dual ports and 360-degree phase control, styled to match Signature Elite speakers and rated by Polk at 22–250 Hz (−3 dB).",
+    "verdict": "The Signature Elite ES12 is the sub Polk designed for its [Signature Elite ES20](/gear/polk-signature-elite-es20/) and [ES60](/gear/polk-signature-elite-es60/) speakers. It uses a **12-inch long-throw woofer with a mineral-filled polymer cone**, a **300 W Class D amp**, **dual Power Ports** and an internally braced cabinet. Polk rates it at **22–250 Hz (−3 dB)**, with **18 Hz** as the −10 dB point.\n\n**Show the maths.** Compare that 22 Hz (−3 dB) figure with the 29 Hz (±3 dB) rating of the [Klipsch R-120SW](/gear/klipsch-r-120sw/): log2(29 ÷ 22) is about **0.4 octave** deeper. Each octave lower needs about **four times** the cone movement for the same level, which is why a long-throw driver and twin ports matter. On amp power, 10 × log10(300 ÷ 200) = **1.8 dB** more headroom than a 200 W sub.\n\n**Room maths.** A 14 × 18 ft room with an 8 ft ceiling is **2,016 cu ft**. As a rough guide, a ported 12-inch with 300 W suits rooms up to about **2,000–2,500 cu ft**. Beyond that, two subs beat one.\n\n**Setup.** Time-Smart phase control gives **360 degrees** of adjustment and a **4th-order low-pass filter** keeps the top end clean, which helps it blend with your mains at an 80 Hz [crossover](/glossary/crossover/). There is no app, so lean on your receiver's [room correction](/glossary/room-correction/). The catch is value: the [SVS PB-1000 Pro](/gear/svs-pb-1000-pro/) costs about the same and adds app EQ. See our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
     "bestFor": "Polk Signature Elite systems in medium to large rooms",
     "skipIf": "You want app-based EQ or the most output per dollar",
     "pros": [
@@ -636,15 +660,17 @@
     ],
     "cons": [
       "No app or built-in room EQ",
-      "18 Hz figure has no tolerance stated",
+      "Passive controls only (no app)",
       "Costs about the same as SVS subs with app control"
     ],
     "specs": {
       "Driver": "12-inch long-throw, mineral-filled polymer cone",
       "Amplifier": "300 W Class D",
-      "Frequency response": "Down to 18 Hz (Polk figure, no tolerance stated)",
-      "Enclosure": "Front-firing, dual Power Ports, FEA-optimized internal bracing",
-      "App/EQ": "None; 360-degree Time-Smart phase control and 4th-order low-pass filter"
+      "Frequency response": "22–250 Hz (−3 dB); 18 Hz (−10 dB)",
+      "Enclosure": "Front-firing, dual Power Ports, internal bracing",
+      "App/EQ": "None; 360-degree Time-Smart phase control and 4th-order low-pass filter",
+      "Dimensions": "19.0 × 14.3 × 19.0 in (483 × 362 × 483 mm)",
+      "Weight": "47.6 lb (21.6 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -654,8 +680,8 @@
     ],
     "faqs": [
       {
-        "q": "Does the Polk ES12 really reach 18 Hz?",
-        "a": "Polk quotes 18 Hz as the low end but gives no tolerance, so treat it as a limit rather than a flat-response figure. In a medium room with corner or wall placement, room gain helps the deepest notes."
+        "q": "How low does the Polk ES12 go?",
+        "a": "Polk rates it at 22 Hz at the −3 dB point and 18 Hz at −10 dB, so expect strong output into the low 20s, with 18 Hz audible but well down. In a medium room with corner or wall placement, room gain helps the deepest notes."
       },
       {
         "q": "Will the ES12 work with non-Polk speakers?",
@@ -707,8 +733,11 @@
     "specs": {
       "Driver": "10-inch",
       "Amplifier": "50 W RMS / 100 W peak",
+      "Frequency response": "40–160 Hz (−3 dB)",
       "Enclosure": "Front-firing, ported",
-      "Inputs": "Line-level RCA and speaker-level"
+      "Inputs": "Line-level RCA and speaker-level",
+      "Dimensions": "14.4 × 14.0 × 16.1 in (365 × 356 × 410 mm)",
+      "Weight": "26.0 lb (11.8 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -837,8 +866,12 @@
     "specs": {
       "Driver": "12-inch",
       "Amplifier": "250 W RMS / 1,000 W peak (manufacturer rating)",
-      "Inputs": "LFE/line-level RCA",
-      "App/EQ": "None (use your receiver's room correction)"
+      "Frequency response": "21–200 Hz ±3 dB",
+      "Enclosure": "Front-ported (dual flared ports)",
+      "Inputs": "LFE/line-level RCA, high-level (speaker) inputs",
+      "App/EQ": "None (use your receiver's room correction)",
+      "Dimensions": "17.3 × 14.9 × 19.5 in (438 × 378 × 495 mm)",
+      "Weight": "46.0 lb (20.9 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -849,7 +882,7 @@
     "faqs": [
       {
         "q": "Is the BIC PL-200 II really 1,000 watts?",
-        "a": "Only as a peak rating. Its continuous rating is 250 W RMS, which is the number to compare. A 4× gap between peak and RMS equals 6 dB on paper, which you will not hear as extra bass in real use."
+        "a": "Only as a peak rating. Its continuous rating is 250 W RMS, which is the number to compare. A 4× gap between peak and RMS equals 6 dB, which you will not hear as extra bass in real use."
       },
       {
         "q": "What room size suits the BIC PL-200 II?",
@@ -902,9 +935,12 @@
     "specs": {
       "Driver": "12-inch",
       "Amplifier": "200 W Class-D",
-      "Enclosure": "Rigid, braced cabinet with swappable grille",
+      "Frequency response": "26–200 Hz (no tolerance stated)",
+      "Enclosure": "Rigid, braced cabinet with swappable grille, ported",
       "Inputs": "Stereo RCA, LFE and speaker-level; auto-on",
-      "App/EQ": "None (simple on-board controls)"
+      "App/EQ": "None (simple on-board controls)",
+      "Dimensions": "16.4 × 15.5 × 18.0 in (416 × 394 × 457 mm)",
+      "Weight": "38.8 lb (17.6 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -965,8 +1001,13 @@
     ],
     "specs": {
       "Driver": "12-inch",
+      "Amplifier": "500 W RMS (1,000 W peak), BASH-Tracking",
+      "Frequency response": "25–150 Hz (no tolerance stated)",
+      "Enclosure": "Passive radiator (12-inch active driver + 12-inch passive radiator)",
       "Inputs": "LFE/line-level RCA",
-      "App/EQ": "ELAC SUB Control app (Bluetooth) with Auto EQ"
+      "App/EQ": "ELAC SUB Control app (Bluetooth) with Auto EQ",
+      "Dimensions": "18.2 × 17.0 × 17.0 in (462 × 431 × 431 mm)",
+      "Weight": "50.2 lb (22.8 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -1091,8 +1132,12 @@
     "specs": {
       "Driver": "10-inch",
       "Amplifier": "50 W",
+      "Frequency response": "25–180 Hz (no tolerance stated)",
+      "Enclosure": "Ported (Twisted Flare Port)",
       "Inputs": "LFE/line-level RCA",
-      "App/EQ": "None (use your receiver's room correction)"
+      "App/EQ": "None (use your receiver's room correction)",
+      "Dimensions": "13.9 × 13.9 × 16.1 in (352 × 351 × 408 mm)",
+      "Weight": "26.5 lb (12.0 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -1153,9 +1198,13 @@
     ],
     "specs": {
       "Driver": "10-inch",
-      "Enclosure": "Front-firing",
+      "Amplifier": "45 W RMS (120 W peak)",
+      "Frequency response": "38–180 Hz ±3 dB",
+      "Enclosure": "Front-firing, ported",
       "Inputs": "LFE/line-level RCA",
-      "App/EQ": "None (use your receiver's room correction)"
+      "App/EQ": "None (use your receiver's room correction)",
+      "Dimensions": "16.0 × 11.9 × 15.7 in (406 × 302 × 399 mm)",
+      "Weight": "24.7 lb (11.2 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -1201,13 +1250,13 @@
         "value": 78
       }
     ],
-    "summary": "A compact, stylish 8-inch sub with a 125 W RMS Class D amp, best for desktops, bedrooms and powered-speaker setups rather than full home theaters.",
-    "verdict": "The SUB8 is a compact **8-inch** sub with a **125 W RMS** Class D amp, designed to pair with powered speakers and small TV setups. It looks better than most budget subs and fits where a 12-inch box will not.\n\nThe driver maths shows where it belongs. An 8-inch cone has (8 ÷ 12)² = **0.44×** the area of a 12-inch. At the same cone travel, that is about 20 × log10(0.44) = **7 dB** less output. Against a 10-inch, the gap is about 4 dB. Deep bass is where small drivers struggle most, since each octave lower needs **four times** the cone movement for the same level.\n\nRoom maths: a 10 × 11 ft room with an 8 ft ceiling is **880 cu ft**. As a rough guide, an 8-inch sub suits rooms under about **900 cu ft**, desks and bedrooms, or alongside powered bookshelf speakers that have a subwoofer output. In a living room, it will add warmth but not movie-level impact.\n\nUse its line-level input from a receiver's sub output or a powered speaker's sub out. Set the [crossover](/glossary/crossover/) around 80–100 Hz for small speakers. If you want room-filling bass, look at a 12-inch such as the [Klipsch R-120SW](/gear/klipsch-r-120sw/). More picks are in our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
+    "summary": "A compact, stylish 8-inch sub with a 150 W RMS (300 W peak) Class D amp, best for desktops, bedrooms and powered-speaker setups rather than full home theaters.",
+    "verdict": "The SUB8 is a compact **8-inch** sub with a **150 W RMS (300 W peak)** Class D amp, designed to pair with powered speakers and small TV setups. It looks better than most budget subs and fits where a 12-inch box will not.\n\nThe driver maths shows where it belongs. An 8-inch cone has (8 ÷ 12)² = **0.44×** the area of a 12-inch. At the same cone travel, that is about 20 × log10(0.44) = **7 dB** less output. Against a 10-inch, the gap is about 4 dB. Deep bass is where small drivers struggle most, since each octave lower needs **four times** the cone movement for the same level.\n\nRoom maths: a 10 × 11 ft room with an 8 ft ceiling is **880 cu ft**. As a rough guide, an 8-inch sub suits rooms under about **900 cu ft**, desks and bedrooms, or alongside powered bookshelf speakers that have a subwoofer output. In a living room, it will add warmth but not movie-level impact.\n\nUse its line-level input from a receiver's sub output or a powered speaker's sub out. Set the [crossover](/glossary/crossover/) around 80–100 Hz for small speakers. If you want room-filling bass, look at a 12-inch such as the [Klipsch R-120SW](/gear/klipsch-r-120sw/). More picks are in our [best budget subwoofer for home theater](/best-budget-subwoofer-for-home-theater/) guide.",
     "bestFor": "Desktops, bedrooms and powered-speaker setups",
     "skipIf": "You want movie-level bass in a living room",
     "pros": [
       "Compact and attractive design",
-      "125 W RMS Class D amp",
+      "150 W RMS Class D amp",
       "Pairs well with powered speakers"
     ],
     "cons": [
@@ -1216,9 +1265,13 @@
     ],
     "specs": {
       "Driver": "8-inch paper cone",
-      "Amplifier": "125 W RMS (Class D)",
+      "Amplifier": "150 W RMS / 300 W peak (Class D)",
+      "Frequency response": "35–175 Hz (no tolerance stated)",
+      "Enclosure": "Sealed, front-firing",
       "Inputs": "Line-level RCA",
-      "App/EQ": "None (use your receiver's room correction)"
+      "App/EQ": "None (use your receiver's room correction)",
+      "Dimensions": "11.9 × 11.0 × 11.0 in (303 × 280 × 280 mm)",
+      "Weight": "18.3 lb (8.3 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -1264,14 +1317,14 @@
         "value": 84
       }
     ],
-    "summary": "A small, beautifully finished 8-inch sub with a passive radiator and REL's high-level input, built for music-first systems more than big home theaters.",
-    "verdict": "The T/5x uses an **8-inch active driver** firing forward and an **8-inch passive radiator** firing down, driven by a **125 W** amp. Its signature is REL's **high-level (Neutrik Speakon) input**, which takes signal from your amplifier's speaker terminals so the sub hears the same signal as your main speakers.\n\nThat design is aimed at music. For home theater, the maths says it is a small-room sub. An 8-inch driver has (8 ÷ 12)² = **0.44×** the cone area of a 12-inch, about 7 dB less output at the same cone travel. The passive radiator helps with deep extension by adding radiating area without a port, but it does not change the basic displacement limit.\n\nRoom maths: an 11 × 13 ft room with an 8 ft ceiling is **1,144 cu ft**. As a rough guide, the T/5x suits rooms up to about **1,200 cu ft**, or larger rooms as one of a pair. Two subs placed together can add up to about 6 dB, and REL owners often run two for stereo bass.\n\nIn a home theater, connect the [LFE](/glossary/lfe/) input for movies and the high-level input for music, then set the sub's own [crossover](/glossary/crossover/) low so it only fills in the bottom octave. For movie-first rooms, the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) gives much more output for the money. Compare both in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "summary": "A small, beautifully finished sealed 8-inch sub with REL's high-level input, built for music-first systems more than big home theaters.",
+    "verdict": "The T/5x uses a single **8-inch long-throw driver** firing down from a **sealed** cabinet, driven by a **125 W** amp. REL quotes extension to **32 Hz (−6 dB)**. Its signature is REL's **high-level (Neutrik Speakon) input**, which takes signal from your amplifier's speaker terminals so the sub hears the same signal as your main speakers.\n\nThat design is aimed at music. For home theater, the maths says it is a small-room sub. An 8-inch driver has (8 ÷ 12)² = **0.44×** the cone area of a 12-inch, about 7 dB less output at the same cone travel. The sealed box gives a gentle roll-off and tight, quick bass that suits music, but it does not change the basic displacement limit.\n\nRoom maths: an 11 × 13 ft room with an 8 ft ceiling is **1,144 cu ft**. As a rough guide, the T/5x suits rooms up to about **1,200 cu ft**, or larger rooms as one of a pair. Two subs placed together can add up to about 6 dB, and REL owners often run two for stereo bass.\n\nIn a home theater, connect the [LFE](/glossary/lfe/) input for movies and the high-level input for music, then set the sub's own [crossover](/glossary/crossover/) low so it only fills in the bottom octave. For movie-first rooms, the [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/) gives much more output for the money. Compare both in our [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
     "bestFor": "Music-first systems in small rooms that also play movies",
     "skipIf": "You want maximum movie bass per dollar",
     "pros": [
       "High-level Speakon input for seamless music blending",
       "Compact cabinet with premium finish",
-      "Passive radiator aids deep extension without port noise",
+      "Sealed cabinet: tight, quick bass with no port noise",
       "LFE input for home theater"
     ],
     "cons": [
@@ -1280,10 +1333,13 @@
       "No app or built-in room EQ"
     ],
     "specs": {
-      "Driver": "8-inch active (front-firing) + 8-inch passive radiator (down-firing)",
+      "Driver": "8-inch FibreAlloy long-throw, down-firing",
       "Amplifier": "125 W",
-      "Enclosure": "Passive radiator (no port)",
-      "Inputs": "High-level (Neutrik Speakon), LFE and line-level RCA"
+      "Frequency response": "32 Hz (−6 dB) low-frequency extension",
+      "Enclosure": "Sealed (closed box), down-firing",
+      "Inputs": "High-level (Neutrik Speakon), LFE and line-level RCA",
+      "Dimensions": "12.0 × 11.8 × 12.3 in (307 × 300 × 313 mm)",
+      "Weight": "31.5 lb (14.3 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -1331,7 +1387,7 @@
       }
     ],
     "summary": "A wireless sub with two force-canceling drivers that pairs with Sonos soundbars in minutes, but it works only with Sonos and costs more than wired subs with bigger output.",
-    "verdict": "The Sub 4 uses **two force-canceling woofers** mounted face to face, each driven by its own Class D amp, so cabinet vibration cancels out. Sonos says it plays down to **25 Hz**. It connects over Wi-Fi to Sonos soundbars and speakers like the [Sonos Arc Ultra](/gear/sonos-arc-ultra/), with no cable to the TV.\n\nHere is the maths to weigh. Sonos does not publish driver size or amp power, so you cannot compare output on paper with a 12-inch [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/). What you can compare is extension: 25 Hz versus the SVS's 20 Hz is about a third of an octave, and the cone must move roughly **1.6×** as much air to hold the same level at 20 Hz as at 25 Hz.\n\nRoom maths: a 14 × 16 ft room with an 8 ft ceiling is **1,792 cu ft**. As a rough guide, one Sub 4 suits living rooms up to around that size. Sonos lets some systems pair a second sub; two subs placed together can add up to about 6 dB.\n\nThe real value is integration: Trueplay tuning, automatic crossover and setup in the Sonos app. The catch is that it works **only** with Sonos. If you are building a receiver-based system, a wired sub gives more bass per dollar. See our [Sonos home theater review](/sonos-home-theater-review/) and [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
+    "verdict": "The Sub 4 uses **two force-canceling woofers** mounted face to face, each driven by its own Class D amp, so cabinet vibration cancels out. Sonos says it plays down to **25 Hz**. It connects over Wi-Fi to Sonos soundbars and speakers like the [Sonos Arc Ultra](/gear/sonos-arc-ultra/), with no cable to the TV.\n\nHere is the maths to weigh. Sonos does not publish driver size or amp power, so you cannot compare output with a 12-inch [SVS SB-1000 Pro](/gear/svs-sb-1000-pro/). What you can compare is extension: 25 Hz versus the SVS's 20 Hz is about a third of an octave, and the cone must move roughly **1.6×** as much air to hold the same level at 20 Hz as at 25 Hz.\n\nRoom maths: a 14 × 16 ft room with an 8 ft ceiling is **1,792 cu ft**. As a rough guide, one Sub 4 suits living rooms up to around that size. Sonos lets some systems pair a second sub; two subs placed together can add up to about 6 dB.\n\nThe real value is integration: Trueplay tuning, automatic crossover and setup in the Sonos app. The catch is that it works **only** with Sonos. If you are building a receiver-based system, a wired sub gives more bass per dollar. See our [Sonos home theater review](/sonos-home-theater-review/) and [best subwoofer for home theater](/best-subwoofer-for-home-theater/) guide.",
     "bestFor": "Sonos soundbar owners who want wireless bass",
     "skipIf": "You use an AV receiver or want the most bass per dollar",
     "pros": [
@@ -1346,11 +1402,14 @@
       "Sonos does not publish driver size or amp power"
     ],
     "specs": {
-      "Driver": "Two opposing force-canceling woofers",
+      "Driver": "Dual 5 × 8-inch elliptical woofers, force-cancelling",
       "Amplifier": "Two Class D amplifiers",
       "Frequency response": "Down to 25 Hz (manufacturer)",
+      "Enclosure": "Ported",
       "Inputs": "Wi-Fi (Sonos products only), Ethernet",
-      "App/EQ": "Sonos app; Trueplay tuning"
+      "App/EQ": "Sonos app; Trueplay tuning",
+      "Dimensions": "15.3 × 15.8 × 6.2 in (389 × 402 × 158 mm)",
+      "Weight": "26.0 lb (11.8 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -1415,7 +1474,9 @@
       "Driver": "Not published by Bose",
       "Enclosure": "QuietPort design; glass top",
       "Inputs": "Wireless with compatible Bose smart soundbars",
-      "App/EQ": "Bose app; ADAPTiQ calibration via the soundbar"
+      "App/EQ": "Bose app; ADAPTiQ calibration via the soundbar",
+      "Dimensions": "12.9 × 11.6 × 11.6 in (328 × 295 × 295 mm)",
+      "Weight": "30.0 lb (13.6 kg)"
     },
     "keySpecs": [
       "Driver",
@@ -1430,7 +1491,7 @@
       },
       {
         "q": "Bose Bass Module 700 vs Sonos Sub 4: which is better?",
-        "a": "Choose the one that matches your soundbar, since each only works with its own brand. Sonos publishes a 25 Hz extension figure; Bose does not publish frequency response, so a direct comparison on paper is not possible."
+        "a": "Choose the one that matches your soundbar, since each only works with its own brand. Sonos publishes a 25 Hz extension figure; Bose does not publish frequency response, so a direct comparison is not possible."
       }
     ]
   }

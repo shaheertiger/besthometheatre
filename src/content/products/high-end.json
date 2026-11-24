@@ -28,11 +28,11 @@
       }
     ],
     "summary": "A 3-way Uni-Q bookshelf with MAT that delivers reference-grade imaging and clarity, but its 4-ohm load means it needs a serious amplifier to shine.",
-    "verdict": "The R3 Meta is a **3-way bookshelf** built around KEF's 12th-generation **Uni-Q**: a **1-inch vented aluminum dome tweeter with MAT** at the center of a **4-inch aluminum midrange**, plus a separate **6.5-inch hybrid aluminum bass driver**. KEF rates it at **87 dB** and a nominal **4 ohms**.\n\n**Show the maths.** That 4-ohm rating changes how you read the sensitivity. KEF quotes 87 dB at 2.83 V, which is 1 W into 8 ohms but **2 W into 4 ohms**. Per watt, the R3 Meta is really about **84 dB**. At 3 m (10 ft), 1 W gives about 74.5 dB at the seat. Peaks of 95 dB need about **112 W**; 100 dB peaks need about **355 W**. A 4-ohm load also draws roughly twice the current of an 8-ohm speaker at the same voltage, which is where budget receivers struggle ([impedance explained](/glossary/impedance/), [sensitivity explained](/glossary/speaker-sensitivity/)).\n\nSo budget for power: a high-current receiver rated for 4-ohm loads, or an [external amplifier](/best-home-theater-amplifier/) for the fronts.\n\nWhat you get is outstanding. The 3-way design keeps the bass driver out of the vocal range, and the Uni-Q radiates midrange and treble from one point, so imaging is precise and consistent across the sofa. MAT, which KEF says absorbs 99% of the sound from the rear of the tweeter, keeps treble clean.\n\nThe trade-off is cost and amplification. If you want the same voice with more bass, step up to the [R7 Meta](/gear/kef-r7-meta/); on a tighter budget, the [Q3 Meta](/gear/kef-q3-meta/) gets you much of the Uni-Q character. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
+    "verdict": "The R3 Meta is a **3-way bookshelf** built around KEF's 12th-generation **Uni-Q**: a **1-inch vented aluminum dome tweeter with MAT** at the center of a **5-inch aluminum midrange**, plus a separate **6.5-inch hybrid aluminum bass driver**. KEF rates it at **87 dB** and a nominal **4 ohms**.\n\n**Show the maths.** That 4-ohm rating changes how you read the sensitivity. KEF quotes 87 dB at 2.83 V, which is 1 W into 8 ohms but **2 W into 4 ohms**. Per watt, the R3 Meta is really about **84 dB**. At 3 m (10 ft), 1 W gives about 74.5 dB at the seat. Peaks of 95 dB need about **112 W**; 100 dB peaks need about **355 W**. A 4-ohm load also draws roughly twice the current of an 8-ohm speaker at the same voltage, which is where budget receivers struggle ([impedance explained](/glossary/impedance/), [sensitivity explained](/glossary/speaker-sensitivity/)).\n\nSo budget for power: a high-current receiver rated for 4-ohm loads, or an [external amplifier](/best-home-theater-amplifier/) for the fronts.\n\nWhat you get is outstanding. The 3-way design keeps the bass driver out of the vocal range, and the Uni-Q radiates midrange and treble from one point, so imaging is precise and consistent across the sofa. MAT, which KEF says absorbs 99% of the sound from the rear of the tweeter, keeps treble clean.\n\nThe trade-off is cost and amplification. If you want the same voice with more bass, step up to the [R7 Meta](/gear/kef-r7-meta/); on a tighter budget, the [Q3 Meta](/gear/kef-q3-meta/) gets you much of the Uni-Q character. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
     "bestFor": "Smaller rooms where you want reference imaging and clarity",
     "skipIf": "You're running a budget receiver with no plan for extra amplification",
     "pros": [
-      "3-way design with dedicated 4-inch midrange",
+      "3-way design with dedicated 5-inch midrange",
       "Uni-Q with MAT for precise, even imaging",
       "Superb build and finish",
       "Compact enough for stands in small rooms"
@@ -44,11 +44,14 @@
     ],
     "specs": {
       "Type": "3-way bookshelf, coaxial",
-      "Drivers": "Uni-Q with MAT: 1-inch vented aluminum dome tweeter in 4-inch aluminum midrange; 6.5-inch hybrid aluminum bass driver",
+      "Drivers": "Uni-Q with MAT: 1-inch vented aluminum dome tweeter in 5-inch aluminum midrange; 6.5-inch hybrid aluminum bass driver",
+      "Frequency response": "58 Hz–28 kHz ±3 dB",
       "Sensitivity": "87 dB (2.83 V / 1 m)",
       "Impedance": "4 ohms",
       "Bass loading": "Rear port",
-      "Sold as": "Pair"
+      "Sold as": "Pair",
+      "Dimensions": "16.6 × 7.9 × 13.2 in (422 × 200 × 336 mm)",
+      "Weight": "27.3 lb (12.4 kg) each"
     },
     "keySpecs": [
       "Drivers",
@@ -96,7 +99,7 @@
       }
     ],
     "summary": "KEF's 3-way Uni-Q tower combines precise imaging with full-range bass, the best high-end tower here for a large room, provided you feed it real power.",
-    "verdict": "The R7 Meta is a **3-way floorstander**: KEF's 12th-generation **Uni-Q** with a **1-inch vented aluminum dome tweeter and MAT** at the center of a **5-inch aluminum midrange**, plus **two 6.5-inch hybrid aluminum bass drivers**. It's rated at **87 dB** and a nominal **4 ohms**.\n\n**Show the maths.** Two 6.5-inch bass drivers equal the cone area of one driver about 6.5 × √2 ≈ **9.2 inches** across, which is what gives the R7 Meta genuine full-range scale.\n\nDriving it is the real question. The 87 dB figure is measured at 2.83 V, which is **2 W into 4 ohms**, so per watt it's about **84 dB**. Now take a larger room with a seat 3.5 m (11.5 ft) back: distance costs about 10.9 dB in free space. Hitting 100 dB peaks at that seat needs 84 + 10 × log10(P) − 10.9 = 100, which works out to roughly **490 W**. Full 105 dB reference peaks would need about 1,500 W. Room gain gives back a few dB, and most people never listen at reference, but the point stands: the R7 Meta rewards a high-current [external amplifier](/best-home-theater-amplifier/) ([impedance explained](/glossary/impedance/), [sensitivity explained](/glossary/speaker-sensitivity/)).\n\nWhat you get is the R Series' best trait at full scale: Uni-Q imaging that stays stable off-axis, a dedicated midrange for clean dialogue, and treble cleaned up by MAT.\n\nThe trade-off is price and amplification cost. If your room is smaller, the [R3 Meta](/gear/kef-r3-meta/) with a subwoofer delivers the same voice for less. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
+    "verdict": "The R7 Meta is a **3-way floorstander**: KEF's 12th-generation **Uni-Q** with a **1-inch vented aluminum dome tweeter and MAT** at the center of a **5-inch aluminum midrange**, plus **two 6.5-inch hybrid aluminum bass drivers**. It's rated at **88 dB** and a nominal **4 ohms**.\n\n**Show the maths.** Two 6.5-inch bass drivers equal the cone area of one driver about 6.5 × √2 ≈ **9.2 inches** across, which is what gives the R7 Meta genuine full-range scale.\n\nDriving it is the real question. The 88 dB figure is measured at 2.83 V, which is **2 W into 4 ohms**, so per watt it's about **84 dB**. Now take a larger room with a seat 3.5 m (11.5 ft) back: distance costs about 10.9 dB in free space. Hitting 100 dB peaks at that seat needs 84 + 10 × log10(P) − 10.9 = 100, which works out to roughly **490 W**. Full 105 dB reference peaks would need about 1,500 W. Room gain gives back a few dB, and most people never listen at reference, but the point stands: the R7 Meta rewards a high-current [external amplifier](/best-home-theater-amplifier/) ([impedance explained](/glossary/impedance/), [sensitivity explained](/glossary/speaker-sensitivity/)).\n\nWhat you get is the R Series' best trait at full scale: Uni-Q imaging that stays stable off-axis, a dedicated midrange for clean dialogue, and treble cleaned up by MAT.\n\nThe trade-off is price and amplification cost. If your room is smaller, the [R3 Meta](/gear/kef-r3-meta/) with a subwoofer delivers the same voice for less. See our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
     "bestFor": "Large rooms and dedicated theaters with serious amplification",
     "skipIf": "You plan to drive them from an entry-level receiver",
     "pros": [
@@ -113,10 +116,13 @@
     "specs": {
       "Type": "3-way floorstanding, coaxial",
       "Drivers": "Uni-Q with MAT: 1-inch vented aluminum dome tweeter in 5-inch aluminum midrange; dual 6.5-inch hybrid aluminum bass drivers",
-      "Sensitivity": "87 dB (2.83 V / 1 m)",
+      "Frequency response": "48 Hz–28 kHz ±3 dB",
+      "Sensitivity": "88 dB (2.83 V / 1 m)",
       "Impedance": "4 ohms",
       "Bass loading": "Rear ports",
-      "Sold as": "Pair"
+      "Sold as": "Pair",
+      "Dimensions": "43.7 × 12.2 × 15.1 in (1109 × 311 × 384 mm)",
+      "Weight": "64.6 lb (29.3 kg) each"
     },
     "keySpecs": [
       "Drivers",
@@ -181,8 +187,13 @@
     "specs": {
       "Type": "3-way floorstanding",
       "Drivers": "Dome tweeter; dedicated midrange; multiple woofers",
+      "Frequency response": "30 Hz–40 kHz ±3 dB",
+      "Sensitivity": "87 dB (2.83 V / 1 m)",
+      "Impedance": "6 ohms",
       "Bass loading": "Ported",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "44.5 × 8.6 × 16.7 in (1130 × 218 × 424 mm)",
+      "Weight": "59.5 lb (27.0 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -247,9 +258,13 @@
     "specs": {
       "Type": "3-way floorstanding",
       "Drivers": "1-inch Pinnacle ring radiator tweeter; Turbine Cone midrange; dual 8-inch woofers",
-      "Impedance": "8 ohms",
+      "Frequency response": "30 Hz–50 kHz overall; 38 Hz–38 kHz (−3 dB)",
+      "Sensitivity": "88 dB (2.83 V / 1 m)",
+      "Impedance": "Compatible with 4-, 6- and 8-ohm outputs (3.6-ohm minimum)",
       "Bass loading": "X-Port",
-      "Sold as": "Each"
+      "Sold as": "Each",
+      "Dimensions": "45.0 × 12.6 × 16.9 in (1144 × 321 × 428 mm)",
+      "Weight": "79.1 lb (35.9 kg) each"
     },
     "keySpecs": [
       "Drivers",
@@ -296,7 +311,7 @@
       }
     ],
     "summary": "A horn-loaded heritage speaker rated at 99 dB, so it plays to reference levels on very little power, with a 12-inch woofer and a 15-inch passive radiator for big, effortless bass.",
-    "verdict": "The Forte IV is from Klipsch's Heritage line: a **3-way** design with a **titanium-diaphragm compression tweeter** and a **titanium compression midrange**, both on horns, plus a **12-inch woofer** and a **15-inch rear passive radiator**. Klipsch rates it at **99 dB** and **8 ohms**, and those numbers make it one of the easiest high-end speakers to drive.\n\n**Show the maths.** At 99 dB, 1 W produces about **89.5 dB** at a seat 3 m (10 ft) away. Reference peaks of 105 dB need just 15.5 dB more, which is about **35 W**. Compare a typical 87 dB speaker: it needs 12 dB more, or about **16 times the power** (roughly 560 W) for the same peak. With the Forte IV, even a 10 W amplifier reaches about 99.5 dB at 3 m, which is why it's a favourite with low-powered tube amp owners ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe 15-inch passive radiator extends bass without a port, avoiding port noise at high levels. Combined with the 12-inch woofer, the Forte IV delivers effortless scale for music and film.\n\nHorns also control dispersion, which reduces side-wall reflections and keeps dialogue focused. Toe the speakers in so the horns point near your main seat.\n\nThe trade-off is size, a vintage look not everyone likes, and a forward horn character. In a small room, the big cabinet can dominate.\n\nFor more Klipsch options, see our [Klipsch home theater review](/klipsch-home-theater-review/), and compare it with the [KEF R7 Meta](/gear/kef-r7-meta/) in our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
+    "verdict": "The Forte IV is from Klipsch's Heritage line: a **3-way** design with a **titanium-diaphragm compression tweeter** and a **1.75-inch polyimide compression midrange**, both on horns, plus a **12-inch woofer** and a **15-inch rear passive radiator**. Klipsch rates it at **99 dB** and **8 ohms**, and those numbers make it one of the easiest high-end speakers to drive.\n\n**Show the maths.** At 99 dB, 1 W produces about **89.5 dB** at a seat 3 m (10 ft) away. Reference peaks of 105 dB need just 15.5 dB more, which is about **35 W**. Compare a typical 87 dB speaker: it needs 12 dB more, or about **16 times the power** (roughly 560 W) for the same peak. With the Forte IV, even a 10 W amplifier reaches about 99.5 dB at 3 m, which is why it's a favourite with low-powered tube amp owners ([sensitivity explained](/glossary/speaker-sensitivity/)).\n\nThe 15-inch passive radiator extends bass without a port, avoiding port noise at high levels. Combined with the 12-inch woofer, the Forte IV delivers effortless scale for music and film.\n\nHorns also control dispersion, which reduces side-wall reflections and keeps dialogue focused. Toe the speakers in so the horns point near your main seat.\n\nThe trade-off is size, a vintage look not everyone likes, and a forward horn character. In a small room, the big cabinet can dominate.\n\nFor more Klipsch options, see our [Klipsch home theater review](/klipsch-home-theater-review/), and compare it with the [KEF R7 Meta](/gear/kef-r7-meta/) in our [best high-end home theater speakers](/best-high-end-home-theater-speakers/).",
     "bestFor": "Large rooms, low-powered amps and anyone who wants effortless dynamics",
     "skipIf": "Your room is small or you prefer a slim, modern look",
     "pros": [
@@ -312,10 +327,13 @@
     ],
     "specs": {
       "Type": "3-way floorstanding, horn-loaded (Heritage series)",
-      "Drivers": "Titanium-diaphragm compression tweeter on horn; titanium compression midrange on horn; 12-inch woofer",
+      "Drivers": "1-inch K-100-TI titanium compression tweeter; 1.75-inch K-702 polyimide compression midrange on K-703-M horn; 12-inch K-281 fiber-composite woofer",
+      "Frequency response": "38 Hz–20 kHz ±3 dB",
       "Sensitivity": "99 dB (2.83 V / 1 m)",
       "Impedance": "8 ohms",
-      "Bass loading": "Rear 15-inch passive radiator"
+      "Bass loading": "Rear 15-inch passive radiator",
+      "Dimensions": "35.8 × 16.6 × 13.0 in (908 × 422 × 330 mm)",
+      "Weight": "72 lb (32.7 kg) each"
     },
     "keySpecs": [
       "Drivers",
@@ -380,8 +398,12 @@
     "specs": {
       "Type": "3-way floorstanding",
       "Drivers": "25 mm decoupled titanium dome tweeter; 150 mm Continuum cone midrange; dual 165 mm bass drivers",
+      "Frequency response": "46 Hz–28 kHz ±3 dB",
+      "Sensitivity": "90 dB (2.83 V / 1 m)",
       "Impedance": "8 ohms",
-      "Finish": "Black, white or oak"
+      "Finish": "Black, white or oak",
+      "Dimensions": "40.2 × 10.2 × 15.8 in (1020 × 260 × 402 mm)",
+      "Weight": "60.6 lb (27.5 kg) each"
     },
     "keySpecs": [
       "Type",
@@ -445,8 +467,12 @@
     "specs": {
       "Type": "3-way floorstanding",
       "Drivers": "1-inch aluminum/magnesium inverted-dome tweeter; Flax-sandwich midrange; two Flax-sandwich woofers",
+      "Frequency response": "45 Hz–30 kHz ±3 dB",
+      "Sensitivity": "91.5 dB",
       "Impedance": "8 ohms",
-      "Sold as": "Pair"
+      "Sold as": "Pair",
+      "Dimensions": "40.7 × 11.6 × 14.6 in (1035 × 294 × 371 mm)",
+      "Weight": "55.1 lb (25 kg) each"
     },
     "keySpecs": [
       "Type",
