@@ -12,7 +12,8 @@
     "images:review": "node scripts/review-matches.mjs",
     "indexnow": "node scripts/indexnow-submit.mjs",
     "audit:seo": "node scripts/seo-audit.mjs",
-    "markdown": "node scripts/build-markdown.mjs"
+    "markdown": "node scripts/build-markdown.mjs",
+    "bing:submit": "node scripts/bing-submit.mjs"
   },
   "dependencies": {
     "@dualmark/core": "^0.11.0",
