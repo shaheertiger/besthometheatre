@@ -5,6 +5,8 @@ import { glossary, type Term } from '../../data/glossary';
 import { SITE } from '../../data/site';
 import { md } from '../../lib/md';
 import { breadcrumbs, graph } from '../../lib/schema';
+import { glossaryUpdated } from '../../lib/data';
+const updated = glossaryUpdated();
 export function getStaticPaths() { return glossary.map((t) => ({ params: { slug: t.slug }, props: { t } })); }
 const { t } = Astro.props as { t: Term };
 const url = `/glossary/${t.slug}/`;
@@ -13,7 +15,7 @@ const others = glossary.filter((x) => x.slug !== t.slug);
 const short = t.term.replace(/ \(.*\)$/, '');
 const schema = graph({ '@type': 'DefinedTerm', name: t.term, description: t.short, url: `${SITE.url}${url}`, inDefinedTermSet: `${SITE.url}/glossary/` }, breadcrumbs(crumbs));
 ---
-<Base title={[`What Is ${short}? Home Theater Glossary`, `What Is ${short}? Explained`, `What Is ${short}?`].find((x) => x.length <= 62)!} description={(t.short.length >= 120 ? t.short : `${short}: ${t.short} Explained with a worked example.`).slice(0, 158)} schema={schema} mdAlternate={`/glossary/${t.slug}.md`}>
+<Base title={[`What Is ${short}? Home Theater Glossary`, `What Is ${short}? Explained`, `What Is ${short}?`].find((x) => x.length <= 62)!} description={(t.short.length >= 120 ? t.short : `${short}: ${t.short} Explained with a worked example.`).slice(0, 158)} schema={schema} type="article" published={updated} updated={updated} mdAlternate={`/glossary/${t.slug}.md`}>
   <article class="article">
     <header class="col a-head">
       <Breadcrumbs items={crumbs} />

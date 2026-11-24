@@ -1,11 +1,11 @@
-// Submits every URL in the built sitemaps to IndexNow (Bing, Yandex, Seznam, Naver…) so new and updated pages
+// Submits every URL in the built sitemap.xml to IndexNow (Bing, Yandex, Seznam, Naver…) so new and updated pages
 // are crawled within hours. Bing's index also feeds DuckDuckGo, Yahoo, Ecosia and Copilot. Same script as
 // enthusiastreview.com.
 //
-//   npm run indexnow                          submit the URLs in the LIVE sitemaps (run after a deploy)
+//   npm run indexnow                          submit the URLs in the LIVE /sitemap.xml (run after a deploy)
 //   node scripts/indexnow-submit.mjs --postbuild
 //                                             last step of `npm run build`: on a Vercel production build, submit
-//                                             the URLs in the freshly built dist/sitemap-*.xml; anywhere else do
+//                                             the URLs in the freshly built dist/sitemap.xml; anywhere else do
 //                                             nothing. Never fails the build.
 //
 // IndexNow verifies ownership by fetching https://<host>/<key>.txt, which lives in /public.
@@ -32,10 +32,11 @@ const locs = (xml) => [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1])
 let urlList = [];
 try {
   if (postbuild) {
-    for (const f of fs.readdirSync(DIST).filter((f) => /^sitemap-(?!index).*\.xml$/.test(f))) urlList.push(...locs(fs.readFileSync(path.join(DIST, f), 'utf8')));
+    urlList = locs(fs.readFileSync(path.join(DIST, 'sitemap.xml'), 'utf8'));
   } else {
-    const index = await (await fetch(`${SITE_URL}/sitemap-index.xml`)).text();
-    for (const sm of locs(index)) urlList.push(...locs(await (await fetch(sm)).text()));
+    const xml = await (await fetch(`${SITE_URL}/sitemap.xml`)).text();
+    // Before this deploy the live site still served a sitemap index: follow it if that's what comes back.
+    urlList = xml.includes('<sitemapindex') ? (await Promise.all(locs(xml).map(async (u) => locs(await (await fetch(u)).text())))).flat() : locs(xml);
   }
 } catch (e) {
   fail(`IndexNow: could not read the sitemaps (${e.message})`);

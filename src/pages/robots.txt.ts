@@ -6,7 +6,7 @@ export const GET: APIRoute = () =>
       'User-agent: *',
       'Allow: /',
       '',
-      `Sitemap: ${SITE.url}/sitemap-index.xml`,
+      `Sitemap: ${SITE.url}/sitemap.xml`,
       '',
       '# Site guide for AI agents (llmstxt.org) and AI usage policy.',
       '# Every page also has a Markdown twin at the same path + .md.',

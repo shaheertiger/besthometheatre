@@ -10,7 +10,7 @@ import FAQ from '../../components/FAQ.astro';
 import StickyBuyBar from '../../components/StickyBuyBar.astro';
 import { AUTHOR, authorUrl } from '../../data/authors';
 import { amazonUrl, amazonImage } from '../../lib/amazon';
-import { productMap, productUrl, compareSlug, articlesForProduct, articleUrl, shortName, formatDate } from '../../lib/data';
+import { compareUpdated, productMap, productUrl, compareSlug, articlesForProduct, articleUrl, shortName, formatDate } from '../../lib/data';
 import { compares } from '../../data/compares';
 import { CATEGORY_LABELS, SITE } from '../../data/site';
 import { md } from '../../lib/md';
@@ -27,7 +27,7 @@ export function getStaticPaths() {
 }
 const { a, b } = Astro.props as { a: Product; b: Product };
 const url = `/compare/${compareSlug(a.slug, b.slug)}/`;
-const updated = '2026-11-17';
+const updated = compareUpdated();
 const winner = a.score === b.score ? null : a.score > b.score ? a : b;
 const loser = winner ? (winner === a ? b : a) : null;
 const cheaper = a.priceTier === b.priceTier ? null : a.priceTier < b.priceTier ? a : b;
@@ -48,8 +48,18 @@ const quick = winner
   : `They tie on our score (${a.score}/100). Choose the ${sa} for ${lc(a.bestFor)}, or the ${sb} for ${lc(b.bestFor)}.`;
 // Answer-first difference headings, built from the data: "Price: the X costs less", "Score: the X scores higher".
 const diffs: { h: string; text: string }[] = [];
-if (cheaper) diffs.push({ h: `Price: the ${shortName(cheaper.name)} costs less`, text: `The ${cheaper.name} usually sells for ${cheaper.priceBand}, against ${(cheaper === a ? b : a).priceBand} for the ${(cheaper === a ? b : a).name}. Prices move often, so check the live listing before you buy.` });
-if (winner) diffs.push({ h: `Score: the ${shortName(winner.name)} scores higher`, text: `The ${winner.name} scores ${winner.score}/100 on our ${SITE.score}, against ${loser!.score}/100 for the ${loser!.name}. The score weighs the spec sheet against the price band and owner reports.` });
+// Price gap from the midpoint of each street-price band, as on enthusiastreview.com: "costs about $230 less (27% cheaper)".
+const mid = (p: Product) => { const n = (p.priceBand.match(/[\d,]+(?:\.\d+)?/g) ?? []).map((x) => +x.replace(/,/g, '')); return n.length ? (Math.min(...n) + Math.max(...n)) / 2 : 0; };
+const [ma, mb] = [mid(a), mid(b)];
+const gap = ma && mb ? Math.abs(ma - mb) : 0;
+const gapR = gap >= 100 ? Math.round(gap / 10) * 10 : Math.round(gap);
+if (cheaper && gapR >= 1) {
+  const dear = cheaper === a ? b : a;
+  const pct = Math.round((1 - mid(cheaper) / mid(dear)) * 100);
+  diffs.push({ h: `Price: the ${shortName(cheaper.name)} costs about $${gapR.toLocaleString('en-US')} less (${pct}% cheaper)`, text: `The ${cheaper.name} usually sells for ${cheaper.priceBand}, against ${dear.priceBand} for the ${dear.name}. Street prices move often, so check the live listing before you buy.` });
+} else if (cheaper) diffs.push({ h: `Price: the ${shortName(cheaper.name)} costs less`, text: `The ${cheaper.name} usually sells for ${cheaper.priceBand}, against ${(cheaper === a ? b : a).priceBand} for the ${(cheaper === a ? b : a).name}. Prices move often, so check the live listing before you buy.` });
+else diffs.push({ h: `Price: the ${sa} and ${sb} cost about the same`, text: `Both sell in the ${a.priceBand} band, so buy whichever fits better and check the live price.` });
+if (winner) diffs.push({ h: `Score: the ${shortName(winner.name)} scores ${winner.score - loser!.score} point${winner.score - loser!.score === 1 ? '' : 's'} higher (${winner.score} vs ${loser!.score})`, text: `The ${winner.name} scores ${winner.score}/100 on our ${SITE.score}, against ${loser!.score}/100 for the ${loser!.name}. The score weighs the spec sheet against the price band and owner reports.` });
 for (const k of differs.slice(0, 4)) diffs.push({ h: `${k}: ${sa} ${a.specs[k]} vs ${sb} ${b.specs[k]}`.slice(0, 110), text: `The ${a.name} lists ${a.specs[k]} for ${k.toLowerCase()}; the ${b.name} lists ${b.specs[k]}.` });
 // Bing rule: 140-158 characters, the answer and a number first.
 const lead = winner

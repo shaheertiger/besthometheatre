@@ -39,8 +39,12 @@ function applyOverride(base: Product): Product {
 const productFiles = import.meta.glob<{ default: Product[] }>('../content/products/*.json', { eager: true });
 const articleFiles = import.meta.glob<{ default: Article }>('../content/articles/*.json', { eager: true });
 
-export const products: Product[] = Object.values(productFiles)
-  .flatMap((m) => m.default)
+/** Launch date: the fallback when git has no date for a file (scripts/page-dates.mjs). */
+export const LAUNCH = '2026-11-17';
+const git = (key: string) => (gitDates as Record<string, string>)[key];
+const productFile = new Map<string, string>();
+export const products: Product[] = Object.entries(productFiles)
+  .flatMap(([path, m]) => m.default.map((p) => (productFile.set(p.slug, path.replace(/^.*\/|\.json$/g, '')), p)))
   .map(applyOverride)
   .sort((a, b) => b.score - a.score);
 
@@ -49,7 +53,7 @@ export const productMap = new Map(products.map((p) => [p.slug, p]));
 // `updated` is the date of the last commit that changed the article's JSON (scripts/page-dates.mjs), so the
 // byline, the Article dateModified and the sitemap lastmod move only when the content really changes.
 const gitDate = (slug: string, fallback: string) => {
-  const d = (gitDates as Record<string, string>)[`articles/${slug}`];
+  const d = git(`articles/${slug}`);
   return d && d > fallback ? d : fallback;
 };
 export const articles: Article[] = Object.values(articleFiles)
@@ -122,3 +126,9 @@ export function shortName(name: string) {
   for (const s of SUFFIXES) if (name.endsWith(s) && name.length - s.length > 8) return name.slice(0, -s.length);
   return name;
 }
+
+/* Real last-modified dates (scripts/page-dates.mjs): the date shown on the page, in dateModified and in <lastmod>. */
+export const productUpdated = (p: Pick<Product, 'slug'>) => git(`products/${productFile.get(p.slug)}`) ?? LAUNCH;
+export const compareUpdated = () => git('compares') ?? LAUNCH;
+export const glossaryUpdated = () => git('glossary') ?? LAUNCH;
+export const latestDate = () => [LAUNCH, ...articles.map((a) => a.updated), ...products.map(productUpdated), compareUpdated(), glossaryUpdated()].reduce((m, d) => (d > m ? d : m), '');

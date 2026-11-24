@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/page-dates.mjs && astro build && node scripts/check-build.mjs && node scripts/build-markdown.mjs && node scripts/indexnow-submit.mjs --postbuild",
+    "build": "node scripts/page-dates.mjs && astro build && node scripts/build-sitemap.mjs && node scripts/check-build.mjs && node scripts/build-markdown.mjs && node scripts/indexnow-submit.mjs --postbuild",
     "preview": "astro preview",
     "check:links": "node scripts/check-build.mjs",
     "images:fetch": "node --env-file-if-exists=.env scripts/fetch-product-images.mjs",
@@ -15,7 +15,8 @@
     "markdown": "node scripts/build-markdown.mjs"
   },
   "dependencies": {
-    "@astrojs/sitemap": "3.7.5",
+    "@dualmark/core": "^0.11.0",
+    "@vercel/functions": "^3.11.3",
     "amazon-creators-api": "^1.2.2",
     "astro": "5.18.2",
     "marked": "15.0.12"
