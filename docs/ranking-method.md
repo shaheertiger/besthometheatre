@@ -83,6 +83,8 @@ Guides without picks use the article skeleton: Short Answer → lede → On this
 6. `scripts/indexnow-submit.mjs --postbuild` → on a Vercel production build, submits every URL in
    `dist/sitemap.xml` to IndexNow (Bing, Yandex, Seznam, Naver). The key file is `public/02e52e4ff57642149b896959813aefcc.txt`.
    Run `npm run indexnow` to resubmit the live sitemap by hand.
+7. `npm run bing:submit` (by hand, with `BING_WEBMASTER_API_KEY` set) → the Bing Webmaster API `SubmitUrlBatch`,
+   up to the site's daily quota, best lists and comparisons first. `-- --quota` shows the quota.
 
 `middleware.js` (Vercel Routing Middleware, `@dualmark/core`) serves the Markdown twins: `/x.md`, any page with
 `Accept: text/markdown`, known AI bots (unless they prefer HTML), `/api/md/<path>` and `/api/md/_catalog`. HTML
