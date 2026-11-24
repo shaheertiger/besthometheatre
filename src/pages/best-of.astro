@@ -1,17 +1,28 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
+import Icon from '../components/Icon.astro';
 import RelatedCards from '../components/RelatedCards.astro';
 import { articles, hubLabel } from '../lib/data';
 import { breadcrumbs, graph, itemList } from '../lib/schema';
 const roundups = articles.filter((a) => a.kind === 'roundup');
+const reviews = articles.filter((a) => a.kind === 'review');
+const guides = articles.filter((a) => a.kind === 'guide');
 const order = ['system', 'soundbar', 'receiver', 'amplifier', 'subwoofer', 'bookshelf', 'tower', 'center', 'in-wall', 'high-end', 'wireless-speaker', 'projector', 'screen', 'tv', 'seating', 'remote', 'cable', 'power', 'popcorn'];
 const groups = order.map((h) => ({ hub: h, items: roundups.filter((a) => a.hub === h) })).filter((g) => g.items.length);
 const crumbs = [{ name: 'Home', url: '/' }, { name: 'Best Lists', url: '/best-of/' }];
 ---
-<Base title="Best Home Theater Gear: Every Best-Of List in One Place" description={`All ${roundups.length} of our home theater best lists: systems, projectors, receivers, speakers, subwoofers, seating and accessories, each matched to room size and budget.`} schema={graph(breadcrumbs(crumbs), itemList(roundups.map((a) => ({ name: a.h1, url: `/${a.slug}/` }))))}>
-  <PageHeader h1="Every Home Theater Best List" crumbs={crumbs} eyebrow="Best Lists" intro="Each list is built for one buying question, with picks by room size, budget and setup. Start with the system, then the screen, then the seats." />
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    {groups.map((g) => (<section class="mt-10"><h2 class="text-xl font-extrabold text-ink">{hubLabel(g.hub)}</h2><RelatedCards articles={g.items} /></section>))}
+<Base title={`Best Home Theater Gear (2026): ${roundups.length} Best Lists by Category`} description={`${roundups.length} home theater best lists with ranked picks: systems, projectors, AV receivers, speakers, subwoofers, soundbars, screens, seating and accessories.`} schema={graph(breadcrumbs(crumbs), itemList(articles.map((a) => ({ name: a.h1, url: `/${a.slug}/` }))))} mdAlternate="/best-of.md">
+  <div class="wrap hub">
+    <PageHeader h1="Best Home Theater Gear: Every Best List" crumbs={crumbs} intro="Ranked shortlists for every part of a home theater, matched to room size, light and budget. Start with the system, then the screen, then the seats." />
+    <nav class="chips" aria-label="Categories">{groups.map((g) => <a href={`#${g.hub}`}>{hubLabel(g.hub)}</a>)}<a href="#brand-reviews">Brand Reviews</a><a href="#guides">Guides</a></nav>
+    {groups.map((g) => (
+      <section id={g.hub}>
+        <h2 class="section-title"><Icon icon={g.hub} size={34} /> {hubLabel(g.hub)}</h2>
+        <RelatedCards articles={g.items} />
+      </section>
+    ))}
+    <section id="brand-reviews"><h2 class="section-title">Brand Reviews</h2><RelatedCards articles={reviews} /></section>
+    <section id="guides"><h2 class="section-title">Guides</h2><RelatedCards articles={guides} /></section>
   </div>
 </Base>

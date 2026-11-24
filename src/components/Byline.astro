@@ -1,13 +1,16 @@
 ---
-import { AUTHOR } from '../data/site';
+import { SITE } from '../data/site';
+import { AUTHOR, authorUrl } from '../data/authors';
 import { formatDate } from '../lib/data';
-interface Props { updated: string; published?: string; minutes?: number }
-const { updated, published, minutes } = Astro.props;
+interface Props { updated: string; published?: string; minutes?: number; disclosure?: boolean }
+const { updated, published, minutes, disclosure = true } = Astro.props;
 ---
-<div class="mt-4 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-slate-500">
-  <span>By <a href={AUTHOR.url} rel="author" class="font-semibold text-slate-700 hover:text-brand-600 underline decoration-slate-300 underline-offset-2">{AUTHOR.name}</a></span>
-  <span aria-hidden="true">·</span>
-  <span>Updated <time datetime={updated}>{formatDate(updated)}</time></span>
-  {minutes && <><span aria-hidden="true">·</span><span>{minutes} min read</span></>}
-  {published && published !== updated && <span class="basis-full sm:basis-auto">First published <time datetime={published}>{formatDate(published)}</time></span>}
+<div class="byline">
+  By <a href={authorUrl}>{AUTHOR.name}</a> · Updated <time datetime={updated}>{formatDate(updated)}</time>{minutes && <> · {minutes} min read</>}
+  {published && published !== updated && <> · First published <time datetime={published}>{formatDate(published)}</time></>}
 </div>
+{disclosure && (
+  <p class="disclosure">
+    These picks are researched against spec sheets, published independent measurements and owner reports, then checked against room maths. When you buy through our links we may earn a commission, at no cost to you. <a href="/how-we-test/">How the {SITE.score} works</a> · <a href="/affiliate-disclosure/">Disclosure</a>
+  </p>
+)}

@@ -1,4 +1,5 @@
 ---
+// One page per product: /gear/<slug>/. Ranks for "<model> review" and "<model> specs" searches.
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ProductImage from '../../components/ProductImage.astro';
@@ -7,10 +8,11 @@ import Score from '../../components/Score.astro';
 import ProsCons from '../../components/ProsCons.astro';
 import FAQ from '../../components/FAQ.astro';
 import StickyBuyBar from '../../components/StickyBuyBar.astro';
-import { products, productsByCategory, productsByBrand, articlesForProduct, productUrl, brandUrl, articleUrl, compareSlug, shortName, formatDate } from '../../lib/data';
+import { AUTHOR, authorUrl } from '../../data/authors';
+import { productUpdated, formatDate, products, productsByCategory, productsByBrand, articlesForProduct, productUrl, brandUrl, articleUrl, compareSlug, shortName } from '../../lib/data';
 import { compares } from '../../data/compares';
-import { firmwareFor } from '../../data/firmware';
 import { CATEGORY_LABELS, SITE, LAB } from '../../data/site';
+import { firmwareFor } from '../../data/firmware';
 import { md, mdInline } from '../../lib/md';
 import { breadcrumbs, faqPage, graph, productSchema } from '../../lib/schema';
 import { amazonImage, amazonUrl } from '../../lib/amazon';
@@ -24,122 +26,146 @@ const catLabel = CATEGORY_LABELS[p.category] ?? p.category;
 const peers = productsByCategory(p.category).filter((x) => x.slug !== p.slug);
 const cheaper = peers.filter((x) => x.priceTier < p.priceTier).sort((a, b) => b.score - a.score).slice(0, 3);
 const better = peers.filter((x) => x.score > p.score).sort((a, b) => a.priceTier - b.priceTier).slice(0, 3);
+const [altHead, alts] = cheaper.length ? ['Cheaper options', cheaper] : better.length ? ['Higher-scoring options', better] : [`Other ${catLabel.toLowerCase()} we track`, peers.slice(0, 3)];
 const sameBrand = productsByBrand(p.brand).filter((x) => x.slug !== p.slug).slice(0, 4);
 const inArticles = articlesForProduct(p.slug);
 const rank = productsByCategory(p.category).findIndex((x) => x.slug === p.slug) + 1;
 const total = productsByCategory(p.category).length;
 const myCompares = compares.filter(([a, b]) => a === p.slug || b === p.slug).map(([a, b]) => ({ slug: compareSlug(a, b), other: products.find((x) => x.slug === (a === p.slug ? b : a))! })).filter((c) => c.other);
+const lc = (s: string) => s.charAt(0).toLowerCase() + s.slice(1).replace(/\.$/, '');
 
 const autoFaqs: F[] = [
-  { q: `Is the ${p.name} worth it?`, a: `${p.summary} It scores **${p.score}/100** on our BHTR Score, ranking #${rank} of the ${total} ${catLabel.toLowerCase()} we track. It is best for ${p.bestFor.charAt(0).toLowerCase() + p.bestFor.slice(1)}; skip it if ${p.skipIf.charAt(0).toLowerCase() + p.skipIf.slice(1)}.` },
+  { q: `Is the ${p.name} worth it?`, a: `${p.summary} It scores **${p.score}/100** on our ${SITE.score}, ranking #${rank} of the ${total} ${catLabel.toLowerCase()} we track. It is best for ${lc(p.bestFor)}; skip it if ${lc(p.skipIf)}.` },
   ...(cheaper[0] ? [{ q: `What is a cheaper alternative to the ${p.name}?`, a: `The [${cheaper[0].name}](${productUrl(cheaper[0])}) (${cheaper[0].priceBand}) scores ${cheaper[0].score}/100. ${cheaper[0].summary}` }] : []),
 ];
-const sn = shortName(p.name);
-// Spec-intent questions people search for ("<model> specs", "<model> dimensions", "<model> frequency response").
+// Spec-intent questions people search for ("<model> dimensions", "<model> frequency response").
 const specFaq = (key: string, q: string, a: (v: string) => string): F[] => (p.specs[key] && !(p.faqs ?? []).some((f) => f.q.toLowerCase().includes(key.toLowerCase())) ? [{ q, a: a(p.specs[key]) }] : []);
 const specFaqs: F[] = [
-  ...specFaq('Dimensions', `What are the dimensions of the ${p.name}?`, (v) => `The ${p.name} measures **${v}**${p.specs['Weight'] ? ` and weighs **${p.specs['Weight']}**` : ''}, according to the manufacturer's spec sheet. See the [full ${sn} specs](#specs) for everything else.`),
+  ...specFaq('Dimensions', `What are the dimensions of the ${p.name}?`, (v) => `The ${p.name} measures **${v}**${p.specs['Weight'] ? ` and weighs **${p.specs['Weight']}**` : ''}, according to the manufacturer's spec sheet. See the [full specs](#specs) for everything else.`),
   ...specFaq('Frequency response', `What is the frequency response of the ${p.name}?`, (v) => `The manufacturer rates the ${p.name}'s frequency response at **${v}**. ${['bookshelf', 'tower', 'center', 'in-wall', 'atmos-speaker', 'high-end', 'wireless-speaker'].includes(p.category) ? `For movies, pair it with a subwoofer and set your receiver's [crossover](/glossary/crossover/) to around 80 Hz so deep bass goes to the sub.` : 'Figures are published by the maker and measured under their own conditions.'}`),
 ];
+// Firmware & Updates (src/data/firmware.ts): only menu paths verified against the maker's manual or support pages.
 const fw = firmwareFor(p.slug);
 const fwUrl = fw ? fw.supportUrls?.[p.slug] ?? fw.supportUrl : '';
 const fwFaqs: F[] = fw ? [{ q: `How do I update the firmware on the ${p.name}?`, a: `${fw.network ? `Connect it to the internet, then go to **${fw.network}**.` : ''}${fw.usb ? ` ${fw.network ? 'You can also update from a USB stick: ' : 'Updates are installed from a USB stick: '}${fw.usb.charAt(0).toLowerCase() + fw.usb.slice(1)}` : ''}${fw.cautions ? ` ${fw.cautions}` : ''} Release notes and files are on [${p.brand}'s support site](${fwUrl}).`.trim() }] : [];
 const faqs = [...(p.faqs ?? []), ...specFaqs, ...fwFaqs, ...autoFaqs];
-const glance = (p.keySpecs?.length ? p.keySpecs : Object.keys(p.specs)).filter((k) => p.specs[k]).slice(0, 4);
 const crumbs = [
   { name: 'Home', url: '/' },
   { name: 'All Gear', url: '/gear/' },
   { name: catLabel, url: `/gear/#${p.category}` },
   { name: p.name, url: productUrl(p) },
 ];
-const title = [`${p.name} Review: Specs, Score & Verdict (${p.score}/100)`, `${p.name} Review: Specs, Score & Verdict`, `${sn} Review: Specs, Score & Verdict`, `${sn} Review: Specs & Score`, `${sn} Review & Specs`].find((t) => t.length <= 65) ?? sn;
-const description = `${p.name} at a glance: ${Object.entries(p.specs).slice(0, 3).map(([k, v]) => `${k.toLowerCase()} ${v}`).join(', ')}. ${p.summary}`.slice(0, 158);
-const schema = graph(breadcrumbs(crumbs), productSchema(p), faqPage(faqs));
+const sn = shortName(p.name);
+// enthusiastreview.com product titles: "<Model> Review: Specs, Score & Verdict", padded with the category noun when
+// short, then " (NN/100)" when it still fits in 65. Aim for 50-62 characters before the score.
+const noun = (CATEGORY_LABELS[p.category] ?? '').replace(/ & .*$/, '').replace(/ies$/, 'y').replace(/([^s])s$/, '$1');
+const named = noun && !p.name.toLowerCase().includes(noun.split(' ').pop()!.toLowerCase()) ? `${p.name} ${noun}` : p.name;
+const titleOpts = [`${p.name} Review: Specs, Score & Verdict`, `${named} Review: Specs, Score & Verdict`, `${named} Review: Specs, ${SITE.score} & Verdict`, `${p.name} Review: Specs & ${SITE.score}`, `${sn} Review: Specs, Score & Verdict`, `${sn} Review: Specs & Score`, `${sn} Review & Specs`, `${sn} Review`];
+// Very long model names: cut the name at a word so "<name> Review" still fits in 62.
+const cutName = p.name.length > 55 ? p.name.slice(0, p.name.lastIndexOf(' ', 55)) : p.name;
+const baseTitle = titleOpts.find((t) => t.length >= 50 && t.length <= 62) ?? titleOpts.find((t) => t.length <= 62) ?? `${cutName} Review`;
+const title = `${baseTitle} (${p.score}/100)`.length <= 65 ? `${baseTitle} (${p.score}/100)` : baseTitle;
+// enthusiastreview.com productDescription(): "<Model> at a glance:" up to three specs (lead under 100 characters),
+// then the summary, cut at a word like a SERP snippet.
+const lead = `${p.name} at a glance: `;
+const specBits: string[] = [];
+for (const [k, v] of Object.entries(p.specs)) {
+  const next = [...specBits, `${/^[A-Z][a-z]/.test(k) ? k.charAt(0).toLowerCase() + k.slice(1) : k} ${v.replace(/\s*\([^)]*\)/g, '').replace(/;.*$/, '').trim()}`];
+  if ((lead + next.join(', ')).length > 100 || next.length > 3) break;
+  specBits.splice(0, specBits.length, ...next);
+}
+const fullDesc = specBits.length ? `${lead}${specBits.join(', ')}. ${p.summary}` : p.summary;
+const description = fullDesc.length <= 158 ? fullDesc : `${fullDesc.slice(0, fullDesc.lastIndexOf(' ', 157)).replace(/[\s,;:–—-]+$/, '')}…`;
+const schema = graph(productSchema(p), breadcrumbs(crumbs), faqPage(faqs));
+const keys = (p.keySpecs?.length ? p.keySpecs : Object.keys(p.specs)).filter((k) => p.specs[k]).slice(0, 4);
+const img = amazonImage(p, 500);
+const updated = productUpdated(p);
 ---
-<Base title={title} description={description} type="article" schema={schema} preloadImage={amazonImage(p, 400) ?? undefined}>
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
-    <Breadcrumbs items={crumbs} />
-    <div class="mt-5 grid md:grid-cols-[260px_1fr] gap-6 items-start">
-      <div class="flex justify-center md:block"><ProductImage product={p} size={500} class="w-60 h-60 rounded-2xl border border-slate-200 p-2" eager /></div>
-      <div>
-        <p class="text-xs font-bold uppercase tracking-wider text-brand-600"><a href={brandUrl(p.brand)} class="no-underline">{p.brand}</a> · {catLabel}</p>
-        <h1 class="mt-1 text-3xl sm:text-4xl font-extrabold tracking-tight text-ink leading-tight">{p.name}</h1>
-        <div class="mt-3 flex flex-wrap items-center gap-3 text-sm text-slate-600">
-          <Score score={p.score} size="lg" />
-          {p.tested && <a href="#lab-results" class="rounded-md bg-emerald-600 px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-white no-underline">Lab tested</a>}
-          <span>#{rank} of {total} {catLabel.toLowerCase()}</span>
-          <span aria-hidden="true">·</span>
-          <span>{p.priceBand}</span>
-          {p.released && <><span aria-hidden="true">·</span><span>Released {p.released}</span></>}
-        </div>
-        <div class="mt-4 rounded-xl bg-brand-50 border border-brand-100 p-4">
-          <p class="text-xs font-bold uppercase tracking-wider text-brand-700">Quick answer</p>
-          <p class="mt-1 text-[1rem] text-slate-800">{p.summary}</p>
-        </div>
-        <div class="mt-4 grid sm:grid-cols-2 gap-3 text-sm">
-          <div class="rounded-lg border border-slate-200 p-3"><span class="block text-xs text-slate-500">Best for</span><span class="font-semibold">{p.bestFor}</span></div>
-          <div class="rounded-lg border border-slate-200 p-3"><span class="block text-xs text-slate-500">Skip it if</span><span class="font-semibold">{p.skipIf}</span></div>
-        </div>
-        {glance.length > 0 && (
-          <dl class="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 rounded-lg border border-slate-200 p-3 text-sm" aria-label={`${sn} key specs`}>
-            {glance.map((k) => <div class="min-w-0"><dt class="text-xs text-slate-500">{k}</dt><dd class="font-semibold text-ink break-words">{p.specs[k]}</dd></div>)}
-            <div class="col-span-2"><a href="#specs" class="text-xs font-semibold text-brand-600">All {sn} specs ↓</a></div>
-          </dl>
-        )}
-        <div class="mt-5" id="main-buy"><AmazonButton product={p} class="w-full sm:w-auto" /></div>
+<Base title={title} description={description} type="article" schema={schema} preloadImage={amazonImage(p, 300) ?? undefined} ogImage={img ?? undefined} section={catLabel} published={updated} updated={updated}>
+  <article class="article gear">
+    <header class="col a-head">
+      <Breadcrumbs items={crumbs} />
+      <div class="kicker"><a href={brandUrl(p.brand)}>{p.brand}</a> · <a href={`/gear/#${p.category}`}>{catLabel}</a></div>
+      <h1 class="a-title">{p.name}</h1>
+      <div class="gear-meta">
+        <Score score={p.score} size="lg" />
+        {p.tested && <a class="tag" href="#lab-results">Lab tested</a>}
+        <span>By <a href={authorUrl}>{AUTHOR.name}</a> · #{rank} of {total} {catLabel.toLowerCase()} · {p.priceBand}{p.released && <> · Released {p.released}</>} · Updated <time datetime={updated}>{formatDate(updated)}</time></span>
       </div>
+    </header>
+
+    <div class="col">
+      <section class="quick-card">
+        <div class="qc-hero">
+          <figure class="qc-photo">
+            <ProductImage product={p} size={220} buy eager />
+            {img && <figcaption>Amazon listing photo</figcaption>}
+          </figure>
+          <div>
+            <h2 class="mini">Quick answer</h2>
+            <p>{p.summary}</p>
+          </div>
+        </div>
+        <dl class="qc-fit">
+          <div><dt>Best for</dt><dd>{p.bestFor}</dd></div>
+          <div><dt>Skip it if</dt><dd>{p.skipIf}</dd></div>
+        </dl>
+        <dl class="keyspecs">{keys.map((k) => <div><dt>{k}</dt><dd>{p.specs[k]}</dd></div>)}</dl>
+        <div class="pick-cta"><AmazonButton product={p} /><a class="more" href="#specs">All {sn} specs ↓</a></div>
+      </section>
     </div>
 
-    <div class="max-w-3xl">
-      <div class="prose mt-10">
-        <h2 id="specs">{p.name} Specs</h2>
-      </div>
-      <div class="not-prose mt-4 overflow-hidden rounded-xl border border-slate-200">
-        <table class="w-full text-sm">
-          <tbody class="divide-y divide-slate-100">
-            {Object.entries(p.specs).map(([k, v]) => <tr><th class="w-2/5 bg-slate-50 px-4 py-2.5 text-left font-medium text-slate-600">{k}</th><td class="px-4 py-2.5 text-ink">{v}</td></tr>)}
-          </tbody>
+    <div class="col body">
+      <h2 id="specs">{p.name} Specs</h2>
+      <div class="table-wrap">
+        <table class="spec-table kv">
+          <tbody>{Object.entries(p.specs).map(([k, v]) => <tr><th scope="row">{k}</th><td>{v}</td></tr>)}<tr><th scope="row">Street price</th><td>{p.priceBand} (typical band; check the live price)</td></tr></tbody>
         </table>
       </div>
+      <p class="fine">Specs from {p.brand}'s published spec sheet and product listings. The score comes from {p.tested ? 'our lab results, ' : ''}the spec sheet, room maths, published independent measurements and owner reports. <a href="/how-we-test/">How we score</a>.</p>
 
-      {p.tested ? (
+      {p.tested && (
         <>
-          <div class="prose"><h2 id="lab-results">{p.name} Lab Results</h2>
-            <p>Measured in our lab in {LAB.location} on <time datetime={p.tested.date}>{formatDate(p.tested.date)}</time>.</p>
-            <p><strong>Method:</strong> {p.tested.method}</p>
-          </div>
-          <div class="not-prose mt-4 overflow-hidden rounded-xl border border-emerald-200">
-            <table class="w-full text-sm">
-              <tbody class="divide-y divide-emerald-100">
-                {p.tested.results.map((r) => <tr><th class="w-2/5 bg-emerald-50 px-4 py-2.5 text-left font-medium text-slate-700">{r.label}</th><td class="px-4 py-2.5 text-ink">{r.value}</td></tr>)}
-              </tbody>
-            </table>
-          </div>
-          {p.tested.notes && <div class="prose" set:html={md(p.tested.notes)} />}
+          <h2 id="lab-results">{p.name} Lab Results</h2>
+          <p>Measured in our lab in {LAB.location} on <time datetime={p.tested.date}>{formatDate(p.tested.date)}</time>. <strong>Method:</strong> {p.tested.method}</p>
+          <div class="table-wrap"><table class="spec-table kv"><tbody>{p.tested.results.map((r) => <tr><th scope="row">{r.label}</th><td>{r.value}</td></tr>)}</tbody></table></div>
+          {p.tested.notes && <Fragment set:html={md(p.tested.notes)} />}
         </>
-      ) : (
-        <div class="prose"><p class="mt-6 text-[0.95rem] text-slate-600">Its score comes from the spec sheet, room maths, widely published independent measurements and owner reports. <a href="/how-we-test/">How we score</a>.</p></div>
       )}
 
-      <div class="prose"><h2 id="score">BHTR Score: {p.score}/100</h2>
-        <p>Our score weighs {p.tested ? 'our lab results, ' : ''}the spec sheet, the price band and what owners report over time. <a href="/how-we-test/">See how we score</a>.</p>
-      </div>
-      {p.scores && (
-        <div class="not-prose mt-4 space-y-3">
+      <h2 id="score">{SITE.score}: {p.score}/100</h2>
+      <p>The {SITE.score} weighs the spec sheet against the price band and what owners report over time.</p>
+      {p.scores?.length && (
+        <div class="bars">
           {p.scores.map((s) => (
-            <div>
-              <div class="flex justify-between text-sm"><span class="text-slate-700">{s.label}</span><span class="font-bold">{s.value}</span></div>
-              <div class="mt-1 h-2 rounded-full bg-slate-100"><div class="h-2 rounded-full bg-brand-600" style={`width:${s.value}%`}></div></div>
-            </div>
+            <div class="bar"><span class="bar-k">{s.label}</span><span class="bar-track"><span class="bar-fill" style={`width:${s.value}%`} /></span><span class="bar-v">{s.value}</span></div>
           ))}
         </div>
       )}
 
-      <div class="prose"><h2 id="verdict">Our Verdict</h2><Fragment set:html={md(p.verdict)} /></div>
-      <ProsCons pros={p.pros} cons={p.cons} />
+      <h2 id="verdict">Our Verdict</h2>
+      <Fragment set:html={md(p.verdict)} />
+      <ProsCons pros={p.pros} cons={p.cons} level="h3" />
+
+      {alts.length > 0 && (
+        <>
+          <h2 id="alternatives">Alternatives to the {p.name}</h2>
+          <h3>{altHead}</h3>
+          <div class="alt-cards">
+            {alts.map((x) => <a class="alt-card" href={productUrl(x)}><ProductImage product={x} size={64} /><span><strong>{x.name}</strong><small><Score score={x.score} /> · {x.priceBand}</small></span></a>)}
+          </div>
+        </>
+      )}
+      {sameBrand.length > 0 && (
+        <>
+          <h3>More from {p.brand}</h3>
+          <div class="alt-cards">{sameBrand.map((x) => <a class="alt-card" href={productUrl(x)}><ProductImage product={x} size={64} /><span><strong>{x.name}</strong><small><Score score={x.score} /> · {x.priceBand}</small></span></a>)}</div>
+        </>
+      )}
 
       {fw && (
-        <div class="prose"><h2 id="firmware">{sn} Firmware &amp; Updates</h2>
+        <>
+          <h2 id="firmware">{sn} Firmware and Updates</h2>
           <p>Firmware updates fix bugs and can add features and format support, so check for one when you first set up the {sn} and whenever HDMI, audio formats or connected features misbehave.</p>
           <ul>
             {fw.network && <li><strong>Update over the internet:</strong> <Fragment set:html={mdInline(fw.network)} /></li>}
@@ -148,43 +174,27 @@ const schema = graph(breadcrumbs(crumbs), productSchema(p), faqPage(faqs));
           </ul>
           {fw.cautions && <p><strong>Before you start:</strong> {fw.cautions}</p>}
           <p>Release notes and update files: <a href={fwUrl} target="_blank" rel="noopener">{p.brand} support</a>. Steps from {p.brand}'s own manual and support pages.</p>
-        </div>
-      )}
-
-      {(cheaper.length > 0 || better.length > 0 || sameBrand.length > 0) && (
-        <div class="prose"><h2 id="alternatives">Alternatives to the {p.name}</h2></div>
-        <div class="not-prose mt-4 space-y-6">
-          {[{ t: 'Cheaper options', l: cheaper }, { t: 'Higher-scoring options', l: better }, { t: `More from ${p.brand}`, l: sameBrand }].filter((g) => g.l.length).map((g) => (
-            <div>
-              <h3 class="font-bold text-ink">{g.t}</h3>
-              <ul class="mt-2 grid sm:grid-cols-3 gap-3">
-                {g.l.map((x) => (
-                  <li><a href={productUrl(x)} class="flex items-center gap-3 rounded-xl border border-slate-200 p-3 hover:border-brand-500 no-underline h-full">
-                    <ProductImage product={x} size={160} class="w-12 h-12 shrink-0 rounded-lg" />
-                    <span class="min-w-0"><span class="block text-sm font-semibold text-ink leading-snug">{x.name}</span><span class="text-xs text-slate-500">{x.score}/100 · {x.priceBand}</span></span>
-                  </a></li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+        </>
       )}
 
       {myCompares.length > 0 && (
-        <div class="prose"><h2 id="compare">Compare the {p.name}</h2>
-          <ul>{myCompares.map((c) => <li><a href={`/compare/${c.slug}/`}>{p.name} vs {c.other.name}</a></li>)}</ul>
-        </div>
+        <>
+          <h2 id="compare">Compare the {sn}</h2>
+          <ul class="link-list">{myCompares.map((c) => <li><a href={`/compare/${c.slug}/`}>{sn} vs {shortName(c.other.name)}</a></li>)}</ul>
+        </>
       )}
 
-      <div class="prose"><h2 id="faq">{p.name} FAQ</h2></div>
+      <h2 id="faq">{p.name} FAQ</h2>
       <FAQ faqs={faqs} />
 
       {inArticles.length > 0 && (
-        <div class="prose"><h2 id="featured">Featured In</h2>
-          <ul>{inArticles.map((a) => <li><a href={articleUrl(a)}>{a.h1}</a> ({a.picks!.find((x) => x.product === p.slug)!.award})</li>)}</ul>
-        </div>
+        <>
+          <h2 id="featured">Featured In</h2>
+          <ul class="link-list">{inArticles.map((a) => <li><a href={articleUrl(a)}>{a.h1}</a> <span class="tag">{a.picks!.find((x) => x.product === p.slug)!.award}</span></li>)}</ul>
+        </>
       )}
     </div>
-  </div>
-  <StickyBuyBar items={[{ slug: p.slug, name: p.name, label: `BHTR Score ${p.score}/100 · ${p.priceBand}`, url: amazonUrl(p), image: amazonImage(p, 160) }]} trigger="#main-buy" mode="single" />
+
+    <StickyBuyBar items={[{ slug: p.slug, name: p.name, label: `${SITE.score} ${p.score}/100 · ${p.priceBand}`, url: amazonUrl(p), image: amazonImage(p, 160) }]} />
+  </article>
 </Base>

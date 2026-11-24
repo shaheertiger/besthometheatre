@@ -16,24 +16,30 @@ Static Astro site for **Best Home Theater Review**, built on the same page struc
 
 Every page ships with a canonical, OG/Twitter tags, JSON-LD (Organization, WebSite, BreadcrumbList,
 Article, FAQPage, ItemList → Product + Review), XML sitemap, `robots.txt`, `llms.txt`, and a
-`/<slug>.md` markdown copy of each article (linked with `rel="alternate"`, like the protein site).
+`/<path>.md` Markdown twin of every page (linked with `rel="alternate"`).
 
-## Sitemap
+## Build, sitemap and Bing
 
-- **XML:** `/sitemap-index.xml` (also `/sitemap.xml`, redirected in `vercel.json`), split per template:
-  `sitemap-pages-0.xml` (home, best lists, reviews, guides, hubs, tools), `sitemap-gear-0.xml`,
-  `sitemap-compare-0.xml`, `sitemap-brands-0.xml`, `sitemap-glossary-0.xml`. Each URL carries its real
-  `lastmod` (article `updated` date), a priority, and `<image:image>` entries for the Amazon product photos
-  on that page. Configured in `astro.config.mjs`. Submit `https://www.besthometheaterreview.com/sitemap-index.xml`
-  in Google Search Console and Bing Webmaster Tools.
+The structure, templates and on-page rules follow [enthusiastreview.com](https://www.enthusiastreview.com); the
+method and checklist are in [`docs/ranking-method.md`](docs/ranking-method.md).
+
+- **XML:** one `/sitemap.xml` (written after the build by `scripts/build-sitemap.mjs`) with every indexable page,
+  its real `<lastmod>` and the Amazon product photos as `<image:image>`. `/sitemap-index.xml` and the old
+  `/sitemap-*.xml` files 301 to it. Submit `https://www.besthometheaterreview.com/sitemap.xml` in Bing Webmaster Tools and Search Console.
 - **HTML:** `/sitemap/`, linked from the footer, lists every page for visitors and crawlers.
+- **Real dates:** `scripts/page-dates.mjs` reads each content file's last commit date into `src/data/git-dates.json`.
+- **Markdown twins + Dualmark:** `scripts/build-markdown.mjs` writes `/<path>.md` for every page plus `llms.txt`,
+  `llms-full.txt` and `ai.txt`; `middleware.js` (`@dualmark/core`) serves them to AI agents and `Accept: text/markdown`.
+- **IndexNow:** every Vercel production build submits `dist/sitemap.xml` (`scripts/indexnow-submit.mjs`);
+  `npm run indexnow` resubmits the live sitemap.
 
 ## Commands
 
 ```bash
 npm install
 npm run dev        # http://localhost:4321
-npm run build      # builds to dist/ and runs the link/SEO audit (fails on broken internal links)
+npm run build      # page dates → astro build → sitemap → link check → Markdown twins → IndexNow (production only)
+npm run audit:seo  # after a build: titles, descriptions, Short Answer H2, H1s, schema, inbound links
 ```
 
 Deploy `dist/` to any static host (Cloudflare Pages, Netlify, Vercel: build command `npm run build`, output `dist`).

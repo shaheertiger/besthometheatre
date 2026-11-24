@@ -1,0 +1,33 @@
+---
+// Footer in the enthusiastreview.com structure: identity block with the affiliate line,
+// then Categories, Database and Company columns, then the copyright line.
+import LogoMark from './LogoMark.astro';
+import { SITE } from '../data/site';
+import { FOOTER_CATEGORIES, FOOTER_COMPANY } from '../data/nav';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="f-top">
+      <div class="f-about">
+        <a class="logo" href="/"><LogoMark /><span class="logo-text">Home Theater<span>Review</span></span></a>
+        <p>{SITE.tagline}. Every product is matched to the room it suits and scored against the spec sheet, independent measurements and owner reports.</p>
+        <p>As an Amazon Associate we earn from qualifying purchases. Rankings are never sold. <a href="/affiliate-disclosure/">How we make money</a></p>
+      </div>
+      <div><h4>Categories</h4><ul>{FOOTER_CATEGORIES.map((l) => <li><a href={l.url}>{l.title}</a></li>)}</ul></div>
+      <div><h4>Database</h4><ul>
+        <li><a href="/gear/">All Home Theater Gear</a></li>
+        <li><a href="/brands/">Brands</a></li>
+        <li><a href="/compare/">Compare Two Products</a></li>
+        <li><a href="/reviews/">Brand Reviews</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a href="/tools/projector-throw-calculator/">Throw Calculator</a></li>
+        <li><a href="/tools/viewing-distance-calculator/">Viewing Distance Calculator</a></li>
+      </ul></div>
+      <div><h4>Company</h4><ul>{FOOTER_COMPANY.map((l) => <li><a href={l.url}>{l.title}</a></li>)}</ul></div>
+    </div>
+    <div class="f-bottom">
+      <p>© {year} {SITE.name}. Product details and availability can change; check the retailer before you buy.</p>
+    </div>
+  </div>
+</footer>

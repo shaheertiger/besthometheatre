@@ -9,20 +9,20 @@ const faqs = [
   { q: 'How close should you sit to a 4K screen?', a: 'With 20/20 vision you stop resolving individual 4K pixels at roughly 1.6 times the screen height. For a 65-inch TV that is about 4.2 feet; for a 120-inch screen about 7.8 feet. Sit further back and 4K looks the same as 1080p, so 4K matters most on big screens.' },
   { q: 'What viewing angle is best for a home theater?', a: 'SMPTE recommends at least 30° of horizontal field of view; THX recommends about 36°, with 40° the immersive maximum. Many enthusiasts prefer 40–50° for a cinema feel in dedicated rooms.' },
 ];
-const schema = graph(breadcrumbs(crumbs), { '@type': 'SoftwareApplication', name: 'Home Theater Viewing Distance Calculator', applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }, faqPage(faqs));
+const schema = graph(breadcrumbs(crumbs), { '@type': 'WebApplication', name: 'Home Theater Viewing Distance Calculator', applicationCategory: 'UtilitiesApplication', url: `https://www.besthometheaterreview.com${crumbs[crumbs.length - 1].url}`, operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }, faqPage(faqs));
 ---
 <Base title="Viewing Distance Calculator: Best Screen Size for Your Seat" description="Find the best TV or projector screen size for your seating distance using SMPTE and THX viewing angles, plus the distance where 4K detail becomes visible." schema={schema}>
-  <PageHeader h1="Viewing Distance & Screen Size Calculator" crumbs={crumbs} eyebrow="Tools" intro="Enter how far your seats are from the screen to get the recommended screen size under SMPTE and THX guidelines, or enter a screen size to find the ideal seat." />
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
-    <form class="grid sm:grid-cols-2 gap-4 rounded-2xl border border-slate-200 p-5 shadow-sm" onsubmit="return false">
-      <label class="block text-sm font-medium">Seating distance (feet, eyes to screen)<input id="dist" type="number" min="3" max="40" step="0.5" value="12" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
-      <label class="block text-sm font-medium">Or: screen diagonal (inches, 16:9)<input id="diag" type="number" min="32" max="250" placeholder="e.g. 120" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+  <div class="col hub">
+  <PageHeader h1="Viewing Distance & Screen Size Calculator" crumbs={crumbs} intro="Enter how far your seats are from the screen to get the recommended screen size under SMPTE and THX guidelines, or enter a screen size to find the ideal seat." />
+    <form class="tool" onsubmit="return false">
+      <label>Seating distance (feet, eyes to screen)<input id="dist" type="number" min="3" max="40" step="0.5" value="12" /></label>
+      <label>Or: screen diagonal (inches, 16:9)<input id="diag" type="number" min="32" max="250" placeholder="e.g. 120" /></label>
     </form>
-    <div class="mt-5 overflow-x-auto rounded-xl border border-slate-200" aria-live="polite">
-      <table class="w-full text-sm"><thead class="bg-slate-50"><tr><th class="text-left px-4 py-2.5">Guideline</th><th class="text-left px-4 py-2.5">Viewing angle</th><th class="text-left px-4 py-2.5" id="colHead">Screen size</th></tr></thead><tbody id="rows" class="divide-y divide-slate-100"></tbody></table>
+    <div class="table-wrap" aria-live="polite">
+      <table><thead><tr><th>Guideline</th><th>Viewing angle</th><th id="colHead">Screen size</th></tr></thead><tbody id="rows"></tbody></table>
     </div>
-    <p id="k4" class="mt-3 text-sm text-slate-600"></p>
-    <div class="prose mt-10">
+    <p id="k4" class="tool-verdict"></p>
+    <div class="body">
       <h2>The Formulas</h2>
       <p>For a 16:9 screen, width = diagonal × 0.8716. The horizontal viewing angle θ from distance D is <code>2 × atan(width / 2D)</code>, so the distance for a target angle is <code>width / (2 × tan(θ/2))</code>: about 1.87 × width for SMPTE's 30°, 1.54 × width for THX's 36°, and 1.37 × width for 40°.</p>
       <p>The 4K "full detail" distance assumes 20/20 vision resolves one arcminute: one 4K pixel row spans an arcminute at about 1.6 × the screen height.</p>
@@ -33,8 +33,8 @@ const schema = graph(breadcrumbs(crumbs), { '@type': 'SoftwareApplication', name
         <li><a href="/home-theater-room-design/">Home theater room design</a></li>
       </ul>
       <h2>FAQ</h2>
+      <FAQ faqs={faqs} />
     </div>
-    <FAQ faqs={faqs} />
   </div>
   <script is:inline>
     (function () {
@@ -46,11 +46,11 @@ const schema = graph(breadcrumbs(crumbs), { '@type': 'SoftwareApplication', name
         let html = '';
         if (diag) {
           $('colHead').textContent = 'Ideal seating distance';
-          G.forEach(([n, a]) => { const d = (diag * W) / (2 * Math.tan(rad(a / 2))); html += `<tr><td class="px-4 py-2.5">${n}</td><td class="px-4 py-2.5">${a}°</td><td class="px-4 py-2.5 font-semibold">${(d / 12).toFixed(1)} ft</td></tr>`; });
+          G.forEach(([n, a]) => { const d = (diag * W) / (2 * Math.tan(rad(a / 2))); html += `<tr><td>${n}</td><td>${a}°</td><td><strong>${(d / 12).toFixed(1)} ft</strong></td></tr>`; });
           $('k4').textContent = `4K detail is fully visible from about ${((diag * H * 1.6) / 12).toFixed(1)} ft or closer; 1080p from about ${((diag * H * 3.2) / 12).toFixed(1)} ft.`;
         } else if (dist) {
           $('colHead').textContent = 'Recommended screen (16:9)';
-          G.forEach(([n, a]) => { const w = 2 * dist * Math.tan(rad(a / 2)); html += `<tr><td class="px-4 py-2.5">${n}</td><td class="px-4 py-2.5">${a}°</td><td class="px-4 py-2.5 font-semibold">${Math.round(w / W)} in</td></tr>`; });
+          G.forEach(([n, a]) => { const w = 2 * dist * Math.tan(rad(a / 2)); html += `<tr><td>${n}</td><td>${a}°</td><td><strong>${Math.round(w / W)} in</strong></td></tr>`; });
           $('k4').textContent = `At ${(dist / 12).toFixed(1)} ft, a screen of about ${Math.round(dist / 1.6 / H)} in or larger shows the full benefit of 4K.`;
         }
         $('rows').innerHTML = html;

@@ -1,26 +1,29 @@
 ---
+// Root-level pages: buyer's guides (/best-home-theater-systems/), brand reviews (/bose-home-theater-review/)
+// and guides (/home-theater-setup-guide/). Outline copied from enthusiastreview.com:
+// H1 → dek → byline → lede → shortlist → On this page → 1. Short Answer (+ picks table) → how we ranked →
+// sections → picks → specs side by side → sections → mistakes → bottom line → FAQ → sources → all we track.
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import AffiliateNote from '../components/AffiliateNote.astro';
 import Byline from '../components/Byline.astro';
 import QuickPicks from '../components/QuickPicks.astro';
 import PickBlock from '../components/PickBlock.astro';
 import ComparisonTable from '../components/ComparisonTable.astro';
-import NotableMentions from '../components/NotableMentions.astro';
-import AllProductsTable from '../components/AllProductsTable.astro';
 import FAQ from '../components/FAQ.astro';
 import TOC from '../components/TOC.astro';
+import Score from '../components/Score.astro';
+import AmazonButton from '../components/AmazonButton.astro';
 import RelatedCards from '../components/RelatedCards.astro';
-import BeforeYouBuy from '../components/BeforeYouBuy.astro';
-import GuidePage from '../components/GuidePage.astro';
-import { FORMAT } from '../data/site';
 import StickyBuyBar from '../components/StickyBuyBar.astro';
-import { articles, articleMap, getProduct, hubLabel, readMinutes, articleUrl, brandUrl, productsByBrand, productsByCategory, productUrl, formatDate } from '../lib/data';
-import { CATEGORY_LABELS, LAB } from '../data/site';
-import { md, slugify } from '../lib/md';
+import GuidePage from '../components/GuidePage.astro';
+import ProductImage from '../components/ProductImage.astro';
+import { SITE, CATEGORY_LABELS, LAB } from '../data/site';
+import { compares } from '../data/compares';
+import { articles, articleMap, getProduct, productMap, hubLabel, readMinutes, articleUrl, brandUrl, productUrl, productsByBrand, productsByCategory, compareSlug, shortName, formatDate } from '../lib/data';
+import { md, mdInline, slugify } from '../lib/md';
 import { articleSchema, breadcrumbs, faqPage, graph, itemList } from '../lib/schema';
-import { amazonImage, amazonUrl } from '../lib/amazon';
-import type { Article, Section } from '../lib/types';
+import { amazonImage, amazonUrl, AFFILIATE_REL } from '../lib/amazon';
+import type { Article } from '../lib/types';
 
 export function getStaticPaths() {
   return articles.map((a) => ({ params: { slug: a.slug }, props: { article: a } }));
@@ -30,10 +33,21 @@ const { article: a } = Astro.props as { article: Article };
 const url = articleUrl(a);
 const picks = a.picks ?? [];
 const pickProducts = picks.map((p) => getProduct(p.product));
-const isRoundup = a.kind === 'roundup';
-const short = a.h1.replace(/^Best /, '');
+const top = pickProducts[0];
+const isReview = a.kind === 'review';
+const isGuide = a.kind === 'guide';
+const cat = CATEGORY_LABELS[a.hub] ? a.hub : top?.category;
+const catLabel = cat ? CATEGORY_LABELS[cat] : hubLabel(a.hub);
+// The article's own "How We Chose/Ranked …" section, when it has one, is the method block ahead of the picks.
+const method = (a.picks?.length && a.kind !== 'guide') ? a.sections.find((s) => /^How We /i.test(s.heading)) : undefined;
+const before = a.sections.filter((s) => s !== method && s.position === 'before');
+const after = a.sections.filter((s) => s !== method && s.position !== 'before');
+const testedPicks = (a.picks ?? []).map((pk) => getProduct(pk.product)).filter((p) => p.tested);
+// Notable mentions: strong models that missed the list, and when they're the better buy.
+const mentions = (a.mentions ?? []).filter((m) => productMap.has(m.product) && !(a.picks ?? []).some((pk) => pk.product === m.product)).map((m) => ({ p: getProduct(m.product), body: m.body }));
+const subject = a.h1.replace(/^(The )?Best /, '');
 
-// Comparison columns: keep specs most picks actually have; top up from shared key specs.
+// Spec table columns: keep specs most picks actually have; top up from shared key specs.
 const coverage = (k: string) => pickProducts.filter((p) => p.specs[k]).length / Math.max(1, pickProducts.length);
 const columns = (a.comparisonSpecs ?? []).filter((k) => coverage(k) >= 0.5);
 for (const k of [...new Set(pickProducts.flatMap((p) => p.keySpecs ?? []))].sort((x, y) => coverage(y) - coverage(x))) {
@@ -41,167 +55,236 @@ for (const k of [...new Set(pickProducts.flatMap((p) => p.keySpecs ?? []))].sort
   if (!columns.includes(k) && coverage(k) >= 0.6) columns.push(k);
 }
 
-// Evaluation method ("How We Chose/Ranked…") moves ahead of the picks, like RTINGS' "How We Test" box.
-const method: Section | undefined = picks.length && a.kind !== 'guide' ? a.sections.find((s) => /^How We /i.test(s.heading)) : undefined;
-const rest = a.sections.filter((s) => s !== method);
-// Roundups put the answer first: buying-guide sections follow the picks. Reviews and guides keep their intro sections up top.
-const lead = isRoundup ? [] : rest.filter((s) => s.position === 'before');
-const guidance = isRoundup ? rest : rest.filter((s) => s.position !== 'before');
+// Short Answer: the article's quick answer, else the first paragraph of the bottom line.
+const shortAnswer = a.quickAnswer ?? a.bottomLine.split(/\n\n/)[0];
+const tracked = isReview && a.brand ? productsByBrand(a.brand) : cat && !isGuide ? productsByCategory(cat) : [];
+const pickSlugs = new Set(picks.map((p) => p.product));
+const headToHead = compares.filter(([x, y]) => pickSlugs.has(x) && pickSlugs.has(y) && productMap.has(x) && productMap.has(y));
 
-// Primary category: the one most picks belong to (for the method footnote and the "all models" table).
-const catCounts = new Map<string, number>();
-pickProducts.forEach((p) => catCounts.set(p.category, (catCounts.get(p.category) ?? 0) + 1));
-const primaryCat = [...catCounts.entries()].sort((x, y) => y[1] - x[1] || (x[0] === a.hub ? -1 : 1))[0]?.[0];
-const catLabel = primaryCat ? CATEGORY_LABELS[primaryCat] ?? primaryCat : '';
-const catProducts = primaryCat ? productsByCategory(primaryCat) : [];
-const mentions = (isRoundup ? a.mentions ?? [] : []).filter((m) => !picks.some((pk) => pk.product === m.product));
-
-// Numbered H2 outline.
-type H2 = { id: string; label: string };
-const outline: H2[] = [];
-let n = 0;
-const num = (label: string, id?: string) => { n += 1; const h = { id: id ?? slugify(label), label: `${n}. ${label}` }; outline.push(h); return h; };
-// Order follows thehonestreviewers.com, our best performer on Bing: picks first, then the buying guide,
-// Before You Buy, FAQ and mistakes; "Everything Else", related guides and the bottom line close the page.
-const leadH = lead.map((s) => num(s.heading));
-const picksH = picks.length ? num(a.listName ? `The ${picks.length} Best ${a.listName}, Compared & Ranked` : (a.picksHeading ?? `The Best ${short}`), 'the-picks') : null;
-const specsH = picks.length > 1 && columns.length ? num('Spec Sheets Side by Side', 'side-by-side') : null;
-const methodH = method ? num(method.heading) : null;
-const mentionsH = mentions.length ? num('Notable Mentions', 'mentions') : null;
-const guidanceH = guidance.map((s) => num(s.heading));
-const faqH = num('Frequently Asked Questions', 'faq');
-const mistakesH = a.mistakes?.length ? num('Common Mistakes to Avoid', 'mistakes') : null;
-const sourcesH = num('Sources and Recent Updates', 'sources');
-const allH = isRoundup && catProducts.length > picks.length ? num(`All ${catLabel} We Track`, 'all-models') : null;
+// Numbered H2 outline: Short Answer first (the Bing rule), then the enthusiastreview.com order.
+const H = {
+  short: `${a.h1.includes(':') ? a.h1.split(':')[0].trim() : a.h1}: The Short Answer`,
+  how: method?.heading ?? (isReview && a.brand ? `How We Ranked the ${a.brand} Lineup` : `How We Ranked These ${catLabel}`),
+  picks: a.picksHeading ?? (isReview && a.brand ? `The ${a.brand} Lineup, Ranked` : `${a.h1}: Our ${picks.length} Picks`),
+  specs: 'Spec Sheets Side by Side',
+  mentions: 'Notable Mentions',
+  mistakes: 'Common Mistakes to Avoid',
+  bottom: 'The Bottom Line',
+  faq: 'Frequently Asked Questions',
+  sources: 'Sources and Recent Updates',
+  tracked: isReview && a.brand ? `Every ${a.brand} Product We Track` : `All ${catLabel} We Track`,
+};
+const hasPicks = picks.length > 0;
+const outline: [string, string][] = [
+  ['short-answer', H.short],
+  ...(hasPicks && !isGuide ? [['how-we-ranked', H.how] as [string, string]] : []),
+  ...before.map((s) => [slugify(s.heading), s.heading] as [string, string]),
+  ...(hasPicks ? [['picks', H.picks] as [string, string]] : []),
+  ...(picks.length > 1 ? [['specs', H.specs] as [string, string]] : []),
+  ...(mentions.length ? [['mentions', H.mentions] as [string, string]] : []),
+  ...after.map((s) => [slugify(s.heading), s.heading] as [string, string]),
+  ...(a.mistakes?.length ? [['mistakes', H.mistakes] as [string, string]] : []),
+  ['bottom-line', H.bottom],
+  ['faq', H.faq],
+  ['sources', H.sources],
+  ...(tracked.length ? [['tracked', H.tracked] as [string, string]] : []),
+];
+const num = (id: string) => `${outline.findIndex(([x]) => x === id) + 1}. `;
+const toc = outline.map(([id, label]) => ({ id, label }));
 
 const related = a.related.map((s) => articleMap.get(s)).filter(Boolean) as Article[];
-const sameHub = articles.filter((x) => x.hub === a.hub && x.slug !== a.slug && !a.related.includes(x.slug)).slice(0, 6);
+const sameHub = articles.filter((x) => x.hub === a.hub && x.slug !== a.slug && !related.includes(x));
+const shownRelated = [...related, ...sameHub].slice(0, 6);
+const moreInHub = sameHub.filter((x) => !shownRelated.includes(x));
 const crumbs = [
   { name: 'Home', url: '/' },
-  { name: a.kind === 'review' ? 'Brand Reviews' : a.kind === 'guide' ? 'Guides' : 'Best Lists', url: a.kind === 'review' ? '/reviews/' : a.kind === 'guide' ? '/guides/' : '/best-of/' },
+  isReview ? { name: 'Brand Reviews', url: '/reviews/' } : isGuide ? { name: 'Guides', url: '/guides/' } : { name: 'Best Lists', url: '/best-of/' },
   { name: a.h1, url },
 ];
+const kicker = isReview && a.brand ? `${a.brand} · Brand Review` : isGuide ? 'Guide' : catLabel;
+const firstImg = top ? amazonImage(top, 500) ?? undefined : undefined;
 const schema = graph(
+  articleSchema(a, url, firstImg),
   breadcrumbs(crumbs),
+  ...(hasPicks ? [itemList(pickProducts.map((p) => ({ name: p.name, url: productUrl(p), product: p })), a.h1)] : []),
   faqPage(a.faqs),
-  articleSchema(a, url),
-  ...(picks.length ? [itemList(pickProducts.map((p) => ({ name: p.name, url: `/gear/${p.slug}/`, product: p })), a.h1)] : []),
 );
-const firstImg = pickProducts[0] ? amazonImage(pickProducts[0], 160) ?? undefined : undefined;
-const brandProducts = a.brand ? productsByBrand(a.brand) : [];
-const barItems = picks.map((pk, i) => { const p = pickProducts[i]; return { slug: p.slug, name: p.name, label: `#${i + 1} · ${pk.award}`, url: amazonUrl(p), image: amazonImage(p, 160), target: `pick-${i + 1}` }; });
-const testedPicks = pickProducts.filter((p) => p.tested);
-const inCat = pickProducts.filter((p) => p.category === primaryCat).length;
-const specLinks = pickProducts.map((p) => `[${p.name}](${productUrl(p)})`).join(', ');
+const sources = [
+  ...pickProducts.map((p) => `${p.brand} spec sheet and product listing for the [${p.name}](${productUrl(p)})`),
+  'Published independent measurements and owner reports, cross-checked against the manufacturer figures',
+  `Our [${SITE.score} method](/how-we-test/) and room maths ([throw](/tools/projector-throw-calculator/) and [viewing distance](/tools/viewing-distance-calculator/) calculators)`,
+];
 ---
-{a.kind === 'guide' && !a.draft ? <GuidePage article={a} /> : (
-<Base title={a.title} description={a.metaDescription} type="article" schema={schema} published={a.published} updated={a.updated} section={hubLabel(a.hub)} tags={a.keywords.slice(0, 5)} mdAlternate={`/${a.slug}.md`} preloadImage={firstImg}>
-  <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 pt-6">
-    <Breadcrumbs items={crumbs} />
-    <div class="lg:grid lg:grid-cols-[minmax(0,1fr)_240px] lg:gap-12 mt-4">
-      <article class="max-w-[760px] min-w-0">
-        <p class="text-xs font-bold uppercase tracking-wider text-brand-600">{hubLabel(a.hub)}</p>
-        <h1 class="mt-2 text-[2.125rem] lg:text-5xl font-extrabold tracking-tight text-ink leading-[1.12]">{a.displayH1 ?? a.h1}</h1>
-        <Byline updated={a.updated} published={a.published} minutes={readMinutes(a)} />
-        <div class="prose mt-6" set:html={md(a.intro)} />
-        {picks.length > 0 && <QuickPicks picks={picks} />}
-        {a.quickAnswer && (
-          <div class="not-prose my-6 rounded-xl bg-brand-50 border border-brand-100 p-4 sm:p-5">
-            <p class="text-xs font-bold uppercase tracking-wider text-brand-700">Quick answer</p>
-            <div class="prose mt-1 !text-[1.0625rem]" set:html={md(a.quickAnswer)} />
-          </div>
-        )}
-        <TOC items={outline} variant="guide" />
-        {lead.length > 0 && <div class="prose">{lead.map((s, i) => (<><h2 id={leadH[i].id}>{leadH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}</div>}
+{a.kind === 'guide' ? <GuidePage article={a} /> : (
+<Base title={a.title} description={a.metaDescription} type="article" schema={schema} published={a.published} updated={a.updated} section={catLabel} tags={a.keywords.slice(0, 5)} mdAlternate={`/${a.slug}.md`} preloadImage={top ? amazonImage(top, 160) ?? undefined : undefined} ogImage={firstImg}>
+  <article class="article">
+    <header class="a-head col">
+      <Breadcrumbs items={crumbs} />
+      <div class="kicker">{kicker}</div>
+      <h1 class="a-title">{a.h1}</h1>
+      <p class="dek">{a.metaDescription}</p>
+      <Byline updated={a.updated} published={a.published} minutes={readMinutes(a)} disclosure={hasPicks} />
+    </header>
 
-        <div class="prose">
-          {picksH && <h2 id={picksH.id}>{picksH.label}</h2>}
-        </div>
-        {picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}
+    <div class="col body lede" set:html={md(a.intro)} />
 
-        {specsH && (
-          <div class="prose"><h2 id={specsH.id}>{specsH.label}</h2></div>
-          <ComparisonTable products={pickProducts} specs={columns} awards={picks.map((p) => p.award)} />
-        )}
-
-        {methodH && method && (
-          <section class="method-box not-prose mt-12 border-t-4 border-gold pt-1" aria-labelledby={methodH.id}>
-            <div class="prose">
-              <h2 id={methodH.id} class="!mt-4">{methodH.label}</h2>
-              <Fragment set:html={md(method.body)} />
-              {primaryCat && <p class="text-[0.95rem] text-slate-600">We track <strong>{catProducts.length} models</strong> in our {catLabel} database; {inCat} of them made this list. {testedPicks.length ? <>{testedPicks.length} of the picks have been through our lab in {LAB.location} and carry a <strong>Lab tested</strong> badge.</> : null} <a href="/how-we-test/">How the BHTR Score works</a>.</p>}
-            </div>
-          </section>
-        )}
-
-        {mentionsH && (
-          <div class="prose"><h2 id={mentionsH.id}>{mentionsH.label}</h2>
-            <p>Good models that just missed the list, and the situations where one of them is the better buy.</p>
-          </div>
-          <NotableMentions items={mentions} />
-        )}
-
-        <div class="prose">
-          {guidance.map((s, i) => (<><h2 id={guidanceH[i].id}>{guidanceH[i].label}</h2><Fragment set:html={md(s.body)} /></>))}
-        </div>
-        <BeforeYouBuy slug={a.slug} />
-        <div class="prose">
-          <h2 id={faqH.id}>{faqH.label}</h2>
-        </div>
-        <FAQ faqs={a.faqs} />
-        {mistakesH && (
-          <div class="prose">
-            <h2 id={mistakesH.id}>{mistakesH.label}</h2>
-            {a.mistakes!.map((m) => (<><h3>{m.title}</h3><Fragment set:html={md(m.body)} /></>))}
-          </div>
-        )}
-
-        <div class="prose">
-          <h2 id={sourcesH.id}>{sourcesH.label}</h2>
-          {a.updates?.length ? (
-            <>
-              <h3>Recent updates</h3>
-              <ul>{a.updates.map((u) => <li><strong><time datetime={u.date}>{formatDate(u.date)}</time>:</strong> {u.note}</li>)}</ul>
-            </>
-          ) : (
-            <p>First published <time datetime={a.published}>{formatDate(a.published)}</time>; last reviewed <time datetime={a.updated}>{formatDate(a.updated)}</time>.</p>
-          )}
-          <h3>What this page is based on</h3>
-          <ul>
-            {picks.length > 0 && <li set:html={md(`**Spec sheets.** Every figure comes from the manufacturer's published specifications, kept in one record per model: ${specLinks}.`).replace(/^<p>|<\/p>\s*$/g, '')} />}
-            {testedPicks.length > 0 ? (
-              <li><strong>Our lab.</strong> {testedPicks.map((p, i) => <>{i > 0 && ', '}<a href={`${productUrl(p)}#lab-results`}>{p.name}</a></>)} {testedPicks.length === 1 ? 'was' : 'were'} measured in our lab in {LAB.location}; the date, method and results are on {testedPicks.length === 1 ? 'its' : 'each'} gear page.</li>
-            ) : null}
-            <li><strong>Independent measurements.</strong> Where we quote a measured result, it is one that is widely published by independent reviewers.</li>
-            <li><strong>Room maths.</strong> Screen size, throw distance, channel counts and power needs are worked out from the specs and stated room sizes, with the calculation shown in the text.</li>
-            <li><strong>Owner reports.</strong> Reliability and long-term notes summarize recurring patterns in owner reviews, not single anecdotes.</li>
-            <li><a href="/how-we-test/">How we score</a> and our <a href="/editorial-policy/">editorial policy</a> explain how picks are chosen and when a page is revised.</li>
-          </ul>
-        </div>
-
-        {allH && (
-          <div class="prose"><h2 id={allH.id}>{allH.label}</h2>
-            <p>Our picks above are what we would buy for most people. If you'd rather choose yourself, here is every model in our {catLabel} database, ranked by BHTR Score.</p>
-          </div>
-          <AllProductsTable products={catProducts} picked={pickProducts.map((p) => p.slug)} label={`All ${catLabel} ranked by score`} />
-        )}
-
-        {brandProducts.length > 0 && (
-          <div class="prose"><h2 id="every-product">Every {a.brand} Product We Track</h2>
-            <p>See the full <a href={brandUrl(a.brand!)}>{a.brand} brand page</a> for spec sheets and scores on all {brandProducts.length} models.</p>
-          </div>
-        )}
-        {sameHub.length > 0 && (<div class="prose"><h2 id="everything-else">Everything Else About {a.hub === 'guides' || a.hub === 'brands' ? FORMAT.topic : hubLabel(a.hub)}</h2></div><RelatedCards articles={sameHub} />)}
-        {related.length > 0 && (<div class="prose"><h2 id="related">Related {a.hub === 'guides' || a.hub === 'brands' ? '' : hubLabel(a.hub).replace(/s$/, '') + ' '}Guides</h2></div><RelatedCards articles={related} />)}
-        <div class="prose">
-          <h2 id="bottom-line">The Bottom Line</h2>
-          <Fragment set:html={md(a.bottomLine)} />
-        </div>
-        <AffiliateNote />
-      </article>
-      <aside class="hidden lg:block"><TOC items={outline} variant="desktop" /></aside>
+    <div class="col">
+      {hasPicks && <QuickPicks picks={picks} />}
+      <TOC items={toc} />
     </div>
-  </div>
-  {barItems.length > 0 && <StickyBuyBar items={barItems} trigger="#quick-picks" mode="track" />}
+
+    <div class="col body">
+      <h2 id="short-answer">{num('short-answer')}{H.short}</h2>
+      <div class="answer-box" set:html={md(shortAnswer)} />
+      {hasPicks && (
+        <div class="table-wrap">
+          <table class="picks-table">
+            <caption>{a.h1}: picks compared</caption>
+            <thead><tr><th>Pick</th><th>Best for</th><th>Skip it if</th><th>Score</th><th>Price</th></tr></thead>
+            <tbody>
+              {picks.map((pk, i) => {
+                const p = pickProducts[i];
+                return (
+                  <tr>
+                    <td><span class="tag">{pk.award}</span><a href={`#pick-${i + 1}`}>{p.name}</a></td>
+                    <td>{p.bestFor}</td>
+                    <td>{p.skipIf}</td>
+                    <td><Score score={p.score} /></td>
+                    <td class="nowrap">{p.priceBand}<br /><a class="cell-link" href={productUrl(p)}>Specs</a></td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {hasPicks && !isGuide && (
+        <>
+          <h2 id="how-we-ranked">{num('how-we-ranked')}{H.how}</h2>
+          {method ? <Fragment set:html={md(method.body)} /> : (
+            <>
+          <p>Every product on this page has a full spec sheet and a {SITE.score} out of 100. We ranked {isReview && a.brand ? `${a.brand}'s lineup` : `these ${catLabel.toLowerCase()}`} on four things, weighted by what changes the result in a real room:</p>
+          <ul class="criteria">
+            <li><strong>The spec sheet, read properly.</strong> Power at all channels driven, ISO lumens, response at ±3 dB: the conditions behind the headline number.</li>
+            <li><strong>Room fit.</strong> Room size, seating distance, ambient light and placement, converted into throw distance, headroom and bass output.</li>
+            <li><strong>Value for the price band.</strong> A great budget model can outrank an expensive mediocre one.</li>
+            <li><strong>Owner-reported reliability.</strong> Recurring failures, firmware problems and support issues over months of use.</li>
+          </ul>
+            </>
+          )}
+          {tracked.length > 0 && <p class="fine">We track {tracked.length} {isReview && a.brand ? `${a.brand} products` : catLabel.toLowerCase()}; {picks.length} made this list.{testedPicks.length > 0 && <> {testedPicks.length} of the picks have been through our lab in {LAB.location} and carry a <strong>Lab tested</strong> badge.</>} <a href="/how-we-test/">How the {SITE.score} works</a>.</p>}
+        </>
+      )}
+
+      {before.map((s) => (<><h2 id={slugify(s.heading)}>{num(slugify(s.heading))}{s.heading}</h2><Fragment set:html={md(s.body)} /></>))}
+      {hasPicks && <h2 id="picks">{num('picks')}{H.picks}</h2>}
+    </div>
+
+    {hasPicks && <div class="col">{picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}</div>}
+
+    <div class="col body">
+      {picks.length > 1 && (
+        <>
+          <h2 id="specs">{num('specs')}{H.specs}</h2>
+          <ComparisonTable products={pickProducts} specs={columns} />
+        </>
+      )}
+
+      {mentions.length > 0 && (
+        <>
+          <h2 id="mentions">{num('mentions')}{H.mentions}</h2>
+          {mentions.map(({ p, body }) => (
+            <div class="mention has-thumb">
+              <ProductImage product={p} size={72} />
+              <div class="mention-main">
+                <h3><a href={productUrl(p)}>{p.name}</a></h3>
+                <p class="mention-meta"><Score score={p.score} /> · {p.priceBand}</p>
+                <Fragment set:html={md(body)} />
+              </div>
+            </div>
+          ))}
+        </>
+      )}
+
+      {after.map((s) => (<><h2 id={slugify(s.heading)}>{num(slugify(s.heading))}{s.heading}</h2><Fragment set:html={md(s.body)} /></>))}
+
+      {a.mistakes?.length && (
+        <>
+          <h2 id="mistakes">{num('mistakes')}{H.mistakes}</h2>
+          {a.mistakes.map((m) => (<><h3>{m.title}</h3><Fragment set:html={md(m.body)} /></>))}
+        </>
+      )}
+
+      <h2 id="bottom-line">{num('bottom-line')}{H.bottom}</h2>
+      <Fragment set:html={md(a.bottomLine)} />
+      {top && <p><AmazonButton product={top} label={`Check the ${shortName(top.name)} on Amazon`} /></p>}
+
+      <h2 id="faq">{num('faq')}{H.faq}</h2>
+      <FAQ faqs={a.faqs} />
+
+      <h2 id="sources">{num('sources')}{H.sources}</h2>
+      <h3>Recent updates</h3>
+      {a.updates?.length ? (
+        <ul>{a.updates.map((u) => <li><time datetime={u.date}>{formatDate(u.date)}</time>: {u.note}</li>)}</ul>
+      ) : (
+        <ul><li><time datetime={a.updated}>{formatDate(a.updated)}</time>: {hasPicks ? 'picks, prices and specs rechecked.' : 'advice and links rechecked.'}</li></ul>
+      )}
+      <h3>What this page is based on</h3>
+      <ul>
+        {testedPicks.length > 0 && <li><strong>Our lab.</strong> {testedPicks.map((p, i) => <>{i > 0 && ', '}<a href={`${productUrl(p)}#lab-results`}>{p.name}</a></>)} {testedPicks.length === 1 ? 'was' : 'were'} measured in our lab in {LAB.location}; the date, method and results are on {testedPicks.length === 1 ? 'its' : 'each'} gear page.</li>}
+        {(hasPicks ? sources : sources.slice(-2)).map((s) => <li set:html={mdInline(s)} />)}
+      </ul>
+      <p class="fine">Spotted a spec that changed or a product that went out of stock? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+
+      {tracked.length > 0 && (
+        <>
+          <h2 id="tracked">{num('tracked')}{H.tracked}</h2>
+          <div class="table-wrap">
+            <table class="tracked">
+              <thead><tr><th>Product</th><th>{isReview ? 'Category' : 'Brand'}</th><th>Score</th><th>Price</th><th></th></tr></thead>
+              <tbody>
+                {tracked.map((p) => (
+                  <tr class={pickSlugs.has(p.slug) ? 'is-pick' : undefined}>
+                    <td><a href={productUrl(p)}>{p.name}</a>{pickSlugs.has(p.slug) && <span class="tag">On this list</span>}</td>
+                    <td>{isReview ? CATEGORY_LABELS[p.category] : <a href={brandUrl(p.brand)}>{p.brand}</a>}</td>
+                    <td>{p.score}</td>
+                    <td class="nowrap">{p.priceBand}</td>
+                    <td><a href={amazonUrl(p)} rel={AFFILIATE_REL} target="_blank">Price</a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {isReview && a.brand && <p class="fine">Spec sheets and scores for every model: <a href={brandUrl(a.brand)}>{a.brand} brand page</a>.</p>}
+        </>
+      )}
+
+      {headToHead.length > 0 && (
+        <>
+          <h2 class="plain" id="head-to-head">Head-to-Head Comparisons</h2>
+          <ul class="link-list">{headToHead.map(([x, y]) => <li><a href={`/compare/${compareSlug(x, y)}/`}>{shortName(productMap.get(x)!.name)} vs {shortName(productMap.get(y)!.name)}</a></li>)}</ul>
+        </>
+      )}
+    </div>
+
+    {shownRelated.length > 0 && (
+      <aside class="wrap related">
+        <h2 class="section-title">Related Guides</h2>
+        <RelatedCards articles={shownRelated} />
+        {moreInHub.length > 0 && (
+          <div class="more-in">
+            <p class="mini">More in {hubLabel(a.hub)}</p>
+            <div class="chips">
+              {moreInHub.map((r) => <a href={articleUrl(r)}>{r.h1}</a>)}
+              {cat && !isGuide && <a href={`/gear/#${cat}`}>All {catLabel.toLowerCase()} we track</a>}
+            </div>
+          </div>
+        )}
+      </aside>
+    )}
+
+    {top && <StickyBuyBar items={[{ slug: top.slug, name: top.name, label: `${picks[0].award} · ${SITE.score} ${top.score}/100 · ${top.priceBand}`, url: amazonUrl(top), image: amazonImage(top, 160) }]} />}
+  </article>
 </Base>
 )}

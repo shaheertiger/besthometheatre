@@ -2,7 +2,8 @@ import type { Article, Product } from './types';
 import overrides from '../data/amazon-links.json';
 import fetchedImages from '../data/product-images.json';
 import fetchedAsins from '../data/product-asins.json';
-import { CATEGORY_LABELS, FORMAT } from '../data/site';
+import gitDates from '../data/git-dates.json';
+import { CATEGORY_LABELS } from '../data/site';
 import { slugify } from './md';
 
 type Override = string | { asin?: string; imageId?: string; url?: string; image?: string };
@@ -38,45 +39,25 @@ function applyOverride(base: Product): Product {
 const productFiles = import.meta.glob<{ default: Product[] }>('../content/products/*.json', { eager: true });
 const articleFiles = import.meta.glob<{ default: Article }>('../content/articles/*.json', { eager: true });
 
-export const products: Product[] = Object.values(productFiles)
-  .flatMap((m) => m.default)
+/** Launch date: the fallback when git has no date for a file (scripts/page-dates.mjs). */
+export const LAUNCH = '2026-11-17';
+const git = (key: string) => (gitDates as Record<string, string>)[key];
+const productFile = new Map<string, string>();
+export const products: Product[] = Object.entries(productFiles)
+  .flatMap(([path, m]) => m.default.map((p) => (productFile.set(p.slug, path.replace(/^.*\/|\.json$/g, '')), p)))
   .map(applyOverride)
   .sort((a, b) => b.score - a.score);
 
 export const productMap = new Map(products.map((p) => [p.slug, p]));
 
-/** "Home Theater Receivers" → "home theater receivers", keeping brand words and acronyms ("Dolby Atmos", "4K", "TVs"). */
-const KEEP = new Set(['Dolby', 'Atmos', 'Soothie']);
-const lowerList = (s: string) => s.split(' ').map((w) => (KEEP.has(w) || !/^[A-Z][a-z–-]*(?:-[A-Z]?[a-z–-]+)*$/.test(w) ? w : w.toLowerCase())).join(' ');
-
-/**
- * Roundup headline format from our best-performing Bing pages:
- * title "8 Best Pacifiers in 2026: Compared & Ranked", H1 "The 8 Best Pacifiers in 2026",
- * description "We compared 40 pacifiers on …. Only 8 made the cut, and …".
- */
-function listFormat(a: Article): Article {
-  if (a.kind !== 'roundup' || !a.listName || !a.picks?.length) return a;
-  const n = a.picks.length;
-  const year = a.updated.slice(0, 4);
-  const list = a.listName;
-  const titles = [`${n} Best ${list} in ${year}: Compared & Ranked`, `${n} Best ${list} (${year}): Ranked`, `${n} Best ${list} in ${year}`];
-  const title = titles.find((t) => t.length <= 65) ?? titles[2];
-  const picks = a.picks.map((pk) => productMap.get(pk.product)).filter(Boolean) as Product[];
-  const cats = [...new Set(picks.map((p) => p.category))];
-  const pool = products.filter((p) => cats.includes(p.category)).length;
-  // Name the real pool: one category → its label ("52 pacifiers"), several → "products".
-  const noun = cats.length === 1 ? lowerList(CATEGORY_LABELS[cats[0]] ?? list) : 'products';
-  const goal = noun === lowerList(list) ? '' : ` to find the best ${lowerList(list)}`;
-  const lead = pool > n
-    ? `We compared ${pool} ${noun} on ${FORMAT.criteria}${goal}. Only ${n} made the cut`
-    : `We ranked the ${n} ${lowerList(list)} we track on ${FORMAT.criteria}`;
-  const top = picks[0] ? `${pool > n ? ', and' : '. The'} ${picks[0].name} is our top pick.` : '.';
-  const metaDescription = (lead + top).length <= 165 ? lead + top : `${lead}.`;
-  return { ...a, title, metaDescription, displayH1: `The ${n} Best ${list} in ${year}` };
-}
-
+// `updated` is the date of the last commit that changed the article's JSON (scripts/page-dates.mjs), so the
+// byline, the Article dateModified and the sitemap lastmod move only when the content really changes.
+const gitDate = (slug: string, fallback: string) => {
+  const d = git(`articles/${slug}`);
+  return d && d > fallback ? d : fallback;
+};
 export const articles: Article[] = Object.values(articleFiles)
-  .map((m) => listFormat(m.default))
+  .map((m) => ({ ...m.default, updated: gitDate(m.default.slug, m.default.updated) }))
   .sort((a, b) => a.slug.localeCompare(b.slug));
 
 export const articleMap = new Map(articles.map((a) => [a.slug, a]));
@@ -145,3 +126,9 @@ export function shortName(name: string) {
   for (const s of SUFFIXES) if (name.endsWith(s) && name.length - s.length > 8) return name.slice(0, -s.length);
   return name;
 }
+
+/* Real last-modified dates (scripts/page-dates.mjs): the date shown on the page, in dateModified and in <lastmod>. */
+export const productUpdated = (p: Pick<Product, 'slug'>) => git(`products/${productFile.get(p.slug)}`) ?? LAUNCH;
+export const compareUpdated = () => git('compares') ?? LAUNCH;
+export const glossaryUpdated = () => git('glossary') ?? LAUNCH;
+export const latestDate = () => [LAUNCH, ...articles.map((a) => a.updated), ...products.map(productUpdated), compareUpdated(), glossaryUpdated()].reduce((m, d) => (d > m ? d : m), '');
