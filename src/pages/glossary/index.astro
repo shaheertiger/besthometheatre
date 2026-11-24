@@ -2,16 +2,21 @@
 import Base from '../../layouts/Base.astro';
 import PageHeader from '../../components/PageHeader.astro';
 import { glossary } from '../../data/glossary';
+import { SITE } from '../../data/site';
 import { breadcrumbs, graph } from '../../lib/schema';
 const crumbs = [{ name: 'Home', url: '/' }, { name: 'Glossary', url: '/glossary/' }];
 const terms = [...glossary].sort((a, b) => a.term.localeCompare(b.term));
-const schema = graph(breadcrumbs(crumbs), { '@type': 'DefinedTermSet', name: 'Home Theater Glossary', hasDefinedTerm: terms.map((t) => ({ '@type': 'DefinedTerm', name: t.term, description: t.short, url: `https://www.besthometheaterreview.com/glossary/${t.slug}/` })) });
+const letters = [...new Set(terms.map((t) => t.term[0].toUpperCase()))];
+const schema = graph(breadcrumbs(crumbs), { '@type': 'DefinedTermSet', name: 'Home Theater Glossary', hasDefinedTerm: terms.map((t) => ({ '@type': 'DefinedTerm', name: t.term, description: t.short, url: `${SITE.url}/glossary/${t.slug}/` })) });
 ---
-<Base title="Home Theater Glossary: Atmos, eARC, Throw Ratio & More Explained" description="Home theater terms in plain English: Dolby Atmos, DTS:X, eARC, HDMI 2.1, throw ratio, ANSI lumens, ALR screens, room correction, crossover, sensitivity and more." schema={schema}>
-  <PageHeader h1="Home Theater Glossary" crumbs={crumbs} eyebrow="Database" intro="The spec-sheet terms that actually change what you should buy, explained with worked examples." />
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
-    <dl class="divide-y divide-slate-200 border-y border-slate-200">
-      {terms.map((t) => (<div class="py-4"><dt><a href={`/glossary/${t.slug}/`} class="font-bold text-ink hover:text-brand-600 text-lg no-underline">{t.term}</a></dt><dd class="mt-1 text-slate-600">{t.short}</dd></div>))}
-    </dl>
+<Base title="Home Theater Glossary: Atmos, eARC and Throw Ratio Explained" description={`${terms.length} home theater terms in plain English: Dolby Atmos, DTS:X, eARC, HDMI 2.1, throw ratio, ANSI lumens, ALR screens, room correction, crossover and more.`} schema={schema} mdAlternate="/glossary.md">
+  <div class="col hub az">
+    <PageHeader h1="Glossary" crumbs={crumbs} intro="The spec-sheet terms that actually change what you should buy, explained with worked examples." />
+    {letters.map((l) => (
+      <section>
+        <h2>{l}</h2>
+        <ul class="term-list">{terms.filter((t) => t.term[0].toUpperCase() === l).map((t) => <li><a href={`/glossary/${t.slug}/`}>{t.term}</a><span>{t.short}</span></li>)}</ul>
+      </section>
+    ))}
   </div>
 </Base>

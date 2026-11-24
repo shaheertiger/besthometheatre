@@ -1,7 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
-import tailwindcss from '@tailwindcss/vite';
 import { readFileSync, readdirSync } from 'node:fs';
 
 const SITE = 'https://www.besthometheaterreview.com';
@@ -11,7 +10,10 @@ const CONTENT_UPDATED = '2026-11-17';
 // ---- Content read at build time, for sitemap dates, priorities and image entries ----
 const readJson = (p) => JSON.parse(readFileSync(new URL(p, import.meta.url), 'utf8'));
 const products = readdirSync(new URL('./src/content/products/', import.meta.url)).flatMap((f) => readJson(`./src/content/products/${f}`));
-const articles = readdirSync(new URL('./src/content/articles/', import.meta.url)).map((f) => readJson(`./src/content/articles/${f}`));
+// Real last-commit dates from scripts/page-dates.mjs (the first build step), as on enthusiastreview.com.
+let gitDates = {};
+try { gitDates = readJson('./src/data/git-dates.json'); } catch {}
+const articles = readdirSync(new URL('./src/content/articles/', import.meta.url)).map((f) => readJson(`./src/content/articles/${f}`)).map((a) => { const d = gitDates[`articles/${a.slug}`]; return d && d > a.updated ? { ...a, updated: d } : a; });
 const images = readJson('./src/data/product-images.json');
 const imageId = (url) => url?.match(/\/images\/I\/([^._/]+)\./)?.[1];
 const productImage = (slug) => (imageId(images[slug]) ? { url: `https://m.media-amazon.com/images/I/${imageId(images[slug])}._SL500_.jpg` } : null);
@@ -82,5 +84,4 @@ export default defineConfig({
       },
     }),
   ],
-  vite: { plugins: [tailwindcss()] },
 });

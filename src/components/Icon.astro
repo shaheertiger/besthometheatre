@@ -1,0 +1,10 @@
+---
+// Line icon in a square tile (categories, menu entries, image fallbacks).
+import { ICONS } from '../data/icons';
+interface Props { icon: string; size?: number; label?: string }
+const { icon, size = 34, label } = Astro.props;
+const d = ICONS[icon] ?? ICONS.gear;
+---
+<span class="cat-icon" style={`width:${size}px;height:${size}px`} role={label ? 'img' : undefined} aria-label={label} aria-hidden={label ? undefined : 'true'}>
+  <svg viewBox="0 0 24 24" width={Math.round(size * 0.6)} height={Math.round(size * 0.6)}><path d={d} fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" /></svg>
+</span>

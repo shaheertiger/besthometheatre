@@ -3,6 +3,7 @@ import type { Article, FAQ, Product } from './types';
 import { amazonImage } from './amazon';
 import { plain } from './md';
 import { productUrl } from './data';
+import { authorSchema } from '../data/authors';
 
 const abs = (path: string) => new URL(path, SITE.url).toString();
 
@@ -47,9 +48,9 @@ export function faqPage(faqs: FAQ[]) {
   };
 }
 
-const author = () => ({ '@type': 'Organization', name: SITE.author, url: abs('/about/') });
+const author = () => authorSchema();
 
-export function articleSchema(a: Article, url: string) {
+export function articleSchema(a: Article, url: string, image?: string) {
   return {
     '@type': 'Article',
     headline: a.title.slice(0, 110),
@@ -57,9 +58,9 @@ export function articleSchema(a: Article, url: string) {
     datePublished: a.published,
     dateModified: a.updated,
     author: author(),
-    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url + '/', logo: { '@type': 'ImageObject', url: abs('/logo.png') } },
+    publisher: orgRef,
     mainEntityOfPage: { '@type': 'WebPage', '@id': abs(url) },
-    image: abs(SITE.ogImage),
+    image: image ?? abs(SITE.ogImage),
     articleSection: a.hub,
     keywords: a.keywords.join(', '),
     inLanguage: 'en-US',
@@ -81,11 +82,12 @@ export function productSchema(p: Product, withReview = true) {
   if (withReview) {
     o.review = {
       '@type': 'Review',
+      name: `${p.name} review`,
       author: author(),
       publisher: orgRef,
       datePublished: '2026-11-17',
       reviewBody: plain(p.verdict).slice(0, 500),
-      reviewRating: { '@type': 'Rating', ratingValue: (p.score / 10).toFixed(1), bestRating: '10', worstRating: '0' },
+      reviewRating: { '@type': 'Rating', ratingValue: p.score, bestRating: 100, worstRating: 0 },
       positiveNotes: { '@type': 'ItemList', itemListElement: p.pros.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x })) },
       negativeNotes: { '@type': 'ItemList', itemListElement: p.cons.map((x, i) => ({ '@type': 'ListItem', position: i + 1, name: x })) },
     };

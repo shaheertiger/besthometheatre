@@ -18,31 +18,31 @@ const faqs = [
   { q: 'Is throw distance measured from the lens or the back of the projector?', a: 'Manufacturers measure from the front of the lens to the screen. Add the projector body depth, plus about 4–6 inches for cables, to find how far from the back wall it can actually sit.' },
   { q: 'Does lens shift change throw distance?', a: 'No. Lens shift moves the image up, down or sideways without changing size or distance, which helps you mount the projector off-center or higher without keystone correction (keystone reduces effective resolution).' },
 ];
-const schema = graph(breadcrumbs(crumbs), { '@type': 'SoftwareApplication', name: 'Projector Throw Distance Calculator', applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }, { '@type': 'HowTo', name: 'How to calculate projector throw distance', step: [{ '@type': 'HowToStep', text: 'Find the image width from the screen diagonal and aspect ratio (16:9 width = diagonal × 0.8716).' }, { '@type': 'HowToStep', text: "Find the projector's throw ratio range on its spec sheet." }, { '@type': 'HowToStep', text: 'Multiply the image width by the minimum and maximum throw ratio to get the mounting range.' }] }, faqPage(faqs));
+const schema = graph(breadcrumbs(crumbs), { '@type': 'WebApplication', name: 'Projector Throw Distance Calculator', applicationCategory: 'UtilitiesApplication', url: `https://www.besthometheaterreview.com${crumbs[crumbs.length - 1].url}`, operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } }, { '@type': 'HowTo', name: 'How to calculate projector throw distance', step: [{ '@type': 'HowToStep', text: 'Find the image width from the screen diagonal and aspect ratio (16:9 width = diagonal × 0.8716).' }, { '@type': 'HowToStep', text: "Find the projector's throw ratio range on its spec sheet." }, { '@type': 'HowToStep', text: 'Multiply the image width by the minimum and maximum throw ratio to get the mounting range.' }] }, faqPage(faqs));
 ---
 <Base title="Projector Throw Distance Calculator: Where to Mount It" description="Work out exactly how far your projector needs to sit from the screen for any screen size and throw ratio, with presets for popular home theater projectors." schema={schema}>
-  <PageHeader h1="Projector Throw Distance Calculator" crumbs={crumbs} eyebrow="Tools" intro="Enter your screen size and the projector's throw ratio to see how far from the screen the lens must sit, or pick a projector from our database." />
-  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
-    <form id="throw" class="grid sm:grid-cols-2 gap-4 rounded-2xl border border-slate-200 p-5 bg-white shadow-sm" onsubmit="return false">
-      <label class="block sm:col-span-2 text-sm font-medium">Projector (optional)
-        <select id="preset" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2">
+  <div class="col hub">
+  <PageHeader h1="Projector Throw Distance Calculator" crumbs={crumbs} intro="Enter your screen size and the projector's throw ratio to see how far from the screen the lens must sit, or pick a projector from our database." />
+    <form id="throw" class="tool" onsubmit="return false">
+      <label>Projector (optional)
+        <select id="preset">
           <option value="">Custom throw ratio</option>
           {presets.map((p) => <option value={`${p!.min}|${p!.max}`}>{p!.name} ({p!.min === p!.max ? p!.min : `${p!.min}–${p!.max}`}:1)</option>)}
         </select>
       </label>
-      <label class="block text-sm font-medium">Screen diagonal (inches)<input id="diag" type="number" min="40" max="300" value="120" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
-      <label class="block text-sm font-medium">Aspect ratio
-        <select id="aspect" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2"><option value="1.7778">16:9 (TV, streaming)</option><option value="2.35">2.35:1 (CinemaScope)</option><option value="1.3333">4:3</option></select>
+      <label>Screen diagonal (inches)<input id="diag" type="number" min="40" max="300" value="120" /></label>
+      <label>Aspect ratio
+        <select id="aspect"><option value="1.7778">16:9 (TV, streaming)</option><option value="2.35">2.35:1 (CinemaScope)</option><option value="1.3333">4:3</option></select>
       </label>
-      <label class="block text-sm font-medium">Throw ratio min<input id="tmin" type="number" step="0.01" min="0.1" max="3" value="1.30" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
-      <label class="block text-sm font-medium">Throw ratio max<input id="tmax" type="number" step="0.01" min="0.1" max="3" value="1.50" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2" /></label>
+      <label>Throw ratio min<input id="tmin" type="number" step="0.01" min="0.1" max="3" value="1.30" /></label>
+      <label>Throw ratio max<input id="tmax" type="number" step="0.01" min="0.1" max="3" value="1.50" /></label>
     </form>
-    <div class="mt-5 grid sm:grid-cols-3 gap-4" aria-live="polite">
-      <div class="rounded-xl bg-ink text-white p-4"><p class="text-xs uppercase tracking-wider text-slate-300">Throw distance</p><p id="outDist" class="mt-1 text-2xl font-extrabold">—</p><p id="outDistM" class="text-sm text-slate-300"></p></div>
-      <div class="rounded-xl border border-slate-200 p-4"><p class="text-xs uppercase tracking-wider text-slate-500">Image width</p><p id="outW" class="mt-1 text-2xl font-extrabold">—</p></div>
-      <div class="rounded-xl border border-slate-200 p-4"><p class="text-xs uppercase tracking-wider text-slate-500">Image height</p><p id="outH" class="mt-1 text-2xl font-extrabold">—</p></div>
+    <div class="tool-stats" aria-live="polite">
+      <div class="tool-stat dark"><p class="mini">Throw distance</p><b id="outDist">—</b><small id="outDistM"></small></div>
+      <div class="tool-stat"><p class="mini">Image width</p><b id="outW">—</b></div>
+      <div class="tool-stat"><p class="mini">Image height</p><b id="outH">—</b></div>
     </div>
-    <div class="prose mt-10">
+    <div class="body">
       <h2>How the Calculation Works</h2>
       <p><strong>Throw distance = image width × throw ratio.</strong> For a 16:9 screen, width = diagonal × 0.8716 and height = diagonal × 0.4903. A zoom lens gives a range: the shortest distance uses the minimum ratio, the longest uses the maximum. See <a href="/glossary/throw-ratio/">throw ratio explained</a>.</p>
       <h2>Next Steps</h2>
@@ -52,8 +52,8 @@ const schema = graph(breadcrumbs(crumbs), { '@type': 'SoftwareApplication', name
         <li>Check the screen size suits your seat with the <a href="/tools/viewing-distance-calculator/">viewing distance calculator</a>.</li>
       </ul>
       <h2>FAQ</h2>
+      <FAQ faqs={faqs} />
     </div>
-    <FAQ faqs={faqs} />
   </div>
   <script is:inline>
     (function () {

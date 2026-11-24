@@ -2,6 +2,7 @@ import type { Article, Product } from './types';
 import overrides from '../data/amazon-links.json';
 import fetchedImages from '../data/product-images.json';
 import fetchedAsins from '../data/product-asins.json';
+import gitDates from '../data/git-dates.json';
 import { CATEGORY_LABELS } from '../data/site';
 import { slugify } from './md';
 
@@ -45,8 +46,14 @@ export const products: Product[] = Object.values(productFiles)
 
 export const productMap = new Map(products.map((p) => [p.slug, p]));
 
+// `updated` is the date of the last commit that changed the article's JSON (scripts/page-dates.mjs), so the
+// byline, the Article dateModified and the sitemap lastmod move only when the content really changes.
+const gitDate = (slug: string, fallback: string) => {
+  const d = (gitDates as Record<string, string>)[`articles/${slug}`];
+  return d && d > fallback ? d : fallback;
+};
 export const articles: Article[] = Object.values(articleFiles)
-  .map((m) => m.default)
+  .map((m) => ({ ...m.default, updated: gitDate(m.default.slug, m.default.updated) }))
   .sort((a, b) => a.slug.localeCompare(b.slug));
 
 export const articleMap = new Map(articles.map((a) => [a.slug, a]));

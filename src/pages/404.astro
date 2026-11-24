@@ -1,16 +1,16 @@
 ---
 import Base from '../layouts/Base.astro';
+import { SITE } from '../data/site';
 ---
-<Base title="Page Not Found | Best Home Theater Review" description="The page you were looking for could not be found." noindex>
-  <div class="max-w-2xl mx-auto px-4 py-24 text-center">
-    <p class="text-6xl" aria-hidden="true">📽️</p>
-    <h1 class="mt-4 text-3xl font-extrabold">Page not found</h1>
-    <p class="mt-3 text-slate-600">That page has moved or never existed. Try one of our most popular guides:</p>
-    <p class="mt-6 flex flex-wrap justify-center gap-3 text-sm">
-      <a href="/best-home-theater-systems/" class="underline text-brand-600">Home theater systems</a>
-      <a href="/best-projector-for-home-theater/" class="underline text-brand-600">Projectors</a>
-      <a href="/best-home-theater-speakers/" class="underline text-brand-600">Speakers</a>
-      <a href="/best-of/" class="underline text-brand-600">All best lists</a>
-    </p>
+<Base title={`Page Not Found | ${SITE.name}`} description="The page you were looking for could not be found." noindex>
+  <div class="col not-found">
+    <h1 class="hub-title">Page Not Found</h1>
+    <p class="hub-dek" style="margin-inline:auto">That page has moved or never existed. Try one of our most popular guides:</p>
+    <div class="chips">
+      <a href="/best-home-theater-systems/">Home Theater Systems</a>
+      <a href="/best-projector-for-home-theater/">Projectors</a>
+      <a href="/best-home-theater-speakers/">Speakers</a>
+      <a href="/best-of/">All Best Lists</a>
+    </div>
   </div>
 </Base>

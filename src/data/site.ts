@@ -20,6 +20,10 @@ export const SITE = {
   adsenseId: '',
   /** Optional: Google Search Console verification token. */
   googleSiteVerification: '',
+  /** Optional: Bing Webmaster Tools verification token (or set PUBLIC_BING_SITE_VERIFICATION). */
+  bingSiteVerification: '',
+  /** Name of the research score shown on every product. */
+  score: 'BHTR Score',
 } as const;
 
 export const CATEGORY_LABELS: Record<string, string> = {

@@ -1,29 +1,30 @@
 ---
+// The shortlist under the intro: numbered picks, the award, who each suits, score, price and an Amazon link.
 import type { Pick } from '../lib/types';
-import { getProduct, productUrl } from '../lib/data';
+import { getProduct } from '../lib/data';
+import { amazonUrl, AFFILIATE_REL } from '../lib/amazon';
 import ProductImage from './ProductImage.astro';
-import AmazonButton from './AmazonButton.astro';
 import Score from './Score.astro';
 interface Props { picks: Pick[] }
 const { picks } = Astro.props;
 ---
-<div id="quick-picks" class="not-prose my-6 rounded-2xl border-2 border-gold/60 bg-amber-50/40 overflow-hidden">
-  <p class="px-4 sm:px-5 pt-4 text-xs font-bold uppercase tracking-wider text-gold-dark">Our top picks at a glance</p>
-  <ol class="divide-y divide-amber-200/70">
+<section class="shortlist" id="quick-picks" aria-label="Shortlist">
+  <p class="mini">Shortlist: which pick suits you</p>
+  <ol>
     {picks.map((pk, i) => {
       const p = getProduct(pk.product);
       return (
-        <li class="flex items-center gap-3 sm:gap-4 px-4 sm:px-5 py-3">
-          <span class="hidden sm:flex w-7 h-7 shrink-0 rounded-full bg-ink text-white text-xs font-bold items-center justify-center">{i + 1}</span>
-          <ProductImage product={p} size={160} class="w-14 h-14 sm:w-16 sm:h-16 shrink-0 rounded-lg" eager={i < 3} />
-          <div class="min-w-0 flex-1">
-            <p class="text-[11px] font-bold uppercase tracking-wide text-gold-dark">{pk.award}</p>
-            <a href={`#pick-${i + 1}`} class="block font-semibold text-ink hover:text-brand-600 leading-snug no-underline">{p.name}</a>
-            <p class="text-xs text-slate-500 mt-0.5 flex items-center gap-2"><Score score={p.score} /> <span>{p.priceBand}</span></p>
+        <li class={p.imageId ? 'has-thumb' : undefined}>
+          <span class="sl-n">{i + 1}</span>
+          {p.imageId && <ProductImage product={p} size={52} class="sl-thumb" eager={i < 3} />}
+          <div class="sl-main">
+            <div class="sl-label">{pk.award}</div>
+            <a class="sl-name" href={`#pick-${i + 1}`}>{p.name}</a>
+            <div class="sl-for">{p.bestFor}</div>
           </div>
-          <AmazonButton product={p} label="View" class="!px-3 !py-2 !text-sm shrink-0" />
+          <div class="sl-side"><Score score={p.score} /><span class="sl-price">{p.priceBand}</span><a class="sl-view" href={amazonUrl(p)} rel={AFFILIATE_REL} target="_blank">View</a></div>
         </li>
       );
     })}
   </ol>
-</div>
+</section>
