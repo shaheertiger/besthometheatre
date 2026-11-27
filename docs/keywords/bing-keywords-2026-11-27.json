@@ -1,0 +1,5351 @@
+[
+ {
+  "q": "atmos",
+  "impr": 41628,
+  "broad": 304293,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "connect to a projector or pc",
+  "impr": 31151,
+  "broad": 31151,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "speakers",
+  "impr": 15910,
+  "broad": 164258,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "video projector",
+  "impr": 12758,
+  "broad": 12783,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose speakers",
+  "impr": 6729,
+  "broad": 7265,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "polk",
+  "impr": 6695,
+  "broad": 437764,
+  "seeds": [
+   "polk audio"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv",
+  "impr": 6472,
+  "broad": 12532,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "receiver",
+  "impr": 6154,
+  "broad": 75057,
+  "seeds": [
+   "av receiver",
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "screen size 100",
+  "impr": 5159,
+  "broad": 5159,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "klipsch speakers",
+  "impr": 4758,
+  "broad": 4812,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "wireless home theater systems",
+  "impr": 4661,
+  "broad": 4661,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos speakers",
+  "impr": 4030,
+  "broad": 4194,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose brand",
+  "impr": 3835,
+  "broad": 3835,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon",
+  "impr": 3576,
+  "broad": 11604,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sound bar",
+  "impr": 3437,
+  "broad": 9401,
+  "seeds": [
+   "best soundbar",
+   "sonos soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "screen size adjustment",
+  "impr": 3160,
+  "broad": 3160,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "epson projector",
+  "impr": 3062,
+  "broad": 4558,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector screen",
+  "impr": 2825,
+  "broad": 3960,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "amplifier",
+  "impr": 2798,
+  "broad": 16260,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "soundbar",
+  "impr": 2467,
+  "broad": 18172,
+  "seeds": [
+   "best soundbar",
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tv sizes",
+  "impr": 2333,
+  "broad": 3985,
+  "seeds": [
+   "tv viewing distance"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "sonos amp",
+  "impr": 2063,
+  "broad": 2632,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundbar",
+  "impr": 1864,
+  "broad": 2187,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "connect to tv",
+  "impr": 1737,
+  "broad": 2976,
+  "seeds": [
+   "connect soundbar to tv"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "speakers not working",
+  "impr": 1730,
+  "broad": 5664,
+  "seeds": [
+   "soundbar not working"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "sound bars for tv",
+  "impr": 1658,
+  "broad": 3548,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio sound bar",
+  "impr": 1622,
+  "broad": 1823,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "uktrendzone.com ocean projector",
+  "impr": 1554,
+  "broad": 1554,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos arc ultra",
+  "impr": 1546,
+  "broad": 2021,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic wall panels",
+  "impr": 1523,
+  "broad": 1641,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon receivers",
+  "impr": 1500,
+  "broad": 1500,
+  "seeds": [
+   "av receiver",
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "svs subwoofer",
+  "impr": 1495,
+  "broad": 1495,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projectors",
+  "impr": 1380,
+  "broad": 12530,
+  "seeds": [
+   "epson projector",
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos soundbar",
+  "impr": 1345,
+  "broad": 1349,
+  "seeds": [
+   "sonos arc",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "screen size 125",
+  "impr": 1332,
+  "broad": 1332,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "mini projector",
+  "impr": 1319,
+  "broad": 1689,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "overhead projector",
+  "impr": 1315,
+  "broad": 1315,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "what is dolby atmos",
+  "impr": 1247,
+  "broad": 1256,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos download",
+  "impr": 1236,
+  "broad": 1376,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "reduce screen size",
+  "impr": 1197,
+  "broad": 2392,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "hdmi port not working",
+  "impr": 1192,
+  "broad": 1372,
+  "seeds": [
+   "soundbar not working"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "sonos port",
+  "impr": 1175,
+  "broad": 1175,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofers",
+  "impr": 1173,
+  "broad": 1674,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustics",
+  "impr": 1165,
+  "broad": 15400,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos era 100",
+  "impr": 1159,
+  "broad": 1604,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "samsung soundbar",
+  "impr": 1016,
+  "broad": 1511,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "short throw projector",
+  "impr": 950,
+  "broad": 1610,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose speaker",
+  "impr": 944,
+  "broad": 991,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "gik acoustics",
+  "impr": 915,
+  "broad": 915,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "surround sound system",
+  "impr": 913,
+  "broad": 1891,
+  "seeds": [
+   "best home theater system",
+   "home theater system"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "kicker subwoofer",
+  "impr": 887,
+  "broad": 887,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "receivers",
+  "impr": 886,
+  "broad": 21088,
+  "seeds": [
+   "av receiver",
+   "yamaha receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home theater setup",
+  "impr": 883,
+  "broad": 1228,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "how to adjust screen size",
+  "impr": 875,
+  "broad": 944,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "hologram projector",
+  "impr": 866,
+  "broad": 1565,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best sound bars 2026",
+  "impr": 865,
+  "broad": 865,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "samsung sound bars for tv",
+  "impr": 860,
+  "broad": 860,
+  "seeds": [
+   "samsung soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos beam ultra",
+  "impr": 856,
+  "broad": 1041,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundlink",
+  "impr": 832,
+  "broad": 4815,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "christmas projector",
+  "impr": 825,
+  "broad": 2957,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos black friday 2026",
+  "impr": 806,
+  "broad": 806,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "deals"
+ },
+ {
+  "q": "outlook search not working",
+  "impr": 783,
+  "broad": 821,
+  "seeds": [
+   "soundbar not working"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "hdmi arc",
+  "impr": 751,
+  "broad": 4308,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose bluetooth speakers",
+  "impr": 738,
+  "broad": 738,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "yamaha receivers",
+  "impr": 729,
+  "broad": 867,
+  "seeds": [
+   "yamaha receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose solo soundbar 2",
+  "impr": 719,
+  "broad": 802,
+  "seeds": [
+   "bose soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "windows search not working",
+  "impr": 710,
+  "broad": 787,
+  "seeds": [
+   "soundbar not working"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "home theater",
+  "impr": 697,
+  "broad": 14550,
+  "seeds": [
+   "best home theater system",
+   "home theater system"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos move 2",
+  "impr": 697,
+  "broad": 737,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv manual",
+  "impr": 697,
+  "broad": 697,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "pattern projector",
+  "impr": 696,
+  "broad": 841,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "soundbar for tv",
+  "impr": 694,
+  "broad": 786,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "xgimi projector",
+  "impr": 691,
+  "broad": 691,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos beam",
+  "impr": 679,
+  "broad": 2544,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundlink flex",
+  "impr": 679,
+  "broad": 1111,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bbc subwoofer",
+  "impr": 676,
+  "broad": 830,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "epson projectors",
+  "impr": 675,
+  "broad": 675,
+  "seeds": [
+   "epson projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "benq projector",
+  "impr": 673,
+  "broad": 686,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon dj",
+  "impr": 672,
+  "broad": 1023,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector devices",
+  "impr": 668,
+  "broad": 668,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sound bars",
+  "impr": 656,
+  "broad": 6117,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos beam gen 2",
+  "impr": 651,
+  "broad": 664,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "adjust screen size",
+  "impr": 631,
+  "broad": 2714,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "best soundbars 2026",
+  "impr": 625,
+  "broad": 625,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "holographic projector",
+  "impr": 614,
+  "broad": 636,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "christmas projector lights indoor",
+  "impr": 612,
+  "broad": 612,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "portable projector",
+  "impr": 598,
+  "broad": 954,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos.com",
+  "impr": 592,
+  "broad": 639,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos era 300",
+  "impr": 573,
+  "broad": 586,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "galaxy projector",
+  "impr": 571,
+  "broad": 1403,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer box design",
+  "impr": 571,
+  "broad": 609,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "optoma projector",
+  "impr": 570,
+  "broad": 570,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch subwoofer",
+  "impr": 560,
+  "broad": 560,
+  "seeds": [
+   "klipsch",
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "connect to tv wirelessly",
+  "impr": 557,
+  "broad": 557,
+  "seeds": [
+   "connect soundbar to tv"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "outdoor projector",
+  "impr": 557,
+  "broad": 979,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv setup",
+  "impr": 551,
+  "broad": 920,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "dolby atmos download",
+  "impr": 548,
+  "broad": 593,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home theater seating",
+  "impr": 541,
+  "broad": 605,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose computer speakers",
+  "impr": 539,
+  "broad": 575,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "lg soundbar",
+  "impr": 537,
+  "broad": 582,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos amp multi",
+  "impr": 535,
+  "broad": 569,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos ace ultra",
+  "impr": 533,
+  "broad": 701,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon avr-x3800h",
+  "impr": 532,
+  "broad": 532,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos sound bar",
+  "impr": 529,
+  "broad": 529,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "movie projector",
+  "impr": 529,
+  "broad": 636,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector settings",
+  "impr": 528,
+  "broad": 528,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to shrink screen size",
+  "impr": 523,
+  "broad": 523,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "sonos play",
+  "impr": 520,
+  "broad": 1201,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose sound bar",
+  "impr": 518,
+  "broad": 666,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "fable 5.1 vs opus 5.5",
+  "impr": 518,
+  "broad": 547,
+  "seeds": [
+   "5.1 vs 7.1"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "rel subwoofer",
+  "impr": 517,
+  "broad": 517,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "merry glow christmas projector",
+  "impr": 516,
+  "broad": 516,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer speaker",
+  "impr": 516,
+  "broad": 516,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundlink max",
+  "impr": 515,
+  "broad": 721,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "laser projector",
+  "impr": 515,
+  "broad": 638,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "stereo receiver",
+  "impr": 489,
+  "broad": 783,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vankyo projector",
+  "impr": 472,
+  "broad": 472,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose speakers bluetooth",
+  "impr": 470,
+  "broad": 470,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch rebellion",
+  "impr": 467,
+  "broad": 574,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "what is hdmi arc",
+  "impr": 466,
+  "broad": 466,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "roku projector",
+  "impr": 460,
+  "broad": 460,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "awol projector",
+  "impr": 460,
+  "broad": 460,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos speaker",
+  "impr": 459,
+  "broad": 459,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "merry glow projector",
+  "impr": 457,
+  "broad": 457,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "computer speakers not working",
+  "impr": 456,
+  "broad": 471,
+  "seeds": [
+   "soundbar not working"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "sonos roam 2",
+  "impr": 453,
+  "broad": 453,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "standard tv sizes",
+  "impr": 451,
+  "broad": 451,
+  "seeds": [
+   "tv viewing distance"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "vizio tvs",
+  "impr": 450,
+  "broad": 567,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "kirei acoustic panels",
+  "impr": 448,
+  "broad": 448,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "screen size change",
+  "impr": 447,
+  "broad": 447,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "sonos arc",
+  "impr": 443,
+  "broad": 2663,
+  "seeds": [
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "samsung sound bar",
+  "impr": 443,
+  "broad": 510,
+  "seeds": [
+   "samsung soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "jbl soundbar",
+  "impr": 442,
+  "broad": 472,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic panels for walls",
+  "impr": 442,
+  "broad": 442,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tv sound bars",
+  "impr": 440,
+  "broad": 450,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "stereo receivers",
+  "impr": 437,
+  "broad": 861,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer box calculator",
+  "impr": 434,
+  "broad": 434,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "star projector",
+  "impr": 426,
+  "broad": 1318,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose portable speaker",
+  "impr": 423,
+  "broad": 423,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundlink home bluetooth speaker",
+  "impr": 421,
+  "broad": 447,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundlink mini",
+  "impr": 413,
+  "broad": 564,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "samsung soundbar with subwoofer",
+  "impr": 412,
+  "broad": 412,
+  "seeds": [
+   "samsung soundbar",
+   "soundbar",
+   "soundbar deals",
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose tv speaker",
+  "impr": 408,
+  "broad": 661,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to reduce screen size",
+  "impr": 408,
+  "broad": 552,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "polk audio speakers",
+  "impr": 406,
+  "broad": 427,
+  "seeds": [
+   "polk audio"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "4k projector",
+  "impr": 405,
+  "broad": 508,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to change screen size",
+  "impr": 403,
+  "broad": 404,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "sonos arc ultra soundbar",
+  "impr": 402,
+  "broad": 402,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "ceiling projector",
+  "impr": 401,
+  "broad": 748,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "nebula projector",
+  "impr": 399,
+  "broad": 399,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos outdoor speakers",
+  "impr": 397,
+  "broad": 397,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos connect",
+  "impr": 397,
+  "broad": 520,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "roku soundbar",
+  "impr": 394,
+  "broad": 394,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "ipad mini screen size",
+  "impr": 394,
+  "broad": 394,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "sony soundbar",
+  "impr": 389,
+  "broad": 407,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to connect vizio tv to wifi",
+  "impr": 387,
+  "broad": 387,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "soundbars",
+  "impr": 386,
+  "broad": 1827,
+  "seeds": [
+   "best soundbar",
+   "sonos soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "walmart vizio tv",
+  "impr": 384,
+  "broad": 384,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "store"
+ },
+ {
+  "q": "yamaha speakers",
+  "impr": 383,
+  "broad": 383,
+  "seeds": [
+   "yamaha receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose bluetooth speaker",
+  "impr": 380,
+  "broad": 380,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "stereo receivers for home",
+  "impr": 380,
+  "broad": 380,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos music",
+  "impr": 373,
+  "broad": 532,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sound bar for tv",
+  "impr": 371,
+  "broad": 537,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "outdoor christmas yard projector",
+  "impr": 369,
+  "broad": 459,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "hdmi earc",
+  "impr": 366,
+  "broad": 473,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch sound bar",
+  "impr": 365,
+  "broad": 365,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv support",
+  "impr": 364,
+  "broad": 364,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "connect to tv from computer",
+  "impr": 363,
+  "broad": 363,
+  "seeds": [
+   "connect soundbar to tv"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "sonos ace",
+  "impr": 362,
+  "broad": 1206,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best surround sound systems 2026",
+  "impr": 361,
+  "broad": 361,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "polk speakers",
+  "impr": 361,
+  "broad": 361,
+  "seeds": [
+   "polk audio"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector tv",
+  "impr": 356,
+  "broad": 375,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "reduce screen size to normal",
+  "impr": 356,
+  "broad": 527,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "home theater setup ideas",
+  "impr": 345,
+  "broad": 345,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "sonos multi amp",
+  "impr": 344,
+  "broad": 344,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "jl audio subwoofer",
+  "impr": 343,
+  "broad": 343,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio soundbar",
+  "impr": 340,
+  "broad": 340,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos subwoofer",
+  "impr": 340,
+  "broad": 340,
+  "seeds": [
+   "sonos arc",
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose surround sound system",
+  "impr": 338,
+  "broad": 338,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "audeon soundlite soundbar",
+  "impr": 335,
+  "broad": 335,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home theater system",
+  "impr": 333,
+  "broad": 981,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "ultra short throw projector",
+  "impr": 333,
+  "broad": 338,
+  "seeds": [
+   "short throw projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tcl soundbar",
+  "impr": 330,
+  "broad": 416,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch promedia 2.1",
+  "impr": 328,
+  "broad": 409,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "christmas light projector",
+  "impr": 327,
+  "broad": 606,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos windows 11",
+  "impr": 324,
+  "broad": 324,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic ceiling panels",
+  "impr": 316,
+  "broad": 316,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos official website",
+  "impr": 311,
+  "broad": 311,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best bookshelf speakers",
+  "impr": 311,
+  "broad": 425,
+  "seeds": [
+   "bookshelf speakers"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "ats acoustics",
+  "impr": 308,
+  "broad": 308,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "valerion projector",
+  "impr": 303,
+  "broad": 303,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "audio amplifier",
+  "impr": 302,
+  "broad": 328,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos ray",
+  "impr": 301,
+  "broad": 505,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon avr-x1800h",
+  "impr": 301,
+  "broad": 301,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose home theater system",
+  "impr": 298,
+  "broad": 298,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "onn soundbar",
+  "impr": 297,
+  "broad": 297,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos one",
+  "impr": 287,
+  "broad": 491,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos radio",
+  "impr": 287,
+  "broad": 287,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector screens",
+  "impr": 287,
+  "broad": 287,
+  "seeds": [
+   "projector",
+   "projector deals",
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "what is a subwoofer",
+  "impr": 286,
+  "broad": 286,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos sub mini",
+  "impr": 282,
+  "broad": 282,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "christmas projector lights outdoor",
+  "impr": 282,
+  "broad": 301,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose smart soundbar",
+  "impr": 278,
+  "broad": 421,
+  "seeds": [
+   "bose soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv setup instructions",
+  "impr": 275,
+  "broad": 275,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "earc hdmi",
+  "impr": 271,
+  "broad": 271,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "maximize screen size",
+  "impr": 269,
+  "broad": 269,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "sonos sound system",
+  "impr": 266,
+  "broad": 266,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home theater speakers",
+  "impr": 264,
+  "broad": 264,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos controller",
+  "impr": 264,
+  "broad": 358,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos web player",
+  "impr": 263,
+  "broad": 263,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "night light projector",
+  "impr": 260,
+  "broad": 1219,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon avr",
+  "impr": 256,
+  "broad": 329,
+  "seeds": [
+   "av receiver",
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer lullaby",
+  "impr": 256,
+  "broad": 256,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos s1 controller",
+  "impr": 255,
+  "broad": 255,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "magcubic projector",
+  "impr": 255,
+  "broad": 255,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "smart projector",
+  "impr": 253,
+  "broad": 267,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "computer screen size",
+  "impr": 252,
+  "broad": 300,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "sonos playbar",
+  "impr": 250,
+  "broad": 250,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch the fives",
+  "impr": 250,
+  "broad": 267,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "hdmi arc meaning",
+  "impr": 249,
+  "broad": 249,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "aurora projector",
+  "impr": 249,
+  "broad": 249,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "ultimea soundbar",
+  "impr": 248,
+  "broad": 248,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos roam",
+  "impr": 248,
+  "broad": 710,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "jbl subwoofer",
+  "impr": 246,
+  "broad": 246,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos support",
+  "impr": 244,
+  "broad": 244,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector calculator",
+  "impr": 243,
+  "broad": 436,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "hdmi arc cable",
+  "impr": 242,
+  "broad": 242,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv troubleshooting",
+  "impr": 240,
+  "broad": 240,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "av receivers 2026",
+  "impr": 240,
+  "broad": 258,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to increase screen size",
+  "impr": 236,
+  "broad": 236,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "12 inch subwoofer",
+  "impr": 235,
+  "broad": 235,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "outdoor projector screen",
+  "impr": 234,
+  "broad": 234,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer for car",
+  "impr": 232,
+  "broad": 232,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "led projector",
+  "impr": 231,
+  "broad": 236,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "s26 screen size",
+  "impr": 231,
+  "broad": 306,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denon avr-s570bt",
+  "impr": 229,
+  "broad": 229,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "short throw projector 4k",
+  "impr": 229,
+  "broad": 234,
+  "seeds": [
+   "short throw projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch heresy",
+  "impr": 227,
+  "broad": 367,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos move",
+  "impr": 223,
+  "broad": 960,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "beamng subwoofer mod",
+  "impr": 223,
+  "broad": 223,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "portable projector screen",
+  "impr": 221,
+  "broad": 221,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best buy sound bars",
+  "impr": 220,
+  "broad": 240,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "store"
+ },
+ {
+  "q": "acoustic wood panels",
+  "impr": 219,
+  "broad": 219,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos play 5",
+  "impr": 218,
+  "broad": 272,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch flexus core 200",
+  "impr": 218,
+  "broad": 218,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "rythmik subwoofer",
+  "impr": 218,
+  "broad": 218,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos sub",
+  "impr": 217,
+  "broad": 694,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector hunting game",
+  "impr": 217,
+  "broad": 235,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic panels soundproofing",
+  "impr": 216,
+  "broad": 216,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos inc",
+  "impr": 214,
+  "broad": 214,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "3d projector",
+  "impr": 212,
+  "broad": 212,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose sound system",
+  "impr": 211,
+  "broad": 233,
+  "seeds": [
+   "bose soundbar",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "amazon projector",
+  "impr": 206,
+  "broad": 206,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "store"
+ },
+ {
+  "q": "tv size calculator",
+  "impr": 206,
+  "broad": 206,
+  "seeds": [
+   "tv viewing distance"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "audio receiver",
+  "impr": 205,
+  "broad": 2488,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos ray soundbar",
+  "impr": 204,
+  "broad": 204,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "ipad a16 screen size",
+  "impr": 202,
+  "broad": 202,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "christmas ceiling projector",
+  "impr": 200,
+  "broad": 200,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos arc soundbar",
+  "impr": 199,
+  "broad": 199,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector screen indoor",
+  "impr": 199,
+  "broad": 199,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tv projector",
+  "impr": 197,
+  "broad": 217,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "powered subwoofer",
+  "impr": 197,
+  "broad": 197,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustical panels",
+  "impr": 197,
+  "broad": 197,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose lifestyle ultra soundbar",
+  "impr": 196,
+  "broad": 196,
+  "seeds": [
+   "bose soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos test",
+  "impr": 196,
+  "broad": 198,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos sub 4",
+  "impr": 195,
+  "broad": 195,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "light projector",
+  "impr": 195,
+  "broad": 2346,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "switch 2 screen size",
+  "impr": 195,
+  "broad": 195,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denon prime 4",
+  "impr": 195,
+  "broad": 299,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "room projector",
+  "impr": 194,
+  "broad": 328,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "restore screen size to 100",
+  "impr": 194,
+  "broad": 194,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "how to minimize screen size",
+  "impr": 193,
+  "broad": 193,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "acoustic panel",
+  "impr": 193,
+  "broad": 444,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "yamaha stereo receiver",
+  "impr": 191,
+  "broad": 191,
+  "seeds": [
+   "yamaha receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tv sound bar",
+  "impr": 189,
+  "broad": 189,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose smart ultra soundbar",
+  "impr": 187,
+  "broad": 187,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos amplifier",
+  "impr": 186,
+  "broad": 186,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos era 100 sl",
+  "impr": 186,
+  "broad": 242,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos five",
+  "impr": 186,
+  "broad": 186,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to measure tv screen size",
+  "impr": 185,
+  "broad": 185,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denon receiver",
+  "impr": 185,
+  "broad": 185,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best sound bar",
+  "impr": 184,
+  "broad": 202,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "samsung sound bars",
+  "impr": 184,
+  "broad": 1044,
+  "seeds": [
+   "samsung soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "indoor christmas projector",
+  "impr": 184,
+  "broad": 233,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose tv speaker soundbar",
+  "impr": 183,
+  "broad": 183,
+  "seeds": [
+   "bose soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "screen projector",
+  "impr": 183,
+  "broad": 183,
+  "seeds": [
+   "projector",
+   "projector deals",
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon avr-s760h",
+  "impr": 183,
+  "broad": 183,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best soundbars",
+  "impr": 182,
+  "broad": 809,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "denon avr-x1700h",
+  "impr": 180,
+  "broad": 180,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "microsoft audio home theater effects",
+  "impr": 179,
+  "broad": 179,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best home theater system",
+  "impr": 179,
+  "broad": 188,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "stereo amplifier",
+  "impr": 179,
+  "broad": 179,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos log in",
+  "impr": 177,
+  "broad": 177,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "hsu subwoofer",
+  "impr": 177,
+  "broad": 177,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to connect to tv",
+  "impr": 176,
+  "broad": 176,
+  "seeds": [
+   "connect soundbar to tv"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "klipsch flexus core 300",
+  "impr": 175,
+  "broad": 175,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "8 inch subwoofer",
+  "impr": 175,
+  "broad": 175,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "screen size settings",
+  "impr": 173,
+  "broad": 173,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denon x3800h",
+  "impr": 173,
+  "broad": 173,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home projector",
+  "impr": 171,
+  "broad": 197,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv installation and setup",
+  "impr": 170,
+  "broad": 170,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "denon avr-x2800h",
+  "impr": 170,
+  "broad": 171,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tv soundbar",
+  "impr": 167,
+  "broad": 232,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos for windows",
+  "impr": 167,
+  "broad": 183,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tv size",
+  "impr": 167,
+  "broad": 1458,
+  "seeds": [
+   "tv viewing distance"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denon avr-s970h",
+  "impr": 166,
+  "broad": 188,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos ceiling speakers",
+  "impr": 165,
+  "broad": 165,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "radio receiver",
+  "impr": 165,
+  "broad": 216,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos speakers wireless",
+  "impr": 164,
+  "broad": 164,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos refurbished",
+  "impr": 164,
+  "broad": 164,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "little tikes projector",
+  "impr": 164,
+  "broad": 193,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch the nines",
+  "impr": 164,
+  "broad": 182,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer test",
+  "impr": 164,
+  "broad": 164,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose subwoofer",
+  "impr": 164,
+  "broad": 164,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "madre projector for logo",
+  "impr": 163,
+  "broad": 163,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch cornwall iv",
+  "impr": 162,
+  "broad": 162,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "hisense soundbar",
+  "impr": 161,
+  "broad": 161,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bluetooth soundbar",
+  "impr": 160,
+  "broad": 169,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "epson projector calculator",
+  "impr": 160,
+  "broad": 160,
+  "seeds": [
+   "epson projector"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "vizio tv connect to wifi",
+  "impr": 159,
+  "broad": 159,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "holiday projector",
+  "impr": 159,
+  "broad": 180,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "av receiver",
+  "impr": 159,
+  "broad": 442,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos system",
+  "impr": 158,
+  "broad": 158,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic sound panels",
+  "impr": 158,
+  "broad": 158,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "samsung soundbars",
+  "impr": 156,
+  "broad": 156,
+  "seeds": [
+   "samsung soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "jmgo projector",
+  "impr": 156,
+  "broad": 156,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projectors for sale",
+  "impr": 156,
+  "broad": 156,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "deals"
+ },
+ {
+  "q": "subwoofer box builder",
+  "impr": 156,
+  "broad": 156,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "hisense projector",
+  "impr": 155,
+  "broad": 160,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "computer speakers with subwoofer",
+  "impr": 152,
+  "broad": 152,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundbars",
+  "impr": 151,
+  "broad": 151,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "s26 ultra screen size",
+  "impr": 151,
+  "broad": 151,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "epson throw distance calculator",
+  "impr": 149,
+  "broad": 149,
+  "seeds": [
+   "projector throw distance"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "sony home theater system",
+  "impr": 148,
+  "broad": 148,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose sound bar for tv",
+  "impr": 148,
+  "broad": 148,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector laser tag",
+  "impr": 148,
+  "broad": 156,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector and screen",
+  "impr": 148,
+  "broad": 148,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch rp-600m ii",
+  "impr": 148,
+  "broad": 148,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon heos",
+  "impr": 147,
+  "broad": 149,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos one sl",
+  "impr": 145,
+  "broad": 145,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon cd player",
+  "impr": 145,
+  "broad": 145,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "10 inch subwoofer",
+  "impr": 143,
+  "broad": 143,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundbar 700",
+  "impr": 142,
+  "broad": 142,
+  "seeds": [
+   "bose soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon turntable",
+  "impr": 142,
+  "broad": 142,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "car subwoofer",
+  "impr": 142,
+  "broad": 142,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "luna storytime projector",
+  "impr": 141,
+  "broad": 141,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer simulator",
+  "impr": 141,
+  "broad": 149,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best soundbar",
+  "impr": 138,
+  "broad": 327,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "yamaha receivers 2026",
+  "impr": 138,
+  "broad": 138,
+  "seeds": [
+   "yamaha receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to decrease screen size",
+  "impr": 136,
+  "broad": 136,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "art projector",
+  "impr": 135,
+  "broad": 181,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "film projector",
+  "impr": 133,
+  "broad": 133,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch forte iv",
+  "impr": 133,
+  "broad": 133,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "samsung surround sound system",
+  "impr": 132,
+  "broad": 132,
+  "seeds": [
+   "samsung soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "christmas hologram projector",
+  "impr": 132,
+  "broad": 132,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "ust projector",
+  "impr": 132,
+  "broad": 132,
+  "seeds": [
+   "short throw projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector 4k",
+  "impr": 131,
+  "broad": 404,
+  "seeds": [
+   "4k projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projectors for home theater",
+  "impr": 130,
+  "broad": 144,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector reviews",
+  "impr": 129,
+  "broad": 211,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "trust"
+ },
+ {
+  "q": "sound bar with subwoofer",
+  "impr": 129,
+  "broad": 129,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos black friday",
+  "impr": 128,
+  "broad": 1070,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "deals"
+ },
+ {
+  "q": "samsung speakers",
+  "impr": 127,
+  "broad": 127,
+  "seeds": [
+   "samsung soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "soundbar meme",
+  "impr": 127,
+  "broad": 127,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos 5",
+  "impr": 126,
+  "broad": 126,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "adjust screen size windows 10",
+  "impr": 124,
+  "broad": 175,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "yamaha av receiver",
+  "impr": 124,
+  "broad": 124,
+  "seeds": [
+   "av receiver",
+   "yamaha receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tv size chart",
+  "impr": 122,
+  "broad": 122,
+  "seeds": [
+   "tv viewing distance"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "rsl subwoofer",
+  "impr": 122,
+  "broad": 122,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer box",
+  "impr": 122,
+  "broad": 1321,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "ipad screen size",
+  "impr": 121,
+  "broad": 136,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denon dp-300f",
+  "impr": 121,
+  "broad": 121,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "hunting projector game",
+  "impr": 120,
+  "broad": 120,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sennheiser soundbar",
+  "impr": 118,
+  "broad": 118,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "polk soundbar",
+  "impr": 117,
+  "broad": 117,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sound speaker",
+  "impr": 117,
+  "broad": 452,
+  "seeds": [
+   "polk audio"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "smart sketcher projector",
+  "impr": 115,
+  "broad": 115,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "uktrendzone.com projector",
+  "impr": 115,
+  "broad": 115,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon dra-900h",
+  "impr": 115,
+  "broad": 115,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best bookshelf speakers 2026",
+  "impr": 114,
+  "broad": 114,
+  "seeds": [
+   "bookshelf speakers"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "soundbar prank",
+  "impr": 112,
+  "broad": 112,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "yamaha subwoofer",
+  "impr": 112,
+  "broad": 112,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch rp-600m",
+  "impr": 111,
+  "broad": 259,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home theatre system",
+  "impr": 110,
+  "broad": 133,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer mod beamng drive",
+  "impr": 110,
+  "broad": 110,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "cerwin vega subwoofer",
+  "impr": 110,
+  "broad": 110,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "soundbar for pc",
+  "impr": 109,
+  "broad": 109,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "subwoofer cable",
+  "impr": 108,
+  "broad": 108,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos logo",
+  "impr": 107,
+  "broad": 107,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "gik acoustic panels",
+  "impr": 107,
+  "broad": 107,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home theater systems",
+  "impr": 106,
+  "broad": 4767,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos portable speaker",
+  "impr": 106,
+  "broad": 106,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "planetarium projector",
+  "impr": 106,
+  "broad": 106,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sony subwoofer",
+  "impr": 106,
+  "broad": 106,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "astra vision projector",
+  "impr": 105,
+  "broad": 105,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector shooting game for kids",
+  "impr": 105,
+  "broad": 105,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon prime 4 g2",
+  "impr": 104,
+  "broad": 104,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home theater receiver",
+  "impr": 103,
+  "broad": 103,
+  "seeds": [
+   "av receiver",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv reviews",
+  "impr": 103,
+  "broad": 103,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "trust"
+ },
+ {
+  "q": "denon.com",
+  "impr": 103,
+  "broad": 103,
+  "seeds": [
+   "av receiver",
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon pma-600ne",
+  "impr": 102,
+  "broad": 102,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon dj prime 4",
+  "impr": 102,
+  "broad": 204,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon dj prime 4 g2",
+  "impr": 102,
+  "broad": 102,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos ultra arc",
+  "impr": 101,
+  "broad": 101,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "connect to tv screen",
+  "impr": 101,
+  "broad": 101,
+  "seeds": [
+   "connect soundbar to tv"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "outdoor christmas projector",
+  "impr": 101,
+  "broad": 168,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "samsung q series soundbar",
+  "impr": 100,
+  "broad": 100,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos beam 2",
+  "impr": 98,
+  "broad": 98,
+  "seeds": [
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "nothing projector",
+  "impr": 97,
+  "broad": 97,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector amazon",
+  "impr": 97,
+  "broad": 97,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "store"
+ },
+ {
+  "q": "denon dj sc live 4",
+  "impr": 97,
+  "broad": 97,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "yamaha soundbar",
+  "impr": 95,
+  "broad": 95,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dlp projector",
+  "impr": 95,
+  "broad": 95,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "christmas projector lights",
+  "impr": 94,
+  "broad": 1104,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "motorized projector screen",
+  "impr": 94,
+  "broad": 94,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos speakers",
+  "impr": 94,
+  "broad": 94,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon home amp",
+  "impr": 94,
+  "broad": 94,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "home theatre",
+  "impr": 93,
+  "broad": 656,
+  "seeds": [
+   "best home theater system",
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater system",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic wall panels decorative",
+  "impr": 93,
+  "broad": 93,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best soundbar for tv",
+  "impr": 92,
+  "broad": 92,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "what is earc",
+  "impr": 90,
+  "broad": 90,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon perl pro",
+  "impr": 90,
+  "broad": 90,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustical surfaces",
+  "impr": 90,
+  "broad": 90,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best sound bars for tv",
+  "impr": 89,
+  "broad": 89,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "soundbar testsieger black friday 2026",
+  "impr": 89,
+  "broad": 89,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "deals"
+ },
+ {
+  "q": "denon amplifier",
+  "impr": 88,
+  "broad": 88,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos soundbar",
+  "impr": 87,
+  "broad": 90,
+  "seeds": [
+   "dolby atmos speaker placement",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tcl soundbar with subwoofer",
+  "impr": 86,
+  "broad": 86,
+  "seeds": [
+   "soundbar",
+   "soundbar deals",
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "screen size comparison",
+  "impr": 86,
+  "broad": 86,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "soundbar with subwoofer",
+  "impr": 84,
+  "broad": 614,
+  "seeds": [
+   "soundbar",
+   "soundbar deals",
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic paneling",
+  "impr": 84,
+  "broad": 84,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic wall panel",
+  "impr": 84,
+  "broad": 141,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose solo soundbar 2 reviews",
+  "impr": 83,
+  "broad": 83,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "trust"
+ },
+ {
+  "q": "christmas light projector outdoor",
+  "impr": 83,
+  "broad": 83,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bbc subwoofer modland",
+  "impr": 83,
+  "broad": 83,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos sound bars for tv",
+  "impr": 81,
+  "broad": 81,
+  "seeds": [
+   "sonos soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best sound bars",
+  "impr": 81,
+  "broad": 1035,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "pull down projector screen",
+  "impr": 81,
+  "broad": 81,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "4k projector for home",
+  "impr": 81,
+  "broad": 81,
+  "seeds": [
+   "4k projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "marshall soundbar",
+  "impr": 80,
+  "broad": 80,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "drawing projector",
+  "impr": 80,
+  "broad": 112,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "epson projector management",
+  "impr": 79,
+  "broad": 112,
+  "seeds": [
+   "epson projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon x3900h",
+  "impr": 79,
+  "broad": 79,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon avr-s770h",
+  "impr": 79,
+  "broad": 79,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos website",
+  "impr": 77,
+  "broad": 77,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "snowlit projector",
+  "impr": 77,
+  "broad": 77,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best soundbar 2026",
+  "impr": 75,
+  "broad": 75,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "wiim soundbar",
+  "impr": 75,
+  "broad": 75,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "christmas wonderland projector",
+  "impr": 75,
+  "broad": 75,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "s25 screen size",
+  "impr": 75,
+  "broad": 83,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "samsung s26 screen size",
+  "impr": 75,
+  "broad": 75,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "bose smart soundbar 600",
+  "impr": 73,
+  "broad": 73,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos windows download",
+  "impr": 73,
+  "broad": 73,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos for pc",
+  "impr": 73,
+  "broad": 73,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos demo",
+  "impr": 72,
+  "broad": 73,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon sc live 4",
+  "impr": 71,
+  "broad": 71,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch cornwall",
+  "impr": 70,
+  "broad": 232,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos products",
+  "impr": 69,
+  "broad": 69,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon audio",
+  "impr": 68,
+  "broad": 68,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon avr-s670h",
+  "impr": 68,
+  "broad": 68,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch heritage",
+  "impr": 68,
+  "broad": 68,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "tv receiver",
+  "impr": 67,
+  "broad": 74,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon speakers",
+  "impr": 67,
+  "broad": 67,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby surround",
+  "impr": 66,
+  "broad": 68,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "pc soundbar",
+  "impr": 65,
+  "broad": 65,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic wall",
+  "impr": 65,
+  "broad": 1876,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "wood acoustic panels",
+  "impr": 64,
+  "broad": 64,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon avr-x3900h",
+  "impr": 63,
+  "broad": 63,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundbar 500",
+  "impr": 62,
+  "broad": 62,
+  "seeds": [
+   "bose soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "vizio tv setup code",
+  "impr": 62,
+  "broad": 62,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "how-to/fix"
+ },
+ {
+  "q": "cosmo wonder projector",
+  "impr": 62,
+  "broad": 62,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose home speaker",
+  "impr": 61,
+  "broad": 179,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "screen sizes",
+  "impr": 61,
+  "broad": 321,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "arc hdmi",
+  "impr": 60,
+  "broad": 60,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos renderer",
+  "impr": 60,
+  "broad": 60,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch the sevens",
+  "impr": 60,
+  "broad": 60,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos black friday deals 2026",
+  "impr": 59,
+  "broad": 59,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "deals"
+ },
+ {
+  "q": "minimize screen size",
+  "impr": 59,
+  "broad": 252,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denon home 150",
+  "impr": 59,
+  "broad": 59,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "download sonos",
+  "impr": 58,
+  "broad": 168,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bbc subwoofer beamng",
+  "impr": 58,
+  "broad": 58,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "meme soundbar",
+  "impr": 57,
+  "broad": 57,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundbar 300",
+  "impr": 57,
+  "broad": 57,
+  "seeds": [
+   "bose soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos pro",
+  "impr": 57,
+  "broad": 57,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos boost",
+  "impr": 57,
+  "broad": 57,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "woofer speaker",
+  "impr": 57,
+  "broad": 71,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "epson projector driver",
+  "impr": 56,
+  "broad": 59,
+  "seeds": [
+   "epson projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon d-m41",
+  "impr": 56,
+  "broad": 56,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "pioneer subwoofer",
+  "impr": 56,
+  "broad": 56,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "underseat subwoofer",
+  "impr": 56,
+  "broad": 56,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "philips soundbar",
+  "impr": 55,
+  "broad": 55,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos arc ultra review",
+  "impr": 55,
+  "broad": 55,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "trust"
+ },
+ {
+  "q": "acoustic treatment",
+  "impr": 54,
+  "broad": 54,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon soundbar",
+  "impr": 53,
+  "broad": 53,
+  "seeds": [
+   "denon receiver",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "b-series b400f soundbar",
+  "impr": 53,
+  "broad": 53,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos black friday deals",
+  "impr": 53,
+  "broad": 112,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "deals"
+ },
+ {
+  "q": "who makes vizio tvs",
+  "impr": 53,
+  "broad": 53,
+  "seeds": [
+   "vizio soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "av receivers",
+  "impr": 53,
+  "broad": 311,
+  "seeds": [
+   "av receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos 1",
+  "impr": 52,
+  "broad": 106,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "edifier subwoofer",
+  "impr": 50,
+  "broad": 50,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "hdmi earc cable",
+  "impr": 49,
+  "broad": 49,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "fable 5.1 vs 5.2",
+  "impr": 49,
+  "broad": 49,
+  "seeds": [
+   "5.1 vs 7.1"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "klipsch rp-8000f ii",
+  "impr": 49,
+  "broad": 49,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "how to measure computer screen size",
+  "impr": 48,
+  "broad": 48,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denondj",
+  "impr": 48,
+  "broad": 48,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose soundbar 900",
+  "impr": 47,
+  "broad": 47,
+  "seeds": [
+   "bose soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "polk audio t15",
+  "impr": 47,
+  "broad": 47,
+  "seeds": [
+   "polk audio"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose ultra soundbar",
+  "impr": 46,
+  "broad": 46,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "free puzzles full screen size",
+  "impr": 46,
+  "broad": 46,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "chart/reference"
+ },
+ {
+  "q": "denon avr-x2900h",
+  "impr": 46,
+  "broad": 46,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon dj prime go",
+  "impr": 46,
+  "broad": 46,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "jbl home theater",
+  "impr": 45,
+  "broad": 57,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sony ht-bc50 soundbar",
+  "impr": 45,
+  "broad": 45,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos surround sound",
+  "impr": 45,
+  "broad": 45,
+  "seeds": [
+   "sonos arc",
+   "sonos soundbar"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "what is hdmi earc",
+  "impr": 45,
+  "broad": 45,
+  "seeds": [
+   "earc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector display",
+  "impr": 45,
+  "broad": 45,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "gas subwoofer",
+  "impr": 45,
+  "broad": 45,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic board",
+  "impr": 45,
+  "broad": 45,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose home theater",
+  "impr": 44,
+  "broad": 342,
+  "seeds": [
+   "home theater",
+   "home theater cost",
+   "home theater costco",
+   "home theater installation cost",
+   "home theater seating",
+   "home theater walmart"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "grinch projector light outdoor",
+  "impr": 44,
+  "broad": 44,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "acoustic felt",
+  "impr": 44,
+  "broad": 44,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos record player",
+  "impr": 42,
+  "broad": 42,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "artograph projector",
+  "impr": 42,
+  "broad": 42,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "dolby atmos for windows 11",
+  "impr": 42,
+  "broad": 42,
+  "seeds": [
+   "dolby atmos speaker placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon av receiver",
+  "impr": 42,
+  "broad": 42,
+  "seeds": [
+   "av receiver",
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon dp-29f",
+  "impr": 42,
+  "broad": 42,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "bose smart soundbar 900",
+  "impr": 41,
+  "broad": 41,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon home 200",
+  "impr": 41,
+  "broad": 41,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon rcd-n12",
+  "impr": 41,
+  "broad": 45,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "pc speakers with subwoofer",
+  "impr": 41,
+  "broad": 41,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "floor standing speakers",
+  "impr": 41,
+  "broad": 41,
+  "seeds": [
+   "tower speakers"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "basscraft subwoofer lab",
+  "impr": 39,
+  "broad": 39,
+  "seeds": [
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best budget soundbar",
+  "impr": 38,
+  "broad": 38,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "cost"
+ },
+ {
+  "q": "projector epson",
+  "impr": 38,
+  "broad": 40,
+  "seeds": [
+   "epson projector"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch computer speakers",
+  "impr": 38,
+  "broad": 38,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon d-m41dab",
+  "impr": 36,
+  "broad": 36,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "klipsch r-41m",
+  "impr": 36,
+  "broad": 36,
+  "seeds": [
+   "klipsch"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "ceiling acoustic panels",
+  "impr": 36,
+  "broad": 36,
+  "seeds": [
+   "acoustic panels"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "christmas yard projector",
+  "impr": 35,
+  "broad": 494,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon prime go",
+  "impr": 35,
+  "broad": 35,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sennheiser ambeo soundbar plus",
+  "impr": 34,
+  "broad": 34,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "best tv soundbars 2026",
+  "impr": 34,
+  "broad": 34,
+  "seeds": [
+   "best soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "best/roundup"
+ },
+ {
+  "q": "sonos sale",
+  "impr": 34,
+  "broad": 34,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "deals"
+ },
+ {
+  "q": "costco sonos",
+  "impr": 33,
+  "broad": 33,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "store"
+ },
+ {
+  "q": "harman kardon projector",
+  "impr": 33,
+  "broad": 33,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon usa",
+  "impr": 33,
+  "broad": 33,
+  "seeds": [
+   "av receiver",
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon dcd-600ne",
+  "impr": 33,
+  "broad": 33,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "cat projector",
+  "impr": 32,
+  "broad": 81,
+  "seeds": [
+   "projector",
+   "projector deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon home",
+  "impr": 32,
+  "broad": 286,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sennheiser ambeo soundbar",
+  "impr": 31,
+  "broad": 68,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "soundbar samsung",
+  "impr": 31,
+  "broad": 31,
+  "seeds": [
+   "samsung soundbar",
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "sonos coupon code",
+  "impr": 31,
+  "broad": 31,
+  "seeds": [
+   "sonos arc"
+  ],
+  "format": "deals"
+ },
+ {
+  "q": "jbl soundbar with subwoofer",
+  "impr": 30,
+  "broad": 30,
+  "seeds": [
+   "soundbar",
+   "soundbar deals",
+   "subwoofer placement"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "insignia\u2122 2.0-channel soundbar",
+  "impr": 30,
+  "broad": 30,
+  "seeds": [
+   "soundbar",
+   "soundbar deals"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "projector screen pull down",
+  "impr": 30,
+  "broad": 30,
+  "seeds": [
+   "projector screen size"
+  ],
+  "format": "other"
+ },
+ {
+  "q": "denon pma-1700ne",
+  "impr": 30,
+  "broad": 30,
+  "seeds": [
+   "denon receiver"
+  ],
+  "format": "other"
+ }
+]

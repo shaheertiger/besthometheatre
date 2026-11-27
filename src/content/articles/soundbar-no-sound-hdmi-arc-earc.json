@@ -1,0 +1,102 @@
+{
+  "slug": "soundbar-no-sound-hdmi-arc-earc",
+  "kind": "guide",
+  "title": "Soundbar No Sound? HDMI ARC and eARC Fixes by Brand",
+  "metaDescription": "No soundbar sound? Use the TV's HDMI ARC/eARC port, turn on HDMI-CEC, set TV audio to the soundbar and format to PCM. Fixes for Sonos, Bose, Samsung, Vizio.",
+  "h1": "Soundbar No Sound? How to Fix HDMI ARC and eARC",
+  "keyword": "soundbar no sound hdmi arc",
+  "keywords": [
+    "soundbar no sound",
+    "soundbar not working",
+    "hdmi arc not working",
+    "earc not working",
+    "hdmi arc vs earc",
+    "sonos soundbar no sound",
+    "samsung soundbar no sound",
+    "vizio soundbar not working",
+    "bose soundbar no sound"
+  ],
+  "hub": "guides",
+  "intro": "When a soundbar plays nothing from the TV, the cause is almost always one of four settings: the cable is in a TV HDMI port that is not marked **ARC or eARC**, **HDMI-CEC** is off, the TV's **audio output** is still set to its own speakers, or the **digital audio format** is one the bar cannot decode. Fix those in order and most soundbars, from Sonos to Vizio, start working.\n\nThis guide gives the steps, the CEC name each TV brand uses, a symptom table, brand-specific notes, and the difference between ARC and eARC.",
+  "quickAnswer": "Plug the soundbar into the TV's HDMI port labelled **ARC or eARC**, turn on **HDMI-CEC** in the TV settings (Anynet+ on Samsung, SimpLink on LG, BRAVIA Sync on Sony), set the TV's speaker output to **HDMI ARC / receiver / external speaker**, and set digital audio out to **Auto** (or **PCM** if there is still no sound). Then unplug both for a minute and power the soundbar on before the TV.",
+  "sections": [
+    {
+      "heading": "How to fix a soundbar with no sound over HDMI ARC",
+      "body": "1. **Use the ARC or eARC port on both ends.** Only one HDMI port on most TVs supports ARC; it is labelled ARC or eARC. Use the soundbar's HDMI ARC/eARC (TV) port, not an HDMI input.\n2. **Turn on HDMI-CEC.** ARC depends on it. The setting has a brand name on each TV (table below).\n3. **Set the TV's audio output to the soundbar.** Look for Sound Output, Speakers or Audio Output and choose HDMI ARC, Receiver, Audio System or External Speaker. Turn the TV speakers off.\n4. **Set digital audio out to Auto or Bitstream.** If the bar stays silent, try **PCM**: every soundbar can play it, though you lose Dolby surround formats.\n5. **Enable eARC if you have it.** Many TVs have a separate eARC mode switch that is off by default.\n6. **Power-cycle in order.** Turn both off, unplug them for a minute, plug in and power the soundbar first, then the TV.\n7. **Swap the HDMI cable.** For eARC use a cable certified High Speed with Ethernet or Ultra High Speed; a damaged or very old cable can pass video but not the ARC return.\n8. **Update firmware** on the TV and the soundbar, then try again.\n9. **Fall back to optical.** If ARC still fails, connect a digital optical cable and set the TV's output to optical. You lose lossless and some Atmos formats, but you get sound."
+    },
+    {
+      "heading": "What is HDMI-CEC called on my TV?",
+      "body": "| TV brand | HDMI-CEC setting name |\n|---|---|\n| Samsung | Anynet+ (HDMI-CEC) |\n| LG | SimpLink (HDMI-CEC) |\n| Sony | BRAVIA Sync / Control for HDMI |\n| Vizio | CEC |\n| TCL (Google TV) / Roku TV | HDMI-CEC / T-Link; on Roku TV, System > Control other devices (CEC) |\n| Hisense | CEC Function |\n| Philips | EasyLink |\n\nMenu paths change with software updates; search the TV's settings for \"CEC\" if you cannot find it."
+    },
+    {
+      "heading": "Soundbar problems: symptom, cause and fix",
+      "body": "| Symptom | Likely cause | Fix |\n|---|---|---|\n| No sound at all | Wrong port, CEC off or TV output on internal speakers | Steps 1–3 above |\n| Sound from apps but not from a game console or Blu-ray | Format the TV cannot pass through ARC | Set TV audio out to Auto or PCM; for lossless formats use eARC |\n| Sound cuts out every few seconds | CEC handshake or cable fault | Power-cycle in order, swap cable, update firmware |\n| Lip sync is off | Processing delay | Use the soundbar's or TV's AV sync / audio delay setting |\n| TV remote won't change soundbar volume | CEC off, or the bar has not learned the remote | Turn on CEC; set up the remote in the bar's app |\n| Soundbar turns on but says no signal | Wrong source selected on the bar | Switch the bar to its HDMI ARC/TV input |\n| No Dolby Atmos | Plain ARC with a lossless source, or TV set to PCM | Use eARC, set output to Auto/Bitstream |"
+    },
+    {
+      "heading": "Sonos, Bose, Samsung and Vizio soundbar fixes",
+      "body": "**Sonos (Arc Ultra, Arc, Beam Gen 2).** Steps 1–4 first. In the Sonos app, check the bar's TV settings and that it is updated; the app also has audio delay (lip sync) and remote setup. The [Sonos Arc Ultra](/gear/sonos-arc-ultra/) and [Beam (Gen 2)](/gear/sonos-beam-gen-2/) connect by HDMI eARC, with optical via Sonos's adapter. To restart, unplug the bar, wait, and plug it back in. More on Sonos systems in our [Sonos home theater setup](/sonos-home-theater-review/) guide.\n\n**Bose (Smart Soundbar, Smart Ultra).** Use the HDMI eARC port and the Bose app to confirm the TV input and update firmware. See [Bose home theater](/bose-home-theater-review/).\n\n**Samsung (HW-Q series).** On a Samsung TV, turn on Anynet+ and select the soundbar as the sound output; Q-Symphony (bar and TV speakers together) only works with compatible Samsung TVs. On a non-Samsung TV, use the standard steps. See [Samsung home theater](/samsung-home-theater-review/).\n\n**Vizio.** Press Input on the soundbar remote until the bar shows HDMI ARC, turn on CEC in the TV, and set TV speakers off. Entry bars like the [Vizio SV210Y](/gear/vizio-soundbar-se-sv210y/) list an HDMI ARC input, so step 4 (PCM) fixes most silent setups."
+    },
+    {
+      "heading": "HDMI ARC vs eARC: what is the difference?",
+      "body": "| | ARC | eARC |\n|---|---|---|\n| HDMI version | HDMI 1.4 and later | HDMI 2.1 |\n| Bandwidth | Compressed audio only | Up to 37 Mbps |\n| Formats | Stereo PCM, Dolby Digital, DTS, Dolby Digital Plus (including streaming Atmos) | Adds uncompressed 5.1/7.1 PCM, Dolby TrueHD (Atmos), DTS-HD Master Audio, DTS:X |\n| Lip sync correction | Optional | Required |\n| Needs CEC to work | Yes | Uses its own discovery, though CEC still handles remote control |\n\nIf you stream, ARC carries Atmos from apps like Netflix inside Dolby Digital Plus. If you play 4K Blu-rays through the TV, only [eARC](/glossary/earc/) passes lossless Atmos. See [HDMI 2.1](/glossary/hdmi-2-1/)."
+    }
+  ],
+  "mistakes": [
+    {
+      "title": "Using a regular HDMI input on the TV",
+      "body": "Only the port marked ARC or eARC sends audio back to the soundbar."
+    },
+    {
+      "title": "Leaving the TV's speakers on",
+      "body": "Some TVs keep playing through their own speakers until you change the sound output."
+    },
+    {
+      "title": "Forcing bitstream to a bar that cannot decode it",
+      "body": "If the bar does not support a format the TV sends, you get silence. PCM always works."
+    },
+    {
+      "title": "Skipping firmware updates",
+      "body": "TV and soundbar makers fix ARC handshake bugs in updates. Update both before buying a new cable."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is my soundbar connected but no sound?",
+      "a": "Usually the TV's audio output is still set to its own speakers, HDMI-CEC is off, or the cable is in a non-ARC port. Fix those three settings first, then try PCM output."
+    },
+    {
+      "q": "How do I get my TV to play sound through the soundbar?",
+      "a": "Connect to the TV's HDMI ARC or eARC port, turn on HDMI-CEC, and set the TV's sound output to HDMI ARC, receiver or external speaker."
+    },
+    {
+      "q": "Why does my soundbar keep cutting out?",
+      "a": "An unstable CEC handshake or a poor cable. Power both devices off and unplug them, restart the soundbar first, try another certified cable and update firmware."
+    },
+    {
+      "q": "Is eARC better than ARC?",
+      "a": "Yes for lossless audio: eARC carries Dolby TrueHD Atmos and DTS:X from Blu-ray. For streaming apps, ARC already carries Dolby Digital Plus Atmos."
+    },
+    {
+      "q": "Do I need a special HDMI cable for eARC?",
+      "a": "A cable certified High Speed with Ethernet or Ultra High Speed works. Ultra High Speed is the safe choice for long runs and 4K120."
+    },
+    {
+      "q": "Can I use optical instead of HDMI ARC?",
+      "a": "Yes. Optical gives you sound when ARC fails but carries only compressed 5.1 and stereo, not Atmos or lossless formats, and the TV remote may not control the bar's volume."
+    }
+  ],
+  "related": [
+    "best-soundbar-for-home-theater",
+    "sonos-home-theater-review",
+    "dolby-atmos-speaker-layout-chart"
+  ],
+  "bottomLine": "Most silent soundbars are fixed by four settings: the **ARC/eARC port**, **HDMI-CEC on**, **TV output set to the soundbar**, and **audio format on Auto or PCM**. Power-cycle in order, swap the cable and update firmware if that fails, and use optical as a fallback. If you are replacing the bar, see the [best soundbar for home theater](/best-soundbar-for-home-theater/); for Sonos systems, the [Sonos home theater setup](/sonos-home-theater-review/).",
+  "published": "2026-11-27",
+  "updated": "2026-11-27",
+  "updates": [
+    {
+      "date": "2026-11-27",
+      "note": "Published."
+    }
+  ]
+}

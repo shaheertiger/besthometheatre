@@ -1,0 +1,109 @@
+{
+  "slug": "projector-throw-distance-chart",
+  "kind": "guide",
+  "title": "Projector Throw Distance Chart: 80 to 150-Inch Screens",
+  "metaDescription": "A 120-inch screen needs 11 ft 6 in from a 1.32:1 projector and 8 ft 9 in at 1.0:1. Throw distance chart for 80 to 150-inch 16:9 screens, plus reverse lookup.",
+  "h1": "Projector Throw Distance Chart",
+  "keyword": "projector throw distance chart",
+  "keywords": [
+    "projector throw distance chart",
+    "projector distance chart",
+    "throw distance calculator",
+    "how far should a projector be from the screen",
+    "120 inch projector distance",
+    "100 inch projector distance",
+    "throw ratio chart",
+    "short throw projector distance"
+  ],
+  "hub": "guides",
+  "intro": "A projector's throw distance is its **throw ratio multiplied by the screen width**. For a 120-inch 16:9 screen (104.6 inches wide), a 1.32:1 lens sits **11 ft 6 in** from the screen, a 1.5:1 lens **13 ft 1 in** and a 0.5:1 short-throw lens **4 ft 4 in**.\n\nThe chart below works that sum out for every common screen size and throw ratio, then turns it around so you can find the biggest screen your room allows. Every figure is calculated from the ratio, so it matches any projector with that ratio. For a single model, use our [projector throw calculator](/tools/projector-throw-calculator/) or the maker's own calculator, which also accounts for lens offset.",
+  "quickAnswer": "**Throw distance = throw ratio × screen width.** A 16:9 screen is 0.87 times its diagonal wide, so a 100-inch screen is 87.2 inches wide and a 1.32:1 projector must sit about **9 ft 7 in** away; a 120-inch screen needs **11 ft 6 in**. Standard-throw projectors (1.3 to 2.2:1) need 9 to 19 feet for 100 to 120 inches; short-throw (0.5 to 0.7:1) need 4 to 6 feet.",
+  "sections": [
+    {
+      "heading": "Projector throw distance chart by screen size",
+      "body": "Find your screen size on the left and your projector's throw ratio across the top. The cell is the distance from the lens to the screen. Screen sizes are diagonal, 16:9.\n\n| Screen (16:9) | Width | 0.25:1 | 0.5:1 | 0.69:1 | 1.0:1 | 1.32:1 | 1.5:1 | 1.65:1 | 2.15:1 |\n|---|---|---|---|---|---|---|---|---|---|\n| 80-inch | 69.7 in | 1 ft 5 in | 2 ft 11 in | 4 ft 0 in | 5 ft 10 in | 7 ft 8 in | 8 ft 9 in | 9 ft 7 in | 12 ft 6 in |\n| 92-inch | 80.2 in | 1 ft 8 in | 3 ft 4 in | 4 ft 7 in | 6 ft 8 in | 8 ft 10 in | 10 ft 0 in | 11 ft 0 in | 14 ft 4 in |\n| 100-inch | 87.2 in | 1 ft 10 in | 3 ft 8 in | 5 ft 0 in | 7 ft 3 in | 9 ft 7 in | 10 ft 11 in | 12 ft 0 in | 15 ft 7 in |\n| 110-inch | 95.9 in | 2 ft 0 in | 4 ft 0 in | 5 ft 6 in | 8 ft 0 in | 10 ft 7 in | 12 ft 0 in | 13 ft 2 in | 17 ft 2 in |\n| 120-inch | 104.6 in | 2 ft 2 in | 4 ft 4 in | 6 ft 0 in | 8 ft 9 in | 11 ft 6 in | 13 ft 1 in | 14 ft 5 in | 18 ft 9 in |\n| 135-inch | 117.7 in | 2 ft 5 in | 4 ft 11 in | 6 ft 9 in | 9 ft 10 in | 12 ft 11 in | 14 ft 8 in | 16 ft 2 in | 21 ft 1 in |\n| 150-inch | 130.7 in | 2 ft 9 in | 5 ft 5 in | 7 ft 6 in | 10 ft 11 in | 14 ft 5 in | 16 ft 4 in | 18 ft 0 in | 23 ft 5 in |\n\nA zoom lens gives a range, not one number. The [Epson Home Cinema 3800](/gear/epson-home-cinema-3800/) has a 1.32–2.15 ratio, so for a 120-inch screen it can sit anywhere from **11 ft 6 in to 18 ft 9 in** away. A fixed lens, like the 0.69:1 [BenQ TK710STi](/gear/benq-tk710sti/), has one distance per screen size: **6 ft 0 in** for 120 inches."
+    },
+    {
+      "heading": "How big a screen can I get from my throw distance?",
+      "body": "If your mount position is fixed (a ceiling joist, a shelf on the back wall), work backward: screen width = distance ÷ throw ratio, then divide by 0.8716 for the 16:9 diagonal.\n\n| Throw distance | 1.0:1 | 1.32:1 | 1.5:1 | 2.15:1 |\n|---|---|---|---|---|\n| 8 ft | 110-inch | 83-inch | 73-inch | 51-inch |\n| 10 ft | 138-inch | 104-inch | 92-inch | 64-inch |\n| 12 ft | 165-inch | 125-inch | 110-inch | 77-inch |\n| 14 ft | 193-inch | 146-inch | 128-inch | 90-inch |\n| 16 ft | 220-inch | 167-inch | 147-inch | 102-inch |\n| 18 ft | 248-inch | 188-inch | 165-inch | 115-inch |\n| 20 ft | 275-inch | 209-inch | 184-inch | 128-inch |\n\nAt 12 feet, a 1.32:1 projector fills a 125-inch screen; a 2.15:1 lens only reaches 77 inches. That is why long-zoom projectors suit deep rooms and why short-throw models suit small ones."
+    },
+    {
+      "heading": "Throw distance for popular projectors",
+      "body": "These ranges come from each maker's throw-ratio spec in our [product database](/gear/), calculated for 100 and 120-inch 16:9 screens.\n\n| Projector | Throw ratio | 100-inch screen | 120-inch screen |\n|---|---|---|---|\n| [Epson Home Cinema 2350](/gear/epson-home-cinema-2350/) / [3800](/gear/epson-home-cinema-3800/) | 1.32–2.15 | 9 ft 7 in – 15 ft 7 in | 11 ft 6 in – 18 ft 9 in |\n| [Epson Home Cinema 5050UB](/gear/epson-home-cinema-5050ub/) / [LS11000](/gear/epson-ls11000/) | 1.35–2.84 | 9 ft 10 in – 20 ft 8 in | 11 ft 9 in – 24 ft 9 in |\n| [Sony VPL-XW5000ES](/gear/sony-vpl-xw5000es/) | 1.38–2.21 | 10 ft 0 in – 16 ft 1 in | 12 ft 0 in – 19 ft 3 in |\n| [Optoma UHD38x](/gear/optoma-uhd38x/) | about 1.5–1.65 | 10 ft 11 in – 12 ft 0 in | 13 ft 1 in – 14 ft 5 in |\n| [Valerion VisionMaster Pro2](/gear/valerion-visionmaster-pro2/) | 0.9–1.5 | 6 ft 6 in – 10 ft 11 in | 7 ft 10 in – 13 ft 1 in |\n| [BenQ TK710STi](/gear/benq-tk710sti/) | 0.69 | 5 ft 0 in | 6 ft 0 in |\n| [Optoma UHD35STX](/gear/optoma-uhd35stx/) | about 0.5 | 3 ft 8 in | 4 ft 4 in |\n\nMakers measure from slightly different points (lens surface or front of the case), so treat each figure as within a few inches and confirm with the maker's calculator before you drill."
+    },
+    {
+      "heading": "What is a throw ratio?",
+      "body": "The [throw ratio](/glossary/throw-ratio/) is distance divided by image width. A 1.5:1 projector throws an image 1 foot wide for every 1.5 feet of distance. Makers group projectors by it:\n\n- **Long and standard throw (about 1.3:1 and up):** ceiling or back-shelf mounting in dedicated rooms and living rooms.\n- **Short throw (about 0.4 to 1.0:1):** a table or low shelf a few feet from the screen.\n- **Ultra short throw (under about 0.4:1):** sits just in front of the wall. The [Epson LS800](/gear/epson-ls800/) is rated 0.16:1.\n\nA lower number means a bigger picture from the same spot."
+    },
+    {
+      "heading": "How do you measure throw distance for an ultra short throw projector?",
+      "body": "Do not use the chart's formula alone. UST makers quote the gap from the screen to the projector's back or front edge, and that gap is only inches. Use the maker's own placement table, and plan for a flat, rigid screen: a UST image shows every ripple in a pull-down screen. An [ALR screen](/glossary/alr-screen/) made for UST light angles helps in bright rooms."
+    },
+    {
+      "heading": "How high should the projector be mounted?",
+      "body": "Throw distance sets the picture size; lens offset and [lens shift](/glossary/throw-ratio/) set its height. A 120-inch 16:9 screen is about **58.8 inches tall**, and a 100-inch screen about **49 inches**. Projectors with vertical lens shift (the Epson 3800 and 5050UB, Sony XW5000ES) can move the picture up or down without tilting the projector. Models without lens shift must sit at the offset the maker specifies, or you tilt them and correct the trapezoid digitally (keystone), which softens the image. Keep keystone at zero where you can."
+    },
+    {
+      "heading": "How far from the screen should you sit?",
+      "body": "Throw distance is about the projector; seat distance is about your eyes. A common target is the THX recommendation that the screen fill about 40 degrees of your view, which works out to roughly **1.2 × the diagonal**: about 12 feet for a 120-inch screen. See the full [TV and screen viewing distance chart](/tv-size-viewing-distance-chart/)."
+    }
+  ],
+  "mistakes": [
+    {
+      "title": "Using the diagonal instead of the width",
+      "body": "The ratio multiplies the image **width**. Using the 120-inch diagonal instead of the 104.6-inch width puts the projector about 15% too far back."
+    },
+    {
+      "title": "Ignoring the zoom end you will actually use",
+      "body": "At the long end of a zoom, many lamp projectors lose some brightness. If the room allows, mount nearer the short end."
+    },
+    {
+      "title": "Buying the screen first",
+      "body": "Measure where the projector can physically go, then pick a screen size from the reverse table. A ceiling joist decides more than a spec sheet."
+    },
+    {
+      "title": "Forgetting the seating row",
+      "body": "A projector mounted low behind the seats can be blocked by heads. Mount above head height or use lens shift to clear the row."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How far should a projector be from a 100-inch screen?",
+      "a": "About 9 ft 7 in for a 1.32:1 projector, 10 ft 11 in for 1.5:1 and 3 ft 8 in for a 0.5:1 short-throw model. Multiply the throw ratio by the screen width, which is 87.2 inches for a 100-inch 16:9 screen."
+    },
+    {
+      "q": "How far should a projector be from a 120-inch screen?",
+      "a": "About 11 ft 6 in at 1.32:1, 13 ft 1 in at 1.5:1 and 18 ft 9 in at 2.15:1. A 0.69:1 short-throw model needs about 6 feet. The 120-inch 16:9 width is 104.6 inches."
+    },
+    {
+      "q": "How do I calculate projector throw distance?",
+      "a": "Multiply the throw ratio by the image width. For 16:9, width is 0.8716 times the diagonal. A 1.5:1 projector and a 110-inch screen: 110 × 0.8716 = 95.9 inches wide, × 1.5 = 143.8 inches, or about 12 feet."
+    },
+    {
+      "q": "What throw ratio do I need for a small room?",
+      "a": "Divide the distance you have by the screen width you want. With 8 feet (96 inches) and a 100-inch screen (87.2 inches wide), you need 1.1:1 or lower, so a short-throw model or a zoom lens that reaches 1.1."
+    },
+    {
+      "q": "Is a lower throw ratio better?",
+      "a": "Not by itself. A lower ratio gives a bigger image from the same distance, which suits small rooms. Long-throw zoom lenses give more mounting flexibility in deep rooms. Pick the ratio that matches your mount position."
+    },
+    {
+      "q": "Does throw distance affect brightness?",
+      "a": "The light spreads over the screen area, so a bigger image is dimmer. On many zoom lenses, the long end of the zoom also passes a little less light, so mounting nearer the short end helps."
+    }
+  ],
+  "related": [
+    "best-projector-for-home-theater",
+    "tv-size-viewing-distance-chart",
+    "epson-projector-review"
+  ],
+  "bottomLine": "Throw distance is throw ratio × screen width. For a 120-inch screen that means about **11 ft 6 in** at 1.32:1, **13 ft 1 in** at 1.5:1 and **6 ft** at 0.69:1. Measure where the projector can go, read the reverse table for the biggest screen that fits, then check the exact model in the [throw calculator](/tools/projector-throw-calculator/). For picks by room, see the [best projector for home theater](/best-projector-for-home-theater/) and the [Epson lineup](/epson-projector-review/).",
+  "published": "2026-11-27",
+  "updated": "2026-11-27",
+  "updates": [
+    {
+      "date": "2026-11-27",
+      "note": "Published."
+    }
+  ]
+}
