@@ -1,0 +1,106 @@
+{
+  "slug": "dolby-atmos-speaker-layout-chart",
+  "kind": "guide",
+  "title": "What Is Dolby Atmos? Speaker Layout Chart, 5.1.2 to 7.1.4",
+  "metaDescription": "Dolby Atmos adds 2 to 4 overhead speakers to surround sound (the last number in 5.1.2). Layout chart with Dolby's angles for 5.1.2, 5.1.4 and 7.1.4.",
+  "h1": "What Is Dolby Atmos? Speaker Layout Chart",
+  "keyword": "what is dolby atmos",
+  "keywords": [
+    "what is dolby atmos",
+    "dolby atmos",
+    "atmos",
+    "dolby atmos speaker placement",
+    "dolby atmos speaker layout",
+    "5.1.2 vs 5.1.4",
+    "7.1.4 speaker layout",
+    "5.1 vs 7.1 vs 9.2",
+    "atmos speaker angles"
+  ],
+  "hub": "guides",
+  "intro": "Dolby Atmos is a surround sound format that adds **height**: sounds are mixed as objects with a position in 3D space, and your receiver or soundbar places them on whatever speakers you have, including speakers above you. In a layout name like **5.1.2**, the first number counts ear-level speakers, the second subwoofers and the third overhead (height) speakers.\n\nThis page explains how Atmos works at home, then gives the layout chart: how many speakers each setup needs, where Dolby's placement guidelines put them, and which receivers can power them. For gear picks, see the [best Dolby Atmos home theater systems](/best-dolby-atmos-home-theater-system/).",
+  "quickAnswer": "**Dolby Atmos** is object-based surround sound with height channels. A **5.1.2** layout is five ear-level speakers, one subwoofer and two overhead speakers; **5.1.4** and **7.1.4** add four overhead. Dolby's guidelines put front speakers 22–30° off centre, side surrounds at 90–110°, rear surrounds at 135–150°, and top-middle speakers 65–100° up from the listener. A 5.1.2 or 7.1 system needs a 7-channel receiver; 5.1.4 and 7.1.2 need 9.",
+  "sections": [
+    {
+      "heading": "Dolby Atmos speaker layout chart",
+      "body": "| Layout | Ear-level | Subs | Overhead | Amplified channels needed | Example receiver from our database |\n|---|---|---|---|---|---|\n| 5.1 | 5 | 1 | 0 | 5 | [Yamaha RX-V4A](/gear/yamaha-rx-v4a/) (5.2) |\n| 5.1.2 | 5 | 1 | 2 | 7 | [Denon AVR-X1800H](/gear/denon-avr-x1800h/) (7.2) |\n| 7.1 | 7 | 1 | 0 | 7 | [Denon AVR-X1800H](/gear/denon-avr-x1800h/) (7.2) |\n| 5.1.4 | 5 | 1 | 4 | 9 | [Denon AVR-X3800H](/gear/denon-avr-x3800h/) (9.4) |\n| 7.1.2 | 7 | 1 | 2 | 9 | [Denon AVR-X3800H](/gear/denon-avr-x3800h/) (9.4) |\n| 7.1.4 | 7 | 1 | 4 | 11 | 9-channel AVR with 11-channel processing plus a 2-channel [external amplifier](/best-home-theater-amplifier/) |\n\nThe subwoofer is powered by its own amp, so it never uses a receiver channel. A receiver sold as \"9.2\" or \"9.4\" has nine amplified channels and two or four subwoofer outputs: it runs 5.2.4 or 7.2.2, not 9 ear-level speakers plus heights. The X3800H's \"11.4 processing\" means it can decode 7.1.4 if you add two channels of external amplification."
+    },
+    {
+      "heading": "Where do Dolby Atmos speakers go?",
+      "body": "These are the angles in Dolby's home theater placement guidelines, measured from the main seat (0° is straight ahead).\n\n| Speaker | Horizontal angle | Height |\n|---|---|---|\n| Center | 0° | Ear level, or just above/below the screen |\n| Front left / right | 22–30° | Ear level |\n| Side surrounds (5.1, 7.1) | 90–110° | Ear level or slightly above |\n| Rear surrounds (7.1) | 135–150° | Ear level or slightly above |\n| Top middle (x.x.2) | In line with the front left/right | 65–100° elevation, overhead |\n| Top front (x.x.4) | In line with the front left/right | 30–55° elevation, in front of you |\n| Top rear (x.x.4) | In line with the front left/right | 125–150° elevation, behind you |\n\nWith two overhead speakers, use the top-middle position. With four, use top front and top rear rather than bunching them overhead. The overhead pair should line up with the front speakers, or slightly inside them."
+    },
+    {
+      "heading": "How does Dolby Atmos work at home?",
+      "body": "Traditional 5.1 and 7.1 mixes assign each sound to a fixed channel. Atmos mixes add **objects**: a sound plus metadata describing where it sits in the room. At home, your AV receiver or soundbar reads that metadata and renders each object to the speakers you actually have, so the same Blu-ray works on 5.1.2 or 7.1.4.\n\nAtmos reaches you two ways:\n\n- **Dolby TrueHD with Atmos**, lossless, on 4K Blu-ray and some downloads. Over a TV connection it needs [eARC](/glossary/earc/).\n- **Dolby Digital Plus with Atmos**, lossy, used by streaming services. It fits through ordinary HDMI ARC.\n\nNo height speakers? Receivers and soundbars can virtualize height with processing, or you can use up-firing modules that bounce sound off the ceiling."
+    },
+    {
+      "heading": "Up-firing Atmos speakers vs in-ceiling speakers",
+      "body": "**Up-firing (Dolby Atmos enabled) modules** sit on top of your front or surround speakers and aim at the ceiling, which reflects the sound down. They need a flat, hard, reflective ceiling of normal height; Dolby's guidance favours roughly 7.5 to 12 feet. Examples: [Klipsch R-41SA](/gear/klipsch-r-41sa/) ($180–$280 a pair) and [Polk Monitor XT90](/gear/polk-monitor-xt90/) ($130–$200 a pair).\n\n**In-ceiling speakers** fire straight down from the top-middle or top front/rear positions and give the most precise height effect, but you cut holes and run wire. The [Polk RC80i](/gear/polk-rc80i/) ($100–$180 a pair) is a common budget choice. See the [best in-wall and in-ceiling speakers](/best-in-wall-speakers-for-home-theater/)."
+    },
+    {
+      "heading": "5.1 vs 7.1 vs 5.1.2: which should you choose?",
+      "body": "- **5.1**: the right start for small and medium rooms. Five speakers and a sub on a 5-channel receiver.\n- **5.1.2**: the best value Atmos upgrade. Same receiver class as 7.1 (seven channels), but the two channels go overhead, which most people notice more than rear surrounds.\n- **7.1**: worth it when your seats are close to the back wall or the room is long, so side surrounds alone leave a gap behind you.\n- **5.1.4 / 7.1.4**: dedicated rooms. Four overhead speakers make objects move front to back above you, and need a 9- or 11-channel setup.\n\nIn a living room with the sofa against the back wall, **5.1.2 usually beats 7.1** for the same receiver."
+    },
+    {
+      "heading": "Do Dolby Atmos soundbars count?",
+      "body": "Yes, with limits. Bars with up-firing drivers, like the [Sonos Arc Ultra](/gear/sonos-arc-ultra/) (listed as 9.1.4 from 14 drivers) or the [Samsung HW-Q990F](/gear/samsung-hw-q990f/) (11.1.4), decode Atmos and reflect height off the ceiling. Bars without up-firing drivers, like the [Sonos Beam (Gen 2)](/gear/sonos-beam-gen-2/), virtualize height with processing. Neither places sound as precisely as separate speakers at Dolby's angles, but both play Atmos. Compare the options in [soundbar vs home theater](/soundbar-vs-home-theater/)."
+    }
+  ],
+  "mistakes": [
+    {
+      "title": "Counting the subwoofer as a receiver channel",
+      "body": "Subs are self-powered. A 7-channel receiver runs 5.1.2 or 7.1 plus its subwoofer outputs."
+    },
+    {
+      "title": "Bunching four height speakers overhead",
+      "body": "With four, use top front and top rear positions so sound can move front to back above you."
+    },
+    {
+      "title": "Up-firing modules under a vaulted or acoustic ceiling",
+      "body": "Up-firing speakers depend on a flat, reflective ceiling. Sloped or absorbent ceilings scatter the effect; use in-ceiling or wall-mounted height speakers instead."
+    },
+    {
+      "title": "Expecting lossless Atmos over plain ARC",
+      "body": "ARC carries Dolby Digital Plus Atmos from streaming apps. Lossless TrueHD Atmos from a Blu-ray player through the TV needs eARC on both ends."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does 5.1.2 mean?",
+      "a": "Five ear-level speakers (front left, center, front right, two surrounds), one subwoofer and two overhead or up-firing height speakers. It needs seven amplified channels."
+    },
+    {
+      "q": "Is Dolby Atmos worth it?",
+      "a": "For films and many streaming shows, yes: height adds the most noticeable improvement after a good 5.1 base. A 5.1.2 system costs little more than 7.1 because it uses the same 7-channel receiver class."
+    },
+    {
+      "q": "What is the difference between 5.1.2 and 5.1.4?",
+      "a": "5.1.4 has four height speakers instead of two, placed in front of and behind the seats, so overhead sound can move front to back. It needs a 9-channel receiver."
+    },
+    {
+      "q": "Do I need special speakers for Dolby Atmos?",
+      "a": "Your ear-level speakers can be any speakers. Height can come from in-ceiling speakers, wall-mounted speakers set high, or Atmos-enabled up-firing modules on top of your fronts."
+    },
+    {
+      "q": "Can I get Dolby Atmos without ceiling speakers?",
+      "a": "Yes. Up-firing modules or soundbars with up-firing drivers reflect sound off the ceiling, and many receivers and soundbars can virtualize height with processing alone."
+    },
+    {
+      "q": "Does Netflix stream Dolby Atmos?",
+      "a": "Streaming services deliver Atmos inside Dolby Digital Plus, which fits through standard HDMI ARC. Availability depends on your plan, device and the title."
+    }
+  ],
+  "related": [
+    "home-theater-setup-guide",
+    "best-dolby-atmos-home-theater-system",
+    "best-home-theater-receiver"
+  ],
+  "bottomLine": "Dolby Atmos is surround sound with height, and the third number in a layout counts the overhead speakers. Start with **5.1.2 on a 7-channel receiver** such as the [Denon AVR-X1800H](/gear/denon-avr-x1800h/), place the speakers at Dolby's angles from the chart above, and step to **5.1.4 or 7.1.4** with a 9-channel receiver in a dedicated room. The [home theater setup guide](/home-theater-setup-guide/) covers wiring and calibration, and the [best home theater receiver](/best-home-theater-receiver/) guide matches receivers to layouts.",
+  "published": "2026-11-27",
+  "updated": "2026-11-27",
+  "updates": [
+    {
+      "date": "2026-11-27",
+      "note": "Published."
+    }
+  ]
+}

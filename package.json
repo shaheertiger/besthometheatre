@@ -13,7 +13,8 @@
     "indexnow": "node scripts/indexnow-submit.mjs",
     "audit:seo": "node scripts/seo-audit.mjs",
     "markdown": "node scripts/build-markdown.mjs",
-    "bing:submit": "node scripts/bing-submit.mjs"
+    "bing:submit": "node scripts/bing-submit.mjs",
+    "search:report": "node --env-file-if-exists=.env scripts/search-report.mjs"
   },
   "dependencies": {
     "@dualmark/core": "^0.11.0",
