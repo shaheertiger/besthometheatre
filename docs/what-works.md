@@ -51,10 +51,31 @@ site had ~60 search visitors and 89 Bing impressions in the same 30 days. So eve
   explainers. The winner puts the list first; `src/pages/[slug].astro` now renders that order for every roundup.
 - **Slugs stay put** (no redirects); only the snippet, H1 and order change.
 
-Applied 28 Nov 2026 to 26 roundups (not the 3 rewritten on 27 Nov, still in their 7-day window:
-best-wireless-home-theater-system, best-bookshelf-speakers-for-home-theater, best-tower-speakers-for-home-theater).
-Check on 12 Dec 2026: Bing CTR and Vercel search visitors per roundup against the 28 Nov baseline (89 impressions,
-1 click, ~60 visitors in 30 days).
+- **Opening paragraph:** the first lines lead with the one truth buyers get wrong (taken from the page's own
+  "Common mistakes"), then "Here are the N ...". The winners' hero paragraphs do this ("The little solar panel on
+  a power bank looks like free, endless power. It adds a few percent a day. Here is what actually keeps ...").
+- **Pick headings:** the award sits inside the H3 ("Best Overall 1. SVS SB-2000 Pro"), as on the winner.
+- **Brand reviews** use the same formula: `<N> Best <Brand> <products> in 2026: <hook>`, H1 to match.
+
+### Link structure (same source, applied 28 Nov 2026)
+
+Data: `src/data/link-plan.ts` (checked by `scripts/check-link-plan.mjs` in the build). Add every new page there.
+
+- **Pillar:** every guide and brand review feeds one buyer's guide and shows a "Ready to buy?" box under its Short
+  Answer (`PillarBox.astro`).
+- **Before You Buy** (`BeforeYouBuy.astro`) above every FAQ: "Questions to settle first" (sizing, cost, setup
+  guides) and "Other gear this setup needs" (companion roundups). Guides borrow their pillar's lists.
+- **Everything Else About <topic>** (`ClusterLinks.astro`): a pillar reaches its whole cluster; a guide or review
+  reaches its pillar and siblings.
+- **In-body links:** every article has **3+ contextual links in** from other articles' copy (the Honest Reviewers
+  push took pages with none from 103 to 2). Check with the inbound count before adding a page; give each new page
+  3 in-body links from related pages in the same commit.
+- **Sitemap priority:** home 1.0, roundups and hubs 0.9, guides and reviews 0.8, gear/compare/tools 0.6.
+
+Applied 28 Nov 2026 to every roundup (29) and brand review (8): titles, H1s, descriptions where needed, openings.
+Guides kept their 27 Nov query-first titles with no year (the enthusiastreview how-to rule). Check on 12 Dec 2026:
+Bing CTR and Vercel search visitors per page against the 28 Nov baseline (89 impressions, 1 click, ~60 visitors
+in 30 days).
 
 New roundups follow the same formula, and only on a head term with Bing demand (`docs/keywords/` or
 `GetKeywordStats`). A size, budget or brand variant of an existing guide goes in that guide as an H2, not a new page
@@ -140,4 +161,4 @@ Write the date and the numbers next to every change.
 | Date | Change |
 |---|---|
 | 2026-11-27 | Created from the portfolio playbook, the site's first Vercel/Bing numbers and the Bing keyword research. |
-| 2026-11-28 | Added the Honest Reviewers roundup formula (Bing head-term titles, count + year H1, list-first order) from its Vercel and Bing numbers; applied to 26 roundups. |
+| 2026-11-28 | Added the Honest Reviewers formula (Bing head-term titles, count + year H1, truth-first openings, list-first order, award in pick H3s) and its link structure (pillar, Before You Buy, Everything Else, 3+ in-body links, sitemap priority); applied site-wide. |

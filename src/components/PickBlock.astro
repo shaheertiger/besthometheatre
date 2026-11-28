@@ -15,8 +15,8 @@ const keys = (p.keySpecs?.length ? p.keySpecs : Object.keys(p.specs)).filter((k)
   <div class="pick-head">
     <ProductImage product={p} size={96} buy eager={index === 1} />
     <div>
-      <div class="pick-label">{pick.award}</div>
-      <h3>{index}. {p.name}</h3>
+      {/* Award inside the H3, as on thehonestreviewers.com ("Best Overall" + product name). */}
+      <h3><span class="pick-label">{pick.award}</span> {index}. {p.name}</h3>
       <div class="pick-meta">{p.priceBand} · Best for: {p.bestFor}</div>
     </div>
     <Score score={p.score} size="lg" />

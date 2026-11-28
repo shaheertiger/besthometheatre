@@ -39,13 +39,30 @@ for (const file of files) {
   }
   pages.push({ loc, lastmod, images: [...images.values()].slice(0, 20) });
 }
+// Priority and changefreq, as thehonestreviewers.com sets them: home and the best-of hub first, then the
+// buyer's guides that earn search clicks, then guides and brand reviews, then the long tail.
+const articleDir = path.join(path.dirname(new URL(import.meta.url).pathname), '..', 'src', 'content', 'articles');
+const kindOf = new Map(fs.readdirSync(articleDir).filter((f) => f.endsWith('.json')).map((f) => {
+  const a = JSON.parse(fs.readFileSync(path.join(articleDir, f), 'utf8'));
+  return [`/${a.slug}/`, a.kind];
+}));
+function rank(loc) {
+  if (loc === '/') return ['1.0', 'daily'];
+  if (['/best-of/', '/guides/', '/reviews/'].includes(loc)) return ['0.9', 'weekly'];
+  const kind = kindOf.get(loc);
+  if (kind === 'roundup') return ['0.9', 'weekly'];
+  if (kind === 'guide' || kind === 'review') return ['0.8', 'weekly'];
+  if (loc.startsWith('/gear/') || loc.startsWith('/compare/') || loc.startsWith('/tools/')) return ['0.6', 'monthly'];
+  if (loc.startsWith('/brands/')) return ['0.5', 'monthly'];
+  return ['0.4', 'monthly'];
+}
 const latest = pages.reduce((m, p) => (p.lastmod && p.lastmod > m ? p.lastmod : m), '');
 pages.sort((a, b) => (a.loc === '/' ? -1 : b.loc === '/' ? 1 : a.loc.localeCompare(b.loc)));
 
 const body =
   '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n' +
   pages
-    .map((p) => `  <url><loc>${SITE_URL}${p.loc}</loc><lastmod>${p.lastmod ?? latest}</lastmod>${p.images.map((i) => `<image:image><image:loc>${esc(i.loc)}</image:loc><image:title>${esc(i.title)}</image:title></image:image>`).join('')}</url>`)
+    .map((p) => `  <url><loc>${SITE_URL}${p.loc}</loc><lastmod>${p.lastmod ?? latest}</lastmod><changefreq>${rank(p.loc)[1]}</changefreq><priority>${rank(p.loc)[0]}</priority>${p.images.map((i) => `<image:image><image:loc>${esc(i.loc)}</image:loc><image:title>${esc(i.title)}</image:title></image:image>`).join('')}</url>`)
     .join('\n') +
   '\n</urlset>\n';
 fs.writeFileSync(path.join(DIST, 'sitemap.xml'), body);

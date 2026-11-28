@@ -12,6 +12,9 @@ import TOC from './TOC.astro';
 import Byline from './Byline.astro';
 import FAQ from './FAQ.astro';
 import RelatedCards from './RelatedCards.astro';
+import BeforeYouBuy from './BeforeYouBuy.astro';
+import PillarBox from './PillarBox.astro';
+import ClusterLinks from './ClusterLinks.astro';
 import PickBlock from './PickBlock.astro';
 import ProductImage from './ProductImage.astro';
 import AmazonButton from './AmazonButton.astro';
@@ -96,6 +99,7 @@ const kind = /^how to/i.test(a.h1) ? 'How-To' : 'Guide';
     <div class="col body numbered">
       <h2 id="short-answer">{shortLabel}</h2>
       {a.quickAnswer && <div class="answer-box" set:html={md(a.quickAnswer)} />}
+      <PillarBox slug={a.slug} />
       <Fragment set:html={md(a.intro)} />
     </div>
 
@@ -129,6 +133,7 @@ const kind = /^how to/i.test(a.h1) ? 'How-To' : 'Guide';
       ) : null}
       <h2 id="bottom-line">The Bottom Line</h2>
       <Fragment set:html={md(a.bottomLine)} />
+      <BeforeYouBuy slug={a.slug} />
       {a.faqs.length > 0 && (<><h2 id="faq">Frequently Asked Questions</h2><FAQ faqs={a.faqs} /></>)}
       <h2 id="sources">Sources</h2>
       {sources.length > 0 ? (
@@ -154,6 +159,8 @@ const kind = /^how to/i.test(a.h1) ? 'How-To' : 'Guide';
         </div>
       </div>
     )}
+
+    <ClusterLinks slug={a.slug} topic={lead.replace(/\?.*$/, '')} />
 
     {related.length > 0 && (
       <aside class="wrap related">

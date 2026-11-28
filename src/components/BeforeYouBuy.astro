@@ -1,0 +1,34 @@
+---
+// "Before You Buy" box above the FAQ, copied from thehonestreviewers.com's best-performing guide:
+// the questions that decide the purchase (sizing, cost, setup) and the other gear the same setup
+// needs. Links come from src/data/link-plan.ts. Renders nothing when there is nothing to show.
+import { articleMap, articleUrl } from '../lib/data';
+import { QUESTIONS, COMPANIONS, PILLAR } from '../data/link-plan';
+interface Props { slug: string }
+const { slug } = Astro.props;
+const pick = (list: string[] = []) => list.map((s) => articleMap.get(s)).filter((a) => a && a.slug !== slug).slice(0, 6) as NonNullable<ReturnType<typeof articleMap.get>>[];
+// A guide with no list of its own borrows its pillar's: the pillar's questions, and the pillar
+// itself followed by the gear that goes with it.
+const pillar = PILLAR[slug];
+const questions = pick(QUESTIONS[slug] ?? (pillar ? QUESTIONS[pillar] : []));
+const companions = pick(COMPANIONS[slug] ?? (pillar ? [pillar, ...(COMPANIONS[pillar] ?? [])] : []));
+---
+{(questions.length > 0 || companions.length > 0) && (
+  <section class="before-buy" id="before-you-buy">
+    <h2 class="plain">Before You Buy</h2>
+    <div class:list={['before-buy-grid', { two: questions.length && companions.length }]}>
+      {questions.length > 0 && (
+        <div>
+          <p class="mini">Questions to settle first</p>
+          <ul class="link-list">{questions.map((a) => <li><a href={articleUrl(a)}>{a.h1}</a></li>)}</ul>
+        </div>
+      )}
+      {companions.length > 0 && (
+        <div>
+          <p class="mini">Other gear this setup needs</p>
+          <ul class="link-list">{companions.map((a) => <li><a href={articleUrl(a)}>{a.h1}</a></li>)}</ul>
+        </div>
+      )}
+    </div>
+  </section>
+)}

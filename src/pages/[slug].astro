@@ -5,6 +5,9 @@
 // picks → specs side by side → how we ranked → sections (the thehonestreviewers.com winner order: list first) → mistakes → bottom line → FAQ → sources → all we track.
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import BeforeYouBuy from '../components/BeforeYouBuy.astro';
+import PillarBox from '../components/PillarBox.astro';
+import ClusterLinks from '../components/ClusterLinks.astro';
 import Byline from '../components/Byline.astro';
 import QuickPicks from '../components/QuickPicks.astro';
 import PickBlock from '../components/PickBlock.astro';
@@ -136,6 +139,7 @@ const sources = [
     <div class="col body">
       <h2 id="short-answer">{num('short-answer')}{H.short}</h2>
       <div class="answer-box" set:html={md(shortAnswer)} />
+      {isReview && <PillarBox slug={a.slug} />}
       {hasPicks && (
         <div class="table-wrap">
           <table class="picks-table">
@@ -221,6 +225,8 @@ const sources = [
       <Fragment set:html={md(a.bottomLine)} />
       {top && <p><AmazonButton product={top} label={`Check the ${shortName(top.name)} on Amazon`} /></p>}
 
+      <BeforeYouBuy slug={a.slug} />
+
       <h2 id="faq">{num('faq')}{H.faq}</h2>
       <FAQ faqs={a.faqs} />
 
@@ -268,6 +274,8 @@ const sources = [
         </>
       )}
     </div>
+
+    <ClusterLinks slug={a.slug} topic={subject} />
 
     {shownRelated.length > 0 && (
       <aside class="wrap related">
