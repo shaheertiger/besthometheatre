@@ -1,0 +1,19 @@
+---
+// "Everything Else About …" grid, as on thehonestreviewers.com: a buyer's guide reaches every guide
+// and brand review in its cluster; a guide or review reaches its pillar and its siblings.
+// Links already shown in "Before You Buy" are skipped. Data: src/data/link-plan.ts.
+import { articleMap } from '../lib/data';
+import { PILLAR, QUESTIONS, clusterOf, siblingsOf } from '../data/link-plan';
+import RelatedCards from './RelatedCards.astro';
+interface Props { slug: string; topic: string }
+const { slug, topic } = Astro.props;
+const shown = new Set(QUESTIONS[slug] ?? []);
+const slugs = PILLAR[slug] ? [PILLAR[slug], ...siblingsOf(slug)] : clusterOf(slug);
+const items = slugs.filter((s) => !shown.has(s) && s !== slug).map((s) => articleMap.get(s)).filter(Boolean).slice(0, 6) as any[];
+---
+{items.length > 0 && (
+  <aside class="wrap related cluster">
+    <h2 class="section-title">Everything Else About {topic}</h2>
+    <RelatedCards articles={items} />
+  </aside>
+)}

@@ -1,0 +1,13 @@
+---
+// "Ready to buy?" box on every guide and brand review: points the reader at the buyer's guide the
+// page feeds (src/data/link-plan.ts PILLAR), the way thehonestreviewers.com sends every supporting
+// article to its guide. Renders nothing for a page with no pillar.
+import { articleMap, articleUrl, getProduct } from '../lib/data';
+import { PILLAR } from '../data/link-plan';
+interface Props { slug: string }
+const pillar = articleMap.get(PILLAR[Astro.props.slug] ?? '');
+const top = pillar?.picks?.[0] ? getProduct(pillar.picks[0].product) : undefined;
+---
+{pillar && (
+  <p class="pillar-box"><span class="mini">Ready to buy?</span> <a href={articleUrl(pillar)}><strong>{pillar.h1}</strong></a>{top && <>: our top pick is the {top.name}.</>}</p>
+)}
