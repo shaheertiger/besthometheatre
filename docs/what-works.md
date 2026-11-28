@@ -1,6 +1,6 @@
 # What works on besthometheaterreview.com (rules for every new page)
 
-Last updated: 27 Nov 2026. Read this before choosing or writing any page. **The STOP list overrides everything,
+Last updated: 28 Nov 2026. Read this before choosing or writing any page. **The STOP list overrides everything,
 including the daily-publish skill's priority order.**
 
 ## Why these rules (the evidence)
@@ -29,6 +29,36 @@ keywords, Bing impressions over 90 days, US). Refreshed weekly by the daily-publ
 
 Replace a rule with the site's own data once a format has **14+ days and 5+ live pages** of evidence here
 (see "Updating this file").
+
+## Proven portfolio method: Honest Reviewers roundup formula (added 28 Nov 2026)
+
+The owner's biggest site, thehonestreviewers.com, gets **about 20,000 search visitors in 30 days** (Vercel, search
+referrers, 29 Oct - 28 Nov 2026) and **74,283 Bing impressions / 1,417 clicks in the week to 26 Nov** (Bing API). Its
+traffic comes from "best X" buyer's guides on head terms Bing actually searches: `/best-home-generator-for-power-outages`
+1,165 visitors, `/best-solar-power-bank` 872, `/best-water-filtration-system-for-home` 617, `/best-gas-water-heater`
+477, plus cost pages (`/generac-generator-cost` 469). Its winners get **11.8-15.5% Bing CTR**. For comparison, this
+site had ~60 search visitors and 89 Bing impressions in the same 30 days. So every roundup here now follows that formula:
+
+- **Title:** `<N> Best <Bing head term> in 2026: <hook>`, 50-62 characters. The head term is the variant Bing
+  searches ("best soundbars 2026" 625 and "best sound bars 2026" 865 impressions; "best surround sound systems 2026"
+  361; "projector screen" 2,825), **not** the low-demand "... for home theater" form. The hook is the buyer's real
+  deciding factor ("Which to Buy, Which to Skip", "Sized to Your Room, Not Hype", "Real Channels, Honest Watts").
+  Never "Tested" (no testing claims here).
+- **H1:** `The <N> Best <head term> in 2026`. The H1 is also the anchor text on every hub, card and sitemap link.
+- **Description:** opens with the pick count and the one thing buyers get wrong (channels not watts, room size not
+  wattage, gain not size), then the named top picks. Facts only from the page.
+- **Order:** H1 → shortlist → TOC → Short Answer + picks table → **the full pick list** → specs → how we ranked →
+  explainers. The winner puts the list first; `src/pages/[slug].astro` now renders that order for every roundup.
+- **Slugs stay put** (no redirects); only the snippet, H1 and order change.
+
+Applied 28 Nov 2026 to 26 roundups (not the 3 rewritten on 27 Nov, still in their 7-day window:
+best-wireless-home-theater-system, best-bookshelf-speakers-for-home-theater, best-tower-speakers-for-home-theater).
+Check on 12 Dec 2026: Bing CTR and Vercel search visitors per roundup against the 28 Nov baseline (89 impressions,
+1 click, ~60 visitors in 30 days).
+
+New roundups follow the same formula, and only on a head term with Bing demand (`docs/keywords/` or
+`GetKeywordStats`). A size, budget or brand variant of an existing guide goes in that guide as an H2, not a new page
+(the Honest Reviewers lesson: 109 of 131 variant pages got zero Bing impressions).
 
 ## Formats that win (write these)
 
@@ -63,7 +93,8 @@ Next, biggest measured demand first:
 - **No combinatorial "best X for Y" floods** (enthusiast "best GPU for <CPU>": 31 pages, 2 visitors; protein's
   1,800 templated pages tanked Google). An attribute roundup needs the exact attribute in Bing queries.
 - **No guessed vs pages.** A `/compare/a-vs-b/` page only when that exact pair appears in Bing queries.
-- **No broad "best <category>" pages** without a narrow angle; the site already has its head-term roundups.
+- **No broad "best <category>" pages** without a narrow angle; the site already has its head-term roundups. Improve those
+  with the Honest Reviewers formula above instead of adding near-duplicates.
 - **No premium single-model pages** without a search for that model.
 - **No testing claims.** Never write "we tested", "hands-on", "in our lab", "we measured", "we listened" unless the
   product JSON has a real `tested` record (none do as of 27 Nov 2026). Write "on paper", "the spec sheet says",
@@ -109,3 +140,4 @@ Write the date and the numbers next to every change.
 | Date | Change |
 |---|---|
 | 2026-11-27 | Created from the portfolio playbook, the site's first Vercel/Bing numbers and the Bing keyword research. |
+| 2026-11-28 | Added the Honest Reviewers roundup formula (Bing head-term titles, count + year H1, list-first order) from its Vercel and Bing numbers; applied to 26 roundups. |

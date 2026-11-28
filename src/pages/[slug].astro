@@ -1,8 +1,8 @@
 ---
 // Root-level pages: buyer's guides (/best-home-theater-systems/), brand reviews (/bose-home-theater-review/)
 // and guides (/home-theater-setup-guide/). Outline copied from enthusiastreview.com:
-// H1 → dek → byline → lede → shortlist → On this page → 1. Short Answer (+ picks table) → how we ranked →
-// sections → picks → specs side by side → sections → mistakes → bottom line → FAQ → sources → all we track.
+// H1 → dek → byline → lede → shortlist → On this page → 1. Short Answer (+ picks table) →
+// picks → specs side by side → how we ranked → sections (the thehonestreviewers.com winner order: list first) → mistakes → bottom line → FAQ → sources → all we track.
 import Base from '../layouts/Base.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Byline from '../components/Byline.astro';
@@ -45,7 +45,7 @@ const after = a.sections.filter((s) => s !== method && s.position !== 'before');
 const testedPicks = (a.picks ?? []).map((pk) => getProduct(pk.product)).filter((p) => p.tested);
 // Notable mentions: strong models that missed the list, and when they're the better buy.
 const mentions = (a.mentions ?? []).filter((m) => productMap.has(m.product) && !(a.picks ?? []).some((pk) => pk.product === m.product)).map((m) => ({ p: getProduct(m.product), body: m.body }));
-const subject = a.h1.replace(/^(The )?Best /, '');
+const subject = a.h1.replace(/^(The )?(\d+ )?Best /, '').replace(/ in 20\d\d$/, '');
 
 // Spec table columns: keep specs most picks actually have; top up from shared key specs.
 const coverage = (k: string) => pickProducts.filter((p) => p.specs[k]).length / Math.max(1, pickProducts.length);
@@ -65,7 +65,7 @@ const headToHead = compares.filter(([x, y]) => pickSlugs.has(x) && pickSlugs.has
 const H = {
   short: `${a.h1.includes(':') ? a.h1.split(':')[0].trim() : a.h1}: The Short Answer`,
   how: method?.heading ?? (isReview && a.brand ? `How We Ranked the ${a.brand} Lineup` : `How We Ranked These ${catLabel}`),
-  picks: a.picksHeading ?? (isReview && a.brand ? `The ${a.brand} Lineup, Ranked` : `${a.h1}: Our ${picks.length} Picks`),
+  picks: a.picksHeading ?? (isReview && a.brand ? `The ${a.brand} Lineup, Ranked` : (/^The \d+ Best /.test(a.h1) ? `${a.h1}, Ranked` : `${a.h1}: Our ${picks.length} Picks`)),
   specs: 'Spec Sheets Side by Side',
   mentions: 'Notable Mentions',
   mistakes: 'Common Mistakes to Avoid',
@@ -77,10 +77,10 @@ const H = {
 const hasPicks = picks.length > 0;
 const outline: [string, string][] = [
   ['short-answer', H.short],
-  ...(hasPicks && !isGuide ? [['how-we-ranked', H.how] as [string, string]] : []),
-  ...before.map((s) => [slugify(s.heading), s.heading] as [string, string]),
   ...(hasPicks ? [['picks', H.picks] as [string, string]] : []),
   ...(picks.length > 1 ? [['specs', H.specs] as [string, string]] : []),
+  ...(hasPicks && !isGuide ? [['how-we-ranked', H.how] as [string, string]] : []),
+  ...before.map((s) => [slugify(s.heading), s.heading] as [string, string]),
   ...(mentions.length ? [['mentions', H.mentions] as [string, string]] : []),
   ...after.map((s) => [slugify(s.heading), s.heading] as [string, string]),
   ...(a.mistakes?.length ? [['mistakes', H.mistakes] as [string, string]] : []),
@@ -159,6 +159,19 @@ const sources = [
         </div>
       )}
 
+      {hasPicks && <h2 id="picks">{num('picks')}{H.picks}</h2>}
+    </div>
+
+    {hasPicks && <div class="col">{picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}</div>}
+
+    <div class="col body">
+      {picks.length > 1 && (
+        <>
+          <h2 id="specs">{num('specs')}{H.specs}</h2>
+          <ComparisonTable products={pickProducts} specs={columns} />
+        </>
+      )}
+
       {hasPicks && !isGuide && (
         <>
           <h2 id="how-we-ranked">{num('how-we-ranked')}{H.how}</h2>
@@ -178,18 +191,6 @@ const sources = [
       )}
 
       {before.map((s) => (<><h2 id={slugify(s.heading)}>{num(slugify(s.heading))}{s.heading}</h2><Fragment set:html={md(s.body)} /></>))}
-      {hasPicks && <h2 id="picks">{num('picks')}{H.picks}</h2>}
-    </div>
-
-    {hasPicks && <div class="col">{picks.map((pk, i) => <PickBlock pick={pk} index={i + 1} />)}</div>}
-
-    <div class="col body">
-      {picks.length > 1 && (
-        <>
-          <h2 id="specs">{num('specs')}{H.specs}</h2>
-          <ComparisonTable products={pickProducts} specs={columns} />
-        </>
-      )}
 
       {mentions.length > 0 && (
         <>
